@@ -26,7 +26,7 @@ Don't add features none of these ask for.
 | Layout | README's layout, but the package folder is `tecnoverse/` (not `park_pilot/`), with `agents/`, `core/`, `eval/` | One file per agent keeps teammates out of each other's way. |
 | Item status | README's: `fact`, `inferred`, `missing`, `user_confirmed`, `user_removed` | UI badge for `user_confirmed` reads "confirmed". Includes quote verification, correction history and public/private visibility. |
 | Boundary tests | README's **11** (covers the plan's 10) | |
-| Demo companies | **5** from the BSP member list, clearly different, **one sensor/industrial** | User's choice; the sensor company mirrors the brief's example journey. |
+| Demo companies | Any of the 100 in `companies.json`; start the demo with an industrial or sensor company | Mirrors the brief's example journey. |
 
 ## New requirements (from the user, 13 Nov) — these extend the README
 
