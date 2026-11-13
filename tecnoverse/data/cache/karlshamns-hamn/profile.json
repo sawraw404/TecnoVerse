@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.038563Z",
+   "updated_at": "2026-11-13T17:26:14.806193Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.038901Z",
+   "updated_at": "2026-11-13T17:26:14.806460Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.039213Z",
+   "updated_at": "2026-11-13T17:26:14.806712Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.039463Z",
+   "updated_at": "2026-11-13T17:26:14.806956Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.039716Z",
+   "updated_at": "2026-11-13T17:26:14.807194Z",
    "needs_review": false
   },
   {
@@ -191,14 +191,14 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.039891Z",
+   "updated_at": "2026-11-13T17:26:14.807368Z",
    "needs_review": false
   },
   {
-   "id": "cd31138f34942515",
+   "id": "0b026bf62682efbe",
    "company_id": "karlshamns-hamn",
    "field": "contact",
-   "value": "Phone: +46 (0)454 30 50 0",
+   "value": "Phone: +46 (0)454 30 50 00",
    "status": "fact",
    "source_page_id": "82373ddf33a75412",
    "quote": "",
@@ -210,7 +210,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040045Z",
+   "updated_at": "2026-11-13T17:26:14.807527Z",
    "needs_review": false
   },
   {
@@ -229,7 +229,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040056Z",
+   "updated_at": "2026-11-13T17:26:14.807538Z",
    "needs_review": false
   },
   {
@@ -248,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040061Z",
+   "updated_at": "2026-11-13T17:26:14.807544Z",
    "needs_review": false
   },
   {
@@ -267,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040065Z",
+   "updated_at": "2026-11-13T17:26:14.807548Z",
    "needs_review": false
   },
   {
@@ -286,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040068Z",
+   "updated_at": "2026-11-13T17:26:14.807551Z",
    "needs_review": false
   },
   {
@@ -305,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040071Z",
+   "updated_at": "2026-11-13T17:26:14.807554Z",
    "needs_review": false
   },
   {
@@ -324,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040073Z",
+   "updated_at": "2026-11-13T17:26:14.807557Z",
    "needs_review": false
   },
   {
@@ -343,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040076Z",
+   "updated_at": "2026-11-13T17:26:14.807560Z",
    "needs_review": false
   },
   {
@@ -362,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040079Z",
+   "updated_at": "2026-11-13T17:26:14.807563Z",
    "needs_review": false
   },
   {
@@ -381,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040081Z",
+   "updated_at": "2026-11-13T17:26:14.807566Z",
    "needs_review": false
   },
   {
@@ -400,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040087Z",
+   "updated_at": "2026-11-13T17:26:14.807571Z",
    "needs_review": false
   },
   {
@@ -419,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.040091Z",
+   "updated_at": "2026-11-13T17:26:14.807575Z",
    "needs_review": false
   }
  ],

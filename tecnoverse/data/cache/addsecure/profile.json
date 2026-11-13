@@ -461,5 +461,6 @@
    "updated_at": "2026-11-13T13:21:52.529624Z",
    "needs_review": false
   }
- ]
+ ],
+ "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
 }

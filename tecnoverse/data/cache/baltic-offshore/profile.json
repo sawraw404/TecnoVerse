@@ -120,25 +120,6 @@
    "needs_review": false
   },
   {
-   "id": "28c2d37f9c761937",
-   "company_id": "baltic-offshore",
-   "field": "contact",
-   "value": "Phone: +46 480 420 520, Email: info@balticoffshore.se",
-   "status": "fact",
-   "source_page_id": "5797f7088fcbc023",
-   "quote": "Phone +46 480 420 520 Mailaddress info@balticoffshore.se",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:06.706244Z",
-   "needs_review": false
-  },
-  {
    "id": "54de71109a472c18",
    "company_id": "baltic-offshore",
    "field": "contact",
@@ -594,5 +575,6 @@
    "updated_at": "2026-11-13T13:24:14.694294Z",
    "needs_review": false
   }
- ]
+ ],
+ "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
 }

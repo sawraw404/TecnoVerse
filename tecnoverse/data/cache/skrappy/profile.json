@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.822266Z",
+   "updated_at": "2026-11-13T17:26:13.636546Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.822795Z",
+   "updated_at": "2026-11-13T17:26:13.637129Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.823302Z",
+   "updated_at": "2026-11-13T17:26:13.637736Z",
    "needs_review": false
   },
   {
@@ -113,26 +113,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.823793Z",
+   "updated_at": "2026-11-13T17:26:13.638220Z",
    "needs_review": false
   },
   {
-   "id": "bc14df7e47f4a9b4",
+   "id": "4a814a931ee7ad50",
    "company_id": "skrappy",
    "field": "contact",
-   "value": "Phone: 070-923 73 35",
-   "status": "fact",
-   "source_page_id": "242e12284088a881",
-   "quote": "",
-   "quote_verified": true,
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
    "reasoning": null,
-   "confidence": 0.9,
+   "confidence": 0.0,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824212Z",
+   "updated_at": "2026-11-13T17:26:13.638226Z",
    "needs_review": false
   },
   {
@@ -151,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824218Z",
+   "updated_at": "2026-11-13T17:26:13.638230Z",
    "needs_review": false
   },
   {
@@ -170,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824222Z",
+   "updated_at": "2026-11-13T17:26:13.638233Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824225Z",
+   "updated_at": "2026-11-13T17:26:13.638236Z",
    "needs_review": false
   },
   {
@@ -208,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824228Z",
+   "updated_at": "2026-11-13T17:26:13.638239Z",
    "needs_review": false
   },
   {
@@ -227,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824231Z",
+   "updated_at": "2026-11-13T17:26:13.638241Z",
    "needs_review": false
   },
   {
@@ -246,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824234Z",
+   "updated_at": "2026-11-13T17:26:13.638244Z",
    "needs_review": false
   },
   {
@@ -265,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824237Z",
+   "updated_at": "2026-11-13T17:26:13.638247Z",
    "needs_review": false
   },
   {
@@ -284,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824239Z",
+   "updated_at": "2026-11-13T17:26:13.638250Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824242Z",
+   "updated_at": "2026-11-13T17:26:13.638253Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.824248Z",
+   "updated_at": "2026-11-13T17:26:13.638258Z",
    "needs_review": false
   }
  ],

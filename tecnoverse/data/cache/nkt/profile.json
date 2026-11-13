@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.192072Z",
+   "updated_at": "2026-11-13T17:26:31.112497Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.192278Z",
+   "updated_at": "2026-11-13T17:26:31.112730Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.192488Z",
+   "updated_at": "2026-11-13T17:26:31.112935Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.192748Z",
+   "updated_at": "2026-11-13T17:26:31.113195Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.192928Z",
+   "updated_at": "2026-11-13T17:26:31.113428Z",
    "needs_review": false
   },
   {
@@ -216,26 +216,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193182Z",
-   "needs_review": false
-  },
-  {
-   "id": "15f6c5fa0f2a870c",
-   "company_id": "nkt",
-   "field": "contact",
-   "value": "Phone: +46 705 32 30 63",
-   "status": "fact",
-   "source_page_id": "42c23d82acb16b79",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193433Z",
+   "updated_at": "2026-11-13T17:26:31.113766Z",
    "needs_review": false
   },
   {
@@ -254,7 +235,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193444Z",
+   "updated_at": "2026-11-13T17:26:31.113786Z",
    "needs_review": false
   },
   {
@@ -273,7 +254,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193449Z",
+   "updated_at": "2026-11-13T17:26:31.113794Z",
    "needs_review": false
   },
   {
@@ -292,7 +273,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193453Z",
+   "updated_at": "2026-11-13T17:26:31.113799Z",
    "needs_review": false
   },
   {
@@ -311,7 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193456Z",
+   "updated_at": "2026-11-13T17:26:31.113803Z",
    "needs_review": false
   },
   {
@@ -330,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193459Z",
+   "updated_at": "2026-11-13T17:26:31.113807Z",
    "needs_review": false
   },
   {
@@ -349,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193462Z",
+   "updated_at": "2026-11-13T17:26:31.113811Z",
    "needs_review": false
   },
   {
@@ -368,7 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193464Z",
+   "updated_at": "2026-11-13T17:26:31.113815Z",
    "needs_review": false
   },
   {
@@ -387,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193467Z",
+   "updated_at": "2026-11-13T17:26:31.113818Z",
    "needs_review": false
   },
   {
@@ -406,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193470Z",
+   "updated_at": "2026-11-13T17:26:31.113822Z",
    "needs_review": false
   },
   {
@@ -425,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193476Z",
+   "updated_at": "2026-11-13T17:26:31.113829Z",
    "needs_review": false
   },
   {
@@ -444,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.193480Z",
+   "updated_at": "2026-11-13T17:26:31.113834Z",
    "needs_review": false
   }
  ],

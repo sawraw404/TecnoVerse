@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.699865Z",
+   "updated_at": "2026-11-13T17:26:15.409467Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.700575Z",
+   "updated_at": "2026-11-13T17:26:15.410021Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.700967Z",
+   "updated_at": "2026-11-13T17:26:15.410407Z",
    "needs_review": false
   },
   {
@@ -153,26 +153,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.701448Z",
+   "updated_at": "2026-11-13T17:26:15.410877Z",
    "needs_review": false
   },
   {
-   "id": "8937071e5b7642bd",
+   "id": "d7eb581dd5f89e11",
    "company_id": "alfa-laval",
    "field": "contact",
-   "value": "Phone: +46 730 46 30 90",
-   "status": "fact",
-   "source_page_id": "9c110a9b6c0169e0",
-   "quote": "",
-   "quote_verified": true,
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
    "reasoning": null,
-   "confidence": 0.9,
+   "confidence": 0.0,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704142Z",
+   "updated_at": "2026-11-13T17:26:15.410883Z",
    "needs_review": false
   },
   {
@@ -191,7 +191,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704156Z",
+   "updated_at": "2026-11-13T17:26:15.410886Z",
    "needs_review": false
   },
   {
@@ -210,7 +210,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704162Z",
+   "updated_at": "2026-11-13T17:26:15.410890Z",
    "needs_review": false
   },
   {
@@ -229,7 +229,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704166Z",
+   "updated_at": "2026-11-13T17:26:15.410893Z",
    "needs_review": false
   },
   {
@@ -248,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704170Z",
+   "updated_at": "2026-11-13T17:26:15.410896Z",
    "needs_review": false
   },
   {
@@ -267,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704174Z",
+   "updated_at": "2026-11-13T17:26:15.410899Z",
    "needs_review": false
   },
   {
@@ -286,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704177Z",
+   "updated_at": "2026-11-13T17:26:15.410902Z",
    "needs_review": false
   },
   {
@@ -305,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704180Z",
+   "updated_at": "2026-11-13T17:26:15.410905Z",
    "needs_review": false
   },
   {
@@ -324,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704183Z",
+   "updated_at": "2026-11-13T17:26:15.410907Z",
    "needs_review": false
   },
   {
@@ -343,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:45.704190Z",
+   "updated_at": "2026-11-13T17:26:15.410912Z",
    "needs_review": false
   }
  ],

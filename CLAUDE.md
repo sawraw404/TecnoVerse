@@ -39,8 +39,9 @@ The service covers **100 companies in Blekinge county** in the park's focus area
 5. **New innovations** (profile field `innovation`), taken from the company's news, blog posts and newsletters.
 6. **Blue Science Park connection** (`Company.is_member`) is a plus, not a requirement.
 
-- The list lives in `tecnoverse/data/companies.json` (45 park members + 55 others). `found_via` records which public directory each company came from and when: Blue Science Park, Blekinge Business Incubator, NetPort, Soft Center, Techtank.
+- The list lives in `tecnoverse/data/companies.json` (100 companies: 40 park members + 60 others). One row per company: `tecnoverse/data/companies_summary.csv`. `found_via` records which public directory each company came from and when: Blue Science Park, Blekinge Business Incubator, NetPort, Soft Center, Techtank.
 - Public bodies and support organisations among the park's members are left out of this list.
+- **Provenance:** 7 profiles were made by the app Profiler (Gemini); 93 were extracted by Claude Code in a dev session after the Gemini free quota (20 requests/day/model) ran out, via `python -m agents.profiler --import`. `Profile.extracted_by` is the field that says which; `company.simulated` is False for all. Downstream code (matcher, staff view, Firebase import) must check `extracted_by` and show SIMULATED for offline extractions. Regenerate with the app Profiler when quota allows.
 - These are filled by the Profiler like every other field: same evidence rules, same tags. Batch run: `cd tecnoverse && python -m agents.profiler --all`.
 - The crawler identifies itself honestly and respects robots.txt. Never spoof a browser; if a site blocks it, leave the company unprofiled and say so.
 

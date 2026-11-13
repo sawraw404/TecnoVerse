@@ -191,18 +191,21 @@ def profile_company(company: Company) -> Profile:
 GENERIC_MAILBOX = re.compile(r"\b(info|kontakt|contact|hello|hej|sales|office|mail|kundservice|support|post)@[\w-]+\.[\w.-]*\w", re.I)
 ANY_PHONE = re.compile(r"(?<![\d/])((?:\+46|0)\s?\d{1,3}[\s-]?\d{2,3}[\s-]?\d{2}[\s-]?\d{2,3})(?![\d/])")
 CONTACT_URL = re.compile(r"contact|kontakt", re.I)
-PHONE = re.compile(r"(?:tel(?:efon)?|phone|ring|växel|vxl)[\s.:]*((?:\+46|0)[\d\s()-]{7,14}\d)", re.I)
+MEDIA_URL = re.compile(r"media|press|newsroom", re.I)  # press contacts are people, not the company route
+PHONE = re.compile(r"(?:tel(?:efon)?|phone|ring|växel|vxl)[\s.:]*((?:\+46|0)[\d\s()-]{7,18}\d)(?![\d-])", re.I)
 
 
 def auto_contacts(pages: list[SourcePage]) -> list[_Fact]:
     """The company's published contact route: general mailbox, phone number, contact page. No named people."""
     out = []
-    contact_pages = [p for p in pages if CONTACT_URL.search(p.url)]
+    contact_pages = [p for p in pages if CONTACT_URL.search(p.url) and not MEDIA_URL.search(p.url)]
     ordered = contact_pages + [p for p in pages if p not in contact_pages]  # contact page wins
+    # Only the contact page and the homepage: numbers on news or press pages are often a person's mobile.
+    route_pages = contact_pages + pages[:1]
     for label, pattern, group in (("Email", GENERIC_MAILBOX, 0), ("Phone", PHONE, 1), ("Phone", ANY_PHONE, 1)):
         if label == "Phone" and any(f.value.startswith("Phone") for f in out):
             continue
-        hit = next(((p, m) for p in ordered for m in [pattern.search(p.text)] if m), None)
+        hit = next(((p, m) for p in (ordered if label == "Email" else route_pages) for m in [pattern.search(p.text)] if m), None)
         if hit:
             page, m = hit
             out.append(_Fact(field="contact", value=f"{label}: {m.group(group).strip()}", quote="", source_url=page.url))
@@ -276,6 +279,10 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     found = {f.value for f in auto_contacts([page, kpage])}
     assert found == {"Phone: 0455-123 45 67", "Contact page: https://acme.se/kontakt"}, found
     assert find_contact("Contact page: https://acme.se/kontakt", [kpage]) is kpage
+    long = kpage.model_copy(update={"text": "Telefon: +46 (0)454 30 50 00. Org.nr 556000-1234"})
+    assert [f.value for f in auto_contacts([long]) if f.value.startswith("Phone")] == ["Phone: +46 (0)454 30 50 00"]
+    news = kpage.model_copy(update={"url": "https://acme.se/news/x", "text": "Press: Anna 070-123 45 67"})
+    assert not any(f.value.startswith("Phone") for f in auto_contacts([page, news]))
     print("ok")
 
     # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)

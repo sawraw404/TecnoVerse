@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.212801Z",
+   "updated_at": "2026-11-13T17:26:31.131365Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.213264Z",
+   "updated_at": "2026-11-13T17:26:31.131971Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.213916Z",
+   "updated_at": "2026-11-13T17:26:31.132759Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.214569Z",
+   "updated_at": "2026-11-13T17:26:31.133432Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.215222Z",
+   "updated_at": "2026-11-13T17:26:31.134071Z",
    "needs_review": false
   },
   {
@@ -216,7 +216,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.215868Z",
+   "updated_at": "2026-11-13T17:26:31.134702Z",
    "needs_review": false
   },
   {
@@ -235,33 +235,14 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.216540Z",
+   "updated_at": "2026-11-13T17:26:31.135342Z",
    "needs_review": false
   },
   {
-   "id": "1d1529a227df997d",
+   "id": "b185c2413bf62ef8",
    "company_id": "saab",
    "field": "contact",
-   "value": "Phone: +46 734 180 018",
-   "status": "fact",
-   "source_page_id": "49cadee9c773f1b6",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219961Z",
-   "needs_review": false
-  },
-  {
-   "id": "458ff2881266e902",
-   "company_id": "saab",
-   "field": "contact",
-   "value": "Contact page: https://www.saab.com/newsroom/media-contact",
+   "value": "Phone: +4613180000",
    "status": "fact",
    "source_page_id": "d0faefe73f73acc4",
    "quote": "",
@@ -273,7 +254,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219979Z",
+   "updated_at": "2026-11-13T17:26:31.135749Z",
    "needs_review": false
   },
   {
@@ -292,7 +273,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219988Z",
+   "updated_at": "2026-11-13T17:26:31.135756Z",
    "needs_review": false
   },
   {
@@ -311,7 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219992Z",
+   "updated_at": "2026-11-13T17:26:31.135760Z",
    "needs_review": false
   },
   {
@@ -330,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219996Z",
+   "updated_at": "2026-11-13T17:26:31.135764Z",
    "needs_review": false
   },
   {
@@ -349,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.219999Z",
+   "updated_at": "2026-11-13T17:26:31.135767Z",
    "needs_review": false
   },
   {
@@ -368,7 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.220003Z",
+   "updated_at": "2026-11-13T17:26:31.135770Z",
    "needs_review": false
   },
   {
@@ -387,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.220006Z",
+   "updated_at": "2026-11-13T17:26:31.135772Z",
    "needs_review": false
   },
   {
@@ -406,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.220010Z",
+   "updated_at": "2026-11-13T17:26:31.135775Z",
    "needs_review": false
   },
   {
@@ -425,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.220017Z",
+   "updated_at": "2026-11-13T17:26:31.135781Z",
    "needs_review": false
   },
   {
@@ -444,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:22:43.220022Z",
+   "updated_at": "2026-11-13T17:26:31.135785Z",
    "needs_review": false
   }
  ],
