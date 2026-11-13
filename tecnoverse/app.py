@@ -6,7 +6,7 @@ import streamlit as st
 
 from core.schemas import Company, User
 
-MEMBERS = Path(__file__).parent / "data" / "members.json"
+MEMBERS = Path(__file__).parent / "data" / "companies.json"
 
 
 @st.cache_data

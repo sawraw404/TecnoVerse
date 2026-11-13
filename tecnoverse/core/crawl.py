@@ -22,7 +22,9 @@ USER_AGENT = "TecnoVerseBot/0.1 (hackathon prototype)"
 CORE = ["about", "om-oss", "om oss", "product", "produkt", "service", "tjanst", "tjänst", "solution", "losning",
         "lösning", "technolog", "teknik", "offer", "erbjud"]  # what the company does: weighted 3x
 OTHER = ["project", "projekt", "case", "customer", "kund", "industr", "market", "segment", "news", "nyhet",
-         "partner", "contact", "kontakt"]
+         "partner", "contact", "kontakt", "blog", "press", "aktuellt", "newsletter", "nyhetsbrev", "insight"]
+NEWS = re.compile(r"news|nyhet|blog|press|aktuellt|newsletter|nyhetsbrev|insight", re.I)
+CONTACT = re.compile(r"contact|kontakt", re.I)
 SKIP = re.compile(r"\.(pdf|jpg|jpeg|png|gif|svg|zip|mp4|webp)$|/(wp-|tag/|category/|login|cart|privacy|cookie|gdpr|career|karriar|jobs?|jobb|lediga)", re.I)
 
 
@@ -58,7 +60,14 @@ def pick_links(html: str, base_url: str, limit: int = MAX_PAGES - 1) -> list[str
             # shallow pages (/about) beat deep ones (/news/2021/some-post)
             score = score * 10 - urlparse(url).path.strip("/").count("/")
             scored[url] = max(score, scored.get(url, -99))
-    return sorted(scored, key=lambda u: (-scored[u], u))[:limit]
+    ranked = sorted(scored, key=lambda u: (-scored[u], u))
+    picked = ranked[:limit]
+    # innovations come from news/blog pages and contacts from the contact page: make sure both get a slot
+    for pattern in (NEWS, CONTACT):
+        best = next((u for u in ranked if pattern.search(urlparse(u).path)), None)
+        if best and best not in picked:
+            picked = picked[:limit - 1] + [best]
+    return picked
 
 
 def _robots(base_url: str) -> RobotFileParser | None:

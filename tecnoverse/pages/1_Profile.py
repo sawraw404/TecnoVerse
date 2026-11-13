@@ -5,6 +5,7 @@ from core.llm import LLMError
 from core.store import load_profile
 
 FIELD_LABELS = {
+    "industry": "Industry",
     "offering": "Products and services",
     "technology": "Technologies",
     "expertise": "Expertise",
@@ -12,6 +13,8 @@ FIELD_LABELS = {
     "market": "Markets and industries",
     "customer_group": "Customer groups",
     "geography": "Geography",
+    "contact": "Who to contact",
+    "innovation": "New innovations (from news, blog posts and newsletters)",
     "project": "Projects",
     "collaboration": "Collaborations",
     "priority": "Stated development priorities",
@@ -35,6 +38,11 @@ profile = load_profile(company.id)
 left, right = st.columns([3, 1])
 left.subheader(company.name)
 left.write(f"Website: {company.website}")
+if company.is_member:
+    left.markdown(":blue-badge[Blue Science Park member]")
+if company.found_via:
+    left.caption(f"Region: {company.region}. Listed in: "
+                 + ", ".join(f"[{f.directory}]({f.url}) ({f.retrieved})" for f in company.found_via))
 label = "Re-crawl and rebuild profile" if profile else "Generate baseline profile"
 if right.button(label, type="primary" if not profile else "secondary"):
     with st.spinner(f"Reading up to 8 pages of {company.website} and extracting a profile..."):
