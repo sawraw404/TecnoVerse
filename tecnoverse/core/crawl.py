@@ -90,6 +90,8 @@ def _fetch(url: str, cache_dir: Path, robots: RobotFileParser | None) -> tuple[s
     try:
         r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=20)
         r.raise_for_status()
+        if "charset" not in r.headers.get("content-type", "").lower():
+            r.encoding = r.apparent_encoding  # requests assumes Latin-1 otherwise and garbles å ä ö
         if "html" not in r.headers.get("content-type", "html"):
             return None, False
         cache_dir.mkdir(parents=True, exist_ok=True)

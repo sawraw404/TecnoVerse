@@ -5,7 +5,7 @@ Keep these two function signatures when swapping the backend.
 """
 from pathlib import Path
 
-from pydantic import BaseModel
+from pydantic import BaseModel, TypeAdapter
 
 from core.schemas import Company, ProfileItem, SourcePage
 
@@ -16,12 +16,24 @@ class Profile(BaseModel):
     company: Company
     pages: list[SourcePage]
     items: list[ProfileItem]
+    extracted_by: str = "TecnoVerse Profiler (Gemini or Ollama)"  # who read the pages; shown on the Profile page
 
 
 def save_profile(profile: Profile) -> None:
     path = CACHE / profile.company.id / "profile.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(profile.model_dump_json(indent=1), encoding="utf-8")
+
+
+def save_pages(company_id: str, pages: list[SourcePage]) -> None:
+    path = CACHE / company_id / "pages.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(TypeAdapter(list[SourcePage]).dump_json(pages, indent=1).decode("utf-8"), encoding="utf-8")
+
+
+def load_pages(company_id: str) -> list[SourcePage]:
+    path = CACHE / company_id / "pages.json"
+    return TypeAdapter(list[SourcePage]).validate_json(path.read_text(encoding="utf-8")) if path.exists() else []
 
 
 def load_profile(company_id: str) -> Profile | None:

@@ -148,6 +148,28 @@ def build_items(company_id: str, facts: list[_Fact], pages: list[SourcePage]) ->
     return list(items.values())
 
 
+def assemble(company: Company, pages: list[SourcePage], simulated: bool, facts: list[_Fact],
+             interests: list[_Interest], extracted_by: str | None = None) -> Profile:
+    """Verify facts against the pages, attach interests, save. Shared by the live Profiler and the importer."""
+    items = build_items(company.id, facts, pages)
+    verified = [i for i in items if i.status == "fact"]
+    for it in interests:
+        basis = verified[it.based_on - 1] if 1 <= it.based_on <= len(verified) else None
+        items.append(_item(company.id, "possible_interest", it.value.strip(), status="inferred",
+                           source_page_id=basis.source_page_id if basis else pages[0].id,
+                           reasoning=it.reasoning, confidence=it.confidence, uncertain=it.confidence < 0.6))
+    if not interests:
+        items.append(_item(company.id, "possible_interest", "", status="missing"))
+    company = company.model_copy(update={
+        "last_crawled_at": max(p.retrieved_at for p in pages),
+        "profile_version": company.profile_version + 1,
+        "simulated": simulated,
+    })
+    profile = Profile(company=company, pages=pages, items=items, **({"extracted_by": extracted_by} if extracted_by else {}))
+    save_profile(profile)
+    return profile
+
+
 def profile_company(company: Company) -> Profile:
     pages, simulated = crawl(company)
     if not pages:
@@ -155,29 +177,51 @@ def profile_company(company: Company) -> Profile:
 
     blocks = "\n\n".join(f'<source_data url="{p.url}">\n{p.text[:PAGE_CHARS]}\n</source_data>' for p in pages)
     facts = ask(FACTS_SYSTEM, f"Company: {company.name}\n\n{blocks}", _Facts).items
-    items = build_items(company.id, facts, pages)
-
-    verified = [i for i in items if i.status == "fact"]
+    verified = [i for i in build_items(company.id, facts, pages) if i.status == "fact"]
+    interests = []
     if verified:
         numbered = "\n".join(f"{n}. [{i.field}] {i.value}" for n, i in enumerate(verified, 1))
         interests = ask(INTERESTS_SYSTEM, f"Company: {company.name}\n\n<source_data>\n{numbered}\n</source_data>",
                         _Interests).items
-        for it in interests:
-            basis = verified[it.based_on - 1] if 1 <= it.based_on <= len(verified) else None
-            items.append(_item(company.id, "possible_interest", it.value.strip(), status="inferred",
-                               source_page_id=basis.source_page_id if basis else None,
-                               reasoning=it.reasoning, confidence=it.confidence, uncertain=it.confidence < 0.6))
-    else:
-        items.append(_item(company.id, "possible_interest", "", status="missing"))
+    return assemble(company, pages, simulated, facts, interests)
 
-    company = company.model_copy(update={
-        "last_crawled_at": datetime.now(timezone.utc),
-        "profile_version": company.profile_version + 1,
-        "simulated": simulated,
-    })
-    profile = Profile(company=company, pages=pages, items=items)
-    save_profile(profile)
-    return profile
+
+GENERIC_MAILBOX = re.compile(r"\b(info|kontakt|contact|hello|hej|sales|office|mail|kundservice|support|post)@[\w-]+\.[\w.-]*\w", re.I)
+PHONE = re.compile(r"(?:tel(?:efon)?|phone|ring|växel|vxl)[\s.:]*((?:\+46|0)[\d\s()-]{7,14}\d)", re.I)
+
+
+def auto_contacts(pages: list[SourcePage]) -> list[_Fact]:
+    """The company's published general mailbox and switchboard number, found by pattern. No named people."""
+    out = []
+    for label, pattern, group in (("Email", GENERIC_MAILBOX, 0), ("Phone", PHONE, 1)):
+        hit = next(((p, m) for p in pages for m in [pattern.search(p.text)] if m), None)
+        if hit:
+            page, m = hit
+            out.append(_Fact(field="contact", value=f"{label}: {m.group(group).strip()}", quote="", source_url=page.url))
+    return out
+
+
+def import_extractions(path: str) -> None:
+    """Build profiles from an extraction file written outside the app (see CLAUDE.md), against pages.json.
+
+    File: {company_id: {"facts": [{field, value, quote, source_url}], "interests": [{value, reasoning, based_on, confidence}]}}
+    The same quote check applies: an unverified quote is downgraded to inferred.
+    """
+    import json
+    from pathlib import Path
+    from core.store import load_pages
+    companies = {c["id"]: Company(**c) for c in json.loads(
+        (Path(__file__).parent.parent / "data" / "companies.json").read_text(encoding="utf-8"))}
+    for cid, ex in json.loads(Path(path).read_text(encoding="utf-8")).items():
+        pages = load_pages(cid)
+        if not pages:
+            print(f"{cid}: SKIPPED, no crawled pages")
+            continue
+        facts = [_Fact(**f) for f in ex["facts"]] + auto_contacts(pages)
+        p = assemble(companies[cid], pages, False, facts, [_Interest(**i) for i in ex.get("interests", [])],
+                     extracted_by="Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)")
+        bad = [i.value for i in p.items if i.status == "inferred" and i.quote and not i.quote_verified]
+        print(f"{cid}: {sum(i.status == 'fact' for i in p.items)} facts" + (f", UNVERIFIED: {bad}" if bad else ""))
 
 
 if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && python -m agents.profiler
@@ -204,6 +248,26 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
 
     # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)
     import sys
+    if "--import" in sys.argv:  # python -m agents.profiler --import path/to/extractions.json
+        import_extractions(sys.argv[sys.argv.index("--import") + 1])
+    if "--crawl" in sys.argv:  # crawl only: save pages.json for every company that has no profile yet
+        import json
+        from concurrent.futures import ThreadPoolExecutor
+        from pathlib import Path
+        from core.store import load_profile, save_pages
+        todo = [Company(**c) for c in json.loads((Path(__file__).parent.parent / "data" / "companies.json")
+                .read_text(encoding="utf-8")) if not load_profile(c["id"])]
+
+        def one(c):
+            try:
+                pages, _ = crawl(c)
+                save_pages(c.id, pages)
+                return f"{c.id}: {len(pages)} pages, {sum(len(p.text) for p in pages)} chars"
+            except Exception as e:
+                return f"{c.id}: FAILED {type(e).__name__}"
+
+        for line in ThreadPoolExecutor(6).map(one, todo):  # different hosts, so 6 at once is still polite
+            print(line, flush=True)
     if "--all" in sys.argv:
         import json, time
         from pathlib import Path
