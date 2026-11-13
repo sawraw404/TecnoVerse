@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.473432Z",
+   "updated_at": "2026-11-13T17:22:44.405920Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.475142Z",
+   "updated_at": "2026-11-13T17:22:44.407571Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.476812Z",
+   "updated_at": "2026-11-13T17:22:44.409119Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.477517Z",
+   "updated_at": "2026-11-13T17:22:44.409795Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.477946Z",
+   "updated_at": "2026-11-13T17:22:44.410195Z",
    "needs_review": false
   },
   {
@@ -211,16 +211,16 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.480973Z",
+   "updated_at": "2026-11-13T17:22:44.413196Z",
    "needs_review": false
   },
   {
-   "id": "1636dcfa5f4321f3",
+   "id": "9849115250e46dc7",
    "company_id": "advania",
    "field": "contact",
-   "value": "Phone: +46854670170",
+   "value": "Phone: 08-546 70 000",
    "status": "fact",
-   "source_page_id": "0cbda2d1aa100b3f",
+   "source_page_id": "3e5471c4890dedfb",
    "quote": "",
    "quote_verified": true,
    "reasoning": null,
@@ -230,7 +230,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483733Z",
+   "updated_at": "2026-11-13T17:22:44.416375Z",
+   "needs_review": false
+  },
+  {
+   "id": "5208988afbd58480",
+   "company_id": "advania",
+   "field": "contact",
+   "value": "Contact page: https://www.advania.se/kontakta-oss",
+   "status": "fact",
+   "source_page_id": "1c35051940502ed5",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.416407Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483741Z",
+   "updated_at": "2026-11-13T17:22:44.416420Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483745Z",
+   "updated_at": "2026-11-13T17:22:44.416427Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483749Z",
+   "updated_at": "2026-11-13T17:22:44.416431Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483752Z",
+   "updated_at": "2026-11-13T17:22:44.416438Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483755Z",
+   "updated_at": "2026-11-13T17:22:44.416443Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483758Z",
+   "updated_at": "2026-11-13T17:22:44.416448Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483761Z",
+   "updated_at": "2026-11-13T17:22:44.416452Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483764Z",
+   "updated_at": "2026-11-13T17:22:44.416455Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483767Z",
+   "updated_at": "2026-11-13T17:22:44.416459Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483773Z",
+   "updated_at": "2026-11-13T17:22:44.416478Z",
    "needs_review": false
   },
   {
@@ -439,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.483778Z",
+   "updated_at": "2026-11-13T17:22:44.416488Z",
    "needs_review": false
   }
  ],

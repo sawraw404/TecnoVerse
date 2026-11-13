@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.197386Z",
+   "updated_at": "2026-11-13T17:22:41.862526Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.198207Z",
+   "updated_at": "2026-11-13T17:22:41.863377Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.198785Z",
+   "updated_at": "2026-11-13T17:22:41.863931Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.199344Z",
+   "updated_at": "2026-11-13T17:22:41.864483Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.199904Z",
+   "updated_at": "2026-11-13T17:22:41.865021Z",
    "needs_review": false
   },
   {
@@ -191,7 +191,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.200345Z",
+   "updated_at": "2026-11-13T17:22:41.865446Z",
    "needs_review": false
   },
   {
@@ -210,26 +210,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201186Z",
+   "updated_at": "2026-11-13T17:22:41.866327Z",
    "needs_review": false
   },
   {
-   "id": "79bcc942ce9872b7",
+   "id": "cc3a34ab960dba83",
    "company_id": "3d-vision",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Phone: +46735284285",
+   "status": "fact",
+   "source_page_id": "2dae19d35ab609de",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201195Z",
+   "updated_at": "2026-11-13T17:22:41.866722Z",
+   "needs_review": false
+  },
+  {
+   "id": "e8b8cd5a5ca99a38",
+   "company_id": "3d-vision",
+   "field": "contact",
+   "value": "Contact page: https://www.3dvision.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "2dae19d35ab609de",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.866737Z",
    "needs_review": false
   },
   {
@@ -248,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201201Z",
+   "updated_at": "2026-11-13T17:22:41.866746Z",
    "needs_review": false
   },
   {
@@ -267,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201206Z",
+   "updated_at": "2026-11-13T17:22:41.866752Z",
    "needs_review": false
   },
   {
@@ -286,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201210Z",
+   "updated_at": "2026-11-13T17:22:41.866756Z",
    "needs_review": false
   },
   {
@@ -305,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201213Z",
+   "updated_at": "2026-11-13T17:22:41.866760Z",
    "needs_review": false
   },
   {
@@ -324,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201216Z",
+   "updated_at": "2026-11-13T17:22:41.866765Z",
    "needs_review": false
   },
   {
@@ -343,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201220Z",
+   "updated_at": "2026-11-13T17:22:41.866771Z",
    "needs_review": false
   },
   {
@@ -362,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201225Z",
+   "updated_at": "2026-11-13T17:22:41.866775Z",
    "needs_review": false
   },
   {
@@ -381,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201238Z",
+   "updated_at": "2026-11-13T17:22:41.866789Z",
    "needs_review": false
   },
   {
@@ -400,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.201244Z",
+   "updated_at": "2026-11-13T17:22:41.866796Z",
    "needs_review": false
   }
  ],

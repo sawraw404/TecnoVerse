@@ -111,7 +111,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.783504Z",
+   "updated_at": "2026-11-13T17:22:43.224970Z",
    "needs_review": false
   },
   {
@@ -130,7 +130,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.784212Z",
+   "updated_at": "2026-11-13T17:22:43.225654Z",
    "needs_review": false
   },
   {
@@ -149,7 +149,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.785209Z",
+   "updated_at": "2026-11-13T17:22:43.226304Z",
    "needs_review": false
   },
   {
@@ -168,7 +168,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.785984Z",
+   "updated_at": "2026-11-13T17:22:43.226938Z",
    "needs_review": false
   },
   {
@@ -187,7 +187,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.786861Z",
+   "updated_at": "2026-11-13T17:22:43.227669Z",
    "needs_review": false
   },
   {
@@ -206,7 +206,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787403Z",
+   "updated_at": "2026-11-13T17:22:43.228097Z",
+   "needs_review": false
+  },
+  {
+   "id": "e5b58c91aa788a1d",
+   "company_id": "softhouse",
+   "field": "contact",
+   "value": "Phone: +46 73 398 26 41",
+   "status": "fact",
+   "source_page_id": "8fd47cfc55523287",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.231578Z",
+   "needs_review": false
+  },
+  {
+   "id": "16f200e32c00b08a",
+   "company_id": "softhouse",
+   "field": "contact",
+   "value": "Contact page: https://www.softhouse.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "8db2adad335d1eb5",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.231591Z",
    "needs_review": false
   },
   {
@@ -225,7 +263,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787414Z",
+   "updated_at": "2026-11-13T17:22:43.231598Z",
    "needs_review": false
   },
   {
@@ -244,7 +282,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787421Z",
+   "updated_at": "2026-11-13T17:22:43.231602Z",
    "needs_review": false
   },
   {
@@ -263,7 +301,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787426Z",
+   "updated_at": "2026-11-13T17:22:43.231606Z",
    "needs_review": false
   },
   {
@@ -282,7 +320,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787430Z",
+   "updated_at": "2026-11-13T17:22:43.231609Z",
    "needs_review": false
   },
   {
@@ -301,7 +339,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787434Z",
+   "updated_at": "2026-11-13T17:22:43.231612Z",
    "needs_review": false
   },
   {
@@ -320,7 +358,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787438Z",
+   "updated_at": "2026-11-13T17:22:43.231615Z",
    "needs_review": false
   },
   {
@@ -339,7 +377,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787442Z",
+   "updated_at": "2026-11-13T17:22:43.231619Z",
    "needs_review": false
   },
   {
@@ -358,7 +396,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787447Z",
+   "updated_at": "2026-11-13T17:22:43.231622Z",
    "needs_review": false
   },
   {
@@ -377,7 +415,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787451Z",
+   "updated_at": "2026-11-13T17:22:43.231625Z",
    "needs_review": false
   },
   {
@@ -396,7 +434,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787455Z",
+   "updated_at": "2026-11-13T17:22:43.231628Z",
    "needs_review": false
   },
   {
@@ -415,7 +453,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787464Z",
+   "updated_at": "2026-11-13T17:22:43.231634Z",
    "needs_review": false
   },
   {
@@ -434,7 +472,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.787470Z",
+   "updated_at": "2026-11-13T17:22:43.231639Z",
    "needs_review": false
   }
  ],

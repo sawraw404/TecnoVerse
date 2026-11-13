@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.012147Z",
+   "updated_at": "2026-11-13T17:22:45.073411Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.012608Z",
+   "updated_at": "2026-11-13T17:22:45.073843Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.013291Z",
+   "updated_at": "2026-11-13T17:22:45.074536Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.014383Z",
+   "updated_at": "2026-11-13T17:22:45.075603Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.014807Z",
+   "updated_at": "2026-11-13T17:22:45.076027Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016461Z",
+   "updated_at": "2026-11-13T17:22:45.077674Z",
+   "needs_review": false
+  },
+  {
+   "id": "3a2fd6cc353bcc35",
+   "company_id": "stena-recycling",
+   "field": "contact",
+   "value": "Contact page: https://www.stenarecycling.com:443/sv/kontakta-oss/begar-offert/",
+   "status": "fact",
+   "source_page_id": "8c4efc41ac572404",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.077690Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016471Z",
+   "updated_at": "2026-11-13T17:22:45.077696Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016477Z",
+   "updated_at": "2026-11-13T17:22:45.077701Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016481Z",
+   "updated_at": "2026-11-13T17:22:45.077704Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016485Z",
+   "updated_at": "2026-11-13T17:22:45.077708Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016488Z",
+   "updated_at": "2026-11-13T17:22:45.077711Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016492Z",
+   "updated_at": "2026-11-13T17:22:45.077714Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016496Z",
+   "updated_at": "2026-11-13T17:22:45.077717Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016499Z",
+   "updated_at": "2026-11-13T17:22:45.077719Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016503Z",
+   "updated_at": "2026-11-13T17:22:45.077723Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016510Z",
+   "updated_at": "2026-11-13T17:22:45.077729Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.016514Z",
+   "updated_at": "2026-11-13T17:22:45.077734Z",
    "needs_review": false
   }
  ],

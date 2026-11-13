@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.453343Z",
+   "updated_at": "2026-11-13T17:22:44.391468Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.453664Z",
+   "updated_at": "2026-11-13T17:22:44.391742Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.453906Z",
+   "updated_at": "2026-11-13T17:22:44.391970Z",
    "needs_review": false
   },
   {
@@ -103,7 +103,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454140Z",
+   "updated_at": "2026-11-13T17:22:44.392210Z",
    "needs_review": false
   },
   {
@@ -122,26 +122,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454367Z",
+   "updated_at": "2026-11-13T17:22:44.392426Z",
    "needs_review": false
   },
   {
-   "id": "c5bdd3d157ad300a",
+   "id": "024fb983bd97972e",
    "company_id": "interactive-materia",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Phone: 070-592 53 59",
+   "status": "fact",
+   "source_page_id": "786af9ee943ffa75",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454375Z",
+   "updated_at": "2026-11-13T17:22:44.392573Z",
    "needs_review": false
   },
   {
@@ -160,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454380Z",
+   "updated_at": "2026-11-13T17:22:44.392580Z",
    "needs_review": false
   },
   {
@@ -179,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454384Z",
+   "updated_at": "2026-11-13T17:22:44.392584Z",
    "needs_review": false
   },
   {
@@ -198,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454387Z",
+   "updated_at": "2026-11-13T17:22:44.392587Z",
    "needs_review": false
   },
   {
@@ -217,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454391Z",
+   "updated_at": "2026-11-13T17:22:44.392590Z",
    "needs_review": false
   },
   {
@@ -236,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454394Z",
+   "updated_at": "2026-11-13T17:22:44.392593Z",
    "needs_review": false
   },
   {
@@ -255,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454398Z",
+   "updated_at": "2026-11-13T17:22:44.392596Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454401Z",
+   "updated_at": "2026-11-13T17:22:44.392598Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454405Z",
+   "updated_at": "2026-11-13T17:22:44.392601Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454412Z",
+   "updated_at": "2026-11-13T17:22:44.392606Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.454417Z",
+   "updated_at": "2026-11-13T17:22:44.392611Z",
    "needs_review": false
   }
  ],

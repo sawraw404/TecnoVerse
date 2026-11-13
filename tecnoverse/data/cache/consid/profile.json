@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.951984Z",
+   "updated_at": "2026-11-13T17:22:45.011858Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.952692Z",
+   "updated_at": "2026-11-13T17:22:45.012588Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.953234Z",
+   "updated_at": "2026-11-13T17:22:45.013110Z",
    "needs_review": false
   },
   {
@@ -173,17 +173,17 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.953559Z",
+   "updated_at": "2026-11-13T17:22:45.013418Z",
    "needs_review": false
   },
   {
-   "id": "e0f4e7fd69f26714",
+   "id": "9b7ffe2420ae4fae",
    "company_id": "consid",
-   "field": "innovation",
-   "value": "Named Top Company 2027 for the fifth year in a row (2026-11-11)",
+   "field": "contact",
+   "value": "Phone: 073-350 88 70",
    "status": "fact",
-   "source_page_id": "58daa57b41795cce",
-   "quote": "Consid utses till Top Company 2027 – för femte året i rad",
+   "source_page_id": "64e1f637a3c2d7fb",
+   "quote": "",
    "quote_verified": true,
    "reasoning": null,
    "confidence": 0.9,
@@ -192,13 +192,32 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954195Z",
+   "updated_at": "2026-11-13T17:22:45.015328Z",
    "needs_review": false
   },
   {
-   "id": "a6db576dc5b43988",
+   "id": "dd8ab67b02024f70",
    "company_id": "consid",
    "field": "contact",
+   "value": "Contact page: https://www.consid.com/sv/kontakt",
+   "status": "fact",
+   "source_page_id": "58daa57b41795cce",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.015342Z",
+   "needs_review": false
+  },
+  {
+   "id": "7ac56b019cce8927",
+   "company_id": "consid",
+   "field": "innovation",
    "value": "",
    "status": "missing",
    "source_page_id": null,
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954203Z",
+   "updated_at": "2026-11-13T17:22:45.015349Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954208Z",
+   "updated_at": "2026-11-13T17:22:45.015355Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954212Z",
+   "updated_at": "2026-11-13T17:22:45.015358Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954216Z",
+   "updated_at": "2026-11-13T17:22:45.015362Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954220Z",
+   "updated_at": "2026-11-13T17:22:45.015365Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954223Z",
+   "updated_at": "2026-11-13T17:22:45.015368Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954227Z",
+   "updated_at": "2026-11-13T17:22:45.015374Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954232Z",
+   "updated_at": "2026-11-13T17:22:45.015378Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954242Z",
+   "updated_at": "2026-11-13T17:22:45.015389Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.954247Z",
+   "updated_at": "2026-11-13T17:22:45.015395Z",
    "needs_review": false
   }
  ],

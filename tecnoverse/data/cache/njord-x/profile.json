@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.744898Z",
+   "updated_at": "2026-11-13T17:22:43.187855Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.745126Z",
+   "updated_at": "2026-11-13T17:22:43.188088Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.745480Z",
+   "updated_at": "2026-11-13T17:22:43.188458Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.745685Z",
+   "updated_at": "2026-11-13T17:22:43.188665Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.745965Z",
+   "updated_at": "2026-11-13T17:22:43.188936Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746220Z",
+   "updated_at": "2026-11-13T17:22:43.189204Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746363Z",
+   "updated_at": "2026-11-13T17:22:43.189358Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746498Z",
+   "updated_at": "2026-11-13T17:22:43.189495Z",
+   "needs_review": false
+  },
+  {
+   "id": "a0c11c6d73b50466",
+   "company_id": "njord-x",
+   "field": "contact",
+   "value": "Contact page: https://www.njordx.com/kontakt/",
+   "status": "fact",
+   "source_page_id": "edd29a9502519fba",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.189506Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746503Z",
+   "updated_at": "2026-11-13T17:22:43.189511Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746507Z",
+   "updated_at": "2026-11-13T17:22:43.189516Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746510Z",
+   "updated_at": "2026-11-13T17:22:43.189519Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746513Z",
+   "updated_at": "2026-11-13T17:22:43.189522Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746516Z",
+   "updated_at": "2026-11-13T17:22:43.189524Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746518Z",
+   "updated_at": "2026-11-13T17:22:43.189527Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746521Z",
+   "updated_at": "2026-11-13T17:22:43.189530Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746524Z",
+   "updated_at": "2026-11-13T17:22:43.189534Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746529Z",
+   "updated_at": "2026-11-13T17:22:43.189540Z",
    "needs_review": false
   },
   {
@@ -439,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.746534Z",
+   "updated_at": "2026-11-13T17:22:43.189545Z",
    "needs_review": false
   }
  ],

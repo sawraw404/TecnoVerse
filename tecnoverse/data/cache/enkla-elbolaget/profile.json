@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.964788Z",
+   "updated_at": "2026-11-13T17:22:45.025749Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.965293Z",
+   "updated_at": "2026-11-13T17:22:45.026247Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.965767Z",
+   "updated_at": "2026-11-13T17:22:45.026710Z",
    "needs_review": false
   },
   {
@@ -173,26 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966228Z",
-   "needs_review": false
-  },
-  {
-   "id": "a50989a19f2183fc",
-   "company_id": "enkla-elbolaget",
-   "field": "innovation",
-   "value": "Award-winning customer service with certified energy advisers",
-   "status": "fact",
-   "source_page_id": "0aac04b1ffdeb4df",
-   "quote": "Våra kundservicemedarbetare är också certifierade energirådgivare",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966646Z",
+   "updated_at": "2026-11-13T17:22:45.027153Z",
    "needs_review": false
   },
   {
@@ -211,7 +192,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966939Z",
+   "updated_at": "2026-11-13T17:22:45.027441Z",
+   "needs_review": false
+  },
+  {
+   "id": "21b5806b2c09f801",
+   "company_id": "enkla-elbolaget",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.027447Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966946Z",
+   "updated_at": "2026-11-13T17:22:45.027451Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966950Z",
+   "updated_at": "2026-11-13T17:22:45.027454Z",
    "needs_review": false
   },
   {
@@ -268,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966953Z",
+   "updated_at": "2026-11-13T17:22:45.027457Z",
    "needs_review": false
   },
   {
@@ -287,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966956Z",
+   "updated_at": "2026-11-13T17:22:45.027460Z",
    "needs_review": false
   },
   {
@@ -306,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966959Z",
+   "updated_at": "2026-11-13T17:22:45.027463Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966962Z",
+   "updated_at": "2026-11-13T17:22:45.027466Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966965Z",
+   "updated_at": "2026-11-13T17:22:45.027468Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966968Z",
+   "updated_at": "2026-11-13T17:22:45.027472Z",
    "needs_review": false
   },
   {
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.966973Z",
+   "updated_at": "2026-11-13T17:22:45.027477Z",
    "needs_review": false
   }
  ],

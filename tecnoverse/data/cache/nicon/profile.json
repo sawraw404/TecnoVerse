@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.742067Z",
+   "updated_at": "2026-11-13T17:22:43.184458Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.742376Z",
+   "updated_at": "2026-11-13T17:22:43.184822Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.742627Z",
+   "updated_at": "2026-11-13T17:22:43.185143Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.742868Z",
+   "updated_at": "2026-11-13T17:22:43.185391Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743109Z",
+   "updated_at": "2026-11-13T17:22:43.185628Z",
    "needs_review": false
   },
   {
@@ -191,7 +191,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743283Z",
+   "updated_at": "2026-11-13T17:22:43.185817Z",
    "needs_review": false
   },
   {
@@ -210,7 +210,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743447Z",
+   "updated_at": "2026-11-13T17:22:43.186017Z",
+   "needs_review": false
+  },
+  {
+   "id": "b96be780e6a4aa99",
+   "company_id": "nicon",
+   "field": "contact",
+   "value": "Phone: 0455-30 99 40",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.186188Z",
+   "needs_review": false
+  },
+  {
+   "id": "6232e183c3c43a25",
+   "company_id": "nicon",
+   "field": "contact",
+   "value": "Contact page: https://nicon.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.186197Z",
    "needs_review": false
   },
   {
@@ -229,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743454Z",
+   "updated_at": "2026-11-13T17:22:43.186204Z",
    "needs_review": false
   },
   {
@@ -248,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743458Z",
+   "updated_at": "2026-11-13T17:22:43.186209Z",
    "needs_review": false
   },
   {
@@ -267,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743462Z",
+   "updated_at": "2026-11-13T17:22:43.186213Z",
    "needs_review": false
   },
   {
@@ -286,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743465Z",
+   "updated_at": "2026-11-13T17:22:43.186216Z",
    "needs_review": false
   },
   {
@@ -305,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743468Z",
+   "updated_at": "2026-11-13T17:22:43.186220Z",
    "needs_review": false
   },
   {
@@ -324,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743472Z",
+   "updated_at": "2026-11-13T17:22:43.186223Z",
    "needs_review": false
   },
   {
@@ -343,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743475Z",
+   "updated_at": "2026-11-13T17:22:43.186226Z",
    "needs_review": false
   },
   {
@@ -362,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743477Z",
+   "updated_at": "2026-11-13T17:22:43.186229Z",
    "needs_review": false
   },
   {
@@ -381,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.743484Z",
+   "updated_at": "2026-11-13T17:22:43.186236Z",
    "needs_review": false
   }
  ],

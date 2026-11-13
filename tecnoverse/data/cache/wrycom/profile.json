@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.847603Z",
+   "updated_at": "2026-11-13T17:22:45.660529Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848016Z",
+   "updated_at": "2026-11-13T17:22:45.661007Z",
    "needs_review": false
   },
   {
@@ -154,26 +154,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848399Z",
+   "updated_at": "2026-11-13T17:22:45.661496Z",
    "needs_review": false
   },
   {
-   "id": "c4ba10215590439c",
+   "id": "d3c37c0ff54a05ea",
    "company_id": "wrycom",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://wrycom.se/kontakt",
+   "status": "fact",
+   "source_page_id": "a663d99bbf36fa89",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848406Z",
+   "updated_at": "2026-11-13T17:22:45.661515Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848410Z",
+   "updated_at": "2026-11-13T17:22:45.661523Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848414Z",
+   "updated_at": "2026-11-13T17:22:45.661528Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848417Z",
+   "updated_at": "2026-11-13T17:22:45.661532Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848420Z",
+   "updated_at": "2026-11-13T17:22:45.661536Z",
    "needs_review": false
   },
   {
@@ -268,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848428Z",
+   "updated_at": "2026-11-13T17:22:45.661540Z",
    "needs_review": false
   },
   {
@@ -287,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848432Z",
+   "updated_at": "2026-11-13T17:22:45.661544Z",
    "needs_review": false
   },
   {
@@ -306,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848435Z",
+   "updated_at": "2026-11-13T17:22:45.661547Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848438Z",
+   "updated_at": "2026-11-13T17:22:45.661551Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848441Z",
+   "updated_at": "2026-11-13T17:22:45.661554Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.848446Z",
+   "updated_at": "2026-11-13T17:22:45.661561Z",
    "needs_review": false
   }
  ],

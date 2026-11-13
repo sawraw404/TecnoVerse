@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.794024Z",
+   "updated_at": "2026-11-13T17:22:43.787082Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.794816Z",
+   "updated_at": "2026-11-13T17:22:43.787880Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.795659Z",
+   "updated_at": "2026-11-13T17:22:43.788757Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.796466Z",
+   "updated_at": "2026-11-13T17:22:43.789596Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797162Z",
+   "updated_at": "2026-11-13T17:22:43.790503Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797683Z",
+   "updated_at": "2026-11-13T17:22:43.791148Z",
+   "needs_review": false
+  },
+  {
+   "id": "24cac2114b0ad384",
+   "company_id": "sweco",
+   "field": "contact",
+   "value": "Contact page: https://www.sweco.se/kontakta-oss/",
+   "status": "fact",
+   "source_page_id": "a8cdb71b54e130f6",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.791164Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797690Z",
+   "updated_at": "2026-11-13T17:22:43.791171Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797695Z",
+   "updated_at": "2026-11-13T17:22:43.791177Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797699Z",
+   "updated_at": "2026-11-13T17:22:43.791180Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797702Z",
+   "updated_at": "2026-11-13T17:22:43.791184Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797705Z",
+   "updated_at": "2026-11-13T17:22:43.791187Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797708Z",
+   "updated_at": "2026-11-13T17:22:43.791190Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797711Z",
+   "updated_at": "2026-11-13T17:22:43.791193Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797715Z",
+   "updated_at": "2026-11-13T17:22:43.791197Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797718Z",
+   "updated_at": "2026-11-13T17:22:43.791200Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797726Z",
+   "updated_at": "2026-11-13T17:22:43.791208Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.797731Z",
+   "updated_at": "2026-11-13T17:22:43.791213Z",
    "needs_review": false
   }
  ],

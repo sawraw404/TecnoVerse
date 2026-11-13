@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.425352Z",
+   "updated_at": "2026-11-13T17:22:42.526774Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.426283Z",
+   "updated_at": "2026-11-13T17:22:42.527817Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.427179Z",
+   "updated_at": "2026-11-13T17:22:42.528726Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.428082Z",
+   "updated_at": "2026-11-13T17:22:42.529615Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.429079Z",
+   "updated_at": "2026-11-13T17:22:42.530683Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.430159Z",
+   "updated_at": "2026-11-13T17:22:42.531736Z",
    "needs_review": false
   },
   {
@@ -200,7 +200,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431632Z",
+   "updated_at": "2026-11-13T17:22:42.533190Z",
+   "needs_review": false
+  },
+  {
+   "id": "9dc0286b3713953b",
+   "company_id": "lysa",
+   "field": "contact",
+   "value": "Contact page: https://lysa.se/kontakta-oss",
+   "status": "fact",
+   "source_page_id": "c644be95d208fc44",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:42.533207Z",
    "needs_review": false
   },
   {
@@ -219,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431648Z",
+   "updated_at": "2026-11-13T17:22:42.533213Z",
    "needs_review": false
   },
   {
@@ -238,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431654Z",
+   "updated_at": "2026-11-13T17:22:42.533219Z",
    "needs_review": false
   },
   {
@@ -257,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431658Z",
+   "updated_at": "2026-11-13T17:22:42.533222Z",
    "needs_review": false
   },
   {
@@ -276,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431661Z",
+   "updated_at": "2026-11-13T17:22:42.533226Z",
    "needs_review": false
   },
   {
@@ -295,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431665Z",
+   "updated_at": "2026-11-13T17:22:42.533231Z",
    "needs_review": false
   },
   {
@@ -314,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431668Z",
+   "updated_at": "2026-11-13T17:22:42.533235Z",
    "needs_review": false
   },
   {
@@ -333,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431673Z",
+   "updated_at": "2026-11-13T17:22:42.533240Z",
    "needs_review": false
   },
   {
@@ -352,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431678Z",
+   "updated_at": "2026-11-13T17:22:42.533243Z",
    "needs_review": false
   },
   {
@@ -371,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.431689Z",
+   "updated_at": "2026-11-13T17:22:42.533250Z",
    "needs_review": false
   }
  ],

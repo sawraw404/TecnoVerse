@@ -111,7 +111,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.752750Z",
+   "updated_at": "2026-11-13T17:22:43.195479Z",
    "needs_review": false
   },
   {
@@ -130,7 +130,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.753260Z",
+   "updated_at": "2026-11-13T17:22:43.195794Z",
    "needs_review": false
   },
   {
@@ -149,7 +149,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.754088Z",
+   "updated_at": "2026-11-13T17:22:43.196458Z",
    "needs_review": false
   },
   {
@@ -168,7 +168,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.754478Z",
+   "updated_at": "2026-11-13T17:22:43.196761Z",
    "needs_review": false
   },
   {
@@ -187,7 +187,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.754791Z",
+   "updated_at": "2026-11-13T17:22:43.197056Z",
    "needs_review": false
   },
   {
@@ -206,7 +206,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.755475Z",
+   "updated_at": "2026-11-13T17:22:43.197706Z",
    "needs_review": false
   },
   {
@@ -225,7 +225,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.755898Z",
+   "updated_at": "2026-11-13T17:22:43.198099Z",
    "needs_review": false
   },
   {
@@ -244,7 +244,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756104Z",
+   "updated_at": "2026-11-13T17:22:43.198296Z",
+   "needs_review": false
+  },
+  {
+   "id": "80f2bf5eac40773b",
+   "company_id": "ocean-harvesting",
+   "field": "contact",
+   "value": "Phone: +46 709 55 61 66",
+   "status": "fact",
+   "source_page_id": "1f0a108df14aa413",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.199300Z",
+   "needs_review": false
+  },
+  {
+   "id": "02a1edce89d0a528",
+   "company_id": "ocean-harvesting",
+   "field": "contact",
+   "value": "Contact page: https://oceanharvesting.com/contact/",
+   "status": "fact",
+   "source_page_id": "1f0a108df14aa413",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.200298Z",
    "needs_review": false
   },
   {
@@ -263,7 +301,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756112Z",
+   "updated_at": "2026-11-13T17:22:43.200308Z",
    "needs_review": false
   },
   {
@@ -282,7 +320,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756117Z",
+   "updated_at": "2026-11-13T17:22:43.200313Z",
    "needs_review": false
   },
   {
@@ -301,7 +339,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756121Z",
+   "updated_at": "2026-11-13T17:22:43.200316Z",
    "needs_review": false
   },
   {
@@ -320,7 +358,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756125Z",
+   "updated_at": "2026-11-13T17:22:43.200319Z",
    "needs_review": false
   },
   {
@@ -339,7 +377,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756128Z",
+   "updated_at": "2026-11-13T17:22:43.200322Z",
    "needs_review": false
   },
   {
@@ -358,7 +396,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756131Z",
+   "updated_at": "2026-11-13T17:22:43.200324Z",
    "needs_review": false
   },
   {
@@ -377,7 +415,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756133Z",
+   "updated_at": "2026-11-13T17:22:43.200327Z",
    "needs_review": false
   },
   {
@@ -396,7 +434,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756140Z",
+   "updated_at": "2026-11-13T17:22:43.200334Z",
    "needs_review": false
   },
   {
@@ -415,7 +453,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.756145Z",
+   "updated_at": "2026-11-13T17:22:43.200339Z",
    "needs_review": false
   }
  ],

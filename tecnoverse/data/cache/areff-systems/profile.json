@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.855466Z",
+   "updated_at": "2026-11-13T17:22:45.668358Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.856136Z",
+   "updated_at": "2026-11-13T17:22:45.668807Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.856684Z",
+   "updated_at": "2026-11-13T17:22:45.669232Z",
    "needs_review": false
   },
   {
@@ -173,14 +173,14 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857106Z",
+   "updated_at": "2026-11-13T17:22:45.669610Z",
    "needs_review": false
   },
   {
-   "id": "780d2eb108d2acba",
+   "id": "3ea456833ef00211",
    "company_id": "areff-systems",
    "field": "contact",
-   "value": "Phone: 0455-61 66 00",
+   "value": "Phone: 0455 61 66 00",
    "status": "fact",
    "source_page_id": "f581ebba192c1b70",
    "quote": "",
@@ -192,7 +192,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857371Z",
+   "updated_at": "2026-11-13T17:22:45.669873Z",
+   "needs_review": false
+  },
+  {
+   "id": "306be588f7290a45",
+   "company_id": "areff-systems",
+   "field": "contact",
+   "value": "Contact page: https://www.areff.se/kontakta-oss/",
+   "status": "fact",
+   "source_page_id": "f581ebba192c1b70",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.669885Z",
    "needs_review": false
   },
   {
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857377Z",
+   "updated_at": "2026-11-13T17:22:45.669890Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857382Z",
+   "updated_at": "2026-11-13T17:22:45.669894Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857386Z",
+   "updated_at": "2026-11-13T17:22:45.669898Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857388Z",
+   "updated_at": "2026-11-13T17:22:45.669900Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857391Z",
+   "updated_at": "2026-11-13T17:22:45.669903Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857394Z",
+   "updated_at": "2026-11-13T17:22:45.669906Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857397Z",
+   "updated_at": "2026-11-13T17:22:45.669909Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857399Z",
+   "updated_at": "2026-11-13T17:22:45.669912Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857402Z",
+   "updated_at": "2026-11-13T17:22:45.669914Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.857408Z",
+   "updated_at": "2026-11-13T17:22:45.669920Z",
    "needs_review": false
   }
  ],

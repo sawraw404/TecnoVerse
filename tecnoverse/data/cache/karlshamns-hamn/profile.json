@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.978527Z",
+   "updated_at": "2026-11-13T17:22:45.038563Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.978793Z",
+   "updated_at": "2026-11-13T17:22:45.038901Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.979035Z",
+   "updated_at": "2026-11-13T17:22:45.039213Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.979269Z",
+   "updated_at": "2026-11-13T17:22:45.039463Z",
    "needs_review": false
   },
   {
@@ -172,26 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.979503Z",
-   "needs_review": false
-  },
-  {
-   "id": "db7ca02ec7b96b6a",
-   "company_id": "karlshamns-hamn",
-   "field": "innovation",
-   "value": "Fuel surcharge for tug services from 1 November 2026",
-   "status": "fact",
-   "source_page_id": "76ef040e4578d787",
-   "quote": "inför vi därför ett drivmedelstillägg från och med 1 november 2026",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.979893Z",
+   "updated_at": "2026-11-13T17:22:45.039716Z",
    "needs_review": false
   },
   {
@@ -210,7 +191,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980102Z",
+   "updated_at": "2026-11-13T17:22:45.039891Z",
    "needs_review": false
   },
   {
@@ -229,7 +210,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980299Z",
+   "updated_at": "2026-11-13T17:22:45.040045Z",
+   "needs_review": false
+  },
+  {
+   "id": "958eae43fb803924",
+   "company_id": "karlshamns-hamn",
+   "field": "contact",
+   "value": "Contact page: https://karlshamnshamn.se/pages/kontakt",
+   "status": "fact",
+   "source_page_id": "82373ddf33a75412",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.040056Z",
+   "needs_review": false
+  },
+  {
+   "id": "1da7414add1ad91e",
+   "company_id": "karlshamns-hamn",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.040061Z",
    "needs_review": false
   },
   {
@@ -248,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980307Z",
+   "updated_at": "2026-11-13T17:22:45.040065Z",
    "needs_review": false
   },
   {
@@ -267,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980312Z",
+   "updated_at": "2026-11-13T17:22:45.040068Z",
    "needs_review": false
   },
   {
@@ -286,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980315Z",
+   "updated_at": "2026-11-13T17:22:45.040071Z",
    "needs_review": false
   },
   {
@@ -305,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980319Z",
+   "updated_at": "2026-11-13T17:22:45.040073Z",
    "needs_review": false
   },
   {
@@ -324,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980322Z",
+   "updated_at": "2026-11-13T17:22:45.040076Z",
    "needs_review": false
   },
   {
@@ -343,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980326Z",
+   "updated_at": "2026-11-13T17:22:45.040079Z",
    "needs_review": false
   },
   {
@@ -362,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980329Z",
+   "updated_at": "2026-11-13T17:22:45.040081Z",
    "needs_review": false
   },
   {
@@ -371,7 +390,7 @@
    "field": "possible_interest",
    "value": "Port electrification and alternative fuels",
    "status": "inferred",
-   "source_page_id": "76ef040e4578d787",
+   "source_page_id": "82373ddf33a75412",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Rising fuel costs for tug operations are a stated concern.",
@@ -381,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980336Z",
+   "updated_at": "2026-11-13T17:22:45.040087Z",
    "needs_review": false
   },
   {
@@ -400,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.980341Z",
+   "updated_at": "2026-11-13T17:22:45.040091Z",
    "needs_review": false
   }
  ],

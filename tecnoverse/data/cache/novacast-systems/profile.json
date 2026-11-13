@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.873124Z",
+   "updated_at": "2026-11-13T17:22:45.682707Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.873369Z",
+   "updated_at": "2026-11-13T17:22:45.682978Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.873674Z",
+   "updated_at": "2026-11-13T17:22:45.683354Z",
    "needs_review": false
   },
   {
@@ -163,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.873902Z",
+   "updated_at": "2026-11-13T17:22:45.683599Z",
    "needs_review": false
   },
   {
@@ -182,7 +182,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874058Z",
+   "updated_at": "2026-11-13T17:22:45.683761Z",
+   "needs_review": false
+  },
+  {
+   "id": "8910fb4eb1559947",
+   "company_id": "novacast-systems",
+   "field": "contact",
+   "value": "Contact page: https://www.novacast.se/contact-us/",
+   "status": "fact",
+   "source_page_id": "3a18f4dbe6fd4180",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.683774Z",
    "needs_review": false
   },
   {
@@ -201,7 +220,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874065Z",
+   "updated_at": "2026-11-13T17:22:45.683779Z",
    "needs_review": false
   },
   {
@@ -220,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874069Z",
+   "updated_at": "2026-11-13T17:22:45.683784Z",
    "needs_review": false
   },
   {
@@ -239,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874072Z",
+   "updated_at": "2026-11-13T17:22:45.683788Z",
    "needs_review": false
   },
   {
@@ -258,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874075Z",
+   "updated_at": "2026-11-13T17:22:45.683791Z",
    "needs_review": false
   },
   {
@@ -277,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874078Z",
+   "updated_at": "2026-11-13T17:22:45.683794Z",
    "needs_review": false
   },
   {
@@ -296,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874081Z",
+   "updated_at": "2026-11-13T17:22:45.683797Z",
    "needs_review": false
   },
   {
@@ -315,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874084Z",
+   "updated_at": "2026-11-13T17:22:45.683800Z",
    "needs_review": false
   },
   {
@@ -334,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874087Z",
+   "updated_at": "2026-11-13T17:22:45.683803Z",
    "needs_review": false
   },
   {
@@ -353,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.874092Z",
+   "updated_at": "2026-11-13T17:22:45.683809Z",
    "needs_review": false
   }
  ],

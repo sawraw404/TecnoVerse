@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.206853Z",
+   "updated_at": "2026-11-13T17:22:41.870571Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.207392Z",
+   "updated_at": "2026-11-13T17:22:41.871090Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.207869Z",
+   "updated_at": "2026-11-13T17:22:41.871576Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.208351Z",
+   "updated_at": "2026-11-13T17:22:41.872058Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.208826Z",
+   "updated_at": "2026-11-13T17:22:41.872532Z",
    "needs_review": false
   },
   {
@@ -191,7 +191,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209200Z",
+   "updated_at": "2026-11-13T17:22:41.872845Z",
+   "needs_review": false
+  },
+  {
+   "id": "aba76823d9d417a6",
+   "company_id": "compani-56",
+   "field": "contact",
+   "value": "Phone: 0455 68 90 10",
+   "status": "fact",
+   "source_page_id": "67245c447cefea0e",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.873148Z",
+   "needs_review": false
+  },
+  {
+   "id": "aca870c1af360508",
+   "company_id": "compani-56",
+   "field": "contact",
+   "value": "Contact page: https://compani56.se/kontakta-oss/?utm_campaign=CTA%3A%20Kontakta%20oss&utm_source=web&utm_medium=link&utm_content=nav",
+   "status": "fact",
+   "source_page_id": "bccf15d6d1eb544b",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.875116Z",
    "needs_review": false
   },
   {
@@ -210,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209219Z",
+   "updated_at": "2026-11-13T17:22:41.875131Z",
    "needs_review": false
   },
   {
@@ -229,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209226Z",
+   "updated_at": "2026-11-13T17:22:41.875137Z",
    "needs_review": false
   },
   {
@@ -248,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209231Z",
+   "updated_at": "2026-11-13T17:22:41.875141Z",
    "needs_review": false
   },
   {
@@ -267,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209235Z",
+   "updated_at": "2026-11-13T17:22:41.875144Z",
    "needs_review": false
   },
   {
@@ -286,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209238Z",
+   "updated_at": "2026-11-13T17:22:41.875148Z",
    "needs_review": false
   },
   {
@@ -305,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209242Z",
+   "updated_at": "2026-11-13T17:22:41.875151Z",
    "needs_review": false
   },
   {
@@ -324,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209246Z",
+   "updated_at": "2026-11-13T17:22:41.875154Z",
    "needs_review": false
   },
   {
@@ -343,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209250Z",
+   "updated_at": "2026-11-13T17:22:41.875157Z",
    "needs_review": false
   },
   {
@@ -362,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209254Z",
+   "updated_at": "2026-11-13T17:22:41.875160Z",
    "needs_review": false
   },
   {
@@ -381,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.209262Z",
+   "updated_at": "2026-11-13T17:22:41.875166Z",
    "needs_review": false
   }
  ],

@@ -296,25 +296,6 @@
    "needs_review": false
   },
   {
-   "id": "8238a54e99df835e",
-   "company_id": "afry",
-   "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:54.626350Z",
-   "needs_review": false
-  },
-  {
    "id": "e1dc2e028f47e586",
    "company_id": "afry",
    "field": "innovation",
@@ -522,6 +503,26 @@
    "replaces_item_id": null,
    "updated_at": "2026-11-13T13:22:58.758250Z",
    "needs_review": false
+  },
+  {
+   "id": "6493f8de088f1fec",
+   "company_id": "afry",
+   "field": "contact",
+   "value": "Phone: +46 10 505 00 00",
+   "status": "fact",
+   "source_page_id": "7b559534188dca36",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:16.216543Z",
+   "needs_review": false
   }
- ]
+ ],
+ "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
 }

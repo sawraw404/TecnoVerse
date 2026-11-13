@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.448695Z",
+   "updated_at": "2026-11-13T17:22:44.386244Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.449232Z",
+   "updated_at": "2026-11-13T17:22:44.386854Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.449716Z",
+   "updated_at": "2026-11-13T17:22:44.387305Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.449847Z",
+   "updated_at": "2026-11-13T17:22:44.387436Z",
    "needs_review": false
   },
   {
@@ -152,7 +152,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450296Z",
+   "updated_at": "2026-11-13T17:22:44.387860Z",
    "needs_review": false
   },
   {
@@ -171,7 +171,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450605Z",
+   "updated_at": "2026-11-13T17:22:44.388165Z",
+   "needs_review": false
+  },
+  {
+   "id": "87edb67c6dfe440a",
+   "company_id": "lamox",
+   "field": "contact",
+   "value": "Phone: +46 709 65 12 18",
+   "status": "fact",
+   "source_page_id": "f8c3995d952ff1d5",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.388445Z",
+   "needs_review": false
+  },
+  {
+   "id": "2109896b8608ee90",
+   "company_id": "lamox",
+   "field": "contact",
+   "value": "Contact page: https://lamox.se/kontakt",
+   "status": "fact",
+   "source_page_id": "f8c3995d952ff1d5",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.388456Z",
    "needs_review": false
   },
   {
@@ -190,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450611Z",
+   "updated_at": "2026-11-13T17:22:44.388463Z",
    "needs_review": false
   },
   {
@@ -209,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450617Z",
+   "updated_at": "2026-11-13T17:22:44.388469Z",
    "needs_review": false
   },
   {
@@ -228,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450621Z",
+   "updated_at": "2026-11-13T17:22:44.388473Z",
    "needs_review": false
   },
   {
@@ -247,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450624Z",
+   "updated_at": "2026-11-13T17:22:44.388476Z",
    "needs_review": false
   },
   {
@@ -266,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450628Z",
+   "updated_at": "2026-11-13T17:22:44.388479Z",
    "needs_review": false
   },
   {
@@ -285,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450631Z",
+   "updated_at": "2026-11-13T17:22:44.388483Z",
    "needs_review": false
   },
   {
@@ -304,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450634Z",
+   "updated_at": "2026-11-13T17:22:44.388486Z",
    "needs_review": false
   },
   {
@@ -323,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450637Z",
+   "updated_at": "2026-11-13T17:22:44.388489Z",
    "needs_review": false
   },
   {
@@ -342,7 +380,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450646Z",
+   "updated_at": "2026-11-13T17:22:44.388499Z",
    "needs_review": false
   },
   {
@@ -361,7 +399,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.450652Z",
+   "updated_at": "2026-11-13T17:22:44.388505Z",
    "needs_review": false
   }
  ],

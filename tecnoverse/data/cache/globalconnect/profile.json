@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.869457Z",
+   "updated_at": "2026-11-13T17:22:45.679095Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.869807Z",
+   "updated_at": "2026-11-13T17:22:45.679414Z",
    "needs_review": false
   },
   {
@@ -144,26 +144,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870123Z",
+   "updated_at": "2026-11-13T17:22:45.679715Z",
    "needs_review": false
   },
   {
-   "id": "97490da9930e1a0d",
+   "id": "81c3417fc058edd8",
    "company_id": "globalconnect",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://globalconnect.se/kontakta-oss/",
+   "status": "fact",
+   "source_page_id": "1675a70f58abcd45",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870130Z",
+   "updated_at": "2026-11-13T17:22:45.679731Z",
    "needs_review": false
   },
   {
@@ -182,7 +182,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870136Z",
+   "updated_at": "2026-11-13T17:22:45.679737Z",
    "needs_review": false
   },
   {
@@ -201,7 +201,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870141Z",
+   "updated_at": "2026-11-13T17:22:45.679742Z",
    "needs_review": false
   },
   {
@@ -220,7 +220,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870146Z",
+   "updated_at": "2026-11-13T17:22:45.679745Z",
    "needs_review": false
   },
   {
@@ -239,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870149Z",
+   "updated_at": "2026-11-13T17:22:45.679748Z",
    "needs_review": false
   },
   {
@@ -258,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870152Z",
+   "updated_at": "2026-11-13T17:22:45.679752Z",
    "needs_review": false
   },
   {
@@ -277,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870155Z",
+   "updated_at": "2026-11-13T17:22:45.679755Z",
    "needs_review": false
   },
   {
@@ -296,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870158Z",
+   "updated_at": "2026-11-13T17:22:45.679758Z",
    "needs_review": false
   },
   {
@@ -315,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870162Z",
+   "updated_at": "2026-11-13T17:22:45.679761Z",
    "needs_review": false
   },
   {
@@ -334,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870165Z",
+   "updated_at": "2026-11-13T17:22:45.679764Z",
    "needs_review": false
   },
   {
@@ -353,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870168Z",
+   "updated_at": "2026-11-13T17:22:45.679767Z",
    "needs_review": false
   },
   {
@@ -372,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.870175Z",
+   "updated_at": "2026-11-13T17:22:45.679773Z",
    "needs_review": false
   }
  ],

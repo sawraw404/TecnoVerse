@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.819466Z",
+   "updated_at": "2026-11-13T17:22:43.813050Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.819809Z",
+   "updated_at": "2026-11-13T17:22:43.813458Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820133Z",
+   "updated_at": "2026-11-13T17:22:43.813802Z",
    "needs_review": false
   },
   {
@@ -133,26 +133,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820174Z",
+   "updated_at": "2026-11-13T17:22:43.813844Z",
    "needs_review": false
   },
   {
-   "id": "02ad9203c62d8d57",
+   "id": "15b124c84b386531",
    "company_id": "empayit",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://www.empayit.com/contact-us",
+   "status": "fact",
+   "source_page_id": "379e43b6d86539d0",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820179Z",
+   "updated_at": "2026-11-13T17:22:43.813856Z",
    "needs_review": false
   },
   {
@@ -171,7 +171,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820183Z",
+   "updated_at": "2026-11-13T17:22:43.813862Z",
    "needs_review": false
   },
   {
@@ -190,7 +190,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820186Z",
+   "updated_at": "2026-11-13T17:22:43.813866Z",
    "needs_review": false
   },
   {
@@ -209,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820189Z",
+   "updated_at": "2026-11-13T17:22:43.813869Z",
    "needs_review": false
   },
   {
@@ -228,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820192Z",
+   "updated_at": "2026-11-13T17:22:43.813872Z",
    "needs_review": false
   },
   {
@@ -247,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820195Z",
+   "updated_at": "2026-11-13T17:22:43.813874Z",
    "needs_review": false
   },
   {
@@ -266,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820197Z",
+   "updated_at": "2026-11-13T17:22:43.813877Z",
    "needs_review": false
   },
   {
@@ -285,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820200Z",
+   "updated_at": "2026-11-13T17:22:43.813880Z",
    "needs_review": false
   },
   {
@@ -304,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820202Z",
+   "updated_at": "2026-11-13T17:22:43.813882Z",
    "needs_review": false
   },
   {
@@ -323,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820205Z",
+   "updated_at": "2026-11-13T17:22:43.813885Z",
    "needs_review": false
   },
   {
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.820210Z",
+   "updated_at": "2026-11-13T17:22:43.813890Z",
    "needs_review": false
   }
  ],

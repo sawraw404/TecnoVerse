@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.213619Z",
+   "updated_at": "2026-11-13T17:22:41.879766Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.214173Z",
+   "updated_at": "2026-11-13T17:22:41.880305Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.214688Z",
+   "updated_at": "2026-11-13T17:22:41.880815Z",
    "needs_review": false
   },
   {
@@ -163,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.215203Z",
+   "updated_at": "2026-11-13T17:22:41.881320Z",
    "needs_review": false
   },
   {
@@ -182,17 +182,17 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.215703Z",
+   "updated_at": "2026-11-13T17:22:41.881823Z",
    "needs_review": false
   },
   {
-   "id": "044616ba39d855a3",
+   "id": "a471f3e87b16df01",
    "company_id": "dnv-cyber",
-   "field": "innovation",
-   "value": "Whitepaper on the EU Cyber Resilience Act for manufacturers",
+   "field": "contact",
+   "value": "Contact page: https://www.dnv.com/cyber/about/contact/",
    "status": "fact",
    "source_page_id": "cff4f9418c77f40d",
-   "quote": "What the EU Cyber Resilience Act means for manufacturers",
+   "quote": "",
    "quote_verified": true,
    "reasoning": null,
    "confidence": 0.9,
@@ -201,26 +201,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216205Z",
-   "needs_review": false
-  },
-  {
-   "id": "4e6ff646c9e38b9b",
-   "company_id": "dnv-cyber",
-   "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216211Z",
+   "updated_at": "2026-11-13T17:22:41.881837Z",
    "needs_review": false
   },
   {
@@ -239,7 +220,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216216Z",
+   "updated_at": "2026-11-13T17:22:41.881843Z",
    "needs_review": false
   },
   {
@@ -258,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216220Z",
+   "updated_at": "2026-11-13T17:22:41.881847Z",
    "needs_review": false
   },
   {
@@ -277,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216223Z",
+   "updated_at": "2026-11-13T17:22:41.881851Z",
    "needs_review": false
   },
   {
@@ -296,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216226Z",
+   "updated_at": "2026-11-13T17:22:41.881854Z",
    "needs_review": false
   },
   {
@@ -315,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216229Z",
+   "updated_at": "2026-11-13T17:22:41.881857Z",
    "needs_review": false
   },
   {
@@ -334,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216232Z",
+   "updated_at": "2026-11-13T17:22:41.881859Z",
    "needs_review": false
   },
   {
@@ -353,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216235Z",
+   "updated_at": "2026-11-13T17:22:41.881862Z",
    "needs_review": false
   },
   {
@@ -372,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216238Z",
+   "updated_at": "2026-11-13T17:22:41.881865Z",
    "needs_review": false
   },
   {
@@ -391,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216244Z",
+   "updated_at": "2026-11-13T17:22:41.881871Z",
    "needs_review": false
   },
   {
@@ -410,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.216249Z",
+   "updated_at": "2026-11-13T17:22:41.881875Z",
    "needs_review": false
   }
  ],

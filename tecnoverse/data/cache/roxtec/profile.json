@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.760792Z",
+   "updated_at": "2026-11-13T17:22:43.204626Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.761747Z",
+   "updated_at": "2026-11-13T17:22:43.205347Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.762446Z",
+   "updated_at": "2026-11-13T17:22:43.206167Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.763128Z",
+   "updated_at": "2026-11-13T17:22:43.206890Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.763699Z",
+   "updated_at": "2026-11-13T17:22:43.207463Z",
    "needs_review": false
   },
   {
@@ -216,7 +216,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764134Z",
+   "updated_at": "2026-11-13T17:22:43.207909Z",
    "needs_review": false
   },
   {
@@ -235,7 +235,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764574Z",
+   "updated_at": "2026-11-13T17:22:43.208360Z",
+   "needs_review": false
+  },
+  {
+   "id": "b209f1549ebf8c5e",
+   "company_id": "roxtec",
+   "field": "contact",
+   "value": "Phone: +46 455 36 67 00",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.208801Z",
+   "needs_review": false
+  },
+  {
+   "id": "a93dc4f2a4524ada",
+   "company_id": "roxtec",
+   "field": "contact",
+   "value": "Contact page: https://www.roxtec.com/en/about-us/contact/",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.208811Z",
    "needs_review": false
   },
   {
@@ -254,7 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764581Z",
+   "updated_at": "2026-11-13T17:22:43.208817Z",
    "needs_review": false
   },
   {
@@ -273,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764585Z",
+   "updated_at": "2026-11-13T17:22:43.208821Z",
    "needs_review": false
   },
   {
@@ -292,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764588Z",
+   "updated_at": "2026-11-13T17:22:43.208824Z",
    "needs_review": false
   },
   {
@@ -311,7 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764592Z",
+   "updated_at": "2026-11-13T17:22:43.208827Z",
    "needs_review": false
   },
   {
@@ -330,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764595Z",
+   "updated_at": "2026-11-13T17:22:43.208831Z",
    "needs_review": false
   },
   {
@@ -349,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764598Z",
+   "updated_at": "2026-11-13T17:22:43.208834Z",
    "needs_review": false
   },
   {
@@ -368,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764601Z",
+   "updated_at": "2026-11-13T17:22:43.208838Z",
    "needs_review": false
   },
   {
@@ -387,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764604Z",
+   "updated_at": "2026-11-13T17:22:43.208840Z",
    "needs_review": false
   },
   {
@@ -406,7 +444,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764607Z",
+   "updated_at": "2026-11-13T17:22:43.208843Z",
    "needs_review": false
   },
   {
@@ -425,7 +463,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764614Z",
+   "updated_at": "2026-11-13T17:22:43.208849Z",
    "needs_review": false
   },
   {
@@ -444,7 +482,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.764619Z",
+   "updated_at": "2026-11-13T17:22:43.208854Z",
    "needs_review": false
   }
  ],

@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.850233Z",
+   "updated_at": "2026-11-13T17:22:45.663136Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.850706Z",
+   "updated_at": "2026-11-13T17:22:45.663635Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851011Z",
+   "updated_at": "2026-11-13T17:22:45.663923Z",
+   "needs_review": false
+  },
+  {
+   "id": "2757fb1484d0243e",
+   "company_id": "cenceo",
+   "field": "contact",
+   "value": "Contact page: https://cenceo.se/kontakt",
+   "status": "fact",
+   "source_page_id": "4f5ba09e1ba3777c",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.663943Z",
    "needs_review": false
   },
   {
@@ -113,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851018Z",
+   "updated_at": "2026-11-13T17:22:45.663949Z",
    "needs_review": false
   },
   {
@@ -132,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851022Z",
+   "updated_at": "2026-11-13T17:22:45.663953Z",
    "needs_review": false
   },
   {
@@ -151,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851025Z",
+   "updated_at": "2026-11-13T17:22:45.663956Z",
    "needs_review": false
   },
   {
@@ -170,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851028Z",
+   "updated_at": "2026-11-13T17:22:45.663959Z",
    "needs_review": false
   },
   {
@@ -189,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851031Z",
+   "updated_at": "2026-11-13T17:22:45.663962Z",
    "needs_review": false
   },
   {
@@ -208,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851034Z",
+   "updated_at": "2026-11-13T17:22:45.663965Z",
    "needs_review": false
   },
   {
@@ -227,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851037Z",
+   "updated_at": "2026-11-13T17:22:45.663968Z",
    "needs_review": false
   },
   {
@@ -246,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851041Z",
+   "updated_at": "2026-11-13T17:22:45.663971Z",
    "needs_review": false
   },
   {
@@ -265,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851043Z",
+   "updated_at": "2026-11-13T17:22:45.663974Z",
    "needs_review": false
   },
   {
@@ -284,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851046Z",
+   "updated_at": "2026-11-13T17:22:45.663977Z",
    "needs_review": false
   },
   {
@@ -303,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.851051Z",
+   "updated_at": "2026-11-13T17:22:45.663982Z",
    "needs_review": false
   }
  ],

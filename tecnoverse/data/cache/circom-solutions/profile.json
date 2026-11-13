@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.504522Z",
+   "updated_at": "2026-11-13T17:22:44.437851Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.505085Z",
+   "updated_at": "2026-11-13T17:22:44.438336Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.505288Z",
+   "updated_at": "2026-11-13T17:22:44.438538Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.505820Z",
+   "updated_at": "2026-11-13T17:22:44.439020Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.506893Z",
+   "updated_at": "2026-11-13T17:22:44.440090Z",
    "needs_review": false
   },
   {
@@ -191,7 +191,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508501Z",
+   "updated_at": "2026-11-13T17:22:44.441124Z",
+   "needs_review": false
+  },
+  {
+   "id": "a182f3f5aa76a857",
+   "company_id": "circom-solutions",
+   "field": "contact",
+   "value": "Contact page: https://circom.se/kontakta-circom/",
+   "status": "fact",
+   "source_page_id": "858657b2a0921f0e",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.441135Z",
    "needs_review": false
   },
   {
@@ -210,7 +229,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508513Z",
+   "updated_at": "2026-11-13T17:22:44.441142Z",
    "needs_review": false
   },
   {
@@ -229,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508518Z",
+   "updated_at": "2026-11-13T17:22:44.441146Z",
    "needs_review": false
   },
   {
@@ -248,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508522Z",
+   "updated_at": "2026-11-13T17:22:44.441149Z",
    "needs_review": false
   },
   {
@@ -267,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508525Z",
+   "updated_at": "2026-11-13T17:22:44.441153Z",
    "needs_review": false
   },
   {
@@ -286,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508528Z",
+   "updated_at": "2026-11-13T17:22:44.441156Z",
    "needs_review": false
   },
   {
@@ -305,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508531Z",
+   "updated_at": "2026-11-13T17:22:44.441159Z",
    "needs_review": false
   },
   {
@@ -324,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508535Z",
+   "updated_at": "2026-11-13T17:22:44.441162Z",
    "needs_review": false
   },
   {
@@ -343,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508537Z",
+   "updated_at": "2026-11-13T17:22:44.441165Z",
    "needs_review": false
   },
   {
@@ -362,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508540Z",
+   "updated_at": "2026-11-13T17:22:44.441168Z",
    "needs_review": false
   },
   {
@@ -381,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.508547Z",
+   "updated_at": "2026-11-13T17:22:44.441174Z",
    "needs_review": false
   }
  ],

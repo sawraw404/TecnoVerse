@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.487721Z",
+   "updated_at": "2026-11-13T17:22:44.420837Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.488025Z",
+   "updated_at": "2026-11-13T17:22:44.421105Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.488281Z",
+   "updated_at": "2026-11-13T17:22:44.421345Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.488563Z",
+   "updated_at": "2026-11-13T17:22:44.421603Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489640Z",
+   "updated_at": "2026-11-13T17:22:44.422343Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489848Z",
+   "updated_at": "2026-11-13T17:22:44.422505Z",
+   "needs_review": false
+  },
+  {
+   "id": "bf015fbc94a4aea3",
+   "company_id": "avalon-innovation",
+   "field": "contact",
+   "value": "Phone: +46 70 186 51 19",
+   "status": "fact",
+   "source_page_id": "45c8da2ba3b7d2a7",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.423871Z",
+   "needs_review": false
+  },
+  {
+   "id": "1b1ba672df0b45a2",
+   "company_id": "avalon-innovation",
+   "field": "contact",
+   "value": "Contact page: https://avaloninnovation.com/kontakt",
+   "status": "fact",
+   "source_page_id": "09c67c0e85d0a3f0",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.423885Z",
    "needs_review": false
   },
   {
@@ -230,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489859Z",
+   "updated_at": "2026-11-13T17:22:44.423891Z",
    "needs_review": false
   },
   {
@@ -249,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489865Z",
+   "updated_at": "2026-11-13T17:22:44.423896Z",
    "needs_review": false
   },
   {
@@ -268,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489870Z",
+   "updated_at": "2026-11-13T17:22:44.423899Z",
    "needs_review": false
   },
   {
@@ -287,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489874Z",
+   "updated_at": "2026-11-13T17:22:44.423902Z",
    "needs_review": false
   },
   {
@@ -306,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489878Z",
+   "updated_at": "2026-11-13T17:22:44.423905Z",
    "needs_review": false
   },
   {
@@ -325,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489882Z",
+   "updated_at": "2026-11-13T17:22:44.423908Z",
    "needs_review": false
   },
   {
@@ -344,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489887Z",
+   "updated_at": "2026-11-13T17:22:44.423911Z",
    "needs_review": false
   },
   {
@@ -363,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489895Z",
+   "updated_at": "2026-11-13T17:22:44.423917Z",
    "needs_review": false
   },
   {
@@ -382,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.489901Z",
+   "updated_at": "2026-11-13T17:22:44.423922Z",
    "needs_review": false
   }
  ],

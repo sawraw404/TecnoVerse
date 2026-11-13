@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.414184Z",
+   "updated_at": "2026-11-13T17:22:42.513857Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.415253Z",
+   "updated_at": "2026-11-13T17:22:42.514591Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.416330Z",
+   "updated_at": "2026-11-13T17:22:42.515315Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.417418Z",
+   "updated_at": "2026-11-13T17:22:42.516068Z",
    "needs_review": false
   },
   {
@@ -192,26 +192,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418084Z",
+   "updated_at": "2026-11-13T17:22:42.516515Z",
    "needs_review": false
   },
   {
-   "id": "f3021f05ad182f9f",
+   "id": "df9a2304602eb85c",
    "company_id": "kiwa",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://www.kiwa.com/en/contact/",
+   "status": "fact",
+   "source_page_id": "d34cf93c917d9894",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418092Z",
+   "updated_at": "2026-11-13T17:22:42.520457Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418099Z",
+   "updated_at": "2026-11-13T17:22:42.520486Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418104Z",
+   "updated_at": "2026-11-13T17:22:42.520493Z",
    "needs_review": false
   },
   {
@@ -268,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418108Z",
+   "updated_at": "2026-11-13T17:22:42.520498Z",
    "needs_review": false
   },
   {
@@ -287,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418112Z",
+   "updated_at": "2026-11-13T17:22:42.520502Z",
    "needs_review": false
   },
   {
@@ -306,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418116Z",
+   "updated_at": "2026-11-13T17:22:42.520506Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418121Z",
+   "updated_at": "2026-11-13T17:22:42.520509Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418124Z",
+   "updated_at": "2026-11-13T17:22:42.520513Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418128Z",
+   "updated_at": "2026-11-13T17:22:42.520517Z",
    "needs_review": false
   },
   {
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418136Z",
+   "updated_at": "2026-11-13T17:22:42.520524Z",
    "needs_review": false
   },
   {
@@ -401,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.418142Z",
+   "updated_at": "2026-11-13T17:22:42.520530Z",
    "needs_review": false
   }
  ],

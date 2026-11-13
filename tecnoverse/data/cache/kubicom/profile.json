@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.983517Z",
+   "updated_at": "2026-11-13T17:22:45.043411Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.983950Z",
+   "updated_at": "2026-11-13T17:22:45.043827Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.984356Z",
+   "updated_at": "2026-11-13T17:22:45.044227Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.985332Z",
+   "updated_at": "2026-11-13T17:22:45.045167Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.985873Z",
+   "updated_at": "2026-11-13T17:22:45.045694Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986691Z",
+   "updated_at": "2026-11-13T17:22:45.046503Z",
+   "needs_review": false
+  },
+  {
+   "id": "833a0a49c76021f3",
+   "company_id": "kubicom",
+   "field": "contact",
+   "value": "Contact page: https://kubicom.com/kontakt",
+   "status": "fact",
+   "source_page_id": "6a65023ed606d39f",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.046514Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986700Z",
+   "updated_at": "2026-11-13T17:22:45.046520Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986705Z",
+   "updated_at": "2026-11-13T17:22:45.046523Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986708Z",
+   "updated_at": "2026-11-13T17:22:45.046527Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986711Z",
+   "updated_at": "2026-11-13T17:22:45.046530Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986713Z",
+   "updated_at": "2026-11-13T17:22:45.046533Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986716Z",
+   "updated_at": "2026-11-13T17:22:45.046536Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986719Z",
+   "updated_at": "2026-11-13T17:22:45.046539Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986724Z",
+   "updated_at": "2026-11-13T17:22:45.046545Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.986729Z",
+   "updated_at": "2026-11-13T17:22:45.046549Z",
    "needs_review": false
   }
  ],

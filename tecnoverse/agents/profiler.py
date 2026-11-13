@@ -106,6 +106,8 @@ def find_contact(value: str, pages: list[SourcePage]) -> SourcePage | None:
     emails = re.findall(r"[\w.+-]+@[\w-]+\.[\w.-]+", value.lower())
     phones = [d for d in (re.sub(r"\D", "", p) for p in re.findall(r"\+?\d[\d\s()-]{6,}\d", value)) if len(d) >= 7]
     for p in pages:
+        if p.url in value:  # "Contact page: <url>" for a page that was read
+            return p
         text = p.text.lower()
         digits = re.sub(r"\D", "", p.text)
         if any(e in text for e in emails) or any(d[-7:] in digits for d in phones):
@@ -187,18 +189,44 @@ def profile_company(company: Company) -> Profile:
 
 
 GENERIC_MAILBOX = re.compile(r"\b(info|kontakt|contact|hello|hej|sales|office|mail|kundservice|support|post)@[\w-]+\.[\w.-]*\w", re.I)
+ANY_PHONE = re.compile(r"(?<![\d/])((?:\+46|0)\s?\d{1,3}[\s-]?\d{2,3}[\s-]?\d{2}[\s-]?\d{2,3})(?![\d/])")
+CONTACT_URL = re.compile(r"contact|kontakt", re.I)
 PHONE = re.compile(r"(?:tel(?:efon)?|phone|ring|växel|vxl)[\s.:]*((?:\+46|0)[\d\s()-]{7,14}\d)", re.I)
 
 
 def auto_contacts(pages: list[SourcePage]) -> list[_Fact]:
-    """The company's published general mailbox and switchboard number, found by pattern. No named people."""
+    """The company's published contact route: general mailbox, phone number, contact page. No named people."""
     out = []
-    for label, pattern, group in (("Email", GENERIC_MAILBOX, 0), ("Phone", PHONE, 1)):
-        hit = next(((p, m) for p in pages for m in [pattern.search(p.text)] if m), None)
+    contact_pages = [p for p in pages if CONTACT_URL.search(p.url)]
+    ordered = contact_pages + [p for p in pages if p not in contact_pages]  # contact page wins
+    for label, pattern, group in (("Email", GENERIC_MAILBOX, 0), ("Phone", PHONE, 1), ("Phone", ANY_PHONE, 1)):
+        if label == "Phone" and any(f.value.startswith("Phone") for f in out):
+            continue
+        hit = next(((p, m) for p in ordered for m in [pattern.search(p.text)] if m), None)
         if hit:
             page, m = hit
             out.append(_Fact(field="contact", value=f"{label}: {m.group(group).strip()}", quote="", source_url=page.url))
+    if contact_pages:
+        out.append(_Fact(field="contact", value=f"Contact page: {contact_pages[0].url}", quote="",
+                         source_url=contact_pages[0].url))
     return out
+
+
+def fill_contacts() -> None:
+    """Add the published contact route to saved profiles that have no contact yet."""
+    import json
+    from pathlib import Path
+    from core.store import load_profile
+    for c in json.loads((Path(__file__).parent.parent / "data" / "companies.json").read_text(encoding="utf-8")):
+        prof = load_profile(c["id"])
+        if not prof or any(i.field == "contact" and i.status != "missing" for i in prof.items):
+            continue
+        new = [i for i in build_items(c["id"], auto_contacts(prof.pages), prof.pages)
+               if i.field == "contact" and i.status == "fact"]
+        if new:
+            prof.items = [i for i in prof.items if not (i.field == "contact" and i.status == "missing")] + new
+            save_profile(prof)
+        print(f"{c['id']}: {len(new)} contact items" if new else f"{c['id']}: no contact found on crawled pages")
 
 
 def import_extractions(path: str) -> None:
@@ -244,12 +272,18 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     cpage = page.model_copy(update={"text": "Kontakt: info@acme.se eller 0455-12 34 56"})
     assert find_contact("General: info@acme.se", [cpage]) and find_contact("Phone +46 455 12 34 56", [cpage])
     assert find_contact("Anna, CEO: anna@acme.se", [cpage]) is None
+    kpage = cpage.model_copy(update={"url": "https://acme.se/kontakt", "text": "Ring oss på 0455-123 45 67 idag"})
+    found = {f.value for f in auto_contacts([page, kpage])}
+    assert found == {"Phone: 0455-123 45 67", "Contact page: https://acme.se/kontakt"}, found
+    assert find_contact("Contact page: https://acme.se/kontakt", [kpage]) is kpage
     print("ok")
 
     # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)
     import sys
     if "--import" in sys.argv:  # python -m agents.profiler --import path/to/extractions.json
         import_extractions(sys.argv[sys.argv.index("--import") + 1])
+    if "--fill-contacts" in sys.argv:
+        fill_contacts()
     if "--crawl" in sys.argv:  # crawl only: save pages.json for every company that has no profile yet
         import json
         from concurrent.futures import ThreadPoolExecutor

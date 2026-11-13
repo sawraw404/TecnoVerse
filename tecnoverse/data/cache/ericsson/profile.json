@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.228357Z",
+   "updated_at": "2026-11-13T17:22:41.896024Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.229454Z",
+   "updated_at": "2026-11-13T17:22:41.897088Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.230540Z",
+   "updated_at": "2026-11-13T17:22:41.898125Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.231581Z",
+   "updated_at": "2026-11-13T17:22:41.899142Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.232608Z",
+   "updated_at": "2026-11-13T17:22:41.900204Z",
    "needs_review": false
   },
   {
@@ -211,26 +211,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233632Z",
+   "updated_at": "2026-11-13T17:22:41.901236Z",
    "needs_review": false
   },
   {
-   "id": "92b58a11843f16e9",
+   "id": "1b45c64a694fdf09",
    "company_id": "ericsson",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Phone: +46 10 719 00 00",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233639Z",
+   "updated_at": "2026-11-13T17:22:41.901897Z",
+   "needs_review": false
+  },
+  {
+   "id": "763e14256568c49c",
+   "company_id": "ericsson",
+   "field": "contact",
+   "value": "Contact page: https://www.ericsson.com/en/contact",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.901909Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233644Z",
+   "updated_at": "2026-11-13T17:22:41.901917Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233648Z",
+   "updated_at": "2026-11-13T17:22:41.901921Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233651Z",
+   "updated_at": "2026-11-13T17:22:41.901924Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233654Z",
+   "updated_at": "2026-11-13T17:22:41.901927Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233657Z",
+   "updated_at": "2026-11-13T17:22:41.901930Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233661Z",
+   "updated_at": "2026-11-13T17:22:41.901934Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233664Z",
+   "updated_at": "2026-11-13T17:22:41.901937Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233667Z",
+   "updated_at": "2026-11-13T17:22:41.901941Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233673Z",
+   "updated_at": "2026-11-13T17:22:41.901947Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.233677Z",
+   "updated_at": "2026-11-13T17:22:41.901952Z",
    "needs_review": false
   }
  ],

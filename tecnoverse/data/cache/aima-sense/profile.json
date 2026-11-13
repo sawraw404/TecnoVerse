@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.462983Z",
+   "updated_at": "2026-11-13T17:22:44.399593Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.463861Z",
+   "updated_at": "2026-11-13T17:22:44.400434Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.464663Z",
+   "updated_at": "2026-11-13T17:22:44.401194Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466921Z",
+   "updated_at": "2026-11-13T17:22:44.403678Z",
+   "needs_review": false
+  },
+  {
+   "id": "f0db91541fc981d9",
+   "company_id": "aima-sense",
+   "field": "contact",
+   "value": "Contact page: https://aimasense.com/pages/contact",
+   "status": "fact",
+   "source_page_id": "a57e2830eedf6b50",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:44.403711Z",
    "needs_review": false
   },
   {
@@ -192,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466929Z",
+   "updated_at": "2026-11-13T17:22:44.403721Z",
    "needs_review": false
   },
   {
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466933Z",
+   "updated_at": "2026-11-13T17:22:44.403727Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466937Z",
+   "updated_at": "2026-11-13T17:22:44.403732Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466940Z",
+   "updated_at": "2026-11-13T17:22:44.403737Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466943Z",
+   "updated_at": "2026-11-13T17:22:44.403741Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466946Z",
+   "updated_at": "2026-11-13T17:22:44.403746Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466949Z",
+   "updated_at": "2026-11-13T17:22:44.403750Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466952Z",
+   "updated_at": "2026-11-13T17:22:44.403755Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466955Z",
+   "updated_at": "2026-11-13T17:22:44.403760Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:43:38.466962Z",
+   "updated_at": "2026-11-13T17:22:44.403768Z",
    "needs_review": false
   }
  ],

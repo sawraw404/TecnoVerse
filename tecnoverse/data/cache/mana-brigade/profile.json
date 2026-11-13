@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.817538Z",
+   "updated_at": "2026-11-13T17:22:43.810885Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.817700Z",
+   "updated_at": "2026-11-13T17:22:43.811096Z",
    "needs_review": false
   },
   {
@@ -114,13 +114,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.817848Z",
+   "updated_at": "2026-11-13T17:22:43.811295Z",
    "needs_review": false
   },
   {
-   "id": "1da5c33285fa66ec",
+   "id": "c26c31572d995b11",
    "company_id": "mana-brigade",
-   "field": "innovation",
+   "field": "project",
    "value": "Took part in Steam Next Fest (February 2024)",
    "status": "fact",
    "source_page_id": "d0506eed5232c902",
@@ -133,13 +133,32 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818006Z",
+   "updated_at": "2026-11-13T17:22:43.811511Z",
    "needs_review": false
   },
   {
-   "id": "80936acce4c6f556",
+   "id": "90e6eda86efe5b40",
    "company_id": "mana-brigade",
    "field": "contact",
+   "value": "Contact page: https://www.manabrigade.com/contact/",
+   "status": "fact",
+   "source_page_id": "2b96ae180a8705a0",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.811528Z",
+   "needs_review": false
+  },
+  {
+   "id": "4cba30737078fda7",
+   "company_id": "mana-brigade",
+   "field": "innovation",
    "value": "",
    "status": "missing",
    "source_page_id": null,
@@ -152,7 +171,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818011Z",
+   "updated_at": "2026-11-13T17:22:43.811535Z",
    "needs_review": false
   },
   {
@@ -171,7 +190,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818015Z",
+   "updated_at": "2026-11-13T17:22:43.811543Z",
    "needs_review": false
   },
   {
@@ -190,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818019Z",
+   "updated_at": "2026-11-13T17:22:43.811546Z",
    "needs_review": false
   },
   {
@@ -209,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818022Z",
+   "updated_at": "2026-11-13T17:22:43.811549Z",
    "needs_review": false
   },
   {
@@ -228,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818025Z",
+   "updated_at": "2026-11-13T17:22:43.811552Z",
    "needs_review": false
   },
   {
@@ -247,26 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818027Z",
-   "needs_review": false
-  },
-  {
-   "id": "308f3a9977e46912",
-   "company_id": "mana-brigade",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818030Z",
+   "updated_at": "2026-11-13T17:22:43.811554Z",
    "needs_review": false
   },
   {
@@ -285,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818033Z",
+   "updated_at": "2026-11-13T17:22:43.811557Z",
    "needs_review": false
   },
   {
@@ -304,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818036Z",
+   "updated_at": "2026-11-13T17:22:43.811560Z",
    "needs_review": false
   },
   {
@@ -323,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818042Z",
+   "updated_at": "2026-11-13T17:22:43.811566Z",
    "needs_review": false
   },
   {
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.818047Z",
+   "updated_at": "2026-11-13T17:22:43.811570Z",
    "needs_review": false
   }
  ],

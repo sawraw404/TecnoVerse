@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.973015Z",
+   "updated_at": "2026-11-13T17:22:45.033982Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.973761Z",
+   "updated_at": "2026-11-13T17:22:45.034675Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.974458Z",
+   "updated_at": "2026-11-13T17:22:45.035377Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.974848Z",
+   "updated_at": "2026-11-13T17:22:45.035752Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.975337Z",
+   "updated_at": "2026-11-13T17:22:45.036197Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.975764Z",
+   "updated_at": "2026-11-13T17:22:45.036596Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976166Z",
+   "updated_at": "2026-11-13T17:22:45.036997Z",
+   "needs_review": false
+  },
+  {
+   "id": "244783d47fe6937f",
+   "company_id": "karlshamn-energi",
+   "field": "contact",
+   "value": "Contact page: https://www.karlshamnenergi.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "3350aae748b894b4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.037010Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976174Z",
+   "updated_at": "2026-11-13T17:22:45.037016Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976179Z",
+   "updated_at": "2026-11-13T17:22:45.037020Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976183Z",
+   "updated_at": "2026-11-13T17:22:45.037024Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976186Z",
+   "updated_at": "2026-11-13T17:22:45.037027Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976190Z",
+   "updated_at": "2026-11-13T17:22:45.037030Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976193Z",
+   "updated_at": "2026-11-13T17:22:45.037033Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976196Z",
+   "updated_at": "2026-11-13T17:22:45.037035Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976199Z",
+   "updated_at": "2026-11-13T17:22:45.037038Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976202Z",
+   "updated_at": "2026-11-13T17:22:45.037041Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976209Z",
+   "updated_at": "2026-11-13T17:22:45.037048Z",
    "needs_review": false
   },
   {
@@ -439,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.976214Z",
+   "updated_at": "2026-11-13T17:22:45.037052Z",
    "needs_review": false
   }
  ],

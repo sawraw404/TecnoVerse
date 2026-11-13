@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.219023Z",
+   "updated_at": "2026-11-13T17:22:41.884558Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.219277Z",
+   "updated_at": "2026-11-13T17:22:41.884792Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.219498Z",
+   "updated_at": "2026-11-13T17:22:41.885062Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.219722Z",
+   "updated_at": "2026-11-13T17:22:41.885344Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.219935Z",
+   "updated_at": "2026-11-13T17:22:41.885604Z",
    "needs_review": false
   },
   {
@@ -211,13 +211,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220279Z",
+   "updated_at": "2026-11-13T17:22:41.886013Z",
    "needs_review": false
   },
   {
-   "id": "2d0f52a1ae55e561",
+   "id": "87f8da79d47c22c3",
    "company_id": "embeddedart",
-   "field": "innovation",
+   "field": "collaboration",
    "value": "Granit Teknikbyrå joined EmbeddedArt Group on 1 January 2026",
    "status": "fact",
    "source_page_id": "b0822e5e5d3595b5",
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220495Z",
+   "updated_at": "2026-11-13T17:22:41.886265Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220631Z",
+   "updated_at": "2026-11-13T17:22:41.886434Z",
+   "needs_review": false
+  },
+  {
+   "id": "ff1e49858d0b1d65",
+   "company_id": "embeddedart",
+   "field": "contact",
+   "value": "Phone: +4670 982 2941",
+   "status": "fact",
+   "source_page_id": "9f884c3f1c1c0fcb",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.887770Z",
+   "needs_review": false
+  },
+  {
+   "id": "9825d69c56467490",
+   "company_id": "embeddedart",
+   "field": "contact",
+   "value": "Contact page: https://www.embeddedart.se/kontakt",
+   "status": "fact",
+   "source_page_id": "b0822e5e5d3595b5",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.887784Z",
+   "needs_review": false
+  },
+  {
+   "id": "b3a67cde11f73d0e",
+   "company_id": "embeddedart",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:41.887790Z",
    "needs_review": false
   },
   {
@@ -268,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220638Z",
+   "updated_at": "2026-11-13T17:22:41.887794Z",
    "needs_review": false
   },
   {
@@ -287,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220642Z",
+   "updated_at": "2026-11-13T17:22:41.887797Z",
    "needs_review": false
   },
   {
@@ -306,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220645Z",
+   "updated_at": "2026-11-13T17:22:41.887800Z",
    "needs_review": false
   },
   {
@@ -325,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220647Z",
+   "updated_at": "2026-11-13T17:22:41.887803Z",
    "needs_review": false
   },
   {
@@ -344,26 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220650Z",
-   "needs_review": false
-  },
-  {
-   "id": "eaf19041934393b8",
-   "company_id": "embeddedart",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220653Z",
+   "updated_at": "2026-11-13T17:22:41.887805Z",
    "needs_review": false
   },
   {
@@ -382,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220656Z",
+   "updated_at": "2026-11-13T17:22:41.887809Z",
    "needs_review": false
   },
   {
@@ -401,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220661Z",
+   "updated_at": "2026-11-13T17:22:41.887815Z",
    "needs_review": false
   },
   {
@@ -420,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:39:49.220666Z",
+   "updated_at": "2026-11-13T17:22:41.887820Z",
    "needs_review": false
   }
  ],

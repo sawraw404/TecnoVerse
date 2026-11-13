@@ -67,6 +67,11 @@ st.caption(
     f"{counts['fact']} facts, {counts['inferred']} inferred, {counts['missing']} fields with nothing found. "
     "Facts are backed by a quote found on the page. Inferred items are the system's guesses."
 )
+if profile.extracted_by.startswith("Claude Code"):
+    st.warning(f"SIMULATED extraction: read by {profile.extracted_by}, not by the app's own Profiler. "
+               "Quotes were still checked against the stored page text.")
+else:
+    st.caption(f"Extracted by: {profile.extracted_by}")
 
 for field, title in FIELD_LABELS.items():
     items = [i for i in shown if i.field == field]

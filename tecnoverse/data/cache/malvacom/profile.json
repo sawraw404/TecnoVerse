@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.436516Z",
+   "updated_at": "2026-11-13T17:22:42.538744Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.440848Z",
+   "updated_at": "2026-11-13T17:22:42.543131Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.444735Z",
+   "updated_at": "2026-11-13T17:22:42.547243Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.449154Z",
+   "updated_at": "2026-11-13T17:22:42.551820Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.453424Z",
+   "updated_at": "2026-11-13T17:22:42.555844Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.457661Z",
+   "updated_at": "2026-11-13T17:22:42.559779Z",
    "needs_review": false
   },
   {
@@ -200,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.460285Z",
+   "updated_at": "2026-11-13T17:22:42.562329Z",
    "needs_review": false
   },
   {
@@ -219,7 +219,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462809Z",
+   "updated_at": "2026-11-13T17:22:42.564766Z",
+   "needs_review": false
+  },
+  {
+   "id": "8360ee5c4b4c9057",
+   "company_id": "malvacom",
+   "field": "contact",
+   "value": "Contact page: https://malvacom.com/kontakt",
+   "status": "fact",
+   "source_page_id": "6d5d925afb54410e",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:42.564779Z",
    "needs_review": false
   },
   {
@@ -238,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462828Z",
+   "updated_at": "2026-11-13T17:22:42.564786Z",
    "needs_review": false
   },
   {
@@ -257,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462837Z",
+   "updated_at": "2026-11-13T17:22:42.564790Z",
    "needs_review": false
   },
   {
@@ -276,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462841Z",
+   "updated_at": "2026-11-13T17:22:42.564794Z",
    "needs_review": false
   },
   {
@@ -295,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462845Z",
+   "updated_at": "2026-11-13T17:22:42.564798Z",
    "needs_review": false
   },
   {
@@ -314,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462850Z",
+   "updated_at": "2026-11-13T17:22:42.564801Z",
    "needs_review": false
   },
   {
@@ -333,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462854Z",
+   "updated_at": "2026-11-13T17:22:42.564805Z",
    "needs_review": false
   },
   {
@@ -352,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462867Z",
+   "updated_at": "2026-11-13T17:22:42.564811Z",
    "needs_review": false
   },
   {
@@ -371,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.462876Z",
+   "updated_at": "2026-11-13T17:22:42.564816Z",
    "needs_review": false
   }
  ],

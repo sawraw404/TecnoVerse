@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.969491Z",
+   "updated_at": "2026-11-13T17:22:45.029978Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.969951Z",
+   "updated_at": "2026-11-13T17:22:45.030405Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.970401Z",
+   "updated_at": "2026-11-13T17:22:45.030826Z",
    "needs_review": false
   },
   {
@@ -163,26 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.970824Z",
-   "needs_review": false
-  },
-  {
-   "id": "22d1c9491a77177d",
-   "company_id": "eurocon-engineering",
-   "field": "innovation",
-   "value": "Subsidiary pidab AB merged into Eurocon Engineering AB on 1 July",
-   "status": "fact",
-   "source_page_id": "00b88469e0a8f206",
-   "quote": "För Robert Bylin, vd för Eurocon Engineering AB, och Per Forsbring, vd för pidab AB",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971207Z",
+   "updated_at": "2026-11-13T17:22:45.031234Z",
    "needs_review": false
   },
   {
@@ -201,7 +182,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971481Z",
+   "updated_at": "2026-11-13T17:22:45.031501Z",
+   "needs_review": false
+  },
+  {
+   "id": "3d84887185e785ea",
+   "company_id": "eurocon-engineering",
+   "field": "contact",
+   "value": "Phone: 0660-29 56 00",
+   "status": "fact",
+   "source_page_id": "253c0000836f0d4d",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.031764Z",
+   "needs_review": false
+  },
+  {
+   "id": "9dd55324c9c5e503",
+   "company_id": "eurocon-engineering",
+   "field": "contact",
+   "value": "Contact page: https://www.eurocon.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "253c0000836f0d4d",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.031774Z",
+   "needs_review": false
+  },
+  {
+   "id": "c1c52fa30e5bcf2b",
+   "company_id": "eurocon-engineering",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.031780Z",
    "needs_review": false
   },
   {
@@ -220,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971488Z",
+   "updated_at": "2026-11-13T17:22:45.031784Z",
    "needs_review": false
   },
   {
@@ -239,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971492Z",
+   "updated_at": "2026-11-13T17:22:45.031787Z",
    "needs_review": false
   },
   {
@@ -258,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971495Z",
+   "updated_at": "2026-11-13T17:22:45.031790Z",
    "needs_review": false
   },
   {
@@ -277,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971498Z",
+   "updated_at": "2026-11-13T17:22:45.031793Z",
    "needs_review": false
   },
   {
@@ -296,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971500Z",
+   "updated_at": "2026-11-13T17:22:45.031795Z",
    "needs_review": false
   },
   {
@@ -315,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971503Z",
+   "updated_at": "2026-11-13T17:22:45.031798Z",
    "needs_review": false
   },
   {
@@ -334,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971506Z",
+   "updated_at": "2026-11-13T17:22:45.031801Z",
    "needs_review": false
   },
   {
@@ -353,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.971512Z",
+   "updated_at": "2026-11-13T17:22:45.031806Z",
    "needs_review": false
   }
  ],

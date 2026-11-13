@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.005120Z",
+   "updated_at": "2026-11-13T17:22:45.067042Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.005577Z",
+   "updated_at": "2026-11-13T17:22:45.067490Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.006128Z",
+   "updated_at": "2026-11-13T17:22:45.068037Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.006488Z",
+   "updated_at": "2026-11-13T17:22:45.068386Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.006756Z",
+   "updated_at": "2026-11-13T17:22:45.068646Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007326Z",
+   "updated_at": "2026-11-13T17:22:45.069213Z",
+   "needs_review": false
+  },
+  {
+   "id": "7df606e877d6d409",
+   "company_id": "sodra-cell-morrum",
+   "field": "contact",
+   "value": "Contact page: https://www.sodra.com/sv/se/kontakta-oss/",
+   "status": "fact",
+   "source_page_id": "522ee339bc72f0a4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.069225Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007332Z",
+   "updated_at": "2026-11-13T17:22:45.069230Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007337Z",
+   "updated_at": "2026-11-13T17:22:45.069234Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007340Z",
+   "updated_at": "2026-11-13T17:22:45.069237Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007343Z",
+   "updated_at": "2026-11-13T17:22:45.069240Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007346Z",
+   "updated_at": "2026-11-13T17:22:45.069243Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007349Z",
+   "updated_at": "2026-11-13T17:22:45.069245Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007352Z",
+   "updated_at": "2026-11-13T17:22:45.069248Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007354Z",
+   "updated_at": "2026-11-13T17:22:45.069251Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007358Z",
+   "updated_at": "2026-11-13T17:22:45.069254Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.007365Z",
+   "updated_at": "2026-11-13T17:22:45.069260Z",
    "needs_review": false
   }
  ],

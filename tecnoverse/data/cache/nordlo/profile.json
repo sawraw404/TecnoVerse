@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.996920Z",
+   "updated_at": "2026-11-13T17:22:45.059584Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.998124Z",
+   "updated_at": "2026-11-13T17:22:45.060734Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.999265Z",
+   "updated_at": "2026-11-13T17:22:45.061868Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000282Z",
+   "updated_at": "2026-11-13T17:22:45.062866Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000971Z",
+   "updated_at": "2026-11-13T17:22:45.063552Z",
+   "needs_review": false
+  },
+  {
+   "id": "62bfb4ae70a822de",
+   "company_id": "nordlo",
+   "field": "contact",
+   "value": "Contact page: https://nordlo.com/kontakt/bli-kund",
+   "status": "fact",
+   "source_page_id": "3dd4cec8cc065ad9",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.063566Z",
    "needs_review": false
   },
   {
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000979Z",
+   "updated_at": "2026-11-13T17:22:45.063571Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000984Z",
+   "updated_at": "2026-11-13T17:22:45.063576Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000988Z",
+   "updated_at": "2026-11-13T17:22:45.063579Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000991Z",
+   "updated_at": "2026-11-13T17:22:45.063582Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000994Z",
+   "updated_at": "2026-11-13T17:22:45.063585Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.000997Z",
+   "updated_at": "2026-11-13T17:22:45.063588Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.001001Z",
+   "updated_at": "2026-11-13T17:22:45.063591Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.001004Z",
+   "updated_at": "2026-11-13T17:22:45.063594Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.001008Z",
+   "updated_at": "2026-11-13T17:22:45.063597Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:36.001014Z",
+   "updated_at": "2026-11-13T17:22:45.063604Z",
    "needs_review": false
   }
  ],

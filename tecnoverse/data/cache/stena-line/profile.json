@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.787172Z",
+   "updated_at": "2026-11-13T17:22:43.780460Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.787869Z",
+   "updated_at": "2026-11-13T17:22:43.781195Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.788425Z",
+   "updated_at": "2026-11-13T17:22:43.781787Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789062Z",
+   "updated_at": "2026-11-13T17:22:43.782361Z",
+   "needs_review": false
+  },
+  {
+   "id": "5970518efb3a097a",
+   "company_id": "stena-line",
+   "field": "contact",
+   "value": "Contact page: https://www.stenaline.se/kundtjanst/kontakta-oss",
+   "status": "fact",
+   "source_page_id": "184773d1c4989253",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.782375Z",
    "needs_review": false
   },
   {
@@ -192,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789072Z",
+   "updated_at": "2026-11-13T17:22:43.782384Z",
    "needs_review": false
   },
   {
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789080Z",
+   "updated_at": "2026-11-13T17:22:43.782390Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789085Z",
+   "updated_at": "2026-11-13T17:22:43.782393Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789088Z",
+   "updated_at": "2026-11-13T17:22:43.782397Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789091Z",
+   "updated_at": "2026-11-13T17:22:43.782400Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789095Z",
+   "updated_at": "2026-11-13T17:22:43.782404Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789098Z",
+   "updated_at": "2026-11-13T17:22:43.782407Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789102Z",
+   "updated_at": "2026-11-13T17:22:43.782410Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789106Z",
+   "updated_at": "2026-11-13T17:22:43.782415Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.789121Z",
+   "updated_at": "2026-11-13T17:22:43.782426Z",
    "needs_review": false
   }
  ],

@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.390607Z",
+   "updated_at": "2026-11-13T17:22:42.485300Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.391205Z",
+   "updated_at": "2026-11-13T17:22:42.485897Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.392016Z",
+   "updated_at": "2026-11-13T17:22:42.486678Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.392537Z",
+   "updated_at": "2026-11-13T17:22:42.487202Z",
    "needs_review": false
   },
   {
@@ -192,26 +192,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393101Z",
+   "updated_at": "2026-11-13T17:22:42.487776Z",
    "needs_review": false
   },
   {
-   "id": "0dab3caf126f74db",
+   "id": "8771a9ebf9970955",
    "company_id": "hiq",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Phone: 013-21 04 60",
+   "status": "fact",
+   "source_page_id": "5d3daf88e7fa15c4",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393109Z",
+   "updated_at": "2026-11-13T17:22:42.492048Z",
+   "needs_review": false
+  },
+  {
+   "id": "64360b627c166e5d",
+   "company_id": "hiq",
+   "field": "contact",
+   "value": "Contact page: https://hiq.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "1242aaa2a14db906",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:42.492074Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393114Z",
+   "updated_at": "2026-11-13T17:22:42.492084Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393118Z",
+   "updated_at": "2026-11-13T17:22:42.492089Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393121Z",
+   "updated_at": "2026-11-13T17:22:42.492093Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393124Z",
+   "updated_at": "2026-11-13T17:22:42.492097Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393127Z",
+   "updated_at": "2026-11-13T17:22:42.492100Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393130Z",
+   "updated_at": "2026-11-13T17:22:42.492107Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393133Z",
+   "updated_at": "2026-11-13T17:22:42.492111Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393137Z",
+   "updated_at": "2026-11-13T17:22:42.492115Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393145Z",
+   "updated_at": "2026-11-13T17:22:42.492128Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.393151Z",
+   "updated_at": "2026-11-13T17:22:42.492134Z",
    "needs_review": false
   }
  ],

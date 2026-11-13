@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.723402Z",
+   "updated_at": "2026-11-13T17:22:43.160202Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.726109Z",
+   "updated_at": "2026-11-13T17:22:43.162691Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.728432Z",
+   "updated_at": "2026-11-13T17:22:43.164949Z",
    "needs_review": false
   },
   {
@@ -173,13 +173,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.729585Z",
+   "updated_at": "2026-11-13T17:22:43.166147Z",
    "needs_review": false
   },
   {
-   "id": "a468f595a4e3b123",
+   "id": "02f5fbcefa56bd1d",
    "company_id": "nexer",
-   "field": "innovation",
+   "field": "collaboration",
    "value": "Strategic partnership with COSMO Partner Solutions for Microsoft-based business software",
    "status": "fact",
    "source_page_id": "f4ee9bf9dc13124e",
@@ -192,16 +192,16 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.730593Z",
+   "updated_at": "2026-11-13T17:22:43.167212Z",
    "needs_review": false
   },
   {
-   "id": "4765a1a97b38b255",
+   "id": "0d401188510783e3",
    "company_id": "nexer",
    "field": "contact",
-   "value": "Email: info@nexergroup.com",
+   "value": "Email: info@holisticon.de",
    "status": "fact",
-   "source_page_id": "ec2f36b62c548ed2",
+   "source_page_id": "1c4df6fca817ef3a",
    "quote": "",
    "quote_verified": true,
    "reasoning": null,
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.732005Z",
+   "updated_at": "2026-11-13T17:22:43.174211Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739020Z",
+   "updated_at": "2026-11-13T17:22:43.180844Z",
+   "needs_review": false
+  },
+  {
+   "id": "7d1a02f05a3b89b9",
+   "company_id": "nexer",
+   "field": "contact",
+   "value": "Contact page: https://nexergroup.com/contact/",
+   "status": "fact",
+   "source_page_id": "ec2f36b62c548ed2",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.180862Z",
+   "needs_review": false
+  },
+  {
+   "id": "4dfd3b7c445665ef",
+   "company_id": "nexer",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.180871Z",
    "needs_review": false
   },
   {
@@ -249,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739044Z",
+   "updated_at": "2026-11-13T17:22:43.180877Z",
    "needs_review": false
   },
   {
@@ -268,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739051Z",
+   "updated_at": "2026-11-13T17:22:43.180881Z",
    "needs_review": false
   },
   {
@@ -287,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739055Z",
+   "updated_at": "2026-11-13T17:22:43.180885Z",
    "needs_review": false
   },
   {
@@ -306,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739059Z",
+   "updated_at": "2026-11-13T17:22:43.180888Z",
    "needs_review": false
   },
   {
@@ -325,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739067Z",
+   "updated_at": "2026-11-13T17:22:43.180892Z",
    "needs_review": false
   },
   {
@@ -344,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739071Z",
+   "updated_at": "2026-11-13T17:22:43.180896Z",
    "needs_review": false
   },
   {
@@ -363,26 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739075Z",
-   "needs_review": false
-  },
-  {
-   "id": "27bb69ff256ab115",
-   "company_id": "nexer",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739078Z",
+   "updated_at": "2026-11-13T17:22:43.180899Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739082Z",
+   "updated_at": "2026-11-13T17:22:43.180903Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739094Z",
+   "updated_at": "2026-11-13T17:22:43.180914Z",
    "needs_review": false
   },
   {
@@ -439,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.739101Z",
+   "updated_at": "2026-11-13T17:22:43.180920Z",
    "needs_review": false
   }
  ],

@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.958626Z",
+   "updated_at": "2026-11-13T17:22:45.020324Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.959482Z",
+   "updated_at": "2026-11-13T17:22:45.021068Z",
    "needs_review": false
   },
   {
@@ -154,26 +154,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960188Z",
+   "updated_at": "2026-11-13T17:22:45.021747Z",
    "needs_review": false
   },
   {
-   "id": "69623169ec1dbbcf",
+   "id": "1a51b1643e4138ee",
    "company_id": "dfds-seaways",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://www.dfds.com/sv-se/passagerarfartyg/kundservice/kontakt",
+   "status": "fact",
+   "source_page_id": "14158252d49dd78e",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960197Z",
+   "updated_at": "2026-11-13T17:22:45.021766Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960203Z",
+   "updated_at": "2026-11-13T17:22:45.021773Z",
    "needs_review": false
   },
   {
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960207Z",
+   "updated_at": "2026-11-13T17:22:45.021777Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960210Z",
+   "updated_at": "2026-11-13T17:22:45.021781Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960215Z",
+   "updated_at": "2026-11-13T17:22:45.021784Z",
    "needs_review": false
   },
   {
@@ -268,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960218Z",
+   "updated_at": "2026-11-13T17:22:45.021787Z",
    "needs_review": false
   },
   {
@@ -287,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960221Z",
+   "updated_at": "2026-11-13T17:22:45.021790Z",
    "needs_review": false
   },
   {
@@ -306,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960225Z",
+   "updated_at": "2026-11-13T17:22:45.021792Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960228Z",
+   "updated_at": "2026-11-13T17:22:45.021795Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960232Z",
+   "updated_at": "2026-11-13T17:22:45.021798Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:44:35.960239Z",
+   "updated_at": "2026-11-13T17:22:45.021804Z",
    "needs_review": false
   }
  ],

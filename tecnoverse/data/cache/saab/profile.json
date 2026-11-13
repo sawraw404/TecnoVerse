@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.770855Z",
+   "updated_at": "2026-11-13T17:22:43.212801Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.771414Z",
+   "updated_at": "2026-11-13T17:22:43.213264Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.772045Z",
+   "updated_at": "2026-11-13T17:22:43.213916Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.772749Z",
+   "updated_at": "2026-11-13T17:22:43.214569Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.773613Z",
+   "updated_at": "2026-11-13T17:22:43.215222Z",
    "needs_review": false
   },
   {
@@ -216,7 +216,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.774288Z",
+   "updated_at": "2026-11-13T17:22:43.215868Z",
    "needs_review": false
   },
   {
@@ -235,7 +235,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.775154Z",
+   "updated_at": "2026-11-13T17:22:43.216540Z",
    "needs_review": false
   },
   {
@@ -254,7 +254,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778604Z",
+   "updated_at": "2026-11-13T17:22:43.219961Z",
+   "needs_review": false
+  },
+  {
+   "id": "458ff2881266e902",
+   "company_id": "saab",
+   "field": "contact",
+   "value": "Contact page: https://www.saab.com/newsroom/media-contact",
+   "status": "fact",
+   "source_page_id": "d0faefe73f73acc4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.219979Z",
    "needs_review": false
   },
   {
@@ -273,7 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778616Z",
+   "updated_at": "2026-11-13T17:22:43.219988Z",
    "needs_review": false
   },
   {
@@ -292,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778621Z",
+   "updated_at": "2026-11-13T17:22:43.219992Z",
    "needs_review": false
   },
   {
@@ -311,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778625Z",
+   "updated_at": "2026-11-13T17:22:43.219996Z",
    "needs_review": false
   },
   {
@@ -330,7 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778629Z",
+   "updated_at": "2026-11-13T17:22:43.219999Z",
    "needs_review": false
   },
   {
@@ -349,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778631Z",
+   "updated_at": "2026-11-13T17:22:43.220003Z",
    "needs_review": false
   },
   {
@@ -368,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778634Z",
+   "updated_at": "2026-11-13T17:22:43.220006Z",
    "needs_review": false
   },
   {
@@ -387,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778638Z",
+   "updated_at": "2026-11-13T17:22:43.220010Z",
    "needs_review": false
   },
   {
@@ -406,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778646Z",
+   "updated_at": "2026-11-13T17:22:43.220017Z",
    "needs_review": false
   },
   {
@@ -425,7 +444,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.778651Z",
+   "updated_at": "2026-11-13T17:22:43.220022Z",
    "needs_review": false
   }
  ],

@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.793033Z",
+   "updated_at": "2026-11-13T17:22:43.234154Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.793638Z",
+   "updated_at": "2026-11-13T17:22:43.234620Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.794182Z",
+   "updated_at": "2026-11-13T17:22:43.234969Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.794589Z",
+   "updated_at": "2026-11-13T17:22:43.235243Z",
    "needs_review": false
   },
   {
@@ -192,13 +192,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.795036Z",
+   "updated_at": "2026-11-13T17:22:43.235511Z",
    "needs_review": false
   },
   {
-   "id": "ea56406f7e7afc6d",
+   "id": "7f8ca99841f7f823",
    "company_id": "spirius",
-   "field": "innovation",
+   "field": "project",
    "value": "Spiris chose Spirius as supplier of smart messaging services",
    "status": "fact",
    "source_page_id": "b9097bebf2f2407b",
@@ -211,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.795376Z",
+   "updated_at": "2026-11-13T17:22:43.235734Z",
    "needs_review": false
   },
   {
@@ -230,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.795778Z",
+   "updated_at": "2026-11-13T17:22:43.236025Z",
    "needs_review": false
   },
   {
@@ -249,7 +249,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796159Z",
+   "updated_at": "2026-11-13T17:22:43.236317Z",
+   "needs_review": false
+  },
+  {
+   "id": "4d3be7488d8c4b62",
+   "company_id": "spirius",
+   "field": "contact",
+   "value": "Contact page: https://www.spirius.com/sv/kontakt",
+   "status": "fact",
+   "source_page_id": "c911e25fefee9811",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.236335Z",
+   "needs_review": false
+  },
+  {
+   "id": "90d701102b84c0d0",
+   "company_id": "spirius",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.236343Z",
    "needs_review": false
   },
   {
@@ -268,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796168Z",
+   "updated_at": "2026-11-13T17:22:43.236349Z",
    "needs_review": false
   },
   {
@@ -287,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796173Z",
+   "updated_at": "2026-11-13T17:22:43.236353Z",
    "needs_review": false
   },
   {
@@ -306,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796177Z",
+   "updated_at": "2026-11-13T17:22:43.236357Z",
    "needs_review": false
   },
   {
@@ -325,26 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796182Z",
-   "needs_review": false
-  },
-  {
-   "id": "762ada0334782571",
-   "company_id": "spirius",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796186Z",
+   "updated_at": "2026-11-13T17:22:43.236361Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796191Z",
+   "updated_at": "2026-11-13T17:22:43.236364Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796195Z",
+   "updated_at": "2026-11-13T17:22:43.236368Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796203Z",
+   "updated_at": "2026-11-13T17:22:43.236376Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.796208Z",
+   "updated_at": "2026-11-13T17:22:43.236382Z",
    "needs_review": false
   }
  ],

@@ -51,7 +51,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.811010Z",
+   "updated_at": "2026-11-13T17:22:43.804114Z",
    "needs_review": false
   },
   {
@@ -70,7 +70,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.811833Z",
+   "updated_at": "2026-11-13T17:22:43.804980Z",
    "needs_review": false
   },
   {
@@ -89,7 +89,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.812838Z",
+   "updated_at": "2026-11-13T17:22:43.805791Z",
    "needs_review": false
   },
   {
@@ -108,7 +108,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.813698Z",
+   "updated_at": "2026-11-13T17:22:43.806592Z",
    "needs_review": false
   },
   {
@@ -127,7 +127,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.814445Z",
+   "updated_at": "2026-11-13T17:22:43.807412Z",
    "needs_review": false
   },
   {
@@ -146,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815227Z",
+   "updated_at": "2026-11-13T17:22:43.808208Z",
    "needs_review": false
   },
   {
@@ -165,7 +165,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815791Z",
+   "updated_at": "2026-11-13T17:22:43.808710Z",
+   "needs_review": false
+  },
+  {
+   "id": "b2380a010d107b26",
+   "company_id": "yellowfish",
+   "field": "contact",
+   "value": "Phone: +46 703 997815",
+   "status": "fact",
+   "source_page_id": "97d9af4646332a8d",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.809218Z",
    "needs_review": false
   },
   {
@@ -184,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815801Z",
+   "updated_at": "2026-11-13T17:22:43.809224Z",
    "needs_review": false
   },
   {
@@ -203,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815805Z",
+   "updated_at": "2026-11-13T17:22:43.809228Z",
    "needs_review": false
   },
   {
@@ -222,7 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815810Z",
+   "updated_at": "2026-11-13T17:22:43.809231Z",
    "needs_review": false
   },
   {
@@ -241,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815813Z",
+   "updated_at": "2026-11-13T17:22:43.809234Z",
    "needs_review": false
   },
   {
@@ -260,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815816Z",
+   "updated_at": "2026-11-13T17:22:43.809253Z",
    "needs_review": false
   },
   {
@@ -279,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815819Z",
+   "updated_at": "2026-11-13T17:22:43.809257Z",
    "needs_review": false
   },
   {
@@ -298,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815823Z",
+   "updated_at": "2026-11-13T17:22:43.809260Z",
    "needs_review": false
   },
   {
@@ -317,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815828Z",
+   "updated_at": "2026-11-13T17:22:43.809266Z",
    "needs_review": false
   },
   {
@@ -336,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.815833Z",
+   "updated_at": "2026-11-13T17:22:43.809270Z",
    "needs_review": false
   }
  ],

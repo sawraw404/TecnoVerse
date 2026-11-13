@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809103Z",
+   "updated_at": "2026-11-13T17:22:43.801536Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809277Z",
+   "updated_at": "2026-11-13T17:22:43.801862Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809432Z",
+   "updated_at": "2026-11-13T17:22:43.802112Z",
    "needs_review": false
   },
   {
@@ -113,26 +113,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809582Z",
+   "updated_at": "2026-11-13T17:22:43.802314Z",
    "needs_review": false
   },
   {
-   "id": "a7effe97ffc17547",
+   "id": "a3c1134dfa7a04a2",
    "company_id": "wip",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Phone: +46 455 33 98 00",
+   "status": "fact",
+   "source_page_id": "848b7d9fbefa20f4",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809587Z",
+   "updated_at": "2026-11-13T17:22:43.802426Z",
+   "needs_review": false
+  },
+  {
+   "id": "dc86c0ff15f117b3",
+   "company_id": "wip",
+   "field": "contact",
+   "value": "Contact page: https://www.wip.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "848b7d9fbefa20f4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:43.802438Z",
    "needs_review": false
   },
   {
@@ -151,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809590Z",
+   "updated_at": "2026-11-13T17:22:43.802444Z",
    "needs_review": false
   },
   {
@@ -170,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809594Z",
+   "updated_at": "2026-11-13T17:22:43.802448Z",
    "needs_review": false
   },
   {
@@ -189,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809596Z",
+   "updated_at": "2026-11-13T17:22:43.802452Z",
    "needs_review": false
   },
   {
@@ -208,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809599Z",
+   "updated_at": "2026-11-13T17:22:43.802455Z",
    "needs_review": false
   },
   {
@@ -227,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809602Z",
+   "updated_at": "2026-11-13T17:22:43.802457Z",
    "needs_review": false
   },
   {
@@ -246,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809604Z",
+   "updated_at": "2026-11-13T17:22:43.802461Z",
    "needs_review": false
   },
   {
@@ -265,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809607Z",
+   "updated_at": "2026-11-13T17:22:43.802464Z",
    "needs_review": false
   },
   {
@@ -284,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809610Z",
+   "updated_at": "2026-11-13T17:22:43.802467Z",
    "needs_review": false
   },
   {
@@ -303,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809613Z",
+   "updated_at": "2026-11-13T17:22:43.802470Z",
    "needs_review": false
   },
   {
@@ -322,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809615Z",
+   "updated_at": "2026-11-13T17:22:43.802473Z",
    "needs_review": false
   },
   {
@@ -341,7 +360,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:50.809620Z",
+   "updated_at": "2026-11-13T17:22:43.802479Z",
    "needs_review": false
   }
  ],

@@ -66,7 +66,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.420158Z",
+   "updated_at": "2026-11-13T17:22:42.522680Z",
    "needs_review": false
   },
   {
@@ -85,7 +85,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.420480Z",
+   "updated_at": "2026-11-13T17:22:42.523013Z",
    "needs_review": false
   },
   {
@@ -104,7 +104,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.420814Z",
+   "updated_at": "2026-11-13T17:22:42.523338Z",
    "needs_review": false
   },
   {
@@ -123,7 +123,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421142Z",
+   "updated_at": "2026-11-13T17:22:42.523701Z",
    "needs_review": false
   },
   {
@@ -142,7 +142,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421342Z",
+   "updated_at": "2026-11-13T17:22:42.523954Z",
    "needs_review": false
   },
   {
@@ -161,7 +161,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421534Z",
+   "updated_at": "2026-11-13T17:22:42.524190Z",
+   "needs_review": false
+  },
+  {
+   "id": "8dccb1bd334b0c27",
+   "company_id": "lassen-construction",
+   "field": "contact",
+   "value": "Contact page: https://www.lcab.se/kontakt/",
+   "status": "fact",
+   "source_page_id": "a68b07470144d2cc",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:42.524204Z",
    "needs_review": false
   },
   {
@@ -180,7 +199,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421540Z",
+   "updated_at": "2026-11-13T17:22:42.524211Z",
    "needs_review": false
   },
   {
@@ -199,7 +218,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421544Z",
+   "updated_at": "2026-11-13T17:22:42.524217Z",
    "needs_review": false
   },
   {
@@ -218,7 +237,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421547Z",
+   "updated_at": "2026-11-13T17:22:42.524220Z",
    "needs_review": false
   },
   {
@@ -237,7 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421551Z",
+   "updated_at": "2026-11-13T17:22:42.524224Z",
    "needs_review": false
   },
   {
@@ -256,7 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421554Z",
+   "updated_at": "2026-11-13T17:22:42.524228Z",
    "needs_review": false
   },
   {
@@ -275,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421557Z",
+   "updated_at": "2026-11-13T17:22:42.524232Z",
    "needs_review": false
   },
   {
@@ -294,7 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421559Z",
+   "updated_at": "2026-11-13T17:22:42.524235Z",
    "needs_review": false
   },
   {
@@ -313,7 +332,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421562Z",
+   "updated_at": "2026-11-13T17:22:42.524239Z",
    "needs_review": false
   },
   {
@@ -332,7 +351,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421565Z",
+   "updated_at": "2026-11-13T17:22:42.524243Z",
    "needs_review": false
   },
   {
@@ -351,7 +370,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:41:02.421571Z",
+   "updated_at": "2026-11-13T17:22:42.524250Z",
    "needs_review": false
   }
  ],

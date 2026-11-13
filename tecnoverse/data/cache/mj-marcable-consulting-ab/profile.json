@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713069Z",
+   "updated_at": "2026-11-13T17:22:43.156358Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713163Z",
+   "updated_at": "2026-11-13T17:22:43.156454Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713447Z",
+   "updated_at": "2026-11-13T17:22:43.156742Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713563Z",
+   "updated_at": "2026-11-13T17:22:43.156858Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713632Z",
+   "updated_at": "2026-11-13T17:22:43.156928Z",
    "needs_review": false
   },
   {
@@ -181,26 +181,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713877Z",
+   "updated_at": "2026-11-13T17:22:43.157156Z",
    "needs_review": false
   },
   {
-   "id": "0e2c1cb536c9afe0",
+   "id": "3aa7390cb7bd289d",
    "company_id": "mj-marcable-consulting-ab",
    "field": "contact",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Contact page: https://www.marcable-consulting.com/kontakt/",
+   "status": "fact",
+   "source_page_id": "5aacd1450ccd815c",
+   "quote": "",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713883Z",
+   "updated_at": "2026-11-13T17:22:43.157174Z",
    "needs_review": false
   },
   {
@@ -219,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713891Z",
+   "updated_at": "2026-11-13T17:22:43.157182Z",
    "needs_review": false
   },
   {
@@ -238,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713895Z",
+   "updated_at": "2026-11-13T17:22:43.157187Z",
    "needs_review": false
   },
   {
@@ -257,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713899Z",
+   "updated_at": "2026-11-13T17:22:43.157190Z",
    "needs_review": false
   },
   {
@@ -276,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713903Z",
+   "updated_at": "2026-11-13T17:22:43.157194Z",
    "needs_review": false
   },
   {
@@ -295,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713907Z",
+   "updated_at": "2026-11-13T17:22:43.157197Z",
    "needs_review": false
   },
   {
@@ -314,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713910Z",
+   "updated_at": "2026-11-13T17:22:43.157200Z",
    "needs_review": false
   },
   {
@@ -333,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713914Z",
+   "updated_at": "2026-11-13T17:22:43.157204Z",
    "needs_review": false
   },
   {
@@ -352,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:42:03.713923Z",
+   "updated_at": "2026-11-13T17:22:43.157214Z",
    "needs_review": false
   }
  ],

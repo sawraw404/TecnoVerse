@@ -66,7 +66,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.837708Z",
+   "updated_at": "2026-11-13T17:22:45.654456Z",
    "needs_review": false
   },
   {
@@ -85,7 +85,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.838021Z",
+   "updated_at": "2026-11-13T17:22:45.654773Z",
    "needs_review": false
   },
   {
@@ -104,7 +104,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.838312Z",
+   "updated_at": "2026-11-13T17:22:45.655065Z",
    "needs_review": false
   },
   {
@@ -123,7 +123,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.838629Z",
+   "updated_at": "2026-11-13T17:22:45.655347Z",
    "needs_review": false
   },
   {
@@ -142,7 +142,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.838831Z",
+   "updated_at": "2026-11-13T17:22:45.655543Z",
    "needs_review": false
   },
   {
@@ -161,7 +161,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839039Z",
+   "updated_at": "2026-11-13T17:22:45.655729Z",
+   "needs_review": false
+  },
+  {
+   "id": "83ac7f96bcf35fa9",
+   "company_id": "vegoil",
+   "field": "contact",
+   "value": "Contact page: https://vegoil.se/om-kontakt/",
+   "status": "fact",
+   "source_page_id": "587ea0e79931b33f",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-13T17:22:45.655740Z",
    "needs_review": false
   },
   {
@@ -180,7 +199,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839046Z",
+   "updated_at": "2026-11-13T17:22:45.655745Z",
    "needs_review": false
   },
   {
@@ -199,7 +218,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839051Z",
+   "updated_at": "2026-11-13T17:22:45.655749Z",
    "needs_review": false
   },
   {
@@ -218,7 +237,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839056Z",
+   "updated_at": "2026-11-13T17:22:45.655752Z",
    "needs_review": false
   },
   {
@@ -237,7 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839059Z",
+   "updated_at": "2026-11-13T17:22:45.655755Z",
    "needs_review": false
   },
   {
@@ -256,7 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839062Z",
+   "updated_at": "2026-11-13T17:22:45.655758Z",
    "needs_review": false
   },
   {
@@ -275,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839066Z",
+   "updated_at": "2026-11-13T17:22:45.655761Z",
    "needs_review": false
   },
   {
@@ -294,7 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839069Z",
+   "updated_at": "2026-11-13T17:22:45.655764Z",
    "needs_review": false
   },
   {
@@ -313,7 +332,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839072Z",
+   "updated_at": "2026-11-13T17:22:45.655767Z",
    "needs_review": false
   },
   {
@@ -332,7 +351,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:45:26.839078Z",
+   "updated_at": "2026-11-13T17:22:45.655772Z",
    "needs_review": false
   }
  ],
