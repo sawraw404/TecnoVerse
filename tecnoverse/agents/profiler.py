@@ -39,9 +39,11 @@ Rules:
   expertise = areas of know-how; application_area = where the offering is used; market = industries served;
   customer_group = types of customers; geography = locations and regions stated; project = named projects;
   collaboration = named partners or collaborations; priority = development priorities the company itself states.
-- `value`: one short item in English (max 12 words). One item per fact.
+- `value`: one short item in English (max 12 words). One item per fact, up to 5 items per field
+  where the pages support them.
 - `quote`: copied character for character from the page, in the page's own language, 5 to 30 words.
 - `source_url`: the url attribute of the <source_data> block the quote comes from.
+- At most 3 contact items: the general company email or phone first, then sales or business contacts.
 - Leave a field out if the pages say nothing about it."""
 
 INTERESTS_SYSTEM = """You suggest topics and opportunity types that MAY be relevant to a company, for a
@@ -99,6 +101,18 @@ def find_quote(quote: str, source_url: str, pages: list[SourcePage]) -> SourcePa
     return None
 
 
+def find_contact(value: str, pages: list[SourcePage]) -> SourcePage | None:
+    """A contact is evidenced when its email address or phone number appears on a page."""
+    emails = re.findall(r"[\w.+-]+@[\w-]+\.[\w.-]+", value.lower())
+    phones = [d for d in (re.sub(r"\D", "", p) for p in re.findall(r"\+?\d[\d\s()-]{6,}\d", value)) if len(d) >= 7]
+    for p in pages:
+        text = p.text.lower()
+        digits = re.sub(r"\D", "", p.text)
+        if any(e in text for e in emails) or any(d[-7:] in digits for d in phones):
+            return p
+    return None
+
+
 def _item(company_id: str, field: str, value: str, **kw) -> ProfileItem:
     item_id = hashlib.sha1(f"{company_id}|{field}|{value}".encode("utf-8")).hexdigest()[:16]
     return ProfileItem(id=item_id, company_id=company_id, field=field, value=value,
@@ -109,16 +123,22 @@ def build_items(company_id: str, facts: list[_Fact], pages: list[SourcePage]) ->
     """Turn LLM facts into ProfileItems, verifying each quote. Adds `missing` for empty fields."""
     items: dict[str, ProfileItem] = {}
     for f in facts:
-        page = find_quote(f.quote, f.source_url, pages)
+        page = find_quote(f.quote, f.source_url, pages) or (find_contact(f.value, pages) if f.field == "contact" else None)
         if page:
             item = _item(company_id, f.field, f.value.strip(), status="fact", source_page_id=page.id,
                          quote=f.quote, quote_verified=True, confidence=0.9)
         else:
             claimed = next((p for p in pages if p.url.rstrip("/") == f.source_url.rstrip("/")), None)
-            item = _item(company_id, f.field, f.value.strip(), status="inferred",
-                         source_page_id=claimed.id if claimed else None, quote=f.quote, quote_verified=False,
-                         reasoning="The supporting quote could not be found on the page, so this is not shown as a fact.",
-                         confidence=0.4, uncertain=True)
+            if f.field == "industry":  # a classification, not a statement on the page
+                item = _item(company_id, f.field, f.value.strip(), status="inferred",
+                             source_page_id=claimed.id if claimed else pages[0].id,
+                             reasoning="Classified by the system from the pages read; the company may describe itself differently.",
+                             confidence=0.7)
+            else:
+                item = _item(company_id, f.field, f.value.strip(), status="inferred",
+                             source_page_id=claimed.id if claimed else None, quote=f.quote, quote_verified=False,
+                             reasoning="The supporting quote could not be found on the page, so this is not shown as a fact.",
+                             confidence=0.4, uncertain=True)
         items.setdefault(item.id, item)
     found = {i.field for i in items.values()}
     for field in FACT_FIELDS:
@@ -177,9 +197,12 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     assert by_field["geography"].status == "inferred"
     assert by_field["technology"].status == "missing" and by_field["technology"].value == ""
     assert set(by_field) == set(FACT_FIELDS)
+    cpage = page.model_copy(update={"text": "Kontakt: info@acme.se eller 0455-12 34 56"})
+    assert find_contact("General: info@acme.se", [cpage]) and find_contact("Phone +46 455 12 34 56", [cpage])
+    assert find_contact("Anna, CEO: anna@acme.se", [cpage]) is None
     print("ok")
 
-    # Batch run: cd tecnoverse && python -m agents.profiler --all   (skips companies that already have a profile)
+    # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)
     import sys
     if "--all" in sys.argv:
         import json, time
@@ -194,4 +217,4 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
                 print(f"{n}/{len(companies)} {c['name']}: {sum(i.status == 'fact' for i in p.items)} facts", flush=True)
             except Exception as e:  # one bad site must not stop the batch
                 print(f"{n}/{len(companies)} {c['name']}: FAILED {type(e).__name__}: {str(e)[:200]}", flush=True)
-            time.sleep(8)  # stay under the Gemini free-tier requests-per-minute limit
+            time.sleep(4)  # stay under the Gemini free-tier requests-per-minute limit
