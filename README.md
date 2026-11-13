@@ -429,9 +429,23 @@ _Planned. Will be confirmed once implemented._
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
-copy .env.example .env          # add GEMINI_API_KEY and/or GROQ_API_KEY
+copy .env.example .env          # add GEMINI_API_KEY
 streamlit run park_pilot/app.py
 ```
+
+### Firebase / Firestore configuration
+
+The planned Python storage layer will use Firebase project `tecnoverse-2868a`.
+`.env.example` records the project ID and an optional
+`GOOGLE_APPLICATION_CREDENTIALS` path. These settings are examples for the
+storage implementation; Firestore is not connected yet.
+
+For local development, use [Application Default Credentials](https://cloud.google.com/docs/authentication/set-up-adc-local-dev)
+or point `GOOGLE_APPLICATION_CREDENTIALS` to a service-account JSON file outside
+the repository. Never commit that file or its contents. The Firebase web app
+configuration is for client SDKs and is not server authentication. Admin SDK
+credentials bypass Firestore Security Rules, so the server must enforce access
+controls itself.
 
 Set `PARK_PILOT_OFFLINE=1` to run fully from `data/cache/` with a local Ollama model.
 
