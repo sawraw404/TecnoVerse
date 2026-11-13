@@ -18,7 +18,7 @@ Don't add features none of these ask for.
 | Monitors | **3**: funding, events, testbeds | The demo edit is "testing is a priority"; without testbed items that edit has nothing to move. Testbeds may fall back to a curated list labelled SIMULATED. |
 | Funding source | **Vinnova** only | User's choice. EU Funding & Tenders is a next step. |
 | Events sources | Blue Science Park, BTH, **and Ericsson** if its page parses | Plan lists all three; one more URL in the same monitor. Skip Ericsson rather than fight it. |
-| LLM | **Gemini → Ollama**. No Groq. | Ollama is installed and ready; a third provider is a second key and code path for no demo gain. Add Groq only if Gemini limits actually bite. |
+| LLM | **Gemini only.** No Ollama, no Groq. | User decision (13 Nov): one provider, one key, one code path. |
 | Vector search | **numpy cosine**; embeddings stored as arrays on the documents. No Chroma. | Under 200 opportunities. |
 | Storage | **Firebase**, built by a teammate. Not SQLite. | Team decision. Agents call the teammate's storage functions and never touch Firebase directly. Until those exist, the app reads `data/members.json`. |
 | Member list | `tecnoverse/data/members.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
@@ -52,7 +52,7 @@ Don't add features none of these ask for.
 
 **LLM output.** Pydantic schema, one retry on invalid output, then fail visibly rather than show junk. Cache outputs by input hash for the demo.
 
-**Fallbacks.** Scrape or API fails → cached data labelled SIMULATED. Rate limit or no Wi-Fi → Ollama.
+**Fallbacks.** Scrape or API fails → cached data labelled SIMULATED. Gemini rate limit or no Wi-Fi → cached LLM outputs (by input hash), else fail visibly.
 
 ## Demo script (about 3 min) — the app must support this
 

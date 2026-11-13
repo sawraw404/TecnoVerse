@@ -1,37 +1,50 @@
 """One entry point for every agent: ask(system, user, Schema) -> validated Schema instance.
 
-Tries Gemini, then local Ollama. Each provider gets one retry on invalid output.
-Raises LLMError rather than returning junk.
+Calls Gemini with the Pydantic model as the JSON response schema. Each model gets
+one retry on invalid output. If a model is busy, rate-limited or times out, the
+next model in MODELS is tried. If all fail, raises LLMError rather than returning junk.
 
 Scraped text must go in `user` (wrapped in <source_data> tags), never in `system`.
 """
 import os
 from typing import TypeVar
 
-import requests
 from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 from pydantic import BaseModel, ValidationError
 
 load_dotenv()
 
 T = TypeVar("T", bound=BaseModel)
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3-vl:4b-instruct")
-OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+# First choice can be overridden in .env; the rest are fallbacks for when it is overloaded.
+MODELS = list(dict.fromkeys([
+    os.getenv("GEMINI_MODEL", "gemini-3.6-flash"),
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite",
+]))
+
+_client = None
 
 
 class LLMError(RuntimeError):
     pass
 
 
-def _gemini(system: str, user: str, schema: type[BaseModel]) -> str:
-    from google import genai  # imported here so offline mode works without the package
-    from google.genai import types
+def _get_client() -> genai.Client:
+    global _client
+    if _client is None:
+        key = os.getenv("GEMINI_API_KEY")
+        if not key:
+            raise LLMError("GEMINI_API_KEY is not set. Copy .env.example to .env and add your key.")
+        _client = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=30_000))  # ms
+    return _client
 
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    resp = client.models.generate_content(
-        model=GEMINI_MODEL,
+
+def _gemini(model: str, system: str, user: str, schema: type[BaseModel]) -> str:
+    resp = _get_client().models.generate_content(
+        model=model,
         contents=user,
         config=types.GenerateContentConfig(
             system_instruction=system,
@@ -42,40 +55,20 @@ def _gemini(system: str, user: str, schema: type[BaseModel]) -> str:
     return resp.text or ""
 
 
-def _ollama(system: str, user: str, schema: type[BaseModel]) -> str:
-    resp = requests.post(
-        f"{OLLAMA_URL}/api/chat",
-        json={
-            "model": OLLAMA_MODEL,
-            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-            "format": schema.model_json_schema(),
-            "stream": False,
-        },
-        timeout=300,
-    )
-    resp.raise_for_status()
-    return resp.json()["message"]["content"]
-
-
-def _providers():
-    offline = os.getenv("TECNOVERSE_OFFLINE") == "1"
-    if not offline and os.getenv("GEMINI_API_KEY"):
-        yield "gemini", _gemini
-    yield "ollama", _ollama
-
-
 def ask(system: str, user: str, schema: type[T]) -> T:
-    errors = []
-    for name, call in _providers():
+    failures = []
+    for model in MODELS:
         for attempt in (1, 2):
             try:
-                return schema.model_validate_json(call(system, user, schema))
+                return schema.model_validate_json(_gemini(model, system, user, schema))
             except ValidationError as e:
-                errors.append(f"{name} attempt {attempt}: invalid output ({e.error_count()} errors)")
-            except Exception as e:  # network, rate limit, missing key: move to next provider
-                errors.append(f"{name}: {type(e).__name__}: {e}")
+                failures.append(f"{model} attempt {attempt}: invalid output ({e.error_count()} errors)")
+            except LLMError:
+                raise
+            except Exception as e:  # busy (503), rate limit (429), timeout (504), network: next model
+                failures.append(f"{model}: {type(e).__name__}: {str(e)[:200]}")
                 break
-    raise LLMError("All LLM providers failed:\n" + "\n".join(errors))
+    raise LLMError("All Gemini models failed:\n" + "\n".join(failures))
 
 
 if __name__ == "__main__":  # self-check: python tecnoverse/core/llm.py
