@@ -50,6 +50,7 @@ def _ollama(system: str, user: str, schema: type[BaseModel]) -> str:
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             "format": schema.model_json_schema(),
             "stream": False,
+            "options": {"num_ctx": 16384, "temperature": 0},  # default 4k context truncates 8 pages
         },
         timeout=300,
     )
@@ -78,7 +79,7 @@ def ask(system: str, user: str, schema: type[T]) -> T:
     raise LLMError("All LLM providers failed:\n" + "\n".join(errors))
 
 
-if __name__ == "__main__":  # self-check: python tecnoverse/core/llm.py
+if __name__ == "__main__":  # self-check: cd tecnoverse && python -m core.llm
     class Capital(BaseModel):
         city: str
 

@@ -1,8 +1,8 @@
 [
   {
-    "id": "techinova",
-    "name": "Techinova",
-    "website": "https://www.techinova.se/",
+    "id": "embeddedart",
+    "name": "EmbeddedArt",
+    "website": "https://www.embeddedart.se/",
     "is_member": true,
     "simulated": false
   },
