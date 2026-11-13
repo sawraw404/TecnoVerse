@@ -20,11 +20,12 @@ Park Pilot is a prototype in which AI agents build profiles of Blue Science Park
 9. [Quality and boundary check](#quality-and-boundary-check)
 10. [Build plan](#build-plan)
 11. [Demo script](#demo-script)
-12. [Setup](#setup)
-13. [Risks and fallbacks](#risks-and-fallbacks)
-14. [Known limitations](#known-limitations)
-15. [Next steps](#next-steps)
-16. [Definition of done](#definition-of-done)
+12. [User journey coverage](#user-journey-coverage)
+13. [Setup](#setup)
+14. [Risks and fallbacks](#risks-and-fallbacks)
+15. [Known limitations](#known-limitations)
+16. [Next steps](#next-steps)
+17. [Definition of done](#definition-of-done)
 
 ---
 
@@ -41,10 +42,11 @@ Company URL → baseline profile (with sources) → company reviews & edits
 |---|---|---|---|
 | **Profiler** | Crawls up to 8 pages per company site and fills a fixed profile (offering, technologies, markets, geography, projects, possible interests). Every item has a source link, a date and a status of fact, inferred or missing. | Company | SourcePage, ProfileItem |
 | **Funding monitor** | Collects open calls from Vinnova or EU Funding & Tenders, whichever returns clean JSON. | external source | Opportunity |
-| **Events monitor** | Collects events from the Blue Science Park and BTH event pages, plus a hand-curated testbed list. | external source | Opportunity |
-| **Matcher** | Takes the top 20 candidates by vector search, then an LLM reranks them and explains the fit and the uncertainties. User-confirmed priorities outweigh inferred ones, and thumbs up/down adjusts the ranking. | ProfileItem, Opportunity, Feedback | Match |
-| **Assistant + guardrail** | Classifies each message as in scope, unclear, out of scope, injection or needs staff. Depending on the label it answers, asks a clarifying question, or explains its remit and redirects. | the current company's ProfileItem, Match, ChatLog | ChatLog |
-| **Staff mapper** | Finds shared themes and suggested connections between members, always labelled as suggestions. | ProfileItem (public facts only), Opportunity tags | Connection |
+| **Events monitor** | Collects events from the Blue Science Park and BTH event pages. | external source | Opportunity |
+| **Testbed monitor** | Collects testbeds, labs and demonstration environments from a public directory (e.g. Testbed Sweden). If scraping fails, it falls back to a curated list labelled SIMULATED. | external source | Opportunity |
+| **Matcher** | Takes the top 20 candidates by vector search, then an LLM reranks them and explains the fit and the uncertainties. User-confirmed priorities outweigh inferred ones, the company's priority types get a boost, and thumbs up/down adjusts the ranking. | Company, ProfileItem, Opportunity, Feedback | Match |
+| **Assistant + guardrail** | Classifies each message as in scope, unclear, out of scope, injection or needs staff. Depending on the label it answers, asks a clarifying question, or explains its remit and redirects. | the current company's ProfileItem, Match, ChatLog; SupportContact | ChatLog |
+| **Staff mapper** | Finds shared themes and suggested connections between members, always labelled as suggestions. | ProfileItem (`visibility = public` only), Opportunity tags | Connection |
 
 ## Tech stack
 
@@ -67,6 +69,7 @@ park_pilot/
     profiler.py          # crawl + extract profile
     monitor_funding.py
     monitor_events.py
+    monitor_testbeds.py
     matcher.py           # embed, retrieve, rerank, explain
     assistant.py         # chat + guardrail classifier
     staff_mapper.py
@@ -93,33 +96,35 @@ park_pilot/
 ### Entity overview
 
 ```
-┌──────────────┐ 1      n ┌──────────────────┐
-│   Company    │──────────│   ProfileItem    │
-│ (member)     │          │ (one claim each) │
-└──────┬───────┘          └────────┬─────────┘
-       │ 1                         │ n
-       │                           │ 1
-       │                   ┌───────┴────────┐
-       │                   │   SourcePage   │  ← crawled page (URL, date, raw text)
-       │                   └────────────────┘
-       │ 1
-       │      n ┌──────────────┐ n      1 ┌──────────────┐
-       ├────────│    Match     │──────────│ Opportunity  │  ← funding / event / testbed
-       │        │ (score+why)  │          └──────────────┘
-       │        └──────┬───────┘
-       │               │ 1
-       │               │ n
-       │        ┌──────┴───────┐
-       │        │   Feedback   │  ← 👍 / 👎 / saved
-       │        └──────────────┘
-       │ 1
-       │      n ┌──────────────┐
-       ├────────│   ChatLog    │  ← private to that company
-       │        └──────────────┘
-       │ n
-       │      n ┌──────────────┐
-       └────────│  Connection  │  ← staff view: company A ↔ company B suggestion
-                └──────────────┘
+┌──────────────┐ n      1 ┌──────────────┐ 1      n ┌──────────────────┐
+│     User     │──────────│   Company    │──────────│   ProfileItem    │◄─┐ replaces_item_id
+│ member/staff │          │  (member)    │          │ (one claim each) │──┘ (correction history)
+└──────────────┘          └──────┬───────┘          └────────┬─────────┘
+                                 │ 1                         │ n
+                                 │                           │ 1
+                                 │                   ┌───────┴────────┐
+                                 │                   │   SourcePage   │  ← crawled page (URL, date, text)
+                                 │                   └────────────────┘
+                                 │ 1
+                                 │      n ┌──────────────┐ n      1 ┌──────────────┐
+                                 ├────────│    Match     │──────────│ Opportunity  │  ← funding / event / testbed
+                                 │        │ (score+why)  │          └──────────────┘
+                                 │        └──────────────┘
+                                 │ 1
+                                 │      n ┌──────────────┐
+                                 ├────────│   Feedback   │  ← 👍 / 👎 / saved, per user and opportunity
+                                 │        └──────────────┘
+                                 │ 1
+                                 │      n ┌──────────────┐
+                                 ├────────│   ChatLog    │  ← grouped by session_id, private to the company
+                                 │        └──────────────┘
+                                 │ n
+                                 │      n ┌──────────────┐
+                                 └────────│  Connection  │  ← staff view: company A ↔ company B suggestion
+                                          └──────────────┘
+
+User.id is also referenced by ProfileItem (who edited it), Feedback and ChatLog.
+SupportContact has no foreign keys. The assistant looks it up when referring a question to Blue Science Park staff.
 ```
 
 ### Key legend
@@ -130,13 +135,15 @@ park_pilot/
 | Table | Primary key | Foreign keys |
 |---|---|---|
 | Company | `id` | none |
+| User | `id` | `company_id → Company.id` (null for staff and external users) |
 | SourcePage | `id` | `company_id → Company.id` |
-| ProfileItem | `id` | `company_id → Company.id`, `source_page_id → SourcePage.id` |
+| ProfileItem | `id` | `company_id → Company.id`, `source_page_id → SourcePage.id`, `replaces_item_id → ProfileItem.id`, `edited_by → User.id` |
 | Opportunity | `id` | none |
 | Match | (`company_id`, `opportunity_id`) composite | `company_id → Company.id`, `opportunity_id → Opportunity.id` |
-| Feedback | `id` | `company_id → Company.id`, `opportunity_id → Opportunity.id` |
-| ChatLog | `id` | `company_id → Company.id` |
+| Feedback | `id` | `company_id → Company.id`, `opportunity_id → Opportunity.id`, `user_id → User.id` |
+| ChatLog | `id` | `company_id → Company.id`, `user_id → User.id`, `opportunity_id → Opportunity.id` (optional) |
 | Connection | (`company_a`, `company_b`) composite | `company_a → Company.id`, `company_b → Company.id` |
+| SupportContact | `id` | none |
 | Embedding | (`owner_type`, `owner_id`) composite | `owner_id → Opportunity.id` or `ProfileItem.id` (depends on `owner_type`) |
 
 ### Company
@@ -148,7 +155,24 @@ park_pilot/
 | `is_member` | bool | BSP member or external user |
 | `last_crawled_at` | datetime | |
 | `profile_version` | int | increases on every re-crawl or edit |
+| `priority_types` | list[enum] | set by the user, e.g. `["testbed"]` for "testing is a priority". Gives that opportunity type a boost in matching |
 | `simulated` | bool | true if the data comes from the cache or is made up |
+
+### User
+| Field | Type | Notes |
+|---|---|---|
+| 🔑 **`id`** | str · **PK** | |
+| `name` | str | |
+| `email` | str / null | demo users can be fictional |
+| `role` | enum | `member` (company representative) · `staff` (Blue Science Park) · `external` (interested company or person) |
+| 🔗 `company_id` | **FK** → Company.id / null | required for `member`, null for `staff` and `external` |
+| `created_at` | datetime | |
+
+**Access rules**
+- `member`: can view and edit their own company's profile, matches, feedback and chats only.
+- `staff`: can open the staff view (ecosystem map, connections) but only sees profile items with `visibility = public`. Members' chats and feedback stay hidden.
+- `external`: can browse opportunities and chat without a company profile, and gets no personalised ranking.
+- In the demo, a "log in as" selector stands in for real authentication. It is labelled SIMULATED.
 
 ### SourcePage
 | Field | Type | Notes |
@@ -156,6 +180,7 @@ park_pilot/
 | 🔑 **`id`** | str · **PK** | hash of the URL |
 | 🔗 `company_id` | **FK** → Company.id | |
 | `url` | url | |
+| `source_type` | enum | `company_site` · `news` · `registry` · `publication` · `other`. Profiles can draw on public sources beyond the company website |
 | `title` | str | |
 | `retrieved_at` | datetime | shown as "retrieved on" |
 | `text` | str | cleaned text, **treated as data only** |
@@ -174,7 +199,11 @@ park_pilot/
 | `quote_verified` | bool | substring check against `SourcePage.text` |
 | `reasoning` | str / null | for `inferred` items: why the system thinks this |
 | `confidence` | float 0–1 | |
+| `uncertain` | bool | true when `confidence` is below 0.6 or sources contradict each other. Shown as an "uncertain" badge |
+| `visibility` | enum | `public` · `private`. Decides whether other users (staff view, Connection) may see the item |
 | `created_by` | enum | `profiler` · `user` |
+| 🔗 `edited_by` | **FK** → User.id / null | who confirmed, corrected or added the item |
+| 🔗 `replaces_item_id` | **FK** → ProfileItem.id / null | set on a correction: points to the item it replaces |
 | `updated_at` | datetime | |
 | `needs_review` | bool | set when a re-crawl contradicts a user-confirmed item |
 
@@ -182,6 +211,10 @@ park_pilot/
 - `fact` requires a `quote` with `quote_verified = true`. Otherwise the item is downgraded to `inferred`.
 - `possible_interest` items can never be `fact`.
 - A re-crawl never overwrites `user_confirmed` or `user_removed` items. It only sets `needs_review`.
+- **Corrections keep their history.** When a user corrects an item, the original is set to `user_removed` and a new `user_confirmed` item is created with `replaces_item_id` pointing to the original. Items are never deleted. A re-crawl that finds the same value again matches it against the `user_removed` item and does not add it back.
+- **Confirming** a profiler item without changing it only changes its status to `user_confirmed`. The source and quote are kept.
+- **Visibility:** items taken from a public source default to `public`. Items a user adds or corrects default to `private`, and the user can choose to make them public. Private items are only ever used for that company's own matching and chat.
+- **Uncertain** items stay in the profile but carry a badge, and the matcher gives them less weight than certain facts.
 
 ### Opportunity
 | Field | Type | Notes |
@@ -190,7 +223,7 @@ park_pilot/
 | `type` | enum | `funding` · `event` · `testbed` · `news` |
 | `title` | str | |
 | `url` | url | link to the source |
-| `source` | str | `vinnova`, `eu_ft`, `bsp_events`, `bth_events`, `curated` |
+| `source` | str | `vinnova`, `eu_ft`, `bsp_events`, `bth_events`, `testbed_sweden`, `curated` |
 | `retrieved_at` | datetime | |
 | `published_at` | date / null | |
 | `start_date` / `end_date` | date / null | |
@@ -198,7 +231,8 @@ park_pilot/
 | `format` | enum / null | `online` · `in_person` · `hybrid` |
 | `location` | str / null | |
 | `audience` | str / null | who it's for |
-| `eligibility_text` | str / null | quoted from the source and **never interpreted as confirmed** |
+| `requirements` | list[str] | for every opportunity type: eligibility (funding), registration or cost (events), application or access steps (testbeds). Quoted from the source and **never interpreted as confirmed eligibility** |
+| `contact` | str / null | contact route or application link for the next step |
 | `summary` | str | LLM summary |
 | `tags` | list[str] | themes, used for the staff map |
 | `embedding` | vector | text-embedding vector used for search |
@@ -212,6 +246,7 @@ park_pilot/
 | `profile_version` | int | which profile version produced this match |
 | `vector_score` | float | from cosine similarity |
 | `llm_score` | float 0–1 | from the rerank |
+| `priority_boost` | float | added when the opportunity type is in `Company.priority_types` |
 | `feedback_adj` | float | from thumbs up/down |
 | `final_score` | float | used for sorting |
 | `rank` / `prev_rank` | int | lets the UI show "↑3 since your edit" |
@@ -226,7 +261,8 @@ park_pilot/
 | 🔑 **`id`** | str · **PK** | a company can give several feedback actions on one opportunity |
 | 🔗 `company_id` | **FK** → Company.id | |
 | 🔗 `opportunity_id` | **FK** → Opportunity.id | |
-| `kind` | enum | `up` · `down` · `saved` · `dismissed` |
+| 🔗 `user_id` | **FK** → User.id | who gave the feedback |
+| `kind` | enum | `up` · `down` · `saved` · `unsaved` · `dismissed` |
 | `comment` | str / null | |
 | `created_at` | datetime | |
 
@@ -235,6 +271,9 @@ park_pilot/
 |---|---|---|
 | 🔑 **`id`** | str · **PK** | |
 | 🔗 `company_id` | **FK** → Company.id | **every query is filtered by this, so no cross-company reads** |
+| 🔗 `user_id` | **FK** → User.id | |
+| `session_id` | str | groups one conversation, so follow-up questions have the earlier turns as context |
+| 🔗 `opportunity_id` | **FK** → Opportunity.id / null | set when the chat was opened with "Ask about this" on a card |
 | `role` | enum | `user` · `assistant` |
 | `text` | str | |
 | `guard_label` | enum | `in_scope` · `unclear` · `out_of_scope` · `injection` · `needs_staff` |
@@ -250,9 +289,21 @@ park_pilot/
 | `type` | enum | `shared_theme` · `complementary` |
 | `score` | float | |
 | `label` | const | "Suggestion: neither company has expressed interest" |
-| `uses_public_data_only` | bool | must be true to show on the page |
+| `uses_public_data_only` | bool | true only if every item in `basis` has `visibility = public`. Must be true to show on the page |
 
-**Storage:** 8 SQLite tables. The list fields (`reasons`, `tags`, `cited_ids`) are stored as JSON columns. Embeddings go in a separate `embeddings(owner_type, owner_id, vector BLOB)` table with the composite PK (`owner_type`, `owner_id`), which also lets us switch to Chroma later.
+### SupportContact (Blue Science Park contact routes)
+| Field | Type | Notes |
+|---|---|---|
+| 🔑 **`id`** | str · **PK** | |
+| `area` | enum | `funding` · `testbeds` · `events` · `membership` · `collaboration` · `general` |
+| `name` | str | person or team |
+| `route` | str | email address, phone number or contact page URL |
+| `description` | str | what they can help with |
+| `simulated` | bool | true if the contact is a placeholder |
+
+Used when the guardrail labels a message `needs_staff`, and when a user asks who to contact. Only public contact information is stored.
+
+**Storage:** 10 SQLite tables. The list fields (`reasons`, `tags`, `cited_ids`) are stored as JSON columns. Embeddings go in a separate `embeddings(owner_type, owner_id, vector BLOB)` table with the composite PK (`owner_type`, `owner_id`), which also lets us switch to Chroma later.
 
 ---
 
@@ -261,7 +312,7 @@ park_pilot/
 1. **Profile text:** build it from the ProfileItems, giving `user_confirmed` items a higher weight than `inferred` ones.
 2. **Retrieve:** take the top 20 opportunities by cosine similarity.
 3. **Rerank:** the LLM returns JSON for each candidate: score, reasons (linked to profile items), uncertainties and next step.
-4. **Final score:** LLM score + feedback adjustment (thumbs up/down also moves similar items, measured by embedding similarity) + a deadline urgency bonus.
+4. **Final score:** LLM score + priority boost (when the opportunity type is in `Company.priority_types`, e.g. testbeds after "testing is a priority") + feedback adjustment (thumbs up/down also moves similar items, measured by embedding similarity) + a deadline urgency bonus.
 5. **Funding** is always presented as "possible match, eligibility not confirmed".
 6. Saving a profile edit re-runs matching, and the UI shows how the rank changed.
 
@@ -270,6 +321,7 @@ park_pilot/
 - A scheduled weekly re-crawl compares each page's `content_hash`, and only changed pages are re-extracted.
 - New facts are added and outdated facts are marked for review.
 - `user_confirmed` and `user_removed` items are **never overwritten**. A contradicting item gets `needs_review` ("source changed, please review").
+- Corrected values are not re-added. The re-crawl checks new values against `user_removed` items first.
 - Every change increments `profile_version`, so each match can be traced to the profile version that produced it.
 
 ## Boundaries and guardrails
@@ -279,9 +331,10 @@ park_pilot/
 | Stay within the science park's purpose | A guardrail classifier labels every message. Out-of-scope messages get a short explanation of the remit and a redirect, and unclear ones get a clarifying question. |
 | Scraped text is data, not instructions | Retrieved content is wrapped in `<source_data>` tags and the system prompt says it is data only. A regex pre-filter catches obvious injections. The test set includes a planted injection page. |
 | Same rules for follow-ups and role-play | The classifier runs on every turn, not only the first. |
-| No sharing of another company's data | Every ChatLog, Match and profile query is filtered by the current `company_id`. The staff map uses public facts only. |
-| No eligibility decisions or professional advice | Funding is always labelled `possible_match`, with the source's eligibility text quoted. |
-| Human decisions go to staff | `needs_staff` messages get a referral to a Blue Science Park contact route. |
+| No sharing of another company's data | Every ChatLog, Feedback, Match and profile query is filtered by the logged-in user's `company_id`. The staff view requires `role = staff`. Only `visibility = public` items are ever shown to other users or used in Connection. |
+| No eligibility decisions or professional advice | Funding is always labelled `possible_match`, and the source's `requirements` are quoted rather than assessed. |
+| Human decisions go to staff | `needs_staff` messages get a referral to the matching contact in SupportContact (by `area`). |
+| Flag missing or uncertain information | `missing` status and the `uncertain` flag on ProfileItem, both shown as badges. |
 | Simulated data is labelled | The `simulated` flag on Company and Opportunity shows a **SIMULATED** badge in the UI. |
 
 ## Quality and boundary check
@@ -315,26 +368,27 @@ park_pilot/
 ### First 30 minutes: decisions
 | Decision | Recommendation |
 |---|---|
-| Demo companies | 3–4 real BSP members with **clearly different** profiles (e.g. sensors/hardware, software/telecom, maritime/energy) |
+| Demo companies | 3–4 real BSP members with **clearly different** profiles. **Include a sensor or industrial company** so the demo follows the example user journey in the brief. Others could be software/telecom and maritime/energy |
+| Testbed source | Test whether a public testbed directory (e.g. Testbed Sweden) can be scraped. If not, use a curated list labelled SIMULATED |
 | LLM | Gemini free tier as the main model, Groq as backup, Ollama for offline |
 | Vector store | numpy cosine similarity (fewer than 200 opportunities), Chroma optional |
 | Funding source | Test the Vinnova open data API vs. EU Funding & Tenders and choose the one with clean JSON |
 | Events source | Blue Science Park and BTH event pages |
 
 ### Day 1 (Fri): get the end-to-end path working, even if rough
-1. **Skeleton (1h):** repo, venv, `requirements.txt`, `llm.py` wrapper with JSON retry, SQLite tables, Streamlit shell.
+1. **Skeleton (1h):** repo, venv, `requirements.txt`, `llm.py` wrapper with JSON retry, SQLite tables (including User, seeded with one demo user per company plus one staff user, and SupportContact, seeded with BSP's public contact routes), Streamlit shell with a "log in as" selector.
 2. **Crawler (1.5h):** homepage plus up to 7 linked pages chosen by keyword (about, products, services, solutions, projects, news, contact). Respect robots.txt and save raw HTML to `data/cache/`.
 3. **Profiler (2.5h):** the LLM extracts fields with a quote and URL per item, then the quote check runs. Fields with no evidence become `missing`, and possible interests come from a separate pass labelled "inferred, not confirmed".
-4. **Profile page (1h):** status badges, a clickable source and date for each item, and an expandable quote.
+4. **Profile page (1h):** status badges (including "uncertain"), the source type, a clickable source and date for each item, an expandable quote, and a public/private toggle.
 5. **Funding monitor (1.5h):** fetch, normalise into Opportunity, store.
 6. **Checkpoint:** 3 real profiles cached, about 20 funding calls stored, **cache committed**.
 
 ### Day 2 (Sat): the parts the demo depends on
-1. **Events monitor (1.5h):** scrape BSP and BTH, using cached entries labelled SIMULATED if parsing fails. Add a curated testbed list.
-2. **Matcher (3h):** retrieve → rerank → final score, as described in [Matching](#matching).
-3. **Profile editor (1.5h):** edit, add and delete items, plus a "priorities" field. Saving re-runs matching and shows the rank changes.
-4. **Dashboard (1.5h):** Funding, Events and Testing tabs. Each card shows title, link, dates, format, audience, why it's relevant, uncertainties and next step, with Save / 👍 / 👎 buttons and a "Draft intro email" button.
-5. **Assistant and guardrails (2.5h):** classifier, then answer, then canned responses for each label, plus the planted-injection test page.
+1. **Events and testbed monitors (2h):** scrape BSP and BTH events and the testbed directory, using cached entries labelled SIMULATED if parsing fails.
+2. **Matcher (3h):** retrieve → rerank → final score with the priority boost, as described in [Matching](#matching).
+3. **Profile editor (1.5h):** confirm, correct (keeping history through `replaces_item_id`), add and remove items, plus priority checkboxes (funding / events / testing) that set `priority_types`. Saving re-runs matching and shows the rank changes.
+4. **Dashboard (1.5h):** Funding, Events, Testing and **Saved** tabs. Each card shows title, link, dates, format, audience, requirements, why it's relevant, uncertainties, next step and contact, with Save / 👍 / 👎 buttons, **"Ask about this"** (opens the chat with the opportunity attached) and "Draft intro email".
+5. **Assistant and guardrails (2.5h):** classifier, then answer (with the earlier turns of the same `session_id` as context), then canned responses for each label, plus the planted-injection test page.
 
 ### Day 3 (Sun morning): wrap up
 1. **Staff view (1.5h):** members × themes matrix and suggested connections, each with its basis and the suggestion label.
@@ -351,11 +405,21 @@ park_pilot/
 Agree on `core/schemas.py` in the first hour so everyone can work in parallel.
 
 ## Demo script (about 3 minutes)
-1. Generate profiles for 3 member companies and show the sources and badges.
-2. Edit one profile (fix an application area, add "testing is a priority") and show the ranking change.
-3. Dashboard: funding calls and events with links, deadlines and why each is relevant.
-4. Chat: one relevant question, one unrelated request, one override attempt.
-5. Staff view: a suggested connection between two members.
+This follows the example user journey in the brief.
+1. **Profile:** generate profiles for 3 member companies, starting with the sensor company. Show the sources, dates and fact/inferred badges.
+2. **Refine:** logged in as the sensor company's representative, correct an application area (the original stays in the history) and tick "testing is a priority". Testbeds move up the ranking ("↑3 since your edit").
+3. **Findings:** dashboard with testbeds, events and funding calls, showing links, dates, requirements, why each is relevant and the uncertainties. Switch to another company to show a different ranking.
+4. **Act:** click "Ask about this" on a testbed and ask a follow-up question, save the testbed, give 👎 to an event and watch it drop. Then send one unrelated request and one override attempt.
+5. **Staff view:** log in as staff and show a suggested connection between two members.
+
+## User journey coverage
+
+| Step in the brief | What supports it |
+|---|---|
+| 1. Profiler finds sensor solutions and builds a profile with links | Profiler agent → SourcePage, ProfileItem (`quote`, `source_page_id`, `retrieved_at`, status badges) |
+| 2. Representative corrects an application area and adds "testing is a priority" | User (`role = member`), correction through `user_removed` + `replaces_item_id`, `edited_by`, `Company.priority_types` → Match `priority_boost` |
+| 3. Monitors find testbeds, events and funding, with relevance, requirements and uncertainties | Funding, events and testbed monitors → Opportunity (`requirements`, `contact`); Matcher → Match (`reasons`, `uncertainties`, `next_step`) |
+| 4. Follow-up questions, saving, feedback, scope redirect | ChatLog (`session_id`, `opportunity_id`), Feedback (`saved`, `up`, `down`) + Saved tab, guardrail `guard_label` |
 
 ## Setup
 
@@ -383,7 +447,8 @@ Set `PARK_PILOT_OFFLINE=1` to run fully from `data/cache/` with a local Ollama m
 
 ## Known limitations
 - Profiles are demonstrated on a small selection of members rather than all 40+.
-- Two opportunity sources plus a curated testbed list. Other monitoring areas, such as research and news, are not covered.
+- Three opportunity monitors (funding, events, testbeds). Other monitoring areas, such as research and news, are not covered.
+- Authentication is simulated with a "log in as" selector. There are no real accounts or passwords.
 - Eligibility is never assessed, only quoted from the source.
 - Relevance is evaluated by the team, not by member companies.
 
@@ -397,8 +462,10 @@ Set `PARK_PILOT_OFFLINE=1` to run fully from `data/cache/` with a local Ollama m
 ## Definition of done
 - [ ] 3+ profiles with sources and dates
 - [ ] fact / inferred / missing labels
-- [ ] profile editing
-- [ ] 2 distinct opportunity sources
+- [ ] profile editing, with correction history and priorities
+- [ ] 2+ distinct opportunity sources (funding, events, testbeds)
+- [ ] save, 👍/👎 feedback and follow-up questions in chat
+- [ ] user roles: member, staff, external
 - [ ] rankings differ by company
 - [ ] links and dates on every result
 - [ ] relevant, unrelated and override chats handled
