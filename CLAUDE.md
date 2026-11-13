@@ -1,6 +1,6 @@
-# Park Pilot
+# TecnoVerse
 
-Prototype for the Blue Science Park "Virtual Science Park" challenge (BUILD Hackathon, 13–15 Nov 2026, Karlskrona). Shared team repo: `sawraw404/TecnoVerse`.
+The project is called **TecnoVerse** (earlier working name: Park Pilot). Prototype for the Blue Science Park "Virtual Science Park" challenge (BUILD Hackathon, 13–15 Nov 2026, Karlskrona). Shared team repo: `sawraw404/TecnoVerse`.
 
 ## Sources of truth
 
@@ -19,9 +19,11 @@ Don't add features none of these ask for.
 | Funding source | **Vinnova** only | User's choice. EU Funding & Tenders is a next step. |
 | Events sources | Blue Science Park, BTH, **and Ericsson** if its page parses | Plan lists all three; one more URL in the same monitor. Skip Ericsson rather than fight it. |
 | LLM | **Gemini → Ollama**. No Groq. | Ollama is installed and ready; a third provider is a second key and code path for no demo gain. Add Groq only if Gemini limits actually bite. |
-| Vector search | **numpy cosine** over the `embeddings` SQLite table. No Chroma. | Under 200 opportunities. |
+| Vector search | **numpy cosine**; embeddings stored as arrays on the documents. No Chroma. | Under 200 opportunities. |
+| Storage | **Firebase**, built by a teammate. Not SQLite. | Team decision. Agents call the teammate's storage functions and never touch Firebase directly. Until those exist, the app reads `data/members.json`. |
+| Member list | `tecnoverse/data/members.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
 | Validation | **Pydantic** | Gemini takes Pydantic models as its response schema directly. |
-| Layout | README's `park_pilot/` with `agents/`, `core/`, `eval/` | One file per agent keeps teammates out of each other's way. |
+| Layout | README's layout, but the package folder is `tecnoverse/` (not `park_pilot/`), with `agents/`, `core/`, `eval/` | One file per agent keeps teammates out of each other's way. |
 | Item status | README's: `fact`, `inferred`, `missing`, `user_confirmed`, `user_removed` | UI badge for `user_confirmed` reads "confirmed". Includes quote verification, correction history and public/private visibility. |
 | Boundary tests | README's **11** (covers the plan's 10) | |
 | Demo companies | **5** from the BSP member list, clearly different, **one sensor/industrial** | User's choice; the sensor company mirrors the brief's example journey. |
@@ -65,4 +67,6 @@ Don't add features none of these ask for.
 - **Git:** never commit to `main`. Work on a feature branch and open a PR. Pull `origin/main` before starting each piece; teammates push there.
 - The work split (README's A/B/C/D) is not decided yet. Start with the shared skeleton and `core/schemas.py`, which every slice needs.
 - Keep it small: plain functions, no abstractions without a second user, no frameworks beyond the stack (no LangChain, no FastAPI, no JS frontend).
-- Never commit `.env`, API keys, or the two PDFs (the repo is public; both are in `.gitignore`).
+- Imports are relative to `tecnoverse/` (`from core.schemas import ...`), because `streamlit run tecnoverse/app.py` puts that folder on the path.
+- Every LLM call goes through `core.llm.ask(system, user, Schema)`.
+- Never commit `.env`, API keys, Firebase credentials, or the two PDFs (the repo is public; both are in `.gitignore`).

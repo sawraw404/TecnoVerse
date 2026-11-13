@@ -1,0 +1,37 @@
+[
+  {
+    "id": "techinova",
+    "name": "Techinova",
+    "website": "https://www.techinova.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "cleura",
+    "name": "Cleura",
+    "website": "https://cleura.com",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "ocean-harvesting",
+    "name": "Ocean Harvesting",
+    "website": "https://www.oceanharvesting.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "baltic-offshore",
+    "name": "Baltic Offshore",
+    "website": "https://balticoffshore.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "3d-vision",
+    "name": "3dVision",
+    "website": "https://www.3dvision.se/",
+    "is_member": true,
+    "simulated": false
+  }
+]

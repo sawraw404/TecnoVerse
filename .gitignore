@@ -3,3 +3,7 @@
 __pycache__/
 *.db
 *.pdf
+# Firebase credentials: never commit, the repo is public
+*firebase*adminsdk*.json
+serviceAccount*.json
+.claude/
