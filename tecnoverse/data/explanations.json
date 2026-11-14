@@ -388,5 +388,100 @@
   "why": "A young design company in the incubator may fit the startup call.",
   "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
   "score": 1.0
+ },
+ "embeddedart|520c0dd0feaa73d9": {
+  "why": "EmbeddedArt sells sonar and UV sensor systems to the Swedish Armed Forces and the defence industry; this Almi workshop series on becoming a supplier to defence companies and FMV is held at the Marine Technology Center in Karlskrona.",
+  "uncertain": "The series is aimed at companies new to defence procurement; EmbeddedArt may already know the FMV process.",
+  "score": 0.8
+ },
+ "hanza|520c0dd0feaa73d9": {
+  "why": "HANZA is a contract manufacturer (electronics, sheet metal, machining, assembly), the kind of supplier defence companies source from.",
+  "uncertain": "No defence customers are stated on HANZA's pages, and the workshop is in person in Karlskrona.",
+  "score": 0.55
+ },
+ "kockums-maskin|520c0dd0feaa73d9": {
+  "why": "Kockums Maskin delivers machined castings and assembled products to European industry; defence supply chains need such parts.",
+  "uncertain": "No defence customers are stated; registration closes 20 Jan 2027.",
+  "score": 0.5
+ },
+ "dnv-cyber|520c0dd0feaa73d9": {
+  "why": "DNV Cyber serves national security and defence and offers IT and OT security, which defence suppliers must meet.",
+  "uncertain": "The series targets small and medium suppliers; DNV Cyber is part of a large group.",
+  "score": 0.45
+ },
+ "ocean-harvesting|831b7cd35f78a4ec": {
+  "why": "Ocean Harvesting is developing its InfinityWEC wave energy converter and is project-financed; Almi's online 'Hitta Kapitalet' guides companies through loans and investment.",
+  "uncertain": "The session covers general SME financing; deep-tech scale-up may need other capital routes.",
+  "score": 0.6
+ },
+ "pavesight|831b7cd35f78a4ec": {
+  "why": "Pavesight is scaling AI road-surface monitoring after pilots with Svevia and the Transport Administration; the online session covers financing for growth.",
+  "uncertain": "Pavesight's funding situation is not stated on its pages.",
+  "score": 0.55
+ },
+ "interactive-materia|831b7cd35f78a4ec": {
+  "why": "Interactive Materia is building its own platform for AI avatars and immersive training; the session covers capital for product investments.",
+  "uncertain": "Not known whether Interactive Materia is looking for external capital.",
+  "score": 0.5
+ },
+ "novacast-systems|9419472c7438d9d6": {
+  "why": "NovaCast sells casting simulation to foundries internationally (partners in Brazil and Japan); Almi's online Exportnytt covers the Canadian market, strong in natural resources and industry.",
+  "uncertain": "Canada is not named as a market on NovaCast's pages.",
+  "score": 0.5
+ },
+ "kockums-maskin|9419472c7438d9d6": {
+  "why": "Kockums Maskin exports to 35 countries; the online session covers opportunities in Canada.",
+  "uncertain": "Canada is not named as a market on Kockums Maskin's pages.",
+  "score": 0.45
+ },
+ "embeddedart|dca37b1b71e47cc7": {
+  "why": "EmbeddedArt's defence and marine products are affected by export controls; this online Exportnytt covers geopolitics, export controls and tariffs.",
+  "uncertain": "General outlook session, not specific to defence exports.",
+  "score": 0.55
+ },
+ "kockums-maskin|dca37b1b71e47cc7": {
+  "why": "Kockums Maskin exports to 35 countries, so tariffs and changing value chains affect it directly.",
+  "uncertain": "General outlook session.",
+  "score": 0.5
+ },
+ "hanza|dca37b1b71e47cc7": {
+  "why": "HANZA runs international contract manufacturing, where value chains are challenged by export controls and tariffs.",
+  "uncertain": "General outlook session.",
+  "score": 0.45
+ },
+ "3d-vision|812dbcfd5de62f92": {
+  "why": "Almi's 'Nästa steg' at The Pot in Karlskrona helps small companies prepare decisions for growth; 3D Vision is a Blue Science Park member agency.",
+  "uncertain": "3D Vision's growth plans are not stated; check whether the session fits its size.",
+  "score": 0.4
+ },
+ "nicon|812dbcfd5de62f92": {
+  "why": "Nicon is a small software company with its own Telme platform; 'Nästa steg' in Karlskrona covers getting the company ready for an upswing.",
+  "uncertain": "Nicon's location and growth plans are not stated on its pages.",
+  "score": 0.4
+ },
+ "kubicom|20a200d17b19be39": {
+  "why": "Kubicom produces automatic climate reports for construction; the webinar covers sustainability reporting under VSME, relevant to Kubicom and its customers.",
+  "uncertain": "The webinar is about a company's own reporting; Kubicom's product angle may only partly fit.",
+  "score": 0.6
+ },
+ "vegoil|20a200d17b19be39": {
+  "why": "Vegoil supplies renewable bio-oil and is likely asked for sustainability data by its customers; the webinar explains VSME reporting.",
+  "uncertain": "Whether Vegoil must report under VSME is not stated.",
+  "score": 0.5
+ },
+ "kiwa|20a200d17b19be39": {
+  "why": "Kiwa certifies ISO 14001 environmental management, close to the sustainability reporting the webinar covers.",
+  "uncertain": "Kiwa is a large group that likely has its own reporting expertise.",
+  "score": 0.45
+ },
+ "shape-process-automation|5252ecb1672f1163": {
+  "why": "Shape Process Automation builds robotic automation for manufacturers; the Chamber's company visit to ScanBox in Olofström is a chance to meet a regional manufacturer.",
+  "uncertain": "Chamber events may favour member companies; check the registration terms.",
+  "score": 0.4
+ },
+ "hanza|5252ecb1672f1163": {
+  "why": "HANZA is a contract manufacturer; the company visit to ScanBox, an international manufacturer in Olofström, is a regional industry networking chance.",
+  "uncertain": "Chamber events may favour member companies.",
+  "score": 0.4
  }
 }

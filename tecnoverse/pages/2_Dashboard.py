@@ -85,7 +85,7 @@ for tab, (kind, label) in zip(type_tabs, TABS):
             card(m, opps[m.opportunity_id], kind)
         rest = [m for m in ranked if m.llm_score == 0]
         if rest:
-            with st.expander(f"Other {label.lower()} ({len(rest)}): keyword overlap only, not judged relevant"):
+            with st.expander(f"Other {label.lower()} ({len(rest)}): similar by text only, not judged relevant"):
                 for m in rest:
                     o = opps[m.opportunity_id]
                     st.markdown(f"- [{o.title}]({o.url}) · {DATE_LABEL[kind]} {o.deadline or o.start_date or 'not stated'}")

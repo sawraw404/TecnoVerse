@@ -12,7 +12,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, TypeAdapter
 
-from core.schemas import Company, Feedback, Match, Opportunity, ProfileItem, SourcePage
+from core.schemas import ChatLog, Company, Feedback, Match, Opportunity, ProfileItem, SourcePage
 
 DATA = Path(__file__).parent.parent / "data"
 CACHE = DATA / "cache"
@@ -63,6 +63,15 @@ def load_feedback(company_id: str) -> list[Feedback]:
 
 def save_feedback(company_id: str, feedback: list[Feedback]) -> None:
     _per_company(company_id, "feedback.json", Feedback, feedback)
+
+
+def load_chats(owner: str) -> list[ChatLog]:
+    """Chat turns for one company (or `_<user id>` for staff and visitors). Private like matches."""
+    return _per_company(owner, "chats.json", ChatLog)
+
+
+def save_chats(owner: str, chats: list[ChatLog]) -> None:
+    _per_company(owner, "chats.json", ChatLog, chats)
 
 
 def save_profile(profile: Profile) -> None:

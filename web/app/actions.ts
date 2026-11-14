@@ -78,7 +78,11 @@ export async function rebuildProfile(): Promise<{ ok: true } | { ok: false; erro
   }
 }
 
-export async function sendFeedback(opportunityId: string, kind: "up" | "down") {
+export async function setVisibility(id: string, visibility: "public" | "private") {
+  return edit(`/profile/items/${encodeURIComponent(id)}/visibility`, "POST", { visibility });
+}
+
+export async function sendFeedback(opportunityId: string, kind: "up" | "down" | "saved" | "unsaved") {
   try {
     await api("/feedback", { method: "POST", body: { opportunity_id: opportunityId, kind } });
     revalidatePath("/dashboard");
@@ -88,12 +92,18 @@ export async function sendFeedback(opportunityId: string, kind: "up" | "down") {
   }
 }
 
-export type ChatResult = ChatReply | { label: GuardLabel; text: string; sources: []; error: true };
+export type ChatResult = ChatReply | { session_id: null; label: GuardLabel; text: string; sources: []; error: true };
 
-export async function sendChat(message: string, history: { role: "user" | "assistant"; text: string }[]): Promise<ChatResult> {
+/** One turn. The conversation's earlier turns are read from storage on the server, not sent from here. */
+export async function sendChat(message: string, sessionId: string | null, opportunityId: string | null): Promise<ChatResult> {
   try {
-    return await api<ChatReply>("/chat", { method: "POST", body: { message, history } });
+    const r = await api<ChatReply>("/chat", {
+      method: "POST",
+      body: { message, session_id: sessionId, opportunity_id: sessionId ? null : opportunityId },
+    });
+    revalidatePath("/chat");
+    return r;
   } catch (e) {
-    return { label: "unclear", text: failure(e).error, sources: [], error: true };
+    return { session_id: null, label: "unclear", text: failure(e).error, sources: [], error: true };
   }
 }

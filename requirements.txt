@@ -8,3 +8,4 @@ pytest
 fastapi
 uvicorn[standard]
 httpx
+sentence-transformers  # local embeddings for matching (pulls in PyTorch, ~1 GB)

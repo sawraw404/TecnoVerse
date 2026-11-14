@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, MoreHorizontal, PencilLine, Plus, RefreshCw, Trash2 } from "lucide-react";
+import { Check, Eye, EyeOff, MoreHorizontal, PencilLine, Plus, RefreshCw, Trash2 } from "lucide-react";
 import { useState, useTransition } from "react";
 import {
   addItem,
@@ -9,6 +9,7 @@ import {
   rebuildProfile,
   removeItem,
   setPriorities,
+  setVisibility,
   type EditResult,
 } from "@/app/actions";
 import { Dialog, inputClass } from "@/components/dialog";
@@ -49,6 +50,11 @@ export function ItemActions({ item, fieldLabel }: { item: ProfileItem; fieldLabe
         description={
           <>
             <span className="text-text-3">{fieldLabel}:</span> “{item.value}”
+            <span className="mt-1 block text-xs text-text-3">
+              {item.visibility === "public"
+                ? "Public: park staff can see it in the Ecosystem and Knowledge graph views."
+                : "Private: used only for your own matching and assistant, never shown to others."}
+            </span>
           </>
         }
       >
@@ -64,6 +70,22 @@ export function ItemActions({ item, fieldLabel }: { item: ProfileItem; fieldLabe
             <Button className="justify-start" onClick={() => setMode("correct")}>
               <PencilLine className="size-4 text-blue" aria-hidden /> Correct it
               <span className="ml-auto text-xs font-normal text-text-3">original kept in history</span>
+            </Button>
+            <Button
+              disabled={pending}
+              className="justify-start"
+              onClick={() =>
+                run(
+                  () => setVisibility(item.id, item.visibility === "public" ? "private" : "public"),
+                  item.visibility === "public" ? "Made private" : "Made public",
+                )
+              }
+            >
+              {item.visibility === "public" ? <EyeOff className="size-4 text-slate" aria-hidden /> : <Eye className="size-4 text-primary-text" aria-hidden />}
+              {item.visibility === "public" ? "Make private" : "Make public"}
+              <span className="ml-auto text-right text-xs font-normal text-text-3">
+                {item.visibility === "public" ? "hide from park staff views" : "let park staff see it"}
+              </span>
             </Button>
             <Button variant="danger" className="justify-start" onClick={() => setMode("remove")}>
               <Trash2 className="size-4" aria-hidden /> Remove

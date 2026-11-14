@@ -67,6 +67,17 @@ def correct(company_id: str, item_id: str, new_value: str, user_id: str):
     return add(company_id, old.field, new_value, user_id, replaces=item_id)
 
 
+def set_visibility(company_id: str, item_id: str, visibility: str, user_id: str):
+    """Public items may appear in the staff views and connections; private ones only in the company's
+    own matching and chat. The staff views re-check this on every load."""
+    if visibility not in ("public", "private"):
+        raise ValueError("visibility must be public or private")
+    p = load_profile(company_id)
+    i = _find(p, item_id)
+    i.visibility, i.edited_by, i.updated_at = visibility, user_id, _now()
+    return _save(p, user_id)
+
+
 def set_priorities(company_id: str, types: list[str], user_id: str):
     p = load_profile(company_id)
     p.company = p.company.model_copy(update={"priority_types": [t for t in PRIORITY_TYPES if t in types]})

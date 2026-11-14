@@ -51,3 +51,39 @@ def test_graph_is_staff_only_and_public():
             items = load_profile(n["id"]).items
             for f in n["facts"]:
                 assert any(i.value == f["value"] and i.visibility == "public" for i in items)
+
+
+def test_chats_are_private_and_stored(monkeypatch, tmp_path):
+    import shutil
+    import agents.assistant as assistant
+    import api
+    import core.store as store
+    for cid in ("embeddedart", "kiwa"):  # profiles only; nothing is written to the real cache
+        shutil.copytree(store.CACHE / cid, tmp_path / cid, ignore=shutil.ignore_patterns("*.html", "pages.json", "chats.json"))
+    monkeypatch.setattr(store, "CACHE", tmp_path)
+    monkeypatch.setattr(api, "reply", lambda m, h, c: assistant.Reply(label="in_scope", text=f"seen {len(h)} turns"))
+    first = client.post("/chat", json={"message": "Which funding fits us?"}, headers=EMB).json()
+    again = client.post("/chat", json={"message": "And events?", "session_id": first["session_id"]}, headers=EMB).json()
+    assert again["text"] == "seen 2 turns"  # history comes from the stored conversation
+    assert [s["session_id"] for s in client.get("/chats", headers=EMB).json()] == [first["session_id"]]
+    kiwa = {"X-User-Id": "rep-kiwa"}
+    assert client.get("/chats", headers=kiwa).json() == []
+    assert client.get(f"/chats/{first['session_id']}", headers=kiwa).status_code == 404
+    assert client.post("/chat", json={"message": "hi", "session_id": first["session_id"]}, headers=kiwa).status_code == 404
+
+
+def test_private_item_leaves_staff_views(monkeypatch, tmp_path):
+    import shutil
+    import core.store as store
+    for c in store.load_companies():
+        shutil.copytree(store.CACHE / c.id, tmp_path / c.id, ignore=shutil.ignore_patterns("*.html", "pages.json", "chats.json"))
+    monkeypatch.setattr(store, "CACHE", tmp_path)
+    staff = {"X-User-Id": "staff"}
+    before = client.get("/staff", headers=staff).json()["connections"]
+    kiwa_item = next(e for c in before for e in c["evidence"] if e["company_id"] == "kiwa")
+    item_id = next(i.id for i in store.load_profile("kiwa").items if i.value == kiwa_item["value"])
+    r = client.post(f"/profile/items/{item_id}/visibility", json={"visibility": "private"}, headers={"X-User-Id": "rep-kiwa"})
+    assert r.status_code == 200
+    after = client.get("/staff", headers=staff).json()["connections"]
+    assert len(after) == len(before) - 1 and all(e["value"] != kiwa_item["value"] for c in after for e in c["evidence"])
+    assert client.post(f"/profile/items/{item_id}/visibility", json={"visibility": "public"}, headers=EMB).status_code == 404

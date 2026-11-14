@@ -1,13 +1,14 @@
 "use client";
 
-import { ArrowUp, Bot, CalendarDays, Link2, ShieldAlert, ShieldCheck, ShieldQuestion, UserRound, Users } from "lucide-react";
+import { ArrowUp, Bot, CalendarDays, Link2, MessageSquareText, ShieldAlert, ShieldCheck, ShieldQuestion, UserRound, Users } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition, type ReactNode } from "react";
 import { sendChat } from "@/app/actions";
 import { Badge, Spinner, type Tone } from "@/components/ui";
 import { day } from "@/lib/format";
-import type { GuardLabel, Source } from "@/lib/types";
+import type { ChatMessage, GuardLabel, Source } from "@/lib/types";
 
-type Message = { role: "user" | "assistant"; text: string; label?: GuardLabel; sources?: Source[]; failed?: boolean };
+type Message = { role: "user" | "assistant"; text: string; label?: GuardLabel | null; sources?: Source[]; failed?: boolean };
 
 const LABELS: Record<GuardLabel, [string, Tone, ReactNode]> = {
   in_scope: ["in scope", "green", <ShieldCheck key="i" className="size-3" aria-hidden />],
@@ -16,10 +17,6 @@ const LABELS: Record<GuardLabel, [string, Tone, ReactNode]> = {
   injection: ["blocked: rule change", "red", <ShieldAlert key="j" className="size-3" aria-hidden />],
   needs_staff: ["referred to staff", "blue", <Users key="s" className="size-3" aria-hidden />],
 };
-
-// One conversation per logged-in user, kept while the tab is open (like a session). Switching user
-// starts a different conversation, so chats never mix. Nothing is stored in the browser.
-const conversations = new Map<string, Message[]>();
 
 const SUGGESTIONS = [
   "Which funding calls fit us?",
@@ -41,11 +38,24 @@ function linkify(text: string) {
   );
 }
 
-export function ChatPanel({ userId, who }: { userId: string; who: string | null }) {
-  const [messages, setMessages] = useState<Message[]>(() => conversations.get(userId) ?? []);
+/** One stored conversation. Earlier turns live on the server (per company), so they survive reloads and
+ *  logins and never mix between companies. `about` attaches an opportunity ("Ask about this"). */
+export function ChatPanel({
+  who,
+  sessionId,
+  initial,
+  about,
+}: {
+  who: string | null;
+  sessionId: string | null;
+  initial: ChatMessage[];
+  about: Source | null;
+}) {
+  const [messages, setMessages] = useState<Message[]>(initial);
   const [draft, setDraft] = useState("");
   const [pending, start] = useTransition();
   const end = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   useEffect(() => {
     end.current?.scrollIntoView({ behavior: "smooth", block: "end" });
@@ -54,24 +64,50 @@ export function ChatPanel({ userId, who }: { userId: string; who: string | null 
   const send = (text: string) => {
     const message = text.trim();
     if (!message || pending) return;
-    const history = messages.filter((m) => !m.failed).map(({ role, text }) => ({ role, text }));
     const next = [...messages, { role: "user" as const, text: message }];
     setMessages(next);
-    conversations.set(userId, next);
     setDraft("");
     start(async () => {
-      const r = await sendChat(message, history);
+      const r = await sendChat(message, sessionId, about?.id ?? null);
       const reply: Message = { role: "assistant", text: r.text, label: r.label, sources: r.sources, failed: "error" in r };
-      const all = [...next, reply];
-      conversations.set(userId, all);
-      setMessages(all);
+      setMessages([...next, reply]);
+      // a new conversation gets its own address, so it shows in the list and can be reopened
+      if (!sessionId && r.session_id) router.replace(`/chat?s=${r.session_id}`, { scroll: false });
     });
   };
 
   return (
     <div className="flex h-[calc(100dvh-13rem)] min-h-[420px] flex-col overflow-hidden rounded-xl border border-border bg-surface shadow-sm lg:h-[calc(100dvh-14rem)]">
+      {about && (
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b border-border bg-surface-2/60 px-4 py-2.5 text-[13px] sm:px-6">
+          <MessageSquareText className="size-4 shrink-0 text-primary-text" aria-hidden />
+          <span className="text-text-3">About</span>
+          <a href={about.url} target="_blank" rel="noreferrer" className="min-w-0 font-medium text-primary-text hover:underline">
+            {about.title}
+          </a>
+          <span className="text-xs text-text-3">{about.date ? day(about.date) : "no date stated"}</span>
+        </div>
+      )}
       <div className="flex-1 space-y-5 overflow-y-auto px-4 py-5 sm:px-6" aria-live="polite">
-        {messages.length === 0 && (
+        {messages.length === 0 && about && (
+          <div className="mx-auto flex max-w-lg flex-col items-center pt-6 text-center">
+            <p className="font-medium">Ask anything about this opportunity</p>
+            <p className="mt-1 text-sm leading-6 text-text-2">The assistant answers from the collected data and your company profile.</p>
+            <div className="mt-5 flex flex-wrap justify-center gap-2">
+              {["Does this fit us?", "What are the requirements?", "Who should we contact about it?"].map((q) => (
+                <button
+                  key={q}
+                  type="button"
+                  onClick={() => send(q)}
+                  className="rounded-full border border-border-strong bg-surface px-3.5 py-1.5 text-[13px] text-text-2 transition-colors hover:border-primary/50 hover:bg-primary-soft hover:text-primary-text"
+                >
+                  {q}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+        {messages.length === 0 && !about && (
           <div className="mx-auto flex max-w-lg flex-col items-center pt-6 text-center">
             <div className="mb-3 grid size-12 place-items-center rounded-full bg-primary-soft text-primary-text">
               <Bot className="size-6" aria-hidden />
