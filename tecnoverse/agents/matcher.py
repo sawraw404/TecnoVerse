@@ -44,6 +44,18 @@ def load_explanations() -> dict[tuple[str, str], Explanation]:
     return {tuple(k.split("|")): Explanation(**v) for k, v in raw.items()}
 
 
+def current_matches(company_id: str):
+    """The stored ranking, rebuilt when it is out of date: it does not cover exactly the current
+    opportunities (new trends or events, or a matches.json made on another machine before they existed:
+    matches are gitignored, so every machine keeps its own), or a judgement was added or removed since."""
+    stored = load_matches(company_id)
+    judged = load_explanations()
+    stale = (not stored
+             or {m.opportunity_id for m in stored} != {o.id for o in load_opportunities()}
+             or any(((company_id, m.opportunity_id) in judged) != (m.llm_score > 0) for m in stored))
+    return match_company(company_id) if stale else stored
+
+
 def match_company(company_id: str):
     """Re-rank all opportunities for one company. Returns the stored matches, best first."""
     matches = rank(load_profile(company_id), load_matches(company_id))

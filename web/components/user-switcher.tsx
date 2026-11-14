@@ -47,7 +47,7 @@ function Select({ id, users, current, onSwitch }: { id: string; users: User[]; c
   );
 }
 
-/** SIMULATED "log in as", on every page like the Streamlit sidebar. Stays on the same page when the new user may see it. */
+/** SIMULATED "log in as", on every page. Stays on the same page when the new user may see it. */
 export function UserSwitcher({ users, current, onSwitch }: { users: User[]; current: string; onSwitch?: () => void }) {
   const pathname = usePathname();
   const id = useId(); // the desktop sidebar and the mobile menu each render one

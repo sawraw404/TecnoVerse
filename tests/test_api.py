@@ -113,3 +113,19 @@ def test_staff_chat_about_a_company(monkeypatch, tmp_path):
     ctx = assistant._subject("kiwa", {})
     assert public.value in ctx or public.visibility != "public"
     assert private.value not in ctx
+
+
+def test_stale_rankings_are_rebuilt(monkeypatch, tmp_path):
+    """matches.json is per machine (gitignored); one saved before the trends existed must not hide them."""
+    import shutil
+    import core.store as store
+    shutil.copytree(store.CACHE / "embeddedart", tmp_path / "embeddedart",
+                    ignore=shutil.ignore_patterns("*.html", "pages.json", "chats.json", "feedback.json"))
+    monkeypatch.setattr(store, "CACHE", tmp_path)
+    from agents.matcher import match_company
+    news = {o.id for o in store.load_opportunities() if o.type == "news"}
+    old = [m for m in match_company("embeddedart") if m.opportunity_id not in news]
+    store.save_matches("embeddedart", old)  # as if saved before the trend monitor
+    d = client.get("/dashboard", headers=EMB).json()
+    assert d["by_type"]["news"], "trends missing: the stale ranking was not rebuilt"
+    assert {m.opportunity_id for m in store.load_matches("embeddedart")} >= news
