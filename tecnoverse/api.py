@@ -279,6 +279,7 @@ class ChatIn(BaseModel):
     message: str
     session_id: str | None = None       # None starts a new conversation
     opportunity_id: str | None = None   # "Ask about this": the opportunity the conversation is about
+    company_id: str | None = None       # staff only (graph view): the company the conversation is about
 
 
 class Source(BaseModel):
@@ -303,10 +304,16 @@ class Message(BaseModel):
     created_at: datetime
 
 
+class CompanyRef(BaseModel):
+    id: str
+    name: str
+
+
 class Session(BaseModel):
     session_id: str
     title: str
     opportunity: Source | None
+    company: CompanyRef | None = None   # staff chats about a company
     updated_at: datetime
     messages: int
 
@@ -333,6 +340,14 @@ def chat(body: ChatIn, user: User = Depends(current_user)) -> ChatOut:
     if body.session_id and not earlier:
         raise HTTPException(404, "No such conversation")
     about = body.opportunity_id or next((c.opportunity_id for c in earlier if c.opportunity_id), None)
+    # staff may chat about one company (graph view); for staff chats ChatLog.company_id records that company
+    subject = None
+    if user.role == "staff":
+        subject = body.company_id or next((c.company_id for c in earlier if c.company_id), None)
+        if subject and subject not in {c.id for c in load_companies()}:
+            raise HTTPException(404, "No such company")
+    elif body.company_id:
+        raise HTTPException(403, "Only park staff can ask about another company")
     if about and about not in opps:
         raise HTTPException(404, "No such opportunity")
     # history comes from the stored conversation, not from the browser
@@ -342,12 +357,13 @@ def chat(body: ChatIn, user: User = Depends(current_user)) -> ChatOut:
         o = opps[about]
         asked = (f"[The user opened this chat from the opportunity {o.id}: \"{o.title}\" ({o.type}, "
                  f"{o.deadline or o.start_date or 'no date'}, {o.url}).]\n{message}")
-    r = reply(asked, history, user.company_id)
+    r = reply(asked, history, user.company_id, subject)
+    logged_company = user.company_id or subject
     now = datetime.now(timezone.utc)
     n = len(logs)
-    logs += [ChatLog(id=f"{session}-{n + 1}", company_id=user.company_id, user_id=user.id, session_id=session,
+    logs += [ChatLog(id=f"{session}-{n + 1}", company_id=logged_company, user_id=user.id, session_id=session,
                      opportunity_id=about, role="user", text=message, created_at=now),
-             ChatLog(id=f"{session}-{n + 2}", company_id=user.company_id, user_id=user.id, session_id=session,
+             ChatLog(id=f"{session}-{n + 2}", company_id=logged_company, user_id=user.id, session_id=session,
                      opportunity_id=about, role="assistant", text=r.text, guard_label=r.label,
                      cited_ids=r.cited, created_at=now)]
     save_chats(owner, logs)
@@ -358,6 +374,7 @@ def chat(body: ChatIn, user: User = Depends(current_user)) -> ChatOut:
 @app.get("/chats")
 def chats(user: User = Depends(current_user)) -> list[Session]:
     opps = {o.id: o for o in load_opportunities()}
+    names = {c.id: c.name for c in load_companies()}
     by: dict[str, list[ChatLog]] = defaultdict(list)
     for c in load_chats(_owner(user)):
         by[c.session_id].append(c)
@@ -365,8 +382,10 @@ def chats(user: User = Depends(current_user)) -> list[Session]:
     for sid, turns in by.items():
         first = next((t.text for t in turns if t.role == "user"), "Conversation")
         about = next((t.opportunity_id for t in turns if t.opportunity_id), None)
+        subject = next((t.company_id for t in turns if t.company_id), None) if user.role == "staff" else None
         out.append(Session(session_id=sid, title=first[:80], updated_at=max(t.created_at for t in turns),
-                           opportunity=_source(opps[about]) if about in opps else None, messages=len(turns)))
+                           opportunity=_source(opps[about]) if about in opps else None, messages=len(turns),
+                           company=CompanyRef(id=subject, name=names[subject]) if subject in names else None))
     return sorted(out, key=lambda s: s.updated_at, reverse=True)
 
 

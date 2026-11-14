@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState, type ReactNode } from "react";
 import { logOut } from "@/app/actions";
 import { Logo } from "@/components/logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Toaster } from "@/components/toaster";
 import { UserSwitcher } from "@/components/user-switcher";
 import { cx } from "@/lib/format";
@@ -70,11 +71,14 @@ function Sidebar({ me, users, onNavigate }: { me: Me; users: User[]; onNavigate?
           </div>
         </div>
         <UserSwitcher key={me.user.id} users={users} current={me.user.id} onSwitch={onNavigate} />
-        <form action={logOut} className="mt-1.5">
-          <button className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-md bg-white/6 text-xs font-medium text-nav-text transition-colors hover:bg-white/12 hover:text-white">
-            <LogOut className="size-3.5" aria-hidden /> Log out
-          </button>
-        </form>
+        <div className="mt-1.5 grid grid-cols-2 gap-1.5">
+          <ThemeToggle />
+          <form action={logOut}>
+            <button className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-md bg-white/6 text-xs font-medium text-nav-text transition-colors hover:bg-white/12 hover:text-white">
+              <LogOut className="size-3.5" aria-hidden /> Log out
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

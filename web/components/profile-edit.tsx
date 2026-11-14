@@ -13,6 +13,7 @@ import {
   type EditResult,
 } from "@/app/actions";
 import { Dialog, inputClass } from "@/components/dialog";
+import { runAction } from "@/lib/run-action";
 import { toast } from "@/components/toaster";
 import { Button, Spinner } from "@/components/ui";
 import type { PriorityType, ProfileItem } from "@/lib/types";
@@ -35,7 +36,8 @@ export function ItemActions({ item, fieldLabel }: { item: ProfileItem; fieldLabe
 
   const run = (fn: () => Promise<EditResult>, what: string) =>
     start(async () => {
-      if (report(await fn(), what)) close();
+      const r = await runAction(fn);
+      if (r && report(r, what)) close();
     });
 
   return (
@@ -146,7 +148,8 @@ export function AddItem({ field, fieldLabel }: { field: string; fieldLabel: stri
           onSubmit={(e) => {
             e.preventDefault();
             start(async () => {
-              if (report(await addItem(field, value), "Added")) {
+              const r = await runAction(() => addItem(field, value));
+              if (r && report(r, "Added")) {
                 setOpen(false);
                 setValue("");
               }
@@ -184,7 +187,10 @@ export function PrioritiesForm({ current }: { current: PriorityType[] }) {
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        start(async () => void report(await setPriorities(chosen), "Priorities saved"));
+        start(async () => {
+          const r = await runAction(() => setPriorities(chosen));
+          if (r) report(r, "Priorities saved");
+        });
       }}
     >
       <fieldset className="grid gap-2 sm:grid-cols-3">
@@ -250,7 +256,8 @@ export function RebuildButton({ website, first }: { website: string; first: bool
             disabled={pending}
             onClick={() =>
               start(async () => {
-                const r = await rebuildProfile();
+                const r = await runAction(() => rebuildProfile());
+                if (!r) return;
                 if (r.ok) {
                   toast({ kind: "success", title: "Profile rebuilt from the live website." });
                   setOpen(false);

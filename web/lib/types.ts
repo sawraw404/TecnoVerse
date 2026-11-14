@@ -154,6 +154,7 @@ export interface ChatSession {
   session_id: string;
   title: string;
   opportunity: Source | null;
+  company: { id: string; name: string } | null; // staff chats about a company
   updated_at: string;
   messages: number;
 }

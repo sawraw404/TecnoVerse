@@ -39,16 +39,16 @@ function useTheme() {
       blue: v("--blue"),
       water: v("--primary-soft"), // pale sea in light mode, deep teal in dark mode
       // islands one step lighter than the water in both themes
-      island: v(window.matchMedia("(prefers-color-scheme: dark)").matches ? "--surface-2" : "--surface"),
+      island: v(document.documentElement.dataset.theme === "dark" ? "--surface-2" : "--surface"),
       area: (a: string | null) => v(`--area-${a ?? "other"}`),
     };
   };
   const [theme, setTheme] = useState(read);
   useEffect(() => {
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    const onChange = () => setTheme(read());
-    mq.addEventListener("change", onChange);
-    return () => mq.removeEventListener("change", onChange);
+    // the sidebar toggle switches data-theme on <html>: re-read the colours when it changes
+    const observer = new MutationObserver(() => setTheme(read()));
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    return () => observer.disconnect();
   }, []);
   return theme;
 }

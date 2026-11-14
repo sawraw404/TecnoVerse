@@ -49,45 +49,46 @@
   --area-other: #64748b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0b141c;
-    --surface: #111d27;
-    --surface-2: #162430;
-    --border: #213241;
-    --border-strong: #2c4153;
-    --text: #e6edf2;
-    --text-2: #a9b7c3;
-    --text-3: #7b8b98;
+/* Dark theme: set by the sidebar toggle (or the computer's setting on a first visit) as
+   data-theme="dark" on <html> before the first paint; see app/layout.tsx. */
+:root[data-theme="dark"] {
+  --bg: #0b141c;
+  --surface: #111d27;
+  --surface-2: #162430;
+  --border: #213241;
+  --border-strong: #2c4153;
+  --text: #e6edf2;
+  --text-2: #a9b7c3;
+  --text-3: #7b8b98;
 
-    --nav: #08111a;
-    --nav-2: #10202d;
+  --nav: #08111a;
+  --nav-2: #10202d;
 
-    --primary: #2bb3be;
-    --primary-hover: #45c2cc;
-    --primary-soft: #0f2f35;
-    --primary-text: #7fd8df;
-    --ring: #2bb3be;
+  --primary: #2bb3be;
+  --primary-hover: #45c2cc;
+  --primary-soft: #0f2f35;
+  --primary-text: #7fd8df;
+  --ring: #2bb3be;
 
-    --green: #5fcf93;   --green-soft: #12301f;
-    --amber: #f0b44c;   --amber-soft: #33270f;
-    --blue: #7ea6f2;    --blue-soft: #16243f;
-    --red: #f08a84;     --red-soft: #3a1717;
-    --violet: #b59cf2;  --violet-soft: #251c3d;
-    --slate: #a0acb7;   --slate-soft: #1d2a35;
+  --green: #5fcf93;   --green-soft: #12301f;
+  --amber: #f0b44c;   --amber-soft: #33270f;
+  --blue: #7ea6f2;    --blue-soft: #16243f;
+  --red: #f08a84;     --red-soft: #3a1717;
+  --violet: #b59cf2;  --violet-soft: #251c3d;
+  --slate: #a0acb7;   --slate-soft: #1d2a35;
 
-    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
-    --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -8px rgb(0 0 0 / 0.6);
-    --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.4), 0 24px 48px -12px rgb(0 0 0 / 0.7);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -8px rgb(0 0 0 / 0.6);
+  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.4), 0 24px 48px -12px rgb(0 0 0 / 0.7);
 
-    --area-marine: #22d3ee;
-    --area-digital_telecom: #818cf8;
-    --area-energy_cleantech: #4ade80;
-    --area-defence_security: #f87171;
-    --area-industrial_tech: #fb923c;
-    --area-ehealth: #f472b6;
-    --area-other: #94a3b8;
-  }
+  --area-marine: #22d3ee;
+  --area-digital_telecom: #818cf8;
+  --area-energy_cleantech: #4ade80;
+  --area-defence_security: #f87171;
+  --area-industrial_tech: #fb923c;
+  --area-ehealth: #f472b6;
+  --area-other: #94a3b8;
+  color-scheme: dark;
 }
 
 @theme inline {

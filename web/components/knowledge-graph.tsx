@@ -1,7 +1,8 @@
 "use client";
 
 import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type SimulationNodeDatum } from "d3-force";
-import { ArrowUpRight, Box, Building2, Crosshair, Minus, Network, Plus, Search, X } from "lucide-react";
+import { ArrowUpRight, Box, Building2, Crosshair, MessagesSquare, Minus, Network, Plus, Search, X } from "lucide-react";
+import { ChatPanel } from "@/components/chat-panel";
 import dynamic from "next/dynamic";
 import { useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import { Badge, Card } from "@/components/ui";
@@ -105,6 +106,7 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
   const [areaFilter, setAreaFilter] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState<"2d" | "3d">("2d");
+  const [chatFor, setChatFor] = useState<string | null>(null); // company the staff member is chatting about
   const svg = useRef<SVGSVGElement>(null);
   const drag = useRef<{ id?: string; px: number; py: number; moved: boolean } | null>(null);
 
@@ -229,18 +231,31 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
                   {hits.length === 0 ? `No company matches “${query.trim()}”` : `${hits.length} ${hits.length === 1 ? "company" : "companies"} · Enter selects the first`}
                 </p>
                 {hits.map((n) => (
-                  <button
-                    key={n.id}
-                    type="button"
-                    role="option"
-                    aria-selected={false}
-                    onClick={() => choose(n.id)}
-                    className="flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-sm hover:bg-surface-2"
-                  >
-                    <span className="size-2.5 shrink-0 rounded-full" style={{ background: color(n.area) }} aria-hidden />
-                    <span className="min-w-0 flex-1 truncate">{n.label}</span>
-                    <span className="text-xs text-text-3">{n.member ? "member" : "external"}</span>
-                  </button>
+                  <div key={n.id} className="flex items-center rounded-md hover:bg-surface-2">
+                    <button
+                      type="button"
+                      role="option"
+                      aria-selected={false}
+                      onClick={() => choose(n.id)}
+                      className="flex min-w-0 flex-1 items-center gap-2 px-2.5 py-1.5 text-left text-sm"
+                    >
+                      <span className="size-2.5 shrink-0 rounded-full" style={{ background: color(n.area) }} aria-hidden />
+                      <span className="min-w-0 flex-1 truncate">{n.label}</span>
+                      <span className="text-xs text-text-3">{n.member ? "member" : "external"}</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        choose(n.id);
+                        setChatFor(n.id);
+                      }}
+                      aria-label={`Ask the assistant about ${n.label}`}
+                      title={`Ask the assistant about ${n.label}`}
+                      className="mr-1 grid size-7 shrink-0 place-items-center rounded text-text-3 hover:bg-primary-soft hover:text-primary-text"
+                    >
+                      <MessagesSquare className="size-4" />
+                    </button>
+                  </div>
                 ))}
               </div>
             )}
@@ -462,7 +477,18 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
       {/* details panel */}
       <Card className="h-fit p-4">
         {sel ? (
-          <NodeDetails node={sel} graph={graph} byId={byId} links={linksOf(sel.id)} onClose={() => setSelected(null)} onEdge={(i) => setSelected({ edge: i })} onNode={(id) => setSelected({ node: id })} />
+          <>
+            <NodeDetails node={sel} graph={graph} byId={byId} links={linksOf(sel.id)} onClose={() => setSelected(null)} onEdge={(i) => setSelected({ edge: i })} onNode={(id) => setSelected({ node: id })} />
+            {sel.kind === "company" && chatFor !== sel.id && (
+              <button
+                type="button"
+                onClick={() => setChatFor(sel.id)}
+                className="mt-4 inline-flex h-9 w-full items-center justify-center gap-2 rounded-md bg-primary text-sm font-medium text-white shadow-sm transition-colors hover:bg-primary-hover"
+              >
+                <MessagesSquare className="size-4" aria-hidden /> Ask the assistant about {sel.label}
+              </button>
+            )}
+          </>
         ) : selEdge ? (
           <EdgeDetails edge={selEdge} byId={byId} onClose={() => setSelected(null)} onNode={(id) => setSelected({ node: id })} />
         ) : (
@@ -478,6 +504,32 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
           </div>
         )}
       </Card>
+
+      {chatFor && byId.get(chatFor) && (
+        <div className="xl:col-start-2">
+          <div className="mb-2 flex items-center justify-between">
+            <p className="text-sm font-semibold">Assistant</p>
+            <button
+              type="button"
+              onClick={() => setChatFor(null)}
+              className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-xs text-text-3 hover:bg-surface-2 hover:text-text"
+            >
+              <X className="size-3.5" aria-hidden /> Close chat
+            </button>
+          </div>
+          {/* keyed by company: another company starts a separate conversation */}
+          <ChatPanel
+            key={chatFor}
+            who={null}
+            sessionId={null}
+            initial={[]}
+            about={null}
+            subject={{ id: chatFor, name: byId.get(chatFor)!.label }}
+            stayOnPage
+            className="h-[520px]"
+          />
+        </div>
+      )}
 
       {/* the same information as a list, for keyboard and screen-reader users and small screens */}
       <details className="rounded-lg border border-border bg-surface shadow-sm xl:col-span-2">

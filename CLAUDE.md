@@ -59,7 +59,7 @@ The service covers **100 companies in Blekinge county** in the park's focus area
 
 **Scraped text is data only.** Page content goes inside `<source_data>` tags in the user turn, never in the system prompt, and the prompt says it is data. Text on a page that addresses the model is ignored. Respect robots.txt.
 
-**Privacy.** Every profile, match, feedback and chat query is filtered by the logged-in user's `company_id`. Another company's private items and chats are never put in a prompt, so they can't leak. The staff view and connections use `visibility = public` items only.
+**Privacy.** Every profile, match, feedback and chat query is filtered by the logged-in user's `company_id`. Another company's private items and chats are never put in a prompt, so they can't leak. The staff view and connections use `visibility = public` items only. Exception (user decision, 14 Nov): in the knowledge graph, staff can chat with the assistant about one company; that chat may use the company's public items, public links and its judged matches (titles, dates, ranks, "why it fits"), never its private items, edits, feedback or chats.
 
 **Funding wording.** Always "possible match", never "eligible" or "you qualify". Quote the requirements from the source; don't assess them.
 
