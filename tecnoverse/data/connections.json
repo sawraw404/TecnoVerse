@@ -1,0 +1,287 @@
+[
+ {
+  "connection": {
+   "company_a": "kiwa",
+   "company_b": "varidens",
+   "type": "complementary",
+   "score": 0.85,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Certification",
+     "item_a_id": "2ec02c74082901c3",
+     "item_b_id": "6c4521276c5b5ddc"
+    }
+   ]
+  },
+  "theme": "Certification",
+  "why": "Kiwa runs inspection and certification; Veridens builds a platform for the whole certification lifecycle of certification bodies, covering ISO/IEC 17024, 17065 and 17020 schemes.",
+  "uncertain": "Kiwa may already use its own case system. Neither profile says they know each other."
+ },
+ {
+  "connection": {
+   "company_a": "nkt",
+   "company_b": "roxtec",
+   "type": "complementary",
+   "score": 0.8,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Offshore energy and cables",
+     "item_a_id": "8ff12ec7ecaa49b4",
+     "item_b_id": "c5c9833d89509a6b"
+    }
+   ]
+  },
+  "theme": "Offshore energy and cables",
+  "why": "NKT has qualified a 525 kV HVDC subsea cable system; Roxtec's cable transit seals are used in HVDC projects.",
+  "uncertain": "Roxtec's HVDC use may be in converter stations rather than with subsea cables. Existing supply links are unknown."
+ },
+ {
+  "connection": {
+   "company_a": "addsecure",
+   "company_b": "techinova",
+   "type": "shared_theme",
+   "score": 0.75,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Power grids",
+     "item_a_id": "b655bce6b1dd68b8",
+     "item_b_id": "d291ae877160790d"
+    }
+   ]
+  },
+  "theme": "Power grids",
+  "why": "Both work on monitoring the power grid: AddSecure with real-time data transfer for grid stations, Techinova with system solutions to monitor and control the grid.",
+  "uncertain": "They may compete rather than complement. Both work with Affärsverken, so they may already know each other."
+ },
+ {
+  "connection": {
+   "company_a": "embeddedart",
+   "company_b": "saab",
+   "type": "complementary",
+   "score": 0.7,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Marine and defence",
+     "item_a_id": "9c109a586729ed9e",
+     "item_b_id": "0692efa91c70db04"
+    }
+   ]
+  },
+  "theme": "Marine and defence",
+  "why": "EmbeddedArt's sonar and UV sensors detect vessels or divers in the water; SAAB has launched a new naval combat system built around sensors.",
+  "uncertain": "EmbeddedArt already sells to the defence industry and may be a SAAB supplier; the public items do not say."
+ },
+ {
+  "connection": {
+   "company_a": "dnv-cyber",
+   "company_b": "techinova",
+   "type": "complementary",
+   "score": 0.7,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Power grids",
+     "item_a_id": "55ed175ba823104e",
+     "item_b_id": "3c9ac5d75dfd8fa3"
+    }
+   ]
+  },
+  "theme": "Power grids",
+  "why": "Techinova's dSense is a product for safer power grids; DNV Cyber has IT and OT security teams for critical infrastructure.",
+  "uncertain": "Techinova's CISSAN project already had cybersecurity partners; whether DNV was one is not stated."
+ },
+ {
+  "connection": {
+   "company_a": "nkt",
+   "company_b": "ocean-harvesting",
+   "type": "complementary",
+   "score": 0.6,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Offshore energy and cables",
+     "item_a_id": "a9e40a447c6fc263",
+     "item_b_id": "c98a06d9e47ce3d4"
+    }
+   ]
+  },
+  "theme": "Offshore energy and cables",
+  "why": "Ocean Harvesting's InfinityWEC wave energy converters need export cables to shore; NKT makes power cables and cable services.",
+  "uncertain": "One 500 kW device is far below NKT's usual project size; the fit depends on a future wave farm."
+ },
+ {
+  "connection": {
+   "company_a": "addsecure",
+   "company_b": "dnv-cyber",
+   "type": "shared_theme",
+   "score": 0.6,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Cybersecurity",
+     "item_a_id": "03c1fadf3b271353",
+     "item_b_id": "463daf83385f63cd"
+    }
+   ]
+  },
+  "theme": "Cybersecurity",
+  "why": "Both secure operational systems: AddSecure with zero-trust, encrypted grid communication, DNV Cyber with OT and IT security.",
+  "uncertain": "DNV Cyber also certifies; that could make it an assessor of AddSecure rather than a partner."
+ },
+ {
+  "connection": {
+   "company_a": "affarsverken",
+   "company_b": "embeddedart",
+   "type": "complementary",
+   "score": 0.6,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Connectivity and IoT",
+     "item_a_id": "a0d1077d546eb978",
+     "item_b_id": "7bdee50c5d230e55"
+    }
+   ]
+  },
+  "theme": "Connectivity and IoT",
+  "why": "Affärsverken runs an open LoRa network for IoT; EmbeddedArt builds low-power sensor platforms for IoT.",
+  "uncertain": "Whether EmbeddedArt's platforms use LoRa is not stated."
+ },
+ {
+  "connection": {
+   "company_a": "affarsverken",
+   "company_b": "pavesight",
+   "type": "complementary",
+   "score": 0.65,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Connectivity and IoT",
+     "item_a_id": "bf5cf6bd73bf415a",
+     "item_b_id": "6dd3202344d3b598"
+    }
+   ]
+  },
+  "theme": "Connectivity and IoT",
+  "why": "Pavesight mounts road-monitoring sensors on municipal fleets such as waste vehicles; Affärsverken runs waste collection in Karlskrona.",
+  "uncertain": "Pavesight is not a park member, and its pilots so far are with Svevia and the Transport Administration."
+ },
+ {
+  "connection": {
+   "company_a": "ericsson",
+   "company_b": "spirius",
+   "type": "shared_theme",
+   "score": 0.55,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Connectivity and IoT",
+     "item_a_id": "ec94cf5c038a4b24",
+     "item_b_id": "21db3ade0c1145e8"
+    }
+   ]
+  },
+  "theme": "Connectivity and IoT",
+  "why": "Both connect devices: Ericsson with private 5G for enterprises, Spirius with IoT connectivity via SIM cards.",
+  "uncertain": "Very different company sizes; a concrete joint offer is not visible in the public items."
+ },
+ {
+  "connection": {
+   "company_a": "cleura",
+   "company_b": "storegate",
+   "type": "shared_theme",
+   "score": 0.55,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Sovereign cloud",
+     "item_a_id": "65c82f4b5cf10679",
+     "item_b_id": "d0d14bd13014de9c"
+    }
+   ]
+  },
+  "theme": "Sovereign cloud",
+  "why": "Both sell European or Swedish sovereign cloud: Cleura a collaboration suite, Storegate encrypted storage kept in Sweden.",
+  "uncertain": "They may compete. Storegate is not a park member."
+ },
+ {
+  "connection": {
+   "company_a": "kockums-maskin",
+   "company_b": "novacast-systems",
+   "type": "complementary",
+   "score": 0.65,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Manufacturing",
+     "item_a_id": "002d871deaf74017",
+     "item_b_id": "d42639169a26c524"
+    }
+   ]
+  },
+  "theme": "Manufacturing",
+  "why": "Kockums Maskin delivers machined castings; NovaCast makes casting simulation and thermal analysis for foundries.",
+  "uncertain": "Kockums sources castings from its group's foundries, which decide on simulation tools. Neither is a park member."
+ },
+ {
+  "connection": {
+   "company_a": "holtab",
+   "company_b": "linjemontage",
+   "type": "complementary",
+   "score": 0.6,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Power grids",
+     "item_a_id": "0e3355521b847f83",
+     "item_b_id": "0ede319ce462da14"
+    }
+   ]
+  },
+  "theme": "Power grids",
+  "why": "Holtab makes substations and switchgear buildings; Linjemontage plans and builds power grid infrastructure.",
+  "uncertain": "They may already buy from each other; the public items do not say. Neither is a park member."
+ },
+ {
+  "connection": {
+   "company_a": "noda-intelligent-systems",
+   "company_b": "vegoil",
+   "type": "shared_theme",
+   "score": 0.5,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Heating and fuels",
+     "item_a_id": "3b0955a0d81430cd",
+     "item_b_id": "c4a6ff8b6a1f6962"
+    }
+   ]
+  },
+  "theme": "Heating and fuels",
+  "why": "Both serve heat production: NODA optimises district heating and cooling, Vegoil supplies bio-oil to combined heat and power plants.",
+  "uncertain": "Different parts of the chain; a joint offer is speculative. Neither is a park member."
+ },
+ {
+  "connection": {
+   "company_a": "3d-vision",
+   "company_b": "interactive-materia",
+   "type": "shared_theme",
+   "score": 0.5,
+   "uses_public_data_only": true,
+   "basis": [
+    {
+     "text": "Immersive tech",
+     "item_a_id": "fa95ea318046d760",
+     "item_b_id": "312401d154eead35"
+    }
+   ]
+  },
+  "theme": "Immersive tech",
+  "why": "Both build immersive training: 3D Vision with VR training and simulators, Interactive Materia with immersive training and AI avatars.",
+  "uncertain": "They may compete for the same customers."
+ }
+]
