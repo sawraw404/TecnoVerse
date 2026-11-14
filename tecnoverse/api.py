@@ -12,6 +12,8 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from typing import Literal
 
+from contextlib import asynccontextmanager
+
 from fastapi import Depends, FastAPI, Header, HTTPException
 from pydantic import BaseModel
 
@@ -21,11 +23,18 @@ from agents.mapper import Graph, knowledge_graph, live
 from agents.matcher import current_matches, feedback_state, give_feedback, load_explanations
 from agents.profiler import profile_company
 from agents.scoring import rank_connections
+from core.embed import warm_up
 from core.llm import LLMError
 from core.schemas import ChatLog, Company, Match, Opportunity, ProfileItem, User
 from core.store import load_chats, load_companies, load_opportunities, load_profile, save_chats
 
-app = FastAPI(title="TecnoVerse API")
+@asynccontextmanager
+async def lifespan(_app):
+    warm_up()  # the embedding model takes ~20 s to load: start now, not on the first save
+    yield
+
+
+app = FastAPI(title="TecnoVerse API", lifespan=lifespan)
 
 FIELD_LABELS = {
     "industry": "Industry",

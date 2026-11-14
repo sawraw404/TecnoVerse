@@ -10,6 +10,7 @@ not installed, everything returns None and matching falls back to keyword overla
 
 Run: cd tecnoverse && python -m core.embed     -> embeds every opportunity and saves them
 """
+import threading
 from functools import lru_cache
 
 import numpy as np
@@ -19,13 +20,28 @@ PROFILE_FIELDS = ("industry", "offering", "technology", "expertise", "applicatio
                   "innovation", "priority", "project")
 
 
+_lock = threading.Lock()
+
+
 @lru_cache(maxsize=1)
-def _model():
+def _load():
     try:
         from sentence_transformers import SentenceTransformer
     except (ImportError, OSError):  # OSError: torch DLL blocked, e.g. by Windows Smart App Control
         return None
     return SentenceTransformer(MODEL)
+
+
+def _model():
+    """The model, loaded once per process (about 20 s on a laptop CPU). The lock makes requests that
+    arrive while it is loading wait for that one load instead of starting their own."""
+    with _lock:
+        return _load()
+
+
+def warm_up() -> None:
+    """Start loading the model in the background, so the first save or ranking does not wait for it."""
+    threading.Thread(target=_model, daemon=True, name="embed-warm-up").start()
 
 
 def embed(texts: list[str]) -> np.ndarray | None:
