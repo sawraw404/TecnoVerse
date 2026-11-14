@@ -1,6 +1,6 @@
 "use client";
 
-import { Building2, Info, LayoutDashboard, LogOut, Menu, MessagesSquare, Network, X } from "lucide-react";
+import { Building2, Info, LayoutDashboard, LogOut, Menu, MessagesSquare, Network, Waypoints, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, type ReactNode } from "react";
@@ -19,6 +19,7 @@ function nav(me: Me) {
     { href: "/dashboard", label: "Opportunities", icon: LayoutDashboard, show: true },
     { href: "/chat", label: "Assistant", icon: MessagesSquare, show: true },
     { href: "/staff", label: "Ecosystem", icon: Network, show: me.user.role === "staff" }, // staff only
+    { href: "/graph", label: "Knowledge graph", icon: Waypoints, show: me.user.role === "staff" }, // staff only
     { href: "/about", label: "About", icon: Info, show: true },
   ].filter((n) => n.show);
 }

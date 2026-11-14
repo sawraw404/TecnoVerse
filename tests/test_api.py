@@ -38,3 +38,16 @@ def test_dashboard():
     assert ranked["ranked"] and ranked["top"] and all(c["judged"] for c in ranked["top"])
     guest = client.get("/dashboard", headers={"X-User-Id": "guest"}).json()
     assert not guest["ranked"] and guest["by_type"]["funding"]
+
+
+def test_graph_is_staff_only_and_public():
+    assert client.get("/graph", headers=EMB).status_code == 403
+    assert client.get("/graph", headers={"X-User-Id": "guest"}).status_code == 403
+    g = client.get("/graph", headers={"X-User-Id": "staff"}).json()
+    kinds = {e["kind"] for e in g["edges"]}
+    assert kinds == {"member", "area", "collaboration", "suggestion"}
+    for n in g["nodes"]:
+        if n["kind"] == "company":
+            items = load_profile(n["id"]).items
+            for f in n["facts"]:
+                assert any(i.value == f["value"] and i.visibility == "public" for i in items)

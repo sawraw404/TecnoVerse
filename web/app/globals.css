@@ -38,6 +38,15 @@
   --shadow-sm: 0 1px 2px rgb(16 32 43 / 0.06);
   --shadow-md: 0 1px 2px rgb(16 32 43 / 0.05), 0 6px 18px -6px rgb(16 32 43 / 0.12);
   --shadow-lg: 0 2px 4px rgb(16 32 43 / 0.06), 0 24px 48px -12px rgb(16 32 43 / 0.22);
+
+  /* Knowledge graph: one colour per park focus area (distinct hues, readable on light surfaces) */
+  --area-marine: #0e7490;
+  --area-digital_telecom: #4f46e5;
+  --area-energy_cleantech: #15803d;
+  --area-defence_security: #b91c1c;
+  --area-industrial_tech: #c2410c;
+  --area-ehealth: #be185d;
+  --area-other: #64748b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,6 +79,14 @@
     --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
     --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -8px rgb(0 0 0 / 0.6);
     --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.4), 0 24px 48px -12px rgb(0 0 0 / 0.7);
+
+    --area-marine: #22d3ee;
+    --area-digital_telecom: #818cf8;
+    --area-energy_cleantech: #4ade80;
+    --area-defence_security: #f87171;
+    --area-industrial_tech: #fb923c;
+    --area-ehealth: #f472b6;
+    --area-other: #94a3b8;
   }
 }
 
@@ -119,6 +136,16 @@
   --animate-fade-up: fade-up 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
   --animate-pulse-soft: pulse-soft 1.4s ease-in-out infinite;
 }
+
+/* Knowledge graph colours: these rules reference every --area-* token, which keeps them in the build
+   (Tailwind drops custom properties nothing references). An element with data-area also gets --area. */
+[data-area="marine"] { --area: var(--area-marine); }
+[data-area="digital_telecom"] { --area: var(--area-digital_telecom); }
+[data-area="energy_cleantech"] { --area: var(--area-energy_cleantech); }
+[data-area="defence_security"] { --area: var(--area-defence_security); }
+[data-area="industrial_tech"] { --area: var(--area-industrial_tech); }
+[data-area="ehealth"] { --area: var(--area-ehealth); }
+[data-area="other"] { --area: var(--area-other); }
 
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(4px); }
