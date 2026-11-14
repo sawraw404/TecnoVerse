@@ -7,6 +7,8 @@
             (Blekinge and Sydost areas). Their event pages state date, place, price and registration
             deadline in fixed fields, so these are read directly from the page, no LLM.
   testbeds  Test environments described on Blue Science Park and NetPort pages. Groq extracts them.
+            The contact route (who to ask for access) is read from the page itself or the park's
+            published contact list, no LLM.
 
 Every LLM-extracted title must appear in the page text, otherwise it is dropped. Page text goes
 to the model inside <source_data> tags as data only.
@@ -143,6 +145,8 @@ Rules:
   page heading.
 - Write `what_can_be_tested`, `audience` and `how_to_access` in English.
 - `what_can_be_tested`, `audience`, `how_to_access`: one English sentence each, only from the page.
+- `how_to_access`: how a company gets access to this environment, as the page states it. Leave it empty if
+  the page does not say; a newsletter sign-up or a general site link is not access.
 - `tags`: 2 to 5 English topic words. If there are none, return an empty list."""
 
 
@@ -300,8 +304,81 @@ def listed_events(today: date) -> list[Opportunity]:
     return [o for o in found if o]
 
 
+# ---------- testbed contacts: who to ask for access (no LLM) ----------
+
+PARK_PEOPLE = "https://www.bluesciencepark.se/kontaktpersoner/"   # the park's published staff contact list
+PARK_TESTBEDS = "https://www.bluesciencepark.se/vara-tjanster/test-utveckling/"
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+GENERIC = ("info", "kontakt", "contact", "hello", "hej", "office", "noreply", "no-reply")  # site mailboxes
+NOT_ACCESS = ("nyhetsbrev", "newsletter", "inkorg", "inbox")  # newsletter sign-ups are not an access step
+
+
+def park_people(html: str) -> list[dict]:
+    """People on the park's contact page: [{section, role, name, email}], in page order.
+    The page lists a section heading (h4, e.g. 'Tech Concept Lab'), then per person a role (h5),
+    a name (h2) and a mailto link."""
+    soup = BeautifulSoup(html, "html.parser")
+    people, section, role, name = [], "", "", ""
+    for el in soup.find_all(["h2", "h4", "h5", "a"]):
+        text = re.sub(r"\s+", " ", el.get_text(" ", strip=True))
+        if el.name == "a":
+            href = el.get("href", "")
+            if href.startswith("mailto:") and name and section:
+                people.append({"section": section, "role": role, "name": name, "email": href[7:].strip()})
+                role = name = ""
+        elif el.name == "h4":
+            section, role, name = text, "", ""
+        elif el.name == "h5":
+            role = text
+        elif el.name == "h2":
+            if text.lower().startswith("hitta hit"):  # end of the staff list
+                break
+            name = text
+    return people
+
+
+def _park_people() -> list[dict]:
+    robots = _robots(PARK_PEOPLE)
+    if robots and not robots.can_fetch(USER_AGENT, PARK_PEOPLE):
+        return []
+    try:
+        r = requests.get(PARK_PEOPLE, headers=H, timeout=30)
+        r.raise_for_status()
+    except requests.RequestException:
+        return []
+    if "charset" not in r.headers.get("content-type", "").lower():
+        r.encoding = r.apparent_encoding
+    return park_people(r.text)
+
+
+def testbed_contact(title: str, summary: str, url: str, text: str, people: list[dict]) -> str:
+    """The published contact route for a testbed, with where it was published. In order:
+    1. named addresses in the testbed page's own text (not site mailboxes such as info@),
+    2. for park testbeds, the park's contact list: the person listed first under the facility's own
+       section, else the person whose role names the facility, else a person the page itself names,
+    3. the park's 'test and development' page."""
+    named = [e for e in dict.fromkeys(EMAIL.findall(text)) if e.split("@")[0].lower() not in GENERIC]
+    if named:
+        return f"{' or '.join(named[:2])} (named on the source page)"
+    if "bluesciencepark.se" not in url:
+        return f"See the source page: {url}"
+    t, about = _norm(title), _norm(f"{title} {summary}")
+    pick = (next((p for p in people if _norm(p["section"]) in about or t == _norm(p["section"])), None)
+            or next((p for p in people if len(t) > 4 and t in _norm(p["role"])), None)
+            or next((p for p in people if p["name"] in text), None))
+    if pick:
+        role = f"{pick['role']}, " if pick["role"] else ""
+        return f"{pick['name']} ({role}{pick['section']}): {pick['email']} (Blue Science Park contact list: {PARK_PEOPLE})"
+    return f"Blue Science Park, test and development: {PARK_TESTBEDS}"
+
+
+def _access(steps: list[str]) -> list[str]:
+    return [s for s in steps if s and not any(w in s.lower() for w in NOT_ACCESS)]
+
+
 def testbeds() -> list[Opportunity]:
     out = []
+    people = _park_people()
     for url in TESTBED_PAGES:
         page = _get(url)
         if not page:
@@ -324,9 +401,28 @@ def testbeds() -> list[Opportunity]:
             out.append(Opportunity(
                 id=_id(url, tb.title), type="testbed", title=tb.title, url=url, source=source,
                 retrieved_at=datetime.now(timezone.utc), location=tb.location, audience=tb.audience,
-                requirements=[tb.how_to_access] if tb.how_to_access else [],
+                requirements=_access([tb.how_to_access or ""]),
+                contact=testbed_contact(tb.title, tb.what_can_be_tested, url, text, people),
                 summary=tb.what_can_be_tested, tags=tb.tags[:5]))
     return out
+
+
+def refresh_testbed_contacts() -> list[Opportunity]:
+    """Add the contact route to the stored testbeds and drop non-access text from their requirements.
+    No LLM: ids, summaries and embeddings stay, so the match judgements still apply."""
+    people = _park_people()
+    pages = {}
+    opps = load_opportunities()
+    for o in opps:
+        if o.type != "testbed":
+            continue
+        if o.url not in pages:
+            page = _get(o.url)
+            pages[o.url] = _body(*page) if page else ""
+        o.requirements = _access(o.requirements)
+        o.contact = testbed_contact(o.title, o.summary, o.url, pages[o.url], people)
+    save_opportunities(opps)
+    return [o for o in opps if o.type == "testbed"]
 
 
 def run(today: date | None = None) -> list[Opportunity]:
@@ -356,8 +452,25 @@ if __name__ == "__main__":
     m = DATUM.search("Datum / Tid 3 februari 2027 09:00 - 14:00")
     assert m and MONTHS[m.group(2)[:3]] == 2 and m.group(3) == "2027"
     assert _field("Plats", "Plats: The Pot - Karlskrona Anmäl dig") == "The Pot - Karlskrona"
+    html = ("<h2>Vi som jobbar här</h2><h4>Marine Technology Center of Sweden</h4><h5>Innovationsledare</h5>"
+            "<h2>Ada Lab</h2><a href='mailto:ada@mtc.se'>m</a><h4>Tech Concept Lab</h4><h5>Projektledare</h5>"
+            "<h2>Bo Test</h2><a href='mailto:bo@park.se'>m</a><h5>Projektledare, AI Factory Blekinge</h5>"
+            "<h2>Cy Ai</h2><a href='mailto:cy@park.se'>m</a><h2>Hitta hit</h2><a href='mailto:x@park.se'>m</a>")
+    ppl = park_people(html)
+    assert [p["email"] for p in ppl] == ["ada@mtc.se", "bo@park.se", "cy@park.se"]
+    park = "https://www.bluesciencepark.se/x/"
+    assert "bo@park.se" in testbed_contact("Tech Concept Lab", "", park, "info@bluesciencepark.se", ppl)
+    assert "cy@park.se" in testbed_contact("AI Factory Blekinge", "", park, "", ppl)
+    assert "ada@mtc.se" in testbed_contact("Ny miljö", "marine tests", park, "says Ada Lab, head of MTC", ppl)
+    assert testbed_contact("Lab", "", "https://netport.se/x", "Kontakta anna@netport.se or info@netport.se", ppl) \
+        == "anna@netport.se (named on the source page)"
+    assert PARK_TESTBEDS in testbed_contact("Unknown", "", park, "", ppl)
+    assert _access(["Sign up for our newsletter!", "Contact the park."]) == ["Contact the park."]
     print("ok")
     import sys
+    if "--testbeds" in sys.argv:
+        for o in refresh_testbed_contacts():
+            print(o.title[:45], "|", o.contact, "|", o.requirements)
     if "--events" in sys.argv:
         for o in refresh_listed_events():
             print(o.start_date, o.source, o.format, "|", o.location, "|", o.title[:70])

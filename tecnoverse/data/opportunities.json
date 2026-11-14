@@ -7379,7 +7379,7 @@
   "requirements": [
    "Interested parties can join by contacting Blue Science Park to become part of the development."
   ],
-  "contact": null,
+  "contact": "David Appelberg (Innovationsledare, Marine Technology Center of Sweden): david.appelberg@mtcos.se (Blue Science Park contact list: https://www.bluesciencepark.se/kontaktpersoner/)",
   "summary": "It offers testing opportunities for marine technology in real maritime conditions.",
   "tags": [
    "marine technology",
@@ -7790,10 +7790,8 @@
   "format": null,
   "location": null,
   "audience": "AI Factory Blekinge ska göra små och medelstora företag mer konkurrenskraftiga i en AI-driven värld.",
-  "requirements": [
-   "Få det senaste inom innovation och kunskap i din inkorg. Signa upp dig på vårt nyhetsbrev!"
-  ],
-  "contact": null,
+  "requirements": [],
+  "contact": "Lennart Johansson (Innovationsledare och projektledare, AI Lab och AI Factory Blekinge, Tech Concept Lab): lennart.johansson@bluesciencepark.se (Blue Science Park contact list: https://www.bluesciencepark.se/kontaktpersoner/)",
   "summary": "Projektet erbjuder kunskap, testmiljöer och beslutsstöd för att hjälpa företag att utforska, prototypa och implementera AI-lösningar, utveckla nya processer, tjänster och affärsmodeller samt höja kompetensen inom generativ AI och digitalisering.",
   "tags": [
    "AI",
@@ -8206,7 +8204,7 @@
   "requirements": [
    "Organizations can access it by contacting Blue Science Park."
   ],
-  "contact": null,
+  "contact": "David Appelberg (Innovationsledare, Marine Technology Center of Sweden): david.appelberg@mtcos.se (Blue Science Park contact list: https://www.bluesciencepark.se/kontaktpersoner/)",
   "summary": "Provides digital and physical test environments for new technology and equipment.",
   "tags": [
    "digital",
@@ -8619,7 +8617,7 @@
   "requirements": [
    "Access is arranged through the Blue Science Park contact channels."
   ],
-  "contact": null,
+  "contact": "Mårten Holmberg (Projektledare, Tech Concept Lab): marten.holmberg@bluesciencepark.se (Blue Science Park contact list: https://www.bluesciencepark.se/kontaktpersoner/)",
   "summary": "Offers a space to test and develop innovative digital solutions.",
   "tags": [
    "innovation",
@@ -9032,7 +9030,7 @@
   "requirements": [
    "Contact anna.soderberg@netport.se or anders.qvarnstrom@netport.se for more information."
   ],
-  "contact": null,
+  "contact": "anna.soderberg@netport.se or anders.qvarnstrom@netport.se (named on the source page)",
   "summary": "The pilot focuses on marine bioeconomy, including testing marine waste streams and food.",
   "tags": [
    "marine bioeconomy",
