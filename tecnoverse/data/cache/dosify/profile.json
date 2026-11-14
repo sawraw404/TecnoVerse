@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.989906Z",
+   "updated_at": "2026-11-14T01:45:29.817138Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.991029Z",
+   "updated_at": "2026-11-14T01:45:29.818250Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.991074Z",
+   "updated_at": "2026-11-14T01:45:29.818293Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.992192Z",
+   "updated_at": "2026-11-14T01:45:29.819325Z",
    "needs_review": false
   },
   {
@@ -132,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.993219Z",
+   "updated_at": "2026-11-14T01:45:29.820349Z",
    "needs_review": false
   },
   {
@@ -151,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.994254Z",
+   "updated_at": "2026-11-14T01:45:29.821461Z",
    "needs_review": false
   },
   {
@@ -170,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.995296Z",
+   "updated_at": "2026-11-14T01:45:29.822561Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.996396Z",
+   "updated_at": "2026-11-14T01:45:29.823640Z",
    "needs_review": false
   },
   {
@@ -208,26 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.997459Z",
-   "needs_review": false
-  },
-  {
-   "id": "d566bf0d5cbb770f",
-   "company_id": "dosify",
-   "field": "contact",
-   "value": "Ola Svennesson, CEO (named in Blue Science Park article)",
-   "status": "fact",
-   "source_page_id": "20a9db30be72270d",
-   "quote": "Bakom Dosify står Ockham Technologies med vd Ola Svennesson",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.998497Z",
+   "updated_at": "2026-11-14T01:45:29.824697Z",
    "needs_review": false
   },
   {
@@ -246,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999243Z",
+   "updated_at": "2026-11-14T01:45:29.825425Z",
    "needs_review": false
   },
   {
@@ -265,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999251Z",
+   "updated_at": "2026-11-14T01:45:29.825432Z",
    "needs_review": false
   },
   {
@@ -284,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999257Z",
+   "updated_at": "2026-11-14T01:45:29.825437Z",
    "needs_review": false
   },
   {
@@ -303,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999262Z",
+   "updated_at": "2026-11-14T01:45:29.825443Z",
    "needs_review": false
   },
   {
@@ -322,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999265Z",
+   "updated_at": "2026-11-14T01:45:29.825447Z",
    "needs_review": false
   },
   {
@@ -341,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999276Z",
+   "updated_at": "2026-11-14T01:45:29.825457Z",
    "needs_review": false
   },
   {
@@ -360,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:17.999283Z",
+   "updated_at": "2026-11-14T01:45:29.825464Z",
    "needs_review": false
   }
  ],
