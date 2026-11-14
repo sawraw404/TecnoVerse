@@ -119,12 +119,15 @@ export interface Card {
   vote: "up" | "down" | null;
 }
 
+/** The lists on the Opportunities page: the three opportunity types plus trends (news). */
+export type ListType = PriorityType | "news";
+
 export interface Dashboard {
   ranked: boolean;
   company: Company | null;
   top: Card[];
-  by_type: Record<PriorityType, Card[]>;
-  rest: Record<PriorityType, Card[]>;
+  by_type: Record<ListType, Card[]>;
+  rest: Record<ListType, Card[]>;
   saved: Card[];
 }
 

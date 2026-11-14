@@ -333,7 +333,8 @@ def run(today: date | None = None) -> list[Opportunity]:
     today = today or date.today()
     opps = funding(today) + events(today) + listed_events(today) + testbeds()
     unique = list({o.id: o for o in opps}.values())
-    save_opportunities(unique)
+    trends = [o for o in load_opportunities() if o.type == "news"]  # owned by agents/trends.py
+    save_opportunities(unique + trends)
     return unique
 
 

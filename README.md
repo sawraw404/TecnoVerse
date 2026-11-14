@@ -55,6 +55,8 @@ Useful commands (run from `tecnoverse/`):
 | `python -m agents.monitors --run` | Fetch funding (Vinnova), events and testbeds into `data/opportunities.json` |
 | `python -m agents.monitors --events` | Refresh only the Almi and Chamber of Commerce events; everything else stays |
 | `python -m core.embed` | Embed every opportunity with the local model (run after the monitors) |
+| `python -m agents.trends --run` | Trend monitor: collect news and research (last 90 days), summarise with Groq, write per-company notes |
+| `python -m agents.trends --collect c.json` / `--import c.json written.json` | Offline route: collect and pre-filter, then import summaries and notes written in a dev session |
 | `python -m agents.profiler --all` | Crawl and profile every company without a profile (Gemini) |
 | `python -m agents.matcher --all` | Re-rank all opportunities for every company |
 | `python -m eval.run_boundary` | Run the 11 boundary tests live on Groq → `eval/boundary_results.md` |
@@ -77,6 +79,7 @@ Company URL → baseline profile (with sources) → company reviews & edits
 |---|---|---|---|
 | **Profiler** | `agents/profiler.py` | Crawls the homepage plus up to 7 keyword-ranked pages and the newest news posts, then fills a fixed profile (industry, offering, technology, markets, geography, contact, innovation, ...). Every item has a source link, a date and a status of fact, inferred or missing. A fact needs a quote found again in the page text. Contacts come from the company's own site only. | Gemini first |
 | **Monitors** | `agents/monitors.py` | Funding: open Vinnova calls from the open data API. Events: Blue Science Park and NetPort event pages and Ericsson's events page (Groq extracts them), plus Almi's calendar (Blekinge or online) and the South Sweden Chamber of Commerce (Blekinge and Sydost), whose pages state date, place and registration deadline in fixed fields that are read directly. Only events whose date including the year is on the page are kept. Testbeds: Blue Science Park and NetPort test environment pages. | Groq first |
+| **Trend monitor** | `agents/trends.py` | Knowledge and trend monitoring (brief, area 1). Reads 10 public RSS feeds: regional (Blue Science Park, NetPort, Region Blekinge, Tillväxtverket, Sydöstran, BLT), research (Forskning.se) and industry (Computer Sweden, Offshore Energy, The Maritime Executive). Keeps the last 90 days, pre-filters by embedding similarity to the company profiles, then Groq drops items that are not about technology, research, industry, business or regional development and writes "what changed" from the item's own text. Per company, Groq writes "why it may matter" for its 3 closest items (`data/trend_notes.json`). Stored as `news` opportunities. The current 40 trends and 52 notes were written offline by Claude Code (14 Nov) from the collected items, via `--collect`/`--import`. | Groq first |
 | **Matcher** | `agents/matcher.py`, `agents/scoring.py`, `core/embed.py` | Semantic similarity from a local embedding model, plus keyword topic fit, priorities, region, evidence and feedback; then re-ranks with a relevance judgement and shows why it fits and what is uncertain. Save and 👍/👎 per company. | judgements offline by Claude Code |
 | **Editor** | `agents/editor.py` | Confirm, correct (keeps history), remove and add profile items; make any item public or private; set priorities. Saving re-ranks and the Profile page shows rank changes. | none |
 | **Assistant + guardrail** | `agents/assistant.py` | Labels every message in scope, unclear, out of scope, injection or needs staff, then answers from the company's own data, the park's public member list and which companies are members or external, asks a clarifying question, explains its remit, or refers to park staff. Conversations are stored per company; "Ask about this" attaches an opportunity. | Groq first |
@@ -424,6 +427,7 @@ Relevance is checked against offline judgements, so it shows the system behaves 
 | Companies | 38 in Blekinge county in the park's focus areas: 20 park members, 18 found via Blekinge Business Incubator, NetPort, Soft Center and Techtank. Each has industry, services, contact and a recent innovation (from Nov 2024, or undated on a current product page). |
 | Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` records which. The app Profiler works live ("Re-crawl and rebuild profile"). |
 | Opportunities | 16 Vinnova funding calls, 10 events (park, NetPort, Ericsson, Almi, Chamber of Commerce), 5 testbeds; all embedded |
+| Trends | Recent news and research from 10 feeds, in a Trends tab on the Opportunities page: source, published date, "what changed" and, for each company, "why it may matter" (AI summaries, labelled). The assistant can answer from them. |
 | Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), public/private switch per item, priorities, correction history, rank changes |
 | Opportunities page | Top matches, Funding, Events, Testbeds and Saved tabs; why it fits, uncertain, requirements, contact, draft intro email, Save, 👍/👎, "Ask about this" |
 | Assistant | Guardrail on every turn, answers cite opportunities with link and date, staff referrals, knows park members vs external companies. Conversations stored per company with a list and "New chat"; history is read on the server |
@@ -468,7 +472,7 @@ For local development, use [Application Default Credentials](https://cloud.googl
 ## Known limitations
 - All 38 stored profiles (wholly or partly) and all relevance judgements were made offline by Claude Code, not by the app's own agents. This is recorded in the data, not labelled in the UI; quotes were checked the same way.
 - 10 events: most park event pages state no year, and BTH's events page needs JavaScript, so it is not read.
-- Three opportunity monitors (funding, events, testbeds). Research and news monitoring are not covered.
+- Four monitors (funding, events, testbeds, trends). Trends come from RSS feeds only, so research coverage is limited to Forskning.se; scientific publications are not searched. The trend summaries and notes are written live by Groq and can be imprecise; each links to its source.
 - Authentication is simulated with a "log in as" selector. There are no real accounts or passwords.
 - Eligibility is never assessed, only quoted from the source.
 - Relevance is evaluated against offline judgements, not by member companies.

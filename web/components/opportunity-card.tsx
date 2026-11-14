@@ -59,12 +59,32 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
                 {o.location}
               </span>
             )}
-            <span>source: {o.source}</span>
+            <span>source: {o.type === "news" ? (o.contact ?? o.source) : o.source}</span>
             <span>retrieved {day(o.retrieved_at)}</span>
             <SourceLink href={o.url}>open</SourceLink>
           </p>
 
-          {card.why ? (
+          {o.type === "news" ? (
+            <div className="mt-3 grid gap-2 text-sm leading-6 sm:grid-cols-2">
+              <div className="rounded-md bg-surface-2 px-3 py-2.5">
+                <p className="mb-0.5 flex items-center gap-1.5 text-xs font-semibold text-text">
+                  What changed <Badge tone="slate">AI summary</Badge>
+                </p>
+                <p className="text-text-2">{o.summary}</p>
+              </div>
+              {card.why ? (
+                <div className="rounded-md bg-surface-2 px-3 py-2.5">
+                  <p className="mb-0.5 text-xs font-semibold text-text">Why it may matter to {company?.name ?? "you"}</p>
+                  <p className="text-text-2">{card.why}</p>
+                  {card.uncertain && <p className="mt-1 text-xs text-text-3">Check: {card.uncertain}</p>}
+                </div>
+              ) : (
+                company && (
+                  <div className="rounded-md bg-surface-2 px-3 py-2.5 text-text-3">Similar to your profile by text; no note written for it.</div>
+                )
+              )}
+            </div>
+          ) : card.why ? (
             <div className="mt-3 grid gap-2 text-sm leading-6 sm:grid-cols-2">
               <div className="rounded-md bg-surface-2 px-3 py-2.5">
                 <p className="mb-0.5 flex items-center gap-1.5 text-xs font-semibold text-text">
@@ -95,11 +115,17 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
               </div>
             )
           )}
-          {!m && o.summary && <p className="mt-2 line-clamp-3 text-sm leading-6 text-text-2">{o.summary}</p>}
+          {!m && o.summary && o.type !== "news" && <p className="mt-2 line-clamp-3 text-sm leading-6 text-text-2">{o.summary}</p>}
         </div>
       </div>
 
-      {(m || o.requirements.length > 0 || o.contact) && (
+      {o.type === "news"
+        ? m && (
+            <div className="flex justify-end border-t border-border bg-surface-2/50 px-4 py-2 sm:px-5">
+              <CardActions opportunityId={o.id} title={o.title} vote={card.vote} saved={card.saved} />
+            </div>
+          )
+        : (m || o.requirements.length > 0 || o.contact) && (
         <div className="flex flex-col gap-2 border-t border-border bg-surface-2/50 px-4 py-2 sm:flex-row sm:items-start sm:justify-between sm:px-5">
           <details className="min-w-0 flex-1 py-1">
             <summary className="inline-flex cursor-pointer items-center gap-1 text-[13px] font-medium text-text-2 hover:text-text">

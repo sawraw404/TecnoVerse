@@ -223,7 +223,7 @@ class Dashboard(BaseModel):
 
 
 PER_TYPE = 5
-TYPES = ("funding", "event", "testbed")
+TYPES = ("funding", "event", "testbed", "news")  # news = trend monitor
 
 
 @app.get("/dashboard")
@@ -235,6 +235,7 @@ def dashboard(user: User = Depends(current_user)) -> Dashboard:
         by_type = {t: [Card(opportunity=o) for o in sorted((o for o in opps.values() if o.type == t),
                                                              key=lambda o: str(o.deadline or o.start_date))]
                    for t in TYPES}
+        by_type["news"].sort(key=lambda c: str(c.opportunity.published_at), reverse=True)  # newest first
         return Dashboard(ranked=False, company=None, top=[], by_type=by_type, rest={t: [] for t in TYPES})
     company = next(c for c in load_companies() if c.id == user.company_id)
     matches = load_matches(company.id) or match_company(company.id)
@@ -249,7 +250,7 @@ def dashboard(user: User = Depends(current_user)) -> Dashboard:
 
     cards = [card(m) for m in matches if m.opportunity_id in opps]
     return Dashboard(
-        ranked=True, company=company, top=[c for c in cards if c.judged][:PER_TYPE],
+        ranked=True, company=company, top=[c for c in cards if c.judged and c.opportunity.type != "news"][:PER_TYPE],
         by_type={t: [c for c in cards if c.judged and c.opportunity.type == t][:PER_TYPE] for t in TYPES},
         rest={t: [c for c in cards if not c.judged and c.opportunity.type == t] for t in TYPES},
         saved=[c for c in cards if c.saved])

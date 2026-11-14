@@ -34,8 +34,13 @@ class Explanation(BaseModel):
 
 
 def load_explanations() -> dict[tuple[str, str], Explanation]:
-    path = DATA / "explanations.json"
-    raw = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    """Judgements for funding, events and testbeds (data/explanations.json) and the trend monitor's
+    per-company notes (data/trend_notes.json, written live by agents/trends.py)."""
+    raw = {}
+    for name in ("explanations.json", "trend_notes.json"):
+        path = DATA / name
+        if path.exists():
+            raw.update(json.loads(path.read_text(encoding="utf-8")))
     return {tuple(k.split("|")): Explanation(**v) for k, v in raw.items()}
 
 
