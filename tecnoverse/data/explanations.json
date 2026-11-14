@@ -1,0 +1,412 @@
+{
+ "3d-vision|391841eed3aba7d6": {
+  "why": "Tech Concept Lab offers space to test digital solutions; fits its VR training and real-time showroom platform.",
+  "uncertain": "Access terms and cost not stated on the page.",
+  "score": 1.0
+ },
+ "3d-vision|472cfd288ac77069": {
+  "why": "AI Factory Blekinge helps SMEs prototype AI; could add AI to its interactive 3D and VR products.",
+  "uncertain": "Project-based support; capacity and timing unclear.",
+  "score": 0.85
+ },
+ "addsecure|a1c3822726594a1f": {
+  "why": "Its SmartCom platform and smart-grid IoT communication match a call on flexible energy control with digitalisation.",
+  "uncertain": "Needs an industrial need owner in the consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "addsecure|378bc700208367c6": {
+  "why": "Secure, Zero Trust IoT communication fits a call on cybersecurity and resilience in industrial systems.",
+  "uncertain": "Consortium of at least two required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "affarsverken|a1c3822726594a1f": {
+  "why": "As an energy utility with smart-grid work (CISSAN), it fits flexible energy control projects.",
+  "uncertain": "Usually a need owner rather than lead; consortium needed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "affarsverken|378bc700208367c6": {
+  "why": "Its CISSAN work on cyber-threat detection in smart grids matches this call directly.",
+  "uncertain": "Consortium and industrial partner rules apply. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "affarsverken|f301ffdf298a627e": {
+  "why": "Municipal utility services (energy, waste, fibre) relate to sustainable urban transformation.",
+  "uncertain": "Call focuses on the 15-minute city; three-country consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.7
+ },
+ "afry|0845584cfa8114e5": {
+  "why": "Its Karlskrona office wants to grow in marine technology; the new Saltö test site supports that.",
+  "uncertain": "The environment is still being built.",
+  "score": 1.0
+ },
+ "afry|fb51fa2dab778daf": {
+  "why": "Engineering, IoT and automation work fits 5G and automation projects for industry.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "afry|54b8b034c03606c7": {
+  "why": "Product development and industrial digitalisation match advanced manufacturing projects.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.7
+ },
+ "cleura|6493a356a1223c47": {
+  "why": "A sovereign European cloud provider fits national co-financing for EU DIGITAL programme projects.",
+  "uncertain": "Only for projects already in or applying to DIGITAL. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "cleura|378bc700208367c6": {
+  "why": "Compliant cloud for mission-critical data relates to digital resilience.",
+  "uncertain": "Call targets industrial digital systems. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "cleura|472cfd288ac77069": {
+  "why": "Its new AI inference platform could serve SMEs prototyping AI in Blekinge.",
+  "uncertain": "A partnership idea, not a stated offer.",
+  "score": 0.7
+ },
+ "dnv-cyber|378bc700208367c6": {
+  "why": "OT and IT security expertise for critical infrastructure is exactly this call's topic.",
+  "uncertain": "Consortium with a Swedish industrial company required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "dnv-cyber|a1c3822726594a1f": {
+  "why": "Cyber resilience for energy operators supports digital energy control projects.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "dxc-technology|378bc700208367c6": {
+  "why": "Agentic AI for mission-critical IT operations relates to resilience of industrial digital systems.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "dxc-technology|7f46dc56d08829b9": {
+  "why": "Its engineering arm (software, product and embedded) fits cyber-physical product development.",
+  "uncertain": "Needs two industrial partners. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "embeddedart|af87ed004445089b": {
+  "why": "Sonar, UV sensors and sea surveillance systems fit autonomous maritime surveillance directly.",
+  "uncertain": "Challenge format and team rules apply. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "embeddedart|0845584cfa8114e5": {
+  "why": "Underwater sensors could be tested in real maritime conditions at Saltö.",
+  "uncertain": "The environment is still being built.",
+  "score": 0.85
+ },
+ "embeddedart|ce83d9c6dcdce5c6": {
+  "why": "Marine Technology Center offers physical test environments for marine equipment.",
+  "uncertain": "Access terms not stated.",
+  "score": 0.7
+ },
+ "ericsson|fb51fa2dab778daf": {
+  "why": "Private 5G and automation for industry is its core enterprise offering.",
+  "uncertain": "Ericsson may join as technology partner rather than applicant. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "ericsson|378bc700208367c6": {
+  "why": "Network cybersecurity and resilience match the call.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "kiwa|ce83d9c6dcdce5c6": {
+  "why": "Testing and certification could complement physical test environments for new equipment.",
+  "uncertain": "A collaboration idea; not stated by either side.",
+  "score": 1.0
+ },
+ "kiwa|86f2577550a489ff": {
+  "why": "Testing and validation services relate to validating new technology in pilot lines.",
+  "uncertain": "Call targets SMEs developing semiconductor technology. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "lysa|e278ebe66b4b65b0": {
+  "why": "A local member meetup on AI could suit a digital savings service exploring automation.",
+  "uncertain": "Event is in Karlshamn; Lysa's office location not stated.",
+  "score": 1.0
+ },
+ "nicon|2cb81151d0948bed": {
+  "why": "SUCCCE, smart-glasses communication in care settings, fits life-science innovation.",
+  "uncertain": "Needs at least three actors incl. academia. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "nicon|472cfd288ac77069": {
+  "why": "Its Telme platform could add AI with support from AI Factory Blekinge.",
+  "uncertain": "Project capacity unclear.",
+  "score": 0.85
+ },
+ "nkt|a1c3822726594a1f": {
+  "why": "Power cables and grid infrastructure relate to flexible energy use in industry.",
+  "uncertain": "NKT is large; the call favours need-driven consortia. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "nkt|e472a66e90dce4f0": {
+  "why": "Cable production depends on raw materials such as copper and aluminium.",
+  "uncertain": "Nordic three-country consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "ocean-harvesting|0845584cfa8114e5": {
+  "why": "Its InfinityWEC wave energy converter needs sea trials; Saltö offers real maritime testing.",
+  "uncertain": "The environment is still being built.",
+  "score": 1.0
+ },
+ "ocean-harvesting|a1c3822726594a1f": {
+  "why": "Model Predictive Control for energy output relates to flexible energy control.",
+  "uncertain": "Call targets energy use in industry, not generation. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "ocean-harvesting|ce83d9c6dcdce5c6": {
+  "why": "Physical marine test environments fit prototype validation.",
+  "uncertain": "Access terms not stated.",
+  "score": 0.7
+ },
+ "roxtec|0845584cfa8114e5": {
+  "why": "Seals for offshore and marine use could be validated in real maritime conditions.",
+  "uncertain": "The environment is still being built.",
+  "score": 1.0
+ },
+ "roxtec|54b8b034c03606c7": {
+  "why": "Manufacturing of sealing products fits advanced manufacturing projects.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "saab|af87ed004445089b": {
+  "why": "Naval combat systems and surveillance fit autonomous maritime surveillance.",
+  "uncertain": "Saab may partner rather than apply. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "saab|0845584cfa8114e5": {
+  "why": "The test site works with Sjöstridsskolan and the navy's experiment office, close to Saab Kockums' work.",
+  "uncertain": "The environment is still being built.",
+  "score": 0.85
+ },
+ "saab|378bc700208367c6": {
+  "why": "Defence-grade security relates to cybersecurity and resilience.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.7
+ },
+ "softhouse|7f46dc56d08829b9": {
+  "why": "Embedded and AI development fits cyber-physical product development.",
+  "uncertain": "Needs two industrial partners. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "softhouse|472cfd288ac77069": {
+  "why": "AI consultancy could take part in AI Factory Blekinge's support to SMEs.",
+  "uncertain": "A partnership idea, not stated.",
+  "score": 0.85
+ },
+ "spirius|fb51fa2dab778daf": {
+  "why": "IoT SIM connectivity fits connectivity-heavy industrial automation projects.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "spirius|e278ebe66b4b65b0": {
+  "why": "A local member meetup to meet Blekinge companies needing IoT connectivity.",
+  "uncertain": "Spirius is in Karlskrona; event is in Karlshamn.",
+  "score": 0.85
+ },
+ "techinova|a1c3822726594a1f": {
+  "why": "dSense and grid monitoring fit digital, flexible energy control in industry.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "techinova|378bc700208367c6": {
+  "why": "Its CISSAN cyber-threat detection work for power grids matches the call.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "varidens|378bc700208367c6": {
+  "why": "Its security-tested certification platform relates to digital resilience.",
+  "uncertain": "Call targets industrial digital systems. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "varidens|9d0f2b7a67649d6f": {
+  "why": "A young Karlskrona software company may fit the startup call.",
+  "uncertain": "Requires under 10 years old and under 10 employees; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "pavesight|9d0f2b7a67649d6f": {
+  "why": "A young AI road-monitoring startup fits funding to test market potential.",
+  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "pavesight|f301ffdf298a627e": {
+  "why": "Road condition monitoring for municipalities relates to sustainable urban transformation.",
+  "uncertain": "Three-country consortium; 15-minute-city focus. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "pavesight|472cfd288ac77069": {
+  "why": "Edge AI for road inspection could use AI Factory support.",
+  "uncertain": "Project capacity unclear.",
+  "score": 0.7
+ },
+ "interactive-materia|472cfd288ac77069": {
+  "why": "AI avatars and immersive training fit AI Factory Blekinge's prototyping support.",
+  "uncertain": "Project capacity unclear.",
+  "score": 1.0
+ },
+ "interactive-materia|9d0f2b7a67649d6f": {
+  "why": "A young AI and XR company may fit the startup call.",
+  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "interactive-materia|391841eed3aba7d6": {
+  "why": "Tech Concept Lab offers space to test digital solutions such as XR training.",
+  "uncertain": "Access terms not stated.",
+  "score": 0.7
+ },
+ "cimon-enterprise|9d0f2b7a67649d6f": {
+  "why": "Its portfolio companies could use startup funding.",
+  "uncertain": "Applies to portfolio companies, not Cimon itself. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "consid|a1c3822726594a1f": {
+  "why": "It built a data-driven energy platform with Fortum Spring, matching digital energy control.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "consid|472cfd288ac77069": {
+  "why": "AI and digitalisation consultancy fits AI Factory Blekinge.",
+  "uncertain": "A partnership idea, not stated.",
+  "score": 0.85
+ },
+ "kubicom|f301ffdf298a627e": {
+  "why": "Construction logistics and climate data for municipalities relate to sustainable urban transformation.",
+  "uncertain": "Three-country consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "kubicom|472cfd288ac77069": {
+  "why": "Automatic climate reports could gain from AI support.",
+  "uncertain": "A partnership idea, not stated.",
+  "score": 0.85
+ },
+ "noda-intelligent-systems|a1c3822726594a1f": {
+  "why": "AI-driven thermal energy optimisation fits flexible energy control directly.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "noda-intelligent-systems|f301ffdf298a627e": {
+  "why": "District heating optimisation supports sustainable cities.",
+  "uncertain": "Three-country consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "storegate|378bc700208367c6": {
+  "why": "Secure Swedish cloud storage relates to digital resilience.",
+  "uncertain": "Call targets industrial digital systems. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "storegate|6493a356a1223c47": {
+  "why": "Sovereign data storage could fit EU DIGITAL projects.",
+  "uncertain": "Only for projects in DIGITAL. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "techquity|cbe8694197e1f1b3": {
+  "why": "A platform for fund managers could explore markets outside Europe.",
+  "uncertain": "Call targets markets in Asia, Africa, Oceania and the Americas. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "vegoil|a51f15b9b93992e8": {
+  "why": "Its renewable marine fuel from residues relates to marine bioeconomy and residual streams.",
+  "uncertain": "Pilot focuses on marine waste and food.",
+  "score": 1.0
+ },
+ "vegoil|1fd30473f27258ab": {
+  "why": "Bio-oil from food-industry residues links to sustainable food systems.",
+  "uncertain": "Three-country consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "activout|e278ebe66b4b65b0": {
+  "why": "A local AI meetup suits a developer working with AI coding agents.",
+  "uncertain": "Event is in Karlshamn.",
+  "score": 1.0
+ },
+ "areff-systems|7f46dc56d08829b9": {
+  "why": "NFC traceability in building components is a cyber-physical product.",
+  "uncertain": "Needs two industrial partners. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "areff-systems|472cfd288ac77069": {
+  "why": "RFID data could feed AI solutions with AI Factory support.",
+  "uncertain": "A partnership idea, not stated.",
+  "score": 0.85
+ },
+ "novacast-systems|54b8b034c03606c7": {
+  "why": "Casting simulation for a resource-efficient foundry industry fits advanced manufacturing with net zero goals.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "novacast-systems|a1c3822726594a1f": {
+  "why": "Foundries are energy-intensive; thermal analysis supports efficient energy use.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "linjemontage|a1c3822726594a1f": {
+  "why": "Grid infrastructure relates to flexible energy use.",
+  "uncertain": "Mostly a contractor; may join as partner. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "shape-process-automation|54b8b034c03606c7": {
+  "why": "Robotic automation and laser processing fit advanced manufacturing.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "shape-process-automation|fb51fa2dab778daf": {
+  "why": "Automation solutions fit 5G and automation projects.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "hanza|54b8b034c03606c7": {
+  "why": "Contract manufacturing and its factory of the future fit advanced manufacturing.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "hanza|952277ab7e8f7428": {
+  "why": "Electronics manufacturing relates to electronic components and systems.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "holtab|a1c3822726594a1f": {
+  "why": "Microgrids ready for island operation fit flexible energy control.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "holtab|f301ffdf298a627e": {
+  "why": "Electrification and e-mobility infrastructure support sustainable cities.",
+  "uncertain": "Three-country consortium. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "kockums-maskin|54b8b034c03606c7": {
+  "why": "Its new flexible CNC automation concept fits advanced manufacturing.",
+  "uncertain": "International consortium required. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "kockums-maskin|fb51fa2dab778daf": {
+  "why": "CNC automation fits 5G and automation for industry.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "hi-unity|9d0f2b7a67649d6f": {
+  "why": "A young design company in the incubator may fit the startup call.",
+  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "dosify|9d0f2b7a67649d6f": {
+  "why": "A young cleantech company may fit funding to test market potential.",
+  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "dosify|cbe8694197e1f1b3": {
+  "why": "Its refill and dosing system could be tested in new international markets.",
+  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 0.85
+ },
+ "parkerra|9d0f2b7a67649d6f": {
+  "why": "A young prize-winning platform fits funding to test market potential.",
+  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
+  "score": 1.0
+ },
+ "parkerra|e278ebe66b4b65b0": {
+  "why": "A local member meetup to meet regional businesses and landowner networks.",
+  "uncertain": "Event is in Karlshamn.",
+  "score": 0.85
+ }
+}

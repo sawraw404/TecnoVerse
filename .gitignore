@@ -11,3 +11,6 @@ serviceAccount*.json
 # Crawled page text and raw HTML: other companies' content, kept local
 tecnoverse/data/cache/*/pages.json
 tecnoverse/data/cache/*/*.html
+# per-company matches and feedback: generated or private, not shared
+tecnoverse/data/cache/*/matches.json
+tecnoverse/data/cache/*/feedback.json
