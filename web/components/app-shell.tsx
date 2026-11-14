@@ -1,14 +1,15 @@
 "use client";
 
-import { Building2, FlaskConical, Info, LayoutDashboard, LogOut, Menu, MessagesSquare, Network, Repeat, X } from "lucide-react";
+import { Building2, Info, LayoutDashboard, LogOut, Menu, MessagesSquare, Network, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, type ReactNode } from "react";
 import { logOut } from "@/app/actions";
 import { Logo } from "@/components/logo";
 import { Toaster } from "@/components/toaster";
+import { UserSwitcher } from "@/components/user-switcher";
 import { cx } from "@/lib/format";
-import type { Me } from "@/lib/types";
+import type { Me, User } from "@/lib/types";
 
 const ROLE_LABEL = { member: "Company representative", staff: "Blue Science Park staff", external: "External visitor" };
 
@@ -22,7 +23,7 @@ function nav(me: Me) {
   ].filter((n) => n.show);
 }
 
-function Sidebar({ me, onNavigate }: { me: Me; onNavigate?: () => void }) {
+function Sidebar({ me, users, onNavigate }: { me: Me; users: User[]; onNavigate?: () => void }) {
   const pathname = usePathname();
   const who = me.company?.name ?? me.user.name;
   return (
@@ -67,35 +68,23 @@ function Sidebar({ me, onNavigate }: { me: Me; onNavigate?: () => void }) {
             <p className="truncate text-xs text-nav-muted">{ROLE_LABEL[me.user.role]}</p>
           </div>
         </div>
-        <p className="mt-3 flex items-center gap-1.5 text-[11px] text-nav-muted">
-          <FlaskConical className="size-3 text-[#b59cf2]" aria-hidden />
-          SIMULATED login, no real accounts
-        </p>
-        <div className="mt-2 grid grid-cols-2 gap-1.5">
-          <Link
-            href="/login"
-            onClick={onNavigate}
-            className="inline-flex h-8 items-center justify-center gap-1.5 rounded-md bg-white/6 text-xs font-medium text-nav-text transition-colors hover:bg-white/12 hover:text-white"
-          >
-            <Repeat className="size-3.5" aria-hidden /> Switch
-          </Link>
-          <form action={logOut}>
-            <button className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-md bg-white/6 text-xs font-medium text-nav-text transition-colors hover:bg-white/12 hover:text-white">
-              <LogOut className="size-3.5" aria-hidden /> Log out
-            </button>
-          </form>
-        </div>
+        <UserSwitcher key={me.user.id} users={users} current={me.user.id} onSwitch={onNavigate} />
+        <form action={logOut} className="mt-1.5">
+          <button className="inline-flex h-8 w-full items-center justify-center gap-1.5 rounded-md bg-white/6 text-xs font-medium text-nav-text transition-colors hover:bg-white/12 hover:text-white">
+            <LogOut className="size-3.5" aria-hidden /> Log out
+          </button>
+        </form>
       </div>
     </div>
   );
 }
 
-export function AppShell({ me, children }: { me: Me; children: ReactNode }) {
+export function AppShell({ me, users, children }: { me: Me; users: User[]; children: ReactNode }) {
   const [open, setOpen] = useState(false);
   return (
     <div className="min-h-dvh lg:pl-64">
       <aside className="fixed inset-y-0 left-0 z-30 hidden w-64 lg:block">
-        <Sidebar me={me} />
+        <Sidebar me={me} users={users} />
       </aside>
 
       {/* mobile top bar + drawer */}
@@ -115,7 +104,7 @@ export function AppShell({ me, children }: { me: Me; children: ReactNode }) {
         <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu">
           <button aria-label="Close menu" className="absolute inset-0 bg-nav/50 backdrop-blur-[2px]" onClick={() => setOpen(false)} />
           <div className="absolute inset-y-0 left-0 w-72 max-w-[85vw] animate-fade-up shadow-lg">
-            <Sidebar me={me} onNavigate={() => setOpen(false)} />
+            <Sidebar me={me} users={users} onNavigate={() => setOpen(false)} />
             <button
               type="button"
               aria-label="Close menu"

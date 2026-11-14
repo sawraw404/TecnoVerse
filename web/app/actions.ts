@@ -12,13 +12,22 @@ function failure(e: unknown): { ok: false; error: string } {
   return { ok: false, error: e instanceof ApiError ? e.message : "Something went wrong. Please try again." };
 }
 
-/** SIMULATED login: remember the chosen user in a cookie, then land on that role's start page. */
+/** Pages each role may open. Profile is for companies only, Ecosystem for staff only. */
+function allowed(role: User["role"], path: string): boolean {
+  if (["/dashboard", "/chat", "/about"].includes(path)) return true;
+  return (path === "/profile" && role === "member") || (path === "/staff" && role === "staff");
+}
+
+/** SIMULATED login: remember the chosen user in a cookie. The sidebar switcher passes the current page
+ *  as `next`, so switching company keeps you on the same page when the new user may see it. */
 export async function logIn(formData: FormData) {
   const id = String(formData.get("user") ?? "");
+  const next = String(formData.get("next") ?? "");
   const users = await api<User[]>("/users");
   const user = users.find((u) => u.id === id);
   if (!user) return;
   (await cookies()).set(USER_COOKIE, user.id, { httpOnly: true, sameSite: "lax", path: "/" });
+  if (allowed(user.role, next)) redirect(next);
   redirect(user.role === "staff" ? "/staff" : user.role === "member" ? "/profile" : "/dashboard");
 }
 
