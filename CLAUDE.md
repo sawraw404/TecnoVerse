@@ -17,8 +17,8 @@ Don't add features none of these ask for.
 |---|---|---|
 | Monitors | **3**: funding, events, testbeds | The demo edit is "testing is a priority"; without testbed items that edit has nothing to move. Testbeds may fall back to a curated list labelled SIMULATED. |
 | Funding source | **Vinnova** only | User's choice. EU Funding & Tenders is a next step. |
-| Events sources | Blue Science Park, BTH, **and Ericsson** if its page parses | Plan lists all three; one more URL in the same monitor. Skip Ericsson rather than fight it. |
-| LLM | **Gemini only.** No Ollama, no Groq. | User decision (13 Nov): one provider, one key, one code path. |
+| Events sources | Blue Science Park event pages, NetPort event posts, Ericsson events page. BTH's events page needs JavaScript and is not read. | Only events whose date including the year is on the page are kept. |
+| LLM | **Gemini + Groq**, chosen per agent in `core/llm.py`. Profiler and Staff mapper start on Gemini (long inputs, ~20 req/day/model); every other agent starts on Groq (~1000 req/day, ~8000 tokens/min). Each falls back to the other. | User decision (14 Nov), replacing "Gemini only". |
 | Vector search | **numpy cosine**; embeddings stored as arrays on the documents. No Chroma. | Under 200 opportunities. |
 | Storage | **Firebase**, built by a teammate. Not SQLite. | Team decision. Agents call the teammate's storage functions and never touch Firebase directly. Until those exist, the app reads `data/companies.json` and stores profiles as JSON via `core/store.py`. |
 | Company list | `tecnoverse/data/companies.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
