@@ -136,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.460925Z",
+   "updated_at": "2026-11-14T01:50:49.543629Z",
    "needs_review": false
   },
   {
@@ -155,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.462200Z",
+   "updated_at": "2026-11-14T01:50:49.544758Z",
    "needs_review": false
   },
   {
@@ -174,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.463331Z",
+   "updated_at": "2026-11-14T01:50:49.545842Z",
    "needs_review": false
   },
   {
@@ -193,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.464366Z",
+   "updated_at": "2026-11-14T01:50:49.546902Z",
    "needs_review": false
   },
   {
@@ -212,7 +212,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.465419Z",
+   "updated_at": "2026-11-14T01:50:49.547941Z",
+   "needs_review": false
+  },
+  {
+   "id": "751ca272bc0a7aff",
+   "company_id": "hi-unity",
+   "field": "customer_group",
+   "value": "Churches, chapels, cemeteries and funeral directors",
+   "status": "fact",
+   "source_page_id": "15574d0090625d69",
+   "quote": "Hi Unity utvecklar produkter som används i kyrkor, kapell, på kyrkogårdar och av begravningsbyråer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.548988Z",
+   "needs_review": false
+  },
+  {
+   "id": "771a41a5b71eb793",
+   "company_id": "hi-unity",
+   "field": "collaboration",
+   "value": "Cooperation agreement with Sveriges Begravningsbyråers Förbund (SBF)",
+   "status": "fact",
+   "source_page_id": "15574d0090625d69",
+   "quote": "Hi Unity har ett bra samarbete med Sveriges Begravningsbyråers Förbund (SBF)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.550024Z",
+   "needs_review": false
+  },
+  {
+   "id": "ac7dd72d1db84683",
+   "company_id": "hi-unity",
+   "field": "priority",
+   "value": "Agenda 2030: sustainable production with local Swedish producers",
+   "status": "fact",
+   "source_page_id": "15574d0090625d69",
+   "quote": "Med fokus på Agenda 2030 och särskilt målen om god hälsa samt hållbar produktion",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.551074Z",
    "needs_review": false
   },
   {
@@ -231,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.468794Z",
+   "updated_at": "2026-11-14T01:50:49.553484Z",
    "needs_review": false
   },
   {
@@ -250,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471305Z",
+   "updated_at": "2026-11-14T01:50:49.555920Z",
    "needs_review": false
   },
   {
@@ -269,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471324Z",
+   "updated_at": "2026-11-14T01:50:49.555940Z",
    "needs_review": false
   },
   {
@@ -288,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471332Z",
+   "updated_at": "2026-11-14T01:50:49.555949Z",
    "needs_review": false
   },
   {
@@ -307,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471337Z",
+   "updated_at": "2026-11-14T01:50:49.555953Z",
    "needs_review": false
   },
   {
@@ -326,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471340Z",
+   "updated_at": "2026-11-14T01:50:49.555958Z",
    "needs_review": false
   },
   {
@@ -345,26 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471344Z",
-   "needs_review": false
-  },
-  {
-   "id": "5c73d50ab92bab84",
-   "company_id": "hi-unity",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471348Z",
+   "updated_at": "2026-11-14T01:50:49.555964Z",
    "needs_review": false
   },
   {
@@ -383,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471351Z",
+   "updated_at": "2026-11-14T01:50:49.555970Z",
    "needs_review": false
   },
   {
@@ -402,45 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471354Z",
-   "needs_review": false
-  },
-  {
-   "id": "61a21ac8a21ced46",
-   "company_id": "hi-unity",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471358Z",
-   "needs_review": false
-  },
-  {
-   "id": "3575443d2ced80ba",
-   "company_id": "hi-unity",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471361Z",
+   "updated_at": "2026-11-14T01:50:49.555980Z",
    "needs_review": false
   },
   {
@@ -459,7 +459,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.471370Z",
+   "updated_at": "2026-11-14T01:50:49.555992Z",
    "needs_review": false
   }
  ],

@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T17:21:04.742711Z",
+  "last_crawled_at": "2026-11-14T01:41:02.921809Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,96 @@
    "retrieved_at": "2026-11-13T17:21:04.742711Z",
    "text": "",
    "content_hash": "8889d93c21c1dae4"
+  },
+  {
+   "id": "849004e6e0a65272",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter | WAY Communication",
+   "retrieved_at": "2026-11-14T01:31:45.495622Z",
+   "text": "",
+   "content_hash": "5fdb718dacc86b99"
+  },
+  {
+   "id": "a907fd38e10e5732",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/svenskarna-och-internet-2026-vad-betyder-arets-digitala-beteenden-for-foretag",
+   "source_type": "company_site",
+   "title": "Svenskarna och internet 2026 – vad betyder årets digitala beteenden för företag? | WAY Communication",
+   "retrieved_at": "2026-11-14T01:31:48.121022Z",
+   "text": "",
+   "content_hash": "8f8ec4f36a1ea48b"
+  },
+  {
+   "id": "3ae0f81acdf36cc9",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/show-the-way-sa-skapar-herbox-efterfragan-genom-mening",
+   "source_type": "company_site",
+   "title": "Show the WAY – Så skapar Herbox efterfrågan genom mening. | WAY Communication",
+   "retrieved_at": "2026-11-14T01:31:49.336288Z",
+   "text": "",
+   "content_hash": "23283c871e31d1ff"
+  },
+  {
+   "id": "12d9ce062fa2600d",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/integrerad-strategi",
+   "source_type": "company_site",
+   "title": "Integrerad strategi: så skapar WAY verklig effekt | WAY",
+   "retrieved_at": "2026-11-14T01:31:50.677871Z",
+   "text": "",
+   "content_hash": "2d19d7ffd27ff924"
+  },
+  {
+   "id": "b1903dc582061727",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/way-communication-flyttar-till-nytt-kontor-i-centrala-kristianstad",
+   "source_type": "company_site",
+   "title": "Kommunikationsbyrå i Kristianstad | WAY Communication växer",
+   "retrieved_at": "2026-11-14T01:40:58.317695Z",
+   "text": "",
+   "content_hash": "7ed370c3d7603c1a"
+  },
+  {
+   "id": "b7101af23f42a928",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/way-valkomnar-var-nya-social-media-manager",
+   "source_type": "company_site",
+   "title": "WAY välkomnar vår nya Social Media Manager",
+   "retrieved_at": "2026-11-14T01:40:59.415421Z",
+   "text": "",
+   "content_hash": "dac071fcd6e2b316"
+  },
+  {
+   "id": "cf59852fbe2d7575",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/nar-ai-motte-rocknroll",
+   "source_type": "company_site",
+   "title": "När AI mötte Rock'n'roll | En ny era i svensk reklam | WAY",
+   "retrieved_at": "2026-11-14T01:41:00.427043Z",
+   "text": "",
+   "content_hash": "34bb5de57ae7c53e"
+  },
+  {
+   "id": "e931f7d98eea14dd",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/boosta-i-kosta-assa-abloy",
+   "source_type": "company_site",
+   "title": "Boosta i Kosta – ASSA ABLOY samlade branschen | WAY",
+   "retrieved_at": "2026-11-14T01:41:01.784430Z",
+   "text": "",
+   "content_hash": "28c33b0f81f2f3a6"
+  },
+  {
+   "id": "f4e982bc15d9cee4",
+   "company_id": "way-communication",
+   "url": "https://waycommunication.se/nyhet/show-the-way-sa-vinner-du-kampen-om-uppmarksamheten-med-erik-modig",
+   "source_type": "company_site",
+   "title": "Show the Way | Event för framtidens marknadsföring | WAY",
+   "retrieved_at": "2026-11-14T01:41:02.921809Z",
+   "text": "",
+   "content_hash": "5181b6ed282ffe27"
   }
  ],
  "items": [
@@ -116,7 +206,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.608817Z",
+   "updated_at": "2026-11-14T01:50:49.538721Z",
    "needs_review": false
   },
   {
@@ -135,7 +225,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609085Z",
+   "updated_at": "2026-11-14T01:50:49.539030Z",
    "needs_review": false
   },
   {
@@ -154,7 +244,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609456Z",
+   "updated_at": "2026-11-14T01:50:49.539460Z",
    "needs_review": false
   },
   {
@@ -173,7 +263,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609705Z",
+   "updated_at": "2026-11-14T01:50:49.539791Z",
+   "needs_review": false
+  },
+  {
+   "id": "bfddb07edcdeab2b",
+   "company_id": "way-communication",
+   "field": "expertise",
+   "value": "1,000+ cases, 50 customers, 20 employees in 4 cities",
+   "status": "fact",
+   "source_page_id": "f6602413828a26ba",
+   "quote": "1000+ Case 50 Kunder 20 Anställda 4 Städer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.540086Z",
    "needs_review": false
   },
   {
@@ -192,7 +301,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609718Z",
+   "updated_at": "2026-11-14T01:50:49.540110Z",
    "needs_review": false
   },
   {
@@ -211,7 +320,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609723Z",
+   "updated_at": "2026-11-14T01:50:49.540118Z",
    "needs_review": false
   },
   {
@@ -230,26 +339,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609727Z",
-   "needs_review": false
-  },
-  {
-   "id": "b2b85251de006c9f",
-   "company_id": "way-communication",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609730Z",
+   "updated_at": "2026-11-14T01:50:49.540123Z",
    "needs_review": false
   },
   {
@@ -268,7 +358,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609733Z",
+   "updated_at": "2026-11-14T01:50:49.540126Z",
    "needs_review": false
   },
   {
@@ -287,7 +377,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609736Z",
+   "updated_at": "2026-11-14T01:50:49.540129Z",
    "needs_review": false
   },
   {
@@ -306,7 +396,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609738Z",
+   "updated_at": "2026-11-14T01:50:49.540132Z",
    "needs_review": false
   },
   {
@@ -325,7 +415,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609741Z",
+   "updated_at": "2026-11-14T01:50:49.540135Z",
    "needs_review": false
   },
   {
@@ -344,7 +434,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609744Z",
+   "updated_at": "2026-11-14T01:50:49.540138Z",
    "needs_review": false
   },
   {
@@ -363,7 +453,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.609749Z",
+   "updated_at": "2026-11-14T01:50:49.540145Z",
    "needs_review": false
   }
  ],

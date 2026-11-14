@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.606455Z",
+   "updated_at": "2026-11-14T01:50:49.533928Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.606639Z",
+   "updated_at": "2026-11-14T01:50:49.534098Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.606801Z",
+   "updated_at": "2026-11-14T01:50:49.534254Z",
+   "needs_review": false
+  },
+  {
+   "id": "1f381c1b8b9b4aca",
+   "company_id": "proware-sweden",
+   "field": "geography",
+   "value": "Soft Center, Ronneby",
+   "status": "fact",
+   "source_page_id": "a00cd44f1d626c82",
+   "quote": "Besöksadress Proware Sweden AB Soft Center V 372 25 RONNEBY",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.534400Z",
    "needs_review": false
   },
   {
@@ -103,7 +122,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.606915Z",
+   "updated_at": "2026-11-14T01:50:49.534503Z",
    "needs_review": false
   },
   {
@@ -122,7 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607015Z",
+   "updated_at": "2026-11-14T01:50:49.534604Z",
    "needs_review": false
   },
   {
@@ -141,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607020Z",
+   "updated_at": "2026-11-14T01:50:49.534609Z",
    "needs_review": false
   },
   {
@@ -160,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607024Z",
+   "updated_at": "2026-11-14T01:50:49.534613Z",
    "needs_review": false
   },
   {
@@ -179,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607027Z",
+   "updated_at": "2026-11-14T01:50:49.534616Z",
    "needs_review": false
   },
   {
@@ -198,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607029Z",
+   "updated_at": "2026-11-14T01:50:49.534619Z",
    "needs_review": false
   },
   {
@@ -217,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607032Z",
+   "updated_at": "2026-11-14T01:50:49.534622Z",
    "needs_review": false
   },
   {
@@ -236,26 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607034Z",
-   "needs_review": false
-  },
-  {
-   "id": "397b32e91759c66c",
-   "company_id": "proware-sweden",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607037Z",
+   "updated_at": "2026-11-14T01:50:49.534625Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607040Z",
+   "updated_at": "2026-11-14T01:50:49.534628Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607042Z",
+   "updated_at": "2026-11-14T01:50:49.534631Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607045Z",
+   "updated_at": "2026-11-14T01:50:49.534634Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.607049Z",
+   "updated_at": "2026-11-14T01:50:49.534640Z",
    "needs_review": false
   }
  ],

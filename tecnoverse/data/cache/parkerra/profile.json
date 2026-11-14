@@ -51,7 +51,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.833887Z",
+   "updated_at": "2026-11-14T01:50:49.570770Z",
    "needs_review": false
   },
   {
@@ -70,7 +70,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.834778Z",
+   "updated_at": "2026-11-14T01:50:49.571697Z",
    "needs_review": false
   },
   {
@@ -89,7 +89,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.835774Z",
+   "updated_at": "2026-11-14T01:50:49.572577Z",
    "needs_review": false
   },
   {
@@ -108,7 +108,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.836683Z",
+   "updated_at": "2026-11-14T01:50:49.573428Z",
    "needs_review": false
   },
   {
@@ -127,7 +127,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.837628Z",
+   "updated_at": "2026-11-14T01:50:49.574245Z",
+   "needs_review": false
+  },
+  {
+   "id": "461378edea9e7b5b",
+   "company_id": "parkerra",
+   "field": "geography",
+   "value": "Blekinge (SKAPA prize Blekinge)",
+   "status": "fact",
+   "source_page_id": "248dd93df6d5ccfa",
+   "quote": "Årets vinnare av Skapa innovationspris i Blekinge är Parkerra",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.575061Z",
    "needs_review": false
   },
   {
@@ -146,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838182Z",
+   "updated_at": "2026-11-14T01:50:49.575703Z",
    "needs_review": false
   },
   {
@@ -165,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838192Z",
+   "updated_at": "2026-11-14T01:50:49.575719Z",
    "needs_review": false
   },
   {
@@ -184,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838197Z",
+   "updated_at": "2026-11-14T01:50:49.575725Z",
    "needs_review": false
   },
   {
@@ -203,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838202Z",
+   "updated_at": "2026-11-14T01:50:49.575729Z",
    "needs_review": false
   },
   {
@@ -222,26 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838205Z",
-   "needs_review": false
-  },
-  {
-   "id": "fac99137cd5b59cd",
-   "company_id": "parkerra",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838208Z",
+   "updated_at": "2026-11-14T01:50:49.575732Z",
    "needs_review": false
   },
   {
@@ -260,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838212Z",
+   "updated_at": "2026-11-14T01:50:49.575736Z",
    "needs_review": false
   },
   {
@@ -279,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838215Z",
+   "updated_at": "2026-11-14T01:50:49.575739Z",
    "needs_review": false
   },
   {
@@ -298,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838218Z",
+   "updated_at": "2026-11-14T01:50:49.575742Z",
    "needs_review": false
   },
   {
@@ -317,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838226Z",
+   "updated_at": "2026-11-14T01:50:49.575750Z",
    "needs_review": false
   },
   {
@@ -336,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.838231Z",
+   "updated_at": "2026-11-14T01:50:49.575755Z",
    "needs_review": false
   }
  ],

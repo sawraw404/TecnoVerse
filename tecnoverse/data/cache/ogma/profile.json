@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.598473Z",
+   "updated_at": "2026-11-14T01:50:49.520383Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.598661Z",
+   "updated_at": "2026-11-14T01:50:49.520535Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.598791Z",
+   "updated_at": "2026-11-14T01:50:49.520663Z",
    "needs_review": false
   },
   {
@@ -163,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.598863Z",
+   "updated_at": "2026-11-14T01:50:49.520744Z",
    "needs_review": false
   },
   {
@@ -182,7 +182,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.598943Z",
+   "updated_at": "2026-11-14T01:50:49.520822Z",
+   "needs_review": false
+  },
+  {
+   "id": "a00044ec1546624a",
+   "company_id": "ogma",
+   "field": "geography",
+   "value": "Ronneby",
+   "status": "fact",
+   "source_page_id": "e4a0a8088406a355",
+   "quote": "Visiting address: Västra Industrigatan 2, 372 31 Ronneby",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.520936Z",
+   "needs_review": false
+  },
+  {
+   "id": "504c32b71232d691",
+   "company_id": "ogma",
+   "field": "project",
+   "value": "Catalogue sample packaging with hundreds of samples",
+   "status": "fact",
+   "source_page_id": "c821e37b1c00e0d8",
+   "quote": "Having hundreds of different samples for every catalogue takes a lot of processes",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.521105Z",
    "needs_review": false
   },
   {
@@ -201,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599014Z",
+   "updated_at": "2026-11-14T01:50:49.521176Z",
    "needs_review": false
   },
   {
@@ -220,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599085Z",
+   "updated_at": "2026-11-14T01:50:49.521248Z",
    "needs_review": false
   },
   {
@@ -239,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599090Z",
+   "updated_at": "2026-11-14T01:50:49.521254Z",
    "needs_review": false
   },
   {
@@ -258,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599094Z",
+   "updated_at": "2026-11-14T01:50:49.521258Z",
    "needs_review": false
   },
   {
@@ -277,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599097Z",
+   "updated_at": "2026-11-14T01:50:49.521261Z",
    "needs_review": false
   },
   {
@@ -296,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599100Z",
+   "updated_at": "2026-11-14T01:50:49.521265Z",
    "needs_review": false
   },
   {
@@ -315,45 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599103Z",
-   "needs_review": false
-  },
-  {
-   "id": "b3487535d8286eb8",
-   "company_id": "ogma",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599105Z",
-   "needs_review": false
-  },
-  {
-   "id": "5c52551edf5dd60a",
-   "company_id": "ogma",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599108Z",
+   "updated_at": "2026-11-14T01:50:49.521267Z",
    "needs_review": false
   },
   {
@@ -372,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599111Z",
+   "updated_at": "2026-11-14T01:50:49.521271Z",
    "needs_review": false
   },
   {
@@ -391,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599114Z",
+   "updated_at": "2026-11-14T01:50:49.521274Z",
    "needs_review": false
   },
   {
@@ -410,7 +410,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.599119Z",
+   "updated_at": "2026-11-14T01:50:49.521280Z",
    "needs_review": false
   }
  ],

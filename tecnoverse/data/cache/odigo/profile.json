@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.603087Z",
+   "updated_at": "2026-11-14T01:50:49.528445Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.603823Z",
+   "updated_at": "2026-11-14T01:50:49.529193Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.604532Z",
+   "updated_at": "2026-11-14T01:50:49.529996Z",
+   "needs_review": false
+  },
+  {
+   "id": "686de1706d30a25e",
+   "company_id": "odigo",
+   "field": "collaboration",
+   "value": "Takes part in Robotlyftet; robotisation events with IUC Syd",
+   "status": "fact",
+   "source_page_id": "fc06f9260854b7de",
+   "quote": "Odigo medverkar i Robotlyftet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.530831Z",
+   "needs_review": false
+  },
+  {
+   "id": "f391e8744d68fb93",
+   "company_id": "odigo",
+   "field": "customer_group",
+   "value": "Small and medium-sized manufacturers in the region",
+   "status": "fact",
+   "source_page_id": "fc06f9260854b7de",
+   "quote": "att hjälpa små och medelstora företag i regionen att skapa, behålla och ta hem industrijobb",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.531620Z",
    "needs_review": false
   },
   {
@@ -103,7 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.604988Z",
+   "updated_at": "2026-11-14T01:50:49.532085Z",
    "needs_review": false
   },
   {
@@ -122,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605472Z",
+   "updated_at": "2026-11-14T01:50:49.532534Z",
    "needs_review": false
   },
   {
@@ -141,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605478Z",
+   "updated_at": "2026-11-14T01:50:49.532541Z",
    "needs_review": false
   },
   {
@@ -160,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605481Z",
+   "updated_at": "2026-11-14T01:50:49.532545Z",
    "needs_review": false
   },
   {
@@ -179,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605484Z",
+   "updated_at": "2026-11-14T01:50:49.532549Z",
    "needs_review": false
   },
   {
@@ -198,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605487Z",
+   "updated_at": "2026-11-14T01:50:49.532552Z",
    "needs_review": false
   },
   {
@@ -217,26 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605490Z",
-   "needs_review": false
-  },
-  {
-   "id": "1fe4cf12a77da3f5",
-   "company_id": "odigo",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605492Z",
+   "updated_at": "2026-11-14T01:50:49.532555Z",
    "needs_review": false
   },
   {
@@ -255,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605495Z",
+   "updated_at": "2026-11-14T01:50:49.532558Z",
    "needs_review": false
   },
   {
@@ -274,26 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605498Z",
-   "needs_review": false
-  },
-  {
-   "id": "5aef3cc378d7633b",
-   "company_id": "odigo",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605500Z",
+   "updated_at": "2026-11-14T01:50:49.532561Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605503Z",
+   "updated_at": "2026-11-14T01:50:49.532564Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.605508Z",
+   "updated_at": "2026-11-14T01:50:49.532570Z",
    "needs_review": false
   }
  ],

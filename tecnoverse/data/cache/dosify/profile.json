@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.817138Z",
+   "updated_at": "2026-11-14T01:50:49.558433Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.818250Z",
+   "updated_at": "2026-11-14T01:50:49.559561Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.818293Z",
+   "updated_at": "2026-11-14T01:50:49.559615Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.819325Z",
+   "updated_at": "2026-11-14T01:50:49.560654Z",
    "needs_review": false
   },
   {
@@ -132,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.820349Z",
+   "updated_at": "2026-11-14T01:50:49.561684Z",
    "needs_review": false
   },
   {
@@ -151,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.821461Z",
+   "updated_at": "2026-11-14T01:50:49.562701Z",
    "needs_review": false
   },
   {
@@ -170,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.822561Z",
+   "updated_at": "2026-11-14T01:50:49.563717Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.823640Z",
+   "updated_at": "2026-11-14T01:50:49.564747Z",
    "needs_review": false
   },
   {
@@ -208,7 +208,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.824697Z",
+   "updated_at": "2026-11-14T01:50:49.566010Z",
+   "needs_review": false
+  },
+  {
+   "id": "6f1326bdd16386d2",
+   "company_id": "dosify",
+   "field": "geography",
+   "value": "Blekinge",
+   "status": "fact",
+   "source_page_id": "20a9db30be72270d",
+   "quote": "utsetts till Blekinges vinnare av SKAPA-priset 2026",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.567086Z",
+   "needs_review": false
+  },
+  {
+   "id": "02046e0bbea10d87",
+   "company_id": "dosify",
+   "field": "technology",
+   "value": "ConcenSmart digital platform, powered by Blinky-Lite",
+   "status": "fact",
+   "source_page_id": "a070abec51d3c68c",
+   "quote": "Powered by Blinky-Lite",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.567124Z",
    "needs_review": false
   },
   {
@@ -227,26 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825425Z",
-   "needs_review": false
-  },
-  {
-   "id": "b97734584b0f4088",
-   "company_id": "dosify",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825432Z",
+   "updated_at": "2026-11-14T01:50:49.567857Z",
    "needs_review": false
   },
   {
@@ -265,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825437Z",
+   "updated_at": "2026-11-14T01:50:49.567867Z",
    "needs_review": false
   },
   {
@@ -284,26 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825443Z",
-   "needs_review": false
-  },
-  {
-   "id": "d5c1dc0b538ba895",
-   "company_id": "dosify",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825447Z",
+   "updated_at": "2026-11-14T01:50:49.567873Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825457Z",
+   "updated_at": "2026-11-14T01:50:49.567882Z",
    "needs_review": false
   },
   {
@@ -341,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:45:29.825464Z",
+   "updated_at": "2026-11-14T01:50:49.567888Z",
    "needs_review": false
   }
  ],

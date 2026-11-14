@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.590196Z",
+   "updated_at": "2026-11-14T01:50:49.508797Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.590704Z",
+   "updated_at": "2026-11-14T01:50:49.509273Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.591184Z",
+   "updated_at": "2026-11-14T01:50:49.509794Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.591610Z",
+   "updated_at": "2026-11-14T01:50:49.510236Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592198Z",
+   "updated_at": "2026-11-14T01:50:49.510838Z",
+   "needs_review": false
+  },
+  {
+   "id": "03797f535ca6b4b7",
+   "company_id": "holtab",
+   "field": "project",
+   "value": "Prefabricated station upgrading Dala Energi's grid",
+   "status": "fact",
+   "source_page_id": "106073c90f8e42e2",
+   "quote": "Prefabricerad station – ett lyft för elnätet i Dalarna",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.511299Z",
+   "needs_review": false
+  },
+  {
+   "id": "d6deef0b4199d191",
+   "company_id": "holtab",
+   "field": "customer_group",
+   "value": "Grid owners and builders of heavy-EV charging stations (e.g. Dala Energi, Kraft & Montage i Syd)",
+   "status": "fact",
+   "source_page_id": "106073c90f8e42e2",
+   "quote": "Kraft & Montage i Syd bygger laddstationer för tunga elektriska fordon",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.511736Z",
+   "needs_review": false
+  },
+  {
+   "id": "5207c246347a5c79",
+   "company_id": "holtab",
+   "field": "collaboration",
+   "value": "Local partners in Nepal for power supply, schools and housing",
+   "status": "fact",
+   "source_page_id": "106073c90f8e42e2",
+   "quote": "för att träffa lokala samarbetspartner och följa upp arbetet med elförsörjning, skolor och bostäder",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.512156Z",
    "needs_review": false
   },
   {
@@ -211,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592214Z",
+   "updated_at": "2026-11-14T01:50:49.512171Z",
    "needs_review": false
   },
   {
@@ -230,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592221Z",
+   "updated_at": "2026-11-14T01:50:49.512177Z",
    "needs_review": false
   },
   {
@@ -249,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592226Z",
+   "updated_at": "2026-11-14T01:50:49.512181Z",
    "needs_review": false
   },
   {
@@ -268,26 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592229Z",
-   "needs_review": false
-  },
-  {
-   "id": "24f781c028c55d5e",
-   "company_id": "holtab",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592232Z",
+   "updated_at": "2026-11-14T01:50:49.512185Z",
    "needs_review": false
   },
   {
@@ -306,45 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592235Z",
-   "needs_review": false
-  },
-  {
-   "id": "82ffc465b8042a0b",
-   "company_id": "holtab",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592238Z",
-   "needs_review": false
-  },
-  {
-   "id": "5a8c2a808890fd88",
-   "company_id": "holtab",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592241Z",
+   "updated_at": "2026-11-14T01:50:49.512188Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592244Z",
+   "updated_at": "2026-11-14T01:50:49.512191Z",
    "needs_review": false
   },
   {
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592250Z",
+   "updated_at": "2026-11-14T01:50:49.512198Z",
    "needs_review": false
   },
   {
@@ -401,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.592254Z",
+   "updated_at": "2026-11-14T01:50:49.512206Z",
    "needs_review": false
   }
  ],

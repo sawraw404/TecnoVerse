@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.038625Z",
+   "updated_at": "2026-11-14T01:50:49.502276Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.038940Z",
+   "updated_at": "2026-11-14T01:50:49.502647Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039292Z",
+   "updated_at": "2026-11-14T01:50:49.502973Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039430Z",
+   "updated_at": "2026-11-14T01:50:49.503099Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039587Z",
+   "updated_at": "2026-11-14T01:50:49.503246Z",
+   "needs_review": false
+  },
+  {
+   "id": "5a9308a250894018",
+   "company_id": "lasertool",
+   "field": "technology",
+   "value": "Powder Bed Fusion Laser (PBF-L) 3D printing of steel",
+   "status": "fact",
+   "source_page_id": "7d10f0bc93e0ee2c",
+   "quote": "LaserTool 3D-printar med den additiva teknologin Powder Bed Fusion Laser (PBF-L)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.503520Z",
+   "needs_review": false
+  },
+  {
+   "id": "05200c51ba996083",
+   "company_id": "lasertool",
+   "field": "customer_group",
+   "value": "Some of Sweden's largest companies and smaller firms",
+   "status": "fact",
+   "source_page_id": "ba6dce9fb6f445c6",
+   "quote": "Vi arbetar med några av Sveriges största bolag men även med mindre företag",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.503840Z",
+   "needs_review": false
+  },
+  {
+   "id": "6f7a540050ae7c2a",
+   "company_id": "lasertool",
+   "field": "geography",
+   "value": "Blekinge",
+   "status": "fact",
+   "source_page_id": "ba6dce9fb6f445c6",
+   "quote": "LaserTool i Blekinge är sedan 3 juli 2023 ett helägt dotterbolag till SSAB EMEA AB",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.504160Z",
+   "needs_review": false
+  },
+  {
+   "id": "c064ebc997cdcc65",
+   "company_id": "lasertool",
+   "field": "priority",
+   "value": "Low climate footprint by hardening only where needed",
+   "status": "fact",
+   "source_page_id": "7d10f0bc93e0ee2c",
+   "quote": "ger processen dessutom ett mycket lågt klimatavtryck",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.504434Z",
    "needs_review": false
   },
   {
@@ -181,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039781Z",
+   "updated_at": "2026-11-14T01:50:49.504623Z",
    "needs_review": false
   },
   {
@@ -200,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039966Z",
+   "updated_at": "2026-11-14T01:50:49.504822Z",
    "needs_review": false
   },
   {
@@ -219,26 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039977Z",
-   "needs_review": false
-  },
-  {
-   "id": "d4f32c40af563b34",
-   "company_id": "lasertool",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039982Z",
+   "updated_at": "2026-11-14T01:50:49.504836Z",
    "needs_review": false
   },
   {
@@ -257,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039986Z",
+   "updated_at": "2026-11-14T01:50:49.504842Z",
    "needs_review": false
   },
   {
@@ -276,45 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039989Z",
-   "needs_review": false
-  },
-  {
-   "id": "3f2d06450a2e3006",
-   "company_id": "lasertool",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039992Z",
-   "needs_review": false
-  },
-  {
-   "id": "adfe8fc0c51c7d13",
-   "company_id": "lasertool",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039994Z",
+   "updated_at": "2026-11-14T01:50:49.504847Z",
    "needs_review": false
   },
   {
@@ -333,26 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.039997Z",
-   "needs_review": false
-  },
-  {
-   "id": "94380d68899f79a4",
-   "company_id": "lasertool",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.040000Z",
+   "updated_at": "2026-11-14T01:50:49.504851Z",
    "needs_review": false
   },
   {
@@ -361,7 +361,7 @@
    "field": "possible_interest",
    "value": "Additive manufacturing research and test collaborations",
    "status": "inferred",
-   "source_page_id": "ba6dce9fb6f445c6",
+   "source_page_id": "7d10f0bc93e0ee2c",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It 3D-prints steel and develops product-specific tests.",
@@ -371,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.040005Z",
+   "updated_at": "2026-11-14T01:50:49.504860Z",
    "needs_review": false
   }
  ],

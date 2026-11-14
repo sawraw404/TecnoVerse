@@ -136,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.155943Z",
+   "updated_at": "2026-11-14T01:50:49.514332Z",
    "needs_review": false
   },
   {
@@ -155,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.156250Z",
+   "updated_at": "2026-11-14T01:50:49.514695Z",
    "needs_review": false
   },
   {
@@ -174,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.156534Z",
+   "updated_at": "2026-11-14T01:50:49.514972Z",
    "needs_review": false
   },
   {
@@ -193,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.156807Z",
+   "updated_at": "2026-11-14T01:50:49.515341Z",
    "needs_review": false
   },
   {
@@ -212,7 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.157200Z",
+   "updated_at": "2026-11-14T01:50:49.515844Z",
    "needs_review": false
   },
   {
@@ -231,7 +231,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.157479Z",
+   "updated_at": "2026-11-14T01:50:49.516123Z",
+   "needs_review": false
+  },
+  {
+   "id": "24155af53eb74b1d",
+   "company_id": "kockums-maskin",
+   "field": "expertise",
+   "value": "2,460 tonnes production, 38 CNC machines, about 70 employees, exports to 35 countries",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "2460 Tons produktion 38 CNC-maskiner 70 anställda (ca) 35 fraktländer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.516391Z",
+   "needs_review": false
+  },
+  {
+   "id": "58845c1271ee010d",
+   "company_id": "kockums-maskin",
+   "field": "geography",
+   "value": "Kallinge; castings sourced from foundries across Europe",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "Gjutgodset köps in via våra gjuterier inom BIRN Group och andra gjuterier över hela Europa",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.516653Z",
+   "needs_review": false
+  },
+  {
+   "id": "ad21f41c53c468dc",
+   "company_id": "kockums-maskin",
+   "field": "market",
+   "value": "European industry",
+   "status": "fact",
+   "source_page_id": "9c806c41402c494b",
+   "quote": "att stärka sin position som leverantör till den europeiska industrin",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:49.517042Z",
    "needs_review": false
   },
   {
@@ -250,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.157659Z",
+   "updated_at": "2026-11-14T01:50:49.517224Z",
    "needs_review": false
   },
   {
@@ -269,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159034Z",
+   "updated_at": "2026-11-14T01:50:49.518630Z",
    "needs_review": false
   },
   {
@@ -288,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159046Z",
+   "updated_at": "2026-11-14T01:50:49.518643Z",
    "needs_review": false
   },
   {
@@ -307,26 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159052Z",
-   "needs_review": false
-  },
-  {
-   "id": "2a7de2469b426a00",
-   "company_id": "kockums-maskin",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159057Z",
+   "updated_at": "2026-11-14T01:50:49.518649Z",
    "needs_review": false
   },
   {
@@ -345,26 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159060Z",
-   "needs_review": false
-  },
-  {
-   "id": "8e021eaa6308d44d",
-   "company_id": "kockums-maskin",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159063Z",
+   "updated_at": "2026-11-14T01:50:49.518653Z",
    "needs_review": false
   },
   {
@@ -383,26 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159066Z",
-   "needs_review": false
-  },
-  {
-   "id": "6a8b98e95076dd6a",
-   "company_id": "kockums-maskin",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159068Z",
+   "updated_at": "2026-11-14T01:50:49.518656Z",
    "needs_review": false
   },
   {
@@ -421,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159071Z",
+   "updated_at": "2026-11-14T01:50:49.518660Z",
    "needs_review": false
   },
   {
@@ -440,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.159077Z",
+   "updated_at": "2026-11-14T01:50:49.518666Z",
    "needs_review": false
   }
  ],
