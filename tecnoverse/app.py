@@ -31,6 +31,7 @@ st.session_state["company"] = next((c for c in companies if c.id == user.company
 
 pages = [
     st.Page("pages/1_Profile.py", title="Profile", icon="🏢"),
+    st.Page("pages/6_Landscape.py", title="Innovation map", icon="🗺️"),
     st.Page("pages/2_Dashboard.py", title="Dashboard", icon="📋"),
     st.Page("pages/3_Chat.py", title="Chat", icon="💬"),
 ]

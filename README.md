@@ -447,6 +447,22 @@ configuration is for client SDKs and is not server authentication. Admin SDK
 credentials bypass Firestore Security Rules, so the server must enforce access
 controls itself.
 
+### Innovation map
+
+The Streamlit **Innovation map** uses manually checked public office locations in
+`tecnoverse/data/company_locations.json`. Each record includes the company's
+source, retrieval date, coordinate source and an accuracy note. Locations without
+a reliable address or municipality reference stay in the "Not mapped" list. Locations are
+approximate; orange markers use a municipality reference point rather than an
+office position. Curated and cached data is labelled SIMULATED. Add or
+update records only after checking both the company location and coordinates.
+
+The map clusters nearby markers and separates them as the user zooms. Its
+OpenStreetMap tiles and Folium's browser assets require internet access; the
+company list and sources remain available if the map cannot load. Search and
+industry filters use public profile items, not inferred interests or private
+items.
+
 Set `PARK_PILOT_OFFLINE=1` to run fully from `data/cache/` with a local Ollama model.
 
 ## Risks and fallbacks

@@ -5,3 +5,4 @@ requests
 python-dotenv
 beautifulsoup4
 pytest
+folium>=0.17,<1
