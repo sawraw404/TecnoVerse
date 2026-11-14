@@ -168,6 +168,8 @@ def assemble(company: Company, pages: list[SourcePage], simulated: bool, facts: 
         "simulated": simulated,
     })
     profile = Profile(company=company, pages=pages, items=items, **({"extracted_by": extracted_by} if extracted_by else {}))
+    from agents.editor import keep_user_edits  # local: editor imports the matcher, which needs no profiler
+    profile = keep_user_edits(load_profile(company.id), profile)  # a re-crawl never overwrites user edits
     save_profile(profile)
     return profile
 
