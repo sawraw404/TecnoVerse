@@ -46,7 +46,7 @@ npm install
 npm run dev                            # http://localhost:3000
 ```
 
-Choose a user on the login page (SIMULATED, no passwords). A company representative sees Profile, Opportunities and Assistant; Blue Science Park staff also see Ecosystem; an external visitor sees all opportunities unranked. Set `API_URL` in `web/.env.local` if the API runs elsewhere. The earlier Streamlit app still runs as a fallback: `streamlit run tecnoverse/app.py`. The profiles, opportunities, embeddings and judgements are committed, so the app runs without any API key except for the chat. The first match downloads the local embedding model once (~470 MB); without sentence-transformers, matching falls back to keywords only. After changing Python code, restart the API: uvicorn's reload is unreliable on Windows. The live re-crawl button is hidden; set `RECRAWL_ENABLED=1` (in `web/.env.local`, and in the environment for Streamlit) to show it again.
+Choose a user on the login page (SIMULATED, no passwords). A company representative sees Profile, Opportunities and Assistant; Blue Science Park staff also see Ecosystem; an external visitor sees all opportunities unranked. Set `API_URL` in `web/.env.local` if the API runs elsewhere. The profiles, opportunities, embeddings and judgements are committed, so the app runs without any API key except for the chat. The first match downloads the local embedding model once (~470 MB); without sentence-transformers, matching falls back to keywords only. After changing Python code, restart the API: uvicorn's reload is unreliable on Windows. The live re-crawl button is hidden; set `RECRAWL_ENABLED=1` in `web/.env.local` to show it again.
 
 Useful commands (run from `tecnoverse/`):
 
@@ -91,7 +91,7 @@ Company URL → baseline profile (with sources) → company reviews & edits
 | Part | Choice |
 |---|---|
 | Agents / API | Python agents behind a thin FastAPI layer, `tecnoverse/api.py`. The company is derived from the logged-in user on the server, never from the request. |
-| UI | Next.js 16 (App Router, TypeScript, Server Components, Tailwind CSS, lucide icons) in `web/`. Design tokens in `web/app/globals.css`, primitives in `web/components/ui.tsx`. Light and dark themes. A light/dark toggle in the sidebar (remembered per browser; the first visit follows the computer's setting). The Streamlit app in `tecnoverse/` is kept as a fallback. |
+| UI | Next.js 16 (App Router, TypeScript, Server Components, Tailwind CSS, lucide icons) in `web/`. Design tokens in `web/app/globals.css`, primitives in `web/components/ui.tsx`. Light and dark themes. A light/dark toggle in the sidebar (remembered per browser; the first visit follows the computer's setting). |
 | LLM | Gemini and Groq through one wrapper, `core/llm.py`: `ask(system, user, Schema, agent=...)`. The Profiler and Staff mapper start on Gemini (long inputs); every other agent starts on Groq. Each falls back to the other. |
 | Search | Local multilingual embeddings (`paraphrase-multilingual-MiniLM-L12-v2` via sentence-transformers, `core/embed.py`) blended with keyword overlap in `agents/scoring.py`. Opportunity vectors are stored on `Opportunity.embedding`; numpy cosine. |
 | Scraping | requests + BeautifulSoup. Identifies itself as `TecnoVerseBot/0.1 (hackathon prototype)` and respects robots.txt. |
@@ -109,8 +109,6 @@ web/                     # Next.js frontend
   lib/api.ts             # server-only API client; sends the user id, never runs in the browser
 tecnoverse/
   api.py                 # FastAPI layer used by web/
-  app.py                 # Streamlit entry (fallback), "log in as" selector, page router
-  pages/                 # 1_Profile, 2_Dashboard, 3_Chat, 4_Staff (staff only), 5_About
   agents/
     profiler.py          # crawl + extract profile, quote check, contacts
     monitors.py          # funding, events, testbeds

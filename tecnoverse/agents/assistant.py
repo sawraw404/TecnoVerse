@@ -16,10 +16,10 @@ from typing import Literal
 
 from pydantic import BaseModel
 
-from agents.matcher import load_explanations
+from agents.matcher import current_matches, load_explanations
 from core.llm import LLMError, ask
 from core.schemas import SupportContact
-from core.store import DATA, load_companies, load_matches, load_opportunities, load_profile
+from core.store import DATA, load_companies, load_opportunities, load_profile
 
 MEMBERS_SOURCE = "https://www.bluesciencepark.se/medlem-sitemap.xml"  # where data/members.json came from
 MEMBERS_RETRIEVED = "2026-11-13"
@@ -112,7 +112,7 @@ def _subject(company_id: str, opps: dict) -> str:
              f"{p.company.website}\nPUBLIC PROFILE ITEMS:\n" + "\n".join(items[:40])]
     expl = load_explanations()
     lines = []
-    for m in [m for m in load_matches(company_id) if m.llm_score > 0][:8]:
+    for m in [m for m in current_matches(company_id) if m.llm_score > 0][:8]:
         o, e = opps.get(m.opportunity_id), expl.get((company_id, m.opportunity_id))
         if o:
             lines.append(f"#{m.rank} {o.id} [{o.type}] {o.title} | {o.deadline or o.start_date or 'no date'} | {o.url}"
@@ -138,7 +138,7 @@ def _context(company_id: str | None, subject: str | None = None) -> str:
                      + "\n".join(items[:40]))
         expl = load_explanations()
         lines = []
-        for m in [m for m in load_matches(company_id) if m.llm_score > 0][:8]:
+        for m in [m for m in current_matches(company_id) if m.llm_score > 0][:8]:
             o, e = opps.get(m.opportunity_id), expl.get((company_id, m.opportunity_id))
             if o:
                 lines.append(f"#{m.rank} {o.id} [{o.type}] {o.title} | {o.deadline or o.start_date or 'no date'} | {o.url}"
@@ -158,7 +158,7 @@ def _trends(company_id: str | None, opps: dict) -> str:
     Groq's token limit. Each line has its source link and published date."""
     news = [o for o in opps.values() if o.type == "news"]
     if company_id:
-        ranked = [opps[m.opportunity_id] for m in load_matches(company_id) if m.opportunity_id in opps
+        ranked = [opps[m.opportunity_id] for m in current_matches(company_id) if m.opportunity_id in opps
                   and opps[m.opportunity_id].type == "news"]
         news = ranked or news
     else:

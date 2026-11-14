@@ -18,12 +18,12 @@ from pydantic import BaseModel
 from agents import editor
 from agents.assistant import reply
 from agents.mapper import Graph, knowledge_graph, live
-from agents.matcher import feedback_state, give_feedback, load_explanations, match_company
+from agents.matcher import current_matches, feedback_state, give_feedback, load_explanations
 from agents.profiler import profile_company
 from agents.scoring import rank_connections
 from core.llm import LLMError
 from core.schemas import ChatLog, Company, Match, Opportunity, ProfileItem, User
-from core.store import load_chats, load_companies, load_matches, load_opportunities, load_profile, save_chats
+from core.store import load_chats, load_companies, load_opportunities, load_profile, save_chats
 
 app = FastAPI(title="TecnoVerse API")
 
@@ -130,7 +130,7 @@ class Move(BaseModel):
 
 def _apply(user: User, edit, *args) -> list[Move]:
     """Run an edit, then report how the ranking moved (2+ places, top 10, at most 5)."""
-    before = {m.opportunity_id: m.rank for m in load_matches(user.company_id)}
+    before = {m.opportunity_id: m.rank for m in current_matches(user.company_id)}
     try:
         after = edit(user.company_id, *args, user.id)
     except StopIteration:
@@ -238,7 +238,7 @@ def dashboard(user: User = Depends(current_user)) -> Dashboard:
         by_type["news"].sort(key=lambda c: str(c.opportunity.published_at), reverse=True)  # newest first
         return Dashboard(ranked=False, company=None, top=[], by_type=by_type, rest={t: [] for t in TYPES})
     company = next(c for c in load_companies() if c.id == user.company_id)
-    matches = load_matches(company.id) or match_company(company.id)
+    matches = current_matches(company.id)  # rebuilt when out of date (e.g. new trends since it was saved)
     expl = load_explanations()
     saved, votes = feedback_state(company.id)
 
