@@ -460,7 +460,7 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
       </Card>
 
       {/* details panel */}
-      <Card className="h-fit p-4 xl:sticky xl:top-6">
+      <Card className="h-fit p-4">
         {sel ? (
           <NodeDetails node={sel} graph={graph} byId={byId} links={linksOf(sel.id)} onClose={() => setSelected(null)} onEdge={(i) => setSelected({ edge: i })} onNode={(id) => setSelected({ node: id })} />
         ) : selEdge ? (
