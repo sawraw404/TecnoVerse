@@ -22,7 +22,7 @@ class Profile(BaseModel):
     company: Company
     pages: list[SourcePage]
     items: list[ProfileItem]
-    extracted_by: str = "TecnoVerse Profiler (Gemini or Ollama)"  # who read the pages; shown on the Profile page
+    extracted_by: str = "TecnoVerse Profiler (Gemini)"  # who read the pages; shown on the Profile page
 
 
 def load_companies() -> list[Company]:

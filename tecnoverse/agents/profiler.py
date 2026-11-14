@@ -273,7 +273,7 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     assert {i.value for i in prof.items if i.field == "contact" and i.status == "fact"} == found
     print("ok")
 
-    # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)
+    # Batch run: cd tecnoverse && python -m agents.profiler --all   (skips companies that already have a profile)
     if "--import" in sys.argv:  # python -m agents.profiler --import path/to/extractions.json
         import_extractions(sys.argv[sys.argv.index("--import") + 1])
     if "--crawl" in sys.argv:  # crawl only: save pages.json for every company that has no profile yet
