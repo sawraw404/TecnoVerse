@@ -598,40 +598,5 @@
       }
     ],
     "simulated": false
-  },
-  {
-    "id": "dosify",
-    "name": "Dosify (Ockham Technologies)",
-    "website": "https://concensmart.com/",
-    "is_member": false,
-    "region": "Blekinge",
-    "found_via": [
-      {
-        "directory": "Blue Science Park news",
-        "url": "https://www.bluesciencepark.se/aktuellt/fran-smart-refillosning-till-digital-affar-sa-tog-dosify-nasta-steg/",
-        "retrieved": "2026-11-14"
-      }
-    ],
-    "simulated": false
-  },
-  {
-    "id": "parkerra",
-    "name": "Parkerra",
-    "website": "https://parkerra.com/",
-    "is_member": false,
-    "region": "Blekinge",
-    "found_via": [
-      {
-        "directory": "Blekinge Business Incubator companies",
-        "url": "https://b-b-i.se/vara-bolag/",
-        "retrieved": "2026-11-13"
-      },
-      {
-        "directory": "Blue Science Park news",
-        "url": "https://www.bluesciencepark.se/aktuellt/parkerra-vinner-arets-skapa-pris-i-blekinge/",
-        "retrieved": "2026-11-14"
-      }
-    ],
-    "simulated": false
   }
 ]
