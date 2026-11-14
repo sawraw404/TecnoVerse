@@ -4,6 +4,7 @@ import { Bookmark, BookmarkCheck, Check, Copy, MessageSquareText, ThumbsDown, Th
 import Link from "next/link";
 import { useState, useTransition } from "react";
 import { sendFeedback } from "@/app/actions";
+import { runAction } from "@/lib/run-action";
 import { toast } from "@/components/toaster";
 import { Button, buttonClass, Spinner } from "@/components/ui";
 import { cx } from "@/lib/format";
@@ -25,7 +26,8 @@ export function CardActions({
   const send = (kind: "up" | "down" | "saved" | "unsaved") => {
     setWhich(kind);
     start(async () => {
-      const r = await sendFeedback(opportunityId, kind);
+      const r = await runAction(() => sendFeedback(opportunityId, kind));
+      if (!r) return;
       const done = {
         up: "Noted: more like this. Ranking updated.",
         down: "Noted: less like this. Ranking updated.",

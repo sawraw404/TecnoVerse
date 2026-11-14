@@ -4,6 +4,7 @@ import { ArrowUp, Bot, Building2, CalendarDays, Link2, MessageSquareText, Shield
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition, type ReactNode } from "react";
 import { sendChat } from "@/app/actions";
+import { runAction } from "@/lib/run-action";
 import { Badge, Spinner, type Tone } from "@/components/ui";
 import { day } from "@/lib/format";
 import type { ChatMessage, GuardLabel, Source } from "@/lib/types";
@@ -77,7 +78,11 @@ export function ChatPanel({
     setMessages(next);
     setDraft("");
     start(async () => {
-      const r = await sendChat(message, sessionId, about?.id ?? null, subject?.id ?? null);
+      const r = await runAction(() => sendChat(message, sessionId, about?.id ?? null, subject?.id ?? null));
+      if (!r) {
+        setMessages([...next, { role: "assistant", text: "The message could not be sent.", label: "unclear", failed: true }]);
+        return;
+      }
       const reply: Message = { role: "assistant", text: r.text, label: r.label, sources: r.sources, failed: "error" in r };
       setMessages([...next, reply]);
       if (!sessionId && r.session_id) {
