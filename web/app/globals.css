@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+/*
+  TecnoVerse design tokens. Every colour, radius and shadow in the app comes from here.
+  Palette: deep harbour navy for structure, sea teal for action (Blue Science Park sits by the
+  Karlskrona archipelago), warm off-white surfaces, and status hues that carry meaning:
+  fact = green, inferred = amber, confirmed = blue, missing = slate, uncertain/error = red,
+  SIMULATED = violet so it never reads as a warning about the company itself.
+*/
+:root {
+  --bg: #f6f7f5;
+  --surface: #ffffff;
+  --surface-2: #f0f2ef;
+  --border: #e3e6e1;
+  --border-strong: #cfd4cc;
+  --text: #13202b;
+  --text-2: #4a5763;
+  --text-3: #7a8691;
+
+  --nav: #0c1b29;
+  --nav-2: #13283a;
+  --nav-text: #c7d3dd;
+  --nav-muted: #7f93a4;
+
+  --primary: #0f7a85;
+  --primary-hover: #0b6670;
+  --primary-soft: #e3f3f3;
+  --primary-text: #0a5c64;
+  --ring: #3ab0b8;
+
+  --green: #1d7a4c;   --green-soft: #e4f4ea;
+  --amber: #9a6100;   --amber-soft: #fbf0d9;
+  --blue: #2457b8;    --blue-soft: #e5edfb;
+  --red: #b4322d;     --red-soft: #fbe6e4;
+  --violet: #6b46c1;  --violet-soft: #efe9fb;
+  --slate: #5b6672;   --slate-soft: #eceff1;
+
+  --shadow-sm: 0 1px 2px rgb(16 32 43 / 0.06);
+  --shadow-md: 0 1px 2px rgb(16 32 43 / 0.05), 0 6px 18px -6px rgb(16 32 43 / 0.12);
+  --shadow-lg: 0 2px 4px rgb(16 32 43 / 0.06), 0 24px 48px -12px rgb(16 32 43 / 0.22);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b141c;
+    --surface: #111d27;
+    --surface-2: #162430;
+    --border: #213241;
+    --border-strong: #2c4153;
+    --text: #e6edf2;
+    --text-2: #a9b7c3;
+    --text-3: #7b8b98;
+
+    --nav: #08111a;
+    --nav-2: #10202d;
+
+    --primary: #2bb3be;
+    --primary-hover: #45c2cc;
+    --primary-soft: #0f2f35;
+    --primary-text: #7fd8df;
+    --ring: #2bb3be;
+
+    --green: #5fcf93;   --green-soft: #12301f;
+    --amber: #f0b44c;   --amber-soft: #33270f;
+    --blue: #7ea6f2;    --blue-soft: #16243f;
+    --red: #f08a84;     --red-soft: #3a1717;
+    --violet: #b59cf2;  --violet-soft: #251c3d;
+    --slate: #a0acb7;   --slate-soft: #1d2a35;
+
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -8px rgb(0 0 0 / 0.6);
+    --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.4), 0 24px 48px -12px rgb(0 0 0 / 0.7);
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text: var(--text);
+  --color-text-2: var(--text-2);
+  --color-text-3: var(--text-3);
+  --color-nav: var(--nav);
+  --color-nav-2: var(--nav-2);
+  --color-nav-text: var(--nav-text);
+  --color-nav-muted: var(--nav-muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-text: var(--primary-text);
+  --color-ring: var(--ring);
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-blue: var(--blue);
+  --color-blue-soft: var(--blue-soft);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --color-violet: var(--violet);
+  --color-violet-soft: var(--violet-soft);
+  --color-slate: var(--slate);
+  --color-slate-soft: var(--slate-soft);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+
+  --animate-fade-up: fade-up 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-pulse-soft: pulse-soft 1.4s ease-in-out infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+::selection { background: var(--primary-soft); }
+
+dialog::backdrop {
+  background: rgb(8 17 26 / 0.45);
+  backdrop-filter: blur(2px);
+}
+
+dialog[open] { animation: fade-up 180ms cubic-bezier(0.2, 0.8, 0.2, 1); }
+
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+details[open] > summary .chevron { transform: rotate(90deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
