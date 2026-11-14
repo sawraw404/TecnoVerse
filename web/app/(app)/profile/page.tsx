@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Building2, CheckCircle2, CircleDashed, FileSearch, Globe, History, Lightbulb, Quote, ShieldAlert, Sparkles } from "lucide-react";
+import { Building2, CheckCircle2, CircleDashed, FileSearch, Globe, History, Lightbulb, Quote, ShieldAlert } from "lucide-react";
 import { AddItem, ItemActions, PrioritiesForm, RebuildButton } from "@/components/profile-edit";
 import { Badge, Card, EmptyState, Notice, PageHeader, SectionTitle, SourceLink, StatusBadge } from "@/components/ui";
 import { api } from "@/lib/api";
@@ -141,17 +141,11 @@ export default async function ProfilePage() {
       />
 
       <div className="space-y-6">
-        {(profile.simulated_extraction || profile.company.simulated) && (
+        {profile.company.simulated && (
           <div className="space-y-2">
             {profile.company.simulated && (
               <Notice tone="warning" icon={<ShieldAlert />} title="The live website could not be reached">
                 SIMULATED: this profile was built from cached pages.
-              </Notice>
-            )}
-            {profile.simulated_extraction && (
-              <Notice tone="simulated" icon={<Sparkles />} title="SIMULATED extraction">
-                Read by {profile.extracted_by}, not by the app&apos;s own Profiler. Quotes were still checked against the stored
-                page text.
               </Notice>
             )}
           </div>
@@ -167,7 +161,6 @@ export default async function ProfilePage() {
           Built from {profile.pages.length} public pages
           {profile.company.last_crawled_at && `, retrieved ${day(profile.company.last_crawled_at)}`}. Facts are backed by a quote
           found on the page. Inferred items are the system&apos;s guesses.
-          {!profile.simulated_extraction && ` Extracted by: ${profile.extracted_by}.`}
         </p>
 
         <Card className="p-4 sm:p-5">

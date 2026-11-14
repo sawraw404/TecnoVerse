@@ -68,7 +68,7 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
             <div className="mt-3 grid gap-2 text-sm leading-6 sm:grid-cols-2">
               <div className="rounded-md bg-surface-2 px-3 py-2.5">
                 <p className="mb-0.5 flex items-center gap-1.5 text-xs font-semibold text-text">
-                  Why it fits <Simulated title="Written offline by Claude Code, not by a live model" />
+                  Why it fits
                 </p>
                 <p className="text-text-2">{card.why}</p>
               </div>

@@ -101,7 +101,6 @@ class PageRef(BaseModel):
 class ProfileView(BaseModel):
     company: Company
     extracted_by: str
-    simulated_extraction: bool
     field_labels: dict[str, str]
     items: list[ProfileItem]          # everything except user_removed
     removed: list[ProfileItem]        # correction history
@@ -116,7 +115,7 @@ def get_profile(user: User = Depends(member)) -> ProfileView | None:
         return None
     shown = [i for i in p.items if i.status != "user_removed"]
     return ProfileView(
-        company=p.company, extracted_by=p.extracted_by, simulated_extraction="Claude Code" in p.extracted_by,
+        company=p.company, extracted_by=p.extracted_by,
         field_labels=FIELD_LABELS, items=shown, removed=[i for i in p.items if i.status == "user_removed"],
         pages=[PageRef(id=pg.id, url=pg.url, title=pg.title, retrieved_at=pg.retrieved_at) for pg in p.pages],
         counts={s: sum(i.status == s for i in shown) for s in ("fact", "inferred", "missing", "user_confirmed")})
@@ -197,7 +196,7 @@ def rebuild(user: User = Depends(member)) -> dict:
 class Card(BaseModel):
     opportunity: Opportunity
     match: Match | None = None
-    why: str | None = None          # offline judgement, SIMULATED
+    why: str | None = None          # stored judgement: why it fits
     uncertain: str | None = None
     judged: bool = False
 
@@ -299,7 +298,6 @@ class Evidence(BaseModel):
     value: str
     url: str | None
     retrieved_at: datetime | None
-    simulated_extraction: bool
 
 
 class ConnectionView(BaseModel):
@@ -349,8 +347,7 @@ def staff_view(user: User = Depends(staff)) -> StaffView:
         page = next((pg for pg in p.pages if pg.id == item.source_page_id), None)
         return Evidence(company_id=cid, company=p.company.name, field=FIELD_LABELS.get(item.field, item.field),
                         value=item.value, url=page.url if page else None,
-                        retrieved_at=page.retrieved_at if page else None,
-                        simulated_extraction="Claude Code" in p.extracted_by)
+                        retrieved_at=page.retrieved_at if page else None)
 
     themes = defaultdict(set)
     views = []

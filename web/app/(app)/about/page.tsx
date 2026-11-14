@@ -18,7 +18,7 @@ const LABELS: [React.ReactNode, string][] = [
   [<StatusBadge key="m" status="missing" />, "Nothing found. Shown as missing, never filled in with a guess."],
   [<StatusBadge key="c" status="user_confirmed" />, "Set or corrected by the company."],
   [<Badge key="u" tone="red">uncertain</Badge>, "Low confidence or contradicting sources."],
-  [<Simulated key="s" />, "Cached, curated, placeholder or offline-written data, not a live result."],
+  [<Simulated key="s" />, "Cached, curated or placeholder data, and the simulated login. Not a live result."],
 ];
 
 export default function AboutPage() {

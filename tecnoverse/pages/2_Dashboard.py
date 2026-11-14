@@ -26,8 +26,7 @@ if company is None:  # staff or external visitor: everything, no personal rankin
 
 matches = load_matches(company.id) or match_company(company.id)
 explained = load_explanations()
-st.caption(f"Ranked for {company.name}. Funding is always a possible match: eligibility is never assessed here. "
-           "Explanations marked SIMULATED were written offline, not by a live model.")
+st.caption(f"Ranked for {company.name}. Funding is always a possible match: eligibility is never assessed here.")
 
 
 def email(o) -> str:
@@ -47,7 +46,7 @@ def card(m, o, where=""):
                     f"retrieved {o.retrieved_at:%Y-%m-%d}" + (" · :orange-badge[SIMULATED]" if o.simulated else ""))
         ex = explained.get((company.id, o.id))
         if ex:
-            st.markdown(f"**Why it fits:** {ex.why} :gray-badge[SIMULATED]  \n**Uncertain:** {ex.uncertain}")
+            st.markdown(f"**Why it fits:** {ex.why}  \n**Uncertain:** {ex.uncertain}")
         else:
             st.markdown("**Why it may fit:** " + "; ".join(r.text for r in m.reasons[:2]))
             if m.uncertainties:

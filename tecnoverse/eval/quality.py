@@ -112,7 +112,7 @@ def report(t, a, r) -> str:
         f"- Facts whose quote is found again in the stored page text (contacts: the address or number): "
         f"**{a['facts'] - len(a['quote_failed'])}/{a['facts']}**",
         f"- Hand spot-check of {len(spot)} randomly sampled facts (seed 14), value compared with its quote and "
-        f"page: **{ok}/{len(spot)} correct**. Reviewed by Claude Code, not by a person: SIMULATED review.",
+        f"page: **{ok}/{len(spot)} correct**. Reviewed by Claude Code, not by a person.",
     ]
     lines += [f"  - {k}: {v['note']}" for k, v in spot.items() if not v["ok"]]
     lines += [
@@ -130,7 +130,7 @@ def report(t, a, r) -> str:
         f"**{len(r['no_judged_match'])}** {', '.join(r['no_judged_match'])}",
         f"- Explanations or connections that say \"eligible\" or \"you qualify\": **{len(r['funding_wording'])}**",
         f"- Judged connections still backed by public items: **{r['connections_live'][0]}/{r['connections_live'][1]}**",
-        "\nRelevance judgements were written offline by Claude Code (SIMULATED), so the ranking numbers check "
+        "\nRelevance judgements were written offline by Claude Code, so the ranking numbers check "
         "that the system behaves as designed, not that a company would agree. That needs member feedback "
         "(the thumbs on the dashboard).",
     ]
