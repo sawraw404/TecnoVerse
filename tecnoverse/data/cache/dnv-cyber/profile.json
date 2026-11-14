@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:40.283067Z",
+  "last_crawled_at": "2026-11-14T01:27:52.516958Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -87,6 +87,36 @@
    "retrieved_at": "2026-11-13T13:36:40.283067Z",
    "text": "",
    "content_hash": "96aaec29d33ed374"
+  },
+  {
+   "id": "a3de9af376a41915",
+   "company_id": "dnv-cyber",
+   "url": "https://www.dnv.com/cyber/insights/cases",
+   "source_type": "company_site",
+   "title": "Cases",
+   "retrieved_at": "2026-11-14T01:27:50.440189Z",
+   "text": "",
+   "content_hash": "d97ec9a4519cd84e"
+  },
+  {
+   "id": "de893b9b108d1948",
+   "company_id": "dnv-cyber",
+   "url": "https://www.dnv.com/cyber/insights/threat-intelligence",
+   "source_type": "company_site",
+   "title": "Threat Intelligence",
+   "retrieved_at": "2026-11-14T01:27:51.102981Z",
+   "text": "",
+   "content_hash": "721a41fdd86d3632"
+  },
+  {
+   "id": "eb816719c5cf33de",
+   "company_id": "dnv-cyber",
+   "url": "https://www.dnv.com/cyber/insights/publications/cyber-priority-2025",
+   "source_type": "company_site",
+   "title": "Cyber Priority 2025",
+   "retrieved_at": "2026-11-14T01:27:52.516958Z",
+   "text": "",
+   "content_hash": "e9702e9adf6b555c"
   }
  ],
  "items": [
@@ -106,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.790211Z",
+   "updated_at": "2026-11-14T01:53:44.846311Z",
    "needs_review": false
   },
   {
@@ -125,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.790750Z",
+   "updated_at": "2026-11-14T01:53:44.846910Z",
    "needs_review": false
   },
   {
@@ -144,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.791261Z",
+   "updated_at": "2026-11-14T01:53:44.847412Z",
    "needs_review": false
   },
   {
@@ -163,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.791918Z",
+   "updated_at": "2026-11-14T01:53:44.847905Z",
    "needs_review": false
   },
   {
@@ -182,7 +212,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792461Z",
+   "updated_at": "2026-11-14T01:53:44.848392Z",
+   "needs_review": false
+  },
+  {
+   "id": "55ed175ba823104e",
+   "company_id": "dnv-cyber",
+   "field": "expertise",
+   "value": "Specialist IT and OT security teams for critical infrastructure",
+   "status": "fact",
+   "source_page_id": "cff4f9418c77f40d",
+   "quote": "We safeguard critical infrastructure industries, with specialist IT and OT teams in multiple domains",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.848884Z",
+   "needs_review": false
+  },
+  {
+   "id": "6d64a1fc9b34abf3",
+   "company_id": "dnv-cyber",
+   "field": "geography",
+   "value": "Nordics: Sweden, Norway, Finland, Denmark",
+   "status": "fact",
+   "source_page_id": "cff4f9418c77f40d",
+   "quote": "strengthen the resilience of critical infrastructure and society in Sweden, Norway, Finland, and Denmark",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.849366Z",
+   "needs_review": false
+  },
+  {
+   "id": "e7137ab5c1380dac",
+   "company_id": "dnv-cyber",
+   "field": "project",
+   "value": "Nordic cyber resilience research among critical infrastructure operators",
+   "status": "fact",
+   "source_page_id": "878ab31fd209deb1",
+   "quote": "DNV's Cyber Resilience research among critical infrastructure operators in the Nordics",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.850601Z",
+   "needs_review": false
+  },
+  {
+   "id": "463daf83385f63cd",
+   "company_id": "dnv-cyber",
+   "field": "technology",
+   "value": "Operational technology (OT) and IT security",
+   "status": "fact",
+   "source_page_id": "cff4f9418c77f40d",
+   "quote": "Ensure the reliability, availability and cyber resilience of your IT and OT technologies",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.851117Z",
    "needs_review": false
   },
   {
@@ -201,45 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792479Z",
-   "needs_review": false
-  },
-  {
-   "id": "6486c4817b72be22",
-   "company_id": "dnv-cyber",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792486Z",
-   "needs_review": false
-  },
-  {
-   "id": "1c261820e42006ed",
-   "company_id": "dnv-cyber",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792491Z",
+   "updated_at": "2026-11-14T01:53:44.851132Z",
    "needs_review": false
   },
   {
@@ -258,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792494Z",
+   "updated_at": "2026-11-14T01:53:44.851138Z",
    "needs_review": false
   },
   {
@@ -277,45 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792498Z",
-   "needs_review": false
-  },
-  {
-   "id": "ced9c1b964ada0d1",
-   "company_id": "dnv-cyber",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792501Z",
-   "needs_review": false
-  },
-  {
-   "id": "5ee9bcb7450263f7",
-   "company_id": "dnv-cyber",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792505Z",
+   "updated_at": "2026-11-14T01:53:44.851142Z",
    "needs_review": false
   },
   {
@@ -334,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792508Z",
+   "updated_at": "2026-11-14T01:53:44.851146Z",
    "needs_review": false
   },
   {
@@ -353,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792511Z",
+   "updated_at": "2026-11-14T01:53:44.851149Z",
    "needs_review": false
   },
   {
@@ -372,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792517Z",
+   "updated_at": "2026-11-14T01:53:44.851155Z",
    "needs_review": false
   },
   {
@@ -391,9 +421,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.792521Z",
+   "updated_at": "2026-11-14T01:53:44.851160Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

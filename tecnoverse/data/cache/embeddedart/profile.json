@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:40.007761Z",
+  "last_crawled_at": "2026-11-14T01:30:45.343801Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:36:40.007761Z",
    "text": "",
    "content_hash": "79745fab635af3de"
+  },
+  {
+   "id": "acd02767757eedff",
+   "company_id": "embeddedart",
+   "url": "https://www.embeddedart.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter",
+   "retrieved_at": "2026-11-14T01:30:45.343801Z",
+   "text": "",
+   "content_hash": "01f1de6cdc3e98f8"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794036Z",
+   "updated_at": "2026-11-14T01:53:44.874074Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794327Z",
+   "updated_at": "2026-11-14T01:53:44.874300Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794579Z",
+   "updated_at": "2026-11-14T01:53:44.874505Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794802Z",
+   "updated_at": "2026-11-14T01:53:44.874742Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795020Z",
+   "updated_at": "2026-11-14T01:53:44.874972Z",
    "needs_review": false
   },
   {
@@ -211,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795458Z",
+   "updated_at": "2026-11-14T01:53:44.875504Z",
    "needs_review": false
   },
   {
@@ -230,7 +240,121 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795674Z",
+   "updated_at": "2026-11-14T01:53:44.875757Z",
+   "needs_review": false
+  },
+  {
+   "id": "b738b685183c8c5b",
+   "company_id": "embeddedart",
+   "field": "innovation",
+   "value": "Takes part in Stilfold's drone project, a drone flying just above the water surface (2026-10-23)",
+   "status": "fact",
+   "source_page_id": "acd02767757eedff",
+   "quote": "I NyTeknik kan du läsa mer om ett drönarprojekt där EmbeddedArt deltar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.879134Z",
+   "needs_review": false
+  },
+  {
+   "id": "6bc90a77813a74c2",
+   "company_id": "embeddedart",
+   "field": "technology",
+   "value": "Sonar and UV sensors with passive and active hydrophones",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "både med passiva och aktiva hydrofoner",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.879502Z",
+   "needs_review": false
+  },
+  {
+   "id": "7bdee50c5d230e55",
+   "company_id": "embeddedart",
+   "field": "technology",
+   "value": "Low-power sensor platforms and communication for IoT",
+   "status": "fact",
+   "source_page_id": "b0822e5e5d3595b5",
+   "quote": "djup kunskap av att ta fram strömsnåla sensorplattformar samt effektiva kommunikationslösningar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.879718Z",
+   "needs_review": false
+  },
+  {
+   "id": "9c109a586729ed9e",
+   "company_id": "embeddedart",
+   "field": "application_area",
+   "value": "Detecting vessels or divers in the water",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Sonarer och UV-sensorer nyttjas till att detektera bland annat farkoster eller dykare i vattnet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.880047Z",
+   "needs_review": false
+  },
+  {
+   "id": "5e24226a5e91d95e",
+   "company_id": "embeddedart",
+   "field": "expertise",
+   "value": "Project management for radio, embedded systems and autonomous vehicles",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Vi har stark projekt- och produktledningskompetens speciellt kring radio, inbyggda system, autonoma farkoster",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.880379Z",
+   "needs_review": false
+  },
+  {
+   "id": "b1ec5c3f5b559dad",
+   "company_id": "embeddedart",
+   "field": "customer_group",
+   "value": "Navy vessels: ship engineering support through design and operation",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Våra ingenjörer inom skeppsteknik stöttar kunder under designfaser",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.880704Z",
    "needs_review": false
   },
   {
@@ -249,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795816Z",
+   "updated_at": "2026-11-14T01:53:44.880869Z",
    "needs_review": false
   },
   {
@@ -268,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797161Z",
+   "updated_at": "2026-11-14T01:53:44.882248Z",
    "needs_review": false
   },
   {
@@ -287,83 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797178Z",
-   "needs_review": false
-  },
-  {
-   "id": "b3a67cde11f73d0e",
-   "company_id": "embeddedart",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797187Z",
-   "needs_review": false
-  },
-  {
-   "id": "334d64a0cb993c7b",
-   "company_id": "embeddedart",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797192Z",
-   "needs_review": false
-  },
-  {
-   "id": "52231188b5627c23",
-   "company_id": "embeddedart",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797196Z",
-   "needs_review": false
-  },
-  {
-   "id": "33339c130b8e4265",
-   "company_id": "embeddedart",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797199Z",
+   "updated_at": "2026-11-14T01:53:44.882268Z",
    "needs_review": false
   },
   {
@@ -382,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797203Z",
+   "updated_at": "2026-11-14T01:53:44.882276Z",
    "needs_review": false
   },
   {
@@ -401,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797206Z",
+   "updated_at": "2026-11-14T01:53:44.882281Z",
    "needs_review": false
   },
   {
@@ -420,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797209Z",
+   "updated_at": "2026-11-14T01:53:44.882284Z",
    "needs_review": false
   },
   {
@@ -439,7 +487,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797217Z",
+   "updated_at": "2026-11-14T01:53:44.882292Z",
    "needs_review": false
   },
   {
@@ -448,7 +496,7 @@
    "field": "possible_interest",
    "value": "Defence and security innovation funding",
    "status": "inferred",
-   "source_page_id": "749ee0ff1ba34716",
+   "source_page_id": "b0822e5e5d3595b5",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It supplies the Armed Forces and defence industry.",
@@ -458,9 +506,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797222Z",
+   "updated_at": "2026-11-14T01:53:44.882297Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:41.573268Z",
+  "last_crawled_at": "2026-11-14T01:30:18.730186Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:36:41.573268Z",
    "text": "",
    "content_hash": "fe9a265c7bd84cc4"
+  },
+  {
+   "id": "a0b3459139b5c1d6",
+   "company_id": "ericsson",
+   "url": "https://www.bluesciencepark.se/aktuellt/konferens-pa-bth-i-nato-sponsrat-projekt-for-att-sakra-den-kritiska-internetinfrastrukturen/",
+   "source_type": "news",
+   "title": "Konferens på BTH i Nato-sponsrat projekt för att säkra den kritiska internetinfrastrukturen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.730186Z",
+   "text": "",
+   "content_hash": "7916427a62010044"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.803392Z",
+   "updated_at": "2026-11-14T01:53:44.894946Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.804481Z",
+   "updated_at": "2026-11-14T01:53:44.896018Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.805494Z",
+   "updated_at": "2026-11-14T01:53:44.897107Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.806523Z",
+   "updated_at": "2026-11-14T01:53:44.898155Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.807528Z",
+   "updated_at": "2026-11-14T01:53:44.899226Z",
    "needs_review": false
   },
   {
@@ -211,7 +221,121 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.808545Z",
+   "updated_at": "2026-11-14T01:53:44.900269Z",
+   "needs_review": false
+  },
+  {
+   "id": "4af1d39d49dc61e4",
+   "company_id": "ericsson",
+   "field": "geography",
+   "value": "Solutions in 180+ countries; 60,000 patents",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "with 60,000 patents and sustainable solutions in 180+ countries worldwide",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.901325Z",
+   "needs_review": false
+  },
+  {
+   "id": "3708012270d97e31",
+   "company_id": "ericsson",
+   "field": "customer_group",
+   "value": "Communication service providers, enterprises and the public sector",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "We empower the public sector through high-performing, secure, reliable and resilient connectivity",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.902362Z",
+   "needs_review": false
+  },
+  {
+   "id": "f12b0b73cdaebf36",
+   "company_id": "ericsson",
+   "field": "project",
+   "value": "Private 5G for remote-controlled bulldozers at Newmont's Cadia mine (Nov 2025)",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "deployed Ericsson Private 5G to support remote controlled bulldozers at its Cadia operation",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.903420Z",
+   "needs_review": false
+  },
+  {
+   "id": "d757609351a20f72",
+   "company_id": "ericsson",
+   "field": "project",
+   "value": "AT&T Open RAN transformation (Apr 2026)",
+   "status": "fact",
+   "source_page_id": "76898859e1785e78",
+   "quote": "Through its Open Radio Access Network (Open RAN) transformation, AT&T has laid the foundation",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.904459Z",
+   "needs_review": false
+  },
+  {
+   "id": "fb32c1b9c9791a51",
+   "company_id": "ericsson",
+   "field": "application_area",
+   "value": "RAN automation applications (rApps) for Open RAN",
+   "status": "fact",
+   "source_page_id": "e99ecf8945807629",
+   "quote": "The concept of Radio Access Network (RAN) automation applications (rApps) is defined by Open RAN",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.905325Z",
+   "needs_review": false
+  },
+  {
+   "id": "ba0cf6ebd3a264d9",
+   "company_id": "ericsson",
+   "field": "contact",
+   "value": "Email: info@bluesciencepark.se",
+   "status": "fact",
+   "source_page_id": "a0b3459139b5c1d6",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.911081Z",
    "needs_review": false
   },
   {
@@ -230,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809206Z",
+   "updated_at": "2026-11-14T01:53:44.911767Z",
    "needs_review": false
   },
   {
@@ -249,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809218Z",
+   "updated_at": "2026-11-14T01:53:44.911785Z",
    "needs_review": false
   },
   {
@@ -268,26 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809224Z",
-   "needs_review": false
-  },
-  {
-   "id": "d2be1b45f4ad720c",
-   "company_id": "ericsson",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809228Z",
+   "updated_at": "2026-11-14T01:53:44.911793Z",
    "needs_review": false
   },
   {
@@ -306,64 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809231Z",
-   "needs_review": false
-  },
-  {
-   "id": "846969a5e1a8d5a4",
-   "company_id": "ericsson",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809234Z",
-   "needs_review": false
-  },
-  {
-   "id": "92b81fdb3b97d117",
-   "company_id": "ericsson",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809237Z",
-   "needs_review": false
-  },
-  {
-   "id": "c9d85df780431d23",
-   "company_id": "ericsson",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809240Z",
+   "updated_at": "2026-11-14T01:53:44.911798Z",
    "needs_review": false
   },
   {
@@ -382,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809243Z",
+   "updated_at": "2026-11-14T01:53:44.911802Z",
    "needs_review": false
   },
   {
@@ -401,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809246Z",
+   "updated_at": "2026-11-14T01:53:44.911805Z",
    "needs_review": false
   },
   {
@@ -420,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809252Z",
+   "updated_at": "2026-11-14T01:53:44.911813Z",
    "needs_review": false
   },
   {
@@ -439,9 +487,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.809256Z",
+   "updated_at": "2026-11-14T01:53:44.911818Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

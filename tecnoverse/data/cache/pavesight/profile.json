@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.630180Z",
+   "updated_at": "2026-11-14T01:53:45.254984Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.631329Z",
+   "updated_at": "2026-11-14T01:53:45.255996Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.632216Z",
+   "updated_at": "2026-11-14T01:53:45.256932Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.633026Z",
+   "updated_at": "2026-11-14T01:53:45.257735Z",
    "needs_review": false
   },
   {
@@ -152,7 +152,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.633644Z",
+   "updated_at": "2026-11-14T01:53:45.258311Z",
+   "needs_review": false
+  },
+  {
+   "id": "e06ebeb48a54ca24",
+   "company_id": "pavesight",
+   "field": "innovation",
+   "value": "Evaluated automated pothole detection and rut measurement in Swedish winter conditions",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "The evaluation demonstrates continuous automated pothole detection, rutting depth measurement, and road surface profiling under harsh Swedish winter conditions",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.258889Z",
+   "needs_review": false
+  },
+  {
+   "id": "1f8fd1cc53cfd052",
+   "company_id": "pavesight",
+   "field": "project",
+   "value": "Field evaluation in Bollnäs with Svevia and Trafikverket",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "Bollnäs Field Evaluation with Svevia & Trafikverket",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.259471Z",
+   "needs_review": false
+  },
+  {
+   "id": "c96a5120ebc5e69e",
+   "company_id": "pavesight",
+   "field": "collaboration",
+   "value": "Svevia and the Swedish Transport Administration",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "involving leading infrastructure maintenance contractor Svevia and the Swedish Transport Administration",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.260034Z",
+   "needs_review": false
+  },
+  {
+   "id": "6dd3202344d3b598",
+   "company_id": "pavesight",
+   "field": "application_area",
+   "value": "Sensors on municipal utility fleets, e.g. waste and public service vehicles",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "onto municipal utility fleets, including waste management and public service vehicles",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.260601Z",
    "needs_review": false
   },
   {
@@ -171,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634158Z",
+   "updated_at": "2026-11-14T01:53:45.261118Z",
    "needs_review": false
   },
   {
@@ -190,26 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634674Z",
-   "needs_review": false
-  },
-  {
-   "id": "b1aef0fd864c80bd",
-   "company_id": "pavesight",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634680Z",
+   "updated_at": "2026-11-14T01:53:45.261630Z",
    "needs_review": false
   },
   {
@@ -228,26 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634684Z",
-   "needs_review": false
-  },
-  {
-   "id": "31dea81f804419ed",
-   "company_id": "pavesight",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634687Z",
+   "updated_at": "2026-11-14T01:53:45.261636Z",
    "needs_review": false
   },
   {
@@ -266,45 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634690Z",
-   "needs_review": false
-  },
-  {
-   "id": "c51ac1ba61f5e5e4",
-   "company_id": "pavesight",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634694Z",
-   "needs_review": false
-  },
-  {
-   "id": "9f0cce2d9ae2aa3d",
-   "company_id": "pavesight",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634696Z",
+   "updated_at": "2026-11-14T01:53:45.261640Z",
    "needs_review": false
   },
   {
@@ -323,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634699Z",
+   "updated_at": "2026-11-14T01:53:45.261643Z",
    "needs_review": false
   },
   {
@@ -332,7 +332,7 @@
    "field": "possible_interest",
    "value": "Pilot projects with municipalities for road monitoring",
    "status": "inferred",
-   "source_page_id": "aa41f25b41615c0c",
+   "source_page_id": "10cf5ef9cc7d78eb",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its customers are municipalities and road contractors.",
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634705Z",
+   "updated_at": "2026-11-14T01:53:45.261650Z",
    "needs_review": false
   },
   {
@@ -361,9 +361,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.634709Z",
+   "updated_at": "2026-11-14T01:53:45.261654Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

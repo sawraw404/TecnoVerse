@@ -17,7 +17,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:11.007169Z",
+  "last_crawled_at": "2026-11-14T01:28:07.014096Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -102,6 +102,66 @@
    "retrieved_at": "2026-11-13T13:37:11.007169Z",
    "text": "",
    "content_hash": "0ce7c0f8cd2bfc27"
+  },
+  {
+   "id": "08cb29862d4d460a",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/introducing-the-roxtec-knock-out-frame-transit--kof",
+   "source_type": "company_site",
+   "title": "Introducing the Roxtec knock-out frame transit – KOF | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:03.147393Z",
+   "text": "",
+   "content_hash": "0ef37e6e0d371672"
+  },
+  {
+   "id": "5c537f2cf7dd354c",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/launching-the-roxtec-knock-out-frame-ug-transit",
+   "source_type": "company_site",
+   "title": "Launching the Roxtec knock-out frame UG™ transit | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:03.648073Z",
+   "text": "",
+   "content_hash": "6bb2791b3095034a"
+  },
+  {
+   "id": "4a6ef1cf6e427ec7",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/new-roxtec-cabinet-seal-platform-for-harsh-environments",
+   "source_type": "company_site",
+   "title": "New Roxtec Cabinet Seal Platform for harsh environments | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:04.284575Z",
+   "text": "",
+   "content_hash": "046dee6e145276aa"
+  },
+  {
+   "id": "9d4814a0adb49abd",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/roxtec-international-achieves-ecovadis-gold",
+   "source_type": "company_site",
+   "title": "Roxtec International achieves EcoVadis Gold | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:05.577032Z",
+   "text": "",
+   "content_hash": "3ab75ab4f1b4a534"
+  },
+  {
+   "id": "e63ed886ff1411a5",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/why-use-roxtec-seals-in-hvdc-projects",
+   "source_type": "company_site",
+   "title": "Why use Roxtec seals in HVDC projects?  | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:06.245768Z",
+   "text": "",
+   "content_hash": "f1aeabbedbdc24cb"
+  },
+  {
+   "id": "893d32901f08c979",
+   "company_id": "roxtec",
+   "url": "https://www.roxtec.com/en/about-us/news/my-roxtec--available-in-19-languages",
+   "source_type": "company_site",
+   "title": "My Roxtec – available in 19 languages | Roxtec Global",
+   "retrieved_at": "2026-11-14T01:28:07.014096Z",
+   "text": "",
+   "content_hash": "51e6911279cd63c7"
   }
  ],
  "items": [
@@ -121,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.122426Z",
+   "updated_at": "2026-11-14T01:53:45.132568Z",
    "needs_review": false
   },
   {
@@ -140,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.123255Z",
+   "updated_at": "2026-11-14T01:53:45.133320Z",
    "needs_review": false
   },
   {
@@ -159,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.123979Z",
+   "updated_at": "2026-11-14T01:53:45.134036Z",
    "needs_review": false
   },
   {
@@ -178,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.124717Z",
+   "updated_at": "2026-11-14T01:53:45.134754Z",
    "needs_review": false
   },
   {
@@ -197,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.125336Z",
+   "updated_at": "2026-11-14T01:53:45.135345Z",
    "needs_review": false
   },
   {
@@ -216,7 +276,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.125822Z",
+   "updated_at": "2026-11-14T01:53:45.135807Z",
+   "needs_review": false
+  },
+  {
+   "id": "c5c9833d89509a6b",
+   "company_id": "roxtec",
+   "field": "application_area",
+   "value": "HVDC projects, LNG projects and fire integrity without insulation",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "Roxtec safety products are ideal for LNG projects",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.136544Z",
+   "needs_review": false
+  },
+  {
+   "id": "6923cffb8041fc96",
+   "company_id": "roxtec",
+   "field": "technology",
+   "value": "Seals, services and software for cable and pipe transits",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "Discover the benefits of Roxtec seals, services and software",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.137294Z",
+   "needs_review": false
+  },
+  {
+   "id": "4869c137772fbf82",
+   "company_id": "roxtec",
+   "field": "priority",
+   "value": "Sustainability: EcoVadis Gold, top 5% worldwide (9 Oct 2026)",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "Roxtec International achieves EcoVadis Gold We are ranked among the top 5% worldwide",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.138007Z",
+   "needs_review": false
+  },
+  {
+   "id": "c4af8eb8dcfc8ed7",
+   "company_id": "roxtec",
+   "field": "offering",
+   "value": "My Roxtec portal available in 19 languages",
+   "status": "fact",
+   "source_page_id": "16c2eb221490f6ae",
+   "quote": "My Roxtec – available in 19 languages",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.138724Z",
    "needs_review": false
   },
   {
@@ -235,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126268Z",
+   "updated_at": "2026-11-14T01:53:45.139174Z",
    "needs_review": false
   },
   {
@@ -254,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126711Z",
+   "updated_at": "2026-11-14T01:53:45.139622Z",
    "needs_review": false
   },
   {
@@ -273,26 +409,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126723Z",
-   "needs_review": false
-  },
-  {
-   "id": "f7f754a8dbf6cb76",
-   "company_id": "roxtec",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126730Z",
+   "updated_at": "2026-11-14T01:53:45.139634Z",
    "needs_review": false
   },
   {
@@ -311,26 +428,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126734Z",
-   "needs_review": false
-  },
-  {
-   "id": "db6e697e1b7c6522",
-   "company_id": "roxtec",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126738Z",
+   "updated_at": "2026-11-14T01:53:45.139639Z",
    "needs_review": false
   },
   {
@@ -349,7 +447,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126742Z",
+   "updated_at": "2026-11-14T01:53:45.139644Z",
    "needs_review": false
   },
   {
@@ -368,7 +466,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126745Z",
+   "updated_at": "2026-11-14T01:53:45.139647Z",
    "needs_review": false
   },
   {
@@ -387,7 +485,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126748Z",
+   "updated_at": "2026-11-14T01:53:45.139650Z",
    "needs_review": false
   },
   {
@@ -406,7 +504,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126752Z",
+   "updated_at": "2026-11-14T01:53:45.139653Z",
    "needs_review": false
   },
   {
@@ -425,26 +523,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126754Z",
-   "needs_review": false
-  },
-  {
-   "id": "938f48c79472dc98",
-   "company_id": "roxtec",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126757Z",
+   "updated_at": "2026-11-14T01:53:45.139656Z",
    "needs_review": false
   },
   {
@@ -453,7 +532,7 @@
    "field": "possible_interest",
    "value": "Offshore wind and HVDC infrastructure projects",
    "status": "inferred",
-   "source_page_id": "9424adf3d337cd64",
+   "source_page_id": "16c2eb221490f6ae",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its new stainless components target offshore HVDC infrastructure.",
@@ -463,7 +542,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126764Z",
+   "updated_at": "2026-11-14T01:53:45.139662Z",
    "needs_review": false
   },
   {
@@ -482,9 +561,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.126769Z",
+   "updated_at": "2026-11-14T01:53:45.139666Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

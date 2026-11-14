@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.112497Z",
+   "updated_at": "2026-11-14T01:53:45.121087Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.112730Z",
+   "updated_at": "2026-11-14T01:53:45.121288Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.112935Z",
+   "updated_at": "2026-11-14T01:53:45.121559Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113195Z",
+   "updated_at": "2026-11-14T01:53:45.121892Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113428Z",
+   "updated_at": "2026-11-14T01:53:45.122112Z",
    "needs_review": false
   },
   {
@@ -216,7 +216,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113766Z",
+   "updated_at": "2026-11-14T01:53:45.122360Z",
+   "needs_review": false
+  },
+  {
+   "id": "8137ef63b51cfddf",
+   "company_id": "nkt",
+   "field": "geography",
+   "value": "High-voltage cable factories in Cologne and Karlskrona",
+   "status": "fact",
+   "source_page_id": "617014bc51bd9f7c",
+   "quote": "One located in Cologne, Germany, the other in Karlskrona, Sweden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.122601Z",
+   "needs_review": false
+  },
+  {
+   "id": "caa4a7c78cacf665",
+   "company_id": "nkt",
+   "field": "expertise",
+   "value": "Over 100 years of technology knowledge from ABB",
+   "status": "fact",
+   "source_page_id": "42c23d82acb16b79",
+   "quote": "Technology Consulting has existed for more than 100 years",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.122789Z",
+   "needs_review": false
+  },
+  {
+   "id": "58cf16aa3615dd7d",
+   "company_id": "nkt",
+   "field": "technology",
+   "value": "Cable-laying vessel NKT Victoria for offshore installation",
+   "status": "fact",
+   "source_page_id": "c4d8faa2e3d0b782",
+   "quote": "offshore cable-laying capabilities with the deployment of the customer-made vessel, NKT Victoria",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.123076Z",
    "needs_review": false
   },
   {
@@ -235,45 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113786Z",
-   "needs_review": false
-  },
-  {
-   "id": "0940feff60e1d59c",
-   "company_id": "nkt",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113794Z",
-   "needs_review": false
-  },
-  {
-   "id": "a903c054d5d34dde",
-   "company_id": "nkt",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113799Z",
+   "updated_at": "2026-11-14T01:53:45.123089Z",
    "needs_review": false
   },
   {
@@ -292,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113803Z",
+   "updated_at": "2026-11-14T01:53:45.123095Z",
    "needs_review": false
   },
   {
@@ -311,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113807Z",
+   "updated_at": "2026-11-14T01:53:45.123099Z",
    "needs_review": false
   },
   {
@@ -330,26 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113811Z",
-   "needs_review": false
-  },
-  {
-   "id": "77d5991a6a1faeea",
-   "company_id": "nkt",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113815Z",
+   "updated_at": "2026-11-14T01:53:45.123102Z",
    "needs_review": false
   },
   {
@@ -368,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113818Z",
+   "updated_at": "2026-11-14T01:53:45.123105Z",
    "needs_review": false
   },
   {
@@ -387,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113822Z",
+   "updated_at": "2026-11-14T01:53:45.123108Z",
    "needs_review": false
   },
   {
@@ -396,7 +396,7 @@
    "field": "possible_interest",
    "value": "HVDC and offshore grid research collaborations",
    "status": "inferred",
-   "source_page_id": "617014bc51bd9f7c",
+   "source_page_id": "4d2c84e29b0a9869",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It is qualifying new HVDC subsea cable systems.",
@@ -406,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113829Z",
+   "updated_at": "2026-11-14T01:53:45.123113Z",
    "needs_review": false
   },
   {
@@ -415,7 +415,7 @@
    "field": "possible_interest",
    "value": "High-voltage testing and materials laboratories",
    "status": "inferred",
-   "source_page_id": "42c23d82acb16b79",
+   "source_page_id": "4d2c84e29b0a9869",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It runs technology consulting with laboratories.",
@@ -425,9 +425,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.113834Z",
+   "updated_at": "2026-11-14T01:53:45.123117Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

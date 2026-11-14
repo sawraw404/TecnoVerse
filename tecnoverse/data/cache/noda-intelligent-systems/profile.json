@@ -66,7 +66,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.814383Z",
+   "updated_at": "2026-11-14T01:53:45.382947Z",
    "needs_review": false
   },
   {
@@ -85,7 +85,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.814787Z",
+   "updated_at": "2026-11-14T01:53:45.383359Z",
    "needs_review": false
   },
   {
@@ -104,7 +104,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.815468Z",
+   "updated_at": "2026-11-14T01:53:45.384056Z",
    "needs_review": false
   },
   {
@@ -123,7 +123,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.816153Z",
+   "updated_at": "2026-11-14T01:53:45.384730Z",
    "needs_review": false
   },
   {
@@ -142,7 +142,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.816530Z",
+   "updated_at": "2026-11-14T01:53:45.385123Z",
+   "needs_review": false
+  },
+  {
+   "id": "9242b0685547c640",
+   "company_id": "noda-intelligent-systems",
+   "field": "technology",
+   "value": "AI-driven energy management for smart heating and cooling",
+   "status": "fact",
+   "source_page_id": "7f6e3ed174565be3",
+   "quote": "NODA is a leading provider of AI-driven energy management solutions, specializing in smart heating and cooling systems",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.385799Z",
+   "needs_review": false
+  },
+  {
+   "id": "3b0955a0d81430cd",
+   "company_id": "noda-intelligent-systems",
+   "field": "application_area",
+   "value": "District heating and cooling; building clusters such as campuses, hotels, schools",
+   "status": "fact",
+   "source_page_id": "7f6e3ed174565be3",
+   "quote": "District Heating | Cooling Including geothermal, HVAC, hydrogen, heat pumps",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.386614Z",
+   "needs_review": false
+  },
+  {
+   "id": "be2115f016f5703c",
+   "company_id": "noda-intelligent-systems",
+   "field": "priority",
+   "value": "Provide sustainable energy whenever and wherever it is needed",
+   "status": "fact",
+   "source_page_id": "7f6e3ed174565be3",
+   "quote": "Our vision is to provide sustainable energy whenever and wherever it's needed",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.387320Z",
    "needs_review": false
   },
   {
@@ -161,7 +218,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817271Z",
+   "updated_at": "2026-11-14T01:53:45.388044Z",
    "needs_review": false
   },
   {
@@ -180,45 +237,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817955Z",
-   "needs_review": false
-  },
-  {
-   "id": "e06fb854c1542897",
-   "company_id": "noda-intelligent-systems",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817963Z",
-   "needs_review": false
-  },
-  {
-   "id": "6e6c8edd96be101b",
-   "company_id": "noda-intelligent-systems",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817968Z",
+   "updated_at": "2026-11-14T01:53:45.388721Z",
    "needs_review": false
   },
   {
@@ -237,7 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817971Z",
+   "updated_at": "2026-11-14T01:53:45.388727Z",
    "needs_review": false
   },
   {
@@ -256,7 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817975Z",
+   "updated_at": "2026-11-14T01:53:45.388732Z",
    "needs_review": false
   },
   {
@@ -275,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817978Z",
+   "updated_at": "2026-11-14T01:53:45.388735Z",
    "needs_review": false
   },
   {
@@ -294,26 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817981Z",
-   "needs_review": false
-  },
-  {
-   "id": "5c219f7ea4a15b94",
-   "company_id": "noda-intelligent-systems",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817984Z",
+   "updated_at": "2026-11-14T01:53:45.388738Z",
    "needs_review": false
   },
   {
@@ -332,7 +332,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817989Z",
+   "updated_at": "2026-11-14T01:53:45.388744Z",
    "needs_review": false
   },
   {
@@ -351,9 +351,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.817994Z",
+   "updated_at": "2026-11-14T01:53:45.388749Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

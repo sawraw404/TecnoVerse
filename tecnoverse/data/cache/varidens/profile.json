@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:24.437523Z",
+  "last_crawled_at": "2026-11-14T01:30:18.790902Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:37:24.437523Z",
    "text": "",
    "content_hash": "41bb7716d49f4d73"
+  },
+  {
+   "id": "0182b9a32e1cb6e7",
+   "company_id": "varidens",
+   "url": "https://www.bluesciencepark.se/aktuellt/sakerheten-forst-veridens-vassade-ny-produkt-med-expertstod-fran-knowit/",
+   "source_type": "news",
+   "title": "Säkerheten först: Veridens vässade ny produkt med expertstöd från Knowit  - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.790902Z",
+   "text": "",
+   "content_hash": "5cc4a4e5041616d3"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.612111Z",
+   "updated_at": "2026-11-14T01:53:45.230125Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.612712Z",
+   "updated_at": "2026-11-14T01:53:45.230661Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.613205Z",
+   "updated_at": "2026-11-14T01:53:45.231151Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.613724Z",
+   "updated_at": "2026-11-14T01:53:45.231627Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,102 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614017Z",
+   "updated_at": "2026-11-14T01:53:45.231836Z",
+   "needs_review": false
+  },
+  {
+   "id": "9f06e5666598960d",
+   "company_id": "varidens",
+   "field": "innovation",
+   "value": "Launched a new portal, security-tested through Sweden Secure Tech Hub",
+   "status": "fact",
+   "source_page_id": "0182b9a32e1cb6e7",
+   "quote": "stod inför lanseringen av en ny portal var tidsplanen pressad",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.232894Z",
+   "needs_review": false
+  },
+  {
+   "id": "ff1cbb1d32b09985",
+   "company_id": "varidens",
+   "field": "technology",
+   "value": "AI assistant (MCP) with human decision; AI review for inspection planning",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "AI where it makes a difference We use AI where it saves real time",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.233372Z",
+   "needs_review": false
+  },
+  {
+   "id": "0355743062dbaeaf",
+   "company_id": "varidens",
+   "field": "geography",
+   "value": "Sweden, Norway and Finland",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "For energy experts, building inspectors and other regulated roles in Sweden, Norway and Finland",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.233847Z",
+   "needs_review": false
+  },
+  {
+   "id": "f1f46a4970c5fedd",
+   "company_id": "varidens",
+   "field": "expertise",
+   "value": "ISO/IEC 17024, 17065 and 17020 certification schemes",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "Inspection ISO/IEC 17024 Personnel certification ISO/IEC 17065 Product certification ISO/IEC 17020 Inspection",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.234315Z",
+   "needs_review": false
+  },
+  {
+   "id": "5fee3f8fcb0fb425",
+   "company_id": "varidens",
+   "field": "collaboration",
+   "value": "Invoicing integrations with Fortnox and Unit4 Agresso",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "Invoicing tied to the case, with Fortnox or Unit4 Agresso",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.234775Z",
    "needs_review": false
   },
   {
@@ -211,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614407Z",
+   "updated_at": "2026-11-14T01:53:45.235093Z",
    "needs_review": false
   },
   {
@@ -230,64 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614780Z",
-   "needs_review": false
-  },
-  {
-   "id": "74138d9cfb6e203d",
-   "company_id": "varidens",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614789Z",
-   "needs_review": false
-  },
-  {
-   "id": "7c9724d41b97c1d2",
-   "company_id": "varidens",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614795Z",
-   "needs_review": false
-  },
-  {
-   "id": "d8ea671ea8daea02",
-   "company_id": "varidens",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614799Z",
+   "updated_at": "2026-11-14T01:53:45.235391Z",
    "needs_review": false
   },
   {
@@ -306,26 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614803Z",
-   "needs_review": false
-  },
-  {
-   "id": "a5e7c453f044896a",
-   "company_id": "varidens",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614807Z",
+   "updated_at": "2026-11-14T01:53:45.235398Z",
    "needs_review": false
   },
   {
@@ -344,26 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614811Z",
-   "needs_review": false
-  },
-  {
-   "id": "51c4a71a3e80ffa0",
-   "company_id": "varidens",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614814Z",
+   "updated_at": "2026-11-14T01:53:45.235402Z",
    "needs_review": false
   },
   {
@@ -382,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614818Z",
+   "updated_at": "2026-11-14T01:53:45.235406Z",
    "needs_review": false
   },
   {
@@ -401,9 +411,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614828Z",
+   "updated_at": "2026-11-14T01:53:45.235413Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

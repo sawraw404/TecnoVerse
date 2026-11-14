@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T17:20:59.705951Z",
+  "last_crawled_at": "2026-11-14T01:28:40.889437Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,26 @@
    "retrieved_at": "2026-11-13T17:20:59.705951Z",
    "text": "",
    "content_hash": "05838148826d694b"
+  },
+  {
+   "id": "86578b947fd0fe8d",
+   "company_id": "kockums-maskin",
+   "url": "https://kockumsmaskin.se/aktuellt/nytt-flexibelt-cnc-automatiserings-koncept",
+   "source_type": "company_site",
+   "title": "Nytt flexibelt CNC-automatiserings-koncept",
+   "retrieved_at": "2026-11-14T01:28:40.177996Z",
+   "text": "",
+   "content_hash": "17ed1563c9d76f50"
+  },
+  {
+   "id": "673ca767ec46c005",
+   "company_id": "kockums-maskin",
+   "url": "https://kockumsmaskin.se/aktuellt/news/we-contribute-to-sustainability-efforts",
+   "source_type": "company_site",
+   "title": "KOCKUMS MASKIN bæredygtighedsindsats",
+   "retrieved_at": "2026-11-14T01:28:40.889437Z",
+   "text": "",
+   "content_hash": "d92a51415ff5f30c"
   }
  ],
  "items": [
@@ -116,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.593812Z",
+   "updated_at": "2026-11-14T01:53:45.649631Z",
    "needs_review": false
   },
   {
@@ -135,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594104Z",
+   "updated_at": "2026-11-14T01:53:45.649952Z",
    "needs_review": false
   },
   {
@@ -154,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594385Z",
+   "updated_at": "2026-11-14T01:53:45.650248Z",
    "needs_review": false
   },
   {
@@ -173,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594671Z",
+   "updated_at": "2026-11-14T01:53:45.650540Z",
    "needs_review": false
   },
   {
@@ -192,7 +212,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.595089Z",
+   "updated_at": "2026-11-14T01:53:45.650949Z",
+   "needs_review": false
+  },
+  {
+   "id": "c38c919dfe0bf0e8",
+   "company_id": "kockums-maskin",
+   "field": "innovation",
+   "value": "New flexible CNC automation concept (12 August 2026)",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "KOCKUMS MASKIN inför ett nytt flexibelt CNC-automatiseringskoncept",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.651238Z",
+   "needs_review": false
+  },
+  {
+   "id": "24155af53eb74b1d",
+   "company_id": "kockums-maskin",
+   "field": "expertise",
+   "value": "2,460 tonnes production, 38 CNC machines, about 70 employees, exports to 35 countries",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "2460 Tons produktion 38 CNC-maskiner 70 anställda (ca) 35 fraktländer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.651521Z",
+   "needs_review": false
+  },
+  {
+   "id": "58845c1271ee010d",
+   "company_id": "kockums-maskin",
+   "field": "geography",
+   "value": "Kallinge; castings sourced from foundries across Europe",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "Gjutgodset köps in via våra gjuterier inom BIRN Group och andra gjuterier över hela Europa",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.651855Z",
+   "needs_review": false
+  },
+  {
+   "id": "ad21f41c53c468dc",
+   "company_id": "kockums-maskin",
+   "field": "market",
+   "value": "European industry",
+   "status": "fact",
+   "source_page_id": "9c806c41402c494b",
+   "quote": "att stärka sin position som leverantör till den europeiska industrin",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.652279Z",
    "needs_review": false
   },
   {
@@ -211,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.595285Z",
+   "updated_at": "2026-11-14T01:53:45.652467Z",
    "needs_review": false
   },
   {
@@ -230,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596718Z",
+   "updated_at": "2026-11-14T01:53:45.653907Z",
    "needs_review": false
   },
   {
@@ -249,26 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596733Z",
-   "needs_review": false
-  },
-  {
-   "id": "2c780e7ad9411f12",
-   "company_id": "kockums-maskin",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596740Z",
+   "updated_at": "2026-11-14T01:53:45.653922Z",
    "needs_review": false
   },
   {
@@ -287,26 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596744Z",
-   "needs_review": false
-  },
-  {
-   "id": "2a7de2469b426a00",
-   "company_id": "kockums-maskin",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596748Z",
+   "updated_at": "2026-11-14T01:53:45.653929Z",
    "needs_review": false
   },
   {
@@ -325,26 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596751Z",
-   "needs_review": false
-  },
-  {
-   "id": "8e021eaa6308d44d",
-   "company_id": "kockums-maskin",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596754Z",
+   "updated_at": "2026-11-14T01:53:45.653933Z",
    "needs_review": false
   },
   {
@@ -363,26 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596756Z",
-   "needs_review": false
-  },
-  {
-   "id": "6a8b98e95076dd6a",
-   "company_id": "kockums-maskin",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596760Z",
+   "updated_at": "2026-11-14T01:53:45.653937Z",
    "needs_review": false
   },
   {
@@ -401,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596763Z",
+   "updated_at": "2026-11-14T01:53:45.653940Z",
    "needs_review": false
   },
   {
@@ -420,9 +440,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596770Z",
+   "updated_at": "2026-11-14T01:53:45.653947Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

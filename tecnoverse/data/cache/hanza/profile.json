@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.035456Z",
+   "updated_at": "2026-11-14T01:53:45.631761Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.036365Z",
+   "updated_at": "2026-11-14T01:53:45.632659Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.036620Z",
+   "updated_at": "2026-11-14T01:53:45.632895Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.036920Z",
+   "updated_at": "2026-11-14T01:53:45.633178Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037216Z",
+   "updated_at": "2026-11-14T01:53:45.633462Z",
+   "needs_review": false
+  },
+  {
+   "id": "00f5f13bea3c99fe",
+   "company_id": "hanza",
+   "field": "technology",
+   "value": "Six core technologies: electronics, sheet metal, heavy mechanics, wire harnesses, machining, assembly",
+   "status": "fact",
+   "source_page_id": "db6a74b70c3d30d3",
+   "quote": "HANZA delivers manufacturing services across six core technologies",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.633687Z",
+   "needs_review": false
+  },
+  {
+   "id": "863c4d1b98bc741e",
+   "company_id": "hanza",
+   "field": "customer_group",
+   "value": "Industrial customers such as Mitsubishi Logistics Europe and Silva",
+   "status": "fact",
+   "source_page_id": "67c0a779d81d74a0",
+   "quote": "Simo Kangastupa, Mitsubishi Logistics Europe",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.634572Z",
+   "needs_review": false
+  },
+  {
+   "id": "5fdd2773709d2405",
+   "company_id": "hanza",
+   "field": "priority",
+   "value": "Simplify complex supply chains with one-stop manufacturing",
+   "status": "fact",
+   "source_page_id": "db6a74b70c3d30d3",
+   "quote": "we simplify complex supply chains and provide a true one-stop manufacturing solution",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.634810Z",
    "needs_review": false
   },
   {
@@ -211,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037311Z",
+   "updated_at": "2026-11-14T01:53:45.634907Z",
    "needs_review": false
   },
   {
@@ -230,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037398Z",
+   "updated_at": "2026-11-14T01:53:45.634998Z",
    "needs_review": false
   },
   {
@@ -249,26 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037408Z",
-   "needs_review": false
-  },
-  {
-   "id": "ce29eff7e49f38b9",
-   "company_id": "hanza",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037413Z",
+   "updated_at": "2026-11-14T01:53:45.635009Z",
    "needs_review": false
   },
   {
@@ -287,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037417Z",
+   "updated_at": "2026-11-14T01:53:45.635016Z",
    "needs_review": false
   },
   {
@@ -306,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037420Z",
+   "updated_at": "2026-11-14T01:53:45.635020Z",
    "needs_review": false
   },
   {
@@ -325,26 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037423Z",
-   "needs_review": false
-  },
-  {
-   "id": "d181f0078901e311",
-   "company_id": "hanza",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037425Z",
+   "updated_at": "2026-11-14T01:53:45.635024Z",
    "needs_review": false
   },
   {
@@ -363,26 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037428Z",
-   "needs_review": false
-  },
-  {
-   "id": "856b995d1058d97f",
-   "company_id": "hanza",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037431Z",
+   "updated_at": "2026-11-14T01:53:45.635028Z",
    "needs_review": false
   },
   {
@@ -391,7 +391,7 @@
    "field": "possible_interest",
    "value": "Manufacturing partners for hardware startups",
    "status": "inferred",
-   "source_page_id": "db6a74b70c3d30d3",
+   "source_page_id": "6c6fe89edaefae36",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It offers full manufacturing services from a single part upwards.",
@@ -401,9 +401,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.037437Z",
+   "updated_at": "2026-11-14T01:53:45.635036Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

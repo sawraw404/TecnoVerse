@@ -17,7 +17,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:10.764484Z",
+  "last_crawled_at": "2026-11-14T01:28:05.256620Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -102,6 +102,36 @@
    "retrieved_at": "2026-11-13T13:37:10.764484Z",
    "text": "",
    "content_hash": "acf3c58fa258cd69"
+  },
+  {
+   "id": "f15a608526f5f3c2",
+   "company_id": "saab",
+   "url": "https://www.saab.com/newsroom/press-releases/2026/saab-receives-order-for-advanced-live-training-systems-from-denmark",
+   "source_type": "company_site",
+   "title": "Saab receives order for advanced live training systems from Denmark",
+   "retrieved_at": "2026-11-14T01:28:03.994039Z",
+   "text": "",
+   "content_hash": "5b95319a552b82bb"
+  },
+  {
+   "id": "168c9facd673f52a",
+   "company_id": "saab",
+   "url": "https://www.saab.com/newsroom/press-releases/2026/saab-receives-order-to-equip-swedens-new-frigates",
+   "source_type": "company_site",
+   "title": "Saab receives order to equip Sweden’s new frigates",
+   "retrieved_at": "2026-11-14T01:28:04.673963Z",
+   "text": "",
+   "content_hash": "4b64b1177a3d0af8"
+  },
+  {
+   "id": "d8ce1ed8ac101eda",
+   "company_id": "saab",
+   "url": "https://www.saab.com/newsroom/press-releases/2026/saab-launches-next-generation-9lv-naval-combat-system",
+   "source_type": "company_site",
+   "title": "Saab launches next generation 9LV naval combat system",
+   "retrieved_at": "2026-11-14T01:28:05.256620Z",
+   "text": "",
+   "content_hash": "cdab25dd441a1644"
   }
  ],
  "items": [
@@ -121,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.131365Z",
+   "updated_at": "2026-11-14T01:53:45.144965Z",
    "needs_review": false
   },
   {
@@ -140,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.131971Z",
+   "updated_at": "2026-11-14T01:53:45.145426Z",
    "needs_review": false
   },
   {
@@ -159,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.132759Z",
+   "updated_at": "2026-11-14T01:53:45.146035Z",
    "needs_review": false
   },
   {
@@ -178,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.133432Z",
+   "updated_at": "2026-11-14T01:53:45.146722Z",
    "needs_review": false
   },
   {
@@ -197,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.134071Z",
+   "updated_at": "2026-11-14T01:53:45.147368Z",
    "needs_review": false
   },
   {
@@ -216,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.134702Z",
+   "updated_at": "2026-11-14T01:53:45.148025Z",
    "needs_review": false
   },
   {
@@ -235,7 +265,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135342Z",
+   "updated_at": "2026-11-14T01:53:45.148703Z",
+   "needs_review": false
+  },
+  {
+   "id": "92601164a8462b00",
+   "company_id": "saab",
+   "field": "technology",
+   "value": "In-house flight-proven AI agents flown on Gripen E",
+   "status": "fact",
+   "source_page_id": "d0faefe73f73acc4",
+   "quote": "Saab is revealing its own in-house, flight proven Artificial Intelligence (AI) agents and has flown them on Gripen E",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.149360Z",
+   "needs_review": false
+  },
+  {
+   "id": "78057cb10e60f105",
+   "company_id": "saab",
+   "field": "collaboration",
+   "value": "Naval Group: weapon control systems and sensors for four FDI frigates",
+   "status": "fact",
+   "source_page_id": "d0faefe73f73acc4",
+   "quote": "Saab has signed a contract with the French defence company Naval Group",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.150016Z",
+   "needs_review": false
+  },
+  {
+   "id": "8bdc3bb1eb195786",
+   "company_id": "saab",
+   "field": "market",
+   "value": "Global defence and security market",
+   "status": "fact",
+   "source_page_id": "d0faefe73f73acc4",
+   "quote": "a unique position in the global defence and security market",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.150684Z",
    "needs_review": false
   },
   {
@@ -254,26 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135749Z",
-   "needs_review": false
-  },
-  {
-   "id": "5273800449515802",
-   "company_id": "saab",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135756Z",
+   "updated_at": "2026-11-14T01:53:45.151110Z",
    "needs_review": false
   },
   {
@@ -292,7 +360,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135760Z",
+   "updated_at": "2026-11-14T01:53:45.151118Z",
    "needs_review": false
   },
   {
@@ -311,26 +379,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135764Z",
-   "needs_review": false
-  },
-  {
-   "id": "8edd1d990900d2af",
-   "company_id": "saab",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135767Z",
+   "updated_at": "2026-11-14T01:53:45.151123Z",
    "needs_review": false
   },
   {
@@ -349,26 +398,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135770Z",
-   "needs_review": false
-  },
-  {
-   "id": "f90d37227585eba2",
-   "company_id": "saab",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135772Z",
+   "updated_at": "2026-11-14T01:53:45.151127Z",
    "needs_review": false
   },
   {
@@ -387,7 +417,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135775Z",
+   "updated_at": "2026-11-14T01:53:45.151131Z",
    "needs_review": false
   },
   {
@@ -406,7 +436,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135781Z",
+   "updated_at": "2026-11-14T01:53:45.151138Z",
    "needs_review": false
   },
   {
@@ -425,9 +455,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.135785Z",
+   "updated_at": "2026-11-14T01:53:45.151143Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

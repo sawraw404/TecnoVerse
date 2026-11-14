@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.384763Z",
+   "updated_at": "2026-11-14T01:53:45.457137Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385169Z",
+   "updated_at": "2026-11-14T01:53:45.457489Z",
+   "needs_review": false
+  },
+  {
+   "id": "82de6e92e2625fe8",
+   "company_id": "activout",
+   "field": "innovation",
+   "value": "MemberData.eu: a service for LinkedIn members in the EEA to explore their own data",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "En tjänst där LinkedIn-medlemmar i EES och Schweiz kan hämta och utforska sin egen LinkedIn-data",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.457828Z",
+   "needs_review": false
+  },
+  {
+   "id": "662d9f8820118b56",
+   "company_id": "activout",
+   "field": "expertise",
+   "value": "Freelance software architect with 20+ years on business-critical systems",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "Frilansutvecklare och mjukvaruarkitekt med över 20 års erfarenhet av att bygga affärskritiska system",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.458158Z",
+   "needs_review": false
+  },
+  {
+   "id": "25cf2213861dcdd6",
+   "company_id": "activout",
+   "field": "technology",
+   "value": "AI coding agents (Claude Code, GitHub Copilot, OpenAI Codex, Kiro); .NET/C#",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "Erfarenhet av bland annat Claude Code, GitHub Copilot, OpenAI Codex och Kiro",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.458481Z",
    "needs_review": false
   },
   {
@@ -84,64 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385396Z",
-   "needs_review": false
-  },
-  {
-   "id": "34a719650f876b7b",
-   "company_id": "activout",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385402Z",
-   "needs_review": false
-  },
-  {
-   "id": "395d85257a8ae52c",
-   "company_id": "activout",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385405Z",
-   "needs_review": false
-  },
-  {
-   "id": "c7a74b8d73492c90",
-   "company_id": "activout",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385408Z",
+   "updated_at": "2026-11-14T01:53:45.458718Z",
    "needs_review": false
   },
   {
@@ -160,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385411Z",
+   "updated_at": "2026-11-14T01:53:45.458724Z",
    "needs_review": false
   },
   {
@@ -179,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385414Z",
+   "updated_at": "2026-11-14T01:53:45.458728Z",
    "needs_review": false
   },
   {
@@ -198,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385416Z",
+   "updated_at": "2026-11-14T01:53:45.458731Z",
    "needs_review": false
   },
   {
@@ -217,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385419Z",
+   "updated_at": "2026-11-14T01:53:45.458734Z",
    "needs_review": false
   },
   {
@@ -236,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385421Z",
+   "updated_at": "2026-11-14T01:53:45.458737Z",
    "needs_review": false
   },
   {
@@ -255,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385424Z",
+   "updated_at": "2026-11-14T01:53:45.458740Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385426Z",
+   "updated_at": "2026-11-14T01:53:45.458743Z",
    "needs_review": false
   },
   {
@@ -293,9 +293,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385431Z",
+   "updated_at": "2026-11-14T01:53:45.458747Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

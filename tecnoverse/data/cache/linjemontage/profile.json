@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:53.226064Z",
+  "last_crawled_at": "2026-11-14T01:28:40.205151Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,46 @@
    "retrieved_at": "2026-11-13T13:37:53.226064Z",
    "text": "",
    "content_hash": "52f57c6f86746f53"
+  },
+  {
+   "id": "f4b5dc01243533d8",
+   "company_id": "linjemontage",
+   "url": "https://www.linjemontage.se/en/press/news",
+   "source_type": "company_site",
+   "title": "News – Linjemontage",
+   "retrieved_at": "2026-11-14T01:28:31.155153Z",
+   "text": "",
+   "content_hash": "6878c7112948f240"
+  },
+  {
+   "id": "2220994b863f9472",
+   "company_id": "linjemontage",
+   "url": "https://www.linjemontage.se/no/press/nyheter",
+   "source_type": "company_site",
+   "title": "Nyheter – Linjemontage",
+   "retrieved_at": "2026-11-14T01:28:32.804802Z",
+   "text": "",
+   "content_hash": "7235f65380d1978c"
+  },
+  {
+   "id": "91c130c9e65f9a13",
+   "company_id": "linjemontage",
+   "url": "https://www.linjemontage.se/sv/press/pressmeddelanden",
+   "source_type": "company_site",
+   "title": "Pressmeddelanden – Linjemontage",
+   "retrieved_at": "2026-11-14T01:28:34.499611Z",
+   "text": "",
+   "content_hash": "92e593b9adb02480"
+  },
+  {
+   "id": "2fa92c13afe75d1a",
+   "company_id": "linjemontage",
+   "url": "https://www.linjemontage.se/sv/press/bildbank",
+   "source_type": "company_site",
+   "title": "Bildbank – Linjemontage",
+   "retrieved_at": "2026-11-14T01:28:40.205151Z",
+   "text": "",
+   "content_hash": "4660f3168e63c3fa"
   }
  ],
  "items": [
@@ -116,7 +156,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.403960Z",
+   "updated_at": "2026-11-14T01:53:45.491839Z",
    "needs_review": false
   },
   {
@@ -135,7 +175,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.404315Z",
+   "updated_at": "2026-11-14T01:53:45.492216Z",
    "needs_review": false
   },
   {
@@ -154,7 +194,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.405454Z",
+   "updated_at": "2026-11-14T01:53:45.493420Z",
    "needs_review": false
   },
   {
@@ -173,7 +213,102 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406553Z",
+   "updated_at": "2026-11-14T01:53:45.494564Z",
+   "needs_review": false
+  },
+  {
+   "id": "ea9751d61a4fa1c5",
+   "company_id": "linjemontage",
+   "field": "customer_group",
+   "value": "Energy companies, industrial companies and public administration",
+   "status": "fact",
+   "source_page_id": "13a8f916325cdfce",
+   "quote": "bland våra kunder finns energibolag, industriföretag och offentlig förvaltning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.494914Z",
+   "needs_review": false
+  },
+  {
+   "id": "3666fca6d4c21745",
+   "company_id": "linjemontage",
+   "field": "expertise",
+   "value": "30+ years building and modernising power infrastructure in the Nordics",
+   "status": "fact",
+   "source_page_id": "42895edf9d184f4c",
+   "quote": "Linjemontage har över 30 års erfarenhet av att utveckla, bygga och modernisera kraftinfrastruktur i Norden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.495459Z",
+   "needs_review": false
+  },
+  {
+   "id": "dc98d945d8822780",
+   "company_id": "linjemontage",
+   "field": "technology",
+   "value": "Integrated EPC model (engineering, procurement, construction)",
+   "status": "fact",
+   "source_page_id": "13a8f916325cdfce",
+   "quote": "Genom en integrerad EPC-modell (Engineering, Procurement, Construction)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.495815Z",
+   "needs_review": false
+  },
+  {
+   "id": "54ca57ef36717cb6",
+   "company_id": "linjemontage",
+   "field": "priority",
+   "value": "Be a driving force in the energy transition",
+   "status": "fact",
+   "source_page_id": "13a8f916325cdfce",
+   "quote": "Vår ambition är att vara en drivande kraft i energiomställningen",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.496158Z",
+   "needs_review": false
+  },
+  {
+   "id": "6205db9a9c97f89b",
+   "company_id": "linjemontage",
+   "field": "geography",
+   "value": "Grästorp; works across the Nordics",
+   "status": "fact",
+   "source_page_id": "13a8f916325cdfce",
+   "quote": "Järnvägsgatan 20, 467 40 Grästorp Sweden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.496536Z",
    "needs_review": false
   },
   {
@@ -192,45 +327,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406567Z",
-   "needs_review": false
-  },
-  {
-   "id": "bbfa852623fcc264",
-   "company_id": "linjemontage",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406574Z",
-   "needs_review": false
-  },
-  {
-   "id": "4633a5e20150a065",
-   "company_id": "linjemontage",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406579Z",
+   "updated_at": "2026-11-14T01:53:45.496555Z",
    "needs_review": false
   },
   {
@@ -249,7 +346,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406582Z",
+   "updated_at": "2026-11-14T01:53:45.496563Z",
    "needs_review": false
   },
   {
@@ -268,45 +365,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406585Z",
-   "needs_review": false
-  },
-  {
-   "id": "a31464f698b7940a",
-   "company_id": "linjemontage",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406588Z",
-   "needs_review": false
-  },
-  {
-   "id": "63e2a4071c33a542",
-   "company_id": "linjemontage",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406590Z",
+   "updated_at": "2026-11-14T01:53:45.496567Z",
    "needs_review": false
   },
   {
@@ -325,26 +384,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406593Z",
-   "needs_review": false
-  },
-  {
-   "id": "f6f63ac814fb16fa",
-   "company_id": "linjemontage",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406596Z",
+   "updated_at": "2026-11-14T01:53:45.496571Z",
    "needs_review": false
   },
   {
@@ -363,9 +403,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.406601Z",
+   "updated_at": "2026-11-14T01:53:45.496579Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:38:01.250715Z",
+  "last_crawled_at": "2026-11-14T01:28:37.282275Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -87,6 +87,36 @@
    "retrieved_at": "2026-11-13T13:38:01.250715Z",
    "text": "",
    "content_hash": "b2b89faafdaea95d"
+  },
+  {
+   "id": "e8d391ce828a2e90",
+   "company_id": "novacast-systems",
+   "url": "https://www.novacast.se/news/foseco-exothermic-sleeve-data-now-available-in-novacasts-novaflowsolid",
+   "source_type": "company_site",
+   "title": "Foseco Exothermic Sleeve Data Now Available in NovaCast’s NovaFlow&Solid. - NovaCast",
+   "retrieved_at": "2026-11-14T01:28:31.216104Z",
+   "text": "",
+   "content_hash": "b7a61cb3d3a3ef65"
+  },
+  {
+   "id": "e909ad6184e0b9f2",
+   "company_id": "novacast-systems",
+   "url": "https://www.novacast.se/news/novacast-and-italterm-at-fenaf-this-july",
+   "source_type": "company_site",
+   "title": "NovaCast and ITALTERM at FENAF this July - NovaCast",
+   "retrieved_at": "2026-11-14T01:28:34.014183Z",
+   "text": "",
+   "content_hash": "ea34a2df39bebb4f"
+  },
+  {
+   "id": "78f12e46398d0c65",
+   "company_id": "novacast-systems",
+   "url": "https://www.novacast.se/news/atas-metstar-11-1-released-smarter-and-more-flexible-thermal-analysis",
+   "source_type": "company_site",
+   "title": "ATAS MetStar 11.1 Released: Smarter and More Flexible Thermal Analysis - NovaCast",
+   "retrieved_at": "2026-11-14T01:28:37.282275Z",
+   "text": "",
+   "content_hash": "5bb5e6ce15300b0b"
   }
  ],
  "items": [
@@ -106,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.396810Z",
+   "updated_at": "2026-11-14T01:53:45.479811Z",
    "needs_review": false
   },
   {
@@ -125,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397172Z",
+   "updated_at": "2026-11-14T01:53:45.480057Z",
    "needs_review": false
   },
   {
@@ -144,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397544Z",
+   "updated_at": "2026-11-14T01:53:45.480375Z",
    "needs_review": false
   },
   {
@@ -163,7 +193,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397776Z",
+   "updated_at": "2026-11-14T01:53:45.480622Z",
+   "needs_review": false
+  },
+  {
+   "id": "04dabd970a51a08b",
+   "company_id": "novacast-systems",
+   "field": "geography",
+   "value": "Solutions used in over 50 countries",
+   "status": "fact",
+   "source_page_id": "30cd126168bf1895",
+   "quote": "used in over 50 countries, and still evolving",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.480935Z",
+   "needs_review": false
+  },
+  {
+   "id": "c5f80ef53c5aa2ec",
+   "company_id": "novacast-systems",
+   "field": "collaboration",
+   "value": "Partners ITALTERM (Brazil) and Japan Foundry Service",
+   "status": "fact",
+   "source_page_id": "3a18f4dbe6fd4180",
+   "quote": "NovaCast will be attending FENAF in São Paulo together with our valued partner ITALTERM",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.481190Z",
+   "needs_review": false
+  },
+  {
+   "id": "25b3be5e62444d14",
+   "company_id": "novacast-systems",
+   "field": "expertise",
+   "value": "Engineers, metallurgists and developers with foundry backgrounds",
+   "status": "fact",
+   "source_page_id": "30cd126168bf1895",
+   "quote": "a team of engineers, metallurgists, developers, and customer experts",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.481502Z",
+   "needs_review": false
+  },
+  {
+   "id": "ec8fc5a12282f49e",
+   "company_id": "novacast-systems",
+   "field": "customer_group",
+   "value": "Foundries",
+   "status": "fact",
+   "source_page_id": "3a18f4dbe6fd4180",
+   "quote": "We are casting simulation & thermal analysis experts",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.481734Z",
    "needs_review": false
   },
   {
@@ -182,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397951Z",
+   "updated_at": "2026-11-14T01:53:45.481909Z",
    "needs_review": false
   },
   {
@@ -201,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397962Z",
+   "updated_at": "2026-11-14T01:53:45.481921Z",
    "needs_review": false
   },
   {
@@ -220,26 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397968Z",
-   "needs_review": false
-  },
-  {
-   "id": "b94970e2eaf82b4a",
-   "company_id": "novacast-systems",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397972Z",
+   "updated_at": "2026-11-14T01:53:45.481929Z",
    "needs_review": false
   },
   {
@@ -258,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397977Z",
+   "updated_at": "2026-11-14T01:53:45.481935Z",
    "needs_review": false
   },
   {
@@ -277,26 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397980Z",
-   "needs_review": false
-  },
-  {
-   "id": "6426174ea48c8726",
-   "company_id": "novacast-systems",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397983Z",
+   "updated_at": "2026-11-14T01:53:45.481939Z",
    "needs_review": false
   },
   {
@@ -315,26 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397986Z",
-   "needs_review": false
-  },
-  {
-   "id": "b4ae07ad7c396f99",
-   "company_id": "novacast-systems",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397989Z",
+   "updated_at": "2026-11-14T01:53:45.481943Z",
    "needs_review": false
   },
   {
@@ -353,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397992Z",
+   "updated_at": "2026-11-14T01:53:45.481946Z",
    "needs_review": false
   },
   {
@@ -372,9 +421,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.397997Z",
+   "updated_at": "2026-11-14T01:53:45.481953Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

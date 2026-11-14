@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:22:26.870133Z",
+  "last_crawled_at": "2026-11-14T01:30:18.711374Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:22:02.472970Z",
    "text": "",
    "content_hash": "3fd0bdf8c55104a1"
+  },
+  {
+   "id": "77b80c675fdcdbc9",
+   "company_id": "affarsverken",
+   "url": "https://www.bluesciencepark.se/aktuellt/internationella-cybersakerhetsprojektet-cissan-gar-i-mal-med-hogsta-betyg/",
+   "source_type": "news",
+   "title": "Internationella cybersäkerhetsprojektet CISSAN går i mål med högsta betyg - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.711374Z",
+   "text": "",
+   "content_hash": "eb44d78659d7a9db"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.244293Z",
+   "updated_at": "2026-11-14T01:53:44.755148Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.244817Z",
+   "updated_at": "2026-11-14T01:53:44.755577Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.245287Z",
+   "updated_at": "2026-11-14T01:53:44.755981Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.245868Z",
+   "updated_at": "2026-11-14T01:53:44.756494Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.246483Z",
+   "updated_at": "2026-11-14T01:53:44.757082Z",
    "needs_review": false
   },
   {
@@ -211,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.247017Z",
+   "updated_at": "2026-11-14T01:53:44.757639Z",
    "needs_review": false
   },
   {
@@ -230,7 +240,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.247607Z",
+   "updated_at": "2026-11-14T01:53:44.758189Z",
    "needs_review": false
   },
   {
@@ -249,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.247979Z",
+   "updated_at": "2026-11-14T01:53:44.758554Z",
    "needs_review": false
   },
   {
@@ -268,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.248570Z",
+   "updated_at": "2026-11-14T01:53:44.759114Z",
    "needs_review": false
   },
   {
@@ -287,7 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.249070Z",
+   "updated_at": "2026-11-14T01:53:44.759637Z",
    "needs_review": false
   },
   {
@@ -306,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.249596Z",
+   "updated_at": "2026-11-14T01:53:44.760154Z",
    "needs_review": false
   },
   {
@@ -325,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.250135Z",
+   "updated_at": "2026-11-14T01:53:44.760664Z",
    "needs_review": false
   },
   {
@@ -344,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.250683Z",
+   "updated_at": "2026-11-14T01:53:44.761221Z",
    "needs_review": false
   },
   {
@@ -363,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251063Z",
+   "updated_at": "2026-11-14T01:53:44.761606Z",
    "needs_review": false
   },
   {
@@ -382,26 +392,121 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251435Z",
+   "updated_at": "2026-11-14T01:53:44.761979Z",
    "needs_review": false
   },
   {
-   "id": "a1ddd81983e6f70c",
+   "id": "45cc1129c8321c0e",
    "company_id": "affarsverken",
    "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Partner in CISSAN, an EU project on decentralised cyber-threat detection for smart grids (ended May 2026)",
+   "status": "fact",
+   "source_page_id": "77b80c675fdcdbc9",
+   "quote": "Affärsverken Karlskrona (krav och behov gällande elnätsinfrastruktur)",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251442Z",
+   "updated_at": "2026-11-14T01:53:44.762966Z",
+   "needs_review": false
+  },
+  {
+   "id": "6388b8df70bb4496",
+   "company_id": "affarsverken",
+   "field": "application_area",
+   "value": "IoT over LoRa to monitor buildings and outdoor sites, e.g. walkway temperature for de-icing",
+   "status": "fact",
+   "source_page_id": "47f1199ffb0d1927",
+   "quote": "Temperaturövervakning av gångbanor för att övervaka temperatur och larma vid behov av halkbekämpning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.763522Z",
+   "needs_review": false
+  },
+  {
+   "id": "bfc82ab6cc17daa5",
+   "company_id": "affarsverken",
+   "field": "market",
+   "value": "Electricity market, including the ancillary services market for batteries",
+   "status": "fact",
+   "source_page_id": "27850c6b38fb3212",
+   "quote": "Affärsverken gör det möjligt för dig att delta på stödtjänstmarknaden och sälja flexibla resurser",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.763900Z",
+   "needs_review": false
+  },
+  {
+   "id": "1072c72e76fcebe3",
+   "company_id": "affarsverken",
+   "field": "contact",
+   "value": "Email: kundservice@affarsverken.se",
+   "status": "fact",
+   "source_page_id": "428aa0f1c21367d4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.766240Z",
+   "needs_review": false
+  },
+  {
+   "id": "eb43c9065215ab32",
+   "company_id": "affarsverken",
+   "field": "contact",
+   "value": "Phone: 0816 9590",
+   "status": "fact",
+   "source_page_id": "428aa0f1c21367d4",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.768548Z",
+   "needs_review": false
+  },
+  {
+   "id": "ed7e7af2bfd57936",
+   "company_id": "affarsverken",
+   "field": "contact",
+   "value": "Contact page: https://www.affarsverken.se/hjalpcenter/kontakta-oss/",
+   "status": "fact",
+   "source_page_id": "8bc7cd06a0f57ee3",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.768563Z",
    "needs_review": false
   },
   {
@@ -420,45 +525,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251448Z",
-   "needs_review": false
-  },
-  {
-   "id": "87e6de2bab44113b",
-   "company_id": "affarsverken",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251452Z",
-   "needs_review": false
-  },
-  {
-   "id": "75203fbc925250ea",
-   "company_id": "affarsverken",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251456Z",
+   "updated_at": "2026-11-14T01:53:44.768570Z",
    "needs_review": false
   },
   {
@@ -477,7 +544,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:21.251460Z",
+   "updated_at": "2026-11-14T01:53:44.768576Z",
    "needs_review": false
   },
   {
@@ -496,7 +563,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:26.870083Z",
+   "updated_at": "2026-11-14T01:53:44.768583Z",
    "needs_review": false
   },
   {
@@ -505,7 +572,7 @@
    "field": "possible_interest",
    "value": "Waste management and recycling innovations",
    "status": "inferred",
-   "source_page_id": "690137ef3ed883ba",
+   "source_page_id": "8bc7cd06a0f57ee3",
    "quote": null,
    "quote_verified": false,
    "reasoning": "The company provides household waste collection and recycling services.",
@@ -515,7 +582,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:26.870112Z",
+   "updated_at": "2026-11-14T01:53:44.768587Z",
    "needs_review": false
   },
   {
@@ -524,7 +591,7 @@
    "field": "possible_interest",
    "value": "Internet of Things and smart energy metering",
    "status": "inferred",
-   "source_page_id": "47f1199ffb0d1927",
+   "source_page_id": "8bc7cd06a0f57ee3",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Affärsverken utilizes LoRa IoT communication standards and real-time electricity usage meters.",
@@ -534,7 +601,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:26.870118Z",
+   "updated_at": "2026-11-14T01:53:44.768591Z",
    "needs_review": false
   },
   {
@@ -553,7 +620,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:26.870123Z",
+   "updated_at": "2026-11-14T01:53:44.768594Z",
    "needs_review": false
   },
   {
@@ -562,7 +629,7 @@
    "field": "possible_interest",
    "value": "Battery storage and grid flexibility solutions",
    "status": "inferred",
-   "source_page_id": "27850c6b38fb3212",
+   "source_page_id": "8bc7cd06a0f57ee3",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Affärsverken collaborates with Checkwatt, indicating an interest in energy storage and grid services.",
@@ -572,9 +639,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:22:26.870128Z",
+   "updated_at": "2026-11-14T01:53:44.768597Z",
    "needs_review": false
   }
  ],
- "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

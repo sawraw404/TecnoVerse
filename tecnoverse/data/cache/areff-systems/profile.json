@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:47.304921Z",
+  "last_crawled_at": "2026-11-14T01:28:31.754541Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:37:47.304921Z",
    "text": "",
    "content_hash": "3f3bc03490e0ab62"
+  },
+  {
+   "id": "75bed4436d832e7f",
+   "company_id": "areff-systems",
+   "url": "https://www.areff.se/nyhet/seriline-group-valkomnar-ny-vd-till-id-company-i-danmark",
+   "source_type": "company_site",
+   "title": "Seriline Group välkomnar ny VD till ID Company i Danmark - Areff",
+   "retrieved_at": "2026-11-14T01:28:29.255214Z",
+   "text": "",
+   "content_hash": "ace110b562724d0a"
+  },
+  {
+   "id": "ddf5f3771616675c",
+   "company_id": "areff-systems",
+   "url": "https://www.areff.se/nyhet/seriline-blir-helhetsleverantor-av-kort-och-nyckelbrickor-till-umea-kommun",
+   "source_type": "company_site",
+   "title": "Seriline blir helhetsleverantör av kort och nyckelbrickor till Umeå kommun - Areff",
+   "retrieved_at": "2026-11-14T01:28:30.589548Z",
+   "text": "",
+   "content_hash": "c76456b8ea58acc0"
+  },
+  {
+   "id": "260f9f6f1559edd4",
+   "company_id": "areff-systems",
+   "url": "https://www.areff.se/nyhet/nya-cybersakerhetslagen-nis2-galler-nu-men-vad-innebar-detta",
+   "source_type": "company_site",
+   "title": "Den nya cybersäkerhetslagen (NIS2) har trätt i kraft - men vad innebär den i praktiken?** - Areff",
+   "retrieved_at": "2026-11-14T01:28:31.754541Z",
+   "text": "",
+   "content_hash": "d9ca02c5b80e9c5b"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.387986Z",
+   "updated_at": "2026-11-14T01:53:45.462309Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.388528Z",
+   "updated_at": "2026-11-14T01:53:45.462790Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.388956Z",
+   "updated_at": "2026-11-14T01:53:45.463221Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389337Z",
+   "updated_at": "2026-11-14T01:53:45.463598Z",
+   "needs_review": false
+  },
+  {
+   "id": "ceccc04d35c665fe",
+   "company_id": "areff-systems",
+   "field": "collaboration",
+   "value": "Gunnar Prefab (IoT traceability); part of Seriline Group",
+   "status": "fact",
+   "source_page_id": "f581ebba192c1b70",
+   "quote": "Gunnar Prefab i samarbete med Areff Systems har lanserat en banbrytande IoT-lösning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.464017Z",
+   "needs_review": false
+  },
+  {
+   "id": "b6281de1bb4cf85b",
+   "company_id": "areff-systems",
+   "field": "technology",
+   "value": "RFID cards, key fobs and NFC for identification and payment",
+   "status": "fact",
+   "source_page_id": "1e094887e3937f2d",
+   "quote": "Areff producerar stora volymer RFID-kort och nyckelbrickor som förses med betalningsfunktion",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.464485Z",
+   "needs_review": false
+  },
+  {
+   "id": "aa84791b3176c754",
+   "company_id": "areff-systems",
+   "field": "application_area",
+   "value": "Public transport, sports and cultural event tickets",
+   "status": "fact",
+   "source_page_id": "f8e1e6186da842d1",
+   "quote": "Personaliserade biljetter för användning i kollektivtrafik och vid sport- och kulturevenemang",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.464833Z",
    "needs_review": false
   },
   {
@@ -192,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389596Z",
+   "updated_at": "2026-11-14T01:53:45.465103Z",
    "needs_review": false
   },
   {
@@ -211,26 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389607Z",
-   "needs_review": false
-  },
-  {
-   "id": "4635e39c9b40873b",
-   "company_id": "areff-systems",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389612Z",
+   "updated_at": "2026-11-14T01:53:45.465115Z",
    "needs_review": false
   },
   {
@@ -249,26 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389615Z",
-   "needs_review": false
-  },
-  {
-   "id": "d0855f8c3a628618",
-   "company_id": "areff-systems",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389618Z",
+   "updated_at": "2026-11-14T01:53:45.465120Z",
    "needs_review": false
   },
   {
@@ -287,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389621Z",
+   "updated_at": "2026-11-14T01:53:45.465125Z",
    "needs_review": false
   },
   {
@@ -306,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389624Z",
+   "updated_at": "2026-11-14T01:53:45.465128Z",
    "needs_review": false
   },
   {
@@ -325,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389626Z",
+   "updated_at": "2026-11-14T01:53:45.465131Z",
    "needs_review": false
   },
   {
@@ -344,26 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389629Z",
-   "needs_review": false
-  },
-  {
-   "id": "0eb8be918510bb5e",
-   "company_id": "areff-systems",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389631Z",
+   "updated_at": "2026-11-14T01:53:45.465134Z",
    "needs_review": false
   },
   {
@@ -382,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389634Z",
+   "updated_at": "2026-11-14T01:53:45.465137Z",
    "needs_review": false
   },
   {
@@ -391,7 +421,7 @@
    "field": "possible_interest",
    "value": "IoT traceability pilots with industry",
    "status": "inferred",
-   "source_page_id": "f2a608b99eabf6ec",
+   "source_page_id": "f581ebba192c1b70",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It built NFC traceability for building components.",
@@ -401,9 +431,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.389638Z",
+   "updated_at": "2026-11-14T01:53:45.465142Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

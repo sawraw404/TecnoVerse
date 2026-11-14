@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:54.620692Z",
+  "last_crawled_at": "2026-11-14T01:30:18.760136Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -67,6 +67,46 @@
    "retrieved_at": "2026-11-13T13:36:54.620692Z",
    "text": "",
    "content_hash": "0f43ca34c3aa0759"
+  },
+  {
+   "id": "d12271e69ceba989",
+   "company_id": "lysa",
+   "url": "https://lysa.se/newsroom/news/forbattrat-ranteerbjudande-i-lysa-hallbar-smartare-anpassning-och-lagre-avgift",
+   "source_type": "company_site",
+   "title": "Förbättrat ränteerbjudande i Lysa Hållbar – smartare anpassning och lägre avgift",
+   "retrieved_at": "2026-11-14T01:27:59.225414Z",
+   "text": "",
+   "content_hash": "c45e93346a14ec18"
+  },
+  {
+   "id": "f84c56d9d0c5da4c",
+   "company_id": "lysa",
+   "url": "https://lysa.se/newsroom/news/lysa-far-forbrugerradet-tank-anbefaler-i-ny-test-af-manedsopsparinger",
+   "source_type": "company_site",
+   "title": "Lysa får “Forbrugerrådet Tænk Anbefaler” i ny test af månedsopsparinger",
+   "retrieved_at": "2026-11-14T01:27:59.957639Z",
+   "text": "",
+   "content_hash": "1e2239622c87ced8"
+  },
+  {
+   "id": "8bc2ddede7d8cf10",
+   "company_id": "lysa",
+   "url": "https://lysa.se/newsroom/news/vd-har-ordet-valkommen-till-en-ny-spartermin",
+   "source_type": "company_site",
+   "title": "VD har ordet: Välkommen till en ny spartermin",
+   "retrieved_at": "2026-11-14T01:28:00.874408Z",
+   "text": "",
+   "content_hash": "80f37c7e374eba7c"
+  },
+  {
+   "id": "a9b8ff2f076cc639",
+   "company_id": "lysa",
+   "url": "https://www.bluesciencepark.se/aktuellt/njordx-blir-ny-medlem-i-blue-science-park/",
+   "source_type": "news",
+   "title": "NjordX blir ny medlem i Blue Science Park - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.760136Z",
+   "text": "",
+   "content_hash": "a2a8f5531b0d675b"
   }
  ],
  "items": [
@@ -86,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.397898Z",
+   "updated_at": "2026-11-14T01:53:45.007832Z",
    "needs_review": false
   },
   {
@@ -105,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.398813Z",
+   "updated_at": "2026-11-14T01:53:45.008713Z",
    "needs_review": false
   },
   {
@@ -124,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.399682Z",
+   "updated_at": "2026-11-14T01:53:45.009576Z",
    "needs_review": false
   },
   {
@@ -143,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.400531Z",
+   "updated_at": "2026-11-14T01:53:45.010430Z",
    "needs_review": false
   },
   {
@@ -162,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.401521Z",
+   "updated_at": "2026-11-14T01:53:45.011482Z",
    "needs_review": false
   },
   {
@@ -181,7 +221,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.402603Z",
+   "updated_at": "2026-11-14T01:53:45.012547Z",
+   "needs_review": false
+  },
+  {
+   "id": "402e3b5dc3d8de38",
+   "company_id": "lysa",
+   "field": "technology",
+   "value": "Automated fund robot investing in index funds",
+   "status": "fact",
+   "source_page_id": "c644be95d208fc44",
+   "quote": "Vissa kallar Lysa för en fondrobot",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.013473Z",
+   "needs_review": false
+  },
+  {
+   "id": "80e5703eed50a184",
+   "company_id": "lysa",
+   "field": "priority",
+   "value": "A simple, research-based savings service available to everyone",
+   "status": "fact",
+   "source_page_id": "5b234cc31d80c8a8",
+   "quote": "Vi vill erbjuda en enkel och smart spartjänst som är baserad på forskning och tillgänglig för alla",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.013760Z",
+   "needs_review": false
+  },
+  {
+   "id": "c1a5c7054005fe7a",
+   "company_id": "lysa",
+   "field": "offering",
+   "value": "Sustainable portfolio following Paris-Aligned Benchmark",
+   "status": "fact",
+   "source_page_id": "c644be95d208fc44",
+   "quote": "indexfonder vilka följer Paris-Aligned Benchmark med målet att minska koldioxidutsläpp",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.014645Z",
+   "needs_review": false
+  },
+  {
+   "id": "2a89ac094a248c56",
+   "company_id": "lysa",
+   "field": "contact",
+   "value": "Email: info@bluesciencepark.se",
+   "status": "fact",
+   "source_page_id": "a9b8ff2f076cc639",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.017568Z",
    "needs_review": false
   },
   {
@@ -200,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404052Z",
+   "updated_at": "2026-11-14T01:53:45.019029Z",
    "needs_review": false
   },
   {
@@ -219,26 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404067Z",
-   "needs_review": false
-  },
-  {
-   "id": "175933828ab7fd46",
-   "company_id": "lysa",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404076Z",
+   "updated_at": "2026-11-14T01:53:45.019044Z",
    "needs_review": false
   },
   {
@@ -257,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404084Z",
+   "updated_at": "2026-11-14T01:53:45.019052Z",
    "needs_review": false
   },
   {
@@ -276,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404088Z",
+   "updated_at": "2026-11-14T01:53:45.019057Z",
    "needs_review": false
   },
   {
@@ -295,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404091Z",
+   "updated_at": "2026-11-14T01:53:45.019060Z",
    "needs_review": false
   },
   {
@@ -314,7 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404099Z",
+   "updated_at": "2026-11-14T01:53:45.019063Z",
    "needs_review": false
   },
   {
@@ -333,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404102Z",
+   "updated_at": "2026-11-14T01:53:45.019067Z",
    "needs_review": false
   },
   {
@@ -352,26 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404106Z",
-   "needs_review": false
-  },
-  {
-   "id": "81a5c15b99c338d7",
-   "company_id": "lysa",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404109Z",
+   "updated_at": "2026-11-14T01:53:45.019070Z",
    "needs_review": false
   },
   {
@@ -390,9 +468,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.404116Z",
+   "updated_at": "2026-11-14T01:53:45.019078Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }
