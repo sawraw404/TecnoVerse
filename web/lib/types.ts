@@ -94,8 +94,20 @@ export interface Opportunity {
   audience: string | null;
   requirements: string[];
   contact: string | null;
+  contact_details: ContactDetails | null;
   summary: string;
   simulated: boolean;
+}
+
+/** The organiser's contact route, only as the source publishes it. */
+export interface ContactDetails {
+  name: string | null;
+  role: string | null;
+  emails: string[];
+  phone: string | null;
+  url: string | null;
+  source_url: string;
+  retrieved_at: string;
 }
 
 export interface Match {

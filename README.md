@@ -54,7 +54,7 @@ Useful commands (run from `tecnoverse/`):
 |---|---|
 | `python -m agents.monitors --run` | Fetch funding (Vinnova), events and testbeds into `data/opportunities.json` |
 | `python -m agents.monitors --events` | Refresh only the Almi and Chamber of Commerce events; everything else stays |
-| `python -m agents.monitors --testbeds` | Add the contact route to the stored testbeds (no LLM; ids and judgements stay) |
+| `python -m agents.monitors --contacts` | Fill the contact details of the stored opportunities: testbeds, Vinnova calls, listed events (no LLM; ids and judgements stay) |
 | `python -m core.embed` | Embed every opportunity with the local model (run after the monitors) |
 | `python -m agents.profiler --all` | Crawl and profile every company without a profile (Gemini) |
 | `python -m agents.matcher --all` | Re-rank all opportunities for every company |
@@ -284,6 +284,7 @@ SupportContact has no foreign keys. The assistant looks it up when referring a q
 | `audience` | str / null | who it's for |
 | `requirements` | list[str] | for every opportunity type: eligibility (funding), registration or cost (events), application or access steps (testbeds). Quoted from the source and **never interpreted as confirmed eligibility** |
 | `contact` | str / null | contact route or application link for the next step |
+| `contact_details` | object / null | the same route, structured for the Contact popup: `name`, `role`, `emails`, `phone`, `url` (registration or contact page), `source_url` (where it was published), `retrieved_at`. Only as the source publishes it; null when the source names no contact |
 | `summary` | str | LLM summary |
 | `tags` | list[str] | themes, used for the staff map |
 | `embedding` | vector | text-embedding vector used for search |
@@ -426,7 +427,7 @@ Relevance is checked against offline judgements, so it shows the system behaves 
 | Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` records which. The app Profiler works live ("Re-crawl and rebuild profile"). |
 | Opportunities | 16 Vinnova funding calls, 10 events (park, NetPort, Ericsson, Almi, Chamber of Commerce), 5 testbeds; all embedded |
 | Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), public/private switch per item, priorities, correction history, rank changes |
-| Opportunities page | Top matches, Funding, Events, Testbeds and Saved tabs; why it fits, uncertain, requirements, contact, draft intro email, Save, 👍/👎, "Ask about this" |
+| Opportunities page | Top matches, Funding, Events, Testbeds and Saved tabs; why it fits, uncertain, requirements, contact, draft intro email, Save, 👍/👎, "Ask about this"; a **Contact** button opens the organiser's published name, role, email and phone (copy, email and call buttons) with the source link and date |
 | Assistant | Guardrail on every turn, answers cite opportunities with link and date, staff referrals, knows park members vs external companies. Conversations stored per company with a list and "New chat"; history is read on the server |
 | Staff view | Shared themes, 15 judged connections with their public basis items, keyword-only pairs collapsed |
 | Knowledge graph | Staff only (`/graph`). Blue Science Park, the park's focus areas and all 38 companies, coloured by focus area; members filled, external companies as dashed rings. Links: membership, focus area, collaborations stated on a company's own public page (found automatically), and the judged suggested connections. Click a company for its public facts with sources, a link for its basis. Search, area filter, link toggles, zoom and drag; a list view for keyboard and screen readers. A **3D park** switch shows the same data as a stylised virtual science park (three.js, loaded only when opened): Blue Science Park as the central island, each focus area an island, each company a building (solid = member, glass = external, taller = more links), links as arcs. Same search, filters and details panel. Staff can **ask the assistant about a company** from its details or from a search result: a chat beside the graph that uses the company's public profile, public links and judged matches (user decision; never its private items), saved to the staff conversations list. |

@@ -80,6 +80,17 @@ class ProfileItem(BaseModel):
     needs_review: bool = False
 
 
+class ContactDetails(BaseModel):
+    """The organiser's contact route for an opportunity, only as the source publishes it."""
+    name: str | None = None
+    role: str | None = None
+    emails: list[str] = []
+    phone: str | None = None
+    url: str | None = None          # registration or contact page
+    source_url: str                 # where these details were published
+    retrieved_at: datetime
+
+
 class Opportunity(BaseModel):
     id: str
     type: OpportunityType
@@ -96,6 +107,7 @@ class Opportunity(BaseModel):
     audience: str | None = None
     requirements: list[str] = []  # quoted from the source, never assessed
     contact: str | None = None
+    contact_details: ContactDetails | None = None  # structured form of `contact`, for the contact popup
     summary: str = ""
     tags: list[str] = []
     embedding: list[float] | None = None
