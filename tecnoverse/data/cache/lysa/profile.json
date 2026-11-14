@@ -282,25 +282,6 @@
    "needs_review": false
   },
   {
-   "id": "2a89ac094a248c56",
-   "company_id": "lysa",
-   "field": "contact",
-   "value": "Email: info@bluesciencepark.se",
-   "status": "fact",
-   "source_page_id": "a9b8ff2f076cc639",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:53:45.017568Z",
-   "needs_review": false
-  },
-  {
    "id": "75f216088c3c4d15",
    "company_id": "lysa",
    "field": "contact",

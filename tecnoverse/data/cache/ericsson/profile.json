@@ -320,25 +320,6 @@
    "needs_review": false
   },
   {
-   "id": "ba0cf6ebd3a264d9",
-   "company_id": "ericsson",
-   "field": "contact",
-   "value": "Email: info@bluesciencepark.se",
-   "status": "fact",
-   "source_page_id": "a0b3459139b5c1d6",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:53:44.911081Z",
-   "needs_review": false
-  },
-  {
    "id": "1b45c64a694fdf09",
    "company_id": "ericsson",
    "field": "contact",

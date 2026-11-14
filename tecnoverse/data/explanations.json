@@ -388,25 +388,5 @@
   "why": "A young design company in the incubator may fit the startup call.",
   "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
   "score": 1.0
- },
- "dosify|9d0f2b7a67649d6f": {
-  "why": "A young cleantech company may fit funding to test market potential.",
-  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
-  "score": 1.0
- },
- "dosify|cbe8694197e1f1b3": {
-  "why": "Its refill and dosing system could be tested in new international markets.",
-  "uncertain": "Eligibility not assessed: check the call text and Vinnova's rules.",
-  "score": 0.85
- },
- "parkerra|9d0f2b7a67649d6f": {
-  "why": "A young prize-winning platform fits funding to test market potential.",
-  "uncertain": "Age, size and revenue limits apply; not confirmed. Eligibility not assessed: check the call text and Vinnova's rules.",
-  "score": 1.0
- },
- "parkerra|e278ebe66b4b65b0": {
-  "why": "A local member meetup to meet regional businesses and landowner networks.",
-  "uncertain": "Event is in Karlshamn.",
-  "score": 0.85
  }
 }
