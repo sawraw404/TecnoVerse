@@ -171,6 +171,8 @@ def _next_step(o: ScoringOpp) -> str:
         parts.append(f"{DATE_LABEL.get(o.type, 'Date')}: {o.deadline.isoformat()}.")
     if o.type == "funding":
         parts.append("Check the requirements at the source before applying.")
+    if o.type == "testbed":
+        parts.append("Ask about access, availability and cost.")
     parts.append(f"Contact: {o.contact}." if o.contact else f"Details: {o.url}")
     return " ".join(parts)
 

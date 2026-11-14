@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowUp, CalendarDays, ChevronRight, CircleHelp, FlaskConical, Landmark, Mail, MapPin, Sparkles, Ticket } from "lucide-react";
+import { ContactButton } from "@/components/contact-dialog";
 import { CardActions, CopyText } from "@/components/opportunity-actions";
 import { Badge, Card, Simulated, SourceLink } from "@/components/ui";
 import { DATE_LABEL, day, keyDate } from "@/lib/format";
@@ -119,14 +120,16 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
         </div>
       </div>
 
-      {o.type === "news"
-        ? m && (
-            <div className="flex justify-end border-t border-border bg-surface-2/50 px-4 py-2 sm:px-5">
-              <CardActions opportunityId={o.id} title={o.title} vote={card.vote} saved={card.saved} />
-            </div>
-          )
-        : (m || o.requirements.length > 0 || o.contact) && (
-        <div className="flex flex-col gap-2 border-t border-border bg-surface-2/50 px-4 py-2 sm:flex-row sm:items-start sm:justify-between sm:px-5">
+      {o.type === "news" ? (
+        // trends: no organiser to contact, so only Save, votes and "Ask about this"
+        m && (
+          <div className="flex justify-end border-t border-border bg-surface-2/50 px-4 py-2 sm:px-5">
+            <CardActions opportunityId={o.id} title={o.title} vote={card.vote} saved={card.saved} />
+          </div>
+        )
+      ) : (
+      <div className="flex flex-col gap-2 border-t border-border bg-surface-2/50 px-4 py-2 sm:flex-row sm:items-start sm:justify-between sm:px-5">
+        {m || o.requirements.length > 0 || o.contact || company ? (
           <details className="min-w-0 flex-1 py-1">
             <summary className="inline-flex cursor-pointer items-center gap-1 text-[13px] font-medium text-text-2 hover:text-text">
               <ChevronRight className="chevron size-4 transition-transform" aria-hidden /> Next step
@@ -165,8 +168,14 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
               )}
             </div>
           </details>
+        ) : (
+          <span className="flex-1" />
+        )}
+        <div className="flex flex-wrap items-center gap-1">
+          <ContactButton opportunity={o} />
           {m && <CardActions opportunityId={o.id} title={o.title} vote={card.vote} saved={card.saved} />}
         </div>
+      </div>
       )}
     </Card>
   );

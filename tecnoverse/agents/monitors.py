@@ -7,6 +7,8 @@
             (Blekinge and Sydost areas). Their event pages state date, place, price and registration
             deadline in fixed fields, so these are read directly from the page, no LLM.
   testbeds  Test environments described on Blue Science Park and NetPort pages. Groq extracts them.
+            The contact route (who to ask for access) is read from the page itself or the park's
+            published contact list, no LLM.
 
 Every LLM-extracted title must appear in the page text, otherwise it is dropped. Page text goes
 to the model inside <source_data> tags as data only.
@@ -25,7 +27,7 @@ from pydantic import BaseModel
 
 from core.crawl import USER_AGENT, _robots, clean
 from core.llm import LLMError, ask
-from core.schemas import Opportunity
+from core.schemas import ContactDetails, Opportunity
 from core.store import load_opportunities, save_opportunities
 
 H = {"User-Agent": USER_AGENT}
@@ -89,6 +91,7 @@ def funding(today: date) -> list[Opportunity]:
             audience=texts.get(2) or None,
             requirements=[t for t in (texts.get(2), texts.get(3)) if t],  # quoted as published, never assessed
             contact=f"{lead['Namn'].strip()} ({lead['Roll']}): {lead['Epost']}" if lead and lead.get("Epost") else None,
+            contact_details=vinnova_contact(x, links[0]["URL"]),
             summary=texts.get(1) or x["Titel"],
         ))
     return out
@@ -143,6 +146,8 @@ Rules:
   page heading.
 - Write `what_can_be_tested`, `audience` and `how_to_access` in English.
 - `what_can_be_tested`, `audience`, `how_to_access`: one English sentence each, only from the page.
+- `how_to_access`: how a company gets access to this environment, as the page states it. Leave it empty if
+  the page does not say; a newsletter sign-up or a general site link is not access.
 - `tags`: 2 to 5 English topic words. If there are none, return an empty list."""
 
 
@@ -281,6 +286,7 @@ def listed_event(source: str, url: str, in_region: bool, today: date) -> Opportu
         id=_id(url, title, start.isoformat()), type="event", title=title, url=url, source=source,
         retrieved_at=datetime.now(timezone.utc), start_date=start, format="online" if online else "in_person",
         location=None if online else place, requirements=requirements, contact=url,
+        contact_details=ContactDetails(url=url, source_url=url, retrieved_at=datetime.now(timezone.utc)),
         summary=(meta.get("content", "").strip() if meta and meta.get("content", "").strip() else _intro(soup))[:300], tags=[])
 
 
@@ -300,8 +306,112 @@ def listed_events(today: date) -> list[Opportunity]:
     return [o for o in found if o]
 
 
+# ---------- contacts: who to ask, as the source publishes it (no LLM) ----------
+
+PARK_PEOPLE = "https://www.bluesciencepark.se/kontaktpersoner/"   # the park's published staff contact list
+PARK_TESTBEDS = "https://www.bluesciencepark.se/vara-tjanster/test-utveckling/"
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+GENERIC = ("info", "kontakt", "contact", "hello", "hej", "office", "noreply", "no-reply")  # site mailboxes
+NOT_ACCESS = ("nyhetsbrev", "newsletter", "inkorg", "inbox")  # newsletter sign-ups are not an access step
+
+
+def _now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def contact_text(d: ContactDetails) -> str:
+    """One-line form of the contact details, kept in Opportunity.contact for scoring and the assistant."""
+    who = d.name or ""
+    if who and d.role:
+        who += f" ({d.role})"
+    route = " or ".join(d.emails) or d.phone or d.url or d.source_url
+    return f"{who}: {route}" if who else route
+
+
+def park_people(html: str) -> list[dict]:
+    """People on the park's contact page: [{section, role, name, email, phone}], in page order.
+    The page lists a section heading (h4, e.g. 'Tech Concept Lab'), then per person a role (h5),
+    a name (h2), a mailto link and a tel link."""
+    soup = BeautifulSoup(html, "html.parser")
+    people, section, role, name = [], "", "", ""
+    for el in soup.find_all(["h2", "h4", "h5", "a"]):
+        text = re.sub(r"\s+", " ", el.get_text(" ", strip=True))
+        if el.name == "a":
+            href = re.sub(r"\s+", " ", el.get("href", "").replace("\xa0", " ")).strip()
+            if href.startswith("mailto:") and name and section:
+                people.append({"section": section, "role": role, "name": name, "email": href[7:].strip(), "phone": None})
+                role = name = ""
+            elif href.startswith("tel:") and people and not name and people[-1]["phone"] is None:
+                people[-1]["phone"] = href[4:].strip()  # the tel link right after that person's email
+        elif el.name == "h4":
+            section, role, name = text, "", ""
+        elif el.name == "h5":
+            role = text
+        elif el.name == "h2":
+            if text.lower().startswith("hitta hit"):  # end of the staff list
+                break
+            name = text
+    return people
+
+
+def _park_people() -> list[dict]:
+    robots = _robots(PARK_PEOPLE)
+    if robots and not robots.can_fetch(USER_AGENT, PARK_PEOPLE):
+        return []
+    try:
+        r = requests.get(PARK_PEOPLE, headers=H, timeout=30)
+        r.raise_for_status()
+    except requests.RequestException:
+        return []
+    if "charset" not in r.headers.get("content-type", "").lower():
+        r.encoding = r.apparent_encoding
+    return park_people(r.text)
+
+
+def testbed_contact(title: str, summary: str, url: str, text: str, people: list[dict]) -> ContactDetails:
+    """The published contact route for a testbed, with where it was published. In order:
+    1. named addresses in the testbed page's own text (not site mailboxes such as info@),
+    2. for park testbeds, the park's contact list: the person listed first under the facility's own
+       section, else the person whose role names the facility, else a person the page itself names,
+    3. the park's 'test and development' page."""
+    named = [e for e in dict.fromkeys(EMAIL.findall(text)) if e.split("@")[0].lower() not in GENERIC]
+    if named:
+        return ContactDetails(emails=named[:2], source_url=url, retrieved_at=_now())
+    if "bluesciencepark.se" not in url:
+        return ContactDetails(url=url, source_url=url, retrieved_at=_now())
+    t, about = _norm(title), _norm(f"{title} {summary}")
+    pick = (next((p for p in people if _norm(p["section"]) in about or t == _norm(p["section"])), None)
+            or next((p for p in people if len(t) > 4 and t in _norm(p["role"])), None)
+            or next((p for p in people if p["name"] in text), None))
+    if pick:
+        role = f"{pick['role']}, {pick['section']}" if pick["role"] else pick["section"]
+        return ContactDetails(name=pick["name"], role=role, emails=[pick["email"]], phone=pick["phone"],
+                              source_url=PARK_PEOPLE, retrieved_at=_now())
+    return ContactDetails(name="Blue Science Park, test and development", url=PARK_TESTBEDS,
+                          source_url=PARK_TESTBEDS, retrieved_at=_now())
+
+
+def vinnova_contact(x: dict, url: str) -> ContactDetails | None:
+    """The call's lead contact from Vinnova's open data (the person in charge, else the first listed)."""
+    contacts = x.get("KontaktLista") or []
+    lead = next((k for k in contacts if "ansvarig" in (k.get("Roll") or "").lower()), contacts[0] if contacts else None)
+    if not lead or not (lead.get("Epost") or lead.get("Telefon")):
+        return None
+    name = re.sub(r"\s+", " ", lead.get("Namn") or "").strip()
+    phone = re.sub(r"^46\b", "+46", (lead.get("Telefon") or "").strip())  # the API drops the + of +46
+    return ContactDetails(name=name if " " in name else None,  # skip labels such as "Gruppnummer"
+                          role=(lead.get("Roll") or "").strip() or None,
+                          emails=[lead["Epost"].strip()] if lead.get("Epost") else [],
+                          phone=phone or None, source_url=url, retrieved_at=_now())
+
+
+def _access(steps: list[str]) -> list[str]:
+    return [s for s in steps if s and not any(w in s.lower() for w in NOT_ACCESS)]
+
+
 def testbeds() -> list[Opportunity]:
     out = []
+    people = _park_people()
     for url in TESTBED_PAGES:
         page = _get(url)
         if not page:
@@ -321,12 +431,44 @@ def testbeds() -> list[Opportunity]:
                     continue
                 tb.title = heading  # the model paraphrased the name: fall back to the page's own heading
             source = "bsp" if "bluesciencepark" in url else "netport"
+            details = testbed_contact(tb.title, tb.what_can_be_tested, url, text, people)
             out.append(Opportunity(
                 id=_id(url, tb.title), type="testbed", title=tb.title, url=url, source=source,
-                retrieved_at=datetime.now(timezone.utc), location=tb.location, audience=tb.audience,
-                requirements=[tb.how_to_access] if tb.how_to_access else [],
+                retrieved_at=_now(), location=tb.location, audience=tb.audience,
+                requirements=_access([tb.how_to_access or ""]),
+                contact=contact_text(details), contact_details=details,
                 summary=tb.what_can_be_tested, tags=tb.tags[:5]))
     return out
+
+
+def refresh_contacts(today: date | None = None) -> list[Opportunity]:
+    """Fill the contact details of the stored opportunities, without an LLM: testbeds from their page or
+    the park's contact list, funding from Vinnova's open data, listed events from their own page.
+    Ids, summaries and embeddings stay, so the match judgements still apply."""
+    today = today or date.today()
+    opps = load_opportunities()
+    people = _park_people()
+    rounds = {}
+    try:
+        for x in requests.get(VINNOVA + f"{today.year - 2}-01-01", headers=H, timeout=120).json():
+            rounds[_id("vinnova", x["Diarienummer"])] = x
+    except (requests.RequestException, ValueError):
+        print("funding: Vinnova API unavailable, funding contacts unchanged")
+    pages = {}
+    for o in opps:
+        if o.type == "testbed":
+            if o.url not in pages:
+                page = _get(o.url)
+                pages[o.url] = _body(*page) if page else ""
+            o.requirements = _access(o.requirements)
+            o.contact_details = testbed_contact(o.title, o.summary, o.url, pages[o.url], people)
+            o.contact = contact_text(o.contact_details)
+        elif o.type == "funding" and o.id in rounds:
+            o.contact_details = vinnova_contact(rounds[o.id], o.url) or o.contact_details
+        elif o.source in ("almi_events", "chamber_events"):
+            o.contact_details = ContactDetails(url=o.url, source_url=o.url, retrieved_at=o.retrieved_at)
+    save_opportunities(opps)
+    return opps
 
 
 def run(today: date | None = None) -> list[Opportunity]:
@@ -357,8 +499,37 @@ if __name__ == "__main__":
     m = DATUM.search("Datum / Tid 3 februari 2027 09:00 - 14:00")
     assert m and MONTHS[m.group(2)[:3]] == 2 and m.group(3) == "2027"
     assert _field("Plats", "Plats: The Pot - Karlskrona Anmäl dig") == "The Pot - Karlskrona"
+    html = ("<h2>Vi som jobbar här</h2><h4>Marine Technology Center of Sweden</h4><h5>Innovationsledare</h5>"
+            "<h2>Ada Lab</h2><a href='mailto:ada@mtc.se'>m</a><a href='tel:0708 70 54 04'>t</a>"
+            "<h4>Tech Concept Lab</h4><h5>Projektledare</h5>"
+            "<h2>Bo Test</h2><a href='mailto:bo@park.se'>m</a><h5>Projektledare, AI Factory Blekinge</h5>"
+            "<h2>Cy Ai</h2><a href='mailto:cy@park.se'>m</a><h2>Hitta hit</h2><a href='mailto:x@park.se'>m</a>")
+    ppl = park_people(html)
+    assert [p["email"] for p in ppl] == ["ada@mtc.se", "bo@park.se", "cy@park.se"]
+    assert [p["phone"] for p in ppl] == ["0708 70 54 04", None, None]
+    park = "https://www.bluesciencepark.se/x/"
+    tcl = testbed_contact("Tech Concept Lab", "", park, "info@bluesciencepark.se", ppl)
+    assert tcl.emails == ["bo@park.se"] and tcl.name == "Bo Test" and tcl.source_url == PARK_PEOPLE
+    assert testbed_contact("AI Factory Blekinge", "", park, "", ppl).emails == ["cy@park.se"]
+    mtc = testbed_contact("Ny miljö", "marine tests", park, "says Ada Lab, head of MTC", ppl)
+    assert mtc.emails == ["ada@mtc.se"] and mtc.phone == "0708 70 54 04"
+    net = testbed_contact("Lab", "", "https://netport.se/x", "Kontakta anna@netport.se or info@netport.se", ppl)
+    assert net.emails == ["anna@netport.se"] and net.source_url == "https://netport.se/x" and contact_text(net) == "anna@netport.se"
+    assert testbed_contact("Unknown", "", park, "", ppl).url == PARK_TESTBEDS
+    assert contact_text(tcl) == "Bo Test (Projektledare, Tech Concept Lab): bo@park.se"
+    lead = vinnova_contact({"KontaktLista": [{"Namn": "Gruppnummer ", "Telefon": "08-473 3190", "Epost": "g@v.se", "Roll": ""},
+                                              {"Namn": "Eva Ek", "Telefon": "08-1", "Epost": "e@v.se", "Roll": "Utlysningsansvarig"}]}, "u")
+    assert lead.name == "Eva Ek" and lead.phone == "08-1" and lead.emails == ["e@v.se"]
+    assert vinnova_contact({"KontaktLista": [{"Namn": "Kim  Ek", "Telefon": "46 8 473 3150", "Epost": "k@v.se", "Roll": ""}]},
+                           "u").model_dump(include={"name", "phone"}) == {"name": "Kim Ek", "phone": "+46 8 473 3150"}
+    assert vinnova_contact({"KontaktLista": [{"Namn": "Gruppnummer", "Telefon": "08-4", "Epost": "", "Roll": ""}]}, "u").name is None
+    assert _access(["Sign up for our newsletter!", "Contact the park."]) == ["Contact the park."]
     print("ok")
     import sys
+    if "--contacts" in sys.argv:
+        for o in refresh_contacts():
+            d = o.contact_details
+            print(o.type, "|", o.title[:40], "|", d and (d.name, d.emails, d.phone, d.url))
     if "--events" in sys.argv:
         for o in refresh_listed_events():
             print(o.start_date, o.source, o.format, "|", o.location, "|", o.title[:70])
