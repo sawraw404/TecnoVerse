@@ -113,7 +113,7 @@ tecnoverse/
     matcher.py           # scoring + judged re-rank, feedback
     editor.py            # confirm, correct, remove, add, priorities
     assistant.py         # chat + guardrail
-    mapper.py            # staff view: judged connections, public items only
+    mapper.py            # staff view: judged connections and the knowledge graph, public items only
   core/
     llm.py               # Gemini + Groq per agent, JSON schema output
     schemas.py           # Pydantic models (the data schema below)
@@ -125,6 +125,7 @@ tecnoverse/
     opportunities.json   # collected by the monitors
     explanations.json    # match judgements ("why it fits", written by Claude Code)
     connections.json     # staff view judgements (written by Claude Code)
+    focus_areas.json     # park focus area per company, colours the knowledge graph (editable)
     support_contacts.json# Blue Science Park contact routes
     cache/<company>/     # profile.json (committed); pages.json, HTML, matches, feedback (gitignored)
   eval/
@@ -423,6 +424,7 @@ Relevance is checked against offline judgements, so it shows the system behaves 
 | Dashboard | Top matches, Funding, Events and Testbeds tabs; why it fits, uncertain, requirements, contact, draft intro email, 👍/👎 |
 | Chat | Guardrail on every turn, answers cite opportunities with link and date, staff referrals |
 | Staff view | Shared themes, 15 judged connections with their public basis items, keyword-only pairs collapsed |
+| Knowledge graph | Staff only (`/graph`). Blue Science Park, the park's focus areas and all 38 companies, coloured by focus area; members filled, external companies as dashed rings. Links: membership, focus area, collaborations stated on a company's own public page (found automatically), and the judged suggested connections. Click a company for its public facts with sources, a link for its basis. Search, area filter, link toggles, zoom and drag; a list view for keyboard and screen readers. A **3D park** switch shows the same data as a stylised virtual science park (three.js, loaded only when opened): Blue Science Park as the central island, each focus area an island, each company a building (solid = member, glass = external, taller = more links), links as arcs. Same search, filters and details panel. |
 | Storage | JSON files; Firebase layer (project `tecnoverse-2868a`) is being built by a teammate |
 
 Not built: Saved tab and "Ask about this" on cards, a public/private toggle for existing items, persisted ChatLog (chats live in the browser session), embeddings, the weekly re-crawl.

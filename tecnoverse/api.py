@@ -16,7 +16,7 @@ from pydantic import BaseModel
 
 from agents import editor
 from agents.assistant import reply
-from agents.mapper import live
+from agents.mapper import Graph, knowledge_graph, live
 from agents.matcher import give_feedback, load_explanations, match_company
 from agents.profiler import profile_company
 from agents.scoring import rank_connections
@@ -369,3 +369,9 @@ def staff_view(user: User = Depends(staff)) -> StaffView:
         connections=views,
         other_pairs=[Pair(name_a=s.names[0], name_b=s.names[1], score=round(s.breakdown["final"], 2),
                           basis=s.connection.basis[0].text if s.connection.basis else "") for s in rest])
+
+
+@app.get("/graph")
+def graph(user: User = Depends(staff)) -> Graph:
+    """Knowledge graph of park members and external companies. Staff only, public items only."""
+    return knowledge_graph({c.id: load_profile(c.id) for c in load_companies()})

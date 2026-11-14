@@ -169,3 +169,38 @@ export interface StaffView {
   connections: ConnectionView[];
   other_pairs: { name_a: string; name_b: string; score: number; basis: string }[];
 }
+
+export type EdgeKind = "member" | "area" | "collaboration" | "suggestion";
+
+export interface GraphFact {
+  field: string;
+  value: string;
+  url: string | null;
+  retrieved_at: string | null;
+}
+
+export interface GraphNode {
+  id: string;
+  kind: "park" | "area" | "company";
+  label: string;
+  area: string | null;
+  member: boolean;
+  website: string | null;
+  facts: GraphFact[];
+}
+
+export interface GraphEdge {
+  source: string;
+  target: string;
+  kind: EdgeKind;
+  label: string;
+  why: string;
+  uncertain: string;
+  evidence: GraphFact[];
+}
+
+export interface Graph {
+  areas: Record<string, string>;
+  nodes: GraphNode[];
+  edges: GraphEdge[];
+}
