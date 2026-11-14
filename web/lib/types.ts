@@ -115,6 +115,8 @@ export interface Card {
   why: string | null;
   uncertain: string | null;
   judged: boolean;
+  saved: boolean;
+  vote: "up" | "down" | null;
 }
 
 export interface Dashboard {
@@ -123,6 +125,7 @@ export interface Dashboard {
   top: Card[];
   by_type: Record<PriorityType, Card[]>;
   rest: Record<PriorityType, Card[]>;
+  saved: Card[];
 }
 
 export interface Source {
@@ -133,9 +136,26 @@ export interface Source {
 }
 
 export interface ChatReply {
+  session_id: string;
   label: GuardLabel;
   text: string;
   sources: Source[];
+}
+
+export interface ChatMessage {
+  role: "user" | "assistant";
+  text: string;
+  label: GuardLabel | null;
+  sources: Source[];
+  created_at: string;
+}
+
+export interface ChatSession {
+  session_id: string;
+  title: string;
+  opportunity: Source | null;
+  updated_at: string;
+  messages: number;
 }
 
 export interface Evidence {

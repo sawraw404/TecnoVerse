@@ -1,5 +1,5 @@
 import { ArrowDown, ArrowUp, CalendarDays, ChevronRight, CircleHelp, FlaskConical, Landmark, Mail, MapPin, Sparkles, Ticket } from "lucide-react";
-import { CopyText, FeedbackButtons } from "@/components/opportunity-actions";
+import { CardActions, CopyText } from "@/components/opportunity-actions";
 import { Badge, Card, Simulated, SourceLink } from "@/components/ui";
 import { DATE_LABEL, day, keyDate } from "@/lib/format";
 import type { Card as CardData, Company } from "@/lib/types";
@@ -139,7 +139,7 @@ export function OpportunityCard({ card, company }: { card: CardData; company: Co
               )}
             </div>
           </details>
-          {m && <FeedbackButtons opportunityId={o.id} title={o.title} />}
+          {m && <CardActions opportunityId={o.id} title={o.title} vote={card.vote} saved={card.saved} />}
         </div>
       )}
     </Card>

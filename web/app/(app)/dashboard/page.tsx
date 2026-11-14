@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ChevronRight, Inbox, Info } from "lucide-react";
+import { Bookmark, ChevronRight, Inbox, Info } from "lucide-react";
 import { OpportunityCard } from "@/components/opportunity-card";
 import { Badge, EmptyState, Notice, PageHeader, SectionTitle, SourceLink } from "@/components/ui";
 import { api } from "@/lib/api";
@@ -10,7 +10,7 @@ import type { Dashboard, PriorityType } from "@/lib/types";
 export const metadata: Metadata = { title: "Opportunities" };
 
 const TYPES: PriorityType[] = ["funding", "event", "testbed"];
-type Tab = "top" | PriorityType;
+type Tab = "top" | "saved" | PriorityType;
 
 export default async function DashboardPage({ searchParams }: PageProps<"/dashboard">) {
   const { tab: raw } = await searchParams;
@@ -51,13 +51,14 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
     );
   }
 
-  const tab: Tab = raw === "funding" || raw === "event" || raw === "testbed" ? raw : "top";
+  const tab: Tab = raw === "funding" || raw === "event" || raw === "testbed" || raw === "saved" ? raw : "top";
   const tabs: { id: Tab; label: string; count: number }[] = [
     { id: "top", label: "Top matches", count: d.top.length },
     ...TYPES.map((t) => ({ id: t as Tab, label: TYPE_LABEL[t], count: d.by_type[t].length })),
+    { id: "saved", label: "Saved", count: d.saved.length },
   ];
-  const cards = tab === "top" ? d.top : d.by_type[tab];
-  const rest = tab === "top" ? [] : d.rest[tab];
+  const cards = tab === "top" ? d.top : tab === "saved" ? d.saved : d.by_type[tab];
+  const rest = tab === "top" || tab === "saved" ? [] : d.rest[tab];
 
   return (
     <>
@@ -104,15 +105,22 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
       </nav>
 
       {tab === "top" && <p className="mb-4 text-sm text-text-2">Best matches across all types. Your priorities on the Profile page move types up here.</p>}
+      {tab === "saved" && <p className="mb-4 text-sm text-text-2">Opportunities your company saved for later, in ranking order. Saving does not change the ranking.</p>}
 
       <div className="space-y-3">
         {cards.map((c) => (
           <OpportunityCard key={c.opportunity.id} card={c} company={d.company} />
         ))}
         {cards.length === 0 && (
-          <EmptyState icon={<Inbox />} title={`No ${tab === "top" ? "opportunities" : TYPE_LABEL[tab as PriorityType].toLowerCase()} judged relevant right now`}>
-            {rest.length > 0 ? "The ones below only share keywords with your profile." : "Check back after the next monitor run."}
-          </EmptyState>
+          tab === "saved" ? (
+            <EmptyState icon={<Bookmark />} title="Nothing saved yet">
+              Use Save on any opportunity to keep it here.
+            </EmptyState>
+          ) : (
+            <EmptyState icon={<Inbox />} title={`No ${tab === "top" ? "opportunities" : TYPE_LABEL[tab as PriorityType].toLowerCase()} judged relevant right now`}>
+              {rest.length > 0 ? "The ones below only share keywords with your profile." : "Check back after the next monitor run."}
+            </EmptyState>
+          )
         )}
       </div>
 
@@ -122,7 +130,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
             <ChevronRight className="chevron size-4 text-text-3 transition-transform" aria-hidden />
             Other {TYPE_LABEL[tab as PriorityType].toLowerCase()}
             <span className="text-xs text-text-3">{rest.length}</span>
-            <span className="ml-auto hidden text-xs font-normal text-text-3 sm:inline">keyword overlap only, not judged relevant</span>
+            <span className="ml-auto hidden text-xs font-normal text-text-3 sm:inline">similar by text only, not judged relevant</span>
           </summary>
           <ul className="divide-y divide-border border-t border-border">
             {rest.map(({ opportunity: o }) => (

@@ -1,9 +1,11 @@
 """Matcher agent: rank every opportunity for one company and store the result.
 
-Two steps, as in the plan (retrieve, then re-rank):
-  1. agents/scoring.py scores every opportunity (deterministic, keyword topic fit, priorities,
-     region, evidence, feedback). Re-ranking after an edit or a thumbs up/down is instant.
-  2. A relevance judgement re-ranks: final = (1 - RERANK_WEIGHT) * score + RERANK_WEIGHT * judgement.
+Three steps (retrieve, score, re-rank):
+  1. Semantic similarity: a local embedding model (core/embed.py) compares the company profile with
+     every opportunity; stored as Match.vector_score. Skipped if the model is not installed.
+  2. agents/scoring.py scores every opportunity (deterministic, keyword topic fit, priorities,
+     region, evidence, feedback). base = (1 - SEMANTIC_WEIGHT) * score + SEMANTIC_WEIGHT * similarity.
+  3. A relevance judgement re-ranks: final = (1 - RERANK_WEIGHT) * score + RERANK_WEIGHT * judgement.
      Judgements and the written "why it fits / what is uncertain" live in data/explanations.json.
      Until a live LLM writes them they were written offline in a Claude Code session (`written_by`). Pairs without a judgement get 0: judged not relevant.
 
@@ -15,11 +17,13 @@ from datetime import datetime, timezone
 from pydantic import BaseModel
 
 from agents.scoring import rank_opportunities
+from core.embed import similarities
 from core.schemas import Feedback
 from core.store import (DATA, load_companies, load_feedback, load_matches, load_opportunities,
                         load_profile, save_feedback, save_matches)
 
-RERANK_WEIGHT = 0.5  # how much the relevance judgement counts against the keyword score
+RERANK_WEIGHT = 0.5    # how much the relevance judgement counts against the score
+SEMANTIC_WEIGHT = 0.3  # how much embedding similarity counts inside the score
 
 
 class Explanation(BaseModel):
@@ -45,19 +49,36 @@ def match_company(company_id: str):
 def rank(profile, previous=()):
     """The ranking for one profile, without saving (also used by eval/quality.py)."""
     company_id = profile.company.id
-    scored = rank_opportunities(profile.company, profile.items, load_opportunities(),
+    opportunities = load_opportunities()
+    scored = rank_opportunities(profile.company, profile.items, opportunities,
                                 load_feedback(company_id), list(previous))
     judged = load_explanations()
+    sims = similarities(profile.items, opportunities)  # None without the local model: keyword score only
     for s in scored:
         m = s.match
         m.llm_score = judged[(company_id, m.opportunity_id)].score if (company_id, m.opportunity_id) in judged else 0.0
         # feedback is added after blending so a thumbs up/down keeps its full weight
         base = m.final_score - m.feedback_adj
+        if sims and m.opportunity_id in sims:
+            m.vector_score = round(sims[m.opportunity_id], 4)
+            base = (1 - SEMANTIC_WEIGHT) * base + SEMANTIC_WEIGHT * max(0.0, m.vector_score)
         m.final_score = round((1 - RERANK_WEIGHT) * base + RERANK_WEIGHT * m.llm_score + m.feedback_adj, 4)
     matches = sorted((s.match for s in scored), key=lambda m: -m.final_score)
     for n, m in enumerate(matches, 1):
         m.rank = n
     return matches
+
+
+def feedback_state(company_id: str) -> tuple[set[str], dict[str, str]]:
+    """(saved opportunity ids, latest thumbs vote per opportunity) from the company's feedback."""
+    saved: dict[str, bool] = {}
+    vote: dict[str, str] = {}
+    for f in sorted(load_feedback(company_id), key=lambda f: f.created_at):
+        if f.kind in ("saved", "unsaved"):
+            saved[f.opportunity_id] = f.kind == "saved"
+        elif f.kind in ("up", "down"):
+            vote[f.opportunity_id] = f.kind
+    return {k for k, v in saved.items() if v}, vote
 
 
 def give_feedback(company_id: str, opportunity_id: str, kind: str, user_id: str):

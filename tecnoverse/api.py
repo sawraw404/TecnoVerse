@@ -7,8 +7,9 @@ X-User-Id header. The company is always derived from that user on this side, nev
 request, so a member can only read and edit its own company. The staff view is staff only and uses
 public items only. The browser never calls this API directly; only the Next server does.
 """
+import uuid
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from typing import Literal
 
 from fastapi import Depends, FastAPI, Header, HTTPException
@@ -17,12 +18,12 @@ from pydantic import BaseModel
 from agents import editor
 from agents.assistant import reply
 from agents.mapper import Graph, knowledge_graph, live
-from agents.matcher import give_feedback, load_explanations, match_company
+from agents.matcher import feedback_state, give_feedback, load_explanations, match_company
 from agents.profiler import profile_company
 from agents.scoring import rank_connections
 from core.llm import LLMError
-from core.schemas import Company, Match, Opportunity, ProfileItem, User
-from core.store import load_companies, load_matches, load_opportunities, load_profile
+from core.schemas import ChatLog, Company, Match, Opportunity, ProfileItem, User
+from core.store import load_chats, load_companies, load_matches, load_opportunities, load_profile, save_chats
 
 app = FastAPI(title="TecnoVerse API")
 
@@ -176,6 +177,15 @@ def add(body: NewItem, user: User = Depends(member)) -> list[Move]:
     return _apply(user, editor.add, body.field, body.value)
 
 
+class VisibilityIn(BaseModel):
+    visibility: Literal["public", "private"]
+
+
+@app.post("/profile/items/{item_id}/visibility")
+def visibility(item_id: str, body: VisibilityIn, user: User = Depends(member)) -> list[Move]:
+    return _apply(user, editor.set_visibility, item_id, body.visibility)
+
+
 @app.put("/profile/priorities")
 def priorities(body: Priorities, user: User = Depends(member)) -> list[Move]:
     return _apply(user, editor.set_priorities, body.types)
@@ -199,6 +209,8 @@ class Card(BaseModel):
     why: str | None = None          # stored judgement: why it fits
     uncertain: str | None = None
     judged: bool = False
+    saved: bool = False
+    vote: Literal["up", "down"] | None = None
 
 
 class Dashboard(BaseModel):
@@ -207,6 +219,7 @@ class Dashboard(BaseModel):
     top: list[Card]
     by_type: dict[str, list[Card]]  # judged relevant, best first (all opportunities when not ranked)
     rest: dict[str, list[Card]]     # keyword overlap only, not judged relevant
+    saved: list[Card] = []          # saved by the company, in ranking order
 
 
 PER_TYPE = 5
@@ -226,22 +239,25 @@ def dashboard(user: User = Depends(current_user)) -> Dashboard:
     company = next(c for c in load_companies() if c.id == user.company_id)
     matches = load_matches(company.id) or match_company(company.id)
     expl = load_explanations()
+    saved, votes = feedback_state(company.id)
 
     def card(m: Match) -> Card:
         e = expl.get((company.id, m.opportunity_id))
         return Card(opportunity=opps[m.opportunity_id], match=m, why=e.why if e else None,
-                    uncertain=e.uncertain if e else None, judged=m.llm_score > 0)
+                    uncertain=e.uncertain if e else None, judged=m.llm_score > 0,
+                    saved=m.opportunity_id in saved, vote=votes.get(m.opportunity_id))
 
     cards = [card(m) for m in matches if m.opportunity_id in opps]
     return Dashboard(
         ranked=True, company=company, top=[c for c in cards if c.judged][:PER_TYPE],
         by_type={t: [c for c in cards if c.judged and c.opportunity.type == t][:PER_TYPE] for t in TYPES},
-        rest={t: [c for c in cards if not c.judged and c.opportunity.type == t] for t in TYPES})
+        rest={t: [c for c in cards if not c.judged and c.opportunity.type == t] for t in TYPES},
+        saved=[c for c in cards if c.saved])
 
 
 class FeedbackIn(BaseModel):
     opportunity_id: str
-    kind: Literal["up", "down"]
+    kind: Literal["up", "down", "saved", "unsaved"]
 
 
 @app.post("/feedback")
@@ -252,7 +268,7 @@ def feedback(body: FeedbackIn, user: User = Depends(member)) -> dict:
     return {"ok": True}
 
 
-# --- chat ----------------------------------------------------------------------------------------
+# --- chat (stored per company, private) -------------------------------------------------------
 
 class Turn(BaseModel):
     role: Literal["user", "assistant"]
@@ -261,7 +277,8 @@ class Turn(BaseModel):
 
 class ChatIn(BaseModel):
     message: str
-    history: list[Turn] = []
+    session_id: str | None = None       # None starts a new conversation
+    opportunity_id: str | None = None   # "Ask about this": the opportunity the conversation is about
 
 
 class Source(BaseModel):
@@ -272,9 +289,35 @@ class Source(BaseModel):
 
 
 class ChatOut(BaseModel):
+    session_id: str
     label: str
     text: str
     sources: list[Source]
+
+
+class Message(BaseModel):
+    role: Literal["user", "assistant"]
+    text: str
+    label: str | None
+    sources: list[Source]
+    created_at: datetime
+
+
+class Session(BaseModel):
+    session_id: str
+    title: str
+    opportunity: Source | None
+    updated_at: datetime
+    messages: int
+
+
+def _owner(user: User) -> str:
+    """Chats belong to the company; staff and visitors keep their own, under `_<user id>`."""
+    return user.company_id or f"_{user.id}"
+
+
+def _source(o: Opportunity) -> Source:
+    return Source(id=o.id, title=o.title, url=o.url, date=o.deadline or o.start_date)
 
 
 @app.post("/chat")
@@ -282,11 +325,67 @@ def chat(body: ChatIn, user: User = Depends(current_user)) -> ChatOut:
     message = body.message.strip()[:2000]
     if not message:
         raise HTTPException(422, "Empty message")
-    r = reply(message, [(t.role, t.text) for t in body.history[-12:]], user.company_id)
     opps = {o.id: o for o in load_opportunities()}
-    return ChatOut(label=r.label, text=r.text, sources=[
-        Source(id=i, title=opps[i].title, url=opps[i].url, date=opps[i].deadline or opps[i].start_date)
-        for i in r.cited if i in opps])
+    owner = _owner(user)
+    logs = load_chats(owner)
+    session = body.session_id or uuid.uuid4().hex[:12]
+    earlier = [c for c in logs if c.session_id == session]
+    if body.session_id and not earlier:
+        raise HTTPException(404, "No such conversation")
+    about = body.opportunity_id or next((c.opportunity_id for c in earlier if c.opportunity_id), None)
+    if about and about not in opps:
+        raise HTTPException(404, "No such opportunity")
+    # history comes from the stored conversation, not from the browser
+    history = [(c.role, c.text) for c in earlier][-12:]
+    asked = message
+    if about:
+        o = opps[about]
+        asked = (f"[The user opened this chat from the opportunity {o.id}: \"{o.title}\" ({o.type}, "
+                 f"{o.deadline or o.start_date or 'no date'}, {o.url}).]\n{message}")
+    r = reply(asked, history, user.company_id)
+    now = datetime.now(timezone.utc)
+    n = len(logs)
+    logs += [ChatLog(id=f"{session}-{n + 1}", company_id=user.company_id, user_id=user.id, session_id=session,
+                     opportunity_id=about, role="user", text=message, created_at=now),
+             ChatLog(id=f"{session}-{n + 2}", company_id=user.company_id, user_id=user.id, session_id=session,
+                     opportunity_id=about, role="assistant", text=r.text, guard_label=r.label,
+                     cited_ids=r.cited, created_at=now)]
+    save_chats(owner, logs)
+    return ChatOut(session_id=session, label=r.label, text=r.text,
+                   sources=[_source(opps[i]) for i in r.cited if i in opps])
+
+
+@app.get("/chats")
+def chats(user: User = Depends(current_user)) -> list[Session]:
+    opps = {o.id: o for o in load_opportunities()}
+    by: dict[str, list[ChatLog]] = defaultdict(list)
+    for c in load_chats(_owner(user)):
+        by[c.session_id].append(c)
+    out = []
+    for sid, turns in by.items():
+        first = next((t.text for t in turns if t.role == "user"), "Conversation")
+        about = next((t.opportunity_id for t in turns if t.opportunity_id), None)
+        out.append(Session(session_id=sid, title=first[:80], updated_at=max(t.created_at for t in turns),
+                           opportunity=_source(opps[about]) if about in opps else None, messages=len(turns)))
+    return sorted(out, key=lambda s: s.updated_at, reverse=True)
+
+
+@app.get("/chats/{session_id}")
+def chat_messages(session_id: str, user: User = Depends(current_user)) -> list[Message]:
+    opps = {o.id: o for o in load_opportunities()}
+    turns = [c for c in load_chats(_owner(user)) if c.session_id == session_id]
+    if not turns:
+        raise HTTPException(404, "No such conversation")
+    return [Message(role=c.role, text=c.text, label=c.guard_label, created_at=c.created_at,
+                    sources=[_source(opps[i]) for i in c.cited_ids if i in opps]) for c in turns]
+
+
+@app.get("/opportunities/{opportunity_id}")
+def opportunity(opportunity_id: str, user: User = Depends(current_user)) -> Source:
+    o = next((o for o in load_opportunities() if o.id == opportunity_id), None)
+    if not o:
+        raise HTTPException(404, "No such opportunity")
+    return _source(o)
 
 
 # --- staff view ----------------------------------------------------------------------------------

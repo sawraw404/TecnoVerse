@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 
 from agents import editor
@@ -57,8 +59,9 @@ if company.is_member:
 if company.found_via:
     left.caption(f"Region: {company.region}. Listed in: "
                  + ", ".join(f"[{f.directory}]({f.url}) ({f.retrieved})" for f in company.found_via))
+# The live re-crawl is hidden for now; set RECRAWL_ENABLED=1 to show it again (the code stays).
 label = "Re-crawl and rebuild profile" if profile else "Generate baseline profile"
-if right.button(label, type="primary" if not profile else "secondary"):
+if os.environ.get("RECRAWL_ENABLED") == "1" and right.button(label, type="primary" if not profile else "secondary"):
     with st.spinner(f"Reading up to 8 pages of {company.website} and extracting a profile..."):
         try:
             profile = profile_company(company)
