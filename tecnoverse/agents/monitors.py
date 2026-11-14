@@ -3,12 +3,16 @@
   funding   Vinnova open data API: open, public application rounds. Structured data, no LLM.
   events    Blue Science Park event pages, NetPort event posts, Ericsson's events page.
             Groq reads each page and lists the events on it; only upcoming ones are kept.
+  listed    Events listed by Almi (Blekinge or online) and the South Sweden Chamber of Commerce
+            (Blekinge and Sydost areas). Their event pages state date, place, price and registration
+            deadline in fixed fields, so these are read directly from the page, no LLM.
   testbeds  Test environments described on Blue Science Park and NetPort pages. Groq extracts them.
 
 Every LLM-extracted title must appear in the page text, otherwise it is dropped. Page text goes
 to the model inside <source_data> tags as data only.
 
-Run: cd tecnoverse && python -m agents.monitors
+Run: cd tecnoverse && python -m agents.monitors --run      (everything)
+     cd tecnoverse && python -m agents.monitors --events   (only refresh the listed events)
 """
 import hashlib
 import re
@@ -16,12 +20,13 @@ from datetime import date, datetime, timezone
 from typing import Literal
 
 import requests
+from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
 from core.crawl import USER_AGENT, _robots, clean
 from core.llm import LLMError, ask
 from core.schemas import Opportunity
-from core.store import save_opportunities
+from core.store import load_opportunities, save_opportunities
 
 H = {"User-Agent": USER_AGENT}
 VINNOVA = "https://data.vinnova.se/api/ansokningsomgangar/"
@@ -202,6 +207,99 @@ def events(today: date) -> list[Opportunity]:
     return out
 
 
+# ---------- listed events (Almi, South Sweden Chamber of Commerce): structured pages, no LLM ----------
+
+MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "maj": 5, "may": 5, "jun": 6, "jul": 7, "aug": 8,
+          "sep": 9, "okt": 10, "oct": 10, "nov": 11, "dec": 12}
+# "Datum: ons 18 nov. 2026" (Almi) and "Datum / Tid 3 februari 2027 09:00" (Chamber)
+DATUM = re.compile(r"Datum\s*(?:/\s*Tid)?\s*:?\s*(?:[a-zåäö]{2,4}\.?\s+)?(\d{1,2})\s+([a-zåäö]+)\.?\s+(20\d\d)", re.I)
+BLEKINGE = ("blekinge", "karlskrona", "ronneby", "karlshamn", "sölvesborg", "olofström", "the pot",
+            "marine technology center", "netport", "telecom city")
+ONLINE = ("digital", "online", "webinar", "webbinar", "teams", "zoom")
+CHAMBER_API = "https://handelskammaren.com/wp-json/wp/v2/"
+
+
+def _listed_urls() -> list[tuple[str, str, bool]]:
+    """(source, url, in_region): Almi's calendar pages from its sitemap, the Chamber's Blekinge and Sydost events."""
+    out = []
+    try:
+        xml = requests.get("https://www.almi.se/sitemap.xml", headers=H, timeout=30).text
+        out += [("almi_events", u, False) for u in re.findall(r"<loc>([^<]+)</loc>", xml)
+                if "/kalender/" in u and u.rstrip("/").count("/") > 4]
+    except requests.RequestException:
+        pass
+    for area in ("blekinge", "sydost"):
+        try:
+            a = requests.get(f"{CHAMBER_API}rps-event-area?slug={area}", headers=H, timeout=30).json()
+            evs = requests.get(f"{CHAMBER_API}rps-event?rps-event-area={a[0]['id']}&per_page=50", headers=H, timeout=30).json()
+            out += [("chamber_events", e["link"], True) for e in evs]
+        except (requests.RequestException, ValueError, KeyError, IndexError):
+            continue
+    return list(dict.fromkeys(out))
+
+
+def _field(label: str, text: str, n: int = 80) -> str | None:
+    m = re.search(rf"{label}\s*:?\s*(.{{2,{n}}}?)(?=\s+(?:Datum|Plats|Pris|Sista anmälan|Anmäl|Arrangör|Målgrupp)\b|$)", text)
+    return m.group(1).strip(" ,") if m else None
+
+
+def listed_event(source: str, url: str, in_region: bool, today: date) -> Opportunity | None:
+    robots = _robots(url)
+    if robots and not robots.can_fetch(USER_AGENT, url):
+        return None
+    try:
+        r = requests.get(url, headers=H, timeout=30)
+        r.raise_for_status()
+    except requests.RequestException:
+        return None
+    soup = BeautifulSoup(r.text, "html.parser")
+    # the page's own title (og:title or <title>, minus the site name); some sites put a slogan in <h1>
+    og = soup.find("meta", attrs={"property": "og:title"})
+    raw = og.get("content", "") if og else (soup.title.get_text() if soup.title else "")
+    raw = re.split(r"\s+[–|-]\s+(?:Handelskammaren|Almi)\b", raw)[0] or (soup.find("h1").get_text(" ") if soup.find("h1") else "")
+    title = re.sub(r"\s+", " ", raw.replace("&nbsp;", " ").replace("&nbsp", " ").replace("\xa0", " ")).strip()
+    text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True).replace(" ", " "))
+    m = DATUM.search(text)
+    month = MONTHS.get(m.group(2)[:3].lower()) if m else None
+    if not (title and m and month):
+        return None
+    try:
+        start = date(int(m.group(3)), month, int(m.group(1)))
+    except ValueError:
+        return None
+    block = text[m.start(): m.start() + 600]
+    place = _field("Plats", block, 120)
+    where = f"{place or ''} {title}".lower()
+    online = any(w in where for w in ONLINE)
+    if start < today or not (in_region or online or any(w in where for w in BLEKINGE)):
+        return None
+    meta = soup.find("meta", attrs={"name": "description"}) or soup.find("meta", attrs={"property": "og:description"})
+    requirements = [f"{label}: {v}" for label, v in (("Pris", _field("Pris", block)),
+                                                      ("Sista anmälan", _field("Sista anmälan", block)))
+                    if v]  # quoted from the page, not assessed
+    return Opportunity(
+        id=_id(url, title, start.isoformat()), type="event", title=title, url=url, source=source,
+        retrieved_at=datetime.now(timezone.utc), start_date=start, format="online" if online else "in_person",
+        location=None if online else place, requirements=requirements, contact=url,
+        summary=(meta.get("content", "").strip() if meta and meta.get("content", "").strip() else _intro(soup))[:300], tags=[])
+
+
+def _intro(soup: BeautifulSoup) -> str:
+    """First real paragraph of the page (skips cookie notices and short lines)."""
+    for p in soup.find_all("p"):
+        t = re.sub(r"\s+", " ", p.get_text(" ", strip=True).replace("\xa0", " "))
+        if len(t) > 80 and "cookie" not in t.lower():
+            return t
+    return ""
+
+
+def listed_events(today: date) -> list[Opportunity]:
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(6) as ex:
+        found = ex.map(lambda t: listed_event(*t, today), _listed_urls())
+    return [o for o in found if o]
+
+
 def testbeds() -> list[Opportunity]:
     out = []
     for url in TESTBED_PAGES:
@@ -233,10 +331,19 @@ def testbeds() -> list[Opportunity]:
 
 def run(today: date | None = None) -> list[Opportunity]:
     today = today or date.today()
-    opps = funding(today) + events(today) + testbeds()
+    opps = funding(today) + events(today) + listed_events(today) + testbeds()
     unique = list({o.id: o for o in opps}.values())
     save_opportunities(unique)
     return unique
+
+
+def refresh_listed_events(today: date | None = None) -> list[Opportunity]:
+    """Replace only the Almi and Chamber events in data/opportunities.json; everything else stays as it is."""
+    today = today or date.today()
+    keep = [o for o in load_opportunities() if o.source not in ("almi_events", "chamber_events")]
+    new = listed_events(today)
+    save_opportunities(keep + new)
+    return new
 
 
 if __name__ == "__main__":
@@ -244,8 +351,16 @@ if __name__ == "__main__":
     assert _id("a", "b") == _id("a", "b") != _id("a", "c")
     assert DATE.search("Nov 17, 2026 09:00") and DATE.search("den 8 december") and DATE.search("2026-12-08")
     assert _body("Testbed X - Park", "Testbed X - Park Menu Menu Testbed X Real content") == "Testbed X Real content"
+    m = DATUM.search("Pris: Kostnadsfritt Datum: ons 18 nov. 2026 , kl. 08.30")
+    assert m and (m.group(1), m.group(2), m.group(3)) == ("18", "nov", "2026")
+    m = DATUM.search("Datum / Tid 3 februari 2027 09:00 - 14:00")
+    assert m and MONTHS[m.group(2)[:3]] == 2 and m.group(3) == "2027"
+    assert _field("Plats", "Plats: The Pot - Karlskrona Anmäl dig") == "The Pot - Karlskrona"
     print("ok")
     import sys
+    if "--events" in sys.argv:
+        for o in refresh_listed_events():
+            print(o.start_date, o.source, o.format, "|", o.location, "|", o.title[:70])
     if "--run" in sys.argv:
         from collections import Counter
         result = run()

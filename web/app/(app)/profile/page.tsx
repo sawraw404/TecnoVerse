@@ -8,6 +8,10 @@ import type { Me, PageRef, ProfileItem, ProfileView } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Profile" };
 
+// The live re-crawl (Profiler on Gemini) is hidden for now; the code, server action and API endpoint stay.
+// Set RECRAWL_ENABLED=1 in web/.env.local to show the button again.
+const RECRAWL = process.env.RECRAWL_ENABLED === "1";
+
 const FIELD_HINT: Record<string, string> = {
   innovation: "From the company's news, blog posts and newsletters",
   possible_interest: "Inferred by the system, not confirmed by the company. Never weighted as a priority.",
@@ -93,9 +97,11 @@ export default async function ProfilePage() {
   if (!profile) {
     return (
       <>
-        <PageHeader title={company.name} actions={<RebuildButton website={company.website} first />} />
+        <PageHeader title={company.name} actions={RECRAWL ? <RebuildButton website={company.website} first /> : undefined} />
         <EmptyState icon={<FileSearch />} title="No profile yet">
-          Generate a baseline profile from the company&apos;s public website. Every item will carry its source and date.
+          {RECRAWL
+            ? "Generate a baseline profile from the company's public website. Every item will carry its source and date."
+            : "This company has no profile yet."}
         </EmptyState>
       </>
     );
@@ -137,7 +143,7 @@ export default async function ProfilePage() {
             )}
           </span>
         }
-        actions={<RebuildButton website={company.website} first={false} />}
+        actions={RECRAWL ? <RebuildButton website={company.website} first={false} /> : undefined}
       />
 
       <div className="space-y-6">
