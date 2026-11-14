@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.636546Z",
+   "updated_at": "2026-11-14T01:48:25.994531Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.637129Z",
+   "updated_at": "2026-11-14T01:48:25.995122Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.637736Z",
+   "updated_at": "2026-11-14T01:48:25.995670Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638220Z",
+   "updated_at": "2026-11-14T01:48:25.996207Z",
+   "needs_review": false
+  },
+  {
+   "id": "8d5d886d896e0bff",
+   "company_id": "skrappy",
+   "field": "technology",
+   "value": "White-label booking software with client portal and automatic notifications",
+   "status": "fact",
+   "source_page_id": "f959805833230d83",
+   "quote": "Vår automatiska notisfunktion garanterar att ni aldrig missar en bokning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.996739Z",
    "needs_review": false
   },
   {
@@ -132,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638226Z",
+   "updated_at": "2026-11-14T01:48:25.996744Z",
    "needs_review": false
   },
   {
@@ -151,26 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638230Z",
-   "needs_review": false
-  },
-  {
-   "id": "f267cd029ad6200c",
-   "company_id": "skrappy",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638233Z",
+   "updated_at": "2026-11-14T01:48:25.996749Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638236Z",
+   "updated_at": "2026-11-14T01:48:25.996753Z",
    "needs_review": false
   },
   {
@@ -208,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638239Z",
+   "updated_at": "2026-11-14T01:48:25.996756Z",
    "needs_review": false
   },
   {
@@ -227,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638241Z",
+   "updated_at": "2026-11-14T01:48:25.996759Z",
    "needs_review": false
   },
   {
@@ -246,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638244Z",
+   "updated_at": "2026-11-14T01:48:25.996763Z",
    "needs_review": false
   },
   {
@@ -265,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638247Z",
+   "updated_at": "2026-11-14T01:48:25.996766Z",
    "needs_review": false
   },
   {
@@ -284,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638250Z",
+   "updated_at": "2026-11-14T01:48:25.996769Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638253Z",
+   "updated_at": "2026-11-14T01:48:25.996772Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.638258Z",
+   "updated_at": "2026-11-14T01:48:25.996778Z",
    "needs_review": false
   }
  ],

@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.196667Z",
+   "updated_at": "2026-11-14T01:48:26.004259Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197007Z",
+   "updated_at": "2026-11-14T01:48:26.004523Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197232Z",
+   "updated_at": "2026-11-14T01:48:26.004774Z",
    "needs_review": false
   },
   {
@@ -103,7 +103,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197442Z",
+   "updated_at": "2026-11-14T01:48:26.005011Z",
    "needs_review": false
   },
   {
@@ -122,7 +122,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197659Z",
+   "updated_at": "2026-11-14T01:48:26.005247Z",
+   "needs_review": false
+  },
+  {
+   "id": "e1ddf383bb9372e2",
+   "company_id": "interactive-materia",
+   "field": "technology",
+   "value": "Realistic 3D avatars in Unity with XR and real-time dialogue",
+   "status": "fact",
+   "source_page_id": "786af9ee943ffa75",
+   "quote": "Realistiska 3D-avatarer för träning i samtal och bemötande, byggda i Unity med XR och realtidsdialog",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.005529Z",
+   "needs_review": false
+  },
+  {
+   "id": "42f9f2eba857dabb",
+   "company_id": "interactive-materia",
+   "field": "project",
+   "value": "Consultancy at BTH's Department of Software Engineering (2026)",
+   "status": "fact",
+   "source_page_id": "786af9ee943ffa75",
+   "quote": "Blekinge Tekniska Högskola Konsultuppdrag · 2026 Konsultuppdrag vid Institutionen för programvaruteknik",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.005813Z",
+   "needs_review": false
+  },
+  {
+   "id": "fe1693bb4253d7e8",
+   "company_id": "interactive-materia",
+   "field": "application_area",
+   "value": "AI in education and learning",
+   "status": "fact",
+   "source_page_id": "786af9ee943ffa75",
+   "quote": "Idéarbete, designval och prototyper för hur AI kan stödja undervisning och lärande",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.006062Z",
    "needs_review": false
   },
   {
@@ -141,26 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197842Z",
-   "needs_review": false
-  },
-  {
-   "id": "cbdce5e6a1753568",
-   "company_id": "interactive-materia",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197850Z",
+   "updated_at": "2026-11-14T01:48:26.006381Z",
    "needs_review": false
   },
   {
@@ -179,26 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197855Z",
-   "needs_review": false
-  },
-  {
-   "id": "e6cf18bd80e04351",
-   "company_id": "interactive-materia",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197859Z",
+   "updated_at": "2026-11-14T01:48:26.006388Z",
    "needs_review": false
   },
   {
@@ -217,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197862Z",
+   "updated_at": "2026-11-14T01:48:26.006392Z",
    "needs_review": false
   },
   {
@@ -236,26 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197866Z",
-   "needs_review": false
-  },
-  {
-   "id": "0ba970b818af95f3",
-   "company_id": "interactive-materia",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197869Z",
+   "updated_at": "2026-11-14T01:48:26.006396Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197872Z",
+   "updated_at": "2026-11-14T01:48:26.006399Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197875Z",
+   "updated_at": "2026-11-14T01:48:26.006402Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197881Z",
+   "updated_at": "2026-11-14T01:48:26.006409Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.197885Z",
+   "updated_at": "2026-11-14T01:48:26.006414Z",
    "needs_review": false
   }
  ],

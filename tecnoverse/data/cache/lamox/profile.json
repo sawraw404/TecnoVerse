@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.191388Z",
+   "updated_at": "2026-11-14T01:48:25.998467Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.191881Z",
+   "updated_at": "2026-11-14T01:48:25.998999Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.192362Z",
+   "updated_at": "2026-11-14T01:48:25.999510Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.192502Z",
+   "updated_at": "2026-11-14T01:48:25.999652Z",
    "needs_review": false
   },
   {
@@ -152,7 +152,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193012Z",
+   "updated_at": "2026-11-14T01:48:26.000176Z",
+   "needs_review": false
+  },
+  {
+   "id": "d4238a02cd2a9706",
+   "company_id": "lamox",
+   "field": "project",
+   "value": "Customer case: Spetsamåla Gård, organic farm making biochar",
+   "status": "fact",
+   "source_page_id": "f8c3995d952ff1d5",
+   "quote": "Spetsamåla Gård är ett familjeägt lantbruk med fokus på ekologisk odling och egen tillverkning av biokol",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.000754Z",
    "needs_review": false
   },
   {
@@ -171,7 +190,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193311Z",
+   "updated_at": "2026-11-14T01:48:26.001542Z",
    "needs_review": false
   },
   {
@@ -190,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193593Z",
+   "updated_at": "2026-11-14T01:48:26.002330Z",
    "needs_review": false
   },
   {
@@ -209,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193603Z",
+   "updated_at": "2026-11-14T01:48:26.002347Z",
    "needs_review": false
   },
   {
@@ -228,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193610Z",
+   "updated_at": "2026-11-14T01:48:26.002356Z",
    "needs_review": false
   },
   {
@@ -247,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193616Z",
+   "updated_at": "2026-11-14T01:48:26.002362Z",
    "needs_review": false
   },
   {
@@ -266,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193621Z",
+   "updated_at": "2026-11-14T01:48:26.002366Z",
    "needs_review": false
   },
   {
@@ -285,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193628Z",
+   "updated_at": "2026-11-14T01:48:26.002370Z",
    "needs_review": false
   },
   {
@@ -304,26 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193633Z",
-   "needs_review": false
-  },
-  {
-   "id": "340745102fa202c5",
-   "company_id": "lamox",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193637Z",
+   "updated_at": "2026-11-14T01:48:26.002374Z",
    "needs_review": false
   },
   {
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193640Z",
+   "updated_at": "2026-11-14T01:48:26.002378Z",
    "needs_review": false
   },
   {
@@ -361,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193644Z",
+   "updated_at": "2026-11-14T01:48:26.002382Z",
    "needs_review": false
   },
   {
@@ -380,7 +380,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193653Z",
+   "updated_at": "2026-11-14T01:48:26.002390Z",
    "needs_review": false
   },
   {
@@ -399,7 +399,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.193659Z",
+   "updated_at": "2026-11-14T01:48:26.002397Z",
    "needs_review": false
   }
  ],

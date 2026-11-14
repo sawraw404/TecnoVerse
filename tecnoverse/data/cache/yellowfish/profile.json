@@ -51,7 +51,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.618683Z",
+   "updated_at": "2026-11-14T01:48:25.968001Z",
    "needs_review": false
   },
   {
@@ -70,7 +70,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.619641Z",
+   "updated_at": "2026-11-14T01:48:25.969083Z",
    "needs_review": false
   },
   {
@@ -89,7 +89,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.620639Z",
+   "updated_at": "2026-11-14T01:48:25.970081Z",
    "needs_review": false
   },
   {
@@ -108,7 +108,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.621491Z",
+   "updated_at": "2026-11-14T01:48:25.970973Z",
    "needs_review": false
   },
   {
@@ -127,7 +127,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.622275Z",
+   "updated_at": "2026-11-14T01:48:25.971862Z",
    "needs_review": false
   },
   {
@@ -146,7 +146,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.623055Z",
+   "updated_at": "2026-11-14T01:48:25.972794Z",
+   "needs_review": false
+  },
+  {
+   "id": "7e70d0c6e3a4b0e5",
+   "company_id": "yellowfish",
+   "field": "technology",
+   "value": "IoT telematics",
+   "status": "fact",
+   "source_page_id": "97d9af4646332a8d",
+   "quote": "We have been doing IoT since before IoT was a thing",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.973823Z",
+   "needs_review": false
+  },
+  {
+   "id": "ad719738d2d3a6e3",
+   "company_id": "yellowfish",
+   "field": "customer_group",
+   "value": "Rail freight operators across Europe",
+   "status": "fact",
+   "source_page_id": "97d9af4646332a8d",
+   "quote": "Our customers can be found all over Europe and our services are in operation all over the world",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.974970Z",
    "needs_review": false
   },
   {
@@ -165,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.623568Z",
+   "updated_at": "2026-11-14T01:48:25.976285Z",
    "needs_review": false
   },
   {
@@ -184,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624068Z",
+   "updated_at": "2026-11-14T01:48:25.977483Z",
    "needs_review": false
   },
   {
@@ -203,26 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624073Z",
-   "needs_review": false
-  },
-  {
-   "id": "a460489e60e3fd81",
-   "company_id": "yellowfish",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624079Z",
+   "updated_at": "2026-11-14T01:48:25.977493Z",
    "needs_review": false
   },
   {
@@ -241,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624083Z",
+   "updated_at": "2026-11-14T01:48:25.977498Z",
    "needs_review": false
   },
   {
@@ -260,26 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624086Z",
-   "needs_review": false
-  },
-  {
-   "id": "b7daf71eb925f32e",
-   "company_id": "yellowfish",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624089Z",
+   "updated_at": "2026-11-14T01:48:25.977502Z",
    "needs_review": false
   },
   {
@@ -298,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624093Z",
+   "updated_at": "2026-11-14T01:48:25.977506Z",
    "needs_review": false
   },
   {
@@ -317,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624096Z",
+   "updated_at": "2026-11-14T01:48:25.977509Z",
    "needs_review": false
   },
   {
@@ -336,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624101Z",
+   "updated_at": "2026-11-14T01:48:25.977517Z",
    "needs_review": false
   },
   {
@@ -355,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.624105Z",
+   "updated_at": "2026-11-14T01:48:25.977522Z",
    "needs_review": false
   }
  ],

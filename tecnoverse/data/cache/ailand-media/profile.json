@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.199581Z",
+   "updated_at": "2026-11-14T01:48:26.008477Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.199809Z",
+   "updated_at": "2026-11-14T01:48:26.008741Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200017Z",
+   "updated_at": "2026-11-14T01:48:26.008979Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200716Z",
+   "updated_at": "2026-11-14T01:48:26.009744Z",
+   "needs_review": false
+  },
+  {
+   "id": "328725aafb9e521c",
+   "company_id": "ailand-media",
+   "field": "technology",
+   "value": "AI reads the customer's website and writes content",
+   "status": "fact",
+   "source_page_id": "60f0619e58a77f88",
+   "quote": "Ailandmedia uses AI to read your website and write content",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.010478Z",
    "needs_review": false
   },
   {
@@ -132,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200725Z",
+   "updated_at": "2026-11-14T01:48:26.010486Z",
    "needs_review": false
   },
   {
@@ -151,26 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200730Z",
-   "needs_review": false
-  },
-  {
-   "id": "453c903d47835d8c",
-   "company_id": "ailand-media",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200733Z",
+   "updated_at": "2026-11-14T01:48:26.010492Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200737Z",
+   "updated_at": "2026-11-14T01:48:26.010496Z",
    "needs_review": false
   },
   {
@@ -208,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200740Z",
+   "updated_at": "2026-11-14T01:48:26.010499Z",
    "needs_review": false
   },
   {
@@ -227,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200743Z",
+   "updated_at": "2026-11-14T01:48:26.010502Z",
    "needs_review": false
   },
   {
@@ -246,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200745Z",
+   "updated_at": "2026-11-14T01:48:26.010505Z",
    "needs_review": false
   },
   {
@@ -265,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200748Z",
+   "updated_at": "2026-11-14T01:48:26.010509Z",
    "needs_review": false
   },
   {
@@ -284,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200751Z",
+   "updated_at": "2026-11-14T01:48:26.010512Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200754Z",
+   "updated_at": "2026-11-14T01:48:26.010515Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200759Z",
+   "updated_at": "2026-11-14T01:48:26.010521Z",
    "needs_review": false
   },
   {
@@ -341,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.200764Z",
+   "updated_at": "2026-11-14T01:48:26.010526Z",
    "needs_review": false
   }
  ],

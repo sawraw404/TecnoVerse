@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.616349Z",
+   "updated_at": "2026-11-14T01:48:25.964154Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.616569Z",
+   "updated_at": "2026-11-14T01:48:25.964362Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.616770Z",
+   "updated_at": "2026-11-14T01:48:25.964552Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.616964Z",
+   "updated_at": "2026-11-14T01:48:25.964731Z",
+   "needs_review": false
+  },
+  {
+   "id": "17aafd4b5811e0da",
+   "company_id": "wip",
+   "field": "geography",
+   "value": "Campus Gräsvik, Karlskrona, next to BTH",
+   "status": "fact",
+   "source_page_id": "4d1d7bce6915b6fe",
+   "quote": "Våra lokaler ligger centralt belägna i Karlskrona, i direkt anslutning till Blekinge Tekniska Högskola BTH",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.964873Z",
+   "needs_review": false
+  },
+  {
+   "id": "1e398753f1cc4f78",
+   "company_id": "wip",
+   "field": "collaboration",
+   "value": "Close cooperation with BTH in recruitment",
+   "status": "fact",
+   "source_page_id": "4d1d7bce6915b6fe",
+   "quote": "Vi har ett tätt samarbete med högskolan i vår nyrekrytering",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.964996Z",
+   "needs_review": false
+  },
+  {
+   "id": "eca5208b4363f1c4",
+   "company_id": "wip",
+   "field": "technology",
+   "value": "DynApp: one platform for all company systems",
+   "status": "fact",
+   "source_page_id": "848b7d9fbefa20f4",
+   "quote": "En plattform för alla system Vår produkt DynApp",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.965171Z",
    "needs_review": false
   },
   {
@@ -132,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617095Z",
+   "updated_at": "2026-11-14T01:48:25.965443Z",
    "needs_review": false
   },
   {
@@ -151,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617107Z",
+   "updated_at": "2026-11-14T01:48:25.965463Z",
    "needs_review": false
   },
   {
@@ -170,26 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617113Z",
-   "needs_review": false
-  },
-  {
-   "id": "f4559afd3c803de3",
-   "company_id": "wip",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617118Z",
+   "updated_at": "2026-11-14T01:48:25.965469Z",
    "needs_review": false
   },
   {
@@ -208,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617122Z",
+   "updated_at": "2026-11-14T01:48:25.965473Z",
    "needs_review": false
   },
   {
@@ -227,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617125Z",
+   "updated_at": "2026-11-14T01:48:25.965477Z",
    "needs_review": false
   },
   {
@@ -246,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617129Z",
+   "updated_at": "2026-11-14T01:48:25.965480Z",
    "needs_review": false
   },
   {
@@ -265,26 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617132Z",
-   "needs_review": false
-  },
-  {
-   "id": "eff4d9a3df7a4db4",
-   "company_id": "wip",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617136Z",
+   "updated_at": "2026-11-14T01:48:25.965483Z",
    "needs_review": false
   },
   {
@@ -303,26 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617139Z",
-   "needs_review": false
-  },
-  {
-   "id": "0a606d4503a07b4c",
-   "company_id": "wip",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617143Z",
+   "updated_at": "2026-11-14T01:48:25.965487Z",
    "needs_review": false
   },
   {
@@ -341,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617146Z",
+   "updated_at": "2026-11-14T01:48:25.965490Z",
    "needs_review": false
   },
   {
@@ -360,7 +360,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.617152Z",
+   "updated_at": "2026-11-14T01:48:25.965499Z",
    "needs_review": false
   }
  ],

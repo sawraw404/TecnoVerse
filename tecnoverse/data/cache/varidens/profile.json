@@ -146,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.148631Z",
+   "updated_at": "2026-11-14T01:48:25.955479Z",
    "needs_review": false
   },
   {
@@ -165,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.149154Z",
+   "updated_at": "2026-11-14T01:48:25.956057Z",
    "needs_review": false
   },
   {
@@ -184,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.149832Z",
+   "updated_at": "2026-11-14T01:48:25.956604Z",
    "needs_review": false
   },
   {
@@ -203,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.150958Z",
+   "updated_at": "2026-11-14T01:48:25.957137Z",
    "needs_review": false
   },
   {
@@ -222,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.151181Z",
+   "updated_at": "2026-11-14T01:48:25.957366Z",
    "needs_review": false
   },
   {
@@ -241,7 +241,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152243Z",
+   "updated_at": "2026-11-14T01:48:25.958600Z",
+   "needs_review": false
+  },
+  {
+   "id": "ff1cbb1d32b09985",
+   "company_id": "varidens",
+   "field": "technology",
+   "value": "AI assistant (MCP) with human decision; AI review for inspection planning",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "AI where it makes a difference We use AI where it saves real time",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.959138Z",
+   "needs_review": false
+  },
+  {
+   "id": "0355743062dbaeaf",
+   "company_id": "varidens",
+   "field": "geography",
+   "value": "Sweden, Norway and Finland",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "For energy experts, building inspectors and other regulated roles in Sweden, Norway and Finland",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.959681Z",
+   "needs_review": false
+  },
+  {
+   "id": "f1f46a4970c5fedd",
+   "company_id": "varidens",
+   "field": "expertise",
+   "value": "ISO/IEC 17024, 17065 and 17020 certification schemes",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "Inspection ISO/IEC 17024 Personnel certification ISO/IEC 17065 Product certification ISO/IEC 17020 Inspection",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.960217Z",
+   "needs_review": false
+  },
+  {
+   "id": "5fee3f8fcb0fb425",
+   "company_id": "varidens",
+   "field": "collaboration",
+   "value": "Invoicing integrations with Fortnox and Unit4 Agresso",
+   "status": "fact",
+   "source_page_id": "aad63ddfbbcf90c3",
+   "quote": "Invoicing tied to the case, with Fortnox or Unit4 Agresso",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.960753Z",
    "needs_review": false
   },
   {
@@ -260,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152540Z",
+   "updated_at": "2026-11-14T01:48:25.961442Z",
    "needs_review": false
   },
   {
@@ -279,45 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152829Z",
-   "needs_review": false
-  },
-  {
-   "id": "7c9724d41b97c1d2",
-   "company_id": "varidens",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152835Z",
-   "needs_review": false
-  },
-  {
-   "id": "d8ea671ea8daea02",
-   "company_id": "varidens",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152840Z",
+   "updated_at": "2026-11-14T01:48:25.962141Z",
    "needs_review": false
   },
   {
@@ -336,26 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152843Z",
-   "needs_review": false
-  },
-  {
-   "id": "a5e7c453f044896a",
-   "company_id": "varidens",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152847Z",
+   "updated_at": "2026-11-14T01:48:25.962149Z",
    "needs_review": false
   },
   {
@@ -374,26 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152850Z",
-   "needs_review": false
-  },
-  {
-   "id": "51c4a71a3e80ffa0",
-   "company_id": "varidens",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152853Z",
+   "updated_at": "2026-11-14T01:48:25.962155Z",
    "needs_review": false
   },
   {
@@ -412,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152856Z",
+   "updated_at": "2026-11-14T01:48:25.962159Z",
    "needs_review": false
   },
   {
@@ -431,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.152862Z",
+   "updated_at": "2026-11-14T01:48:25.962168Z",
    "needs_review": false
   }
  ],

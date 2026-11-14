@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:27.639989Z",
+  "last_crawled_at": "2026-11-14T01:28:17.827392Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:37:27.639989Z",
    "text": "",
    "content_hash": "45b2f22a8b988061"
+  },
+  {
+   "id": "8c92322175be42db",
+   "company_id": "advania",
+   "url": "https://www.mynewsdesk.com/se/advania/contact_people/133961",
+   "source_type": "news",
+   "title": "Advania | Kontakt",
+   "retrieved_at": "2026-11-14T01:28:17.827392Z",
+   "text": "",
+   "content_hash": "e7551e0c49a4c077"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.209843Z",
+   "updated_at": "2026-11-14T01:48:26.013085Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.212181Z",
+   "updated_at": "2026-11-14T01:48:26.015963Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.213739Z",
+   "updated_at": "2026-11-14T01:48:26.017815Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.214410Z",
+   "updated_at": "2026-11-14T01:48:26.018589Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.214809Z",
+   "updated_at": "2026-11-14T01:48:26.019049Z",
+   "needs_review": false
+  },
+  {
+   "id": "d33be686d5044829",
+   "company_id": "advania",
+   "field": "technology",
+   "value": "Sovereign and Trusted AI",
+   "status": "fact",
+   "source_page_id": "1c35051940502ed5",
+   "quote": "Vad är Sovereign och Trusted AI?",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.020856Z",
+   "needs_review": false
+  },
+  {
+   "id": "f34d43c716eb3013",
+   "company_id": "advania",
+   "field": "project",
+   "value": "Playbook on governing and scaling AI with control",
+   "status": "fact",
+   "source_page_id": "1c35051940502ed5",
+   "quote": "I playbooken Fyra vägval som avgör om AI lyckas får du konkreta råd för att styra och skala AI med kontroll",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:26.022753Z",
    "needs_review": false
   },
   {
@@ -211,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.217889Z",
+   "updated_at": "2026-11-14T01:48:26.030377Z",
    "needs_review": false
   },
   {
@@ -230,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221033Z",
+   "updated_at": "2026-11-14T01:48:26.042641Z",
    "needs_review": false
   },
   {
@@ -249,26 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221063Z",
-   "needs_review": false
-  },
-  {
-   "id": "021856658c18797b",
-   "company_id": "advania",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221073Z",
+   "updated_at": "2026-11-14T01:48:26.042736Z",
    "needs_review": false
   },
   {
@@ -287,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221079Z",
+   "updated_at": "2026-11-14T01:48:26.042760Z",
    "needs_review": false
   },
   {
@@ -306,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221084Z",
+   "updated_at": "2026-11-14T01:48:26.042769Z",
    "needs_review": false
   },
   {
@@ -325,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221088Z",
+   "updated_at": "2026-11-14T01:48:26.042776Z",
    "needs_review": false
   },
   {
@@ -344,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221092Z",
+   "updated_at": "2026-11-14T01:48:26.042782Z",
    "needs_review": false
   },
   {
@@ -363,26 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221096Z",
-   "needs_review": false
-  },
-  {
-   "id": "17e7f1b1224c211e",
-   "company_id": "advania",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221100Z",
+   "updated_at": "2026-11-14T01:48:26.042789Z",
    "needs_review": false
   },
   {
@@ -401,7 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221103Z",
+   "updated_at": "2026-11-14T01:48:26.042795Z",
    "needs_review": false
   },
   {
@@ -420,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221107Z",
+   "updated_at": "2026-11-14T01:48:26.042802Z",
    "needs_review": false
   },
   {
@@ -439,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221115Z",
+   "updated_at": "2026-11-14T01:48:26.042821Z",
    "needs_review": false
   },
   {
@@ -448,7 +458,7 @@
    "field": "possible_interest",
    "value": "Cybersecurity events",
    "status": "inferred",
-   "source_page_id": "9094a0687789c1b0",
+   "source_page_id": "1c35051940502ed5",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It sells cybersecurity services.",
@@ -458,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.221121Z",
+   "updated_at": "2026-11-14T01:48:26.042831Z",
    "needs_review": false
   }
  ],

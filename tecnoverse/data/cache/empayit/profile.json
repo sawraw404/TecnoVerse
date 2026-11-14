@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.627238Z",
+   "updated_at": "2026-11-14T01:48:25.979325Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.627706Z",
+   "updated_at": "2026-11-14T01:48:25.979720Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628137Z",
+   "updated_at": "2026-11-14T01:48:25.980102Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628184Z",
+   "updated_at": "2026-11-14T01:48:25.980158Z",
+   "needs_review": false
+  },
+  {
+   "id": "a639584cc7deca55",
+   "company_id": "empayit",
+   "field": "offering",
+   "value": "Retail mobile payments, mobile vouchers and loyalty cards, digital wallet",
+   "status": "fact",
+   "source_page_id": "6d558101dcbf720b",
+   "quote": "Mobile vouchers, coupons and loyalty cards",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.980625Z",
+   "needs_review": false
+  },
+  {
+   "id": "35cd1179cb995164",
+   "company_id": "empayit",
+   "field": "market",
+   "value": "Emerging markets, promoting financial inclusion",
+   "status": "fact",
+   "source_page_id": "6d558101dcbf720b",
+   "quote": "We partner with the best minds in emerging markets to roll out mobile payment solutions",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.981129Z",
+   "needs_review": false
+  },
+  {
+   "id": "96be17f90045dd58",
+   "company_id": "empayit",
+   "field": "customer_group",
+   "value": "Merchants",
+   "status": "fact",
+   "source_page_id": "6d558101dcbf720b",
+   "quote": "We integrate the payment methods chosen by our clients (merchants)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.981524Z",
    "needs_review": false
   },
   {
@@ -152,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628196Z",
+   "updated_at": "2026-11-14T01:48:25.981540Z",
    "needs_review": false
   },
   {
@@ -171,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628202Z",
+   "updated_at": "2026-11-14T01:48:25.981547Z",
    "needs_review": false
   },
   {
@@ -190,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628206Z",
+   "updated_at": "2026-11-14T01:48:25.981551Z",
    "needs_review": false
   },
   {
@@ -209,45 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628210Z",
-   "needs_review": false
-  },
-  {
-   "id": "74d33d14648cedca",
-   "company_id": "empayit",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628212Z",
-   "needs_review": false
-  },
-  {
-   "id": "d6631e0587645eaf",
-   "company_id": "empayit",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628215Z",
+   "updated_at": "2026-11-14T01:48:25.981555Z",
    "needs_review": false
   },
   {
@@ -266,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628218Z",
+   "updated_at": "2026-11-14T01:48:25.981558Z",
    "needs_review": false
   },
   {
@@ -285,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628221Z",
+   "updated_at": "2026-11-14T01:48:25.981561Z",
    "needs_review": false
   },
   {
@@ -304,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628224Z",
+   "updated_at": "2026-11-14T01:48:25.981564Z",
    "needs_review": false
   },
   {
@@ -323,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628226Z",
+   "updated_at": "2026-11-14T01:48:25.981567Z",
    "needs_review": false
   },
   {
@@ -332,7 +351,7 @@
    "field": "possible_interest",
    "value": "Public transport digitalisation pilots",
    "status": "inferred",
-   "source_page_id": "6d558101dcbf720b",
+   "source_page_id": "379e43b6d86539d0",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its product is mobile ticketing for bus, train and tram.",
@@ -342,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.628232Z",
+   "updated_at": "2026-11-14T01:48:25.981573Z",
    "needs_review": false
   }
  ],

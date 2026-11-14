@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.449230Z",
+   "updated_at": "2026-11-14T01:48:25.983823Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.450129Z",
+   "updated_at": "2026-11-14T01:48:25.984749Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.451020Z",
+   "updated_at": "2026-11-14T01:48:25.985641Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.451842Z",
+   "updated_at": "2026-11-14T01:48:25.986521Z",
    "needs_review": false
   },
   {
@@ -152,7 +152,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.452475Z",
+   "updated_at": "2026-11-14T01:48:25.987165Z",
    "needs_review": false
   },
   {
@@ -171,7 +171,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.453073Z",
+   "updated_at": "2026-11-14T01:48:25.987860Z",
+   "needs_review": false
+  },
+  {
+   "id": "1f8fd1cc53cfd052",
+   "company_id": "pavesight",
+   "field": "project",
+   "value": "Field evaluation in Bollnäs with Svevia and Trafikverket",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "Bollnäs Field Evaluation with Svevia & Trafikverket",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.988541Z",
+   "needs_review": false
+  },
+  {
+   "id": "c96a5120ebc5e69e",
+   "company_id": "pavesight",
+   "field": "collaboration",
+   "value": "Svevia and the Swedish Transport Administration",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "involving leading infrastructure maintenance contractor Svevia and the Swedish Transport Administration",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.989236Z",
+   "needs_review": false
+  },
+  {
+   "id": "6dd3202344d3b598",
+   "company_id": "pavesight",
+   "field": "application_area",
+   "value": "Sensors on municipal utility fleets, e.g. waste and public service vehicles",
+   "status": "fact",
+   "source_page_id": "aa41f25b41615c0c",
+   "quote": "onto municipal utility fleets, including waste management and public service vehicles",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:25.989925Z",
    "needs_review": false
   },
   {
@@ -190,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.453597Z",
+   "updated_at": "2026-11-14T01:48:25.991157Z",
    "needs_review": false
   },
   {
@@ -209,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454110Z",
+   "updated_at": "2026-11-14T01:48:25.992345Z",
    "needs_review": false
   },
   {
@@ -228,26 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454121Z",
-   "needs_review": false
-  },
-  {
-   "id": "31dea81f804419ed",
-   "company_id": "pavesight",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454126Z",
+   "updated_at": "2026-11-14T01:48:25.992353Z",
    "needs_review": false
   },
   {
@@ -266,45 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454130Z",
-   "needs_review": false
-  },
-  {
-   "id": "c51ac1ba61f5e5e4",
-   "company_id": "pavesight",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454133Z",
-   "needs_review": false
-  },
-  {
-   "id": "9f0cce2d9ae2aa3d",
-   "company_id": "pavesight",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454137Z",
+   "updated_at": "2026-11-14T01:48:25.992358Z",
    "needs_review": false
   },
   {
@@ -323,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454140Z",
+   "updated_at": "2026-11-14T01:48:25.992362Z",
    "needs_review": false
   },
   {
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454148Z",
+   "updated_at": "2026-11-14T01:48:25.992369Z",
    "needs_review": false
   },
   {
@@ -361,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.454153Z",
+   "updated_at": "2026-11-14T01:48:25.992374Z",
    "needs_review": false
   }
  ],
