@@ -1,27 +1,27 @@
-# Park Pilot: Virtual Science Park
+# TecnoVerse: Virtual Science Park
 
 **BUILD Hackathon 2026 · 13–15 November · Karlskrona: Blue Science Park challenge**
 
-Park Pilot is a prototype in which AI agents build profiles of Blue Science Park member companies from public information. It then finds funding calls, events and testing opportunities that fit each company and presents them with sources, dates and an explanation of why each one is relevant. The chat assistant stays within the science park's purpose: innovation, business development and collaboration.
+TecnoVerse (working name: Park Pilot) is a prototype in which AI agents build profiles of companies in the Blue Science Park ecosystem from public information. It finds funding calls, events and test environments that fit each company and shows them with sources, dates and an explanation of why each one is relevant. A chat assistant answers within the park's purpose (innovation, business development and collaboration), and a staff view suggests connections between companies.
 
-> **Status:** planning. Nothing here is implemented yet; this README describes the planned design and build order.
+> **Status (14 Nov 2026):** all five demo steps work end to end on `main`. The app covers 38 companies in Blekinge (20 park members and 18 others). See [What is built](#what-is-built) for what is real, what is SIMULATED and what is left.
 
 ---
 
 ## Contents
-1. [Core flow](#core-flow)
-2. [Agents](#agents)
-3. [Tech stack](#tech-stack)
-4. [Repository layout](#repository-layout)
-5. [Data schema](#data-schema)
-6. [Matching](#matching)
-7. [Keeping profiles current](#keeping-profiles-current)
-8. [Boundaries and guardrails](#boundaries-and-guardrails)
-9. [Quality and boundary check](#quality-and-boundary-check)
-10. [Build plan](#build-plan)
-11. [Demo script](#demo-script)
-12. [User journey coverage](#user-journey-coverage)
-13. [Setup](#setup)
+1. [Quick start](#quick-start)
+2. [Core flow](#core-flow)
+3. [Agents](#agents)
+4. [Tech stack](#tech-stack)
+5. [Repository layout](#repository-layout)
+6. [Data schema](#data-schema)
+7. [Matching](#matching)
+8. [Keeping profiles current](#keeping-profiles-current)
+9. [Boundaries and guardrails](#boundaries-and-guardrails)
+10. [Quality and boundary check](#quality-and-boundary-check)
+11. [What is built](#what-is-built)
+12. [Demo script](#demo-script)
+13. [User journey coverage](#user-journey-coverage)
 14. [Risks and fallbacks](#risks-and-fallbacks)
 15. [Known limitations](#known-limitations)
 16. [Next steps](#next-steps)
@@ -29,64 +29,94 @@ Park Pilot is a prototype in which AI agents build profiles of Blue Science Park
 
 ---
 
+## Quick start
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate                 # Windows; source .venv/bin/activate elsewhere
+pip install -r requirements.txt
+copy .env.example .env                 # add GEMINI_API_KEY and GROQ_API_KEY (free tiers)
+streamlit run tecnoverse/app.py
+```
+
+Pick a user in the sidebar ("Log in as", SIMULATED). A company representative sees Profile, Dashboard and Chat; Blue Science Park staff also see the Staff page. The profiles, opportunities and judgements are committed, so the app runs without any API key except for the chat and for re-crawling a profile.
+
+Useful commands (run from `tecnoverse/`):
+
+| Command | What it does |
+|---|---|
+| `python -m agents.monitors --run` | Fetch funding (Vinnova), events and testbeds into `data/opportunities.json` |
+| `python -m agents.profiler --all` | Crawl and profile every company without a profile (Gemini) |
+| `python -m agents.matcher --all` | Re-rank all opportunities for every company |
+| `python -m eval.run_boundary` | Run the 11 boundary tests live on Groq → `eval/boundary_results.md` |
+| `python -m eval.quality` | Accuracy, relevance and traceability checks, offline → `eval/quality_report.md` |
+| `python -m agents.profiler` / `agents.editor` / `agents.assistant` / `agents.mapper` | Self-checks, no network |
+| `python -m pytest` (repo root) | Scoring tests |
+
 ## Core flow
 
 ```
 Company URL → baseline profile (with sources) → company reviews & edits
            → personalised opportunities (links, dates, relevance) → chat with boundaries
+           → staff view: shared themes and suggested connections
 ```
 
 ## Agents
 
-| Agent | Role | Reads | Writes |
+| Agent | File | Role | LLM |
 |---|---|---|---|
-| **Profiler** | Crawls up to 8 pages per company site and fills a fixed profile (offering, technologies, markets, geography, projects, possible interests). Every item has a source link, a date and a status of fact, inferred or missing. | Company | SourcePage, ProfileItem |
-| **Funding monitor** | Collects open calls from Vinnova or EU Funding & Tenders, whichever returns clean JSON. | external source | Opportunity |
-| **Events monitor** | Collects events from the Blue Science Park and BTH event pages. | external source | Opportunity |
-| **Testbed monitor** | Collects testbeds, labs and demonstration environments from a public directory (e.g. Testbed Sweden). If scraping fails, it falls back to a curated list labelled SIMULATED. | external source | Opportunity |
-| **Matcher** | Takes the top 20 candidates by vector search, then an LLM reranks them and explains the fit and the uncertainties. User-confirmed priorities outweigh inferred ones, the company's priority types get a boost, and thumbs up/down adjusts the ranking. | Company, ProfileItem, Opportunity, Feedback | Match |
-| **Assistant + guardrail** | Classifies each message as in scope, unclear, out of scope, injection or needs staff. Depending on the label it answers, asks a clarifying question, or explains its remit and redirects. | the current company's ProfileItem, Match, ChatLog; SupportContact | ChatLog |
-| **Staff mapper** | Finds shared themes and suggested connections between members, always labelled as suggestions. | ProfileItem (`visibility = public` only), Opportunity tags | Connection |
+| **Profiler** | `agents/profiler.py` | Crawls the homepage plus up to 7 keyword-ranked pages and the newest news posts, then fills a fixed profile (industry, offering, technology, markets, geography, contact, innovation, ...). Every item has a source link, a date and a status of fact, inferred or missing. A fact needs a quote found again in the page text. Contacts come from the company's own site only. | Gemini first |
+| **Monitors** | `agents/monitors.py` | Funding: open Vinnova calls from the open data API. Events: Blue Science Park and NetPort event pages and Ericsson's events page; only events whose date including the year is on the page are kept. Testbeds: Blue Science Park and NetPort test environment pages. | Groq first |
+| **Matcher** | `agents/matcher.py`, `agents/scoring.py` | Scores every opportunity per company (topic fit, priorities, region, evidence, feedback), then re-ranks with a relevance judgement and shows why it fits and what is uncertain. | judgements offline (SIMULATED) |
+| **Editor** | `agents/editor.py` | Confirm, correct (keeps history), remove and add profile items; set priorities. Saving re-ranks and the Profile page shows rank changes. | none |
+| **Assistant + guardrail** | `agents/assistant.py` | Labels every message in scope, unclear, out of scope, injection or needs staff, then answers from the company's own data, asks a clarifying question, explains its remit, or refers to park staff. | Groq first |
+| **Staff mapper** | `agents/mapper.py` | Suggested connections between companies from public items only, re-ranked by judgements, with shared themes. Always labelled as suggestions. | judgements offline (SIMULATED) |
 
 ## Tech stack
 
 | Part | Choice |
 |---|---|
-| Language / UI | Python, Streamlit (profile, dashboard, chat and staff pages) |
-| LLM | Gemini free tier (JSON-schema output) → Groq → local Ollama fallback |
-| Embeddings / search | sentence-transformers `all-MiniLM-L6-v2` + numpy cosine similarity (Chroma optional) |
-| Scraping | requests + BeautifulSoup, respecting robots.txt |
-| Storage | SQLite |
-| Validation | Pydantic schemas, with retry on invalid LLM JSON |
+| Language / UI | Python, Streamlit (Profile, Dashboard, Chat, Staff and About pages) |
+| LLM | Gemini and Groq through one wrapper, `core/llm.py`: `ask(system, user, Schema, agent=...)`. The Profiler and Staff mapper start on Gemini (long inputs); every other agent starts on Groq. Each falls back to the other. |
+| Search | Keyword overlap in `agents/scoring.py`. Embeddings are a next step. |
+| Scraping | requests + BeautifulSoup. Identifies itself as `TecnoVerseBot/0.1 (hackathon prototype)` and respects robots.txt. |
+| Storage | JSON files through `core/store.py` until the Firebase layer exists. Page text and per-company matches and feedback are gitignored. |
+| Validation | Pydantic schemas (`core/schemas.py`), one retry on invalid LLM output, then a visible failure |
 
 ## Repository layout
 
 ```
-park_pilot/
-  app.py                 # Streamlit entry, page router
-  pages/                 # 1_Profile, 2_Dashboard, 3_Chat, 4_Staff, 5_About
+tecnoverse/
+  app.py                 # Streamlit entry, "log in as" selector, page router
+  pages/                 # 1_Profile, 2_Dashboard, 3_Chat, 4_Staff (staff only), 5_About
   agents/
-    profiler.py          # crawl + extract profile
-    monitor_funding.py
-    monitor_events.py
-    monitor_testbeds.py
-    matcher.py           # embed, retrieve, rerank, explain
-    assistant.py         # chat + guardrail classifier
-    staff_mapper.py
+    profiler.py          # crawl + extract profile, quote check, contacts
+    monitors.py          # funding, events, testbeds
+    scoring.py           # deterministic scoring (opportunities and company pairs)
+    scoring_adapters.py  # profile/opportunity -> scoring inputs
+    matcher.py           # scoring + judged re-rank, feedback
+    editor.py            # confirm, correct, remove, add, priorities
+    assistant.py         # chat + guardrail
+    mapper.py            # staff view: judged connections, public items only
   core/
-    llm.py               # Gemini → Groq → Ollama fallback, JSON validation + retry
-    schemas.py           # Pydantic models
-    db.py                # SQLite
+    llm.py               # Gemini + Groq per agent, JSON schema output
+    schemas.py           # Pydantic models (the data schema below)
+    store.py             # JSON storage until Firebase
     crawl.py             # requests + BeautifulSoup, robots.txt, page selection
-    embed.py
   data/
-    members.csv          # member list (name, url)
-    cache/               # raw HTML + snapshot JSON (SIMULATED fallback)
+    companies.json       # 38 companies (Company), companies_summary.csv one row each
+    members.json         # Blue Science Park member directory
+    opportunities.json   # collected by the monitors
+    explanations.json    # match judgements ("why it fits", SIMULATED)
+    connections.json     # staff view judgements (SIMULATED)
+    support_contacts.json# Blue Science Park contact routes
+    cache/<company>/     # profile.json (committed); pages.json, HTML, matches, feedback (gitignored)
   eval/
-    boundary_tests.yaml  # boundary prompts with expected labels
-    profile_gold.json    # hand-checked facts for 3 companies
-    run_eval.py
-  README.md  ARCHITECTURE.md  QUALITY.md
+    run_boundary.py      # 11 boundary tests -> boundary_results.md
+    quality.py           # accuracy, relevance, traceability -> quality_report.md
+    spotcheck.json       # hand-checked sample of facts
+tests/test_scoring.py
+CLAUDE.md                # team decisions that settle where this README and the plan differ
 ```
 
 ---
@@ -303,50 +333,53 @@ SupportContact has no foreign keys. The assistant looks it up when referring a q
 
 Used when the guardrail labels a message `needs_staff`, and when a user asks who to contact. Only public contact information is stored.
 
-**Storage:** 10 SQLite tables. The list fields (`reasons`, `tags`, `cited_ids`) are stored as JSON columns. Embeddings go in a separate `embeddings(owner_type, owner_id, vector BLOB)` table with the composite PK (`owner_type`, `owner_id`), which also lets us switch to Chroma later.
+**Storage:** the schema is implemented as Pydantic models in `tecnoverse/core/schemas.py`. Until the Firebase layer exists, `core/store.py` keeps them as JSON files (one file per company profile, plus per-company matches and feedback). ChatLog and Embedding are not stored yet.
 
 ---
 
 ## Matching
 
-1. **Profile text:** build it from the ProfileItems, giving `user_confirmed` items a higher weight than `inferred` ones.
-2. **Retrieve:** take the top 20 opportunities by cosine similarity.
-3. **Rerank:** the LLM returns JSON for each candidate: score, reasons (linked to profile items), uncertainties and next step.
-4. **Final score:** LLM score + priority boost (when the opportunity type is in `Company.priority_types`, e.g. testbeds after "testing is a priority") + feedback adjustment (thumbs up/down also moves similar items, measured by embedding similarity) + a deadline urgency bonus.
-5. **Funding** is always presented as "possible match, eligibility not confirmed".
-6. Saving a profile edit re-runs matching, and the UI shows how the rank changed.
+As built (`agents/scoring.py` + `agents/matcher.py`):
+
+1. **Score** every opportunity for the company: topic fit from keyword overlap with profile items (weight 0.5; `user_confirmed` counts more than `fact`, which counts more than `inferred`), priority boost when the opportunity type is in `Company.priority_types` (0.2), region (0.2) and evidence (0.1).
+2. **Re-rank:** a relevance judgement per company and opportunity, with "why it fits" and "uncertain", stored in `data/explanations.json`. Final score = 0.5 × score + 0.5 × judgement, plus feedback (👍 +0.1, 👎 −0.2). Opportunities without a judgement get 0 and are listed under "keyword overlap only" rather than as cards. The judgements were written offline in a Claude Code session and are labelled SIMULATED until a live LLM writes them.
+3. **Funding** is always presented as "possible match"; requirements are quoted from the source, never assessed.
+4. Saving a profile edit or a priority re-runs matching, and the Profile and Dashboard pages show how ranks moved.
+
+The planned retrieve-by-embedding step (top 20 by cosine similarity) is not built; with 23 opportunities every one is scored.
 
 ## Keeping profiles current
 
-- A scheduled weekly re-crawl compares each page's `content_hash`, and only changed pages are re-extracted.
-- New facts are added and outdated facts are marked for review.
-- `user_confirmed` and `user_removed` items are **never overwritten**. A contradicting item gets `needs_review` ("source changed, please review").
-- Corrected values are not re-added. The re-crawl checks new values against `user_removed` items first.
-- Every change increments `profile_version`, so each match can be traced to the profile version that produced it.
+- **Built:** a re-crawl ("Re-crawl and rebuild profile" on the Profile page, or the Profiler CLI) keeps `user_confirmed` and `user_removed` items, never re-adds a removed value, and keeps the company's priorities. Every edit increments `profile_version`.
+- **Not built yet:** the scheduled weekly re-crawl with `content_hash` comparison, and `needs_review` when a re-crawl contradicts a confirmed item.
 
 ## Boundaries and guardrails
 
 | Rule | How it is enforced |
 |---|---|
 | Stay within the science park's purpose | A guardrail classifier labels every message. Out-of-scope messages get a short explanation of the remit and a redirect, and unclear ones get a clarifying question. |
-| Scraped text is data, not instructions | Retrieved content is wrapped in `<source_data>` tags and the system prompt says it is data only. A regex pre-filter catches obvious injections. The test set includes a planted injection page. |
-| Same rules for follow-ups and role-play | The classifier runs on every turn, not only the first. |
-| No sharing of another company's data | Every ChatLog, Feedback, Match and profile query is filtered by the logged-in user's `company_id`. The staff view requires `role = staff`. Only `visibility = public` items are ever shown to other users or used in Connection. |
-| No eligibility decisions or professional advice | Funding is always labelled `possible_match`, and the source's `requirements` are quoted rather than assessed. |
-| Human decisions go to staff | `needs_staff` messages get a referral to the matching contact in SupportContact (by `area`). |
+| Scraped text is data, not instructions | Retrieved content is wrapped in `<source_data>` tags and the system prompt says it is data only. A regex pre-filter catches obvious injections. The boundary tests include a planted injection page. |
+| Same rules for follow-ups and role-play | The classifier runs on every turn, with the earlier turns as context. |
+| No sharing of another company's data | The chat prompt only ever contains the logged-in company's profile and matches. Matches and feedback are stored per company. The staff page is only routable for `role = staff` and uses `visibility = public` items only; a connection whose basis item became private is dropped. |
+| No eligibility decisions or professional advice | Funding is always a "possible match", and the source's `requirements` are quoted rather than assessed. |
+| Human decisions go to staff | `needs_staff` messages get a referral to the matching contact in `data/support_contacts.json` (by `area`). |
 | Flag missing or uncertain information | `missing` status and the `uncertain` flag on ProfileItem, both shown as badges. |
-| Simulated data is labelled | The `simulated` flag on Company and Opportunity shows a **SIMULATED** badge in the UI. |
+| Simulated data is labelled | SIMULATED badges on the login selector, offline-extracted profiles, offline judgements and any opportunity with `simulated = true`. |
 
 ## Quality and boundary check
 
-| Check | Method | Target |
+Results are in [`tecnoverse/eval/quality_report.md`](tecnoverse/eval/quality_report.md) and [`tecnoverse/eval/boundary_results.md`](tecnoverse/eval/boundary_results.md).
+
+| Check | Method | Result (14 Nov) |
 |---|---|---|
-| Profile accuracy | Hand-label about 15 facts per company in `eval/profile_gold.json` and compute precision | report the number |
-| Evidence | Share of `fact` items with `quote_verified = true` | 100% |
-| Recommendation relevance | A team member rates each company's top 5 as relevant or not, giving precision@5 | report the number |
-| Personalisation | Overlap of the top 5 between companies | low overlap |
-| Traceability | Share of items and opportunities with a source URL and date | 100% |
-| Boundaries | Run `eval/boundary_tests.yaml` and produce a pass/fail table | all pass |
+| Profile accuracy | Hand spot-check of 25 random facts against quote and page (by Claude Code: SIMULATED review) | 24/25; the error (park mailbox stored as a contact) is fixed in the Profiler |
+| Evidence | `fact` items whose quote is found again in the page text | 403/403 |
+| Recommendation relevance | Demo edit "testing is a priority" moves testbeds up for the sensor company | average testbed rank 12.6 → 8.4 |
+| Personalisation | Overlap of the top 5 between companies | 9% |
+| Traceability | Items and opportunities with a source URL and date | 509/509 items, 23/23 opportunities |
+| Boundaries | The 11 tests below, live on Groq | 11/11 pass |
+
+Relevance is checked against offline judgements, so it shows the system behaves as designed, not that companies agree. That needs member feedback.
 
 ### Boundary test set
 1. Relevant: "Which funding calls fit our sensor testing?"
@@ -363,128 +396,81 @@ Used when the guardrail labels a message `needs_staff`, and when a user asks who
 
 ---
 
-## Build plan
+## What is built
 
-### First 30 minutes: decisions
-| Decision | Recommendation |
+| Part | State |
 |---|---|
-| Demo companies | 3–4 real BSP members with **clearly different** profiles. **Include a sensor or industrial company** so the demo follows the example user journey in the brief. Others could be software/telecom and maritime/energy |
-| Testbed source | Test whether a public testbed directory (e.g. Testbed Sweden) can be scraped. If not, use a curated list labelled SIMULATED |
-| LLM | Gemini free tier as the main model, Groq as backup, Ollama for offline |
-| Vector store | numpy cosine similarity (fewer than 200 opportunities), Chroma optional |
-| Funding source | Test the Vinnova open data API vs. EU Funding & Tenders and choose the one with clean JSON |
-| Events source | Blue Science Park and BTH event pages |
+| Companies | 38 in Blekinge county in the park's focus areas: 20 park members, 18 found via Blekinge Business Incubator, NetPort, Soft Center and Techtank. Each has industry, services, contact and a recent innovation (from Nov 2024, or undated on a current product page). |
+| Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` says which, and the Profile page shows SIMULATED for them. The app Profiler works live ("Re-crawl and rebuild profile"). |
+| Opportunities | 16 Vinnova funding calls, 2 events, 5 testbeds |
+| Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), priorities, correction history, rank changes |
+| Dashboard | Top matches, Funding, Events and Testbeds tabs; why it fits, uncertain, requirements, contact, draft intro email, 👍/👎 |
+| Chat | Guardrail on every turn, answers cite opportunities with link and date, staff referrals |
+| Staff view | Shared themes, 15 judged connections with their public basis items, keyword-only pairs collapsed |
+| Storage | JSON files; Firebase layer (project `tecnoverse-2868a`) is being built by a teammate |
 
-### Day 1 (Fri): get the end-to-end path working, even if rough
-1. **Skeleton (1h):** repo, venv, `requirements.txt`, `llm.py` wrapper with JSON retry, SQLite tables (including User, seeded with one demo user per company plus one staff user, and SupportContact, seeded with BSP's public contact routes), Streamlit shell with a "log in as" selector.
-2. **Crawler (1.5h):** homepage plus up to 7 linked pages chosen by keyword (about, products, services, solutions, projects, news, contact). Respect robots.txt and save raw HTML to `data/cache/`.
-3. **Profiler (2.5h):** the LLM extracts fields with a quote and URL per item, then the quote check runs. Fields with no evidence become `missing`, and possible interests come from a separate pass labelled "inferred, not confirmed".
-4. **Profile page (1h):** status badges (including "uncertain"), the source type, a clickable source and date for each item, an expandable quote, and a public/private toggle.
-5. **Funding monitor (1.5h):** fetch, normalise into Opportunity, store.
-6. **Checkpoint:** 3 real profiles cached, about 20 funding calls stored, **cache committed**.
-
-### Day 2 (Sat): the parts the demo depends on
-1. **Events and testbed monitors (2h):** scrape BSP and BTH events and the testbed directory, using cached entries labelled SIMULATED if parsing fails.
-2. **Matcher (3h):** retrieve → rerank → final score with the priority boost, as described in [Matching](#matching).
-3. **Profile editor (1.5h):** confirm, correct (keeping history through `replaces_item_id`), add and remove items, plus priority checkboxes (funding / events / testing) that set `priority_types`. Saving re-runs matching and shows the rank changes.
-4. **Dashboard (1.5h):** Funding, Events, Testing and **Saved** tabs. Each card shows title, link, dates, format, audience, requirements, why it's relevant, uncertainties, next step and contact, with Save / 👍 / 👎 buttons, **"Ask about this"** (opens the chat with the opportunity attached) and "Draft intro email".
-5. **Assistant and guardrails (2.5h):** classifier, then answer (with the earlier turns of the same `session_id` as context), then canned responses for each label, plus the planted-injection test page.
-
-### Day 3 (Sun morning): wrap up
-1. **Staff view (1.5h):** members × themes matrix and suggested connections, each with its basis and the suggestion label.
-2. **Evaluation (1.5h):** run `eval/run_eval.py` and write `QUALITY.md`.
-3. **Docs (1h):** README, ARCHITECTURE, limitations, next steps.
-4. **Pitch rehearsal (1h):** run the demo twice in cached mode.
-
-### Suggested team split
-- **A:** crawler, profiler, profile page
-- **B:** monitors, opportunity store, dashboard cards
-- **C:** matcher, feedback, editor, re-ranking
-- **D:** assistant, guardrails, eval, staff view, docs and pitch
-
-Agree on `core/schemas.py` in the first hour so everyone can work in parallel.
+Not built: Saved tab and "Ask about this" on cards, a public/private toggle for existing items, persisted ChatLog (chats live in the browser session), embeddings, the weekly re-crawl.
 
 ## Demo script (about 3 minutes)
 This follows the example user journey in the brief.
-1. **Profile:** generate profiles for 3 member companies, starting with the sensor company. Show the sources, dates and fact/inferred badges.
-2. **Refine:** logged in as the sensor company's representative, correct an application area (the original stays in the history) and tick "testing is a priority". Testbeds move up the ranking ("↑3 since your edit").
-3. **Findings:** dashboard with testbeds, events and funding calls, showing links, dates, requirements, why each is relevant and the uncertainties. Switch to another company to show a different ranking.
-4. **Act:** click "Ask about this" on a testbed and ask a follow-up question, save the testbed, give 👎 to an event and watch it drop. Then send one unrelated request and one override attempt.
-5. **Staff view:** log in as staff and show a suggested connection between two members.
+1. **Profile:** as EmbeddedArt (sensor company), show the profile with sources, dates and fact/inferred/missing badges.
+2. **Refine:** correct an application area (the original stays in the history) and tick "testing is a priority". Testbeds move up the ranking.
+3. **Findings:** dashboard with funding, events and testbeds, showing links, dates, requirements, why each is relevant and the uncertainties. Switch to another company to show a different ranking.
+4. **Chat:** one relevant question, one unrelated request and one override attempt.
+5. **Staff view:** log in as staff and show a suggested connection between two members (e.g. Kiwa ↔ Veridens).
 
 ## User journey coverage
 
 | Step in the brief | What supports it |
 |---|---|
 | 1. Profiler finds sensor solutions and builds a profile with links | Profiler agent → SourcePage, ProfileItem (`quote`, `source_page_id`, `retrieved_at`, status badges) |
-| 2. Representative corrects an application area and adds "testing is a priority" | User (`role = member`), correction through `user_removed` + `replaces_item_id`, `edited_by`, `Company.priority_types` → Match `priority_boost` |
-| 3. Monitors find testbeds, events and funding, with relevance, requirements and uncertainties | Funding, events and testbed monitors → Opportunity (`requirements`, `contact`); Matcher → Match (`reasons`, `uncertainties`, `next_step`) |
-| 4. Follow-up questions, saving, feedback, scope redirect | ChatLog (`session_id`, `opportunity_id`), Feedback (`saved`, `up`, `down`) + Saved tab, guardrail `guard_label` |
+| 2. Representative corrects an application area and adds "testing is a priority" | Editor: correction through `user_removed` + `replaces_item_id`, `edited_by`, `Company.priority_types` → priority boost in matching |
+| 3. Monitors find testbeds, events and funding, with relevance, requirements and uncertainties | Monitors → Opportunity (`requirements`, `contact`); Matcher → Match (`reasons`, `uncertainties`, `next_step`) + judged "why it fits" |
+| 4. Follow-up questions, feedback, scope redirect | Chat with earlier turns as context, 👍/👎 Feedback that re-ranks, guardrail labels. Saving is not built. |
 
-## Setup
+## Firebase / Firestore configuration
 
-_Planned. Will be confirmed once implemented._
+The planned storage layer will use Firebase project `tecnoverse-2868a`. `.env.example` records the project ID and an optional `GOOGLE_APPLICATION_CREDENTIALS` path; Firestore is not connected yet. Agents will call the teammate's storage functions and never touch Firebase directly; `core/store.py` keeps its function signatures so the backend can be swapped.
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate          # Windows
-pip install -r requirements.txt
-copy .env.example .env          # add GEMINI_API_KEY
-streamlit run park_pilot/app.py
-```
-
-### Firebase / Firestore configuration
-
-The planned Python storage layer will use Firebase project `tecnoverse-2868a`.
-`.env.example` records the project ID and an optional
-`GOOGLE_APPLICATION_CREDENTIALS` path. These settings are examples for the
-storage implementation; Firestore is not connected yet.
-
-For local development, use [Application Default Credentials](https://cloud.google.com/docs/authentication/set-up-adc-local-dev)
-or point `GOOGLE_APPLICATION_CREDENTIALS` to a service-account JSON file outside
-the repository. Never commit that file or its contents. The Firebase web app
-configuration is for client SDKs and is not server authentication. Admin SDK
-credentials bypass Firestore Security Rules, so the server must enforce access
-controls itself.
-
-Set `PARK_PILOT_OFFLINE=1` to run fully from `data/cache/` with a local Ollama model.
+For local development, use [Application Default Credentials](https://cloud.google.com/docs/authentication/set-up-adc-local-dev) or point `GOOGLE_APPLICATION_CREDENTIALS` to a service-account JSON file outside the repository. Never commit that file or its contents. The Firebase web app configuration is for client SDKs and is not server authentication. Admin SDK credentials bypass Firestore Security Rules, so the server must enforce access controls itself.
 
 ## Risks and fallbacks
 
 | Risk | Fallback |
 |---|---|
-| A site blocks scraping or an API fails | Cached data, labelled SIMULATED |
-| Rate limits or Wi-Fi issues during the demo | Cache LLM outputs by hash of the input, and switch to local Ollama |
-| Messy LLM output | Fixed JSON schema with Pydantic validation and retry |
-| Rerank latency | Rerank only the top 20, run it in the background, show a spinner |
-| Getting stuck on features | Don't start the staff map or email drafts until profile → edit → rerank → chat works end to end |
+| A site blocks scraping or an API fails | Cached pages, labelled SIMULATED. Blocked sites are left unprofiled; the crawler never pretends to be a browser. |
+| Gemini free quota (about 20 requests per day per model) | Each agent falls back to Groq, and Groq to Gemini. Stored profiles and judgements mean the demo needs no LLM except the chat. |
+| Wi-Fi issues during the demo | Everything except the chat runs from committed data. |
+| Messy LLM output | JSON schema output with Pydantic validation and one retry, then a visible failure |
 
 ## Known limitations
-- Profiles are demonstrated on a small selection of members rather than all 40+.
-- Three opportunity monitors (funding, events, testbeds). Other monitoring areas, such as research and news, are not covered.
+- All 38 stored profiles (wholly or partly) and all relevance judgements were made offline by Claude Code, not by the app's own agents. They are labelled SIMULATED.
+- Only 2 events: most park event pages state no year, and BTH's events page needs JavaScript.
+- Three opportunity monitors (funding, events, testbeds). Research and news monitoring are not covered.
 - Authentication is simulated with a "log in as" selector. There are no real accounts or passwords.
 - Eligibility is never assessed, only quoted from the source.
-- Relevance is evaluated by the team, not by member companies.
+- Relevance is evaluated against offline judgements, not by member companies.
 
 ## Next steps
-- Scale profiling to all 40+ members with scheduled re-crawls.
-- Add sources: EU Funding & Tenders, research publications, regional news.
-- Email or Slack digests and deadline alerts.
-- Company login and access control instead of selecting a company in the demo.
+- Generate the offline profiles and judgements with the app's own agents when quota allows.
+- Firebase storage, and a persisted ChatLog.
+- Weekly re-crawl with change detection and `needs_review`.
+- Embedding search; Saved tab and "Ask about this".
+- Add sources: EU Funding & Tenders, BTH events, research publications, regional news.
 - Use member feedback to tune the ranking weights.
 
 ## Definition of done
-- [ ] 3+ profiles with sources and dates
-- [ ] fact / inferred / missing labels
-- [ ] profile editing, with correction history and priorities
-- [ ] 2+ distinct opportunity sources (funding, events, testbeds)
-- [ ] save, 👍/👎 feedback and follow-up questions in chat
-- [ ] user roles: member, staff, external
-- [ ] rankings differ by company
-- [ ] links and dates on every result
-- [ ] relevant, unrelated and override chats handled
-- [ ] SIMULATED labels
-- [ ] agent roles explained
-- [ ] quality and boundary report
-- [ ] handover README
+- [x] 3+ profiles with sources and dates (38)
+- [x] fact / inferred / missing labels
+- [x] profile editing, with correction history and priorities
+- [x] 2+ distinct opportunity sources (funding, events, testbeds)
+- [ ] save, 👍/👎 feedback and follow-up questions in chat (👍/👎 and follow-ups done; save not built)
+- [x] user roles: member, staff, external
+- [x] rankings differ by company
+- [x] links and dates on every result
+- [x] relevant, unrelated and override chats handled
+- [x] SIMULATED labels
+- [x] agent roles explained
+- [x] quality and boundary report
+- [x] handover README
 - [ ] pitch
