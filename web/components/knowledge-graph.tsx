@@ -1,13 +1,22 @@
 "use client";
 
 import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, type SimulationNodeDatum } from "d3-force";
-import { ArrowUpRight, Building2, Crosshair, Minus, Plus, Search, X } from "lucide-react";
+import { ArrowUpRight, Box, Building2, Crosshair, Minus, Network, Plus, Search, X } from "lucide-react";
+import dynamic from "next/dynamic";
 import { useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import { Badge, Card } from "@/components/ui";
 import { cx, day } from "@/lib/format";
 import type { EdgeKind, Graph, GraphEdge, GraphFact, GraphNode } from "@/lib/types";
 
 type P = GraphNode & SimulationNodeDatum & { x: number; y: number };
+
+// three.js is loaded only when someone switches to 3D, and never on the server (it needs WebGL)
+const VirtualPark = dynamic(() => import("@/components/virtual-park"), {
+  ssr: false,
+  loading: () => (
+    <div className="grid aspect-[4/3] w-full place-items-center bg-surface-2 text-sm text-text-3">Building the virtual park…</div>
+  ),
+});
 
 const EDGE: Record<EdgeKind, { label: string; hint: string; stroke: string; width: number; dash?: string }> = {
   collaboration: { label: "Stated collaboration", hint: "Named on a company's own public page", stroke: "var(--text)", width: 2.4 },
@@ -95,6 +104,7 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
   const [shown, setShown] = useState<Record<EdgeKind, boolean>>({ collaboration: true, suggestion: true, member: true, area: true });
   const [areaFilter, setAreaFilter] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [mode, setMode] = useState<"2d" | "3d">("2d");
   const svg = useRef<SVGSVGElement>(null);
   const drag = useRef<{ id?: string; px: number; py: number; moved: boolean } | null>(null);
 
@@ -235,7 +245,24 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
               </div>
             )}
           </div>
-          <div className="ml-auto flex items-center gap-1" role="group" aria-label="Zoom">
+          <div className="ml-auto flex rounded-md border border-border bg-surface p-0.5 text-[13px]" role="group" aria-label="View">
+            {(["2d", "3d"] as const).map((m) => (
+              <button
+                key={m}
+                type="button"
+                aria-pressed={mode === m}
+                onClick={() => setMode(m)}
+                className={cx(
+                  "inline-flex h-8 items-center gap-1.5 rounded px-2.5 font-medium transition-colors",
+                  mode === m ? "bg-primary text-white" : "text-text-2 hover:text-text",
+                )}
+              >
+                {m === "2d" ? <Network className="size-3.5" aria-hidden /> : <Box className="size-3.5" aria-hidden />}
+                {m === "2d" ? "2D graph" : "3D park"}
+              </button>
+            ))}
+          </div>
+          <div className={cx("flex items-center gap-1", mode === "3d" && "hidden")} role="group" aria-label="Zoom">
             {[
               { label: "Zoom out", icon: Minus, run: () => zoom(1 / 1.25) },
               { label: "Zoom in", icon: Plus, run: () => zoom(1.25) },
@@ -255,111 +282,125 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
           </div>
         </div>
 
-        <svg
-          ref={svg}
-          viewBox={`${-W / 2} ${-H / 2} ${W} ${H}`}
-          className="block aspect-[4/3] w-full cursor-grab touch-none select-none bg-[radial-gradient(circle_at_center,var(--surface-2),var(--surface)_70%)] active:cursor-grabbing"
-          onPointerDown={(e) => onDown(e)}
-          onPointerMove={onMove}
-          onPointerUp={onUp}
-          onPointerLeave={() => (drag.current = null)}
-          onWheel={(e) => zoom(e.deltaY < 0 ? 1.1 : 1 / 1.1)}
-          role="img"
-          aria-label={`Knowledge graph of ${companies.length} companies. The list below the graph has the same information.`}
-        >
-          <g transform={`translate(${view.x} ${view.y}) scale(${view.k})`}>
-            {edges.map((e) => {
-              const a = pos.get(e.source)!;
-              const b = pos.get(e.target)!;
-              const st = EDGE[e.kind];
-              const off = dimmed(e.source) || dimmed(e.target);
-              const active = selected?.edge === e.i;
-              const clickable = e.kind === "collaboration" || e.kind === "suggestion";
-              return (
-                <g key={e.i} className={cx("transition-opacity duration-200", off ? "opacity-[0.07]" : "opacity-100")}>
-                  {clickable && (
+        {mode === "3d" ? (
+          <VirtualPark
+            graph={graph}
+            edges={edges}
+            dimmed={dimmed}
+            highlighted={new Set([...hitIds, ...(selected?.node ? [selected.node] : [])])}
+            selectedId={selected?.node ?? null}
+            selectedEdge={selected?.edge ?? null}
+            onSelectNode={(id) => setSelected(id ? { node: id } : null)}
+            onSelectEdge={(i) => setSelected({ edge: i })}
+            onHover={setHover}
+          />
+        ) : (
+          <svg
+            ref={svg}
+            viewBox={`${-W / 2} ${-H / 2} ${W} ${H}`}
+            className="block aspect-[4/3] w-full cursor-grab touch-none select-none bg-[radial-gradient(circle_at_center,var(--surface-2),var(--surface)_70%)] active:cursor-grabbing"
+            onPointerDown={(e) => onDown(e)}
+            onPointerMove={onMove}
+            onPointerUp={onUp}
+            onPointerLeave={() => (drag.current = null)}
+            onWheel={(e) => zoom(e.deltaY < 0 ? 1.1 : 1 / 1.1)}
+            role="img"
+            aria-label={`Knowledge graph of ${companies.length} companies. The list below the graph has the same information.`}
+          >
+            <g transform={`translate(${view.x} ${view.y}) scale(${view.k})`}>
+              {edges.map((e) => {
+                const a = pos.get(e.source)!;
+                const b = pos.get(e.target)!;
+                const st = EDGE[e.kind];
+                const off = dimmed(e.source) || dimmed(e.target);
+                const active = selected?.edge === e.i;
+                const clickable = e.kind === "collaboration" || e.kind === "suggestion";
+                return (
+                  <g key={e.i} className={cx("transition-opacity duration-200", off ? "opacity-[0.07]" : "opacity-100")}>
+                    {clickable && (
+                      <line
+                        x1={a.x}
+                        y1={a.y}
+                        x2={b.x}
+                        y2={b.y}
+                        stroke="transparent"
+                        strokeWidth={12}
+                        className="cursor-pointer"
+                        onPointerDown={(ev) => ev.stopPropagation()}
+                        onClick={() => setSelected({ edge: e.i })}
+                      >
+                        <title>{st.label}</title>
+                      </line>
+                    )}
                     <line
                       x1={a.x}
                       y1={a.y}
                       x2={b.x}
                       y2={b.y}
-                      stroke="transparent"
-                      strokeWidth={12}
-                      className="cursor-pointer"
-                      onPointerDown={(ev) => ev.stopPropagation()}
-                      onClick={() => setSelected({ edge: e.i })}
-                    >
-                      <title>{st.label}</title>
-                    </line>
-                  )}
-                  <line
-                    x1={a.x}
-                    y1={a.y}
-                    x2={b.x}
-                    y2={b.y}
-                    stroke={e.kind === "area" ? color(byId.get(e.target)?.area ?? null) : st.stroke}
-                    strokeOpacity={e.kind === "area" ? 0.35 : e.kind === "member" ? 0.45 : 0.85}
-                    strokeWidth={active ? st.width + 2 : st.width}
-                    strokeDasharray={st.dash}
-                    pointerEvents="none"
-                  />
-                </g>
-              );
-            })}
-
-            {graph.nodes.map((n) => {
-              const p = pos.get(n.id)!;
-              const r = radius(n);
-              const off = dimmed(n.id);
-              const isSel = selected?.node === n.id;
-              const showLabel = n.kind !== "company" || n.id === focus || isSel || hitIds.has(n.id) || view.k > 1.4;
-              return (
-                <g
-                  key={n.id}
-                  transform={`translate(${p.x} ${p.y})`}
-                  className={cx("cursor-pointer outline-none transition-opacity duration-200", off ? "opacity-20" : "opacity-100")}
-                  onPointerDown={(e) => onDown(e, n.id)}
-                  onPointerEnter={() => setHover(n.id)}
-                  onPointerLeave={() => setHover(null)}
-                  tabIndex={0}
-                  role="button"
-                  aria-label={`${n.label}${n.kind === "company" ? `, ${n.member ? "park member" : "external"}, ${graph.areas[n.area ?? "other"]}` : ""}`}
-                  onFocus={() => setHover(n.id)}
-                  onBlur={() => setHover(null)}
-                  onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setSelected({ node: n.id })}
-                >
-                  {n.kind === "park" ? (
-                    <>
-                      <circle r={r + 8} fill="var(--primary)" opacity={0.12} />
-                      <circle r={r} fill="var(--primary)" stroke="var(--surface)" strokeWidth={3} />
-                    </>
-                  ) : n.kind === "area" ? (
-                    <circle r={r} fill="var(--surface)" stroke={color(n.area)} strokeWidth={3.5} />
-                  ) : (
-                    <circle
-                      r={r}
-                      fill={n.member ? color(n.area) : "var(--surface)"}
-                      stroke={color(n.area)}
-                      strokeWidth={n.member ? 2 : 2.6}
-                      strokeDasharray={n.member ? undefined : "3 2"}
+                      stroke={e.kind === "area" ? color(byId.get(e.target)?.area ?? null) : st.stroke}
+                      strokeOpacity={e.kind === "area" ? 0.35 : e.kind === "member" ? 0.45 : 0.85}
+                      strokeWidth={active ? st.width + 2 : st.width}
+                      strokeDasharray={st.dash}
+                      pointerEvents="none"
                     />
-                  )}
-                  {(isSel || n.id === hover || hitIds.has(n.id)) && <circle r={r + 5} fill="none" stroke="var(--ring)" strokeWidth={2} />}
-                  {showLabel && (
-                    <text
-                      y={r + 14}
-                      textAnchor="middle"
-                      className={cx("pointer-events-none fill-[var(--text)]", n.kind === "company" ? "text-[11px]" : "text-[12.5px] font-semibold")}
-                      style={{ paintOrder: "stroke", stroke: "var(--surface)", strokeWidth: 4, strokeLinejoin: "round" }}
-                    >
-                      {n.label}
-                    </text>
-                  )}
-                </g>
-              );
-            })}
-          </g>
-        </svg>
+                  </g>
+                );
+              })}
+
+              {graph.nodes.map((n) => {
+                const p = pos.get(n.id)!;
+                const r = radius(n);
+                const off = dimmed(n.id);
+                const isSel = selected?.node === n.id;
+                const showLabel = n.kind !== "company" || n.id === focus || isSel || hitIds.has(n.id) || view.k > 1.4;
+                return (
+                  <g
+                    key={n.id}
+                    transform={`translate(${p.x} ${p.y})`}
+                    className={cx("cursor-pointer outline-none transition-opacity duration-200", off ? "opacity-20" : "opacity-100")}
+                    onPointerDown={(e) => onDown(e, n.id)}
+                    onPointerEnter={() => setHover(n.id)}
+                    onPointerLeave={() => setHover(null)}
+                    tabIndex={0}
+                    role="button"
+                    aria-label={`${n.label}${n.kind === "company" ? `, ${n.member ? "park member" : "external"}, ${graph.areas[n.area ?? "other"]}` : ""}`}
+                    onFocus={() => setHover(n.id)}
+                    onBlur={() => setHover(null)}
+                    onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && setSelected({ node: n.id })}
+                  >
+                    {n.kind === "park" ? (
+                      <>
+                        <circle r={r + 8} fill="var(--primary)" opacity={0.12} />
+                        <circle r={r} fill="var(--primary)" stroke="var(--surface)" strokeWidth={3} />
+                      </>
+                    ) : n.kind === "area" ? (
+                      <circle r={r} fill="var(--surface)" stroke={color(n.area)} strokeWidth={3.5} />
+                    ) : (
+                      <circle
+                        r={r}
+                        fill={n.member ? color(n.area) : "var(--surface)"}
+                        stroke={color(n.area)}
+                        strokeWidth={n.member ? 2 : 2.6}
+                        strokeDasharray={n.member ? undefined : "3 2"}
+                      />
+                    )}
+                    {(isSel || n.id === hover || hitIds.has(n.id)) && <circle r={r + 5} fill="none" stroke="var(--ring)" strokeWidth={2} />}
+                    {showLabel && (
+                      <text
+                        y={r + 14}
+                        textAnchor="middle"
+                        className={cx("pointer-events-none fill-[var(--text)]", n.kind === "company" ? "text-[11px]" : "text-[12.5px] font-semibold")}
+                        style={{ paintOrder: "stroke", stroke: "var(--surface)", strokeWidth: 4, strokeLinejoin: "round" }}
+                      >
+                        {n.label}
+                      </text>
+                    )}
+                  </g>
+                );
+              })}
+            </g>
+          </svg>
+        )}
 
         {/* legend */}
         <div className="grid gap-4 border-t border-border px-3 py-3 text-[13px] sm:grid-cols-2 sm:px-4">
