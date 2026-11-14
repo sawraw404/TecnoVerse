@@ -12,7 +12,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, TypeAdapter
 
-from core.schemas import Company, Opportunity, ProfileItem, SourcePage
+from core.schemas import Company, Feedback, Match, Opportunity, ProfileItem, SourcePage
 
 DATA = Path(__file__).parent.parent / "data"
 CACHE = DATA / "cache"
@@ -37,6 +37,32 @@ def save_opportunities(opps: list[Opportunity]) -> None:
 def load_opportunities() -> list[Opportunity]:
     path = DATA / "opportunities.json"
     return TypeAdapter(list[Opportunity]).validate_json(path.read_text(encoding="utf-8")) if path.exists() else []
+
+
+def _per_company(company_id: str, name: str, model, items=None):
+    """Matches and feedback are private to one company, so they live in its own cache folder."""
+    path = CACHE / company_id / name
+    adapter = TypeAdapter(list[model])
+    if items is None:
+        return adapter.validate_json(path.read_text(encoding="utf-8")) if path.exists() else []
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(adapter.dump_json(items, indent=1).decode("utf-8"), encoding="utf-8")
+
+
+def load_matches(company_id: str) -> list[Match]:
+    return _per_company(company_id, "matches.json", Match)
+
+
+def save_matches(company_id: str, matches: list[Match]) -> None:
+    _per_company(company_id, "matches.json", Match, matches)
+
+
+def load_feedback(company_id: str) -> list[Feedback]:
+    return _per_company(company_id, "feedback.json", Feedback)
+
+
+def save_feedback(company_id: str, feedback: list[Feedback]) -> None:
+    _per_company(company_id, "feedback.json", Feedback, feedback)
 
 
 def save_profile(profile: Profile) -> None:
