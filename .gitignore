@@ -14,3 +14,9 @@ tecnoverse/data/cache/*/*.html
 # per-company matches and feedback: generated or private, not shared
 tecnoverse/data/cache/*/matches.json
 tecnoverse/data/cache/*/feedback.json
+
+# Next.js frontend
+node_modules/
+.next/
+web/.env*.local
+web/next-env.d.ts
