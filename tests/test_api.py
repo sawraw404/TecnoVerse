@@ -61,7 +61,7 @@ def test_chats_are_private_and_stored(monkeypatch, tmp_path):
     for cid in ("embeddedart", "kiwa"):  # profiles only; nothing is written to the real cache
         shutil.copytree(store.CACHE / cid, tmp_path / cid, ignore=shutil.ignore_patterns("*.html", "pages.json", "chats.json"))
     monkeypatch.setattr(store, "CACHE", tmp_path)
-    monkeypatch.setattr(api, "reply", lambda m, h, c: assistant.Reply(label="in_scope", text=f"seen {len(h)} turns"))
+    monkeypatch.setattr(api, "reply", lambda m, h, c, s=None: assistant.Reply(label="in_scope", text=f"seen {len(h)} turns"))
     first = client.post("/chat", json={"message": "Which funding fits us?"}, headers=EMB).json()
     again = client.post("/chat", json={"message": "And events?", "session_id": first["session_id"]}, headers=EMB).json()
     assert again["text"] == "seen 2 turns"  # history comes from the stored conversation
@@ -87,3 +87,29 @@ def test_private_item_leaves_staff_views(monkeypatch, tmp_path):
     after = client.get("/staff", headers=staff).json()["connections"]
     assert len(after) == len(before) - 1 and all(e["value"] != kiwa_item["value"] for c in after for e in c["evidence"])
     assert client.post(f"/profile/items/{item_id}/visibility", json={"visibility": "public"}, headers=EMB).status_code == 404
+
+
+def test_staff_chat_about_a_company(monkeypatch, tmp_path):
+    import shutil
+    import agents.assistant as assistant
+    import api
+    import core.store as store
+    for c in store.load_companies():
+        shutil.copytree(store.CACHE / c.id, tmp_path / c.id, ignore=shutil.ignore_patterns("*.html", "pages.json", "chats.json"))
+    monkeypatch.setattr(store, "CACHE", tmp_path)
+    seen = {}
+    monkeypatch.setattr(api, "reply", lambda m, h, c, s=None: (seen.update(subject=s), assistant.Reply(label="in_scope", text="ok"))[1])
+    staff = {"X-User-Id": "staff"}
+    r = client.post("/chat", json={"message": "What does Kiwa do?", "company_id": "kiwa"}, headers=staff).json()
+    client.post("/chat", json={"message": "And its matches?", "session_id": r["session_id"]}, headers=staff)
+    assert seen["subject"] == "kiwa"  # the follow-up keeps the company from the stored conversation
+    assert client.get("/chats", headers=staff).json()[0]["company"] == {"id": "kiwa", "name": "Kiwa"}
+    assert client.post("/chat", json={"message": "hi", "company_id": "kiwa"}, headers=EMB).status_code == 403
+    # private items never reach the context, public ones do
+    p = store.load_profile("kiwa")
+    public, private = p.items[0], next(i for i in p.items[1:] if i.value)
+    private.visibility = "private"
+    store.save_profile(p)
+    ctx = assistant._subject("kiwa", {})
+    assert public.value in ctx or public.visibility != "public"
+    assert private.value not in ctx

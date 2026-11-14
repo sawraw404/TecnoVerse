@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUp, Bot, CalendarDays, Link2, MessageSquareText, ShieldAlert, ShieldCheck, ShieldQuestion, UserRound, Users } from "lucide-react";
+import { ArrowUp, Bot, Building2, CalendarDays, Link2, MessageSquareText, ShieldAlert, ShieldCheck, ShieldQuestion, UserRound, Users } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition, type ReactNode } from "react";
 import { sendChat } from "@/app/actions";
@@ -42,15 +42,24 @@ function linkify(text: string) {
  *  logins and never mix between companies. `about` attaches an opportunity ("Ask about this"). */
 export function ChatPanel({
   who,
-  sessionId,
+  sessionId: startSession,
   initial,
   about,
+  subject = null,
+  stayOnPage = false,
+  className = "h-[calc(100dvh-13rem)] min-h-[420px] lg:h-[calc(100dvh-14rem)]",
 }: {
   who: string | null;
   sessionId: string | null;
   initial: ChatMessage[];
   about: Source | null;
+  /** Staff only: the company the conversation is about (graph view). */
+  subject?: { id: string; name: string } | null;
+  /** Keep the conversation on the current page instead of moving to /chat?s=... (graph view). */
+  stayOnPage?: boolean;
+  className?: string;
 }) {
+  const [sessionId, setSessionId] = useState(startSession);
   const [messages, setMessages] = useState<Message[]>(initial);
   const [draft, setDraft] = useState("");
   const [pending, start] = useTransition();
@@ -68,16 +77,27 @@ export function ChatPanel({
     setMessages(next);
     setDraft("");
     start(async () => {
-      const r = await sendChat(message, sessionId, about?.id ?? null);
+      const r = await sendChat(message, sessionId, about?.id ?? null, subject?.id ?? null);
       const reply: Message = { role: "assistant", text: r.text, label: r.label, sources: r.sources, failed: "error" in r };
       setMessages([...next, reply]);
-      // a new conversation gets its own address, so it shows in the list and can be reopened
-      if (!sessionId && r.session_id) router.replace(`/chat?s=${r.session_id}`, { scroll: false });
+      if (!sessionId && r.session_id) {
+        setSessionId(r.session_id);
+        // a new conversation gets its own address, so it shows in the list and can be reopened
+        if (!stayOnPage) router.replace(`/chat?s=${r.session_id}`, { scroll: false });
+      }
     });
   };
 
   return (
-    <div className="flex h-[calc(100dvh-13rem)] min-h-[420px] flex-col overflow-hidden rounded-xl border border-border bg-surface shadow-sm lg:h-[calc(100dvh-14rem)]">
+    <div className={`flex flex-col overflow-hidden rounded-xl border border-border bg-surface shadow-sm ${className}`}>
+      {subject && (
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b border-border bg-surface-2/60 px-4 py-2.5 text-[13px]">
+          <Building2 className="size-4 shrink-0 text-primary-text" aria-hidden />
+          <span className="text-text-3">About</span>
+          <span className="font-medium text-text">{subject.name}</span>
+          <span className="text-xs text-text-3">public profile, links and matches · saved to your conversations</span>
+        </div>
+      )}
       {about && (
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 border-b border-border bg-surface-2/60 px-4 py-2.5 text-[13px] sm:px-6">
           <MessageSquareText className="size-4 shrink-0 text-primary-text" aria-hidden />
@@ -107,7 +127,24 @@ export function ChatPanel({
             </div>
           </div>
         )}
-        {messages.length === 0 && !about && (
+        {messages.length === 0 && subject && (
+          <div className="mx-auto flex max-w-sm flex-col items-center pt-4 text-center">
+            <p className="text-sm font-medium">Ask about {subject.name}</p>
+            <div className="mt-3 flex flex-wrap justify-center gap-2">
+              {[`What does ${subject.name} do?`, `Which opportunities fit ${subject.name}?`, `Who could ${subject.name} work with?`].map((q) => (
+                <button
+                  key={q}
+                  type="button"
+                  onClick={() => send(q)}
+                  className="rounded-full border border-border-strong bg-surface px-3 py-1.5 text-[12.5px] text-text-2 transition-colors hover:border-primary/50 hover:bg-primary-soft hover:text-primary-text"
+                >
+                  {q}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+        {messages.length === 0 && !about && !subject && (
           <div className="mx-auto flex max-w-lg flex-col items-center pt-6 text-center">
             <div className="mb-3 grid size-12 place-items-center rounded-full bg-primary-soft text-primary-text">
               <Bot className="size-6" aria-hidden />

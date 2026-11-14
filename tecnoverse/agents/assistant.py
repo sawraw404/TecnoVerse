@@ -64,6 +64,8 @@ Rules:
   membership contact.
 - If the data does not answer the question, say so and suggest the right park contact from the data.
 - Do not mention or guess anything about other companies' private data.
+- Links between companies are suggestions only: say "a possible connection" and never imply either
+  company has expressed interest. Stated collaborations may be described as stated on the company's page.
 - Be brief: at most 120 words. Plain text, no markdown headings."""
 
 
@@ -90,17 +92,45 @@ def contacts() -> dict[str, SupportContact]:
             for c in json.loads((DATA / "support_contacts.json").read_text(encoding="utf-8"))}
 
 
-def classify(message: str, history: list[tuple[str, str]]) -> _Guard:
+def classify(message: str, history: list[tuple[str, str]], note: str = "") -> _Guard:
     if INJECTION.search(message):
         return _Guard(label="injection", reason="matched override pattern")
     recent = "\n".join(f"{role}: {text[:300]}" for role, text in history[-6:])
-    return ask(GUARD_SYSTEM, f"Earlier turns:\n{recent or '(none)'}\n\nLatest user message:\n<user_message>\n"
+    return ask(GUARD_SYSTEM, f"{note}Earlier turns:\n{recent or '(none)'}\n\nLatest user message:\n<user_message>\n"
                f"{message}\n</user_message>", _Guard, agent="guardrail")
 
 
-def _context(company_id: str | None) -> str:
+def _subject(company_id: str, opps: dict) -> str:
+    """For park staff asking about one company (graph view): its public profile items, its judged matches
+    and its public links. User decision (14 Nov): staff may see a company's matches. Its private items,
+    edits, feedback and chats are never included."""
+    from agents.mapper import knowledge_graph
+    p = load_profile(company_id)
+    items = [f"[{i.field}] {i.value}" for i in p.items
+             if i.value and i.visibility == "public" and i.status not in ("missing", "user_removed")]
+    parts = [f"STAFF IS ASKING ABOUT: {p.company.name} ({'park member' if p.company.is_member else 'external'}), "
+             f"{p.company.website}\nPUBLIC PROFILE ITEMS:\n" + "\n".join(items[:40])]
+    expl = load_explanations()
+    lines = []
+    for m in [m for m in load_matches(company_id) if m.llm_score > 0][:8]:
+        o, e = opps.get(m.opportunity_id), expl.get((company_id, m.opportunity_id))
+        if o:
+            lines.append(f"#{m.rank} {o.id} [{o.type}] {o.title} | {o.deadline or o.start_date or 'no date'} | {o.url}"
+                         + (f"\n   why: {e.why}\n   uncertain: {e.uncertain}" if e else ""))
+    parts.append(f"{p.company.name.upper()} RANKED MATCHES:\n" + ("\n".join(lines) or "none judged relevant"))
+    g = knowledge_graph({c.id: load_profile(c.id) for c in load_companies()})
+    names = {n.id: n.label for n in g.nodes}
+    links = [f"{'stated collaboration' if e.kind == 'collaboration' else 'suggested connection (a suggestion only)'}: "
+             f"{names[e.target if e.source == company_id else e.source]}"
+             + (f" - {e.why}" if e.why else f" - {e.evidence[0].value}" if e.evidence else "")
+             for e in g.edges if e.kind in ("collaboration", "suggestion") and company_id in (e.source, e.target)]
+    parts.append("PUBLIC LINKS:\n" + ("\n".join(links) or "none"))
+    return "\n\n".join(parts)
+
+
+def _context(company_id: str | None, subject: str | None = None) -> str:
     opps = {o.id: o for o in load_opportunities()}
-    parts = []
+    parts = [_subject(subject, opps)] if subject else []
     if company_id:
         p = load_profile(company_id)
         items = [f"[{i.field}] {i.value}" for i in p.items if i.value and i.status not in ("missing", "user_removed")]
@@ -140,9 +170,15 @@ def directory() -> str:
     return "\n".join(lines)
 
 
-def reply(message: str, history: list[tuple[str, str]], company_id: str | None) -> Reply:
+def reply(message: str, history: list[tuple[str, str]], company_id: str | None, subject: str | None = None) -> Reply:
+    """`subject`: a company park staff is asking about (graph view); its public data and matches go in."""
+    note = ""
+    if subject:
+        name = load_profile(subject).company.name
+        note = (f"Context: the user is Blue Science Park staff asking about the company {name}. Questions about "
+                f"{name}'s public profile, links and opportunity matches are in scope.\n\n")
     try:
-        g = classify(message, history)
+        g = classify(message, history, note)
     except LLMError:
         return Reply(label="unclear", text="The assistant is unavailable right now. Please try again in a minute.")
     c = contacts()
@@ -159,7 +195,7 @@ def reply(message: str, history: list[tuple[str, str]], company_id: str | None) 
         return Reply(label=g.label, text="That needs a decision or commitment from people, not from this service. "
                      f"Please contact {k.name}: {k.route}. {k.description}")
     try:
-        a = ask(ANSWER_SYSTEM, f"<source_data>\n{_context(company_id)}\n</source_data>\n\nUser question:\n"
+        a = ask(ANSWER_SYSTEM, f"<source_data>\n{_context(company_id, subject)}\n</source_data>\n\nUser question:\n"
                 f"<user_message>\n{message}\n</user_message>", _Answer, agent="assistant")
     except LLMError:
         return Reply(label=g.label, text="I couldn't answer right now. Please try again in a minute.")

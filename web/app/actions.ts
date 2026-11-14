@@ -95,11 +95,21 @@ export async function sendFeedback(opportunityId: string, kind: "up" | "down" | 
 export type ChatResult = ChatReply | { session_id: null; label: GuardLabel; text: string; sources: []; error: true };
 
 /** One turn. The conversation's earlier turns are read from storage on the server, not sent from here. */
-export async function sendChat(message: string, sessionId: string | null, opportunityId: string | null): Promise<ChatResult> {
+export async function sendChat(
+  message: string,
+  sessionId: string | null,
+  opportunityId: string | null,
+  companyId: string | null = null, // staff only: the company the conversation is about (graph view)
+): Promise<ChatResult> {
   try {
     const r = await api<ChatReply>("/chat", {
       method: "POST",
-      body: { message, session_id: sessionId, opportunity_id: sessionId ? null : opportunityId },
+      body: {
+        message,
+        session_id: sessionId,
+        opportunity_id: sessionId ? null : opportunityId,
+        company_id: sessionId ? null : companyId,
+      },
     });
     revalidatePath("/chat");
     return r;

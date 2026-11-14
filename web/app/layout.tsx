@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -19,10 +20,18 @@ export const viewport: Viewport = {
   ],
 };
 
+// Runs before the first paint: the saved choice from the sidebar toggle, else the computer's setting.
+const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem("tv-theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}})()`;
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full">{children}</body>
+    // the theme attribute is set by THEME_SCRIPT before React loads, so it differs from the server HTML
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
+      <body className="min-h-full">
+        {children}
+        {/* beforeInteractive: injected into the server HTML and run before the page hydrates (no flash) */}
+        <Script id="theme" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </body>
     </html>
   );
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { MessageSquareText, Plus } from "lucide-react";
+import { Building2, MessageSquareText, Plus } from "lucide-react";
 import { ChatPanel } from "@/components/chat-panel";
 import { buttonClass, PageHeader } from "@/components/ui";
 import { api } from "@/lib/api";
@@ -29,7 +29,8 @@ function Conversations({ sessions, active }: { sessions: ChatSession[]; active: 
           <span className="line-clamp-2 text-[13px] font-medium leading-5 text-text">{s.title}</span>
           <span className="mt-0.5 flex items-center gap-1.5 text-[11px] text-text-3">
             {s.opportunity && <MessageSquareText className="size-3 shrink-0" aria-label="About an opportunity" />}
-            <span className="truncate">{s.opportunity ? s.opportunity.title : `${s.messages} messages`}</span>
+            {s.company && <Building2 className="size-3 shrink-0" aria-label="About a company" />}
+            <span className="truncate">{s.opportunity ? s.opportunity.title : s.company ? s.company.name : `${s.messages} messages`}</span>
             <span className="ml-auto shrink-0">{day(s.updated_at)}</span>
           </span>
         </Link>
@@ -73,6 +74,7 @@ export default async function ChatPage({ searchParams }: PageProps<"/chat">) {
           sessionId={known}
           initial={initial}
           about={aboutSource}
+          subject={known ? (sessions.find((x) => x.session_id === known)?.company ?? null) : null}
         />
       </div>
     </>
