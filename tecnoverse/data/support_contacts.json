@@ -1,0 +1,8 @@
+[
+  {"id": "bsp-general", "area": "general", "name": "Blue Science Park", "route": "info@bluesciencepark.se · https://www.bluesciencepark.se/kontakt/", "description": "General questions, decisions and commitments by Blue Science Park.", "simulated": false},
+  {"id": "bsp-membership", "area": "membership", "name": "Blue Science Park membership", "route": "https://www.bluesciencepark.se/bli-medlem/", "description": "Becoming a member and member benefits.", "simulated": false},
+  {"id": "bsp-funding", "area": "funding", "name": "Blue Science Park: paths to funding", "route": "https://www.bluesciencepark.se/vara-tjanster/vagar-till-finansiering/", "description": "Guidance on funding routes. Eligibility is decided by the funder, never by this service.", "simulated": false},
+  {"id": "bsp-testbeds", "area": "testbeds", "name": "Blue Science Park: test and development", "route": "https://www.bluesciencepark.se/vara-tjanster/test-utveckling/", "description": "Access to test environments such as Marine Technology Center and Tech Concept Lab.", "simulated": false},
+  {"id": "bsp-collaboration", "area": "collaboration", "name": "Blue Science Park: networks and matchmaking", "route": "https://www.bluesciencepark.se/vara-tjanster/natverk-och-matchning/", "description": "Introductions to potential partners. The park staff decide on introductions.", "simulated": false},
+  {"id": "bsp-events", "area": "events", "name": "Blue Science Park events", "route": "https://www.bluesciencepark.se/event/", "description": "Upcoming events and registration.", "simulated": false}
+]
