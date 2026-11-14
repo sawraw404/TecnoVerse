@@ -15,7 +15,7 @@ judged = live(profiles)
 
 st.title("Staff view")
 st.caption(f"{len(profiles)} companies. Built from public profile items only. Connections are suggestions: "
-           "no company has expressed interest. The judgements were written offline by Claude Code.")
+           "no company has expressed interest.")
 
 
 def name(cid: str) -> str:
@@ -29,8 +29,7 @@ def evidence(cid: str, item_id: str) -> str:
     item = next(i for i in p.items if i.id == item_id)
     page = next((pg for pg in p.pages if pg.id == item.source_page_id), None)
     source = f"[source]({page.url}) · retrieved {page.retrieved_at:%Y-%m-%d}" if page else "no source page"
-    offline = " :gray-badge[Claude Code]" if "Claude Code" in p.extracted_by else ""
-    return f"**{p.company.name}** ({item.field}): \"{item.value}\" · {source}{offline}"
+    return f"**{p.company.name}** ({item.field}): \"{item.value}\" · {source}"
 
 
 st.subheader("Shared themes")
@@ -48,7 +47,7 @@ for j in shown:
     c = j.connection
     with st.container(border=True):
         st.markdown(f"**{name(c.company_a)} ↔ {name(c.company_b)}** · {j.theme} · "
-                    f"{c.type.replace('_', ' ')} · :blue-badge[{c.label}] :gray-badge[Claude Code]")
+                    f"{c.type.replace('_', ' ')} · :blue-badge[{c.label}]")
         st.markdown(f"**Why:** {j.why}  \n**Uncertain:** {j.uncertain}")
         st.markdown("**Basis (public items):**")
         for b in c.basis:

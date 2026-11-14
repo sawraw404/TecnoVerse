@@ -5,8 +5,7 @@ Two steps, as in the plan (retrieve, then re-rank):
      region, evidence, feedback). Re-ranking after an edit or a thumbs up/down is instant.
   2. A relevance judgement re-ranks: final = (1 - RERANK_WEIGHT) * score + RERANK_WEIGHT * judgement.
      Judgements and the written "why it fits / what is uncertain" live in data/explanations.json.
-     Until a live LLM writes them they were written offline in a Claude Code session; the UI says so
-     with a "Claude Code" label. Pairs without a judgement get 0: judged not relevant.
+     Until a live LLM writes them they were written offline in a Claude Code session (`written_by`). Pairs without a judgement get 0: judged not relevant.
 
 Run: cd tecnoverse && python -m agents.matcher --all
 """
