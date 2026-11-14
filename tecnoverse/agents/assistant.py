@@ -146,10 +146,28 @@ def _context(company_id: str | None, subject: str | None = None) -> str:
         parts.append("RANKED MATCHES:\n" + "\n".join(lines))
     parts.append("ALL OPPORTUNITIES:\n" + "\n".join(
         f"{o.id} [{o.type}] {o.title} | {o.deadline or o.start_date or 'no date'} | {o.url} | {o.summary[:120]}"
-        for o in opps.values()))
+        for o in opps.values() if o.type != "news"))
+    parts.append(_trends(company_id or subject, opps))
     parts.append(directory())
     parts.append("PARK CONTACTS:\n" + "\n".join(f"{c.area}: {c.name} - {c.route}" for c in contacts().values()))
     return "\n\n".join(parts)
+
+
+def _trends(company_id: str | None, opps: dict) -> str:
+    """Recent news and research (trend monitor): the company's 8 closest, else the 8 newest. Kept short for
+    Groq's token limit. Each line has its source link and published date."""
+    news = [o for o in opps.values() if o.type == "news"]
+    if company_id:
+        ranked = [opps[m.opportunity_id] for m in load_matches(company_id) if m.opportunity_id in opps
+                  and opps[m.opportunity_id].type == "news"]
+        news = ranked or news
+    else:
+        news = sorted(news, key=lambda o: str(o.published_at), reverse=True)
+    expl = load_explanations()
+    lines = [f"{o.id} | {o.published_at} | {o.contact} | {o.title} | {o.url}\n   what changed: {o.summary}"
+             + (f"\n   why it may matter: {e.why}" if (e := expl.get((company_id, o.id))) else "")
+             for o in news[:8]]
+    return "RECENT TRENDS (news and research):\n" + ("\n".join(lines) or "none collected")
 
 
 def directory() -> str:

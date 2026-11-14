@@ -1,14 +1,15 @@
-import type { Opportunity, PriorityType } from "./types";
+import type { ListType, Opportunity } from "./types";
 
 /** ISO date or datetime -> YYYY-MM-DD, the format the sources use. */
 export function day(value: string | null | undefined): string {
   return value ? value.slice(0, 10) : "not stated";
 }
 
-export const TYPE_LABEL: Record<PriorityType, string> = {
+export const TYPE_LABEL: Record<ListType, string> = {
   funding: "Funding",
   event: "Events",
   testbed: "Testbeds",
+  news: "Trends",
 };
 
 export const DATE_LABEL: Record<string, string> = {
@@ -19,7 +20,7 @@ export const DATE_LABEL: Record<string, string> = {
 };
 
 export function keyDate(o: Opportunity): string | null {
-  return o.deadline ?? o.start_date;
+  return o.deadline ?? o.start_date ?? o.published_at;
 }
 
 export function cx(...classes: (string | false | null | undefined)[]): string {

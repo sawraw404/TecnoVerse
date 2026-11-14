@@ -30,11 +30,11 @@ def traceability(profiles, opps):
     unsourced = [f"{p.company.id}/{i.field}: {i.value[:60]}" for p, i in items
                  if not (pg := pages.get((p.company.id, i.source_page_id))) or not pg.url or not pg.retrieved_at]
     undated = [f"{o.type}: {o.title[:60]}" for o in opps.values()
-               if o.type != "testbed" and not (o.deadline or o.start_date)]
+               if o.type != "testbed" and not (o.deadline or o.start_date or o.published_at)]
     no_link = [o.title for o in opps.values() if not o.url.startswith("http")]
     expl = load_explanations()
     dangling = [f"{c}|{o}" for c, o in expl if c not in profiles or o not in opps]
-    dated = sum(1 for o in opps.values() if o.type != "testbed" and (o.deadline or o.start_date))
+    dated = sum(1 for o in opps.values() if o.type != "testbed" and (o.deadline or o.start_date or o.published_at))
     return {"items": len(items), "unsourced": unsourced, "opps": len(opps), "undated": undated, "dated": dated,
             "no_link": no_link, "explanations": len(expl), "dangling": dangling}
 
@@ -103,8 +103,8 @@ def report(t, a, r) -> str:
         "## Traceability",
         f"- Profile items shown with a source page, link and retrieval date: "
         f"**{t['items'] - len(t['unsourced'])}/{t['items']}**",
-        f"- Opportunities with a link: **{t['opps'] - len(t['no_link'])}/{t['opps']}**; funding and events with a "
-        f"deadline or start date: **{t['dated']}/{t['dated'] + len(t['undated'])}** "
+        f"- Opportunities with a link: **{t['opps'] - len(t['no_link'])}/{t['opps']}**; funding, events and trends with a "
+        f"deadline, start or published date: **{t['dated']}/{t['dated'] + len(t['undated'])}** "
         f"(testbeds are standing offers without a date)",
         f"- Match explanations that point to an existing company and opportunity: "
         f"**{t['explanations'] - len(t['dangling'])}/{t['explanations']}**",
@@ -134,7 +134,7 @@ def report(t, a, r) -> str:
         "that the system behaves as designed, not that a company would agree. That needs member feedback "
         "(the thumbs on the dashboard).",
     ]
-    fails = [("Items without a source", t["unsourced"]), ("Undated funding or events", t["undated"]),
+    fails = [("Items without a source", t["unsourced"]), ("Undated funding, events or trends", t["undated"]),
              ("Facts whose quote was not found", a["quote_failed"]), ("Dangling explanations", t["dangling"]),
              ("Contacts from another site", a["off_site"])]
     for title, xs in fails:
