@@ -6,7 +6,8 @@
 // island around it, each company a building on its area's island.
 import { OrbitControls, QuadraticBezierLine, RoundedBox } from "@react-three/drei";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowLeft } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
 import type { EdgeKind, Graph, GraphEdge } from "@/lib/types";
@@ -102,7 +103,12 @@ function useLayout(graph: Graph) {
 }
 
 /** Flies the orbit target (and camera) to the selected building; jumps when motion is reduced. */
-function Rig({ target }: { target: THREE.Vector3 | null }) {
+const HOME_CAMERA = new THREE.Vector3(0, 62, 80);
+const HOME_TARGET = new THREE.Vector3(0, 0, 0);
+
+/** Flies the orbit target (and camera) to the selected building, or home to the overview when `home`
+ *  changes; jumps instead of flying when the user prefers reduced motion. */
+function Rig({ target, home, onAway }: { target: THREE.Vector3 | null; home: number; onAway: () => void }) {
   const { camera, controls } = useThree();
   const goal = useRef<{ t: THREE.Vector3; c: THREE.Vector3 } | null>(null);
   const reduce = useMemo(() => window.matchMedia("(prefers-reduced-motion: reduce)").matches, []);
@@ -110,7 +116,11 @@ function Rig({ target }: { target: THREE.Vector3 | null }) {
     if (!target) return;
     const offset = new THREE.Vector3(10, 11, 14);
     goal.current = { t: target.clone(), c: target.clone().add(offset) };
-  }, [target]);
+    onAway();
+  }, [target, onAway]);
+  useEffect(() => {
+    if (home > 0) goal.current = { t: HOME_TARGET.clone(), c: HOME_CAMERA.clone() };
+  }, [home]);
   useFrame(() => {
     const ctl = controls as unknown as OrbitControlsImpl | null;
     if (!goal.current || !ctl) return;
@@ -194,7 +204,7 @@ function Label({
   );
 }
 
-function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme> }) {
+function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme>; home: number; onAway: () => void }) {
   const { graph, theme } = p;
   const { islands, buildings } = useLayout(graph);
   const [hover, setHover] = useState<string | null>(null);
@@ -369,8 +379,9 @@ function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme> }) {
         minDistance={12}
         maxDistance={120}
         maxPolarAngle={Math.PI / 2.15}
+        onStart={p.onAway}
       />
-      <Rig target={target} />
+      <Rig target={target} home={p.home} onAway={p.onAway} />
     </>
   );
 }
@@ -387,6 +398,21 @@ function hasWebGL() {
 export default function VirtualPark(props: VirtualParkProps) {
   const theme = useTheme();
   const [webgl] = useState(hasWebGL);
+  const [away, setAway] = useState(false); // zoomed into a company or moved the camera
+  const [home, setHome] = useState(0);
+  const markAway = useCallback(() => setAway(true), []);
+  const { onSelectNode } = props;
+  const backToOverview = useCallback(() => {
+    onSelectNode(null);
+    setHome((h) => h + 1);
+    setAway(false);
+  }, [onSelectNode]);
+  useEffect(() => {
+    if (!away) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && backToOverview();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [away, backToOverview]);
   if (!webgl) {
     return (
       <div className="grid aspect-[4/3] w-full place-items-center bg-surface-2 p-6 text-center text-sm text-text-2">
@@ -399,11 +425,21 @@ export default function VirtualPark(props: VirtualParkProps) {
       <Canvas
         shadows="percentage"
         dpr={[1, 2]}
-        camera={{ position: [0, 62, 80], fov: 42 }}
+        camera={{ position: HOME_CAMERA.toArray(), fov: 42 }}
         onPointerMissed={() => props.onSelectNode(null)}
       >
-        <Scene {...props} theme={theme} />
+        <Scene {...props} theme={theme} home={home} onAway={markAway} />
       </Canvas>
+      {away && (
+        <button
+          type="button"
+          onClick={backToOverview}
+          className="absolute left-3 top-3 inline-flex h-9 animate-fade-up items-center gap-1.5 rounded-md border border-border bg-surface/95 px-3 text-[13px] font-medium text-text shadow-md backdrop-blur transition-colors hover:bg-surface-2"
+          title="Back to the whole park (Esc)"
+        >
+          <ArrowLeft className="size-4" aria-hidden /> Overview
+        </button>
+      )}
       <p className="pointer-events-none absolute bottom-2 left-3 text-[11px] text-text-3">
         Stylised view, not a map · drag to rotate, right-drag to pan, scroll to zoom
       </p>
