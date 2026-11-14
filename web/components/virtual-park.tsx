@@ -4,8 +4,8 @@
 // (next/dynamic with ssr: false) and only when the user switches to 3D, so three.js stays out of the
 // main bundle. A diagram, not a map: Blue Science Park is the central island, each park focus area an
 // island around it, each company a building on its area's island.
-import { OrbitControls, QuadraticBezierLine, RoundedBox } from "@react-three/drei";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Edges, OrbitControls, QuadraticBezierLine, RoundedBox } from "@react-three/drei";
+import { Canvas, useFrame, useThree, type ThreeEvent } from "@react-three/fiber";
 import { ArrowLeft } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
@@ -37,7 +37,9 @@ function useTheme() {
       text: v("--text"),
       primary: v("--primary"),
       blue: v("--blue"),
-      water: v("--nav-2"),
+      water: v("--primary-soft"), // pale sea in light mode, deep teal in dark mode
+      // islands one step lighter than the water in both themes
+      island: v(window.matchMedia("(prefers-color-scheme: dark)").matches ? "--surface-2" : "--surface"),
       area: (a: string | null) => v(`--area-${a ?? "other"}`),
     };
   };
@@ -76,13 +78,24 @@ function useLayout(graph: Graph) {
     const count = (a: string) => companies.filter((c) => c.area === a).length;
     const total = areas.reduce((t, a) => t + count(a) + 3, 0);
     let acc = -Math.PI / 2;
-    const islands = areas.map((a) => {
+    const placed = areas.map((a) => {
       const share = ((count(a) + 3) / total) * Math.PI * 2;
       const angle = acc + share / 2;
       acc += share;
       const r = 3.2 + Math.sqrt(count(a)) * 1.9;
-      return { area: a, label: graph.areas[a], x: Math.cos(angle) * RING, z: Math.sin(angle) * RING, r };
+      return { area: a, label: graph.areas[a], angle, r };
     });
+    // turn the ring so the biggest island sits at the back, behind the tower: small islands there were
+    // hidden by the Blue Science Park label
+    const biggest = placed.reduce((m, i) => (count(i.area) > count(m.area) ? i : m), placed[0]);
+    const turn = biggest ? -Math.PI / 2 - biggest.angle : 0;
+    const islands = placed.map((i) => ({
+      area: i.area,
+      label: i.label,
+      r: i.r,
+      x: Math.cos(i.angle + turn) * RING,
+      z: Math.sin(i.angle + turn) * RING,
+    }));
     const buildings: Placed[] = [];
     for (const isl of islands) {
       // members first, so they sit in the middle of the island; phyllotaxis spreads buildings evenly
@@ -211,27 +224,45 @@ function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme>; home:
   const sel = p.selectedId ? buildings.get(p.selectedId) : undefined;
   const target = useMemo(() => (sel ? new THREE.Vector3(sel.x, sel.h / 2, sel.z) : null), [sel]);
   const showMembers = p.edges.some((e) => e.kind === "member");
+  const handlers = (id: string) => ({
+    onPointerOver: (e: ThreeEvent<PointerEvent>) => {
+      e.stopPropagation();
+      setHover(id);
+      p.onHover(id);
+      document.body.style.cursor = "pointer";
+    },
+    onPointerOut: () => {
+      setHover(null);
+      p.onHover(null);
+      document.body.style.cursor = "";
+    },
+    onClick: (e: ThreeEvent<MouseEvent>) => {
+      e.stopPropagation();
+      p.onSelectNode(id);
+    },
+  });
 
   return (
     <>
       <color attach="background" args={[theme.bg]} />
       <fog attach="fog" args={[theme.bg, 70, 150]} />
-      <hemisphereLight args={["#ffffff", theme.water, 0.9]} />
-      <directionalLight position={[30, 50, 20]} intensity={1.6} castShadow shadow-mapSize={[2048, 2048]}>
+      <ambientLight intensity={0.55} />
+      <hemisphereLight args={["#ffffff", theme.water, 0.6]} />
+      <directionalLight position={[30, 50, 20]} intensity={1.1} castShadow shadow-mapSize={[2048, 2048]}>
         <orthographicCamera attach="shadow-camera" args={[-50, 50, 50, -50, 1, 150]} />
       </directionalLight>
 
       {/* water */}
       <mesh rotation-x={-Math.PI / 2} position-y={-0.05} receiveShadow onClick={() => p.onSelectNode(null)}>
         <circleGeometry args={[110, 96]} />
-        <meshStandardMaterial color={theme.water} roughness={0.35} metalness={0.1} />
+        <meshStandardMaterial color={theme.water} roughness={0.9} metalness={0} />
       </mesh>
 
       {/* Blue Science Park: central island and tower */}
       <group onClick={(e) => (e.stopPropagation(), p.onSelectNode("bsp"))}>
         <mesh position-y={0.3} receiveShadow>
           <cylinderGeometry args={[PARK_RADIUS, PARK_RADIUS + 0.6, 0.6, 64]} />
-          <meshStandardMaterial color={theme.surface} roughness={0.9} />
+          <meshStandardMaterial color={theme.island} roughness={0.9} />
         </mesh>
         <mesh position-y={0.62} rotation-x={-Math.PI / 2}>
           <ringGeometry args={[PARK_RADIUS - 0.45, PARK_RADIUS, 96]} />
@@ -253,7 +284,7 @@ function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme>; home:
         <group key={isl.area} position={[isl.x, 0, isl.z]}>
           <mesh position-y={0.25} receiveShadow onClick={(e) => (e.stopPropagation(), p.onSelectNode(`area:${isl.area}`))}>
             <cylinderGeometry args={[isl.r, isl.r + 0.7, 0.5, 48]} />
-            <meshStandardMaterial color={theme.surface} roughness={0.95} />
+            <meshStandardMaterial color={theme.island} roughness={0.95} />
           </mesh>
           <mesh position-y={0.52} rotation-x={-Math.PI / 2}>
             <ringGeometry args={[isl.r - 0.35, isl.r, 64]} />
@@ -293,39 +324,33 @@ function Scene(p: VirtualParkProps & { theme: ReturnType<typeof useTheme>; home:
           const off = p.dimmed(n.id);
           return (
             <group key={n.id} position={[b.x, 0.5, b.z]}>
-              <RoundedBox
-                args={[1.5, b.h, 1.5]}
-                radius={0.12}
-                position-y={b.h / 2}
-                castShadow
-                receiveShadow
-                onPointerOver={(e) => (e.stopPropagation(), setHover(n.id), p.onHover(n.id), (document.body.style.cursor = "pointer"))}
-                onPointerOut={() => (setHover(null), p.onHover(null), (document.body.style.cursor = ""))}
-                onClick={(e) => (e.stopPropagation(), p.onSelectNode(n.id))}
-              >
-                {n.member ? (
+              {n.member ? (
+                <RoundedBox args={[1.5, b.h, 1.5]} radius={0.12} position-y={b.h / 2} castShadow={!off} receiveShadow {...handlers(n.id)}>
                   <meshStandardMaterial
                     color={c}
-                    roughness={0.45}
-                    metalness={0.15}
+                    roughness={0.55}
+                    metalness={0.05}
                     emissive={c}
-                    emissiveIntensity={lit ? 0.55 : 0.08}
+                    emissiveIntensity={lit ? 0.45 : 0}
                     transparent
                     opacity={off ? 0.15 : 1}
                   />
-                ) : (
-                  <meshPhysicalMaterial
+                </RoundedBox>
+              ) : (
+                <mesh position-y={b.h / 2} {...handlers(n.id)}>
+                  <boxGeometry args={[1.5, b.h, 1.5]} />
+                  <meshStandardMaterial
                     color={c}
-                    roughness={0.1}
-                    transmission={0.6}
-                    thickness={0.8}
+                    roughness={0.3}
                     emissive={c}
-                    emissiveIntensity={lit ? 0.5 : 0.04}
+                    emissiveIntensity={lit ? 0.45 : 0}
                     transparent
-                    opacity={off ? 0.1 : 0.55}
+                    opacity={off ? 0.06 : lit ? 0.6 : 0.28}
+                    depthWrite={false}
                   />
-                )}
-              </RoundedBox>
+                  <Edges color={c} transparent opacity={off ? 0.15 : 1} />
+                </mesh>
+              )}
               <Label
                 text={n.label}
                 sub={n.member ? "member" : "external"}
@@ -423,6 +448,7 @@ export default function VirtualPark(props: VirtualParkProps) {
   return (
     <div className="relative aspect-[4/3] w-full" role="img" aria-label="3D virtual science park. The list below the view has the same information.">
       <Canvas
+        flat
         shadows="percentage"
         dpr={[1, 2]}
         camera={{ position: HOME_CAMERA.toArray(), fov: 42 }}
