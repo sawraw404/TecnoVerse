@@ -24,6 +24,7 @@ Don't add features none of these ask for.
 | Company list | `tecnoverse/data/companies.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
 | Validation | **Pydantic** | Gemini takes Pydantic models as its response schema directly. |
 | Layout | README's layout, but the package folder is `tecnoverse/` (not `park_pilot/`), with `agents/`, `core/`, `eval/` | One file per agent keeps teammates out of each other's way. |
+| Frontend | **Next.js** (App Router, TypeScript, Tailwind) in `web/`, over a thin **FastAPI** layer `tecnoverse/api.py`. The Streamlit app stays as a fallback. | User decision (14 Nov), replacing "Streamlit only, no FastAPI, no JS frontend". |
 | Item status | README's: `fact`, `inferred`, `missing`, `user_confirmed`, `user_removed` | UI badge for `user_confirmed` reads "confirmed". Includes quote verification, correction history and public/private visibility. |
 | Boundary tests | README's **11** (covers the plan's 10) | |
 | Demo companies | Any of the 100 in `companies.json`; start the demo with an industrial or sensor company | Mirrors the brief's example journey. |
@@ -84,7 +85,9 @@ The service covers **100 companies in Blekinge county** in the park's focus area
 
 - **Git:** never commit to `main`. Work on a feature branch and open a PR. Pull `origin/main` before starting each piece; teammates push there.
 - The work split (README's A/B/C/D) is not decided yet. Start with the shared skeleton and `core/schemas.py`, which every slice needs.
-- Keep it small: plain functions, no abstractions without a second user, no frameworks beyond the stack (no LangChain, no FastAPI, no JS frontend).
-- Imports are relative to `tecnoverse/` (`from core.schemas import ...`), because `streamlit run tecnoverse/app.py` puts that folder on the path.
+- Keep it small: plain functions, no abstractions without a second user, no frameworks beyond the stack (Python agents, FastAPI layer, Next.js frontend; no LangChain).
+- Imports are relative to `tecnoverse/` (`from core.schemas import ...`), because both `streamlit run tecnoverse/app.py` and `uvicorn api:app --app-dir tecnoverse` put that folder on the path.
+- **API privacy:** `tecnoverse/api.py` derives the company from the logged-in user (`X-User-Id` header, sent only by the Next server), never from the request. Logic that decides what is shown (ranking, rank moves, public-only filtering) lives in Python, not in `web/`. Only the Next server calls the API.
+- `web/` uses Next.js 16: read `web/node_modules/next/dist/docs/` before relying on older Next.js conventions (see `web/AGENTS.md`).
 - Every LLM call goes through `core.llm.ask(system, user, Schema)`.
 - Never commit `.env`, API keys, Firebase credentials, or the two PDFs (the repo is public; both are in `.gitignore`).

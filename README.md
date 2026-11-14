@@ -36,10 +36,17 @@ python -m venv .venv
 .venv\Scripts\activate                 # Windows; source .venv/bin/activate elsewhere
 pip install -r requirements.txt
 copy .env.example .env                 # add GEMINI_API_KEY and GROQ_API_KEY (free tiers)
-streamlit run tecnoverse/app.py
+
+# 1. the API over the agents (repo root)
+uvicorn api:app --app-dir tecnoverse --host 127.0.0.1 --port 8000
+
+# 2. the web app (second terminal; Node 20+)
+cd web
+npm install
+npm run dev                            # http://localhost:3000
 ```
 
-Pick a user in the sidebar ("Log in as", SIMULATED). A company representative sees Profile, Dashboard and Chat; Blue Science Park staff also see the Staff page. The profiles, opportunities and judgements are committed, so the app runs without any API key except for the chat and for re-crawling a profile.
+Choose a user on the login page (SIMULATED, no passwords). A company representative sees Profile, Opportunities and Assistant; Blue Science Park staff also see Ecosystem; an external visitor sees all opportunities unranked. Set `API_URL` in `web/.env.local` if the API runs elsewhere. The earlier Streamlit app still runs as a fallback: `streamlit run tecnoverse/app.py`. The profiles, opportunities and judgements are committed, so the app runs without any API key except for the chat and for re-crawling a profile.
 
 Useful commands (run from `tecnoverse/`):
 
@@ -51,7 +58,8 @@ Useful commands (run from `tecnoverse/`):
 | `python -m eval.run_boundary` | Run the 11 boundary tests live on Groq → `eval/boundary_results.md` |
 | `python -m eval.quality` | Accuracy, relevance and traceability checks, offline → `eval/quality_report.md` |
 | `python -m agents.profiler` / `agents.editor` / `agents.assistant` / `agents.mapper` | Self-checks, no network |
-| `python -m pytest` (repo root) | Scoring tests |
+| `python -m pytest` (repo root) | Scoring tests and API access rules |
+| `npm run lint`, `npx tsc --noEmit`, `npm run build` (in `web/`) | Lint, type check and production build of the web app |
 
 ## Core flow
 
@@ -76,7 +84,8 @@ Company URL → baseline profile (with sources) → company reviews & edits
 
 | Part | Choice |
 |---|---|
-| Language / UI | Python, Streamlit (Profile, Dashboard, Chat, Staff and About pages) |
+| Agents / API | Python agents behind a thin FastAPI layer, `tecnoverse/api.py`. The company is derived from the logged-in user on the server, never from the request. |
+| UI | Next.js 16 (App Router, TypeScript, Server Components, Tailwind CSS, lucide icons) in `web/`. Design tokens in `web/app/globals.css`, primitives in `web/components/ui.tsx`. Light and dark themes. The Streamlit app in `tecnoverse/` is kept as a fallback. |
 | LLM | Gemini and Groq through one wrapper, `core/llm.py`: `ask(system, user, Schema, agent=...)`. The Profiler and Staff mapper start on Gemini (long inputs); every other agent starts on Groq. Each falls back to the other. |
 | Search | Keyword overlap in `agents/scoring.py`. Embeddings are a next step. |
 | Scraping | requests + BeautifulSoup. Identifies itself as `TecnoVerseBot/0.1 (hackathon prototype)` and respects robots.txt. |
@@ -86,8 +95,15 @@ Company URL → baseline profile (with sources) → company reviews & edits
 ## Repository layout
 
 ```
+web/                     # Next.js frontend
+  app/login/             # SIMULATED "log in as" page
+  app/(app)/             # profile, dashboard, chat, staff (staff only), about; shared shell, loading and error states
+  app/actions.ts         # server actions: login, profile edits, feedback, chat
+  components/            # design system (ui.tsx), shell, dialogs, cards, chat
+  lib/api.ts             # server-only API client; sends the user id, never runs in the browser
 tecnoverse/
-  app.py                 # Streamlit entry, "log in as" selector, page router
+  api.py                 # FastAPI layer used by web/
+  app.py                 # Streamlit entry (fallback), "log in as" selector, page router
   pages/                 # 1_Profile, 2_Dashboard, 3_Chat, 4_Staff (staff only), 5_About
   agents/
     profiler.py          # crawl + extract profile, quote check, contacts
@@ -115,7 +131,7 @@ tecnoverse/
     run_boundary.py      # 11 boundary tests -> boundary_results.md
     quality.py           # accuracy, relevance, traceability -> quality_report.md
     spotcheck.json       # hand-checked sample of facts
-tests/test_scoring.py
+tests/                   # test_scoring.py, test_api.py
 CLAUDE.md                # team decisions that settle where this README and the plan differ
 ```
 

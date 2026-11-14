@@ -3,7 +3,7 @@
 import { AlertTriangle, RotateCw } from "lucide-react";
 import { Button } from "@/components/ui";
 
-export default function Error({ error, retry }: { error: unknown; retry: () => void }) {
+export default function ErrorPage({ error, retry }: { error: unknown; retry: () => void }) {
   const message = error instanceof Error ? error.message : "Unknown error";
   return (
     <div className="mx-auto mt-10 max-w-lg rounded-lg border border-red/25 bg-surface p-6 shadow-sm">
