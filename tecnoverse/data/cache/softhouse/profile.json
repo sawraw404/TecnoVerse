@@ -181,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.437114Z",
+   "updated_at": "2026-11-14T01:47:58.231976Z",
    "needs_review": false
   },
   {
@@ -200,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.437931Z",
+   "updated_at": "2026-11-14T01:47:58.232683Z",
    "needs_review": false
   },
   {
@@ -219,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.438653Z",
+   "updated_at": "2026-11-14T01:47:58.233528Z",
    "needs_review": false
   },
   {
@@ -238,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.439317Z",
+   "updated_at": "2026-11-14T01:47:58.234379Z",
    "needs_review": false
   },
   {
@@ -257,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.440065Z",
+   "updated_at": "2026-11-14T01:47:58.235121Z",
    "needs_review": false
   },
   {
@@ -276,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.440734Z",
+   "updated_at": "2026-11-14T01:47:58.235789Z",
    "needs_review": false
   },
   {
@@ -295,7 +295,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.441409Z",
+   "updated_at": "2026-11-14T01:47:58.236446Z",
+   "needs_review": false
+  },
+  {
+   "id": "1e18b9dc963a4f81",
+   "company_id": "softhouse",
+   "field": "market",
+   "value": "Telecom and energy, among others",
+   "status": "fact",
+   "source_page_id": "8db2adad335d1eb5",
+   "quote": "Energi > Hjälper energibranschen att möta omställningen till hållbarhet med data och teknik",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.237109Z",
+   "needs_review": false
+  },
+  {
+   "id": "6ca7965169c1579c",
+   "company_id": "softhouse",
+   "field": "technology",
+   "value": "AI and machine learning",
+   "status": "fact",
+   "source_page_id": "8db2adad335d1eb5",
+   "quote": "IT-konsulter inom mjukvaruutveckling & AI",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.237772Z",
    "needs_review": false
   },
   {
@@ -314,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.441852Z",
+   "updated_at": "2026-11-14T01:47:58.238214Z",
    "needs_review": false
   },
   {
@@ -333,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445368Z",
+   "updated_at": "2026-11-14T01:47:58.241795Z",
    "needs_review": false
   },
   {
@@ -352,26 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445391Z",
-   "needs_review": false
-  },
-  {
-   "id": "daf31df70564e5fe",
-   "company_id": "softhouse",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445399Z",
+   "updated_at": "2026-11-14T01:47:58.241816Z",
    "needs_review": false
   },
   {
@@ -390,7 +409,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445404Z",
+   "updated_at": "2026-11-14T01:47:58.241825Z",
    "needs_review": false
   },
   {
@@ -409,26 +428,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445407Z",
-   "needs_review": false
-  },
-  {
-   "id": "12886d11ced3e8c1",
-   "company_id": "softhouse",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445410Z",
+   "updated_at": "2026-11-14T01:47:58.241831Z",
    "needs_review": false
   },
   {
@@ -447,7 +447,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445414Z",
+   "updated_at": "2026-11-14T01:47:58.241836Z",
    "needs_review": false
   },
   {
@@ -466,7 +466,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445417Z",
+   "updated_at": "2026-11-14T01:47:58.241839Z",
    "needs_review": false
   },
   {
@@ -485,7 +485,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445420Z",
+   "updated_at": "2026-11-14T01:47:58.241843Z",
    "needs_review": false
   },
   {
@@ -504,7 +504,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445424Z",
+   "updated_at": "2026-11-14T01:47:58.241846Z",
    "needs_review": false
   },
   {
@@ -523,7 +523,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445427Z",
+   "updated_at": "2026-11-14T01:47:58.241850Z",
    "needs_review": false
   },
   {
@@ -542,7 +542,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445435Z",
+   "updated_at": "2026-11-14T01:47:58.241859Z",
    "needs_review": false
   },
   {
@@ -561,7 +561,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.445440Z",
+   "updated_at": "2026-11-14T01:47:58.241865Z",
    "needs_review": false
   }
  ],

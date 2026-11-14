@@ -146,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.131958Z",
+   "updated_at": "2026-11-14T01:47:58.246653Z",
    "needs_review": false
   },
   {
@@ -165,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.132578Z",
+   "updated_at": "2026-11-14T01:47:58.247035Z",
    "needs_review": false
   },
   {
@@ -184,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.133557Z",
+   "updated_at": "2026-11-14T01:47:58.247397Z",
    "needs_review": false
   },
   {
@@ -203,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.134382Z",
+   "updated_at": "2026-11-14T01:47:58.247680Z",
    "needs_review": false
   },
   {
@@ -222,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.134643Z",
+   "updated_at": "2026-11-14T01:47:58.247955Z",
    "needs_review": false
   },
   {
@@ -241,7 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.134848Z",
+   "updated_at": "2026-11-14T01:47:58.248168Z",
    "needs_review": false
   },
   {
@@ -260,7 +260,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135190Z",
+   "updated_at": "2026-11-14T01:47:58.248518Z",
+   "needs_review": false
+  },
+  {
+   "id": "32c70084f4a9f316",
+   "company_id": "spirius",
+   "field": "expertise",
+   "value": "Long experience in telecom and device communication",
+   "status": "fact",
+   "source_page_id": "c911e25fefee9811",
+   "quote": "Spirius har lång erfarenhet av kommunikation mellan olika enheter",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.248855Z",
+   "needs_review": false
+  },
+  {
+   "id": "ce14b3b5f997b715",
+   "company_id": "spirius",
+   "field": "collaboration",
+   "value": "Partners in hosting, security and payment solutions",
+   "status": "fact",
+   "source_page_id": "c911e25fefee9811",
+   "quote": "Spirius har dessutom en rad ledande samarbetspartners exempelvis inom hosting, säkerhet eller betallösningar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.249196Z",
+   "needs_review": false
+  },
+  {
+   "id": "d360fd32effb117e",
+   "company_id": "spirius",
+   "field": "priority",
+   "value": "Offer the market's best SMS/RCS and IoT services",
+   "status": "fact",
+   "source_page_id": "c911e25fefee9811",
+   "quote": "Företaget grundades 2009 utifrån en vision om att erbjuda marknadens främsta tjänster inom SMS/RCS och IoT",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.249539Z",
    "needs_review": false
   },
   {
@@ -279,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135405Z",
+   "updated_at": "2026-11-14T01:47:58.249773Z",
    "needs_review": false
   },
   {
@@ -298,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135617Z",
+   "updated_at": "2026-11-14T01:47:58.249995Z",
    "needs_review": false
   },
   {
@@ -317,26 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135627Z",
-   "needs_review": false
-  },
-  {
-   "id": "32f5f95cee789a50",
-   "company_id": "spirius",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135633Z",
+   "updated_at": "2026-11-14T01:47:58.250006Z",
    "needs_review": false
   },
   {
@@ -355,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135638Z",
+   "updated_at": "2026-11-14T01:47:58.250012Z",
    "needs_review": false
   },
   {
@@ -374,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135641Z",
+   "updated_at": "2026-11-14T01:47:58.250017Z",
    "needs_review": false
   },
   {
@@ -393,45 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135644Z",
-   "needs_review": false
-  },
-  {
-   "id": "fd34d647515315c9",
-   "company_id": "spirius",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135648Z",
-   "needs_review": false
-  },
-  {
-   "id": "5ed060e43f6bbdad",
-   "company_id": "spirius",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135651Z",
+   "updated_at": "2026-11-14T01:47:58.250020Z",
    "needs_review": false
   },
   {
@@ -450,7 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135658Z",
+   "updated_at": "2026-11-14T01:47:58.250028Z",
    "needs_review": false
   },
   {
@@ -469,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.135662Z",
+   "updated_at": "2026-11-14T01:47:58.250033Z",
    "needs_review": false
   }
  ],

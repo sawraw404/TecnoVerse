@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.116123Z",
+   "updated_at": "2026-11-14T01:47:58.281577Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.116610Z",
+   "updated_at": "2026-11-14T01:47:58.282190Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.117054Z",
+   "updated_at": "2026-11-14T01:47:58.282695Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.117497Z",
+   "updated_at": "2026-11-14T01:47:58.283166Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118451Z",
+   "updated_at": "2026-11-14T01:47:58.284161Z",
+   "needs_review": false
+  },
+  {
+   "id": "4f442598ea3ef059",
+   "company_id": "techinova",
+   "field": "geography",
+   "value": "Karlskrona",
+   "status": "fact",
+   "source_page_id": "dc7384b48f87cffb",
+   "quote": "Karlskronaföretaget Techinova har under de senaste åren utvecklat sin teknik för framtidens elnät",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.285144Z",
+   "needs_review": false
+  },
+  {
+   "id": "b8d8bfd9ff473651",
+   "company_id": "techinova",
+   "field": "market",
+   "value": "Power distribution market",
+   "status": "fact",
+   "source_page_id": "dc7384b48f87cffb",
+   "quote": "Techinova utvecklar produkter och tjänster för eldistributionsmarknaden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.286161Z",
+   "needs_review": false
+  },
+  {
+   "id": "1ed41bd43ec3a7cc",
+   "company_id": "techinova",
+   "field": "collaboration",
+   "value": "CISSAN partners: Affärsverken, BTH and cybersecurity and AI specialists",
+   "status": "fact",
+   "source_page_id": "dc7384b48f87cffb",
+   "quote": "Arbetet har skett tillsammans med bland andra Affärsverken, Blekinge Tekniska Högskola",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.287158Z",
+   "needs_review": false
+  },
+  {
+   "id": "1149dc5716f48b57",
+   "company_id": "techinova",
+   "field": "project",
+   "value": "CISSAN EU research and innovation project",
+   "status": "fact",
+   "source_page_id": "dc7384b48f87cffb",
+   "quote": "Genom det internationella forsknings- och innovationsprojektet CISSAN har företaget fått möjlighet att utveckla och testa nya lösningar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.288190Z",
    "needs_review": false
   },
   {
@@ -181,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118797Z",
+   "updated_at": "2026-11-14T01:47:58.288494Z",
    "needs_review": false
   },
   {
@@ -200,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118823Z",
+   "updated_at": "2026-11-14T01:47:58.288502Z",
    "needs_review": false
   },
   {
@@ -219,26 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118829Z",
-   "needs_review": false
-  },
-  {
-   "id": "fb715524e929c3ab",
-   "company_id": "techinova",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118832Z",
+   "updated_at": "2026-11-14T01:47:58.288508Z",
    "needs_review": false
   },
   {
@@ -257,64 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118835Z",
-   "needs_review": false
-  },
-  {
-   "id": "0e24392e4e4b8e47",
-   "company_id": "techinova",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118838Z",
-   "needs_review": false
-  },
-  {
-   "id": "837e5b73c0faf363",
-   "company_id": "techinova",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118841Z",
-   "needs_review": false
-  },
-  {
-   "id": "f8c3a3755a3478c8",
-   "company_id": "techinova",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118844Z",
+   "updated_at": "2026-11-14T01:47:58.288511Z",
    "needs_review": false
   },
   {
@@ -333,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118847Z",
+   "updated_at": "2026-11-14T01:47:58.288515Z",
    "needs_review": false
   },
   {
@@ -352,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118853Z",
+   "updated_at": "2026-11-14T01:47:58.288522Z",
    "needs_review": false
   },
   {
@@ -371,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.118858Z",
+   "updated_at": "2026-11-14T01:47:58.288527Z",
    "needs_review": false
   }
  ],

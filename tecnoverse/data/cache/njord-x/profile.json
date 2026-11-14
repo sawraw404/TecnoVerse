@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:05.623070Z",
+  "last_crawled_at": "2026-11-14T01:28:09.072356Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:37:05.623070Z",
    "text": "",
    "content_hash": "c5f91baa9bad6e5e"
+  },
+  {
+   "id": "e7a51f1ca9135fdc",
+   "company_id": "njord-x",
+   "url": "https://www.njordx.com/2026/09/18/smm-2026-vilken-vecka-det-var",
+   "source_type": "company_site",
+   "title": "SMM 2026 – vilken vecka det var! – NjordX",
+   "retrieved_at": "2026-11-14T01:28:05.899508Z",
+   "text": "",
+   "content_hash": "d5af1ae2ce6b1149"
+  },
+  {
+   "id": "170d8890375853bc",
+   "company_id": "njord-x",
+   "url": "https://www.njordx.com/2026/03/10/njordx-skriver-avtal-med-norbit",
+   "source_type": "company_site",
+   "title": "NjordX skriver avtal med NORBIT – NjordX",
+   "retrieved_at": "2026-11-14T01:28:07.445264Z",
+   "text": "",
+   "content_hash": "f2f863fd3364effd"
+  },
+  {
+   "id": "5e38aa4f11fd5fab",
+   "company_id": "njord-x",
+   "url": "https://www.njordx.com/2026/03/10/njordx-blir-elwaves-partner-i-sverige",
+   "source_type": "company_site",
+   "title": "NjordX blir Elwaves partner i Sverige – NjordX",
+   "retrieved_at": "2026-11-14T01:28:09.072356Z",
+   "text": "",
+   "content_hash": "a23de37fc9db73a4"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.108638Z",
+   "updated_at": "2026-11-14T01:47:58.186480Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.108862Z",
+   "updated_at": "2026-11-14T01:47:58.186716Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.109210Z",
+   "updated_at": "2026-11-14T01:47:58.187073Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.109412Z",
+   "updated_at": "2026-11-14T01:47:58.187284Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.109676Z",
+   "updated_at": "2026-11-14T01:47:58.187614Z",
    "needs_review": false
   },
   {
@@ -211,7 +241,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.109930Z",
+   "updated_at": "2026-11-14T01:47:58.187974Z",
+   "needs_review": false
+  },
+  {
+   "id": "1ba1b0e3ff6e2c1a",
+   "company_id": "njord-x",
+   "field": "expertise",
+   "value": "Over 100 years of experience serving shipyards and shipping, since 1912",
+   "status": "fact",
+   "source_page_id": "edd29a9502519fba",
+   "quote": "Vår historia börjar 1912, med affärsidén att leverera varor och tjänster till den svenska varvs- och rederinäringen",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.188257Z",
+   "needs_review": false
+  },
+  {
+   "id": "3c651a7ad0c12f78",
+   "company_id": "njord-x",
+   "field": "collaboration",
+   "value": "Delivers system solutions together with partners",
+   "status": "fact",
+   "source_page_id": "7c67816359b79344",
+   "quote": "vår affärsidé är nu att leverera systemlösningar tillsammans med våra partners",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.188697Z",
+   "needs_review": false
+  },
+  {
+   "id": "44e3dc11e00366ad",
+   "company_id": "njord-x",
+   "field": "market",
+   "value": "Shipping and shipbuilding in Scandinavia",
+   "status": "fact",
+   "source_page_id": "7c67816359b79344",
+   "quote": "Sjöfartsindustrin och skeppsvarvsverksamheten har en lång och stolt historia i Skandinavien",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.189056Z",
    "needs_review": false
   },
   {
@@ -230,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110071Z",
+   "updated_at": "2026-11-14T01:47:58.189209Z",
    "needs_review": false
   },
   {
@@ -249,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110214Z",
+   "updated_at": "2026-11-14T01:47:58.189351Z",
    "needs_review": false
   },
   {
@@ -268,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110224Z",
+   "updated_at": "2026-11-14T01:47:58.189361Z",
    "needs_review": false
   },
   {
@@ -287,26 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110229Z",
-   "needs_review": false
-  },
-  {
-   "id": "48d0dcfaec387f5e",
-   "company_id": "njord-x",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110233Z",
+   "updated_at": "2026-11-14T01:47:58.189367Z",
    "needs_review": false
   },
   {
@@ -325,26 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110236Z",
-   "needs_review": false
-  },
-  {
-   "id": "739bb53e3c093d6f",
-   "company_id": "njord-x",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110239Z",
+   "updated_at": "2026-11-14T01:47:58.189371Z",
    "needs_review": false
   },
   {
@@ -363,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110242Z",
+   "updated_at": "2026-11-14T01:47:58.189375Z",
    "needs_review": false
   },
   {
@@ -382,26 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110245Z",
-   "needs_review": false
-  },
-  {
-   "id": "afef1472f928eafd",
-   "company_id": "njord-x",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110248Z",
+   "updated_at": "2026-11-14T01:47:58.189378Z",
    "needs_review": false
   },
   {
@@ -420,7 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110250Z",
+   "updated_at": "2026-11-14T01:47:58.189382Z",
    "needs_review": false
   },
   {
@@ -429,7 +459,7 @@
    "field": "possible_interest",
    "value": "Underwater sensor and seabed mapping test environments",
    "status": "inferred",
-   "source_page_id": "7c67816359b79344",
+   "source_page_id": "edd29a9502519fba",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It supplies hydroacoustic and underwater sensor systems.",
@@ -439,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110255Z",
+   "updated_at": "2026-11-14T01:47:58.189389Z",
    "needs_review": false
   },
   {
@@ -448,7 +478,7 @@
    "field": "possible_interest",
    "value": "Maritime defence and critical infrastructure protection",
    "status": "inferred",
-   "source_page_id": "c6fbd22724e19707",
+   "source_page_id": "edd29a9502519fba",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its new partner's sensors target defence and critical infrastructure.",
@@ -458,7 +488,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.110260Z",
+   "updated_at": "2026-11-14T01:47:58.189393Z",
    "needs_review": false
   }
  ],

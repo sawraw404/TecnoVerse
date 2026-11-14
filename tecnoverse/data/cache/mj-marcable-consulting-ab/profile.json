@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.079947Z",
+   "updated_at": "2026-11-14T01:47:58.146941Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080034Z",
+   "updated_at": "2026-11-14T01:47:58.147034Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080282Z",
+   "updated_at": "2026-11-14T01:47:58.147295Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080395Z",
+   "updated_at": "2026-11-14T01:47:58.147436Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080462Z",
+   "updated_at": "2026-11-14T01:47:58.147507Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080691Z",
+   "updated_at": "2026-11-14T01:47:58.147743Z",
+   "needs_review": false
+  },
+  {
+   "id": "fd00b1c533d2e74e",
+   "company_id": "mj-marcable-consulting-ab",
+   "field": "offering",
+   "value": "Acts as customer's representative during project execution",
+   "status": "fact",
+   "source_page_id": "0d82bb33f1ba5dd5",
+   "quote": "During the execution phase of the project MarCable Consulting can act as Customers' representative",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.147985Z",
+   "needs_review": false
+  },
+  {
+   "id": "dcce3db778aa2bac",
+   "company_id": "mj-marcable-consulting-ab",
+   "field": "offering",
+   "value": "Independent witness in failure investigations",
+   "status": "fact",
+   "source_page_id": "0d82bb33f1ba5dd5",
+   "quote": "MarCable Consulting can act as an independent witness in failure investigations",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.148216Z",
+   "needs_review": false
+  },
+  {
+   "id": "5b6195edf6451497",
+   "company_id": "mj-marcable-consulting-ab",
+   "field": "customer_group",
+   "value": "Also NGOs and local communities in TSO projects",
+   "status": "fact",
+   "source_page_id": "0d82bb33f1ba5dd5",
+   "quote": "If you are an NGO In the development phase of projects to be executed by TSO's",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.148486Z",
    "needs_review": false
   },
   {
@@ -200,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080706Z",
+   "updated_at": "2026-11-14T01:47:58.148527Z",
    "needs_review": false
   },
   {
@@ -219,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080713Z",
+   "updated_at": "2026-11-14T01:47:58.148544Z",
    "needs_review": false
   },
   {
@@ -238,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080718Z",
+   "updated_at": "2026-11-14T01:47:58.148551Z",
    "needs_review": false
   },
   {
@@ -257,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080721Z",
+   "updated_at": "2026-11-14T01:47:58.148556Z",
    "needs_review": false
   },
   {
@@ -276,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080724Z",
+   "updated_at": "2026-11-14T01:47:58.148561Z",
    "needs_review": false
   },
   {
@@ -295,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080727Z",
+   "updated_at": "2026-11-14T01:47:58.148565Z",
    "needs_review": false
   },
   {
@@ -314,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080731Z",
+   "updated_at": "2026-11-14T01:47:58.148568Z",
    "needs_review": false
   },
   {
@@ -333,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080734Z",
+   "updated_at": "2026-11-14T01:47:58.148572Z",
    "needs_review": false
   },
   {
@@ -342,7 +399,7 @@
    "field": "possible_interest",
    "value": "Offshore wind and grid interconnection projects",
    "status": "inferred",
-   "source_page_id": "fe5c835e247a74b8",
+   "source_page_id": "5aacd1450ccd815c",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its expertise is HVDC power cable systems.",
@@ -352,7 +409,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.080742Z",
+   "updated_at": "2026-11-14T01:47:58.148585Z",
    "needs_review": false
   }
  ],

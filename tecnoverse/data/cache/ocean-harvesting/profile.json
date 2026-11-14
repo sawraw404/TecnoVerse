@@ -17,7 +17,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:10.774351Z",
+  "last_crawled_at": "2026-11-14T01:28:05.261625Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -92,6 +92,16 @@
    "retrieved_at": "2026-11-13T13:37:10.774351Z",
    "text": "",
    "content_hash": "cd1ef1ef0d2730a2"
+  },
+  {
+   "id": "be2b4183d4be3bde",
+   "company_id": "ocean-harvesting",
+   "url": "https://oceanharvesting.com/2025/12/30/update-of-infinitywec-g7-pto-improvements",
+   "source_type": "company_site",
+   "title": "Update of InfinityWEC G7 PTO Improvements - Ocean Harvesting",
+   "retrieved_at": "2026-11-14T01:28:05.261625Z",
+   "text": "",
+   "content_hash": "700845a567c65ab8"
   }
  ],
  "items": [
@@ -111,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.115284Z",
+   "updated_at": "2026-11-14T01:47:58.196211Z",
    "needs_review": false
   },
   {
@@ -130,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.115611Z",
+   "updated_at": "2026-11-14T01:47:58.196539Z",
    "needs_review": false
   },
   {
@@ -149,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.116287Z",
+   "updated_at": "2026-11-14T01:47:58.197248Z",
    "needs_review": false
   },
   {
@@ -168,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.116644Z",
+   "updated_at": "2026-11-14T01:47:58.197574Z",
    "needs_review": false
   },
   {
@@ -187,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.117001Z",
+   "updated_at": "2026-11-14T01:47:58.197893Z",
    "needs_review": false
   },
   {
@@ -206,7 +216,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.117666Z",
+   "updated_at": "2026-11-14T01:47:58.198586Z",
    "needs_review": false
   },
   {
@@ -225,7 +235,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.118066Z",
+   "updated_at": "2026-11-14T01:47:58.199000Z",
+   "needs_review": false
+  },
+  {
+   "id": "b237a4060e7eeebe",
+   "company_id": "ocean-harvesting",
+   "field": "geography",
+   "value": "Campus Gräsvik, Karlskrona",
+   "status": "fact",
+   "source_page_id": "f77fcdeb639515d7",
+   "quote": "Ocean Harvesting Technologies AB Campus Gräsvik 28 371 75 Karlskrona Sweden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.199255Z",
+   "needs_review": false
+  },
+  {
+   "id": "12f21933e595b316",
+   "company_id": "ocean-harvesting",
+   "field": "collaboration",
+   "value": "Industrial partners; EU projects INFINITY and WECHULL+ financed via the Swedish Energy Agency (CETP)",
+   "status": "fact",
+   "source_page_id": "f77fcdeb639515d7",
+   "quote": "financed by the Swedish Energy Agency under in the Clean Energy Transition Partnership Program (CETP)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.199500Z",
+   "needs_review": false
+  },
+  {
+   "id": "ac5bffa4d1d96e18",
+   "company_id": "ocean-harvesting",
+   "field": "expertise",
+   "value": "Wave energy technology developed since 2017",
+   "status": "fact",
+   "source_page_id": "f77fcdeb639515d7",
+   "quote": "The technology has been developed since 2017",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.199755Z",
    "needs_review": false
   },
   {
@@ -244,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.118261Z",
+   "updated_at": "2026-11-14T01:47:58.199961Z",
    "needs_review": false
   },
   {
@@ -263,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.119259Z",
+   "updated_at": "2026-11-14T01:47:58.201005Z",
    "needs_review": false
   },
   {
@@ -282,26 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120210Z",
-   "needs_review": false
-  },
-  {
-   "id": "f1098af68e7fa197",
-   "company_id": "ocean-harvesting",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120218Z",
+   "updated_at": "2026-11-14T01:47:58.201994Z",
    "needs_review": false
   },
   {
@@ -320,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120223Z",
+   "updated_at": "2026-11-14T01:47:58.202002Z",
    "needs_review": false
   },
   {
@@ -339,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120226Z",
+   "updated_at": "2026-11-14T01:47:58.202007Z",
    "needs_review": false
   },
   {
@@ -358,45 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120229Z",
-   "needs_review": false
-  },
-  {
-   "id": "63c0420ec442680d",
-   "company_id": "ocean-harvesting",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120232Z",
-   "needs_review": false
-  },
-  {
-   "id": "0a57da6ba4830e2c",
-   "company_id": "ocean-harvesting",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120235Z",
+   "updated_at": "2026-11-14T01:47:58.202011Z",
    "needs_review": false
   },
   {
@@ -415,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120238Z",
+   "updated_at": "2026-11-14T01:47:58.202014Z",
    "needs_review": false
   },
   {
@@ -434,7 +444,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120244Z",
+   "updated_at": "2026-11-14T01:47:58.202022Z",
    "needs_review": false
   },
   {
@@ -453,7 +463,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.120248Z",
+   "updated_at": "2026-11-14T01:47:58.202042Z",
    "needs_review": false
   }
  ],

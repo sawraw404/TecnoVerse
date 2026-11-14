@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:16.481407Z",
+  "last_crawled_at": "2026-11-14T01:40:42.959175Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,146 @@
    "retrieved_at": "2026-11-13T13:37:16.481407Z",
    "text": "",
    "content_hash": "21b6c12dc6d549df"
+  },
+  {
+   "id": "ae9465df4ff0dd6a",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter och press - Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:31:06.383947Z",
+   "text": "",
+   "content_hash": "163db6b7460708cf"
+  },
+  {
+   "id": "bb6fe012dfc0a469",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight",
+   "source_type": "company_site",
+   "title": "Urban Insight - Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:31:08.196563Z",
+   "text": "",
+   "content_hash": "4fc378295ffcfb90"
+  },
+  {
+   "id": "6e9347759150a50d",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/sweco-i-almedalen",
+   "source_type": "company_site",
+   "title": "Sweco i Almedalen",
+   "retrieved_at": "2026-11-14T01:31:09.098929Z",
+   "text": "",
+   "content_hash": "d4e48c34207e58b2"
+  },
+  {
+   "id": "9a05391151d45454",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/framtidsfrukost/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Framtidsfrukost  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:31:09.821350Z",
+   "text": "",
+   "content_hash": "92fea6d0690e93c6"
+  },
+  {
+   "id": "1de33108e3f53441",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/pressmeddelanden/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Pressmeddelanden  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:40:33.787311Z",
+   "text": "",
+   "content_hash": "ecaf343f3f690d54"
+  },
+  {
+   "id": "a6404ab24bef85bf",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/nyheter/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Nyheter  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:40:34.601733Z",
+   "text": "",
+   "content_hash": "fd97a3d101e6344c"
+  },
+  {
+   "id": "89b8d087d4d57618",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/event/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Event  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:40:35.376993Z",
+   "text": "",
+   "content_hash": "74c42042372b7b72"
+  },
+  {
+   "id": "ea548f777a1fbdc6",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/studentevent/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Studentevent  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:40:36.101448Z",
+   "text": "",
+   "content_hash": "8c7a46e9a5ed1bcb"
+  },
+  {
+   "id": "b31ed7d4122076be",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/kategori/almedalen/?scroll-to=insights-list-filter",
+   "source_type": "company_site",
+   "title": "Almedalen  | Sweco Sweden",
+   "retrieved_at": "2026-11-14T01:40:36.905843Z",
+   "text": "",
+   "content_hash": "4c2327e96c024575"
+  },
+  {
+   "id": "a29985b24b4bef43",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight/resiliens",
+   "source_type": "company_site",
+   "title": "Resiliens och robust samhällsdesign | Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:40:39.122028Z",
+   "text": "",
+   "content_hash": "abb324da49db9208"
+  },
+  {
+   "id": "95a85d0b148cce70",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight/cirkularitet",
+   "source_type": "company_site",
+   "title": "Urban Insight: Mot cirkularitet - Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:40:40.094460Z",
+   "text": "",
+   "content_hash": "5d8fe5973c9a2529"
+  },
+  {
+   "id": "c29ddb21943d358f",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight/halsa-och-valmaende",
+   "source_type": "company_site",
+   "title": "Urban health & wellbeing – Urban Insight 2021",
+   "retrieved_at": "2026-11-14T01:40:40.973362Z",
+   "text": "",
+   "content_hash": "7751d9b8e5b8acbf"
+  },
+  {
+   "id": "bbe18e887aa6709e",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight/climate-action",
+   "source_type": "company_site",
+   "title": "Climate action - Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:40:41.839159Z",
+   "text": "",
+   "content_hash": "e7df966dafd34154"
+  },
+  {
+   "id": "02a27e4d3765216a",
+   "company_id": "sweco",
+   "url": "https://www.sweco.se/aktuellt/urban-insight/energi",
+   "source_type": "company_site",
+   "title": "Urban Energy - Sweco Sverige",
+   "retrieved_at": "2026-11-14T01:40:42.959175Z",
+   "text": "",
+   "content_hash": "42bbea24f808821e"
   }
  ],
  "items": [
@@ -116,7 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.603342Z",
+   "updated_at": "2026-11-14T01:47:58.269402Z",
    "needs_review": false
   },
   {
@@ -135,7 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.604130Z",
+   "updated_at": "2026-11-14T01:47:58.270291Z",
    "needs_review": false
   },
   {
@@ -154,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.604997Z",
+   "updated_at": "2026-11-14T01:47:58.271196Z",
    "needs_review": false
   },
   {
@@ -173,7 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.605828Z",
+   "updated_at": "2026-11-14T01:47:58.272097Z",
    "needs_review": false
   },
   {
@@ -192,7 +332,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.606539Z",
+   "updated_at": "2026-11-14T01:47:58.272837Z",
+   "needs_review": false
+  },
+  {
+   "id": "d1913c5622f4a257",
+   "company_id": "sweco",
+   "field": "expertise",
+   "value": "Nearly 400 experts in power distribution, power lines and substations",
+   "status": "fact",
+   "source_page_id": "a8cdb71b54e130f6",
+   "quote": "med närmare 400 experter inom kraftdistribution, kraftledningar, kraftsystem och transformatorstationer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.273689Z",
+   "needs_review": false
+  },
+  {
+   "id": "5bd72fdbfb3999b1",
+   "company_id": "sweco",
+   "field": "project",
+   "value": "Urban Insight report: 196 years to renew Sweden's drinking water network (2026-10-05)",
+   "status": "fact",
+   "source_page_id": "a8cdb71b54e130f6",
+   "quote": "Ny Sweco-rapport: 200 år att förnya Sveriges dricksvattennät",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.274532Z",
+   "needs_review": false
+  },
+  {
+   "id": "3cd0a15c2cde24ab",
+   "company_id": "sweco",
+   "field": "customer_group",
+   "value": "Public authorities such as Kriminalvården, Polismyndigheten and the courts",
+   "status": "fact",
+   "source_page_id": "a8cdb71b54e130f6",
+   "quote": "för fastigheter som används av bland annat Kriminalvården, Polismyndigheten och domstolsväsendet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.275380Z",
    "needs_review": false
   },
   {
@@ -211,7 +408,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607073Z",
+   "updated_at": "2026-11-14T01:47:58.275934Z",
    "needs_review": false
   },
   {
@@ -230,7 +427,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607085Z",
+   "updated_at": "2026-11-14T01:47:58.275947Z",
    "needs_review": false
   },
   {
@@ -249,7 +446,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607091Z",
+   "updated_at": "2026-11-14T01:47:58.275955Z",
    "needs_review": false
   },
   {
@@ -268,26 +465,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607095Z",
-   "needs_review": false
-  },
-  {
-   "id": "f7081f2995d34220",
-   "company_id": "sweco",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607098Z",
+   "updated_at": "2026-11-14T01:47:58.275962Z",
    "needs_review": false
   },
   {
@@ -306,7 +484,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607101Z",
+   "updated_at": "2026-11-14T01:47:58.275966Z",
    "needs_review": false
   },
   {
@@ -325,26 +503,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607104Z",
-   "needs_review": false
-  },
-  {
-   "id": "58ec4fd3892ee5ec",
-   "company_id": "sweco",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607107Z",
+   "updated_at": "2026-11-14T01:47:58.275970Z",
    "needs_review": false
   },
   {
@@ -363,26 +522,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607110Z",
-   "needs_review": false
-  },
-  {
-   "id": "d83301ef407d0d4e",
-   "company_id": "sweco",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607113Z",
+   "updated_at": "2026-11-14T01:47:58.275973Z",
    "needs_review": false
   },
   {
@@ -401,7 +541,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607116Z",
+   "updated_at": "2026-11-14T01:47:58.275978Z",
    "needs_review": false
   },
   {
@@ -420,7 +560,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607122Z",
+   "updated_at": "2026-11-14T01:47:58.275987Z",
    "needs_review": false
   },
   {
@@ -439,7 +579,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.607127Z",
+   "updated_at": "2026-11-14T01:47:58.275992Z",
    "needs_review": false
   }
  ],

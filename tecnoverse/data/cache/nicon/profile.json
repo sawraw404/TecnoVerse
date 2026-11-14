@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.431132Z",
+   "updated_at": "2026-11-14T01:47:58.180763Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.431403Z",
+   "updated_at": "2026-11-14T01:47:58.181077Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.431662Z",
+   "updated_at": "2026-11-14T01:47:58.181334Z",
    "needs_review": false
   },
   {
@@ -163,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.431909Z",
+   "updated_at": "2026-11-14T01:47:58.181583Z",
    "needs_review": false
   },
   {
@@ -182,7 +182,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.432157Z",
+   "updated_at": "2026-11-14T01:47:58.181830Z",
    "needs_review": false
   },
   {
@@ -201,7 +201,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.432378Z",
+   "updated_at": "2026-11-14T01:47:58.182018Z",
    "needs_review": false
   },
   {
@@ -220,7 +220,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.432645Z",
+   "updated_at": "2026-11-14T01:47:58.182273Z",
+   "needs_review": false
+  },
+  {
+   "id": "648cf2174b560d9b",
+   "company_id": "nicon",
+   "field": "technology",
+   "value": "Hosted Telme platform used in a browser or mobile app",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "Hostad lösning — inga extra investeringar, bara webbläsare eller mobilapp",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.182518Z",
+   "needs_review": false
+  },
+  {
+   "id": "c31be1da55e9fd80",
+   "company_id": "nicon",
+   "field": "technology",
+   "value": "Integrations with Visma, Fortnox, weighing systems and EDI via REST API",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "Integrationer Visma, Fortnox, vågsystem, EDI och branschspecifika system via REST API",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.182758Z",
+   "needs_review": false
+  },
+  {
+   "id": "7a173eff9748ec97",
+   "company_id": "nicon",
+   "field": "customer_group",
+   "value": "10,000+ users and thousands of customers since 1989",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "Verksamma sedan 1989 10 000+ användare 1000-tals nöjda kunder genom åren",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.182994Z",
+   "needs_review": false
+  },
+  {
+   "id": "44f8e8282946b19f",
+   "company_id": "nicon",
+   "field": "priority",
+   "value": "Focus on energy, recycling, transport and competence",
+   "status": "fact",
+   "source_page_id": "7b92b11040b48563",
+   "quote": "Fokus på energi, återvinning, transporter och kompetens",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.183215Z",
    "needs_review": false
   },
   {
@@ -239,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.432818Z",
+   "updated_at": "2026-11-14T01:47:58.183554Z",
    "needs_review": false
   },
   {
@@ -258,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.432995Z",
+   "updated_at": "2026-11-14T01:47:58.183883Z",
    "needs_review": false
   },
   {
@@ -277,26 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433005Z",
-   "needs_review": false
-  },
-  {
-   "id": "58f4721e937d736c",
-   "company_id": "nicon",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433012Z",
+   "updated_at": "2026-11-14T01:47:58.183904Z",
    "needs_review": false
   },
   {
@@ -315,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433017Z",
+   "updated_at": "2026-11-14T01:47:58.183914Z",
    "needs_review": false
   },
   {
@@ -334,26 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433020Z",
-   "needs_review": false
-  },
-  {
-   "id": "f1d57514b68037a5",
-   "company_id": "nicon",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433023Z",
+   "updated_at": "2026-11-14T01:47:58.183920Z",
    "needs_review": false
   },
   {
@@ -372,7 +410,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433026Z",
+   "updated_at": "2026-11-14T01:47:58.183924Z",
    "needs_review": false
   },
   {
@@ -391,26 +429,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433030Z",
-   "needs_review": false
-  },
-  {
-   "id": "65fd9cd0f35daaec",
-   "company_id": "nicon",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433033Z",
+   "updated_at": "2026-11-14T01:47:58.183929Z",
    "needs_review": false
   },
   {
@@ -429,7 +448,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.433039Z",
+   "updated_at": "2026-11-14T01:47:58.183939Z",
    "needs_review": false
   }
  ],

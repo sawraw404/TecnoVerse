@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.082912Z",
+   "updated_at": "2026-11-14T01:47:58.151143Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.085345Z",
+   "updated_at": "2026-11-14T01:47:58.153500Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.087588Z",
+   "updated_at": "2026-11-14T01:47:58.155926Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.088859Z",
+   "updated_at": "2026-11-14T01:47:58.157132Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.090014Z",
+   "updated_at": "2026-11-14T01:47:58.158207Z",
+   "needs_review": false
+  },
+  {
+   "id": "d103fde129bbc822",
+   "company_id": "nexer",
+   "field": "technology",
+   "value": "Industrial Internet of Things and IT/OT convergence",
+   "status": "fact",
+   "source_page_id": "3d60c6902979bc35",
+   "quote": "industries are exploring the possibilities of the Industrial Internet of Things (IIoT)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.159407Z",
+   "needs_review": false
+  },
+  {
+   "id": "f6cbdc38d69cf44d",
+   "company_id": "nexer",
+   "field": "offering",
+   "value": "Real-time cargo and asset tracking solution",
+   "status": "fact",
+   "source_page_id": "3d60c6902979bc35",
+   "quote": "Real-time Cargo and Asset Tracking Solution gives you information on exactly where your sensitive, valuable or time-critical goods are",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.160688Z",
+   "needs_review": false
+  },
+  {
+   "id": "bbbf17d7a3a926d5",
+   "company_id": "nexer",
+   "field": "market",
+   "value": "Manufacturing and warehousing",
+   "status": "fact",
+   "source_page_id": "3d60c6902979bc35",
+   "quote": "In manufacturing and warehousing, things never stand still",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.162027Z",
    "needs_review": false
   },
   {
@@ -211,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.096589Z",
+   "updated_at": "2026-11-14T01:47:58.168870Z",
    "needs_review": false
   },
   {
@@ -230,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103540Z",
+   "updated_at": "2026-11-14T01:47:58.175580Z",
    "needs_review": false
   },
   {
@@ -249,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103580Z",
+   "updated_at": "2026-11-14T01:47:58.175607Z",
    "needs_review": false
   },
   {
@@ -268,26 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103589Z",
-   "needs_review": false
-  },
-  {
-   "id": "5a7b885b6fa0a4c9",
-   "company_id": "nexer",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103594Z",
+   "updated_at": "2026-11-14T01:47:58.175621Z",
    "needs_review": false
   },
   {
@@ -306,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103598Z",
+   "updated_at": "2026-11-14T01:47:58.175627Z",
    "needs_review": false
   },
   {
@@ -325,26 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103601Z",
-   "needs_review": false
-  },
-  {
-   "id": "6a770233443ebd7d",
-   "company_id": "nexer",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103604Z",
+   "updated_at": "2026-11-14T01:47:58.175632Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103608Z",
+   "updated_at": "2026-11-14T01:47:58.175642Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103611Z",
+   "updated_at": "2026-11-14T01:47:58.175646Z",
    "needs_review": false
   },
   {
@@ -401,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103614Z",
+   "updated_at": "2026-11-14T01:47:58.175650Z",
    "needs_review": false
   },
   {
@@ -420,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103618Z",
+   "updated_at": "2026-11-14T01:47:58.175654Z",
    "needs_review": false
   },
   {
@@ -429,7 +448,7 @@
    "field": "possible_interest",
    "value": "Industry 4.0 and smart manufacturing collaborations",
    "status": "inferred",
-   "source_page_id": "3d60c6902979bc35",
+   "source_page_id": "ec2f36b62c548ed2",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It has a Smart Industries business area.",
@@ -439,7 +458,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103628Z",
+   "updated_at": "2026-11-14T01:47:58.175672Z",
    "needs_review": false
   },
   {
@@ -458,7 +477,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.103635Z",
+   "updated_at": "2026-11-14T01:47:58.175679Z",
    "needs_review": false
   }
  ],

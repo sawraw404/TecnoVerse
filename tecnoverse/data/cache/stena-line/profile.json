@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.597044Z",
+   "updated_at": "2026-11-14T01:47:58.254854Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.597809Z",
+   "updated_at": "2026-11-14T01:47:58.255644Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.598493Z",
+   "updated_at": "2026-11-14T01:47:58.256287Z",
+   "needs_review": false
+  },
+  {
+   "id": "c43ff915371b86a9",
+   "company_id": "stena-line",
+   "field": "collaboration",
+   "value": "Works with DAERA and DEFRA against transport of puppy-farm dogs",
+   "status": "fact",
+   "source_page_id": "64466f879228ec13",
+   "quote": "I samarbete med DAERA och DEFRA vidtar Stena Line aktivt åtgärder",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:58.259339Z",
    "needs_review": false
   },
   {
@@ -173,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599096Z",
+   "updated_at": "2026-11-14T01:47:58.259963Z",
    "needs_review": false
   },
   {
@@ -192,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599111Z",
+   "updated_at": "2026-11-14T01:47:58.259992Z",
    "needs_review": false
   },
   {
@@ -211,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599118Z",
+   "updated_at": "2026-11-14T01:47:58.260002Z",
    "needs_review": false
   },
   {
@@ -230,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599124Z",
+   "updated_at": "2026-11-14T01:47:58.260008Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599128Z",
+   "updated_at": "2026-11-14T01:47:58.260011Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599131Z",
+   "updated_at": "2026-11-14T01:47:58.260015Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599135Z",
+   "updated_at": "2026-11-14T01:47:58.260018Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599138Z",
+   "updated_at": "2026-11-14T01:47:58.260022Z",
    "needs_review": false
   },
   {
@@ -325,26 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599141Z",
-   "needs_review": false
-  },
-  {
-   "id": "412752e6101751e3",
-   "company_id": "stena-line",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599149Z",
+   "updated_at": "2026-11-14T01:47:58.260026Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599154Z",
+   "updated_at": "2026-11-14T01:47:58.260030Z",
    "needs_review": false
   },
   {
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.599164Z",
+   "updated_at": "2026-11-14T01:47:58.260038Z",
    "needs_review": false
   }
  ],
