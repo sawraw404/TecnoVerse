@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:58.140469Z",
+  "last_crawled_at": "2026-11-14T01:30:56.130910Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -77,6 +77,16 @@
    "retrieved_at": "2026-11-13T13:36:58.140469Z",
    "text": "",
    "content_hash": "fd6c581928edc406"
+  },
+  {
+   "id": "43b9d57cdbaa099c",
+   "company_id": "nicon",
+   "url": "https://nicon.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Sidan hittades inte — Nicon",
+   "retrieved_at": "2026-11-14T01:30:56.130910Z",
+   "text": "",
+   "content_hash": "d3fe22a45d39f298"
   }
  ],
  "items": [
@@ -96,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.105621Z",
+   "updated_at": "2026-11-14T01:42:05.431132Z",
    "needs_review": false
   },
   {
@@ -115,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.105893Z",
+   "updated_at": "2026-11-14T01:42:05.431403Z",
    "needs_review": false
   },
   {
@@ -134,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.106145Z",
+   "updated_at": "2026-11-14T01:42:05.431662Z",
    "needs_review": false
   },
   {
@@ -153,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.106393Z",
+   "updated_at": "2026-11-14T01:42:05.431909Z",
    "needs_review": false
   },
   {
@@ -172,7 +182,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.106631Z",
+   "updated_at": "2026-11-14T01:42:05.432157Z",
    "needs_review": false
   },
   {
@@ -191,7 +201,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.106804Z",
+   "updated_at": "2026-11-14T01:42:05.432378Z",
+   "needs_review": false
+  },
+  {
+   "id": "bcb757805de0400d",
+   "company_id": "nicon",
+   "field": "innovation",
+   "value": "SUCCCE: smart communication in complex care settings using smart glasses",
+   "status": "fact",
+   "source_page_id": "724c0d9a016d21a6",
+   "quote": "SUCCCE Smart kommunikation i komplexa vårdmiljöer med smarta glasögon",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.432645Z",
    "needs_review": false
   },
   {
@@ -210,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.106972Z",
+   "updated_at": "2026-11-14T01:42:05.432818Z",
    "needs_review": false
   },
   {
@@ -229,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107133Z",
+   "updated_at": "2026-11-14T01:42:05.432995Z",
    "needs_review": false
   },
   {
@@ -248,26 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107143Z",
-   "needs_review": false
-  },
-  {
-   "id": "5107ffca06860d34",
-   "company_id": "nicon",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107149Z",
+   "updated_at": "2026-11-14T01:42:05.433005Z",
    "needs_review": false
   },
   {
@@ -286,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107153Z",
+   "updated_at": "2026-11-14T01:42:05.433012Z",
    "needs_review": false
   },
   {
@@ -305,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107157Z",
+   "updated_at": "2026-11-14T01:42:05.433017Z",
    "needs_review": false
   },
   {
@@ -324,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107160Z",
+   "updated_at": "2026-11-14T01:42:05.433020Z",
    "needs_review": false
   },
   {
@@ -343,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107162Z",
+   "updated_at": "2026-11-14T01:42:05.433023Z",
    "needs_review": false
   },
   {
@@ -362,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107166Z",
+   "updated_at": "2026-11-14T01:42:05.433026Z",
    "needs_review": false
   },
   {
@@ -381,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107168Z",
+   "updated_at": "2026-11-14T01:42:05.433030Z",
    "needs_review": false
   },
   {
@@ -400,7 +410,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107171Z",
+   "updated_at": "2026-11-14T01:42:05.433033Z",
    "needs_review": false
   },
   {
@@ -419,7 +429,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.107177Z",
+   "updated_at": "2026-11-14T01:42:05.433039Z",
    "needs_review": false
   }
  ],

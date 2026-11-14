@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:36.595823Z",
+  "last_crawled_at": "2026-11-14T01:31:23.732996Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -27,6 +27,16 @@
    "retrieved_at": "2026-11-13T13:37:36.595823Z",
    "text": "",
    "content_hash": "1c42eb450b23e777"
+  },
+  {
+   "id": "0519c793d21b997a",
+   "company_id": "skolon",
+   "url": "https://skolon.com/nyheter/",
+   "source_type": "company_site",
+   "title": "Årets mest leste nyheter – dette har skjedd hos Skolon i 2019",
+   "retrieved_at": "2026-11-14T01:31:23.732996Z",
+   "text": "",
+   "content_hash": "d8946cdc1d9b2686"
   }
  ],
  "items": [
@@ -46,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.825876Z",
+   "updated_at": "2026-11-14T01:42:05.456650Z",
    "needs_review": false
   },
   {
@@ -65,7 +75,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826024Z",
+   "updated_at": "2026-11-14T01:42:05.456820Z",
+   "needs_review": false
+  },
+  {
+   "id": "3829135b1bf5e28c",
+   "company_id": "skolon",
+   "field": "innovation",
+   "value": "Launched AI Studio for building AI solutions for schools",
+   "status": "fact",
+   "source_page_id": "0519c793d21b997a",
+   "quote": "Skolon lanserer AI Studio",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.457961Z",
    "needs_review": false
   },
   {
@@ -84,26 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826031Z",
-   "needs_review": false
-  },
-  {
-   "id": "487a87c056a4a1f8",
-   "company_id": "skolon",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826035Z",
+   "updated_at": "2026-11-14T01:42:05.457969Z",
    "needs_review": false
   },
   {
@@ -122,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826038Z",
+   "updated_at": "2026-11-14T01:42:05.457973Z",
    "needs_review": false
   },
   {
@@ -141,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826041Z",
+   "updated_at": "2026-11-14T01:42:05.457977Z",
    "needs_review": false
   },
   {
@@ -160,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826044Z",
+   "updated_at": "2026-11-14T01:42:05.457980Z",
    "needs_review": false
   },
   {
@@ -179,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826047Z",
+   "updated_at": "2026-11-14T01:42:05.457983Z",
    "needs_review": false
   },
   {
@@ -198,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826050Z",
+   "updated_at": "2026-11-14T01:42:05.457985Z",
    "needs_review": false
   },
   {
@@ -217,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826053Z",
+   "updated_at": "2026-11-14T01:42:05.457988Z",
    "needs_review": false
   },
   {
@@ -236,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826056Z",
+   "updated_at": "2026-11-14T01:42:05.457992Z",
    "needs_review": false
   },
   {
@@ -255,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826058Z",
+   "updated_at": "2026-11-14T01:42:05.457995Z",
    "needs_review": false
   },
   {
@@ -274,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826061Z",
+   "updated_at": "2026-11-14T01:42:05.457998Z",
    "needs_review": false
   },
   {
@@ -293,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.826066Z",
+   "updated_at": "2026-11-14T01:42:05.458004Z",
    "needs_review": false
   }
  ],

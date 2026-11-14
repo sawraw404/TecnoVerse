@@ -17,7 +17,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:09.959126Z",
+  "last_crawled_at": "2026-11-14T01:40:35.549470Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -92,6 +92,76 @@
    "retrieved_at": "2026-11-13T13:37:09.959126Z",
    "text": "",
    "content_hash": "c2949b8a26a13773"
+  },
+  {
+   "id": "d30bcf34b7bba1de",
+   "company_id": "softhouse",
+   "url": "https://news.cision.com/se/softhouse",
+   "source_type": "news",
+   "title": "Softhouse",
+   "retrieved_at": "2026-11-14T01:28:06.651281Z",
+   "text": "",
+   "content_hash": "abd5593b3e608d4c"
+  },
+  {
+   "id": "7d208fcd5570d5bc",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/ny-satsning-for-att-starka-blekinges-foretag-genom-ai-teknologi/",
+   "source_type": "news",
+   "title": "Ny satsning för att stärka Blekinges företag genom AI-teknologi - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.774023Z",
+   "text": "",
+   "content_hash": "b41316791d832d3f"
+  },
+  {
+   "id": "47d3878b089d3bf9",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/konferens-pa-bth-i-nato-sponsrat-projekt-for-att-sakra-den-kritiska-internetinfrastrukturen",
+   "source_type": "company_site",
+   "title": "Konferens på BTH i Nato-sponsrat projekt för att säkra den kritiska internetinfrastrukturen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:28.963406Z",
+   "text": "",
+   "content_hash": "7916427a62010044"
+  },
+  {
+   "id": "685db9d704705443",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/hackathon-med-fokus-pa-ai-och-framtidens-klassrum-samlade-gymnasieelever-i-karlskrona",
+   "source_type": "company_site",
+   "title": "Hackathon med fokus på AI och framtidens klassrum samlade gymnasieelever i Karlskrona - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:30.738971Z",
+   "text": "",
+   "content_hash": "b45a455d8874d485"
+  },
+  {
+   "id": "4e54226c635c7643",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/fran-projekt-till-produkt-techinova-tar-nasta-steg-inom-sakrare-elnat",
+   "source_type": "company_site",
+   "title": "Från projekt till produkt – Techinova tar nästa steg inom säkrare elnät - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:32.274989Z",
+   "text": "",
+   "content_hash": "f7af6623577743e8"
+  },
+  {
+   "id": "10ef5ab4903771a3",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/fran-smart-refillosning-till-digital-affar-sa-tog-dosify-nasta-steg",
+   "source_type": "company_site",
+   "title": "Från smart refillösning till digital affär – så tog Dosify nästa steg - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:33.755823Z",
+   "text": "",
+   "content_hash": "46aa896862a7889e"
+  },
+  {
+   "id": "1ae98348f67b44f3",
+   "company_id": "softhouse",
+   "url": "https://www.bluesciencepark.se/aktuellt/projektet-sweden-secure-tech-hub-overtraffade-malen",
+   "source_type": "company_site",
+   "title": "Projektet Sweden Secure Tech Hub överträffade målen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:35.549470Z",
+   "text": "",
+   "content_hash": "68b98be53bee6d02"
   }
  ],
  "items": [
@@ -111,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.138287Z",
+   "updated_at": "2026-11-14T01:42:05.437114Z",
    "needs_review": false
   },
   {
@@ -130,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.138953Z",
+   "updated_at": "2026-11-14T01:42:05.437931Z",
    "needs_review": false
   },
   {
@@ -149,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.139609Z",
+   "updated_at": "2026-11-14T01:42:05.438653Z",
    "needs_review": false
   },
   {
@@ -168,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.140258Z",
+   "updated_at": "2026-11-14T01:42:05.439317Z",
    "needs_review": false
   },
   {
@@ -187,7 +257,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.140968Z",
+   "updated_at": "2026-11-14T01:42:05.440065Z",
+   "needs_review": false
+  },
+  {
+   "id": "8c473b45094df665",
+   "company_id": "softhouse",
+   "field": "innovation",
+   "value": "AI and computer vision for image classification at nanometre scale (customer case)",
+   "status": "fact",
+   "source_page_id": "8db2adad335d1eb5",
+   "quote": "AI och Computer Vision för bildklassificering i nanometerskala",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.440734Z",
+   "needs_review": false
+  },
+  {
+   "id": "976d895ee13d83c8",
+   "company_id": "softhouse",
+   "field": "innovation",
+   "value": "Connected dishwashers that report their own health status (customer case)",
+   "status": "fact",
+   "source_page_id": "8db2adad335d1eb5",
+   "quote": "Nu rapporterar diskmaskinerna själva in sin hälsostatus",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.441409Z",
    "needs_review": false
   },
   {
@@ -206,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.141389Z",
+   "updated_at": "2026-11-14T01:42:05.441852Z",
    "needs_review": false
   },
   {
@@ -225,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144772Z",
+   "updated_at": "2026-11-14T01:42:05.445368Z",
    "needs_review": false
   },
   {
@@ -244,26 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144798Z",
-   "needs_review": false
-  },
-  {
-   "id": "8479c7f9e9594c44",
-   "company_id": "softhouse",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144829Z",
+   "updated_at": "2026-11-14T01:42:05.445391Z",
    "needs_review": false
   },
   {
@@ -282,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144851Z",
+   "updated_at": "2026-11-14T01:42:05.445399Z",
    "needs_review": false
   },
   {
@@ -301,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144858Z",
+   "updated_at": "2026-11-14T01:42:05.445404Z",
    "needs_review": false
   },
   {
@@ -320,7 +409,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144864Z",
+   "updated_at": "2026-11-14T01:42:05.445407Z",
    "needs_review": false
   },
   {
@@ -339,7 +428,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144869Z",
+   "updated_at": "2026-11-14T01:42:05.445410Z",
    "needs_review": false
   },
   {
@@ -358,7 +447,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144875Z",
+   "updated_at": "2026-11-14T01:42:05.445414Z",
    "needs_review": false
   },
   {
@@ -377,7 +466,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144880Z",
+   "updated_at": "2026-11-14T01:42:05.445417Z",
    "needs_review": false
   },
   {
@@ -396,7 +485,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144885Z",
+   "updated_at": "2026-11-14T01:42:05.445420Z",
    "needs_review": false
   },
   {
@@ -415,7 +504,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144890Z",
+   "updated_at": "2026-11-14T01:42:05.445424Z",
    "needs_review": false
   },
   {
@@ -434,7 +523,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144895Z",
+   "updated_at": "2026-11-14T01:42:05.445427Z",
    "needs_review": false
   },
   {
@@ -453,7 +542,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144904Z",
+   "updated_at": "2026-11-14T01:42:05.445435Z",
    "needs_review": false
   },
   {
@@ -472,7 +561,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.144912Z",
+   "updated_at": "2026-11-14T01:42:05.445440Z",
    "needs_review": false
   }
  ],

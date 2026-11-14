@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:32.364270Z",
+  "last_crawled_at": "2026-11-14T01:40:45.872797Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,56 @@
    "retrieved_at": "2026-11-13T13:37:32.364270Z",
    "text": "",
    "content_hash": "507e20d98ca46a75"
+  },
+  {
+   "id": "784b3bdc3562fc51",
+   "company_id": "consid",
+   "url": "https://www.consid.com/sv/om-oss/nyheter/consid-vaxlar-upp-e-halsomyndighetens-digitala-arbetsplats",
+   "source_type": "company_site",
+   "title": "Consid växlar upp E-hälsomyndighetens digitala arbetsplats - Consid",
+   "retrieved_at": "2026-11-14T01:28:17.217035Z",
+   "text": "",
+   "content_hash": "f765fa9739513683"
+  },
+  {
+   "id": "6b6701932b622c4a",
+   "company_id": "consid",
+   "url": "https://www.consid.com/sv/om-oss/nyheter/consid-utses-till-top-company-2027-for-femte-aret-i-rad",
+   "source_type": "company_site",
+   "title": "Consid utses till Top Company 2027 – för femte året i rad - Consid",
+   "retrieved_at": "2026-11-14T01:28:18.252757Z",
+   "text": "",
+   "content_hash": "c349c8c218f421e6"
+  },
+  {
+   "id": "d511538a43b4ecc4",
+   "company_id": "consid",
+   "url": "https://www.consid.com/sv/om-oss/nyheter/consid-utses-till-sveriges-basta-arbetsgivare-for-sjatte-aret-i-rad",
+   "source_type": "company_site",
+   "title": "Consid utses till Sveriges bästa arbetsgivare – för sjätte året i rad - Consid",
+   "retrieved_at": "2026-11-14T01:28:19.142122Z",
+   "text": "",
+   "content_hash": "05967dea6b8d4c75"
+  },
+  {
+   "id": "692786bb96ad86b6",
+   "company_id": "consid",
+   "url": "https://www.consid.com/sv/om-oss/nyheter/storslam-for-consid-i-publishingpriset-2026-fem-priser-med-grand-prix-i-spetsen",
+   "source_type": "company_site",
+   "title": "Storslam för Consid i Publishingpriset 2026 – fem priser med Grand Prix i spetsen - Consid",
+   "retrieved_at": "2026-11-14T01:40:45.312011Z",
+   "text": "",
+   "content_hash": "932a2fa6e824fc98"
+  },
+  {
+   "id": "80a86fdd327c664c",
+   "company_id": "consid",
+   "url": "https://www.consid.com/sv/om-oss/nyheter/consid-vinner-tung-it-upphandling-fran-kammarkollegiet",
+   "source_type": "company_site",
+   "title": "Consid vinner tung IT-upphandling från Kammarkollegiet - Consid",
+   "retrieved_at": "2026-11-14T01:40:45.872797Z",
+   "text": "",
+   "content_hash": "cd06f28b743bb2ff"
   }
  ],
  "items": [
@@ -116,7 +166,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.781609Z",
+   "updated_at": "2026-11-14T01:42:05.476108Z",
    "needs_review": false
   },
   {
@@ -135,7 +185,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.782387Z",
+   "updated_at": "2026-11-14T01:42:05.476770Z",
    "needs_review": false
   },
   {
@@ -154,7 +204,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.782946Z",
+   "updated_at": "2026-11-14T01:42:05.477298Z",
    "needs_review": false
   },
   {
@@ -173,7 +223,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.783291Z",
+   "updated_at": "2026-11-14T01:42:05.477603Z",
+   "needs_review": false
+  },
+  {
+   "id": "97a654feb257897e",
+   "company_id": "consid",
+   "field": "innovation",
+   "value": "Data-driven energy platform for optimised use of renewable energy, built with Fortum Spring",
+   "status": "fact",
+   "source_page_id": "5ae56d941d625dce",
+   "quote": "Tillsammans med Fortum Spring har Consid utvecklat en bred och effektiv lösning för optimerad användning av förnybar energi",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.477906Z",
    "needs_review": false
   },
   {
@@ -192,7 +261,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785552Z",
+   "updated_at": "2026-11-14T01:42:05.479858Z",
    "needs_review": false
   },
   {
@@ -211,26 +280,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785577Z",
-   "needs_review": false
-  },
-  {
-   "id": "7ac56b019cce8927",
-   "company_id": "consid",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785587Z",
+   "updated_at": "2026-11-14T01:42:05.479872Z",
    "needs_review": false
   },
   {
@@ -249,7 +299,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785593Z",
+   "updated_at": "2026-11-14T01:42:05.479878Z",
    "needs_review": false
   },
   {
@@ -268,7 +318,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785597Z",
+   "updated_at": "2026-11-14T01:42:05.479882Z",
    "needs_review": false
   },
   {
@@ -287,7 +337,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785601Z",
+   "updated_at": "2026-11-14T01:42:05.479885Z",
    "needs_review": false
   },
   {
@@ -306,7 +356,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785604Z",
+   "updated_at": "2026-11-14T01:42:05.479888Z",
    "needs_review": false
   },
   {
@@ -325,7 +375,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785610Z",
+   "updated_at": "2026-11-14T01:42:05.479891Z",
    "needs_review": false
   },
   {
@@ -344,7 +394,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785615Z",
+   "updated_at": "2026-11-14T01:42:05.479893Z",
    "needs_review": false
   },
   {
@@ -363,7 +413,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785619Z",
+   "updated_at": "2026-11-14T01:42:05.479897Z",
    "needs_review": false
   },
   {
@@ -372,7 +422,7 @@
    "field": "possible_interest",
    "value": "Energy sector digitalisation projects",
    "status": "inferred",
-   "source_page_id": "5ae56d941d625dce",
+   "source_page_id": "58daa57b41795cce",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It built smart energy solutions with Fortum Spring.",
@@ -382,7 +432,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785630Z",
+   "updated_at": "2026-11-14T01:42:05.479903Z",
    "needs_review": false
   },
   {
@@ -391,7 +441,7 @@
    "field": "possible_interest",
    "value": "Public sector digital services",
    "status": "inferred",
-   "source_page_id": "18a2023650c29f52",
+   "source_page_id": "58daa57b41795cce",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It works with public sector clients.",
@@ -401,7 +451,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.785636Z",
+   "updated_at": "2026-11-14T01:42:05.479908Z",
    "needs_review": false
   }
  ],

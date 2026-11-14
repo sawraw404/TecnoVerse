@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194825Z",
+   "updated_at": "2026-11-14T01:42:05.496119Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194888Z",
+   "updated_at": "2026-11-14T01:42:05.496170Z",
+   "needs_review": false
+  },
+  {
+   "id": "df49b1c7e8c48629",
+   "company_id": "ardenity",
+   "field": "innovation",
+   "value": "Developing digital tools for communication, coordination and shared situational awareness at sea",
+   "status": "fact",
+   "source_page_id": "77de37e652a44e5d",
+   "quote": "developing digital tools to improve communication, coordination and shared situational awareness",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.496208Z",
    "needs_review": false
   },
   {
@@ -84,26 +103,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194897Z",
-   "needs_review": false
-  },
-  {
-   "id": "1115b84a69b70d43",
-   "company_id": "ardenity",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194903Z",
+   "updated_at": "2026-11-14T01:42:05.496215Z",
    "needs_review": false
   },
   {
@@ -122,7 +122,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194919Z",
+   "updated_at": "2026-11-14T01:42:05.496220Z",
    "needs_review": false
   },
   {
@@ -141,7 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194924Z",
+   "updated_at": "2026-11-14T01:42:05.496224Z",
    "needs_review": false
   },
   {
@@ -160,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194929Z",
+   "updated_at": "2026-11-14T01:42:05.496228Z",
    "needs_review": false
   },
   {
@@ -179,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194936Z",
+   "updated_at": "2026-11-14T01:42:05.496231Z",
    "needs_review": false
   },
   {
@@ -198,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194941Z",
+   "updated_at": "2026-11-14T01:42:05.496235Z",
    "needs_review": false
   },
   {
@@ -217,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194946Z",
+   "updated_at": "2026-11-14T01:42:05.496238Z",
    "needs_review": false
   },
   {
@@ -236,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194951Z",
+   "updated_at": "2026-11-14T01:42:05.496242Z",
    "needs_review": false
   },
   {
@@ -255,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194958Z",
+   "updated_at": "2026-11-14T01:42:05.496246Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194965Z",
+   "updated_at": "2026-11-14T01:42:05.496250Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194975Z",
+   "updated_at": "2026-11-14T01:42:05.496257Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.194984Z",
+   "updated_at": "2026-11-14T01:42:05.496263Z",
    "needs_review": false
   }
  ],

@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.384763Z",
+   "updated_at": "2026-11-14T01:42:05.481677Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385169Z",
+   "updated_at": "2026-11-14T01:42:05.482048Z",
+   "needs_review": false
+  },
+  {
+   "id": "82de6e92e2625fe8",
+   "company_id": "activout",
+   "field": "innovation",
+   "value": "MemberData.eu: a service for LinkedIn members in the EEA to explore their own data",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "En tjänst där LinkedIn-medlemmar i EES och Schweiz kan hämta och utforska sin egen LinkedIn-data",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.482397Z",
    "needs_review": false
   },
   {
@@ -84,26 +103,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385396Z",
-   "needs_review": false
-  },
-  {
-   "id": "34a719650f876b7b",
-   "company_id": "activout",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385402Z",
+   "updated_at": "2026-11-14T01:42:05.482627Z",
    "needs_review": false
   },
   {
@@ -122,7 +122,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385405Z",
+   "updated_at": "2026-11-14T01:42:05.482633Z",
    "needs_review": false
   },
   {
@@ -141,7 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385408Z",
+   "updated_at": "2026-11-14T01:42:05.482637Z",
    "needs_review": false
   },
   {
@@ -160,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385411Z",
+   "updated_at": "2026-11-14T01:42:05.482640Z",
    "needs_review": false
   },
   {
@@ -179,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385414Z",
+   "updated_at": "2026-11-14T01:42:05.482643Z",
    "needs_review": false
   },
   {
@@ -198,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385416Z",
+   "updated_at": "2026-11-14T01:42:05.482646Z",
    "needs_review": false
   },
   {
@@ -217,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385419Z",
+   "updated_at": "2026-11-14T01:42:05.482649Z",
    "needs_review": false
   },
   {
@@ -236,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385421Z",
+   "updated_at": "2026-11-14T01:42:05.482651Z",
    "needs_review": false
   },
   {
@@ -255,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385424Z",
+   "updated_at": "2026-11-14T01:42:05.482654Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385426Z",
+   "updated_at": "2026-11-14T01:42:05.482657Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.385431Z",
+   "updated_at": "2026-11-14T01:42:05.482662Z",
    "needs_review": false
   }
  ],

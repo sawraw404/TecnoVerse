@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T17:21:04.397226Z",
+  "last_crawled_at": "2026-11-14T01:31:51.187756Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,26 @@
    "retrieved_at": "2026-11-13T17:21:04.397226Z",
    "text": "",
    "content_hash": "0f1f861ddcc27a18"
+  },
+  {
+   "id": "bec8f57226dfc181",
+   "company_id": "hi-unity",
+   "url": "https://hiunity.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter och uppdateringar | Hi Unity",
+   "retrieved_at": "2026-11-14T01:31:48.507945Z",
+   "text": "",
+   "content_hash": "b7ff608f84533b36"
+  },
+  {
+   "id": "7efc5ea3f377c0dc",
+   "company_id": "hi-unity",
+   "url": "https://hiunity.se/nyheter/page/2",
+   "source_type": "company_site",
+   "title": "Nyheter och uppdateringar | Hi Unity",
+   "retrieved_at": "2026-11-14T01:31:51.187756Z",
+   "text": "",
+   "content_hash": "809eab9a61772ff8"
   }
  ],
  "items": [
@@ -116,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.613297Z",
+   "updated_at": "2026-11-14T01:42:05.460925Z",
    "needs_review": false
   },
   {
@@ -135,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.614434Z",
+   "updated_at": "2026-11-14T01:42:05.462200Z",
    "needs_review": false
   },
   {
@@ -154,7 +174,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.615462Z",
+   "updated_at": "2026-11-14T01:42:05.463331Z",
+   "needs_review": false
+  },
+  {
+   "id": "27760edbd9e1684b",
+   "company_id": "hi-unity",
+   "field": "innovation",
+   "value": "Prototype of a new procession candlestick with matching procession cross",
+   "status": "fact",
+   "source_page_id": "15574d0090625d69",
+   "quote": "Bland annat så håller vi på och granskar prototypen för en ny processionsljusstake med matchande processionskors",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.464366Z",
+   "needs_review": false
+  },
+  {
+   "id": "f635b170dd6015b2",
+   "company_id": "hi-unity",
+   "field": "innovation",
+   "value": "Recently launched flower stands, photo stands and photo frames",
+   "status": "fact",
+   "source_page_id": "15574d0090625d69",
+   "quote": "Nyligen har vi lanserat både blomsterställ , fotoställ och fotoramar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:42:05.465419Z",
    "needs_review": false
   },
   {
@@ -173,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.617896Z",
+   "updated_at": "2026-11-14T01:42:05.468794Z",
    "needs_review": false
   },
   {
@@ -192,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620247Z",
+   "updated_at": "2026-11-14T01:42:05.471305Z",
    "needs_review": false
   },
   {
@@ -211,26 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620259Z",
-   "needs_review": false
-  },
-  {
-   "id": "acf7fe23038db26f",
-   "company_id": "hi-unity",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620266Z",
+   "updated_at": "2026-11-14T01:42:05.471324Z",
    "needs_review": false
   },
   {
@@ -249,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620270Z",
+   "updated_at": "2026-11-14T01:42:05.471332Z",
    "needs_review": false
   },
   {
@@ -268,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620273Z",
+   "updated_at": "2026-11-14T01:42:05.471337Z",
    "needs_review": false
   },
   {
@@ -287,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620276Z",
+   "updated_at": "2026-11-14T01:42:05.471340Z",
    "needs_review": false
   },
   {
@@ -306,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620280Z",
+   "updated_at": "2026-11-14T01:42:05.471344Z",
    "needs_review": false
   },
   {
@@ -325,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620282Z",
+   "updated_at": "2026-11-14T01:42:05.471348Z",
    "needs_review": false
   },
   {
@@ -344,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620286Z",
+   "updated_at": "2026-11-14T01:42:05.471351Z",
    "needs_review": false
   },
   {
@@ -363,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620289Z",
+   "updated_at": "2026-11-14T01:42:05.471354Z",
    "needs_review": false
   },
   {
@@ -382,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620292Z",
+   "updated_at": "2026-11-14T01:42:05.471358Z",
    "needs_review": false
   },
   {
@@ -401,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620295Z",
+   "updated_at": "2026-11-14T01:42:05.471361Z",
    "needs_review": false
   },
   {
@@ -420,7 +459,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.620301Z",
+   "updated_at": "2026-11-14T01:42:05.471370Z",
    "needs_review": false
   }
  ],
