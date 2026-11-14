@@ -1,0 +1,102 @@
+{
+ "a9767a2004f6e8ac": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "1331288062a08b70": {
+  "ok": true,
+  "note": "general mailbox on the homepage"
+ },
+ "4518d7b5e005e34b": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "39c3222d36a893ab": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "697d8f540d0c701b": {
+  "ok": true,
+  "note": "undated in the item; the news URL is its source"
+ },
+ "024fb983bd97972e": {
+  "ok": true,
+  "note": "phone on the homepage"
+ },
+ "3708012270d97e31": {
+  "ok": true,
+  "note": "quote covers only the public sector; the same page also names service providers and enterprises"
+ },
+ "19e2a21c2c637b51": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "0e3355521b847f83": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "ba0cf6ebd3a264d9": {
+  "ok": false,
+  "note": "Ericsson contact was the park mailbox info@bluesciencepark.se, taken from a park news page. Same error found for Lysa, Dosify and Parkerra. Fixed: removed, and the Profiler now takes contacts from the company's own site only."
+ },
+ "c1a5c7054005fe7a": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "a110d30c60a34590": {
+  "ok": true,
+  "note": "contact page on the own site"
+ },
+ "72c1d59e9a26df41": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "3ea456833ef00211": {
+  "ok": true,
+  "note": "phone on the homepage"
+ },
+ "3d952472c609bee9": {
+  "ok": true,
+  "note": "phone on the homepage"
+ },
+ "e55b92d06cf332b7": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "1ed41bd43ec3a7cc": {
+  "ok": true,
+  "note": "the page continues: and companies specialised in cybersecurity and AI"
+ },
+ "0ce64eff45bfc89f": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "48da04cedadab91d": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "8aedb5260c1a2684": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "f635b170dd6015b2": {
+  "ok": true,
+  "note": "undated, on the current homepage"
+ },
+ "ee7519b49c3a48a7": {
+  "ok": true,
+  "note": "undated, on a current service page"
+ },
+ "a8ac389c9fca3e6f": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "9c109a586729ed9e": {
+  "ok": true,
+  "note": "value matches the quote"
+ },
+ "7a173eff9748ec97": {
+  "ok": true,
+  "note": "value matches the quote"
+ }
+}

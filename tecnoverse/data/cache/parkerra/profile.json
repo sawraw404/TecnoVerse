@@ -150,25 +150,6 @@
    "needs_review": false
   },
   {
-   "id": "e7d90b134fa9c12a",
-   "company_id": "parkerra",
-   "field": "contact",
-   "value": "Email: info@bluesciencepark.se",
-   "status": "fact",
-   "source_page_id": "248dd93df6d5ccfa",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:53:45.713367Z",
-   "needs_review": false
-  },
-  {
    "id": "24f1673786cd8523",
    "company_id": "parkerra",
    "field": "technology",
@@ -337,6 +318,25 @@
    "edited_by": null,
    "replaces_item_id": null,
    "updated_at": "2026-11-14T01:53:45.713417Z",
+   "needs_review": false
+  },
+  {
+   "id": "98207fbfeb025f6b",
+   "company_id": "parkerra",
+   "field": "contact",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T02:58:36.533262Z",
    "needs_review": false
   }
  ],

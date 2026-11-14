@@ -11,6 +11,7 @@ import hashlib
 import re
 from datetime import datetime, timezone
 from typing import Literal, get_args
+from urllib.parse import urlparse
 
 from pydantic import BaseModel, Field
 
@@ -150,10 +151,17 @@ def build_items(company_id: str, facts: list[_Fact], pages: list[SourcePage]) ->
     return list(items.values())
 
 
+def _site(url: str) -> str:
+    return urlparse(url).netloc.lower().removeprefix("www.")
+
+
 def assemble(company: Company, pages: list[SourcePage], simulated: bool, facts: list[_Fact],
              interests: list[_Interest], extracted_by: str | None = None) -> Profile:
     """Verify facts, add the published contact route, attach interests, save. Shared by the live Profiler and the importer."""
-    items = build_items(company.id, facts + auto_contacts(pages), pages)
+    # Contacts come from the company's own site only: a park news page would otherwise give the park's mailbox.
+    own = [p for p in pages if _site(p.url) == _site(company.website)]
+    facts = [f for f in facts if f.field != "contact" or _site(f.source_url) == _site(company.website)]
+    items = build_items(company.id, facts + auto_contacts(own), pages)
     verified = [i for i in items if i.status == "fact"]
     for it in interests:
         basis = verified[it.based_on - 1] if 1 <= it.based_on <= len(verified) else None
@@ -272,9 +280,10 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     assert not any(f.value.startswith("Phone") for f in auto_contacts([page, news]))
     import core.store as store  # the assemble check writes to a scratch folder, not the real cache
     real_cache, store.CACHE = store.CACHE, Path(tempfile.mkdtemp())
-    prof = assemble(Company(id="acme", name="Acme", website="https://acme.se/"), [page, kpage], False, [], [])
+    park = page.model_copy(update={"id": "p9", "url": "https://park.se/news/acme", "text": "Kontakt: info@park.se"})
+    prof = assemble(Company(id="acme", name="Acme", website="https://www.acme.se/"), [page, kpage, park], False, [], [])
     store.CACHE = real_cache  # the commands below must use the real cache
-    assert {i.value for i in prof.items if i.field == "contact" and i.status == "fact"} == found
+    assert {i.value for i in prof.items if i.field == "contact" and i.status == "fact"} == found  # no park mailbox
     print("ok")
 
     # Batch run: cd tecnoverse && python -m agents.profiler --all   (skips companies that already have a profile)

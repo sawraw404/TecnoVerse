@@ -250,25 +250,6 @@
    "needs_review": false
   },
   {
-   "id": "133574925422fc81",
-   "company_id": "dosify",
-   "field": "contact",
-   "value": "Email: info@bluesciencepark.se",
-   "status": "fact",
-   "source_page_id": "20a9db30be72270d",
-   "quote": "",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:53:45.705708Z",
-   "needs_review": false
-  },
-  {
    "id": "50b2fe8e1142f509",
    "company_id": "dosify",
    "field": "expertise",
@@ -342,6 +323,25 @@
    "edited_by": null,
    "replaces_item_id": null,
    "updated_at": "2026-11-14T01:53:45.705736Z",
+   "needs_review": false
+  },
+  {
+   "id": "e4ac75c4bdb495ff",
+   "company_id": "dosify",
+   "field": "contact",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T02:58:36.531006Z",
    "needs_review": false
   }
  ],

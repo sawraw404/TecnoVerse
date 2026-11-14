@@ -38,10 +38,16 @@ def load_explanations() -> dict[tuple[str, str], Explanation]:
 
 def match_company(company_id: str):
     """Re-rank all opportunities for one company. Returns the stored matches, best first."""
-    profile = load_profile(company_id)
-    previous = load_matches(company_id)
+    matches = rank(load_profile(company_id), load_matches(company_id))
+    save_matches(company_id, matches)
+    return matches
+
+
+def rank(profile, previous=()):
+    """The ranking for one profile, without saving (also used by eval/quality.py)."""
+    company_id = profile.company.id
     scored = rank_opportunities(profile.company, profile.items, load_opportunities(),
-                                load_feedback(company_id), previous)
+                                load_feedback(company_id), list(previous))
     judged = load_explanations()
     for s in scored:
         m = s.match
@@ -50,9 +56,8 @@ def match_company(company_id: str):
         base = m.final_score - m.feedback_adj
         m.final_score = round((1 - RERANK_WEIGHT) * base + RERANK_WEIGHT * m.llm_score + m.feedback_adj, 4)
     matches = sorted((s.match for s in scored), key=lambda m: -m.final_score)
-    for rank, m in enumerate(matches, 1):
-        m.rank = rank
-    save_matches(company_id, matches)
+    for n, m in enumerate(matches, 1):
+        m.rank = n
     return matches
 
 
