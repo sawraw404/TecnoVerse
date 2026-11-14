@@ -431,9 +431,9 @@ Not built: Saved tab and "Ask about this" on cards, a public/private toggle for 
 This follows the example user journey in the brief.
 1. **Profile:** as EmbeddedArt (sensor company), show the profile with sources, dates and fact/inferred/missing badges.
 2. **Refine:** correct an application area (the original stays in the history) and tick "testing is a priority". Testbeds move up the ranking.
-3. **Findings:** dashboard with funding, events and testbeds, showing links, dates, requirements, why each is relevant and the uncertainties. Switch to another company to show a different ranking.
-4. **Chat:** one relevant question, one unrelated request and one override attempt.
-5. **Staff view:** log in as staff and show a suggested connection between two members (e.g. Kiwa ↔ Veridens).
+3. **Findings:** the Opportunities page with funding, events and testbeds, showing links, dates, requirements, why each is relevant and the uncertainties. Switch to another company to show a different ranking.
+4. **Assistant:** one relevant question, one unrelated request and one override attempt.
+5. **Ecosystem (staff view):** log in as staff and show a suggested connection between two members (e.g. Kiwa ↔ Veridens).
 
 ## User journey coverage
 

@@ -1,9 +1,8 @@
 import { redirect } from "next/navigation";
-import { api, currentUserId } from "@/lib/api";
-import type { Me } from "@/lib/types";
+import { currentMe } from "@/lib/api";
 
 export default async function Home() {
-  if (!(await currentUserId())) redirect("/login");
-  const { user } = await api<Me>("/me");
-  redirect(user.role === "staff" ? "/staff" : user.role === "member" ? "/profile" : "/dashboard");
+  const me = await currentMe();
+  if (!me) redirect("/login");
+  redirect(me.user.role === "staff" ? "/staff" : me.user.role === "member" ? "/profile" : "/dashboard");
 }

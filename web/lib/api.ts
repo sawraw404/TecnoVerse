@@ -1,6 +1,7 @@
 // Server-side access to the Python API (tecnoverse/api.py). Only the Next server calls it; the browser
 // never sees the API or another company's data. The SIMULATED login is a cookie holding a user id.
 import { cookies } from "next/headers";
+import type { Me } from "./types";
 
 const API_URL = process.env.API_URL ?? "http://127.0.0.1:8000";
 export const USER_COOKIE = "tv_user";
@@ -16,6 +17,17 @@ export class ApiError extends Error {
 
 export async function currentUserId(): Promise<string | undefined> {
   return (await cookies()).get(USER_COOKIE)?.value;
+}
+
+/** The logged-in user, or null when nobody is logged in or the cookie names a user that no longer exists. */
+export async function currentMe(): Promise<Me | null> {
+  if (!(await currentUserId())) return null;
+  try {
+    return await api<Me>("/me");
+  } catch (e) {
+    if (e instanceof ApiError && e.status === 401) return null; // stale cookie: log in again
+    throw e;
+  }
 }
 
 export async function api<T>(path: string, init: { method?: string; body?: unknown } = {}): Promise<T> {
