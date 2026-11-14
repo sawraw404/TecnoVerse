@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:23:21.448704Z",
+  "last_crawled_at": "2026-11-14T01:30:46.342211Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -27,6 +27,16 @@
    "retrieved_at": "2026-11-13T13:23:03.944859Z",
    "text": "",
    "content_hash": "ff60d2ace1a526ca"
+  },
+  {
+   "id": "1e1ea3cd84f27083",
+   "company_id": "allbinary",
+   "url": "https://www.allbinary.se/news/",
+   "source_type": "company_site",
+   "title": "AllBinary Industries",
+   "retrieved_at": "2026-11-14T01:30:46.342211Z",
+   "text": "",
+   "content_hash": "35d97e019ab42bae"
   }
  ],
  "items": [
@@ -46,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.359210Z",
+   "updated_at": "2026-11-14T01:46:35.168311Z",
    "needs_review": false
   },
   {
@@ -65,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.359411Z",
+   "updated_at": "2026-11-14T01:46:35.168530Z",
    "needs_review": false
   },
   {
@@ -84,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.359613Z",
+   "updated_at": "2026-11-14T01:46:35.168738Z",
    "needs_review": false
   },
   {
@@ -103,7 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.359794Z",
+   "updated_at": "2026-11-14T01:46:35.168947Z",
    "needs_review": false
   },
   {
@@ -122,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.359972Z",
+   "updated_at": "2026-11-14T01:46:35.169149Z",
    "needs_review": false
   },
   {
@@ -141,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360141Z",
+   "updated_at": "2026-11-14T01:46:35.169347Z",
    "needs_review": false
   },
   {
@@ -160,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360304Z",
+   "updated_at": "2026-11-14T01:46:35.169541Z",
    "needs_review": false
   },
   {
@@ -179,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360471Z",
+   "updated_at": "2026-11-14T01:46:35.169765Z",
    "needs_review": false
   },
   {
@@ -198,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360713Z",
+   "updated_at": "2026-11-14T01:46:35.169960Z",
    "needs_review": false
   },
   {
@@ -217,7 +227,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360884Z",
+   "updated_at": "2026-11-14T01:46:35.170158Z",
+   "needs_review": false
+  },
+  {
+   "id": "6db1e48071132a34",
+   "company_id": "allbinary",
+   "field": "customer_group",
+   "value": "Traffic and transport companies",
+   "status": "fact",
+   "source_page_id": "1e1ea3cd84f27083",
+   "quote": "Våra kunder finns främst inom trafik- och transportbolag",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.170351Z",
+   "needs_review": false
+  },
+  {
+   "id": "057f6ab53d9d8629",
+   "company_id": "allbinary",
+   "field": "application_area",
+   "value": "Travel and traffic planning",
+   "status": "fact",
+   "source_page_id": "1e1ea3cd84f27083",
+   "quote": "där vi säljer lösningar för att underlätta resande och trafikplanering",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.170541Z",
+   "needs_review": false
+  },
+  {
+   "id": "65c08ac073d02fb2",
+   "company_id": "allbinary",
+   "field": "contact",
+   "value": "Email: info@allbinary.se",
+   "status": "fact",
+   "source_page_id": "e62fb190eefa982a",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.170811Z",
    "needs_review": false
   },
   {
@@ -236,45 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360894Z",
-   "needs_review": false
-  },
-  {
-   "id": "7681021ee79c8399",
-   "company_id": "allbinary",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360901Z",
-   "needs_review": false
-  },
-  {
-   "id": "7ea9c00fff8e74cf",
-   "company_id": "allbinary",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360905Z",
+   "updated_at": "2026-11-14T01:46:35.170818Z",
    "needs_review": false
   },
   {
@@ -293,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360909Z",
+   "updated_at": "2026-11-14T01:46:35.170823Z",
    "needs_review": false
   },
   {
@@ -312,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360913Z",
+   "updated_at": "2026-11-14T01:46:35.170827Z",
    "needs_review": false
   },
   {
@@ -331,7 +360,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:15.360917Z",
+   "updated_at": "2026-11-14T01:46:35.170830Z",
    "needs_review": false
   },
   {
@@ -350,7 +379,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:21.448656Z",
+   "updated_at": "2026-11-14T01:46:35.170837Z",
    "needs_review": false
   },
   {
@@ -369,7 +398,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:21.448684Z",
+   "updated_at": "2026-11-14T01:46:35.170841Z",
    "needs_review": false
   },
   {
@@ -388,7 +417,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:21.448691Z",
+   "updated_at": "2026-11-14T01:46:35.170845Z",
    "needs_review": false
   },
   {
@@ -407,7 +436,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:21.448695Z",
+   "updated_at": "2026-11-14T01:46:35.170848Z",
    "needs_review": false
   },
   {
@@ -426,9 +455,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:23:21.448699Z",
+   "updated_at": "2026-11-14T01:46:35.170852Z",
    "needs_review": false
   }
  ],
- "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

@@ -126,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.487989Z",
+   "updated_at": "2026-11-14T01:46:35.098224Z",
    "needs_review": false
   },
   {
@@ -145,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.488593Z",
+   "updated_at": "2026-11-14T01:46:35.098885Z",
    "needs_review": false
   },
   {
@@ -164,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.489361Z",
+   "updated_at": "2026-11-14T01:46:35.099775Z",
    "needs_review": false
   },
   {
@@ -183,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.490240Z",
+   "updated_at": "2026-11-14T01:46:35.100774Z",
    "needs_review": false
   },
   {
@@ -202,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.491016Z",
+   "updated_at": "2026-11-14T01:46:35.101627Z",
    "needs_review": false
   },
   {
@@ -221,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.491786Z",
+   "updated_at": "2026-11-14T01:46:35.102479Z",
    "needs_review": false
   },
   {
@@ -240,7 +240,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.492360Z",
+   "updated_at": "2026-11-14T01:46:35.103122Z",
    "needs_review": false
   },
   {
@@ -259,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.492929Z",
+   "updated_at": "2026-11-14T01:46:35.103782Z",
    "needs_review": false
   },
   {
@@ -278,7 +278,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.493693Z",
+   "updated_at": "2026-11-14T01:46:35.104790Z",
+   "needs_review": false
+  },
+  {
+   "id": "a0a33f81ddda9427",
+   "company_id": "addsecure",
+   "field": "market",
+   "value": "Europe is the main market; customers worldwide",
+   "status": "fact",
+   "source_page_id": "cf7d29d9e2efe8c8",
+   "quote": "Vår huvudmarknad är Europa, men vi servar kunder över hela världen",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.105468Z",
+   "needs_review": false
+  },
+  {
+   "id": "ba798a215ae95501",
+   "company_id": "addsecure",
+   "field": "customer_group",
+   "value": "Municipalities, authorities and voluntary organisations",
+   "status": "fact",
+   "source_page_id": "fc06257c329ce43e",
+   "quote": "kan kommuner, myndigheter och frivilligorganisationer samverka effektivt",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.106384Z",
+   "needs_review": false
+  },
+  {
+   "id": "47d446a4da9684b2",
+   "company_id": "addsecure",
+   "field": "project",
+   "value": "Daedalos Mobil DM5: mobile IT support for Swedish rescue services",
+   "status": "fact",
+   "source_page_id": "59ed02916ae3d12f",
+   "quote": "Daedalos Mobil DM5 är marknadens ledande system för mobilt IT-stöd till svensk räddningstjänst",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.107215Z",
+   "needs_review": false
+  },
+  {
+   "id": "731a40740d9575e5",
+   "company_id": "addsecure",
+   "field": "priority",
+   "value": "Contribute to a safer and smarter world",
+   "status": "fact",
+   "source_page_id": "cf7d29d9e2efe8c8",
+   "quote": "Vårt uppdrag är att bidra till en säkrare och smartare värld",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.107864Z",
    "needs_review": false
   },
   {
@@ -297,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494175Z",
+   "updated_at": "2026-11-14T01:46:35.109031Z",
    "needs_review": false
   },
   {
@@ -316,64 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494190Z",
-   "needs_review": false
-  },
-  {
-   "id": "a4027ce043be13d7",
-   "company_id": "addsecure",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494197Z",
-   "needs_review": false
-  },
-  {
-   "id": "0d899719f5418c03",
-   "company_id": "addsecure",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494201Z",
-   "needs_review": false
-  },
-  {
-   "id": "ac584406623435ba",
-   "company_id": "addsecure",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494206Z",
+   "updated_at": "2026-11-14T01:46:35.109046Z",
    "needs_review": false
   },
   {
@@ -392,26 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494209Z",
-   "needs_review": false
-  },
-  {
-   "id": "61f8ca081261e24d",
-   "company_id": "addsecure",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494213Z",
+   "updated_at": "2026-11-14T01:46:35.109054Z",
    "needs_review": false
   },
   {
@@ -430,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494220Z",
+   "updated_at": "2026-11-14T01:46:35.109063Z",
    "needs_review": false
   },
   {
@@ -449,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494224Z",
+   "updated_at": "2026-11-14T01:46:35.109069Z",
    "needs_review": false
   },
   {
@@ -468,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494228Z",
+   "updated_at": "2026-11-14T01:46:35.109072Z",
    "needs_review": false
   },
   {
@@ -487,7 +487,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494231Z",
+   "updated_at": "2026-11-14T01:46:35.109076Z",
    "needs_review": false
   },
   {
@@ -506,9 +506,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.494234Z",
+   "updated_at": "2026-11-14T01:46:35.109080Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, innovation added by Claude Code 2026-11-14"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

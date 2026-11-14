@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:13.134384Z",
+  "last_crawled_at": "2026-11-14T01:40:31.105682Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -77,6 +77,36 @@
    "retrieved_at": "2026-11-13T13:37:13.134384Z",
    "text": "",
    "content_hash": "489b9b751d805e7a"
+  },
+  {
+   "id": "ff8257ed16c18726",
+   "company_id": "compani-56",
+   "url": "https://compani56.se/blogg/marknadsforingsbudget-mall-for-excel-google-sheets-eller-numbers",
+   "source_type": "company_site",
+   "title": "Marknadsföringsbudget - Mall för Excel, Google Sheets eller Numbers - Compani 56",
+   "retrieved_at": "2026-11-14T01:27:54.291468Z",
+   "text": "",
+   "content_hash": "692d1e6f73c8c308"
+  },
+  {
+   "id": "d334e3d679f8bee5",
+   "company_id": "compani-56",
+   "url": "https://compani56.se/blogg/kom-igang-med-digital-marknadsforing",
+   "source_type": "company_site",
+   "title": "ShareHub - Kunskap inom professionell marknadsföring - Compani 56",
+   "retrieved_at": "2026-11-14T01:40:28.560238Z",
+   "text": "",
+   "content_hash": "15387646c0ecd0cf"
+  },
+  {
+   "id": "e1264ba0e242de5b",
+   "company_id": "compani-56",
+   "url": "https://compani56.se/blogg/sokordsoptimering-som-ger-resultat-sa-gor-du",
+   "source_type": "company_site",
+   "title": "Sökordsoptimering som ger resultat - Så gör du - Compani 56",
+   "retrieved_at": "2026-11-14T01:40:31.105682Z",
+   "text": "",
+   "content_hash": "6d7f8bfc360a7887"
   }
  ],
  "items": [
@@ -96,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.781553Z",
+   "updated_at": "2026-11-14T01:46:35.212377Z",
    "needs_review": false
   },
   {
@@ -115,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.782324Z",
+   "updated_at": "2026-11-14T01:46:35.212978Z",
    "needs_review": false
   },
   {
@@ -134,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.782995Z",
+   "updated_at": "2026-11-14T01:46:35.213543Z",
    "needs_review": false
   },
   {
@@ -153,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.783641Z",
+   "updated_at": "2026-11-14T01:46:35.214090Z",
    "needs_review": false
   },
   {
@@ -172,7 +202,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.784151Z",
+   "updated_at": "2026-11-14T01:46:35.214706Z",
+   "needs_review": false
+  },
+  {
+   "id": "8115c0cb530781e9",
+   "company_id": "compani-56",
+   "field": "geography",
+   "value": "Karlskrona (Lokstallarna)",
+   "status": "fact",
+   "source_page_id": "67245c447cefea0e",
+   "quote": "Blekingegatan 5, 371 34 Karlskrona (Lokstallarna)",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.215417Z",
+   "needs_review": false
+  },
+  {
+   "id": "38ec8f1063d5d69b",
+   "company_id": "compani-56",
+   "field": "priority",
+   "value": "Help brands grow through design, strategy and results-driven marketing",
+   "status": "fact",
+   "source_page_id": "67245c447cefea0e",
+   "quote": "Vi hjälper varumärken att växa genom att kombinera kick-ass design och banbrytande strategi",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.216000Z",
    "needs_review": false
   },
   {
@@ -191,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.784565Z",
+   "updated_at": "2026-11-14T01:46:35.216744Z",
    "needs_review": false
   },
   {
@@ -210,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.784935Z",
+   "updated_at": "2026-11-14T01:46:35.217485Z",
    "needs_review": false
   },
   {
@@ -229,7 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786864Z",
+   "updated_at": "2026-11-14T01:46:35.222311Z",
    "needs_review": false
   },
   {
@@ -248,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786872Z",
+   "updated_at": "2026-11-14T01:46:35.222334Z",
    "needs_review": false
   },
   {
@@ -267,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786877Z",
+   "updated_at": "2026-11-14T01:46:35.222339Z",
    "needs_review": false
   },
   {
@@ -286,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786880Z",
+   "updated_at": "2026-11-14T01:46:35.222344Z",
    "needs_review": false
   },
   {
@@ -305,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786883Z",
+   "updated_at": "2026-11-14T01:46:35.222347Z",
    "needs_review": false
   },
   {
@@ -324,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786886Z",
+   "updated_at": "2026-11-14T01:46:35.222350Z",
    "needs_review": false
   },
   {
@@ -343,26 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786889Z",
-   "needs_review": false
-  },
-  {
-   "id": "f875c91af95b351f",
-   "company_id": "compani-56",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786892Z",
+   "updated_at": "2026-11-14T01:46:35.222354Z",
    "needs_review": false
   },
   {
@@ -381,26 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786895Z",
-   "needs_review": false
-  },
-  {
-   "id": "4e13f721851014ac",
-   "company_id": "compani-56",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786898Z",
+   "updated_at": "2026-11-14T01:46:35.222358Z",
    "needs_review": false
   },
   {
@@ -419,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.786904Z",
+   "updated_at": "2026-11-14T01:46:35.222368Z",
    "needs_review": false
   }
  ],

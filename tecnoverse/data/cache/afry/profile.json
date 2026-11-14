@@ -231,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.418303Z",
+   "updated_at": "2026-11-14T01:46:35.148018Z",
    "needs_review": false
   },
   {
@@ -250,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.419219Z",
+   "updated_at": "2026-11-14T01:46:35.149041Z",
    "needs_review": false
   },
   {
@@ -269,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.420104Z",
+   "updated_at": "2026-11-14T01:46:35.150056Z",
    "needs_review": false
   },
   {
@@ -288,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.420983Z",
+   "updated_at": "2026-11-14T01:46:35.151055Z",
    "needs_review": false
   },
   {
@@ -307,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.421873Z",
+   "updated_at": "2026-11-14T01:46:35.152063Z",
    "needs_review": false
   },
   {
@@ -326,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.422821Z",
+   "updated_at": "2026-11-14T01:46:35.153070Z",
    "needs_review": false
   },
   {
@@ -345,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.423724Z",
+   "updated_at": "2026-11-14T01:46:35.154070Z",
    "needs_review": false
   },
   {
@@ -364,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.424638Z",
+   "updated_at": "2026-11-14T01:46:35.155054Z",
    "needs_review": false
   },
   {
@@ -383,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.425512Z",
+   "updated_at": "2026-11-14T01:46:35.156078Z",
    "needs_review": false
   },
   {
@@ -402,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.426335Z",
+   "updated_at": "2026-11-14T01:46:35.156990Z",
    "needs_review": false
   },
   {
@@ -421,7 +421,102 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427281Z",
+   "updated_at": "2026-11-14T01:46:35.158057Z",
+   "needs_review": false
+  },
+  {
+   "id": "7c7ab31e0dbfb3b5",
+   "company_id": "afry",
+   "field": "customer_group",
+   "value": "Several large industrial customers (Karlskrona office)",
+   "status": "fact",
+   "source_page_id": "7b559534188dca36",
+   "quote": "har flertalet stora industrikunder med långsiktighet i fokus",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.159011Z",
+   "needs_review": false
+  },
+  {
+   "id": "5bc127e77602e694",
+   "company_id": "afry",
+   "field": "priority",
+   "value": "Karlskrona office wants to profile itself in marine technology",
+   "status": "fact",
+   "source_page_id": "7b559534188dca36",
+   "quote": "Vi vill profilera oss inom marin teknik",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.160104Z",
+   "needs_review": false
+  },
+  {
+   "id": "0499f46dbae4f71c",
+   "company_id": "afry",
+   "field": "project",
+   "value": "Complete digital modelling team for Polestar 4",
+   "status": "fact",
+   "source_page_id": "91a087f008a4438d",
+   "quote": "Komplett digitalt modelleringsteam för Polestar 4",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.161316Z",
+   "needs_review": false
+  },
+  {
+   "id": "32156bcabdcef309",
+   "company_id": "afry",
+   "field": "project",
+   "value": "Road visualisation of the E20 past Mariestad for Trafikverket",
+   "status": "fact",
+   "source_page_id": "91a087f008a4438d",
+   "quote": "Visualisering av vägar - E20 förbi Mariestad",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.162362Z",
+   "needs_review": false
+  },
+  {
+   "id": "a589b4f70560754f",
+   "company_id": "afry",
+   "field": "geography",
+   "value": "Karlskrona office with about 40 employees",
+   "status": "fact",
+   "source_page_id": "7b559534188dca36",
+   "quote": "Vi är ett 40-tal medarbetare som verkar inom i huvudsak konstruktion, projektledning, bygg och fastighet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.163241Z",
    "needs_review": false
   },
   {
@@ -440,7 +535,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427798Z",
+   "updated_at": "2026-11-14T01:46:35.164508Z",
    "needs_review": false
   },
   {
@@ -459,45 +554,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427808Z",
-   "needs_review": false
-  },
-  {
-   "id": "49121fe01030e179",
-   "company_id": "afry",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427814Z",
-   "needs_review": false
-  },
-  {
-   "id": "0fa68791537ecc35",
-   "company_id": "afry",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427817Z",
+   "updated_at": "2026-11-14T01:46:35.164524Z",
    "needs_review": false
   },
   {
@@ -516,26 +573,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427821Z",
-   "needs_review": false
-  },
-  {
-   "id": "3a08878c67616df9",
-   "company_id": "afry",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427824Z",
+   "updated_at": "2026-11-14T01:46:35.164531Z",
    "needs_review": false
   },
   {
@@ -554,7 +592,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427835Z",
+   "updated_at": "2026-11-14T01:46:35.164541Z",
    "needs_review": false
   },
   {
@@ -573,7 +611,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427842Z",
+   "updated_at": "2026-11-14T01:46:35.164546Z",
    "needs_review": false
   },
   {
@@ -592,7 +630,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427846Z",
+   "updated_at": "2026-11-14T01:46:35.164550Z",
    "needs_review": false
   },
   {
@@ -611,7 +649,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427850Z",
+   "updated_at": "2026-11-14T01:46:35.164554Z",
    "needs_review": false
   },
   {
@@ -630,9 +668,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.427853Z",
+   "updated_at": "2026-11-14T01:46:35.164558Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, innovation added by Claude Code 2026-11-14"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

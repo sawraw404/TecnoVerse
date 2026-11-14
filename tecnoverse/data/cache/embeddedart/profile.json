@@ -126,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.104688Z",
+   "updated_at": "2026-11-14T01:46:35.258540Z",
    "needs_review": false
   },
   {
@@ -145,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.104992Z",
+   "updated_at": "2026-11-14T01:46:35.258802Z",
    "needs_review": false
   },
   {
@@ -164,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.105215Z",
+   "updated_at": "2026-11-14T01:46:35.259075Z",
    "needs_review": false
   },
   {
@@ -183,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.105595Z",
+   "updated_at": "2026-11-14T01:46:35.259399Z",
    "needs_review": false
   },
   {
@@ -202,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.105803Z",
+   "updated_at": "2026-11-14T01:46:35.259685Z",
    "needs_review": false
   },
   {
@@ -221,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.106184Z",
+   "updated_at": "2026-11-14T01:46:35.260154Z",
    "needs_review": false
   },
   {
@@ -240,7 +240,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.106415Z",
+   "updated_at": "2026-11-14T01:46:35.260386Z",
    "needs_review": false
   },
   {
@@ -259,7 +259,102 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.110295Z",
+   "updated_at": "2026-11-14T01:46:35.264111Z",
+   "needs_review": false
+  },
+  {
+   "id": "6bc90a77813a74c2",
+   "company_id": "embeddedart",
+   "field": "technology",
+   "value": "Sonar and UV sensors with passive and active hydrophones",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "både med passiva och aktiva hydrofoner",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.264494Z",
+   "needs_review": false
+  },
+  {
+   "id": "7bdee50c5d230e55",
+   "company_id": "embeddedart",
+   "field": "technology",
+   "value": "Low-power sensor platforms and communication for IoT",
+   "status": "fact",
+   "source_page_id": "b0822e5e5d3595b5",
+   "quote": "djup kunskap av att ta fram strömsnåla sensorplattformar samt effektiva kommunikationslösningar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.264725Z",
+   "needs_review": false
+  },
+  {
+   "id": "9c109a586729ed9e",
+   "company_id": "embeddedart",
+   "field": "application_area",
+   "value": "Detecting vessels or divers in the water",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Sonarer och UV-sensorer nyttjas till att detektera bland annat farkoster eller dykare i vattnet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.265092Z",
+   "needs_review": false
+  },
+  {
+   "id": "5e24226a5e91d95e",
+   "company_id": "embeddedart",
+   "field": "expertise",
+   "value": "Project management for radio, embedded systems and autonomous vehicles",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Vi har stark projekt- och produktledningskompetens speciellt kring radio, inbyggda system, autonoma farkoster",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.265445Z",
+   "needs_review": false
+  },
+  {
+   "id": "b1ec5c3f5b559dad",
+   "company_id": "embeddedart",
+   "field": "customer_group",
+   "value": "Navy vessels: ship engineering support through design and operation",
+   "status": "fact",
+   "source_page_id": "749ee0ff1ba34716",
+   "quote": "Våra ingenjörer inom skeppsteknik stöttar kunder under designfaser",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.265793Z",
    "needs_review": false
   },
   {
@@ -278,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.110446Z",
+   "updated_at": "2026-11-14T01:46:35.266099Z",
    "needs_review": false
   },
   {
@@ -297,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112824Z",
+   "updated_at": "2026-11-14T01:46:35.269110Z",
    "needs_review": false
   },
   {
@@ -316,64 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112848Z",
-   "needs_review": false
-  },
-  {
-   "id": "334d64a0cb993c7b",
-   "company_id": "embeddedart",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112858Z",
-   "needs_review": false
-  },
-  {
-   "id": "52231188b5627c23",
-   "company_id": "embeddedart",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112863Z",
-   "needs_review": false
-  },
-  {
-   "id": "33339c130b8e4265",
-   "company_id": "embeddedart",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112866Z",
+   "updated_at": "2026-11-14T01:46:35.269126Z",
    "needs_review": false
   },
   {
@@ -392,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112870Z",
+   "updated_at": "2026-11-14T01:46:35.269135Z",
    "needs_review": false
   },
   {
@@ -411,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112874Z",
+   "updated_at": "2026-11-14T01:46:35.269141Z",
    "needs_review": false
   },
   {
@@ -430,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112877Z",
+   "updated_at": "2026-11-14T01:46:35.269146Z",
    "needs_review": false
   },
   {
@@ -449,7 +487,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112885Z",
+   "updated_at": "2026-11-14T01:46:35.269157Z",
    "needs_review": false
   },
   {
@@ -468,7 +506,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.112890Z",
+   "updated_at": "2026-11-14T01:46:35.269162Z",
    "needs_review": false
   }
  ],

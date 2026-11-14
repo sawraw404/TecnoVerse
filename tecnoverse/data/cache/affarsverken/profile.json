@@ -136,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.078762Z",
+   "updated_at": "2026-11-14T01:46:35.112823Z",
    "needs_review": false
   },
   {
@@ -155,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.079322Z",
+   "updated_at": "2026-11-14T01:46:35.113318Z",
    "needs_review": false
   },
   {
@@ -174,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.079775Z",
+   "updated_at": "2026-11-14T01:46:35.113805Z",
    "needs_review": false
   },
   {
@@ -193,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.080312Z",
+   "updated_at": "2026-11-14T01:46:35.114404Z",
    "needs_review": false
   },
   {
@@ -212,7 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.080888Z",
+   "updated_at": "2026-11-14T01:46:35.115062Z",
    "needs_review": false
   },
   {
@@ -231,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.081541Z",
+   "updated_at": "2026-11-14T01:46:35.115671Z",
    "needs_review": false
   },
   {
@@ -250,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.082728Z",
+   "updated_at": "2026-11-14T01:46:35.116309Z",
    "needs_review": false
   },
   {
@@ -269,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.083130Z",
+   "updated_at": "2026-11-14T01:46:35.116731Z",
    "needs_review": false
   },
   {
@@ -288,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.083711Z",
+   "updated_at": "2026-11-14T01:46:35.117390Z",
    "needs_review": false
   },
   {
@@ -307,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.084232Z",
+   "updated_at": "2026-11-14T01:46:35.117996Z",
    "needs_review": false
   },
   {
@@ -326,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.084746Z",
+   "updated_at": "2026-11-14T01:46:35.118663Z",
    "needs_review": false
   },
   {
@@ -345,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.085270Z",
+   "updated_at": "2026-11-14T01:46:35.119355Z",
    "needs_review": false
   },
   {
@@ -364,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.085815Z",
+   "updated_at": "2026-11-14T01:46:35.120011Z",
    "needs_review": false
   },
   {
@@ -383,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.086195Z",
+   "updated_at": "2026-11-14T01:46:35.120450Z",
    "needs_review": false
   },
   {
@@ -402,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.086561Z",
+   "updated_at": "2026-11-14T01:46:35.120871Z",
    "needs_review": false
   },
   {
@@ -421,7 +421,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.087513Z",
+   "updated_at": "2026-11-14T01:46:35.121976Z",
+   "needs_review": false
+  },
+  {
+   "id": "6388b8df70bb4496",
+   "company_id": "affarsverken",
+   "field": "application_area",
+   "value": "IoT over LoRa to monitor buildings and outdoor sites, e.g. walkway temperature for de-icing",
+   "status": "fact",
+   "source_page_id": "47f1199ffb0d1927",
+   "quote": "Temperaturövervakning av gångbanor för att övervaka temperatur och larma vid behov av halkbekämpning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.122608Z",
+   "needs_review": false
+  },
+  {
+   "id": "bfc82ab6cc17daa5",
+   "company_id": "affarsverken",
+   "field": "market",
+   "value": "Electricity market, including the ancillary services market for batteries",
+   "status": "fact",
+   "source_page_id": "27850c6b38fb3212",
+   "quote": "Affärsverken gör det möjligt för dig att delta på stödtjänstmarknaden och sälja flexibla resurser",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.123042Z",
    "needs_review": false
   },
   {
@@ -440,7 +478,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.089793Z",
+   "updated_at": "2026-11-14T01:46:35.128939Z",
    "needs_review": false
   },
   {
@@ -459,7 +497,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092037Z",
+   "updated_at": "2026-11-14T01:46:35.134679Z",
    "needs_review": false
   },
   {
@@ -478,7 +516,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092052Z",
+   "updated_at": "2026-11-14T01:46:35.134707Z",
    "needs_review": false
   },
   {
@@ -497,45 +535,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092059Z",
-   "needs_review": false
-  },
-  {
-   "id": "87e6de2bab44113b",
-   "company_id": "affarsverken",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092064Z",
-   "needs_review": false
-  },
-  {
-   "id": "75203fbc925250ea",
-   "company_id": "affarsverken",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092067Z",
+   "updated_at": "2026-11-14T01:46:35.134719Z",
    "needs_review": false
   },
   {
@@ -554,7 +554,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092071Z",
+   "updated_at": "2026-11-14T01:46:35.134725Z",
    "needs_review": false
   },
   {
@@ -573,7 +573,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092089Z",
+   "updated_at": "2026-11-14T01:46:35.134735Z",
    "needs_review": false
   },
   {
@@ -592,7 +592,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092098Z",
+   "updated_at": "2026-11-14T01:46:35.134740Z",
    "needs_review": false
   },
   {
@@ -611,7 +611,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092103Z",
+   "updated_at": "2026-11-14T01:46:35.134744Z",
    "needs_review": false
   },
   {
@@ -630,7 +630,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092107Z",
+   "updated_at": "2026-11-14T01:46:35.134748Z",
    "needs_review": false
   },
   {
@@ -649,9 +649,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:35:03.092110Z",
+   "updated_at": "2026-11-14T01:46:35.134751Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, innovation added by Claude Code 2026-11-14"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:25:16.857404Z",
+  "last_crawled_at": "2026-11-14T01:27:50.634873Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:24:51.617307Z",
    "text": "",
    "content_hash": "5584a309da5770b1"
+  },
+  {
+   "id": "767964aef439c67d",
+   "company_id": "cleura",
+   "url": "https://cleura.com/news/cgi-strengthens-its-offering-by-partnering-with-cleura",
+   "source_type": "company_site",
+   "title": "CGI strengthens its offering by partnering with Cleura",
+   "retrieved_at": "2026-11-14T01:27:49.369496Z",
+   "text": "",
+   "content_hash": "0067c090250c48c0"
+  },
+  {
+   "id": "2467034c9f324556",
+   "company_id": "cleura",
+   "url": "https://cleura.com/news/dnsaas-now-available-in-cleura-cloud",
+   "source_type": "company_site",
+   "title": "DNSaaS now available in Cleura Cloud - Cleura",
+   "retrieved_at": "2026-11-14T01:27:49.986539Z",
+   "text": "",
+   "content_hash": "9051e9c03ee6fa4f"
+  },
+  {
+   "id": "6b5cf4f424ad4005",
+   "company_id": "cleura",
+   "url": "https://cleura.com/news/certificates-of-completion-are-now-available-in-cleura-cloud-academy",
+   "source_type": "company_site",
+   "title": "Certification of completion now available in Cleura Cloud Academy",
+   "retrieved_at": "2026-11-14T01:27:50.634873Z",
+   "text": "",
+   "content_hash": "c3dbf491b87d81e8"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.387787Z",
+   "updated_at": "2026-11-14T01:46:35.192604Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.388398Z",
+   "updated_at": "2026-11-14T01:46:35.193303Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.389164Z",
+   "updated_at": "2026-11-14T01:46:35.194205Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.389715Z",
+   "updated_at": "2026-11-14T01:46:35.194939Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.390502Z",
+   "updated_at": "2026-11-14T01:46:35.195838Z",
    "needs_review": false
   },
   {
@@ -211,7 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.391318Z",
+   "updated_at": "2026-11-14T01:46:35.196722Z",
    "needs_review": false
   },
   {
@@ -230,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.392098Z",
+   "updated_at": "2026-11-14T01:46:35.197606Z",
    "needs_review": false
   },
   {
@@ -249,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.392752Z",
+   "updated_at": "2026-11-14T01:46:35.198352Z",
    "needs_review": false
   },
   {
@@ -268,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.393507Z",
+   "updated_at": "2026-11-14T01:46:35.199322Z",
    "needs_review": false
   },
   {
@@ -287,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.394140Z",
+   "updated_at": "2026-11-14T01:46:35.200111Z",
    "needs_review": false
   },
   {
@@ -306,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.394762Z",
+   "updated_at": "2026-11-14T01:46:35.200923Z",
    "needs_review": false
   },
   {
@@ -325,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.395502Z",
+   "updated_at": "2026-11-14T01:46:35.201867Z",
    "needs_review": false
   },
   {
@@ -344,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.396085Z",
+   "updated_at": "2026-11-14T01:46:35.202529Z",
    "needs_review": false
   },
   {
@@ -363,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.396845Z",
+   "updated_at": "2026-11-14T01:46:35.203432Z",
    "needs_review": false
   },
   {
@@ -382,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.397589Z",
+   "updated_at": "2026-11-14T01:46:35.204337Z",
    "needs_review": false
   },
   {
@@ -401,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.398111Z",
+   "updated_at": "2026-11-14T01:46:35.204978Z",
    "needs_review": false
   },
   {
@@ -420,7 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.398857Z",
+   "updated_at": "2026-11-14T01:46:35.205899Z",
    "needs_review": false
   },
   {
@@ -439,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.399604Z",
+   "updated_at": "2026-11-14T01:46:35.206803Z",
    "needs_review": false
   },
   {
@@ -458,7 +488,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.400129Z",
+   "updated_at": "2026-11-14T01:46:35.207438Z",
    "needs_review": false
   },
   {
@@ -477,26 +507,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.400884Z",
+   "updated_at": "2026-11-14T01:46:35.208354Z",
    "needs_review": false
   },
   {
-   "id": "e7729fc754e67366",
+   "id": "b3d65c93f2ab4d43",
    "company_id": "cleura",
    "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
+   "value": "Preparing AI platform and inference services on a compliant cloud",
+   "status": "fact",
+   "source_page_id": "9cffca53e94aca6f",
+   "quote": "AI is moving from pilot projects into core business processes",
+   "quote_verified": true,
    "reasoning": null,
-   "confidence": 0.0,
+   "confidence": 0.9,
    "uncertain": false,
    "visibility": "public",
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:09.400897Z",
+   "updated_at": "2026-11-14T01:46:35.209081Z",
    "needs_review": false
   },
   {
@@ -515,7 +545,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:16.857305Z",
+   "updated_at": "2026-11-14T01:46:35.209108Z",
    "needs_review": false
   },
   {
@@ -524,7 +554,7 @@
    "field": "possible_interest",
    "value": "AI inference deployment for sensitive data testing environments",
    "status": "inferred",
-   "source_page_id": "9cffca53e94aca6f",
+   "source_page_id": "e19d53c64a185f42",
    "quote": null,
    "quote_verified": false,
    "reasoning": "The company is introducing AI platform and inference services on its Compliant Cloud.",
@@ -534,7 +564,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:16.857329Z",
+   "updated_at": "2026-11-14T01:46:35.209116Z",
    "needs_review": false
   },
   {
@@ -553,7 +583,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:16.857372Z",
+   "updated_at": "2026-11-14T01:46:35.209120Z",
    "needs_review": false
   },
   {
@@ -572,7 +602,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:16.857390Z",
+   "updated_at": "2026-11-14T01:46:35.209124Z",
    "needs_review": false
   },
   {
@@ -581,7 +611,7 @@
    "field": "possible_interest",
    "value": "Distributed cloud storage optimization using Ceph",
    "status": "inferred",
-   "source_page_id": "dcafc6b9ad167f16",
+   "source_page_id": "e19d53c64a185f42",
    "quote": null,
    "quote_verified": false,
    "reasoning": "The company possesses expertise in distributed cloud storage and uses Ceph storage clusters.",
@@ -591,9 +621,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:25:16.857398Z",
+   "updated_at": "2026-11-14T01:46:35.209128Z",
    "needs_review": false
   }
  ],
- "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }

@@ -17,7 +17,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:24:42.649613Z",
+  "last_crawled_at": "2026-11-13T13:24:22.108439Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -61,7 +61,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135036Z",
+   "updated_at": "2026-11-14T01:46:35.183106Z",
    "needs_review": false
   },
   {
@@ -80,7 +80,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135143Z",
+   "updated_at": "2026-11-14T01:46:35.183224Z",
    "needs_review": false
   },
   {
@@ -99,7 +99,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135285Z",
+   "updated_at": "2026-11-14T01:46:35.183438Z",
    "needs_review": false
   },
   {
@@ -118,7 +118,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135369Z",
+   "updated_at": "2026-11-14T01:46:35.183553Z",
    "needs_review": false
   },
   {
@@ -137,7 +137,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135503Z",
+   "updated_at": "2026-11-14T01:46:35.183765Z",
    "needs_review": false
   },
   {
@@ -156,7 +156,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135635Z",
+   "updated_at": "2026-11-14T01:46:35.183997Z",
    "needs_review": false
   },
   {
@@ -175,7 +175,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135767Z",
+   "updated_at": "2026-11-14T01:46:35.184211Z",
    "needs_review": false
   },
   {
@@ -194,7 +194,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.135897Z",
+   "updated_at": "2026-11-14T01:46:35.184422Z",
    "needs_review": false
   },
   {
@@ -213,7 +213,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136024Z",
+   "updated_at": "2026-11-14T01:46:35.184600Z",
    "needs_review": false
   },
   {
@@ -232,7 +232,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136158Z",
+   "updated_at": "2026-11-14T01:46:35.184842Z",
    "needs_review": false
   },
   {
@@ -251,7 +251,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136323Z",
+   "updated_at": "2026-11-14T01:46:35.185118Z",
    "needs_review": false
   },
   {
@@ -270,7 +270,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136478Z",
+   "updated_at": "2026-11-14T01:46:35.185304Z",
    "needs_review": false
   },
   {
@@ -289,7 +289,102 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136581Z",
+   "updated_at": "2026-11-14T01:46:35.185413Z",
+   "needs_review": false
+  },
+  {
+   "id": "26df90c43619c1dc",
+   "company_id": "c-marine-ab",
+   "field": "offering",
+   "value": "Concept design: from idea to specification, arrangement and costs",
+   "status": "fact",
+   "source_page_id": "ad8f2cdf56db2984",
+   "quote": "We bring your vision from idea to specification, arrangement and costs",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.185587Z",
+   "needs_review": false
+  },
+  {
+   "id": "cc570707b83d14cf",
+   "company_id": "c-marine-ab",
+   "field": "offering",
+   "value": "Project management for technical projects",
+   "status": "fact",
+   "source_page_id": "ad8f2cdf56db2984",
+   "quote": "We add experience and strengthen your project team",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.185755Z",
+   "needs_review": false
+  },
+  {
+   "id": "a2e27459f6b78442",
+   "company_id": "c-marine-ab",
+   "field": "contact",
+   "value": "Email: contact@cmarine.se",
+   "status": "fact",
+   "source_page_id": "ad8f2cdf56db2984",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.185981Z",
+   "needs_review": false
+  },
+  {
+   "id": "39bb166dee58a09a",
+   "company_id": "c-marine-ab",
+   "field": "contact",
+   "value": "Phone: +46 72 176 96 21",
+   "status": "fact",
+   "source_page_id": "ad8f2cdf56db2984",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.186196Z",
+   "needs_review": false
+  },
+  {
+   "id": "6d033ec4f9103708",
+   "company_id": "c-marine-ab",
+   "field": "contact",
+   "value": "Contact page: https://www.cmarine.se/contact/",
+   "status": "fact",
+   "source_page_id": "ad8f2cdf56db2984",
+   "quote": "",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:46:35.186208Z",
    "needs_review": false
   },
   {
@@ -308,7 +403,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136590Z",
+   "updated_at": "2026-11-14T01:46:35.186216Z",
    "needs_review": false
   },
   {
@@ -327,7 +422,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136596Z",
+   "updated_at": "2026-11-14T01:46:35.186220Z",
    "needs_review": false
   },
   {
@@ -346,7 +441,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136600Z",
+   "updated_at": "2026-11-14T01:46:35.186224Z",
    "needs_review": false
   },
   {
@@ -365,7 +460,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136604Z",
+   "updated_at": "2026-11-14T01:46:35.186228Z",
    "needs_review": false
   },
   {
@@ -384,7 +479,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136609Z",
+   "updated_at": "2026-11-14T01:46:35.186232Z",
    "needs_review": false
   },
   {
@@ -403,7 +498,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:37.136613Z",
+   "updated_at": "2026-11-14T01:46:35.186235Z",
    "needs_review": false
   },
   {
@@ -422,7 +517,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:42.649575Z",
+   "updated_at": "2026-11-14T01:46:35.186243Z",
    "needs_review": false
   },
   {
@@ -441,7 +536,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:42.649598Z",
+   "updated_at": "2026-11-14T01:46:35.186248Z",
    "needs_review": false
   },
   {
@@ -460,7 +555,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:42.649604Z",
+   "updated_at": "2026-11-14T01:46:35.186251Z",
    "needs_review": false
   },
   {
@@ -479,9 +574,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T13:24:42.649610Z",
+   "updated_at": "2026-11-14T01:46:35.186254Z",
    "needs_review": false
   }
  ],
- "extracted_by": "TecnoVerse Profiler (Gemini or Ollama)"
+ "extracted_by": "Mixed: TecnoVerse Profiler (Gemini) 2026-11-13, fields added by Claude Code 2026-11-14"
 }
