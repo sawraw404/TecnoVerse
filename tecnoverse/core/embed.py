@@ -23,7 +23,7 @@ PROFILE_FIELDS = ("industry", "offering", "technology", "expertise", "applicatio
 def _model():
     try:
         from sentence_transformers import SentenceTransformer
-    except ImportError:
+    except (ImportError, OSError):  # OSError: torch DLL blocked, e.g. by Windows Smart App Control
         return None
     return SentenceTransformer(MODEL)
 
