@@ -27,6 +27,7 @@ with st.sidebar:
     st.warning("SIMULATED login. No real accounts or passwords.")
 
 st.session_state["user"] = user
+st.session_state["companies"] = companies
 st.session_state["company"] = next((c for c in companies if c.id == user.company_id), None)
 
 pages = [
