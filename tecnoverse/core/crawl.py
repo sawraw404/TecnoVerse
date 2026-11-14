@@ -101,33 +101,68 @@ def _fetch(url: str, cache_dir, robots: RobotFileParser | None) -> tuple[str | N
         return None, False
 
 
+def _add(company: Company, url: str, pages: list[SourcePage], robots, source_type: str = "company_site"):
+    """Fetch url and append it to pages unless empty or a duplicate. Returns (html, from_cache)."""
+    html, from_cache = _fetch(url, CACHE / company.id, robots)
+    if html is None:
+        return None, False
+    title, text = clean(html)
+    if len(text) >= 200 and not any(p.content_hash == _hash(text) or p.url == url for p in pages):
+        pages.append(SourcePage(id=_hash(url), company_id=company.id, url=url, title=title, text=text,
+                                source_type=source_type, retrieved_at=datetime.now(timezone.utc),
+                                content_hash=_hash(text)))
+    return html, from_cache
+
+
 def crawl(company: Company) -> tuple[list[SourcePage], bool]:
     """Returns (pages, simulated). simulated is True if any page came from the cache."""
-    cache_dir = CACHE / company.id
     robots = _robots(company.website)
     pages: list[SourcePage] = []
-    simulated = False
-
-    def add(url: str) -> str | None:
-        nonlocal simulated
-        html, from_cache = _fetch(url, cache_dir, robots)
-        if html is None:
-            return None
-        title, text = clean(html)
-        if len(text) < 200 or any(p.content_hash == _hash(text) for p in pages):
-            return html  # empty or duplicate page: not evidence
-        simulated = simulated or from_cache
-        pages.append(SourcePage(
-            id=_hash(url), company_id=company.id, url=url, title=title, text=text,
-            retrieved_at=datetime.now(timezone.utc), content_hash=_hash(text),
-        ))
-        return html
-
-    home = add(company.website)
+    home, simulated = _add(company, company.website, pages, robots)
     if home:
         for url in pick_links(home, company.website):
-            add(url)
+            simulated = _add(company, url, pages, robots)[1] or simulated
     return pages, simulated
+
+
+PRESS_HOSTS = ("mynewsdesk.com", "news.cision.com")
+POST_LINK = re.compile(r"/20\d\d/|/(news|nyheter|nyhet|blog|blogg|press|aktuellt|insights?|articles?|artiklar|posts?)/[^/?#]+", re.I)
+
+
+def post_links(html: str, base_url: str, limit: int = 3) -> list[str]:
+    """Individual posts linked from a news/blog listing page, in page order (newest first on most sites)."""
+    out = []
+    for a in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+        url = urldefrag(urljoin(base_url, a["href"]))[0].rstrip("/")
+        if _host(url) == _host(base_url) and POST_LINK.search(urlparse(url).path) \
+                and url != base_url.rstrip("/") and not SKIP.search(url) and url not in out:
+            out.append(url)
+    return out[:limit]
+
+
+def news_pages(company: Company, pages: list[SourcePage]) -> list[SourcePage]:
+    """Add the newest posts behind each news/blog listing page, and the company's press room if it links one.
+
+    Appends to a copy of pages; existing pages are kept as they are so earlier quotes stay valid.
+    """
+    pages = list(pages)
+    robots = _robots(company.website)
+    for listing in [p for p in pages if NEWS.search(urlparse(p.url).path)][:2]:
+        html, _ = _fetch(listing.url, CACHE / company.id, robots)
+        for url in post_links(html or "", listing.url):
+            _add(company, url, pages, robots)
+    # press rooms: outbound links to Mynewsdesk or Cision on pages already fetched
+    press = set()
+    for cached in (CACHE / company.id).glob("*.html"):
+        for a in BeautifulSoup(cached.read_text(encoding="utf-8"), "html.parser").find_all("a", href=True):
+            if any(h in _host(a["href"]) for h in PRESS_HOSTS):
+                press.add(urldefrag(a["href"])[0])
+    for room in sorted(press)[:1]:
+        room_robots = _robots(room)
+        html, _ = _add(company, room, pages, room_robots, "news")
+        for url in post_links(html or "", room):
+            _add(company, url, pages, room_robots, "news")
+    return pages
 
 
 if __name__ == "__main__":  # self-check, no network: cd tecnoverse && python -m core.crawl
@@ -139,4 +174,8 @@ if __name__ == "__main__":  # self-check, no network: cd tecnoverse && python -m
     assert links[:2] == ["https://www.acme.se/about-us", "https://www.acme.se/products"], links
     assert "https://www.acme.se/news/2021/old-post" in links and len(links) == 3, links
     assert clean(html) == ("Acme", "Acme About News post Elsewhere Products PDF Products Random")
+    listing = """<a href="/news/new-sensor-launch">New</a> <a href="/news/">All</a> <a href="/about">About</a>
+      <a href="/2026/03/pilot-started">Pilot</a> <a href="https://x.com/news/a">Off-site</a> <a href="/news/new-sensor-launch#c">dup</a>"""
+    assert post_links(listing, "https://acme.se/news/") == ["https://acme.se/news/new-sensor-launch",
+                                                            "https://acme.se/2026/03/pilot-started"], post_links(listing, "https://acme.se/news/")
     print("ok")

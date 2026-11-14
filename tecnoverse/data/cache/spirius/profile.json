@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:16.073641Z",
+  "last_crawled_at": "2026-11-14T01:28:12.788031Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:37:16.073641Z",
    "text": "",
    "content_hash": "12a1190234627012"
+  },
+  {
+   "id": "d50bbc7d27540683",
+   "company_id": "spirius",
+   "url": "https://www.spirius.com/en/news/spiris-valjer-spirius-som-leverantor-av-smarta-meddelandetjanster",
+   "source_type": "company_site",
+   "title": "Spiris selects Spirius as a supplier of smart messaging services| Spirius",
+   "retrieved_at": "2026-11-14T01:28:09.170269Z",
+   "text": "",
+   "content_hash": "96596423285b6aba"
+  },
+  {
+   "id": "58a14cd57f8ef5bf",
+   "company_id": "spirius",
+   "url": "https://www.spirius.com/sv/nyheter/nytt-rekord-med-spirius-batch-sms---3-miljoner-sms-pa-en-dag",
+   "source_type": "company_site",
+   "title": "Nytt rekord med Spirius Batch SMS – 3 miljoner SMS på en dag| Spirius",
+   "retrieved_at": "2026-11-14T01:28:11.575075Z",
+   "text": "",
+   "content_hash": "4f025b8df9128312"
+  },
+  {
+   "id": "4e6c0f25c0a75363",
+   "company_id": "spirius",
+   "url": "https://www.spirius.com/sv/nyheter/spirius---nu-medlem-i-iot-world",
+   "source_type": "company_site",
+   "title": "Spirius - nu medlem i IoT World| Spirius",
+   "retrieved_at": "2026-11-14T01:28:12.788031Z",
+   "text": "",
+   "content_hash": "9e8cccd9ce2b55c2"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.146996Z",
+   "updated_at": "2026-11-14T01:35:03.131958Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.147380Z",
+   "updated_at": "2026-11-14T01:35:03.132578Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.147783Z",
+   "updated_at": "2026-11-14T01:35:03.133557Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.148132Z",
+   "updated_at": "2026-11-14T01:35:03.134382Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.148458Z",
+   "updated_at": "2026-11-14T01:35:03.134643Z",
    "needs_review": false
   },
   {
@@ -211,7 +241,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.148658Z",
+   "updated_at": "2026-11-14T01:35:03.134848Z",
+   "needs_review": false
+  },
+  {
+   "id": "a476a0d28f8723c7",
+   "company_id": "spirius",
+   "field": "innovation",
+   "value": "Spirius Batch SMS API sent almost 3 million SMS to 109 countries in one day (2026-09-01)",
+   "status": "fact",
+   "source_page_id": "c911e25fefee9811",
+   "quote": "Nytt rekord med Spirius Batch SMS – 3 miljoner SMS på en dag",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:35:03.135190Z",
    "needs_review": false
   },
   {
@@ -230,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.148887Z",
+   "updated_at": "2026-11-14T01:35:03.135405Z",
    "needs_review": false
   },
   {
@@ -249,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149099Z",
+   "updated_at": "2026-11-14T01:35:03.135617Z",
    "needs_review": false
   },
   {
@@ -268,26 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149110Z",
-   "needs_review": false
-  },
-  {
-   "id": "90d701102b84c0d0",
-   "company_id": "spirius",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149115Z",
+   "updated_at": "2026-11-14T01:35:03.135627Z",
    "needs_review": false
   },
   {
@@ -306,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149119Z",
+   "updated_at": "2026-11-14T01:35:03.135633Z",
    "needs_review": false
   },
   {
@@ -325,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149122Z",
+   "updated_at": "2026-11-14T01:35:03.135638Z",
    "needs_review": false
   },
   {
@@ -344,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149125Z",
+   "updated_at": "2026-11-14T01:35:03.135641Z",
    "needs_review": false
   },
   {
@@ -363,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149128Z",
+   "updated_at": "2026-11-14T01:35:03.135644Z",
    "needs_review": false
   },
   {
@@ -382,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149131Z",
+   "updated_at": "2026-11-14T01:35:03.135648Z",
    "needs_review": false
   },
   {
@@ -401,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149134Z",
+   "updated_at": "2026-11-14T01:35:03.135651Z",
    "needs_review": false
   },
   {
@@ -420,7 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149139Z",
+   "updated_at": "2026-11-14T01:35:03.135658Z",
    "needs_review": false
   },
   {
@@ -439,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:31.149144Z",
+   "updated_at": "2026-11-14T01:35:03.135662Z",
    "needs_review": false
   }
  ],

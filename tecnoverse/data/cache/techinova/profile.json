@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:13.301315Z",
+  "last_crawled_at": "2026-11-14T01:30:18.777348Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -27,6 +27,46 @@
    "retrieved_at": "2026-11-13T13:37:13.301315Z",
    "text": "",
    "content_hash": "e704103dab04edaf"
+  },
+  {
+   "id": "a0b3459139b5c1d6",
+   "company_id": "techinova",
+   "url": "https://www.bluesciencepark.se/aktuellt/konferens-pa-bth-i-nato-sponsrat-projekt-for-att-sakra-den-kritiska-internetinfrastrukturen/",
+   "source_type": "news",
+   "title": "Konferens på BTH i Nato-sponsrat projekt för att säkra den kritiska internetinfrastrukturen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.777311Z",
+   "text": "",
+   "content_hash": "7916427a62010044"
+  },
+  {
+   "id": "33f0b7b1c367f48b",
+   "company_id": "techinova",
+   "url": "https://www.bluesciencepark.se/aktuellt/samtal-om-generativ-ai-for-regional-tillvaxt/",
+   "source_type": "news",
+   "title": "Samtal om generativ AI för regional tillväxt - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.777331Z",
+   "text": "",
+   "content_hash": "170b0d52a1ac03ed"
+  },
+  {
+   "id": "7d208fcd5570d5bc",
+   "company_id": "techinova",
+   "url": "https://www.bluesciencepark.se/aktuellt/ny-satsning-for-att-starka-blekinges-foretag-genom-ai-teknologi/",
+   "source_type": "news",
+   "title": "Ny satsning för att stärka Blekinges företag genom AI-teknologi - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.777348Z",
+   "text": "",
+   "content_hash": "b41316791d832d3f"
+  },
+  {
+   "id": "dc7384b48f87cffb",
+   "company_id": "techinova",
+   "url": "https://www.bluesciencepark.se/aktuellt/fran-projekt-till-produkt-techinova-tar-nasta-steg-inom-sakrare-elnat/",
+   "source_type": "news",
+   "title": "Från projekt till produkt – Techinova tar nästa steg inom säkrare elnät - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.711416Z",
+   "text": "",
+   "content_hash": "f7af6623577743e8"
   }
  ],
  "items": [
@@ -46,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.608974Z",
+   "updated_at": "2026-11-14T01:35:03.116123Z",
    "needs_review": false
   },
   {
@@ -65,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.609492Z",
+   "updated_at": "2026-11-14T01:35:03.116610Z",
    "needs_review": false
   },
   {
@@ -84,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.609938Z",
+   "updated_at": "2026-11-14T01:35:03.117054Z",
    "needs_review": false
   },
   {
@@ -103,7 +143,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610381Z",
+   "updated_at": "2026-11-14T01:35:03.117497Z",
+   "needs_review": false
+  },
+  {
+   "id": "3c9ac5d75dfd8fa3",
+   "company_id": "techinova",
+   "field": "innovation",
+   "value": "dSense, a product for safer power grids developed through the CISSAN project (2 Nov 2026)",
+   "status": "fact",
+   "source_page_id": "dc7384b48f87cffb",
+   "quote": "Ett konkret resultat är produkten dSense, som redan används av kunder",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:35:03.118451Z",
    "needs_review": false
   },
   {
@@ -122,26 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610670Z",
-   "needs_review": false
-  },
-  {
-   "id": "58d0f449b525ca12",
-   "company_id": "techinova",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610676Z",
+   "updated_at": "2026-11-14T01:35:03.118797Z",
    "needs_review": false
   },
   {
@@ -160,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610680Z",
+   "updated_at": "2026-11-14T01:35:03.118823Z",
    "needs_review": false
   },
   {
@@ -179,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610683Z",
+   "updated_at": "2026-11-14T01:35:03.118829Z",
    "needs_review": false
   },
   {
@@ -198,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610687Z",
+   "updated_at": "2026-11-14T01:35:03.118832Z",
    "needs_review": false
   },
   {
@@ -217,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610690Z",
+   "updated_at": "2026-11-14T01:35:03.118835Z",
    "needs_review": false
   },
   {
@@ -236,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610693Z",
+   "updated_at": "2026-11-14T01:35:03.118838Z",
    "needs_review": false
   },
   {
@@ -255,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610695Z",
+   "updated_at": "2026-11-14T01:35:03.118841Z",
    "needs_review": false
   },
   {
@@ -274,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610698Z",
+   "updated_at": "2026-11-14T01:35:03.118844Z",
    "needs_review": false
   },
   {
@@ -293,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610701Z",
+   "updated_at": "2026-11-14T01:35:03.118847Z",
    "needs_review": false
   },
   {
@@ -312,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610706Z",
+   "updated_at": "2026-11-14T01:35:03.118853Z",
    "needs_review": false
   },
   {
@@ -331,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.610710Z",
+   "updated_at": "2026-11-14T01:35:03.118858Z",
    "needs_review": false
   }
  ],

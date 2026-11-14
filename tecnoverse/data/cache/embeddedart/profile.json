@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:40.007761Z",
+  "last_crawled_at": "2026-11-14T01:30:45.343801Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:36:40.007761Z",
    "text": "",
    "content_hash": "79745fab635af3de"
+  },
+  {
+   "id": "acd02767757eedff",
+   "company_id": "embeddedart",
+   "url": "https://www.embeddedart.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter",
+   "retrieved_at": "2026-11-14T01:30:45.343801Z",
+   "text": "",
+   "content_hash": "01f1de6cdc3e98f8"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794036Z",
+   "updated_at": "2026-11-14T01:35:03.104688Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794327Z",
+   "updated_at": "2026-11-14T01:35:03.104992Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794579Z",
+   "updated_at": "2026-11-14T01:35:03.105215Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.794802Z",
+   "updated_at": "2026-11-14T01:35:03.105595Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795020Z",
+   "updated_at": "2026-11-14T01:35:03.105803Z",
    "needs_review": false
   },
   {
@@ -211,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795458Z",
+   "updated_at": "2026-11-14T01:35:03.106184Z",
    "needs_review": false
   },
   {
@@ -230,7 +240,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795674Z",
+   "updated_at": "2026-11-14T01:35:03.106415Z",
+   "needs_review": false
+  },
+  {
+   "id": "b738b685183c8c5b",
+   "company_id": "embeddedart",
+   "field": "innovation",
+   "value": "Takes part in Stilfold's drone project, a drone flying just above the water surface (2026-10-23)",
+   "status": "fact",
+   "source_page_id": "acd02767757eedff",
+   "quote": "I NyTeknik kan du läsa mer om ett drönarprojekt där EmbeddedArt deltar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:35:03.110295Z",
    "needs_review": false
   },
   {
@@ -249,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.795816Z",
+   "updated_at": "2026-11-14T01:35:03.110446Z",
    "needs_review": false
   },
   {
@@ -268,7 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797161Z",
+   "updated_at": "2026-11-14T01:35:03.112824Z",
    "needs_review": false
   },
   {
@@ -287,26 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797178Z",
-   "needs_review": false
-  },
-  {
-   "id": "b3a67cde11f73d0e",
-   "company_id": "embeddedart",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797187Z",
+   "updated_at": "2026-11-14T01:35:03.112848Z",
    "needs_review": false
   },
   {
@@ -325,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797192Z",
+   "updated_at": "2026-11-14T01:35:03.112858Z",
    "needs_review": false
   },
   {
@@ -344,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797196Z",
+   "updated_at": "2026-11-14T01:35:03.112863Z",
    "needs_review": false
   },
   {
@@ -363,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797199Z",
+   "updated_at": "2026-11-14T01:35:03.112866Z",
    "needs_review": false
   },
   {
@@ -382,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797203Z",
+   "updated_at": "2026-11-14T01:35:03.112870Z",
    "needs_review": false
   },
   {
@@ -401,7 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797206Z",
+   "updated_at": "2026-11-14T01:35:03.112874Z",
    "needs_review": false
   },
   {
@@ -420,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797209Z",
+   "updated_at": "2026-11-14T01:35:03.112877Z",
    "needs_review": false
   },
   {
@@ -439,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797217Z",
+   "updated_at": "2026-11-14T01:35:03.112885Z",
    "needs_review": false
   },
   {
@@ -448,7 +458,7 @@
    "field": "possible_interest",
    "value": "Defence and security innovation funding",
    "status": "inferred",
-   "source_page_id": "749ee0ff1ba34716",
+   "source_page_id": "b0822e5e5d3595b5",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It supplies the Armed Forces and defence industry.",
@@ -458,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.797222Z",
+   "updated_at": "2026-11-14T01:35:03.112890Z",
    "needs_review": false
   }
  ],

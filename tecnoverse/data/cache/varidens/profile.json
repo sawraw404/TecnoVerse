@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:24.437523Z",
+  "last_crawled_at": "2026-11-14T01:30:18.790973Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:37:24.437523Z",
    "text": "",
    "content_hash": "41bb7716d49f4d73"
+  },
+  {
+   "id": "615740e1dbaa4d97",
+   "company_id": "varidens",
+   "url": "https://www.bluesciencepark.se/aktuellt/succestart-for-framtidsradet/",
+   "source_type": "news",
+   "title": "Succéstart för Framtidsrådet - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.790825Z",
+   "text": "",
+   "content_hash": "655a1b2f1bc75c75"
+  },
+  {
+   "id": "0182b9a32e1cb6e7",
+   "company_id": "varidens",
+   "url": "https://www.bluesciencepark.se/aktuellt/sakerheten-forst-veridens-vassade-ny-produkt-med-expertstod-fran-knowit/",
+   "source_type": "news",
+   "title": "Säkerheten först: Veridens vässade ny produkt med expertstöd från Knowit  - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.790902Z",
+   "text": "",
+   "content_hash": "5cc4a4e5041616d3"
+  },
+  {
+   "id": "a9b8ff2f076cc639",
+   "company_id": "varidens",
+   "url": "https://www.bluesciencepark.se/aktuellt/njordx-blir-ny-medlem-i-blue-science-park/",
+   "source_type": "news",
+   "title": "NjordX blir ny medlem i Blue Science Park - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.790973Z",
+   "text": "",
+   "content_hash": "a2a8f5531b0d675b"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.612111Z",
+   "updated_at": "2026-11-14T01:35:03.148631Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.612712Z",
+   "updated_at": "2026-11-14T01:35:03.149154Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.613205Z",
+   "updated_at": "2026-11-14T01:35:03.149832Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.613724Z",
+   "updated_at": "2026-11-14T01:35:03.150958Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614017Z",
+   "updated_at": "2026-11-14T01:35:03.151181Z",
+   "needs_review": false
+  },
+  {
+   "id": "9f06e5666598960d",
+   "company_id": "varidens",
+   "field": "innovation",
+   "value": "Launched a new portal, security-tested through Sweden Secure Tech Hub",
+   "status": "fact",
+   "source_page_id": "0182b9a32e1cb6e7",
+   "quote": "stod inför lanseringen av en ny portal var tidsplanen pressad",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:35:03.152243Z",
    "needs_review": false
   },
   {
@@ -211,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614407Z",
+   "updated_at": "2026-11-14T01:35:03.152540Z",
    "needs_review": false
   },
   {
@@ -230,26 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614780Z",
-   "needs_review": false
-  },
-  {
-   "id": "74138d9cfb6e203d",
-   "company_id": "varidens",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614789Z",
+   "updated_at": "2026-11-14T01:35:03.152829Z",
    "needs_review": false
   },
   {
@@ -268,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614795Z",
+   "updated_at": "2026-11-14T01:35:03.152835Z",
    "needs_review": false
   },
   {
@@ -287,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614799Z",
+   "updated_at": "2026-11-14T01:35:03.152840Z",
    "needs_review": false
   },
   {
@@ -306,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614803Z",
+   "updated_at": "2026-11-14T01:35:03.152843Z",
    "needs_review": false
   },
   {
@@ -325,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614807Z",
+   "updated_at": "2026-11-14T01:35:03.152847Z",
    "needs_review": false
   },
   {
@@ -344,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614811Z",
+   "updated_at": "2026-11-14T01:35:03.152850Z",
    "needs_review": false
   },
   {
@@ -363,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614814Z",
+   "updated_at": "2026-11-14T01:35:03.152853Z",
    "needs_review": false
   },
   {
@@ -382,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614818Z",
+   "updated_at": "2026-11-14T01:35:03.152856Z",
    "needs_review": false
   },
   {
@@ -401,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:13.614828Z",
+   "updated_at": "2026-11-14T01:35:03.152862Z",
    "needs_review": false
   }
  ],

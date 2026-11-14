@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T17:20:59.705951Z",
+  "last_crawled_at": "2026-11-14T01:28:40.889437Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,26 @@
    "retrieved_at": "2026-11-13T17:20:59.705951Z",
    "text": "",
    "content_hash": "05838148826d694b"
+  },
+  {
+   "id": "86578b947fd0fe8d",
+   "company_id": "kockums-maskin",
+   "url": "https://kockumsmaskin.se/aktuellt/nytt-flexibelt-cnc-automatiserings-koncept",
+   "source_type": "company_site",
+   "title": "Nytt flexibelt CNC-automatiserings-koncept",
+   "retrieved_at": "2026-11-14T01:28:40.177996Z",
+   "text": "",
+   "content_hash": "17ed1563c9d76f50"
+  },
+  {
+   "id": "673ca767ec46c005",
+   "company_id": "kockums-maskin",
+   "url": "https://kockumsmaskin.se/aktuellt/news/we-contribute-to-sustainability-efforts",
+   "source_type": "company_site",
+   "title": "KOCKUMS MASKIN bæredygtighedsindsats",
+   "retrieved_at": "2026-11-14T01:28:40.889437Z",
+   "text": "",
+   "content_hash": "d92a51415ff5f30c"
   }
  ],
  "items": [
@@ -116,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.593812Z",
+   "updated_at": "2026-11-14T01:35:03.155943Z",
    "needs_review": false
   },
   {
@@ -135,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594104Z",
+   "updated_at": "2026-11-14T01:35:03.156250Z",
    "needs_review": false
   },
   {
@@ -154,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594385Z",
+   "updated_at": "2026-11-14T01:35:03.156534Z",
    "needs_review": false
   },
   {
@@ -173,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.594671Z",
+   "updated_at": "2026-11-14T01:35:03.156807Z",
    "needs_review": false
   },
   {
@@ -192,7 +212,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.595089Z",
+   "updated_at": "2026-11-14T01:35:03.157200Z",
+   "needs_review": false
+  },
+  {
+   "id": "c38c919dfe0bf0e8",
+   "company_id": "kockums-maskin",
+   "field": "innovation",
+   "value": "New flexible CNC automation concept (12 August 2026)",
+   "status": "fact",
+   "source_page_id": "222fbe354c9eff91",
+   "quote": "KOCKUMS MASKIN inför ett nytt flexibelt CNC-automatiseringskoncept",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:35:03.157479Z",
    "needs_review": false
   },
   {
@@ -211,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.595285Z",
+   "updated_at": "2026-11-14T01:35:03.157659Z",
    "needs_review": false
   },
   {
@@ -230,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596718Z",
+   "updated_at": "2026-11-14T01:35:03.159034Z",
    "needs_review": false
   },
   {
@@ -249,26 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596733Z",
-   "needs_review": false
-  },
-  {
-   "id": "2c780e7ad9411f12",
-   "company_id": "kockums-maskin",
-   "field": "innovation",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596740Z",
+   "updated_at": "2026-11-14T01:35:03.159046Z",
    "needs_review": false
   },
   {
@@ -287,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596744Z",
+   "updated_at": "2026-11-14T01:35:03.159052Z",
    "needs_review": false
   },
   {
@@ -306,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596748Z",
+   "updated_at": "2026-11-14T01:35:03.159057Z",
    "needs_review": false
   },
   {
@@ -325,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596751Z",
+   "updated_at": "2026-11-14T01:35:03.159060Z",
    "needs_review": false
   },
   {
@@ -344,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596754Z",
+   "updated_at": "2026-11-14T01:35:03.159063Z",
    "needs_review": false
   },
   {
@@ -363,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596756Z",
+   "updated_at": "2026-11-14T01:35:03.159066Z",
    "needs_review": false
   },
   {
@@ -382,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596760Z",
+   "updated_at": "2026-11-14T01:35:03.159068Z",
    "needs_review": false
   },
   {
@@ -401,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596763Z",
+   "updated_at": "2026-11-14T01:35:03.159071Z",
    "needs_review": false
   },
   {
@@ -420,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.596770Z",
+   "updated_at": "2026-11-14T01:35:03.159077Z",
    "needs_review": false
   }
  ],

@@ -231,7 +231,7 @@ def import_extractions(path: str) -> None:
             continue
         facts = [_Fact(**f) for f in ex["facts"]]
         p = assemble(companies[cid], pages, False, facts, [_Interest(**i) for i in ex.get("interests", [])],
-                     extracted_by="Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)")
+                     extracted_by=ex.get("extracted_by", "Claude Code, offline batch (Gemini free-tier quota was exhausted)"))
         bad = [i.value for i in p.items if i.status == "inferred" and i.quote and not i.quote_verified]
         print(f"{cid}: {sum(i.status == 'fact' for i in p.items)} facts" + (f", UNVERIFIED: {bad}" if bad else ""))
 
@@ -268,8 +268,9 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     news = kpage.model_copy(update={"url": "https://acme.se/news/x", "text": "Press: Anna 070-123 45 67"})
     assert not any(f.value.startswith("Phone") for f in auto_contacts([page, news]))
     import core.store as store  # the assemble check writes to a scratch folder, not the real cache
-    store.CACHE = Path(tempfile.mkdtemp())
+    real_cache, store.CACHE = store.CACHE, Path(tempfile.mkdtemp())
     prof = assemble(Company(id="acme", name="Acme", website="https://acme.se/"), [page, kpage], False, [], [])
+    store.CACHE = real_cache  # the commands below must use the real cache
     assert {i.value for i in prof.items if i.field == "contact" and i.status == "fact"} == found
     print("ok")
 
