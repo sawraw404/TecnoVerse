@@ -166,7 +166,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.476108Z",
+   "updated_at": "2026-11-14T01:48:58.749323Z",
    "needs_review": false
   },
   {
@@ -185,7 +185,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.476770Z",
+   "updated_at": "2026-11-14T01:48:58.750045Z",
    "needs_review": false
   },
   {
@@ -204,7 +204,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.477298Z",
+   "updated_at": "2026-11-14T01:48:58.750579Z",
    "needs_review": false
   },
   {
@@ -223,7 +223,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.477603Z",
+   "updated_at": "2026-11-14T01:48:58.750890Z",
    "needs_review": false
   },
   {
@@ -242,7 +242,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.477906Z",
+   "updated_at": "2026-11-14T01:48:58.751213Z",
+   "needs_review": false
+  },
+  {
+   "id": "5f9f98c7bc0a63a0",
+   "company_id": "consid",
+   "field": "expertise",
+   "value": "1,800+ experts, 700+ customers, 25+ years",
+   "status": "fact",
+   "source_page_id": "58daa57b41795cce",
+   "quote": "700+ Kunder 1800+ Experter 1000+ Kundprojekt 25+ Års erfarenhet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.751853Z",
+   "needs_review": false
+  },
+  {
+   "id": "80fc0b9f671a25f4",
+   "company_id": "consid",
+   "field": "priority",
+   "value": "Works with Agenda 2030, competence development and gender equality",
+   "status": "fact",
+   "source_page_id": "58daa57b41795cce",
+   "quote": "Vi arbetar med Agenda 2030, kompetensutveckling och jämställdhet för en hållbar framtid",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.752482Z",
    "needs_review": false
   },
   {
@@ -261,7 +299,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479858Z",
+   "updated_at": "2026-11-14T01:48:58.754457Z",
    "needs_review": false
   },
   {
@@ -280,7 +318,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479872Z",
+   "updated_at": "2026-11-14T01:48:58.754473Z",
    "needs_review": false
   },
   {
@@ -299,26 +337,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479878Z",
-   "needs_review": false
-  },
-  {
-   "id": "18aa6bfc8c9edf99",
-   "company_id": "consid",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479882Z",
+   "updated_at": "2026-11-14T01:48:58.754480Z",
    "needs_review": false
   },
   {
@@ -337,7 +356,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479885Z",
+   "updated_at": "2026-11-14T01:48:58.754485Z",
    "needs_review": false
   },
   {
@@ -356,7 +375,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479888Z",
+   "updated_at": "2026-11-14T01:48:58.754488Z",
    "needs_review": false
   },
   {
@@ -375,7 +394,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479891Z",
+   "updated_at": "2026-11-14T01:48:58.754491Z",
    "needs_review": false
   },
   {
@@ -394,26 +413,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479893Z",
-   "needs_review": false
-  },
-  {
-   "id": "835fa8036c0a7fec",
-   "company_id": "consid",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479897Z",
+   "updated_at": "2026-11-14T01:48:58.754494Z",
    "needs_review": false
   },
   {
@@ -432,7 +432,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479903Z",
+   "updated_at": "2026-11-14T01:48:58.754501Z",
    "needs_review": false
   },
   {
@@ -451,7 +451,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.479908Z",
+   "updated_at": "2026-11-14T01:48:58.754506Z",
    "needs_review": false
   }
  ],

@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.238087Z",
+   "updated_at": "2026-11-14T01:48:58.740036Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.238663Z",
+   "updated_at": "2026-11-14T01:48:58.740520Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.238901Z",
+   "updated_at": "2026-11-14T01:48:58.740771Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.239524Z",
+   "updated_at": "2026-11-14T01:48:58.741444Z",
+   "needs_review": false
+  },
+  {
+   "id": "b75ad42d8e54daea",
+   "company_id": "circom-solutions",
+   "field": "offering",
+   "value": "TryggIT agreement: continuous IT operations support",
+   "status": "fact",
+   "source_page_id": "adf4fe48a273cce6",
+   "quote": "Med ett TryggIT avtal från Circom får ditt företag ett kontinuerligt, stabilt och säkert stöd i er IT-drift",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.741693Z",
+   "needs_review": false
+  },
+  {
+   "id": "748b3f497b421bfc",
+   "company_id": "circom-solutions",
+   "field": "customer_group",
+   "value": "Both large and small companies",
+   "status": "fact",
+   "source_page_id": "858657b2a0921f0e",
+   "quote": "Vår flexibilitet gör oss till en samarbetspartner för såväl det stora som det lilla företaget",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.742202Z",
    "needs_review": false
   },
   {
@@ -172,7 +210,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.240712Z",
+   "updated_at": "2026-11-14T01:48:58.743370Z",
    "needs_review": false
   },
   {
@@ -191,7 +229,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241751Z",
+   "updated_at": "2026-11-14T01:48:58.744428Z",
    "needs_review": false
   },
   {
@@ -210,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241764Z",
+   "updated_at": "2026-11-14T01:48:58.744443Z",
    "needs_review": false
   },
   {
@@ -229,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241770Z",
+   "updated_at": "2026-11-14T01:48:58.744450Z",
    "needs_review": false
   },
   {
@@ -248,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241775Z",
+   "updated_at": "2026-11-14T01:48:58.744454Z",
    "needs_review": false
   },
   {
@@ -267,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241778Z",
+   "updated_at": "2026-11-14T01:48:58.744458Z",
    "needs_review": false
   },
   {
@@ -286,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241781Z",
+   "updated_at": "2026-11-14T01:48:58.744462Z",
    "needs_review": false
   },
   {
@@ -305,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241784Z",
+   "updated_at": "2026-11-14T01:48:58.744465Z",
    "needs_review": false
   },
   {
@@ -324,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241787Z",
+   "updated_at": "2026-11-14T01:48:58.744468Z",
    "needs_review": false
   },
   {
@@ -343,7 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241790Z",
+   "updated_at": "2026-11-14T01:48:58.744471Z",
    "needs_review": false
   },
   {
@@ -362,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241792Z",
+   "updated_at": "2026-11-14T01:48:58.744474Z",
    "needs_review": false
   },
   {
@@ -381,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241795Z",
+   "updated_at": "2026-11-14T01:48:58.744478Z",
    "needs_review": false
   },
   {
@@ -400,7 +438,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.241801Z",
+   "updated_at": "2026-11-14T01:48:58.744485Z",
    "needs_review": false
   }
  ],

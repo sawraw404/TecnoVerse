@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:40.618980Z",
+  "last_crawled_at": "2026-11-14T01:28:24.839945Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,56 @@
    "retrieved_at": "2026-11-13T13:37:40.618980Z",
    "text": "",
    "content_hash": "be2387e647100f0c"
+  },
+  {
+   "id": "41b6a3a088fd0a7f",
+   "company_id": "kubicom",
+   "url": "https://kubicom.com/nyheter/ssab",
+   "source_type": "company_site",
+   "title": "SSAB väljer Kubicom för digital leveransdata | Kubicom",
+   "retrieved_at": "2026-11-14T01:28:22.181393Z",
+   "text": "",
+   "content_hash": "717d544265e73ab5"
+  },
+  {
+   "id": "78ac6fee19037da0",
+   "company_id": "kubicom",
+   "url": "https://kubicom.com/nyheter/peab-avtal",
+   "source_type": "company_site",
+   "title": "Kubicom tecknar avtal med Peab om order- och miljödata",
+   "retrieved_at": "2026-11-14T01:28:22.991731Z",
+   "text": "",
+   "content_hash": "dd27c62131d11b79"
+  },
+  {
+   "id": "e44c66df2594c381",
+   "company_id": "kubicom",
+   "url": "https://kubicom.com/nyheter/anna-fredriksson",
+   "source_type": "company_site",
+   "title": "Anna Fredriksson, professor i Bygglogistik, ny styrelseledamot i Kubicom | Kubicom",
+   "retrieved_at": "2026-11-14T01:28:23.476077Z",
+   "text": "",
+   "content_hash": "ed40ac1c119d8c4c"
+  },
+  {
+   "id": "496a13afde1fa0ca",
+   "company_id": "kubicom",
+   "url": "https://kubicom.com/nyheter/marc-larsson",
+   "source_type": "company_site",
+   "title": "Marc Larsson ny IT-supportspecialist på Kubicom | Kubicom",
+   "retrieved_at": "2026-11-14T01:28:24.325574Z",
+   "text": "",
+   "content_hash": "e4f215ea9ca366db"
+  },
+  {
+   "id": "300342fb358a3866",
+   "company_id": "kubicom",
+   "url": "https://kubicom.com/nyheter/kubicom-forelaser-om-sparbarhet-och-masshantering",
+   "source_type": "company_site",
+   "title": "Kubicom föreläser om spårbarhet och masshantering | Kubicom",
+   "retrieved_at": "2026-11-14T01:28:24.839945Z",
+   "text": "",
+   "content_hash": "42cc06d52af25975"
   }
  ],
  "items": [
@@ -116,7 +166,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.809191Z",
+   "updated_at": "2026-11-14T01:48:58.785917Z",
    "needs_review": false
   },
   {
@@ -135,7 +185,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.809600Z",
+   "updated_at": "2026-11-14T01:48:58.786346Z",
    "needs_review": false
   },
   {
@@ -154,7 +204,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.809989Z",
+   "updated_at": "2026-11-14T01:48:58.786755Z",
    "needs_review": false
   },
   {
@@ -173,7 +223,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.810919Z",
+   "updated_at": "2026-11-14T01:48:58.787848Z",
    "needs_review": false
   },
   {
@@ -192,7 +242,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.811449Z",
+   "updated_at": "2026-11-14T01:48:58.788531Z",
+   "needs_review": false
+  },
+  {
+   "id": "0ff9f3efc87d4a04",
+   "company_id": "kubicom",
+   "field": "technology",
+   "value": "Digital delivery notes and automatic climate reports",
+   "status": "fact",
+   "source_page_id": "6a65023ed606d39f",
+   "quote": "Få kontroll över leverantörsdata, automatiska klimatrapporter och full projektöversikt i realtid",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.788961Z",
+   "needs_review": false
+  },
+  {
+   "id": "934d1b0c58862021",
+   "company_id": "kubicom",
+   "field": "market",
+   "value": "Construction and civil engineering",
+   "status": "fact",
+   "source_page_id": "6a65023ed606d39f",
+   "quote": "Plattformen som kopplar ihop hela bygg- och anläggningskedjan, från fält till kontor",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.789359Z",
    "needs_review": false
   },
   {
@@ -211,7 +299,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812278Z",
+   "updated_at": "2026-11-14T01:48:58.790171Z",
    "needs_review": false
   },
   {
@@ -230,26 +318,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812293Z",
-   "needs_review": false
-  },
-  {
-   "id": "561566c4b0dee188",
-   "company_id": "kubicom",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812299Z",
+   "updated_at": "2026-11-14T01:48:58.790184Z",
    "needs_review": false
   },
   {
@@ -268,26 +337,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812304Z",
-   "needs_review": false
-  },
-  {
-   "id": "f3b274eb3e238894",
-   "company_id": "kubicom",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812308Z",
+   "updated_at": "2026-11-14T01:48:58.790190Z",
    "needs_review": false
   },
   {
@@ -306,7 +356,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812311Z",
+   "updated_at": "2026-11-14T01:48:58.790194Z",
    "needs_review": false
   },
   {
@@ -325,7 +375,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812314Z",
+   "updated_at": "2026-11-14T01:48:58.790198Z",
    "needs_review": false
   },
   {
@@ -344,7 +394,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812317Z",
+   "updated_at": "2026-11-14T01:48:58.790202Z",
    "needs_review": false
   },
   {
@@ -363,7 +413,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812320Z",
+   "updated_at": "2026-11-14T01:48:58.790205Z",
    "needs_review": false
   },
   {
@@ -372,7 +422,7 @@
    "field": "possible_interest",
    "value": "Climate data and sustainability reporting in construction",
    "status": "inferred",
-   "source_page_id": "24986ec823297f49",
+   "source_page_id": "6a65023ed606d39f",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It joined an industry initiative on climate performance.",
@@ -382,7 +432,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812327Z",
+   "updated_at": "2026-11-14T01:48:58.790211Z",
    "needs_review": false
   },
   {
@@ -401,7 +451,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.812332Z",
+   "updated_at": "2026-11-14T01:48:58.790215Z",
    "needs_review": false
   }
  ],

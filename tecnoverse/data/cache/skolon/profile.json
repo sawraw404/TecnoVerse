@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.456650Z",
+   "updated_at": "2026-11-14T01:48:58.810690Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.456820Z",
+   "updated_at": "2026-11-14T01:48:58.810877Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457961Z",
+   "updated_at": "2026-11-14T01:48:58.812467Z",
+   "needs_review": false
+  },
+  {
+   "id": "c8ed1711b2319c3b",
+   "company_id": "skolon",
+   "field": "offering",
+   "value": "One platform giving students and teachers access to all apps with one click",
+   "status": "fact",
+   "source_page_id": "0519c793d21b997a",
+   "quote": "Lik tilgang for elever og lærere til alle apper – med ett enkelt klikk",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.813754Z",
+   "needs_review": false
+  },
+  {
+   "id": "b37e0b81475cab21",
+   "company_id": "skolon",
+   "field": "collaboration",
+   "value": "Skolon Partner Program for content providers",
+   "status": "fact",
+   "source_page_id": "0519c793d21b997a",
+   "quote": "Skolon Partner Program",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.814895Z",
+   "needs_review": false
+  },
+  {
+   "id": "660936c485f43f4f",
+   "company_id": "skolon",
+   "field": "customer_group",
+   "value": "Schools, teachers and students",
+   "status": "fact",
+   "source_page_id": "0519c793d21b997a",
+   "quote": "Samlingsplass for lærere og elever",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.816006Z",
    "needs_review": false
   },
   {
@@ -113,26 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457969Z",
-   "needs_review": false
-  },
-  {
-   "id": "5b7bae8189468bcb",
-   "company_id": "skolon",
-   "field": "offering",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457973Z",
+   "updated_at": "2026-11-14T01:48:58.816014Z",
    "needs_review": false
   },
   {
@@ -151,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457977Z",
+   "updated_at": "2026-11-14T01:48:58.816019Z",
    "needs_review": false
   },
   {
@@ -170,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457980Z",
+   "updated_at": "2026-11-14T01:48:58.816023Z",
    "needs_review": false
   },
   {
@@ -189,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457983Z",
+   "updated_at": "2026-11-14T01:48:58.816026Z",
    "needs_review": false
   },
   {
@@ -208,26 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457985Z",
-   "needs_review": false
-  },
-  {
-   "id": "01b0a68ca523a76e",
-   "company_id": "skolon",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457988Z",
+   "updated_at": "2026-11-14T01:48:58.816029Z",
    "needs_review": false
   },
   {
@@ -246,26 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457992Z",
-   "needs_review": false
-  },
-  {
-   "id": "5af10c0d634bd5d2",
-   "company_id": "skolon",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457995Z",
+   "updated_at": "2026-11-14T01:48:58.816033Z",
    "needs_review": false
   },
   {
@@ -284,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.457998Z",
+   "updated_at": "2026-11-14T01:48:58.816036Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.458004Z",
+   "updated_at": "2026-11-14T01:48:58.816043Z",
    "needs_review": false
   }
  ],

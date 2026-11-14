@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:39.253288Z",
+  "last_crawled_at": "2026-11-14T01:40:50.552833Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,96 @@
    "retrieved_at": "2026-11-13T13:37:39.253288Z",
    "text": "",
    "content_hash": "614613c139bef837"
+  },
+  {
+   "id": "9d276b832630b1f8",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/press/",
+   "source_type": "company_site",
+   "title": "Press & News | Nordlo, IT & digitalisation partner",
+   "retrieved_at": "2026-11-14T01:31:26.475754Z",
+   "text": "",
+   "content_hash": "9531b90a7be2401b"
+  },
+  {
+   "id": "e52dd1ab5c65c249",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/en/news/microsoft-honours-nordlo-as-smb-partner-of-the-year",
+   "source_type": "company_site",
+   "title": "Microsoft honours Nordlo as SMB Partner of the Year - Nordlo",
+   "retrieved_at": "2026-11-14T01:31:28.195852Z",
+   "text": "",
+   "content_hash": "317ce97be605b030"
+  },
+  {
+   "id": "9eaa4f1127d9251e",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/en/news/it-recruitment-with-the-heart-at-nordlo-more-employees-now-needed",
+   "source_type": "company_site",
+   "title": "IT recruitment with the heart at Nordlo – more employees now needed - Nordlo",
+   "retrieved_at": "2026-11-14T01:31:28.636815Z",
+   "text": "",
+   "content_hash": "c8d45d99dc077b01"
+  },
+  {
+   "id": "2286edef6717e368",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/nyheter/microsoft-utser-nordlo-till-smb-partner-of-the-year",
+   "source_type": "company_site",
+   "title": "Microsoft utser Nordlo till SMB Partner of the Year - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:47.467800Z",
+   "text": "",
+   "content_hash": "e7ff898b656fbec4"
+  },
+  {
+   "id": "40518cea51f7c688",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/en/press/nordlos-science-based-targets-approved-by-global-climate-initiative-sbti",
+   "source_type": "company_site",
+   "title": "Nordlo's science-based targets approved by global climate initiative SBTi - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:47.931393Z",
+   "text": "",
+   "content_hash": "d2bc1c4c9afb3680"
+  },
+  {
+   "id": "c293a49d7f64f1bf",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/en/press/nordlo-signs-multi-year-it-agreement-with-goteborgs-sparvagar-to-future-proof-operations",
+   "source_type": "company_site",
+   "title": "Nordlo signs multi-year IT agreement with Göteborgs Spårvägar – to future-proof operations  - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:48.429100Z",
+   "text": "",
+   "content_hash": "ecb7f9e1c21e7bd4"
+  },
+  {
+   "id": "225b855e41bf9e0e",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/en/press/nordlo-recruits-industry-veteran-per-rosen-will-continue-growth-in-major-cities",
+   "source_type": "company_site",
+   "title": "Nordlo recruits industry veteran Per Rosén: ‘Will continue growth in major cities’ - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:48.948882Z",
+   "text": "",
+   "content_hash": "d060cfa7133eb7d2"
+  },
+  {
+   "id": "236e8492f66a9552",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/nyheter/nordlo-it-rekryterar-med-hjartat-nu-behovs-fler-medarbetare",
+   "source_type": "company_site",
+   "title": "Nordlo IT-rekryterar med hjärtat – nu behövs fler medarbetare - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:49.999925Z",
+   "text": "",
+   "content_hash": "6ed9e96cdc722a3d"
+  },
+  {
+   "id": "f00061613d7876f9",
+   "company_id": "nordlo",
+   "url": "https://nordlo.com/no/nyheter/nordlo-rekrutterer-med-hjertet-na-trenger-vi-flere-it-medarbeidere",
+   "source_type": "company_site",
+   "title": "Nordlo rekrutterer med hjertet – nå trenger vi flere IT-medarbeidere - Nordlo",
+   "retrieved_at": "2026-11-14T01:40:50.552833Z",
+   "text": "",
+   "content_hash": "4146ca595bede554"
   }
  ],
  "items": [
@@ -116,7 +206,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.820792Z",
+   "updated_at": "2026-11-14T01:48:58.802371Z",
    "needs_review": false
   },
   {
@@ -135,7 +225,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.821910Z",
+   "updated_at": "2026-11-14T01:48:58.803519Z",
    "needs_review": false
   },
   {
@@ -154,7 +244,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.823000Z",
+   "updated_at": "2026-11-14T01:48:58.804635Z",
    "needs_review": false
   },
   {
@@ -173,7 +263,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.823990Z",
+   "updated_at": "2026-11-14T01:48:58.805656Z",
+   "needs_review": false
+  },
+  {
+   "id": "ac71b28cd4745de8",
+   "company_id": "nordlo",
+   "field": "customer_group",
+   "value": "Retail, public sector, property and manufacturing",
+   "status": "fact",
+   "source_page_id": "3dd4cec8cc065ad9",
+   "quote": "samarbeten med företag inom bland annat retail, offentlig sektor, fastighet och tillverkande industri",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.806789Z",
    "needs_review": false
   },
   {
@@ -192,7 +301,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824684Z",
+   "updated_at": "2026-11-14T01:48:58.807496Z",
    "needs_review": false
   },
   {
@@ -211,7 +320,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824696Z",
+   "updated_at": "2026-11-14T01:48:58.807508Z",
    "needs_review": false
   },
   {
@@ -230,7 +339,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824702Z",
+   "updated_at": "2026-11-14T01:48:58.807515Z",
    "needs_review": false
   },
   {
@@ -249,7 +358,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824706Z",
+   "updated_at": "2026-11-14T01:48:58.807519Z",
    "needs_review": false
   },
   {
@@ -268,7 +377,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824710Z",
+   "updated_at": "2026-11-14T01:48:58.807522Z",
    "needs_review": false
   },
   {
@@ -287,26 +396,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824713Z",
-   "needs_review": false
-  },
-  {
-   "id": "0bf5d34398593361",
-   "company_id": "nordlo",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824716Z",
+   "updated_at": "2026-11-14T01:48:58.807525Z",
    "needs_review": false
   },
   {
@@ -325,7 +415,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824718Z",
+   "updated_at": "2026-11-14T01:48:58.807529Z",
    "needs_review": false
   },
   {
@@ -344,7 +434,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824721Z",
+   "updated_at": "2026-11-14T01:48:58.807532Z",
    "needs_review": false
   },
   {
@@ -363,7 +453,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824724Z",
+   "updated_at": "2026-11-14T01:48:58.807535Z",
    "needs_review": false
   },
   {
@@ -382,7 +472,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824727Z",
+   "updated_at": "2026-11-14T01:48:58.807538Z",
    "needs_review": false
   },
   {
@@ -401,7 +491,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.824732Z",
+   "updated_at": "2026-11-14T01:48:58.807545Z",
    "needs_review": false
   }
  ],

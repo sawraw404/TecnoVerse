@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:28.391492Z",
+  "last_crawled_at": "2026-11-14T01:28:20.692849Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -87,6 +87,36 @@
    "retrieved_at": "2026-11-13T13:37:28.391492Z",
    "text": "",
    "content_hash": "572c5132ff77847b"
+  },
+  {
+   "id": "23fd7cce6979f8bb",
+   "company_id": "cimon-enterprise",
+   "url": "https://cimon.se/2026/08/03/johan-utvecklar-robotar-for-extrema-miljoer",
+   "source_type": "company_site",
+   "title": "Johan utvecklar robotar för extrema miljöer – Cimon",
+   "retrieved_at": "2026-11-14T01:28:17.061470Z",
+   "text": "",
+   "content_hash": "c46163832044783c"
+  },
+  {
+   "id": "fed27159b340e931",
+   "company_id": "cimon-enterprise",
+   "url": "https://cimon.se/2026/06/18/skolon-prisas-internationellt-for-sitt-arbete-med-skolor-i-europa",
+   "source_type": "company_site",
+   "title": "Skolon prisas internationellt för sitt arbete med skolor i Europa – Cimon",
+   "retrieved_at": "2026-11-14T01:28:17.596379Z",
+   "text": "",
+   "content_hash": "552e28554acc97b8"
+  },
+  {
+   "id": "eefa1ce257b3c479",
+   "company_id": "cimon-enterprise",
+   "url": "https://news.cision.com/se/peab/r/peab-erbjuder-digitalt-las--och-skrivverktyg-for-alla-medarbetare,c3212215",
+   "source_type": "news",
+   "title": "Peab erbjuder digitalt läs- och skrivverktyg för alla medarbetare - Peab",
+   "retrieved_at": "2026-11-14T01:28:20.692849Z",
+   "text": "",
+   "content_hash": "e9d516347cf8b0f6"
   }
  ],
  "items": [
@@ -106,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.231157Z",
+   "updated_at": "2026-11-14T01:48:58.731098Z",
    "needs_review": false
   },
   {
@@ -125,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.231831Z",
+   "updated_at": "2026-11-14T01:48:58.731670Z",
    "needs_review": false
   },
   {
@@ -144,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.232003Z",
+   "updated_at": "2026-11-14T01:48:58.731845Z",
    "needs_review": false
   },
   {
@@ -163,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.232164Z",
+   "updated_at": "2026-11-14T01:48:58.732013Z",
    "needs_review": false
   },
   {
@@ -182,7 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236137Z",
+   "updated_at": "2026-11-14T01:48:58.736599Z",
    "needs_review": false
   },
   {
@@ -201,7 +231,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236325Z",
+   "updated_at": "2026-11-14T01:48:58.736817Z",
+   "needs_review": false
+  },
+  {
+   "id": "0c289199e92c671b",
+   "company_id": "cimon-enterprise",
+   "field": "geography",
+   "value": "Karlshamn",
+   "status": "fact",
+   "source_page_id": "2a9caee3e2036161",
+   "quote": "Cimon AB | Pirgatan 17 | 374 36 | Karlshamn",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.736987Z",
+   "needs_review": false
+  },
+  {
+   "id": "df278fd3b8cd0f3b",
+   "company_id": "cimon-enterprise",
+   "field": "collaboration",
+   "value": "Owner engagement in Avalon Innovation, Kubicom, Neuronano, Paxman, Skolon, Techquity and others",
+   "status": "fact",
+   "source_page_id": "2a9caee3e2036161",
+   "quote": "Nuvarande engagemang Avalon Innovation Galio of Sweden Kubicom Neuronano Nextage Paxman Skolon Tc-Tech Techquity",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.737160Z",
+   "needs_review": false
+  },
+  {
+   "id": "125d05cc7c3c117c",
+   "company_id": "cimon-enterprise",
+   "field": "expertise",
+   "value": "Entrepreneurs and experts in finance, business development and digitalisation",
+   "status": "fact",
+   "source_page_id": "87f4f7d7dc6dbee4",
+   "quote": "Vår ledning består av en kombination av entreprenörer och experter inom finans- och företagsutveckling och digitalisering",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.737717Z",
    "needs_review": false
   },
   {
@@ -220,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236344Z",
+   "updated_at": "2026-11-14T01:48:58.737743Z",
    "needs_review": false
   },
   {
@@ -239,26 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236352Z",
-   "needs_review": false
-  },
-  {
-   "id": "3ec2d0fa45dcd809",
-   "company_id": "cimon-enterprise",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236359Z",
+   "updated_at": "2026-11-14T01:48:58.737755Z",
    "needs_review": false
   },
   {
@@ -277,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236364Z",
+   "updated_at": "2026-11-14T01:48:58.737760Z",
    "needs_review": false
   },
   {
@@ -296,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236369Z",
+   "updated_at": "2026-11-14T01:48:58.737764Z",
    "needs_review": false
   },
   {
@@ -315,26 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236374Z",
-   "needs_review": false
-  },
-  {
-   "id": "f7ac8bbf76e0c816",
-   "company_id": "cimon-enterprise",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236378Z",
+   "updated_at": "2026-11-14T01:48:58.737768Z",
    "needs_review": false
   },
   {
@@ -353,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236382Z",
+   "updated_at": "2026-11-14T01:48:58.737772Z",
    "needs_review": false
   },
   {
@@ -362,7 +411,7 @@
    "field": "possible_interest",
    "value": "Early-stage companies and ideas to invest in",
    "status": "inferred",
-   "source_page_id": "87f4f7d7dc6dbee4",
+   "source_page_id": "2a9caee3e2036161",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It develops ideas into companies.",
@@ -372,7 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236390Z",
+   "updated_at": "2026-11-14T01:48:58.737780Z",
    "needs_review": false
   },
   {
@@ -381,7 +430,7 @@
    "field": "possible_interest",
    "value": "AI in product development and education",
    "status": "inferred",
-   "source_page_id": "60b2a6087a93f689",
+   "source_page_id": "2a9caee3e2036161",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its group companies work with generative design and AI for schools.",
@@ -391,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.236395Z",
+   "updated_at": "2026-11-14T01:48:58.737786Z",
    "needs_review": false
   }
  ],

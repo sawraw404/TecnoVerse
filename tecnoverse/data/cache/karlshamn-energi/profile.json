@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:35.458426Z",
+  "last_crawled_at": "2026-11-14T01:40:48.802621Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:37:35.458426Z",
    "text": "",
    "content_hash": "de0835620ed525fd"
+  },
+  {
+   "id": "e6c4098fcfabfdb7",
+   "company_id": "karlshamn-energi",
+   "url": "https://www.karlshamnenergi.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter – Karlshamn Energi",
+   "retrieved_at": "2026-11-14T01:31:22.572973Z",
+   "text": "",
+   "content_hash": "9e7d48ef478c8ece"
+  },
+  {
+   "id": "3e7861df997271ce",
+   "company_id": "karlshamn-energi",
+   "url": "https://www.karlshamnenergi.se/nyheter/page/2",
+   "source_type": "company_site",
+   "title": "Nyheter – Sida 2 – Karlshamn Energi",
+   "retrieved_at": "2026-11-14T01:31:24.806810Z",
+   "text": "",
+   "content_hash": "35ec52b212f91322"
+  },
+  {
+   "id": "2db7eca38babc6fb",
+   "company_id": "karlshamn-energi",
+   "url": "https://www.karlshamnenergi.se/nyheter/page/3",
+   "source_type": "company_site",
+   "title": "Nyheter – Sida 3 – Karlshamn Energi",
+   "retrieved_at": "2026-11-14T01:40:48.802621Z",
+   "text": "",
+   "content_hash": "7a2f6d655f3b8ab1"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.801731Z",
+   "updated_at": "2026-11-14T01:48:58.774894Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.802572Z",
+   "updated_at": "2026-11-14T01:48:58.775565Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.803231Z",
+   "updated_at": "2026-11-14T01:48:58.776207Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.803576Z",
+   "updated_at": "2026-11-14T01:48:58.776571Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804017Z",
+   "updated_at": "2026-11-14T01:48:58.777063Z",
+   "needs_review": false
+  },
+  {
+   "id": "e360f369242a61e9",
+   "company_id": "karlshamn-energi",
+   "field": "collaboration",
+   "value": "Power grid emergency readiness with Olofströms Kraft (OKAB)",
+   "status": "fact",
+   "source_page_id": "c6f9b471b4e6f856",
+   "quote": "Olofströms Kraft AB hjälper oss med beredskapen på vårt elnät",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.777451Z",
+   "needs_review": false
+  },
+  {
+   "id": "db2c99b89cce1af4",
+   "company_id": "karlshamn-energi",
+   "field": "offering",
+   "value": "Project management for companies' energy-saving measures",
+   "status": "fact",
+   "source_page_id": "aeeac8fb5e184bd8",
+   "quote": "Vi kan stå för projektledning vid genomförandet av de utvalda energiåtgärderna",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.777968Z",
    "needs_review": false
   },
   {
@@ -211,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804444Z",
+   "updated_at": "2026-11-14T01:48:58.778414Z",
    "needs_review": false
   },
   {
@@ -230,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804851Z",
+   "updated_at": "2026-11-14T01:48:58.778826Z",
    "needs_review": false
   },
   {
@@ -249,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804863Z",
+   "updated_at": "2026-11-14T01:48:58.778839Z",
    "needs_review": false
   },
   {
@@ -268,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804869Z",
+   "updated_at": "2026-11-14T01:48:58.778846Z",
    "needs_review": false
   },
   {
@@ -287,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804873Z",
+   "updated_at": "2026-11-14T01:48:58.778850Z",
    "needs_review": false
   },
   {
@@ -306,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804876Z",
+   "updated_at": "2026-11-14T01:48:58.778854Z",
    "needs_review": false
   },
   {
@@ -325,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804879Z",
+   "updated_at": "2026-11-14T01:48:58.778857Z",
    "needs_review": false
   },
   {
@@ -344,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804882Z",
+   "updated_at": "2026-11-14T01:48:58.778860Z",
    "needs_review": false
   },
   {
@@ -363,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804885Z",
+   "updated_at": "2026-11-14T01:48:58.778863Z",
    "needs_review": false
   },
   {
@@ -382,26 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804888Z",
-   "needs_review": false
-  },
-  {
-   "id": "89ccbc5292f9a83e",
-   "company_id": "karlshamn-energi",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804891Z",
+   "updated_at": "2026-11-14T01:48:58.778867Z",
    "needs_review": false
   },
   {
@@ -420,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804894Z",
+   "updated_at": "2026-11-14T01:48:58.778870Z",
    "needs_review": false
   },
   {
@@ -439,7 +488,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804899Z",
+   "updated_at": "2026-11-14T01:48:58.778878Z",
    "needs_review": false
   },
   {
@@ -458,7 +507,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.804903Z",
+   "updated_at": "2026-11-14T01:48:58.778882Z",
    "needs_review": false
   }
  ],

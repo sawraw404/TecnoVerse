@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:30.585188Z",
+  "last_crawled_at": "2026-11-14T01:30:18.812377Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,46 @@
    "retrieved_at": "2026-11-13T13:37:30.585188Z",
    "text": "",
    "content_hash": "aba3203f4420c043"
+  },
+  {
+   "id": "fc4804ab02f148c5",
+   "company_id": "avalon-innovation",
+   "url": "https://avaloninnovation.com/nyheter/automation-trender-och-framtid",
+   "source_type": "company_site",
+   "title": "Automation som drivkraft för en smartare industri — Avalon Innovation",
+   "retrieved_at": "2026-11-14T01:28:17.026849Z",
+   "text": "",
+   "content_hash": "6d24625abfe7437c"
+  },
+  {
+   "id": "9a6eda0353fe4b42",
+   "company_id": "avalon-innovation",
+   "url": "https://avaloninnovation.com/nyheter/nytt-kontor-genetor-malmo-helsingborg",
+   "source_type": "company_site",
+   "title": "Nytt kontor hos Genetor Coworking i Malmö & Helsingborg — Avalon Innovation",
+   "retrieved_at": "2026-11-14T01:28:18.021915Z",
+   "text": "",
+   "content_hash": "953b6c9d45c545c3"
+  },
+  {
+   "id": "9c3f702dcd6240ca",
+   "company_id": "avalon-innovation",
+   "url": "https://avaloninnovation.com/nyheter/mekanikkonstruktor-robotik-karnkraft-johan-persson",
+   "source_type": "company_site",
+   "title": "Mekanikkonstruktör inom kärnkraft: Johan på Dekra | Avalon Innovation — Avalon Innovation",
+   "retrieved_at": "2026-11-14T01:28:18.677622Z",
+   "text": "",
+   "content_hash": "f4940cdf878de2c3"
+  },
+  {
+   "id": "7d208fcd5570d5bc",
+   "company_id": "avalon-innovation",
+   "url": "https://www.bluesciencepark.se/aktuellt/ny-satsning-for-att-starka-blekinges-foretag-genom-ai-teknologi/",
+   "source_type": "news",
+   "title": "Ny satsning för att stärka Blekinges företag genom AI-teknologi - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.812377Z",
+   "text": "",
+   "content_hash": "b41316791d832d3f"
   }
  ],
  "items": [
@@ -116,7 +156,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.223974Z",
+   "updated_at": "2026-11-14T01:48:58.721995Z",
    "needs_review": false
   },
   {
@@ -135,7 +175,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.224242Z",
+   "updated_at": "2026-11-14T01:48:58.722295Z",
    "needs_review": false
   },
   {
@@ -154,7 +194,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.224495Z",
+   "updated_at": "2026-11-14T01:48:58.722559Z",
    "needs_review": false
   },
   {
@@ -173,7 +213,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.224761Z",
+   "updated_at": "2026-11-14T01:48:58.722833Z",
    "needs_review": false
   },
   {
@@ -192,7 +232,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.225521Z",
+   "updated_at": "2026-11-14T01:48:58.723680Z",
+   "needs_review": false
+  },
+  {
+   "id": "f66ffa6ad22385b2",
+   "company_id": "avalon-innovation",
+   "field": "customer_group",
+   "value": "4,000+ customers; 99.7% would hire Avalon again (2025 survey)",
+   "status": "fact",
+   "source_page_id": "09c67c0e85d0a3f0",
+   "quote": "99,7 % av de kunder som deltog i vår kundundersökning 2025 vill anlita Avalon igen",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.723930Z",
+   "needs_review": false
+  },
+  {
+   "id": "7e7403e1f7589ac9",
+   "company_id": "avalon-innovation",
+   "field": "market",
+   "value": "Industry-independent knowledge across many technology areas",
+   "status": "fact",
+   "source_page_id": "09c67c0e85d0a3f0",
+   "quote": "Genom åren har vi byggt upp djupa branschoberoende kunskaper inom ett brett antal teknikområden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.724177Z",
+   "needs_review": false
+  },
+  {
+   "id": "77e6b4086a91c98a",
+   "company_id": "avalon-innovation",
+   "field": "priority",
+   "value": "Vision: become The Scandinavian Innovation Company",
+   "status": "fact",
+   "source_page_id": "96db39e34f88759d",
+   "quote": "Vår vision är att bli The Scandinavian Innovation Company",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.724435Z",
    "needs_review": false
   },
   {
@@ -211,7 +308,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.225679Z",
+   "updated_at": "2026-11-14T01:48:58.724610Z",
    "needs_review": false
   },
   {
@@ -230,7 +327,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227019Z",
+   "updated_at": "2026-11-14T01:48:58.726035Z",
    "needs_review": false
   },
   {
@@ -249,7 +346,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227032Z",
+   "updated_at": "2026-11-14T01:48:58.726055Z",
    "needs_review": false
   },
   {
@@ -268,7 +365,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227038Z",
+   "updated_at": "2026-11-14T01:48:58.726067Z",
    "needs_review": false
   },
   {
@@ -287,45 +384,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227043Z",
-   "needs_review": false
-  },
-  {
-   "id": "37d79d623cc65985",
-   "company_id": "avalon-innovation",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227047Z",
-   "needs_review": false
-  },
-  {
-   "id": "92944f87b22ab45a",
-   "company_id": "avalon-innovation",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227050Z",
+   "updated_at": "2026-11-14T01:48:58.726073Z",
    "needs_review": false
   },
   {
@@ -344,7 +403,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227054Z",
+   "updated_at": "2026-11-14T01:48:58.726077Z",
    "needs_review": false
   },
   {
@@ -363,26 +422,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227057Z",
-   "needs_review": false
-  },
-  {
-   "id": "eabea8fb79515ebf",
-   "company_id": "avalon-innovation",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227060Z",
+   "updated_at": "2026-11-14T01:48:58.726081Z",
    "needs_review": false
   },
   {
@@ -391,7 +431,7 @@
    "field": "possible_interest",
    "value": "Industrial automation and smart manufacturing projects",
    "status": "inferred",
-   "source_page_id": "7ef4d171d5e73f80",
+   "source_page_id": "09c67c0e85d0a3f0",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It publishes on automation and offers production development.",
@@ -401,7 +441,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227066Z",
+   "updated_at": "2026-11-14T01:48:58.726092Z",
    "needs_review": false
   },
   {
@@ -420,7 +460,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.227071Z",
+   "updated_at": "2026-11-14T01:48:58.726099Z",
    "needs_review": false
   }
  ],

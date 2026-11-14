@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.806193Z",
+   "updated_at": "2026-11-14T01:48:58.781149Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.806460Z",
+   "updated_at": "2026-11-14T01:48:58.781635Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.806712Z",
+   "updated_at": "2026-11-14T01:48:58.782045Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.806956Z",
+   "updated_at": "2026-11-14T01:48:58.782370Z",
    "needs_review": false
   },
   {
@@ -172,7 +172,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807194Z",
+   "updated_at": "2026-11-14T01:48:58.782678Z",
+   "needs_review": false
+  },
+  {
+   "id": "1f678a0f03ac734a",
+   "company_id": "karlshamns-hamn",
+   "field": "expertise",
+   "value": "Handles all cargo types and vessel sizes, from forest products to industrial goods",
+   "status": "fact",
+   "source_page_id": "82373ddf33a75412",
+   "quote": "Karlshamns Hamn har kapacitet för hantering av alla godstyper och fartygsstorlekar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.782947Z",
+   "needs_review": false
+  },
+  {
+   "id": "3939584d6c8334af",
+   "company_id": "karlshamns-hamn",
+   "field": "priority",
+   "value": "Strategic logistics node with air, rail and European road access",
+   "status": "fact",
+   "source_page_id": "82373ddf33a75412",
+   "quote": "Karlshamns Hamn är en strategiskt placerad logistiknod med optimal tillgång till flyg, järnväg och Europavägar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.783220Z",
    "needs_review": false
   },
   {
@@ -191,7 +229,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807368Z",
+   "updated_at": "2026-11-14T01:48:58.783406Z",
    "needs_review": false
   },
   {
@@ -210,7 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807527Z",
+   "updated_at": "2026-11-14T01:48:58.783590Z",
    "needs_review": false
   },
   {
@@ -229,7 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807538Z",
+   "updated_at": "2026-11-14T01:48:58.783603Z",
    "needs_review": false
   },
   {
@@ -248,26 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807544Z",
-   "needs_review": false
-  },
-  {
-   "id": "b944350a396f5b2a",
-   "company_id": "karlshamns-hamn",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807548Z",
+   "updated_at": "2026-11-14T01:48:58.783609Z",
    "needs_review": false
   },
   {
@@ -286,7 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807551Z",
+   "updated_at": "2026-11-14T01:48:58.783614Z",
    "needs_review": false
   },
   {
@@ -305,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807554Z",
+   "updated_at": "2026-11-14T01:48:58.783618Z",
    "needs_review": false
   },
   {
@@ -324,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807557Z",
+   "updated_at": "2026-11-14T01:48:58.783621Z",
    "needs_review": false
   },
   {
@@ -343,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807560Z",
+   "updated_at": "2026-11-14T01:48:58.783625Z",
    "needs_review": false
   },
   {
@@ -362,26 +381,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807563Z",
-   "needs_review": false
-  },
-  {
-   "id": "b217d0a109850818",
-   "company_id": "karlshamns-hamn",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807566Z",
+   "updated_at": "2026-11-14T01:48:58.783629Z",
    "needs_review": false
   },
   {
@@ -400,7 +400,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807571Z",
+   "updated_at": "2026-11-14T01:48:58.783635Z",
    "needs_review": false
   },
   {
@@ -419,7 +419,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.807575Z",
+   "updated_at": "2026-11-14T01:48:58.783640Z",
    "needs_review": false
   }
  ],

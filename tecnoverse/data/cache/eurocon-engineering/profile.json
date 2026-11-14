@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.798356Z",
+   "updated_at": "2026-11-14T01:48:58.769800Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.798826Z",
+   "updated_at": "2026-11-14T01:48:58.770229Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.799234Z",
+   "updated_at": "2026-11-14T01:48:58.770650Z",
    "needs_review": false
   },
   {
@@ -163,7 +163,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.799644Z",
+   "updated_at": "2026-11-14T01:48:58.771062Z",
+   "needs_review": false
+  },
+  {
+   "id": "4dfb7abb33929b08",
+   "company_id": "eurocon-engineering",
+   "field": "geography",
+   "value": "Offices from Kiruna to Karlshamn; head office in Örnsköldsvik",
+   "status": "fact",
+   "source_page_id": "b2d6319c69e62172",
+   "quote": "Eurocon finns på över tio orter från Kiruna i norr till Karlshamn i söder med huvudkontoret i Örnsköldsvik",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.771443Z",
+   "needs_review": false
+  },
+  {
+   "id": "4996c15f6be0d4a7",
+   "company_id": "eurocon-engineering",
+   "field": "collaboration",
+   "value": "Subsidiary of Rejlers Sverige AB since April 2023",
+   "status": "fact",
+   "source_page_id": "b2d6319c69e62172",
+   "quote": "Den 3 april 2023 blev Eurocon ett dotterbolag till Rejlers Sverige AB",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.771800Z",
+   "needs_review": false
+  },
+  {
+   "id": "426e78a545e32125",
+   "company_id": "eurocon-engineering",
+   "field": "offering",
+   "value": "Services across an investment's life cycle, from pre-study to maintenance",
+   "status": "fact",
+   "source_page_id": "253c0000836f0d4d",
+   "quote": "Tjänsterna omfattar hela livscykeln för en investering, från förstudie till genomförandeprojekt och underhåll",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.772214Z",
    "needs_review": false
   },
   {
@@ -182,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.799913Z",
+   "updated_at": "2026-11-14T01:48:58.772492Z",
    "needs_review": false
   },
   {
@@ -201,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800177Z",
+   "updated_at": "2026-11-14T01:48:58.772769Z",
    "needs_review": false
   },
   {
@@ -220,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800188Z",
+   "updated_at": "2026-11-14T01:48:58.772780Z",
    "needs_review": false
   },
   {
@@ -239,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800193Z",
+   "updated_at": "2026-11-14T01:48:58.772785Z",
    "needs_review": false
   },
   {
@@ -258,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800198Z",
+   "updated_at": "2026-11-14T01:48:58.772790Z",
    "needs_review": false
   },
   {
@@ -277,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800201Z",
+   "updated_at": "2026-11-14T01:48:58.772793Z",
    "needs_review": false
   },
   {
@@ -296,26 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800204Z",
-   "needs_review": false
-  },
-  {
-   "id": "45ea6f1545079287",
-   "company_id": "eurocon-engineering",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800207Z",
+   "updated_at": "2026-11-14T01:48:58.772796Z",
    "needs_review": false
   },
   {
@@ -334,26 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800210Z",
-   "needs_review": false
-  },
-  {
-   "id": "0916ed70be3a8545",
-   "company_id": "eurocon-engineering",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800213Z",
+   "updated_at": "2026-11-14T01:48:58.772799Z",
    "needs_review": false
   },
   {
@@ -372,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800215Z",
+   "updated_at": "2026-11-14T01:48:58.772802Z",
    "needs_review": false
   },
   {
@@ -391,7 +410,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.800221Z",
+   "updated_at": "2026-11-14T01:48:58.772809Z",
    "needs_review": false
   }
  ],

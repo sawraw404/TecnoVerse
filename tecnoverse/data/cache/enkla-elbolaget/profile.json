@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.794262Z",
+   "updated_at": "2026-11-14T01:48:58.764181Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.794835Z",
+   "updated_at": "2026-11-14T01:48:58.764667Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.795299Z",
+   "updated_at": "2026-11-14T01:48:58.765122Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.795749Z",
+   "updated_at": "2026-11-14T01:48:58.765585Z",
+   "needs_review": false
+  },
+  {
+   "id": "0df606b4777152c7",
+   "company_id": "enkla-elbolaget",
+   "field": "expertise",
+   "value": "Customer service staff are certified energy advisers",
+   "status": "fact",
+   "source_page_id": "d333a0a1de4cd798",
+   "quote": "Alla du är i kontakt med på kundservice är utbildade och certifierade energirådgivare",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.766772Z",
+   "needs_review": false
+  },
+  {
+   "id": "3e389a0894a460aa",
+   "company_id": "enkla-elbolaget",
+   "field": "offering",
+   "value": "Protection against sudden electricity price spikes",
+   "status": "fact",
+   "source_page_id": "79d3553e0b21418b",
+   "quote": "erbjuder vi även en lösning som skyddar mot elmarknadens plötsliga pristoppar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:48:58.767231Z",
    "needs_review": false
   },
   {
@@ -192,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796077Z",
+   "updated_at": "2026-11-14T01:48:58.767522Z",
    "needs_review": false
   },
   {
@@ -211,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796085Z",
+   "updated_at": "2026-11-14T01:48:58.767529Z",
    "needs_review": false
   },
   {
@@ -230,26 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796090Z",
-   "needs_review": false
-  },
-  {
-   "id": "8809ecfecc14a08d",
-   "company_id": "enkla-elbolaget",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796093Z",
+   "updated_at": "2026-11-14T01:48:58.767534Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796096Z",
+   "updated_at": "2026-11-14T01:48:58.767538Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796099Z",
+   "updated_at": "2026-11-14T01:48:58.767541Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796102Z",
+   "updated_at": "2026-11-14T01:48:58.767544Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796106Z",
+   "updated_at": "2026-11-14T01:48:58.767547Z",
    "needs_review": false
   },
   {
@@ -344,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796110Z",
+   "updated_at": "2026-11-14T01:48:58.767551Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796113Z",
+   "updated_at": "2026-11-14T01:48:58.767554Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.796119Z",
+   "updated_at": "2026-11-14T01:48:58.767560Z",
    "needs_review": false
   }
  ],
