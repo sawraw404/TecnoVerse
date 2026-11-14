@@ -3,4 +3,5 @@ pydantic>=2
 google-genai
 requests
 python-dotenv
+beautifulsoup4
 pytest

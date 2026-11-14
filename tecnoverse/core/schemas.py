@@ -8,6 +8,7 @@ OpportunityType = Literal["funding", "event", "testbed", "news"]
 Role = Literal["member", "staff", "external"]
 SourceType = Literal["company_site", "news", "registry", "publication", "other"]
 ProfileField = Literal[
+    "industry", "contact", "innovation",
     "offering", "technology", "expertise", "application_area", "market", "customer_group",
     "geography", "project", "collaboration", "priority", "possible_interest",
 ]
@@ -20,11 +21,19 @@ SupportArea = Literal["funding", "testbeds", "events", "membership", "collaborat
 SUGGESTION_LABEL = "Suggestion: neither company has expressed interest"
 
 
+class FoundVia(BaseModel):
+    directory: str  # public directory the company was found in
+    url: str
+    retrieved: date
+
+
 class Company(BaseModel):
     id: str
     name: str
     website: str
-    is_member: bool = True
+    is_member: bool = True  # Blue Science Park member
+    region: str | None = None
+    found_via: list[FoundVia] = []
     last_crawled_at: datetime | None = None
     profile_version: int = 0
     priority_types: list[OpportunityType] = []

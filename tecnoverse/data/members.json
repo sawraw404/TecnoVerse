@@ -1,22 +1,57 @@
 [
   {
-    "id": "techinova",
-    "name": "Techinova",
-    "website": "https://www.techinova.se/",
+    "id": "3d-vision",
+    "name": "3D Vision",
+    "website": "https://www.3dvision.se/",
     "is_member": true,
     "simulated": false
   },
   {
-    "id": "cleura",
-    "name": "Cleura",
-    "website": "https://cleura.com",
+    "id": "addsecure",
+    "name": "AddSecure – Smartgrids",
+    "website": "https://www.addsecure.se/elnatslosningar/",
     "is_member": true,
     "simulated": false
   },
   {
-    "id": "ocean-harvesting",
-    "name": "Ocean Harvesting",
-    "website": "https://www.oceanharvesting.com/",
+    "id": "affarsverken",
+    "name": "Affärsverken",
+    "website": "https://www.affarsverken.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "afry",
+    "name": "AFRY",
+    "website": "https://afry.com/sv/kontor/sverige/karlskrona",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "allbinary",
+    "name": "AllBinary",
+    "website": "https://www.allbinary.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "almi",
+    "name": "Almi",
+    "website": "https://www.almi.se/blekinge/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "atea",
+    "name": "Atea",
+    "website": "https://www.atea.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "ballou",
+    "name": "Ballou",
+    "website": "https://www.ballou.se/",
     "is_member": true,
     "simulated": false
   },
@@ -28,9 +63,331 @@
     "simulated": false
   },
   {
-    "id": "3d-vision",
-    "name": "3dVision",
-    "website": "https://www.3dvision.se/",
+    "id": "blekinge-business-incubator",
+    "name": "Blekinge Business Incubator",
+    "website": "https://b-b-i.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "blekinge-tekniska-hogskola",
+    "name": "Blekinge Tekniska Högskola",
+    "website": "https://www.bth.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "c-marine-ab",
+    "name": "C Marine AB",
+    "website": "https://www.cmarine.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "cleura",
+    "name": "Cleura",
+    "website": "https://cleura.com",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "compani-56",
+    "name": "Compani 56",
+    "website": "https://www.compani56.se",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "dnv-cyber",
+    "name": "DNV Cyber",
+    "website": "https://www.dnv.com/cyber/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "dxc-technology",
+    "name": "DXC Technology",
+    "website": "https://dxc.com/se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "embeddedart",
+    "name": "EmbeddedArt",
+    "website": "https://www.embeddedart.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "energimyndigheten",
+    "name": "Energimyndigheten",
+    "website": "https://www.energimyndigheten.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "ericsson",
+    "name": "Ericsson",
+    "website": "https://www.ericsson.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "factor10",
+    "name": "Factor10",
+    "website": "https://factor10.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "fmv",
+    "name": "FMV",
+    "website": "https://www.fmv.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "forsakringskassan",
+    "name": "Försäkringskassan",
+    "website": "https://www.forsakringskassan.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "forsvarsmakten",
+    "name": "Försvarsmakten",
+    "website": "https://www.forsvarsmakten.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "ge-99",
+    "name": "GE 99",
+    "website": "https://www.ge99.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "hi-story",
+    "name": "Hi Story",
+    "website": "https://www.hi-story.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "hiq",
+    "name": "HiQ",
+    "website": "https://hiq.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "hundtjanst-blekinge-ab",
+    "name": "Hundtjänst Blekinge AB",
+    "website": "https://hundtjanstblekinge.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "indigo-ipex",
+    "name": "Indigo Ipex",
+    "website": "https://indigoipex.se",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "karlskrona-kommun",
+    "name": "Karlskrona Kommun",
+    "website": "https://www.karlskrona.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "kingspan-baga",
+    "name": "Kingspan BAGA",
+    "website": "https://www.kingspan.com/se/sv/affarsenheter/Kingspan-water-energy/kingspan-baga/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "kiwa",
+    "name": "Kiwa",
+    "website": "https://www.kiwa.com/se/sv/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "knowit",
+    "name": "Knowit",
+    "website": "https://www.knowit.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "kustbevakningen",
+    "name": "Kustbevakningen",
+    "website": "https://www.kustbevakningen.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "lansstyrelsen-blekinge",
+    "name": "Länsstyrelsen Blekinge",
+    "website": "https://www.lansstyrelsen.se/blekinge/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "lassen-construction",
+    "name": "Lassen Construction",
+    "website": "https://www.lcab.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "lysa",
+    "name": "Lysa",
+    "website": "https://lysa.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "malvacom",
+    "name": "Malvacom",
+    "website": "https://malvacom.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "midcon",
+    "name": "Midcon",
+    "website": "https://www.midcon.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "mj-marcable-consulting-ab",
+    "name": "MJ MarCable Consulting AB",
+    "website": "https://www.marcable-consulting.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "nexer",
+    "name": "Nexer",
+    "website": "https://nexergroup.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "nicon",
+    "name": "Nicon",
+    "website": "https://nicon.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "njord-x",
+    "name": "Njord X",
+    "website": "https://www.njordx.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "nkt",
+    "name": "NKT",
+    "website": "https://www.nkt.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "ocean-harvesting",
+    "name": "Ocean Harvesting",
+    "website": "https://www.oceanharvesting.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "region-blekinge",
+    "name": "Region Blekinge",
+    "website": "https://regionblekinge.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "roxtec",
+    "name": "Roxtec",
+    "website": "https://www.roxtec.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "saab",
+    "name": "SAAB",
+    "website": "https://www.saab.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "softhouse",
+    "name": "Softhouse",
+    "website": "https://www.softhouse.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "spirius",
+    "name": "Spirius",
+    "website": "https://www.spirius.com/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "stena-line",
+    "name": "Stena Line",
+    "website": "https://www.stenaline.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "sweco",
+    "name": "Sweco",
+    "website": "https://www.sweco.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "techinova",
+    "name": "Techinova",
+    "website": "https://www.techinova.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "telenor",
+    "name": "Telenor",
+    "website": "https://www.telenor.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "varidens",
+    "name": "Veridens",
+    "website": "https://www.veridens.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "wip",
+    "name": "WIP",
+    "website": "https://www.wip.se/",
+    "is_member": true,
+    "simulated": false
+  },
+  {
+    "id": "yellowfish",
+    "name": "Yellowfish",
+    "website": "https://www.yellowfishab.com/",
     "is_member": true,
     "simulated": false
   }

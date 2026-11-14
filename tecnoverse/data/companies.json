@@ -1,0 +1,1547 @@
+[
+  {
+    "id": "3d-vision",
+    "name": "3D Vision",
+    "website": "https://www.3dvision.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "addsecure",
+    "name": "AddSecure – Smartgrids",
+    "website": "https://www.addsecure.se/elnatslosningar/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "affarsverken",
+    "name": "Affärsverken",
+    "website": "https://www.affarsverken.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "afry",
+    "name": "AFRY",
+    "website": "https://afry.com/sv/kontor/sverige/karlskrona",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "allbinary",
+    "name": "AllBinary",
+    "website": "https://www.allbinary.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "baltic-offshore",
+    "name": "Baltic Offshore",
+    "website": "https://balticoffshore.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "c-marine-ab",
+    "name": "C Marine AB",
+    "website": "https://www.cmarine.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "cleura",
+    "name": "Cleura",
+    "website": "https://cleura.com",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "compani-56",
+    "name": "Compani 56",
+    "website": "https://www.compani56.se",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "dnv-cyber",
+    "name": "DNV Cyber",
+    "website": "https://www.dnv.com/cyber/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "dxc-technology",
+    "name": "DXC Technology",
+    "website": "https://dxc.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "embeddedart",
+    "name": "EmbeddedArt",
+    "website": "https://www.embeddedart.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ericsson",
+    "name": "Ericsson",
+    "website": "https://www.ericsson.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "factor10",
+    "name": "Factor10",
+    "website": "https://factor10.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ge-99",
+    "name": "GE 99",
+    "website": "https://www.ge99.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "hi-story",
+    "name": "Hi Story",
+    "website": "https://www.hi-story.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "hiq",
+    "name": "HiQ",
+    "website": "https://hiq.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "indigo-ipex",
+    "name": "Indigo Ipex",
+    "website": "https://indigoipex.se",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "kingspan-baga",
+    "name": "Kingspan BAGA",
+    "website": "https://www.kingspan.com/se/sv/affarsenheter/Kingspan-water-energy/kingspan-baga/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "kiwa",
+    "name": "Kiwa",
+    "website": "https://www.kiwa.com/se/sv/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "lassen-construction",
+    "name": "Lassen Construction",
+    "website": "https://www.lcab.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "lysa",
+    "name": "Lysa",
+    "website": "https://lysa.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "malvacom",
+    "name": "Malvacom",
+    "website": "https://malvacom.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "midcon",
+    "name": "Midcon",
+    "website": "https://www.midcon.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "mj-marcable-consulting-ab",
+    "name": "MJ MarCable Consulting AB",
+    "website": "https://www.marcable-consulting.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "nexer",
+    "name": "Nexer",
+    "website": "https://nexergroup.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "nicon",
+    "name": "Nicon",
+    "website": "https://nicon.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "njord-x",
+    "name": "Njord X",
+    "website": "https://www.njordx.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "nkt",
+    "name": "NKT",
+    "website": "https://www.nkt.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ocean-harvesting",
+    "name": "Ocean Harvesting",
+    "website": "https://www.oceanharvesting.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "roxtec",
+    "name": "Roxtec",
+    "website": "https://www.roxtec.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "saab",
+    "name": "SAAB",
+    "website": "https://www.saab.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "softhouse",
+    "name": "Softhouse",
+    "website": "https://www.softhouse.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "spirius",
+    "name": "Spirius",
+    "website": "https://www.spirius.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "stena-line",
+    "name": "Stena Line",
+    "website": "https://www.stenaline.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "sweco",
+    "name": "Sweco",
+    "website": "https://www.sweco.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "techinova",
+    "name": "Techinova",
+    "website": "https://www.techinova.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "varidens",
+    "name": "Veridens",
+    "website": "https://www.veridens.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "wip",
+    "name": "WIP",
+    "website": "https://www.wip.se/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "yellowfish",
+    "name": "Yellowfish",
+    "website": "https://www.yellowfishab.com/",
+    "is_member": true,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blue Science Park members",
+        "url": "https://www.bluesciencepark.se/medlem-sitemap.xml",
+        "retrieved": "2026-11-13"
+      },
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "mana-brigade",
+    "name": "Mana Brigade",
+    "website": "https://www.manabrigade.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "empayit",
+    "name": "Empayit",
+    "website": "https://www.empayit.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "pavesight",
+    "name": "Pavesight",
+    "website": "https://pavesight.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "skrappy",
+    "name": "Skrappy",
+    "website": "https://skrappy.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "lamox",
+    "name": "Lamox",
+    "website": "https://lamox.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ardenity",
+    "name": "Ardenity",
+    "website": "https://ardenity.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "interactive-materia",
+    "name": "Interactive Materia",
+    "website": "https://www.interactivemateria.io/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ailand-media",
+    "name": "Ailand Media",
+    "website": "https://www.ailandmedia.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "slugware",
+    "name": "Slugware",
+    "website": "https://slugware.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "aima-sense",
+    "name": "Aima Sense",
+    "website": "https://aimasense.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "advania",
+    "name": "Advania",
+    "website": "https://www.advania.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "avalon-innovation",
+    "name": "Avalon Innovation",
+    "website": "https://avaloninnovation.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "cimon-enterprise",
+    "name": "Cimon Enterprise",
+    "website": "https://cimon.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "circom-solutions",
+    "name": "Circom Solutions",
+    "website": "https://circom.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "consid",
+    "name": "Consid",
+    "website": "https://www.consid.com/sv/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "dfds-seaways",
+    "name": "DFDS Seaways",
+    "website": "https://www.dfds.com/sv-se/passagerarfartyg",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "enkla-elbolaget",
+    "name": "Enkla Elbolaget",
+    "website": "https://www.enklaelbolaget.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "eurocon-engineering",
+    "name": "Eurocon Engineering",
+    "website": "https://www.eurocon.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "karlshamn-energi",
+    "name": "Karlshamn Energi",
+    "website": "https://www.karlshamnenergi.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "karlshamns-hamn",
+    "name": "Karlshamns Hamn",
+    "website": "https://karlshamnshamn.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "kubicom",
+    "name": "Kubicom",
+    "website": "https://kubicom.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "noda-intelligent-systems",
+    "name": "NODA Intelligent Systems",
+    "website": "https://noda.se/en-gb/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "nordlo",
+    "name": "Nordlo",
+    "website": "https://nordlo.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "skolon",
+    "name": "Skolon",
+    "website": "https://skolon.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "sodra-cell-morrum",
+    "name": "Södra Cell Mörrum",
+    "website": "https://www.sodra.com/sv/se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "stena-recycling",
+    "name": "Stena Recycling",
+    "website": "https://www.stenarecycling.com:443/sv/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "storegate",
+    "name": "Storegate",
+    "website": "https://www.storegate.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "techmedico",
+    "name": "Techmedico",
+    "website": "https://techmedico.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "techquity",
+    "name": "Techquity",
+    "website": "https://techquity.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "vegoil",
+    "name": "Vegoil",
+    "website": "https://vegoil.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "wrycom",
+    "name": "Wrycom",
+    "website": "https://wrycom.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "cenceo",
+    "name": "Cenceo",
+    "website": "https://cenceo.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "activout",
+    "name": "Activout",
+    "website": "https://activout.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "areff-systems",
+    "name": "Areff Systems",
+    "website": "https://www.areff.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "globalconnect",
+    "name": "GlobalConnect",
+    "website": "https://globalconnect.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "novacast-systems",
+    "name": "NovaCast Systems",
+    "website": "https://www.novacast.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "systematiq",
+    "name": "Systematiq",
+    "website": "https://systematiq.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "linjemontage",
+    "name": "Linjemontage",
+    "website": "https://www.linjemontage.se/sv/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "alfa-laval",
+    "name": "Alfa Laval",
+    "website": "https://www.alfalaval.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "nfo-drives",
+    "name": "NFO Drives",
+    "website": "https://www.nfodrives.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "shape-process-automation",
+    "name": "Shape Process Automation",
+    "website": "https://shapeprocessautomation.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "mct-brattberg",
+    "name": "MCT Brattberg",
+    "website": "https://www.mctbrattberg.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "sensestock",
+    "name": "senseStock",
+    "website": "https://sensestock.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "acoustic-agree",
+    "name": "Acoustic Agree",
+    "website": "https://acousticagree.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "boards-on-fire",
+    "name": "Boards on Fire",
+    "website": "https://boardsonfire.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "brodd-automation",
+    "name": "Brodd Automation",
+    "website": "https://broddautomation.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "knightec-group",
+    "name": "Knightec Group",
+    "website": "https://www.knightecgroup.com/sv",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "devport",
+    "name": "DevPort",
+    "website": "https://www.devport.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "autoform",
+    "name": "Autoform",
+    "website": "https://www.autoform.com/en/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "hanza",
+    "name": "HANZA",
+    "website": "https://hanza.com/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "lasertool",
+    "name": "LaserTool",
+    "website": "https://www.lasertool.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "holtab",
+    "name": "Holtab",
+    "website": "https://www.holtab.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "kockums-maskin",
+    "name": "Kockums Maskin",
+    "website": "https://kockumsmaskin.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "ogma",
+    "name": "Ogma",
+    "website": "https://www.ogma.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "pds-group",
+    "name": "PDS Group",
+    "website": "https://pdsgroup.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "odigo",
+    "name": "Odigo",
+    "website": "https://odigo.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Techtank member companies",
+        "url": "https://techtank.se/medlemsforetag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "proware-sweden",
+    "name": "Proware Sweden",
+    "website": "https://proware.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Soft Center Ronneby companies",
+        "url": "https://www.softcenter.se/foretagen/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "way-communication",
+    "name": "Way Communication",
+    "website": "https://waycommunication.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "okatima",
+    "name": "Okatima",
+    "website": "https://okatima.org/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "NetPort Science Park members",
+        "url": "https://netport.se/medlem/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  },
+  {
+    "id": "hi-unity",
+    "name": "Hi Unity",
+    "website": "https://hiunity.se/",
+    "is_member": false,
+    "region": "Blekinge",
+    "found_via": [
+      {
+        "directory": "Blekinge Business Incubator companies",
+        "url": "https://b-b-i.se/vara-bolag/",
+        "retrieved": "2026-11-13"
+      }
+    ],
+    "simulated": false
+  }
+]

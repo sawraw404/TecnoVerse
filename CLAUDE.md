@@ -20,13 +20,30 @@ Don't add features none of these ask for.
 | Events sources | Blue Science Park, BTH, **and Ericsson** if its page parses | Plan lists all three; one more URL in the same monitor. Skip Ericsson rather than fight it. |
 | LLM | **Gemini only.** No Ollama, no Groq. | User decision (13 Nov): one provider, one key, one code path. |
 | Vector search | **numpy cosine**; embeddings stored as arrays on the documents. No Chroma. | Under 200 opportunities. |
-| Storage | **Firebase**, built by a teammate. Not SQLite. | Team decision. Agents call the teammate's storage functions and never touch Firebase directly. Until those exist, the app reads `data/members.json`. |
-| Member list | `tecnoverse/data/members.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
+| Storage | **Firebase**, built by a teammate. Not SQLite. | Team decision. Agents call the teammate's storage functions and never touch Firebase directly. Until those exist, the app reads `data/companies.json` and stores profiles as JSON via `core/store.py`. |
+| Company list | `tecnoverse/data/companies.json`, shaped like Company. Not CSV. | Imports into Firebase as documents. |
 | Validation | **Pydantic** | Gemini takes Pydantic models as its response schema directly. |
 | Layout | README's layout, but the package folder is `tecnoverse/` (not `park_pilot/`), with `agents/`, `core/`, `eval/` | One file per agent keeps teammates out of each other's way. |
 | Item status | README's: `fact`, `inferred`, `missing`, `user_confirmed`, `user_removed` | UI badge for `user_confirmed` reads "confirmed". Includes quote verification, correction history and public/private visibility. |
 | Boundary tests | README's **11** (covers the plan's 10) | |
-| Demo companies | **5** from the BSP member list, clearly different, **one sensor/industrial** | User's choice; the sensor company mirrors the brief's example journey. |
+| Demo companies | Any of the 100 in `companies.json`; start the demo with an industrial or sensor company | Mirrors the brief's example journey. |
+
+## New requirements (from the user, 13 Nov) — these extend the README
+
+The service covers **100 companies in Blekinge county** in the park's focus areas (marine technology, digital and telecom, e-health, energy and cleantech, defence and security, industrial tech), not only park members. For each company it must show:
+
+1. **Region** (`Company.region`, plus `geography` items from the site).
+2. **Industry** (profile field `industry`).
+3. **Services** (profile field `offering`).
+4. **Who to contact** (profile field `contact`): the company's published contact route. A named person only when the company's own site lists them for business enquiries. Nothing from LinkedIn or other third parties.
+5. **New innovations** (profile field `innovation`), taken from the company's news, blog posts and newsletters.
+6. **Blue Science Park connection** (`Company.is_member`) is a plus, not a requirement.
+
+- The list lives in `tecnoverse/data/companies.json` (100 companies: 40 park members + 60 others). One row per company: `tecnoverse/data/companies_summary.csv`. `found_via` records which public directory each company came from and when: Blue Science Park, Blekinge Business Incubator, NetPort, Soft Center, Techtank.
+- Public bodies and support organisations among the park's members are left out of this list.
+- **Provenance:** 7 profiles were made by the app Profiler (Gemini); 93 were extracted by Claude Code in a dev session after the Gemini free quota (20 requests/day/model) ran out, via `python -m agents.profiler --import`. `Profile.extracted_by` is the field that says which; `company.simulated` is False for all. Downstream code (matcher, staff view, Firebase import) must check `extracted_by` and show SIMULATED for offline extractions. Regenerate with the app Profiler when quota allows.
+- These are filled by the Profiler like every other field: same evidence rules, same tags. Batch run: `cd tecnoverse && python -m agents.profiler --all`.
+- The crawler identifies itself honestly and respects robots.txt. Never spoof a browser; if a site blocks it, leave the company unprofiled and say so.
 
 ## Rules
 

@@ -8,3 +8,6 @@ __pycache__/
 *firebase*adminsdk*.json
 serviceAccount*.json
 .claude/
+# Crawled page text and raw HTML: other companies' content, kept local
+tecnoverse/data/cache/*/pages.json
+tecnoverse/data/cache/*/*.html

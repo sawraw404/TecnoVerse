@@ -1,18 +1,8 @@
 """Streamlit entry point: streamlit run tecnoverse/app.py"""
-import json
-from pathlib import Path
-
 import streamlit as st
 
 from core.schemas import Company, User
-
-MEMBERS = Path(__file__).parent / "data" / "members.json"
-
-
-@st.cache_data
-def load_companies() -> list[Company]:
-    # Until the Firebase storage layer exists, the member list is read straight from the file.
-    return [Company(**c) for c in json.loads(MEMBERS.read_text(encoding="utf-8"))]
+from core.store import load_companies
 
 
 def demo_users(companies: list[Company]) -> list[User]:
@@ -27,7 +17,7 @@ def demo_users(companies: list[Company]) -> list[User]:
 
 st.set_page_config(page_title="TecnoVerse", page_icon="🔭", layout="wide")
 
-companies = load_companies()
+companies = st.cache_data(load_companies)()  # read from the file until the Firebase layer exists
 users = demo_users(companies)
 
 with st.sidebar:
