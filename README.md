@@ -34,7 +34,7 @@ TecnoVerse (working name: Park Pilot) is a prototype in which AI agents build pr
 ```bash
 python -m venv .venv
 .venv\Scripts\activate                 # Windows; source .venv/bin/activate elsewhere
-pip install -r requirements.txt
+pip install -r requirements.txt        # includes sentence-transformers (PyTorch, ~1 GB)
 copy .env.example .env                 # add GEMINI_API_KEY and GROQ_API_KEY (free tiers)
 
 # 1. the API over the agents (repo root)
@@ -46,19 +46,21 @@ npm install
 npm run dev                            # http://localhost:3000
 ```
 
-Choose a user on the login page (SIMULATED, no passwords). A company representative sees Profile, Opportunities and Assistant; Blue Science Park staff also see Ecosystem; an external visitor sees all opportunities unranked. Set `API_URL` in `web/.env.local` if the API runs elsewhere. The earlier Streamlit app still runs as a fallback: `streamlit run tecnoverse/app.py`. The profiles, opportunities and judgements are committed, so the app runs without any API key except for the chat and for re-crawling a profile.
+Choose a user on the login page (SIMULATED, no passwords). A company representative sees Profile, Opportunities and Assistant; Blue Science Park staff also see Ecosystem; an external visitor sees all opportunities unranked. Set `API_URL` in `web/.env.local` if the API runs elsewhere. The earlier Streamlit app still runs as a fallback: `streamlit run tecnoverse/app.py`. The profiles, opportunities, embeddings and judgements are committed, so the app runs without any API key except for the chat. The first match downloads the local embedding model once (~470 MB); without sentence-transformers, matching falls back to keywords only. After changing Python code, restart the API: uvicorn's reload is unreliable on Windows. The live re-crawl button is hidden; set `RECRAWL_ENABLED=1` (in `web/.env.local`, and in the environment for Streamlit) to show it again.
 
 Useful commands (run from `tecnoverse/`):
 
 | Command | What it does |
 |---|---|
 | `python -m agents.monitors --run` | Fetch funding (Vinnova), events and testbeds into `data/opportunities.json` |
+| `python -m agents.monitors --events` | Refresh only the Almi and Chamber of Commerce events; everything else stays |
+| `python -m core.embed` | Embed every opportunity with the local model (run after the monitors) |
 | `python -m agents.profiler --all` | Crawl and profile every company without a profile (Gemini) |
 | `python -m agents.matcher --all` | Re-rank all opportunities for every company |
 | `python -m eval.run_boundary` | Run the 11 boundary tests live on Groq → `eval/boundary_results.md` |
 | `python -m eval.quality` | Accuracy, relevance and traceability checks, offline → `eval/quality_report.md` |
 | `python -m agents.profiler` / `agents.editor` / `agents.assistant` / `agents.mapper` | Self-checks, no network |
-| `python -m pytest` (repo root) | Scoring tests and API access rules |
+| `python -m pytest` (repo root) | Scoring tests, API access rules, chat privacy, visibility switch |
 | `npm run lint`, `npx tsc --noEmit`, `npm run build` (in `web/`) | Lint, type check and production build of the web app |
 
 ## Core flow
@@ -74,10 +76,10 @@ Company URL → baseline profile (with sources) → company reviews & edits
 | Agent | File | Role | LLM |
 |---|---|---|---|
 | **Profiler** | `agents/profiler.py` | Crawls the homepage plus up to 7 keyword-ranked pages and the newest news posts, then fills a fixed profile (industry, offering, technology, markets, geography, contact, innovation, ...). Every item has a source link, a date and a status of fact, inferred or missing. A fact needs a quote found again in the page text. Contacts come from the company's own site only. | Gemini first |
-| **Monitors** | `agents/monitors.py` | Funding: open Vinnova calls from the open data API. Events: Blue Science Park and NetPort event pages and Ericsson's events page; only events whose date including the year is on the page are kept. Testbeds: Blue Science Park and NetPort test environment pages. | Groq first |
-| **Matcher** | `agents/matcher.py`, `agents/scoring.py` | Scores every opportunity per company (topic fit, priorities, region, evidence, feedback), then re-ranks with a relevance judgement and shows why it fits and what is uncertain. | judgements offline by Claude Code |
-| **Editor** | `agents/editor.py` | Confirm, correct (keeps history), remove and add profile items; set priorities. Saving re-ranks and the Profile page shows rank changes. | none |
-| **Assistant + guardrail** | `agents/assistant.py` | Labels every message in scope, unclear, out of scope, injection or needs staff, then answers from the company's own data, asks a clarifying question, explains its remit, or refers to park staff. | Groq first |
+| **Monitors** | `agents/monitors.py` | Funding: open Vinnova calls from the open data API. Events: Blue Science Park and NetPort event pages and Ericsson's events page (Groq extracts them), plus Almi's calendar (Blekinge or online) and the South Sweden Chamber of Commerce (Blekinge and Sydost), whose pages state date, place and registration deadline in fixed fields that are read directly. Only events whose date including the year is on the page are kept. Testbeds: Blue Science Park and NetPort test environment pages. | Groq first |
+| **Matcher** | `agents/matcher.py`, `agents/scoring.py`, `core/embed.py` | Semantic similarity from a local embedding model, plus keyword topic fit, priorities, region, evidence and feedback; then re-ranks with a relevance judgement and shows why it fits and what is uncertain. Save and 👍/👎 per company. | judgements offline by Claude Code |
+| **Editor** | `agents/editor.py` | Confirm, correct (keeps history), remove and add profile items; make any item public or private; set priorities. Saving re-ranks and the Profile page shows rank changes. | none |
+| **Assistant + guardrail** | `agents/assistant.py` | Labels every message in scope, unclear, out of scope, injection or needs staff, then answers from the company's own data, the park's public member list and which companies are members or external, asks a clarifying question, explains its remit, or refers to park staff. Conversations are stored per company; "Ask about this" attaches an opportunity. | Groq first |
 | **Staff mapper** | `agents/mapper.py` | Suggested connections between companies from public items only, re-ranked by judgements, with shared themes. Always labelled as suggestions. | judgements offline by Claude Code |
 
 ## Tech stack
@@ -87,9 +89,9 @@ Company URL → baseline profile (with sources) → company reviews & edits
 | Agents / API | Python agents behind a thin FastAPI layer, `tecnoverse/api.py`. The company is derived from the logged-in user on the server, never from the request. |
 | UI | Next.js 16 (App Router, TypeScript, Server Components, Tailwind CSS, lucide icons) in `web/`. Design tokens in `web/app/globals.css`, primitives in `web/components/ui.tsx`. Light and dark themes. The Streamlit app in `tecnoverse/` is kept as a fallback. |
 | LLM | Gemini and Groq through one wrapper, `core/llm.py`: `ask(system, user, Schema, agent=...)`. The Profiler and Staff mapper start on Gemini (long inputs); every other agent starts on Groq. Each falls back to the other. |
-| Search | Keyword overlap in `agents/scoring.py`. Embeddings are a next step. |
+| Search | Local multilingual embeddings (`paraphrase-multilingual-MiniLM-L12-v2` via sentence-transformers, `core/embed.py`) blended with keyword overlap in `agents/scoring.py`. Opportunity vectors are stored on `Opportunity.embedding`; numpy cosine. |
 | Scraping | requests + BeautifulSoup. Identifies itself as `TecnoVerseBot/0.1 (hackathon prototype)` and respects robots.txt. |
-| Storage | JSON files through `core/store.py` until the Firebase layer exists. Page text and per-company matches and feedback are gitignored. |
+| Storage | JSON files through `core/store.py` until the Firebase layer exists. Page text and per-company matches, feedback and chats are gitignored. |
 | Validation | Pydantic schemas (`core/schemas.py`), one retry on invalid LLM output, then a visible failure |
 
 ## Repository layout
@@ -118,6 +120,7 @@ tecnoverse/
     llm.py               # Gemini + Groq per agent, JSON schema output
     schemas.py           # Pydantic models (the data schema below)
     store.py             # JSON storage until Firebase
+    embed.py             # local embeddings for matching
     crawl.py             # requests + BeautifulSoup, robots.txt, page selection
   data/
     companies.json       # 38 companies (Company), companies_summary.csv one row each
@@ -358,16 +361,17 @@ Used when the guardrail labels a message `needs_staff`, and when a user asks who
 
 As built (`agents/scoring.py` + `agents/matcher.py`):
 
-1. **Score** every opportunity for the company: topic fit from keyword overlap with profile items (weight 0.5; `user_confirmed` counts more than `fact`, which counts more than `inferred`), priority boost when the opportunity type is in `Company.priority_types` (0.2), region (0.2) and evidence (0.1).
-2. **Re-rank:** a relevance judgement per company and opportunity, with "why it fits" and "uncertain", stored in `data/explanations.json`. Final score = 0.5 × score + 0.5 × judgement, plus feedback (👍 +0.1, 👎 −0.2). Opportunities without a judgement get 0 and are listed under "keyword overlap only" rather than as cards. The judgements were written offline in a Claude Code session (recorded in `written_by`) until a live LLM writes them.
-3. **Funding** is always presented as "possible match"; requirements are quoted from the source, never assessed.
-4. Saving a profile edit or a priority re-runs matching, and the Profile and Dashboard pages show how ranks moved.
+1. **Similarity:** a local multilingual embedding model compares the company's profile text with every opportunity (cosine, stored as `Match.vector_score`). Opportunities are mostly Swedish and profiles English, hence a multilingual model.
+2. **Score** every opportunity for the company: topic fit from keyword overlap with profile items (weight 0.5; `user_confirmed` counts more than `fact`, which counts more than `inferred`), priority boost when the opportunity type is in `Company.priority_types` (0.2), region (0.2) and evidence (0.1). Blended: 0.7 × this score + 0.3 × similarity.
+3. **Re-rank:** a relevance judgement per company and opportunity, with "why it fits" and "uncertain", stored in `data/explanations.json`. Final score = 0.5 × score + 0.5 × judgement, plus feedback (👍 +0.1, 👎 −0.2). Opportunities without a judgement get 0 and are listed under "similar by text only, not judged relevant" rather than as cards. The judgements were written offline in a Claude Code session (recorded in `written_by`) until a live LLM writes them.
+4. **Funding** is always presented as "possible match"; requirements are quoted from the source, never assessed.
+5. Saving a profile edit or a priority re-runs matching, and the Profile and Dashboard pages show how ranks moved. Saving an opportunity (Saved tab) does not change the ranking.
 
-The planned retrieve-by-embedding step (top 20 by cosine similarity) is not built; with 23 opportunities every one is scored.
+With 31 opportunities every one is scored; a top-20 retrieval cut-off is not needed yet.
 
 ## Keeping profiles current
 
-- **Built:** a re-crawl ("Re-crawl and rebuild profile" on the Profile page, or the Profiler CLI) keeps `user_confirmed` and `user_removed` items, never re-adds a removed value, and keeps the company's priorities. Every edit increments `profile_version`.
+- **Built:** a re-crawl (the Profiler CLI, or "Re-crawl" on the Profile page when `RECRAWL_ENABLED=1`; the button is hidden by default) keeps `user_confirmed` and `user_removed` items, never re-adds a removed value, and keeps the company's priorities. Every edit increments `profile_version`.
 - **Not built yet:** the scheduled weekly re-crawl with `content_hash` comparison, and `needs_review` when a re-crawl contradicts a confirmed item.
 
 ## Boundaries and guardrails
@@ -391,9 +395,9 @@ Results are in [`tecnoverse/eval/quality_report.md`](tecnoverse/eval/quality_rep
 |---|---|---|
 | Profile accuracy | Hand spot-check of 25 random facts against quote and page (reviewed by Claude Code, not by a person) | 24/25; the error (park mailbox stored as a contact) is fixed in the Profiler |
 | Evidence | `fact` items whose quote is found again in the page text | 403/403 |
-| Recommendation relevance | Demo edit "testing is a priority" moves testbeds up for the sensor company | average testbed rank 12.6 → 8.4 |
-| Personalisation | Overlap of the top 5 between companies | 9% |
-| Traceability | Items and opportunities with a source URL and date | 509/509 items, 23/23 opportunities |
+| Recommendation relevance | Demo edit "testing is a priority" moves testbeds up for the sensor company | average testbed rank 13.4 → 9.2 |
+| Personalisation | Overlap of the top 5 between companies | 8% |
+| Traceability | Items and opportunities with a source URL and date | 509/509 items, 31/31 opportunities |
 | Boundaries | The 11 tests below, live on Groq | 11/11 pass |
 
 Relevance is checked against offline judgements, so it shows the system behaves as designed, not that companies agree. That needs member feedback.
@@ -419,15 +423,15 @@ Relevance is checked against offline judgements, so it shows the system behaves 
 |---|---|
 | Companies | 38 in Blekinge county in the park's focus areas: 20 park members, 18 found via Blekinge Business Incubator, NetPort, Soft Center and Techtank. Each has industry, services, contact and a recent innovation (from Nov 2024, or undated on a current product page). |
 | Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` records which. The app Profiler works live ("Re-crawl and rebuild profile"). |
-| Opportunities | 16 Vinnova funding calls, 2 events, 5 testbeds |
-| Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), priorities, correction history, rank changes |
-| Dashboard | Top matches, Funding, Events and Testbeds tabs; why it fits, uncertain, requirements, contact, draft intro email, 👍/👎 |
-| Chat | Guardrail on every turn, answers cite opportunities with link and date, staff referrals |
+| Opportunities | 16 Vinnova funding calls, 10 events (park, NetPort, Ericsson, Almi, Chamber of Commerce), 5 testbeds; all embedded |
+| Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), public/private switch per item, priorities, correction history, rank changes |
+| Opportunities page | Top matches, Funding, Events, Testbeds and Saved tabs; why it fits, uncertain, requirements, contact, draft intro email, Save, 👍/👎, "Ask about this" |
+| Assistant | Guardrail on every turn, answers cite opportunities with link and date, staff referrals, knows park members vs external companies. Conversations stored per company with a list and "New chat"; history is read on the server |
 | Staff view | Shared themes, 15 judged connections with their public basis items, keyword-only pairs collapsed |
 | Knowledge graph | Staff only (`/graph`). Blue Science Park, the park's focus areas and all 38 companies, coloured by focus area; members filled, external companies as dashed rings. Links: membership, focus area, collaborations stated on a company's own public page (found automatically), and the judged suggested connections. Click a company for its public facts with sources, a link for its basis. Search, area filter, link toggles, zoom and drag; a list view for keyboard and screen readers. A **3D park** switch shows the same data as a stylised virtual science park (three.js, loaded only when opened): Blue Science Park as the central island, each focus area an island, each company a building (solid = member, glass = external, taller = more links), links as arcs. Same search, filters and details panel. |
 | Storage | JSON files; Firebase layer (project `tecnoverse-2868a`) is being built by a teammate |
 
-Not built: Saved tab and "Ask about this" on cards, a public/private toggle for existing items, persisted ChatLog (chats live in the browser session), embeddings, the weekly re-crawl.
+Not built: the weekly re-crawl.
 
 ## Demo script (about 3 minutes)
 This follows the example user journey in the brief.
@@ -444,7 +448,7 @@ This follows the example user journey in the brief.
 | 1. Profiler finds sensor solutions and builds a profile with links | Profiler agent → SourcePage, ProfileItem (`quote`, `source_page_id`, `retrieved_at`, status badges) |
 | 2. Representative corrects an application area and adds "testing is a priority" | Editor: correction through `user_removed` + `replaces_item_id`, `edited_by`, `Company.priority_types` → priority boost in matching |
 | 3. Monitors find testbeds, events and funding, with relevance, requirements and uncertainties | Monitors → Opportunity (`requirements`, `contact`); Matcher → Match (`reasons`, `uncertainties`, `next_step`) + judged "why it fits" |
-| 4. Follow-up questions, feedback, scope redirect | Chat with earlier turns as context, 👍/👎 Feedback that re-ranks, guardrail labels. Saving is not built. |
+| 4. Follow-up questions, feedback, scope redirect | Stored conversations with earlier turns as context, "Ask about this", 👍/👎 Feedback that re-ranks, Save and the Saved tab, guardrail labels |
 
 ## Firebase / Firestore configuration
 
@@ -463,7 +467,7 @@ For local development, use [Application Default Credentials](https://cloud.googl
 
 ## Known limitations
 - All 38 stored profiles (wholly or partly) and all relevance judgements were made offline by Claude Code, not by the app's own agents. This is recorded in the data, not labelled in the UI; quotes were checked the same way.
-- Only 2 events: most park event pages state no year, and BTH's events page needs JavaScript.
+- 10 events: most park event pages state no year, and BTH's events page needs JavaScript, so it is not read.
 - Three opportunity monitors (funding, events, testbeds). Research and news monitoring are not covered.
 - Authentication is simulated with a "log in as" selector. There are no real accounts or passwords.
 - Eligibility is never assessed, only quoted from the source.
@@ -471,9 +475,8 @@ For local development, use [Application Default Credentials](https://cloud.googl
 
 ## Next steps
 - Generate the offline profiles and judgements with the app's own agents when quota allows.
-- Firebase storage, and a persisted ChatLog.
+- Firebase storage (chats, matches and feedback are JSON files for now).
 - Weekly re-crawl with change detection and `needs_review`.
-- Embedding search; Saved tab and "Ask about this".
 - Add sources: EU Funding & Tenders, BTH events, research publications, regional news.
 - Use member feedback to tune the ranking weights.
 
@@ -482,7 +485,7 @@ For local development, use [Application Default Credentials](https://cloud.googl
 - [x] fact / inferred / missing labels
 - [x] profile editing, with correction history and priorities
 - [x] 2+ distinct opportunity sources (funding, events, testbeds)
-- [ ] save, 👍/👎 feedback and follow-up questions in chat (👍/👎 and follow-ups done; save not built)
+- [x] save, 👍/👎 feedback and follow-up questions in chat
 - [x] user roles: member, staff, external
 - [x] rankings differ by company
 - [x] links and dates on every result
