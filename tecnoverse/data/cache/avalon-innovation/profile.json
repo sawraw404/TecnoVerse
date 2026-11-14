@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-14T01:30:18.812377Z",
+  "last_crawled_at": "2026-11-14T01:28:18.677622Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -127,16 +127,6 @@
    "retrieved_at": "2026-11-14T01:28:18.677622Z",
    "text": "",
    "content_hash": "f4940cdf878de2c3"
-  },
-  {
-   "id": "7d208fcd5570d5bc",
-   "company_id": "avalon-innovation",
-   "url": "https://www.bluesciencepark.se/aktuellt/ny-satsning-for-att-starka-blekinges-foretag-genom-ai-teknologi/",
-   "source_type": "news",
-   "title": "Ny satsning för att stärka Blekinges företag genom AI-teknologi - Blue Science Park",
-   "retrieved_at": "2026-11-14T01:30:18.812377Z",
-   "text": "",
-   "content_hash": "b41316791d832d3f"
   }
  ],
  "items": [
@@ -156,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.721995Z",
+   "updated_at": "2026-11-14T01:53:45.304583Z",
    "needs_review": false
   },
   {
@@ -175,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.722295Z",
+   "updated_at": "2026-11-14T01:53:45.304875Z",
    "needs_review": false
   },
   {
@@ -194,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.722559Z",
+   "updated_at": "2026-11-14T01:53:45.305121Z",
    "needs_review": false
   },
   {
@@ -213,26 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.722833Z",
-   "needs_review": false
-  },
-  {
-   "id": "c89fd2450d60c028",
-   "company_id": "avalon-innovation",
-   "field": "innovation",
-   "value": "Insight article on automation as a driver for smarter industry (2026-09-25)",
-   "status": "fact",
-   "source_page_id": "7ef4d171d5e73f80",
-   "quote": "Automation som drivkraft för en smartare industri",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.723680Z",
+   "updated_at": "2026-11-14T01:53:45.305409Z",
    "needs_review": false
   },
   {
@@ -251,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.723930Z",
+   "updated_at": "2026-11-14T01:53:45.305646Z",
    "needs_review": false
   },
   {
@@ -270,7 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.724177Z",
+   "updated_at": "2026-11-14T01:53:45.305883Z",
    "needs_review": false
   },
   {
@@ -289,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.724435Z",
+   "updated_at": "2026-11-14T01:53:45.306138Z",
    "needs_review": false
   },
   {
@@ -308,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.724610Z",
+   "updated_at": "2026-11-14T01:53:45.306310Z",
    "needs_review": false
   },
   {
@@ -327,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726035Z",
+   "updated_at": "2026-11-14T01:53:45.307825Z",
    "needs_review": false
   },
   {
@@ -346,7 +317,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726055Z",
+   "updated_at": "2026-11-14T01:53:45.307853Z",
+   "needs_review": false
+  },
+  {
+   "id": "046c66e3e59462e8",
+   "company_id": "avalon-innovation",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.307862Z",
    "needs_review": false
   },
   {
@@ -365,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726067Z",
+   "updated_at": "2026-11-14T01:53:45.307869Z",
    "needs_review": false
   },
   {
@@ -384,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726073Z",
+   "updated_at": "2026-11-14T01:53:45.307873Z",
    "needs_review": false
   },
   {
@@ -403,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726077Z",
+   "updated_at": "2026-11-14T01:53:45.307877Z",
    "needs_review": false
   },
   {
@@ -422,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726081Z",
+   "updated_at": "2026-11-14T01:53:45.307880Z",
    "needs_review": false
   },
   {
@@ -441,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726092Z",
+   "updated_at": "2026-11-14T01:53:45.307889Z",
    "needs_review": false
   },
   {
@@ -460,9 +450,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.726099Z",
+   "updated_at": "2026-11-14T01:53:45.307893Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

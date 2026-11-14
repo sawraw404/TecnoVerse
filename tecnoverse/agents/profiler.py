@@ -14,7 +14,7 @@ from typing import Literal, get_args
 
 from pydantic import BaseModel, Field
 
-from core.crawl import crawl
+from core.crawl import crawl, news_pages
 from core.llm import ask
 from core.schemas import Company, ProfileField, ProfileItem, SourcePage
 from core.store import Profile, load_companies, load_pages, load_profile, save_pages, save_profile
@@ -174,6 +174,7 @@ def assemble(company: Company, pages: list[SourcePage], simulated: bool, facts: 
 
 def profile_company(company: Company) -> Profile:
     pages, simulated = crawl(company)
+    pages = news_pages(company, pages)  # newest posts and press room: where innovations are announced
     if not pages:
         raise RuntimeError(f"No pages could be fetched for {company.website} and there is no cached copy.")
 

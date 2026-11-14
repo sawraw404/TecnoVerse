@@ -51,7 +51,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.570770Z",
+   "updated_at": "2026-11-14T01:53:45.708116Z",
    "needs_review": false
   },
   {
@@ -70,7 +70,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.571697Z",
+   "updated_at": "2026-11-14T01:53:45.709034Z",
    "needs_review": false
   },
   {
@@ -89,17 +89,17 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.572577Z",
+   "updated_at": "2026-11-14T01:53:45.709874Z",
    "needs_review": false
   },
   {
-   "id": "a73aa5451c412b21",
+   "id": "2e41b93d1e5fb17f",
    "company_id": "parkerra",
    "field": "innovation",
-   "value": "Won Blekinge's SKAPA innovation prize 2025 for its motorhome parking platform",
+   "value": "Booking platform matching motorhome travellers with landowners (SKAPA innovation prize 2025)",
    "status": "fact",
    "source_page_id": "248dd93df6d5ccfa",
-   "quote": "Årets vinnare av Skapa innovationspris i Blekinge är Parkerra",
+   "quote": "Tillsammans har de utvecklat en innovativ digital plattform",
    "quote_verified": true,
    "reasoning": null,
    "confidence": 0.9,
@@ -108,7 +108,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.573428Z",
+   "updated_at": "2026-11-14T01:53:45.710751Z",
    "needs_review": false
   },
   {
@@ -127,7 +127,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.574245Z",
+   "updated_at": "2026-11-14T01:53:45.711798Z",
    "needs_review": false
   },
   {
@@ -146,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575061Z",
+   "updated_at": "2026-11-14T01:53:45.712685Z",
    "needs_review": false
   },
   {
@@ -165,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575703Z",
+   "updated_at": "2026-11-14T01:53:45.713367Z",
    "needs_review": false
   },
   {
@@ -184,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575719Z",
+   "updated_at": "2026-11-14T01:53:45.713381Z",
    "needs_review": false
   },
   {
@@ -203,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575725Z",
+   "updated_at": "2026-11-14T01:53:45.713386Z",
    "needs_review": false
   },
   {
@@ -222,7 +222,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575729Z",
+   "updated_at": "2026-11-14T01:53:45.713390Z",
    "needs_review": false
   },
   {
@@ -241,7 +241,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575732Z",
+   "updated_at": "2026-11-14T01:53:45.713393Z",
    "needs_review": false
   },
   {
@@ -260,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575736Z",
+   "updated_at": "2026-11-14T01:53:45.713397Z",
    "needs_review": false
   },
   {
@@ -279,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575739Z",
+   "updated_at": "2026-11-14T01:53:45.713401Z",
    "needs_review": false
   },
   {
@@ -298,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575742Z",
+   "updated_at": "2026-11-14T01:53:45.713404Z",
    "needs_review": false
   },
   {
@@ -317,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575750Z",
+   "updated_at": "2026-11-14T01:53:45.713412Z",
    "needs_review": false
   },
   {
@@ -336,9 +336,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.575755Z",
+   "updated_at": "2026-11-14T01:53:45.713417Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch 2026-11-14 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

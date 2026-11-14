@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.008477Z",
+   "updated_at": "2026-11-14T01:53:45.275945Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.008741Z",
+   "updated_at": "2026-11-14T01:53:45.276167Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.008979Z",
+   "updated_at": "2026-11-14T01:53:45.276376Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.009744Z",
+   "updated_at": "2026-11-14T01:53:45.277046Z",
    "needs_review": false
   },
   {
@@ -132,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010478Z",
+   "updated_at": "2026-11-14T01:53:45.277685Z",
    "needs_review": false
   },
   {
@@ -151,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010486Z",
+   "updated_at": "2026-11-14T01:53:45.277692Z",
    "needs_review": false
   },
   {
@@ -170,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010492Z",
+   "updated_at": "2026-11-14T01:53:45.277697Z",
    "needs_review": false
   },
   {
@@ -189,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010496Z",
+   "updated_at": "2026-11-14T01:53:45.277700Z",
    "needs_review": false
   },
   {
@@ -208,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010499Z",
+   "updated_at": "2026-11-14T01:53:45.277703Z",
    "needs_review": false
   },
   {
@@ -227,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010502Z",
+   "updated_at": "2026-11-14T01:53:45.277706Z",
    "needs_review": false
   },
   {
@@ -246,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010505Z",
+   "updated_at": "2026-11-14T01:53:45.277708Z",
    "needs_review": false
   },
   {
@@ -265,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010509Z",
+   "updated_at": "2026-11-14T01:53:45.277711Z",
    "needs_review": false
   },
   {
@@ -284,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010512Z",
+   "updated_at": "2026-11-14T01:53:45.277714Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010515Z",
+   "updated_at": "2026-11-14T01:53:45.277717Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010521Z",
+   "updated_at": "2026-11-14T01:53:45.277722Z",
    "needs_review": false
   },
   {
@@ -341,9 +341,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.010526Z",
+   "updated_at": "2026-11-14T01:53:45.277726Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

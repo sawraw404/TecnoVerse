@@ -104,16 +104,6 @@
    "content_hash": "abd5593b3e608d4c"
   },
   {
-   "id": "7d208fcd5570d5bc",
-   "company_id": "softhouse",
-   "url": "https://www.bluesciencepark.se/aktuellt/ny-satsning-for-att-starka-blekinges-foretag-genom-ai-teknologi/",
-   "source_type": "news",
-   "title": "Ny satsning för att stärka Blekinges företag genom AI-teknologi - Blue Science Park",
-   "retrieved_at": "2026-11-14T01:30:18.774023Z",
-   "text": "",
-   "content_hash": "b41316791d832d3f"
-  },
-  {
    "id": "47d3878b089d3bf9",
    "company_id": "softhouse",
    "url": "https://www.bluesciencepark.se/aktuellt/konferens-pa-bth-i-nato-sponsrat-projekt-for-att-sakra-den-kritiska-internetinfrastrukturen",
@@ -181,7 +171,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.231976Z",
+   "updated_at": "2026-11-14T01:53:45.162445Z",
    "needs_review": false
   },
   {
@@ -200,7 +190,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.232683Z",
+   "updated_at": "2026-11-14T01:53:45.163303Z",
    "needs_review": false
   },
   {
@@ -219,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.233528Z",
+   "updated_at": "2026-11-14T01:53:45.163992Z",
    "needs_review": false
   },
   {
@@ -238,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.234379Z",
+   "updated_at": "2026-11-14T01:53:45.164621Z",
    "needs_review": false
   },
   {
@@ -257,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.235121Z",
+   "updated_at": "2026-11-14T01:53:45.165339Z",
    "needs_review": false
   },
   {
@@ -276,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.235789Z",
+   "updated_at": "2026-11-14T01:53:45.165979Z",
    "needs_review": false
   },
   {
@@ -295,7 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.236446Z",
+   "updated_at": "2026-11-14T01:53:45.166669Z",
    "needs_review": false
   },
   {
@@ -314,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.237109Z",
+   "updated_at": "2026-11-14T01:53:45.167350Z",
    "needs_review": false
   },
   {
@@ -333,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.237772Z",
+   "updated_at": "2026-11-14T01:53:45.168024Z",
    "needs_review": false
   },
   {
@@ -352,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.238214Z",
+   "updated_at": "2026-11-14T01:53:45.168473Z",
    "needs_review": false
   },
   {
@@ -371,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241795Z",
+   "updated_at": "2026-11-14T01:53:45.171944Z",
    "needs_review": false
   },
   {
@@ -390,7 +380,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241816Z",
+   "updated_at": "2026-11-14T01:53:45.171959Z",
    "needs_review": false
   },
   {
@@ -409,7 +399,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241825Z",
+   "updated_at": "2026-11-14T01:53:45.171969Z",
    "needs_review": false
   },
   {
@@ -428,7 +418,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241831Z",
+   "updated_at": "2026-11-14T01:53:45.171973Z",
    "needs_review": false
   },
   {
@@ -447,7 +437,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241836Z",
+   "updated_at": "2026-11-14T01:53:45.171977Z",
    "needs_review": false
   },
   {
@@ -466,7 +456,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241839Z",
+   "updated_at": "2026-11-14T01:53:45.171980Z",
    "needs_review": false
   },
   {
@@ -485,7 +475,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241843Z",
+   "updated_at": "2026-11-14T01:53:45.171989Z",
    "needs_review": false
   },
   {
@@ -504,7 +494,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241846Z",
+   "updated_at": "2026-11-14T01:53:45.171992Z",
    "needs_review": false
   },
   {
@@ -523,7 +513,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241850Z",
+   "updated_at": "2026-11-14T01:53:45.171995Z",
    "needs_review": false
   },
   {
@@ -542,7 +532,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241859Z",
+   "updated_at": "2026-11-14T01:53:45.172001Z",
    "needs_review": false
   },
   {
@@ -561,9 +551,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.241865Z",
+   "updated_at": "2026-11-14T01:53:45.172006Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

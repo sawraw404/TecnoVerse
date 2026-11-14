@@ -49,16 +49,6 @@
    "content_hash": "0d82c1008931f571"
   },
   {
-   "id": "516501410190c0b2",
-   "company_id": "lassen-construction",
-   "url": "https://www.bluesciencepark.se/aktuellt/featured-2-aktuellt/nytt-projekt-ska-starka-kreativa-branscher-i-ostersjoregionen/",
-   "source_type": "news",
-   "title": "Nytt projekt ska stärka kreativa branscher i Östersjöregionen - Blue Science Park",
-   "retrieved_at": "2026-11-14T01:30:18.744203Z",
-   "text": "",
-   "content_hash": "0a87cff31e88b747"
-  },
-  {
    "id": "aa1471f961883477",
    "company_id": "lassen-construction",
    "url": "https://www.bluesciencepark.se/aktuellt/lassen-construction-ab-blir-ny-medlem-i-blue-science-park/",
@@ -67,16 +57,6 @@
    "retrieved_at": "2026-11-14T01:30:18.744252Z",
    "text": "",
    "content_hash": "f05e15b8a9b6cfe2"
-  },
-  {
-   "id": "b57396a0a4c8b773",
-   "company_id": "lassen-construction",
-   "url": "https://www.bluesciencepark.se/aktuellt/digit-hub-sweden-2-0-ar-igang-starker-stodet-for-digital-utveckling-i-blekinge/",
-   "source_type": "news",
-   "title": "DigIT Hub Sweden 2.0 är igång – stärker stödet för digital utveckling i Blekinge - Blue Science Park",
-   "retrieved_at": "2026-11-14T01:30:18.744286Z",
-   "text": "",
-   "content_hash": "df1e8e4811056935"
   },
   {
    "id": "61d062f5dc64fecb",
@@ -136,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.187350Z",
+   "updated_at": "2026-11-14T01:53:44.993290Z",
    "needs_review": false
   },
   {
@@ -155,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.187691Z",
+   "updated_at": "2026-11-14T01:53:44.993685Z",
    "needs_review": false
   },
   {
@@ -174,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.188006Z",
+   "updated_at": "2026-11-14T01:53:44.993991Z",
    "needs_review": false
   },
   {
@@ -193,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.188317Z",
+   "updated_at": "2026-11-14T01:53:44.994339Z",
    "needs_review": false
   },
   {
@@ -212,7 +192,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.188632Z",
+   "updated_at": "2026-11-14T01:53:44.994728Z",
    "needs_review": false
   },
   {
@@ -231,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.189470Z",
+   "updated_at": "2026-11-14T01:53:44.995559Z",
    "needs_review": false
   },
   {
@@ -250,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.189954Z",
+   "updated_at": "2026-11-14T01:53:44.996084Z",
    "needs_review": false
   },
   {
@@ -269,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190162Z",
+   "updated_at": "2026-11-14T01:53:44.996371Z",
    "needs_review": false
   },
   {
@@ -288,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190359Z",
+   "updated_at": "2026-11-14T01:53:44.996663Z",
    "needs_review": false
   },
   {
@@ -307,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190371Z",
+   "updated_at": "2026-11-14T01:53:44.996684Z",
    "needs_review": false
   },
   {
@@ -326,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190378Z",
+   "updated_at": "2026-11-14T01:53:44.996692Z",
    "needs_review": false
   },
   {
@@ -345,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190383Z",
+   "updated_at": "2026-11-14T01:53:44.996697Z",
    "needs_review": false
   },
   {
@@ -364,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190387Z",
+   "updated_at": "2026-11-14T01:53:44.996701Z",
    "needs_review": false
   },
   {
@@ -383,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190390Z",
+   "updated_at": "2026-11-14T01:53:44.996704Z",
    "needs_review": false
   },
   {
@@ -402,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190394Z",
+   "updated_at": "2026-11-14T01:53:44.996706Z",
    "needs_review": false
   },
   {
@@ -421,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190397Z",
+   "updated_at": "2026-11-14T01:53:44.996709Z",
    "needs_review": false
   },
   {
@@ -440,9 +420,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.190404Z",
+   "updated_at": "2026-11-14T01:53:44.996716Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

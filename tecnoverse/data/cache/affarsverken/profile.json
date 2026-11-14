@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-14T01:30:18.711416Z",
+  "last_crawled_at": "2026-11-14T01:30:18.711374Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -107,16 +107,6 @@
    "retrieved_at": "2026-11-14T01:30:18.711374Z",
    "text": "",
    "content_hash": "eb44d78659d7a9db"
-  },
-  {
-   "id": "dc7384b48f87cffb",
-   "company_id": "affarsverken",
-   "url": "https://www.bluesciencepark.se/aktuellt/fran-projekt-till-produkt-techinova-tar-nasta-steg-inom-sakrare-elnat/",
-   "source_type": "news",
-   "title": "Från projekt till produkt – Techinova tar nästa steg inom säkrare elnät - Blue Science Park",
-   "retrieved_at": "2026-11-14T01:30:18.711416Z",
-   "text": "",
-   "content_hash": "f7af6623577743e8"
   }
  ],
  "items": [
@@ -136,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.112823Z",
+   "updated_at": "2026-11-14T01:53:44.755148Z",
    "needs_review": false
   },
   {
@@ -155,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.113318Z",
+   "updated_at": "2026-11-14T01:53:44.755577Z",
    "needs_review": false
   },
   {
@@ -174,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.113805Z",
+   "updated_at": "2026-11-14T01:53:44.755981Z",
    "needs_review": false
   },
   {
@@ -193,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.114404Z",
+   "updated_at": "2026-11-14T01:53:44.756494Z",
    "needs_review": false
   },
   {
@@ -212,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.115062Z",
+   "updated_at": "2026-11-14T01:53:44.757082Z",
    "needs_review": false
   },
   {
@@ -231,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.115671Z",
+   "updated_at": "2026-11-14T01:53:44.757639Z",
    "needs_review": false
   },
   {
@@ -250,7 +240,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.116309Z",
+   "updated_at": "2026-11-14T01:53:44.758189Z",
    "needs_review": false
   },
   {
@@ -269,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.116731Z",
+   "updated_at": "2026-11-14T01:53:44.758554Z",
    "needs_review": false
   },
   {
@@ -288,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.117390Z",
+   "updated_at": "2026-11-14T01:53:44.759114Z",
    "needs_review": false
   },
   {
@@ -307,7 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.117996Z",
+   "updated_at": "2026-11-14T01:53:44.759637Z",
    "needs_review": false
   },
   {
@@ -326,7 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.118663Z",
+   "updated_at": "2026-11-14T01:53:44.760154Z",
    "needs_review": false
   },
   {
@@ -345,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.119355Z",
+   "updated_at": "2026-11-14T01:53:44.760664Z",
    "needs_review": false
   },
   {
@@ -364,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.120011Z",
+   "updated_at": "2026-11-14T01:53:44.761221Z",
    "needs_review": false
   },
   {
@@ -383,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.120450Z",
+   "updated_at": "2026-11-14T01:53:44.761606Z",
    "needs_review": false
   },
   {
@@ -402,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.120871Z",
+   "updated_at": "2026-11-14T01:53:44.761979Z",
    "needs_review": false
   },
   {
@@ -421,7 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.121976Z",
+   "updated_at": "2026-11-14T01:53:44.762966Z",
    "needs_review": false
   },
   {
@@ -440,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.122608Z",
+   "updated_at": "2026-11-14T01:53:44.763522Z",
    "needs_review": false
   },
   {
@@ -459,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.123042Z",
+   "updated_at": "2026-11-14T01:53:44.763900Z",
    "needs_review": false
   },
   {
@@ -478,7 +468,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.128939Z",
+   "updated_at": "2026-11-14T01:53:44.766240Z",
    "needs_review": false
   },
   {
@@ -497,7 +487,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134679Z",
+   "updated_at": "2026-11-14T01:53:44.768548Z",
    "needs_review": false
   },
   {
@@ -516,7 +506,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134707Z",
+   "updated_at": "2026-11-14T01:53:44.768563Z",
    "needs_review": false
   },
   {
@@ -535,7 +525,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134719Z",
+   "updated_at": "2026-11-14T01:53:44.768570Z",
    "needs_review": false
   },
   {
@@ -554,7 +544,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134725Z",
+   "updated_at": "2026-11-14T01:53:44.768576Z",
    "needs_review": false
   },
   {
@@ -573,7 +563,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134735Z",
+   "updated_at": "2026-11-14T01:53:44.768583Z",
    "needs_review": false
   },
   {
@@ -592,7 +582,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134740Z",
+   "updated_at": "2026-11-14T01:53:44.768587Z",
    "needs_review": false
   },
   {
@@ -611,7 +601,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134744Z",
+   "updated_at": "2026-11-14T01:53:44.768591Z",
    "needs_review": false
   },
   {
@@ -630,7 +620,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134748Z",
+   "updated_at": "2026-11-14T01:53:44.768594Z",
    "needs_review": false
   },
   {
@@ -649,7 +639,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.134751Z",
+   "updated_at": "2026-11-14T01:53:44.768597Z",
    "needs_review": false
   }
  ],

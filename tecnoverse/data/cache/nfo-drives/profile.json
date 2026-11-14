@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.502323Z",
+   "updated_at": "2026-11-14T01:53:45.506869Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.502537Z",
+   "updated_at": "2026-11-14T01:53:45.507063Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.502967Z",
+   "updated_at": "2026-11-14T01:53:45.507526Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.505359Z",
+   "updated_at": "2026-11-14T01:53:45.509401Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.505560Z",
+   "updated_at": "2026-11-14T01:53:45.509579Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.507611Z",
+   "updated_at": "2026-11-14T01:53:45.511455Z",
    "needs_review": false
   },
   {
@@ -200,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.509677Z",
+   "updated_at": "2026-11-14T01:53:45.513303Z",
    "needs_review": false
   },
   {
@@ -219,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.509909Z",
+   "updated_at": "2026-11-14T01:53:45.513421Z",
    "needs_review": false
   },
   {
@@ -238,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513616Z",
+   "updated_at": "2026-11-14T01:53:45.515025Z",
    "needs_review": false
   },
   {
@@ -257,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513638Z",
+   "updated_at": "2026-11-14T01:53:45.515040Z",
    "needs_review": false
   },
   {
@@ -276,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513647Z",
+   "updated_at": "2026-11-14T01:53:45.515048Z",
    "needs_review": false
   },
   {
@@ -295,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513651Z",
+   "updated_at": "2026-11-14T01:53:45.515053Z",
    "needs_review": false
   },
   {
@@ -314,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513655Z",
+   "updated_at": "2026-11-14T01:53:45.515057Z",
    "needs_review": false
   },
   {
@@ -333,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513658Z",
+   "updated_at": "2026-11-14T01:53:45.515061Z",
    "needs_review": false
   },
   {
@@ -352,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513661Z",
+   "updated_at": "2026-11-14T01:53:45.515064Z",
    "needs_review": false
   },
   {
@@ -371,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513669Z",
+   "updated_at": "2026-11-14T01:53:45.515072Z",
    "needs_review": false
   },
   {
@@ -390,9 +390,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:16.513674Z",
+   "updated_at": "2026-11-14T01:53:45.515077Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

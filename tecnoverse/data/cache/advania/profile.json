@@ -126,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.013085Z",
+   "updated_at": "2026-11-14T01:53:45.280712Z",
    "needs_review": false
   },
   {
@@ -145,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.015963Z",
+   "updated_at": "2026-11-14T01:53:45.282567Z",
    "needs_review": false
   },
   {
@@ -164,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.017815Z",
+   "updated_at": "2026-11-14T01:53:45.284206Z",
    "needs_review": false
   },
   {
@@ -183,13 +183,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.018589Z",
+   "updated_at": "2026-11-14T01:53:45.284862Z",
    "needs_review": false
   },
   {
-   "id": "f3c6d21fb13e39a6",
+   "id": "14bca65dfe103bbf",
    "company_id": "advania",
-   "field": "innovation",
+   "field": "collaboration",
    "value": "Kept VMware Cloud Service Provider status; supports sovereign clouds and Private AI (27 Jan 2026)",
    "status": "fact",
    "source_page_id": "0cbda2d1aa100b3f",
@@ -202,7 +202,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.019049Z",
+   "updated_at": "2026-11-14T01:53:45.285253Z",
    "needs_review": false
   },
   {
@@ -221,7 +221,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.020856Z",
+   "updated_at": "2026-11-14T01:53:45.287144Z",
    "needs_review": false
   },
   {
@@ -240,7 +240,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.022753Z",
+   "updated_at": "2026-11-14T01:53:45.288939Z",
    "needs_review": false
   },
   {
@@ -259,7 +259,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.030377Z",
+   "updated_at": "2026-11-14T01:53:45.292014Z",
    "needs_review": false
   },
   {
@@ -278,7 +278,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042641Z",
+   "updated_at": "2026-11-14T01:53:45.295106Z",
    "needs_review": false
   },
   {
@@ -297,7 +297,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042736Z",
+   "updated_at": "2026-11-14T01:53:45.295124Z",
+   "needs_review": false
+  },
+  {
+   "id": "7f8c5cf1727aea05",
+   "company_id": "advania",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.295133Z",
    "needs_review": false
   },
   {
@@ -316,7 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042760Z",
+   "updated_at": "2026-11-14T01:53:45.295138Z",
    "needs_review": false
   },
   {
@@ -335,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042769Z",
+   "updated_at": "2026-11-14T01:53:45.295142Z",
    "needs_review": false
   },
   {
@@ -354,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042776Z",
+   "updated_at": "2026-11-14T01:53:45.295145Z",
    "needs_review": false
   },
   {
@@ -373,7 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042782Z",
+   "updated_at": "2026-11-14T01:53:45.295148Z",
    "needs_review": false
   },
   {
@@ -392,26 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042789Z",
-   "needs_review": false
-  },
-  {
-   "id": "eec808825c6c656d",
-   "company_id": "advania",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042795Z",
+   "updated_at": "2026-11-14T01:53:45.295151Z",
    "needs_review": false
   },
   {
@@ -430,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042802Z",
+   "updated_at": "2026-11-14T01:53:45.295154Z",
    "needs_review": false
   },
   {
@@ -449,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042821Z",
+   "updated_at": "2026-11-14T01:53:45.295164Z",
    "needs_review": false
   },
   {
@@ -468,9 +468,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:26.042831Z",
+   "updated_at": "2026-11-14T01:53:45.295169Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

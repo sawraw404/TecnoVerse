@@ -146,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.173015Z",
+   "updated_at": "2026-11-14T01:53:44.802707Z",
    "needs_review": false
   },
   {
@@ -165,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.173430Z",
+   "updated_at": "2026-11-14T01:53:44.803111Z",
    "needs_review": false
   },
   {
@@ -184,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.173671Z",
+   "updated_at": "2026-11-14T01:53:44.803326Z",
    "needs_review": false
   },
   {
@@ -203,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.173919Z",
+   "updated_at": "2026-11-14T01:53:44.803524Z",
    "needs_review": false
   },
   {
@@ -222,13 +222,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.174198Z",
+   "updated_at": "2026-11-14T01:53:44.803760Z",
    "needs_review": false
   },
   {
-   "id": "80116e066ebda68d",
+   "id": "c00ebe761d214005",
    "company_id": "baltic-offshore",
-   "field": "innovation",
+   "field": "project",
    "value": "Newly developed jet trencher for seabed cable burial (2024-06-04)",
    "status": "fact",
    "source_page_id": "631684fc4f9b3b51",
@@ -241,13 +241,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.174471Z",
+   "updated_at": "2026-11-14T01:53:44.803987Z",
    "needs_review": false
   },
   {
-   "id": "7caba3d5018a5515",
+   "id": "576ce21403b44afa",
    "company_id": "baltic-offshore",
-   "field": "innovation",
+   "field": "project",
    "value": "Pilot study to assess offshore wind farm structures promoting biodiversity (2024-06-18)",
    "status": "fact",
    "source_page_id": "7993cbf767f05df0",
@@ -260,7 +260,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.175287Z",
+   "updated_at": "2026-11-14T01:53:44.804689Z",
    "needs_review": false
   },
   {
@@ -279,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.175550Z",
+   "updated_at": "2026-11-14T01:53:44.804907Z",
    "needs_review": false
   },
   {
@@ -298,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.176336Z",
+   "updated_at": "2026-11-14T01:53:44.805600Z",
    "needs_review": false
   },
   {
@@ -317,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.176611Z",
+   "updated_at": "2026-11-14T01:53:44.805843Z",
    "needs_review": false
   },
   {
@@ -336,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.176855Z",
+   "updated_at": "2026-11-14T01:53:44.806074Z",
    "needs_review": false
   },
   {
@@ -355,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.177141Z",
+   "updated_at": "2026-11-14T01:53:44.806389Z",
    "needs_review": false
   },
   {
@@ -374,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.177387Z",
+   "updated_at": "2026-11-14T01:53:44.806633Z",
    "needs_review": false
   },
   {
@@ -393,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.177667Z",
+   "updated_at": "2026-11-14T01:53:44.806896Z",
    "needs_review": false
   },
   {
@@ -412,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.178437Z",
+   "updated_at": "2026-11-14T01:53:44.807615Z",
    "needs_review": false
   },
   {
@@ -431,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.178668Z",
+   "updated_at": "2026-11-14T01:53:44.807834Z",
    "needs_review": false
   },
   {
@@ -450,7 +450,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.178940Z",
+   "updated_at": "2026-11-14T01:53:44.808080Z",
    "needs_review": false
   },
   {
@@ -469,7 +469,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.179952Z",
+   "updated_at": "2026-11-14T01:53:44.808548Z",
    "needs_review": false
   },
   {
@@ -488,7 +488,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.180959Z",
+   "updated_at": "2026-11-14T01:53:44.808994Z",
    "needs_review": false
   },
   {
@@ -507,7 +507,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.180981Z",
+   "updated_at": "2026-11-14T01:53:44.809005Z",
+   "needs_review": false
+  },
+  {
+   "id": "5ed72bdcc0b4429c",
+   "company_id": "baltic-offshore",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.809011Z",
    "needs_review": false
   },
   {
@@ -526,7 +545,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.180991Z",
+   "updated_at": "2026-11-14T01:53:44.809016Z",
    "needs_review": false
   },
   {
@@ -545,7 +564,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.180996Z",
+   "updated_at": "2026-11-14T01:53:44.809019Z",
    "needs_review": false
   },
   {
@@ -564,7 +583,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.180999Z",
+   "updated_at": "2026-11-14T01:53:44.809022Z",
    "needs_review": false
   },
   {
@@ -583,7 +602,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.181010Z",
+   "updated_at": "2026-11-14T01:53:44.809029Z",
    "needs_review": false
   },
   {
@@ -602,7 +621,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.181015Z",
+   "updated_at": "2026-11-14T01:53:44.809034Z",
    "needs_review": false
   },
   {
@@ -621,7 +640,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.181019Z",
+   "updated_at": "2026-11-14T01:53:44.809037Z",
    "needs_review": false
   },
   {
@@ -640,7 +659,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.181023Z",
+   "updated_at": "2026-11-14T01:53:44.809041Z",
    "needs_review": false
   },
   {
@@ -659,7 +678,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:46:35.181026Z",
+   "updated_at": "2026-11-14T01:53:44.809044Z",
    "needs_review": false
   }
  ],

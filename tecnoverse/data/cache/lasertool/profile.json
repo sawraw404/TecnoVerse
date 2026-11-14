@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.502276Z",
+   "updated_at": "2026-11-14T01:53:45.636995Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.502647Z",
+   "updated_at": "2026-11-14T01:53:45.637300Z",
    "needs_review": false
   },
   {
@@ -124,13 +124,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.502973Z",
+   "updated_at": "2026-11-14T01:53:45.637764Z",
    "needs_review": false
   },
   {
-   "id": "a7e75633d5a4c353",
+   "id": "f7b5bf72c573ab73",
    "company_id": "lasertool",
-   "field": "innovation",
+   "field": "project",
    "value": "Investing in a new laser hardening cell to raise capacity (15 Dec 2023)",
    "status": "fact",
    "source_page_id": "e9d389008e64ac92",
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.503099Z",
+   "updated_at": "2026-11-14T01:53:45.637918Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.503246Z",
+   "updated_at": "2026-11-14T01:53:45.638069Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.503520Z",
+   "updated_at": "2026-11-14T01:53:45.638366Z",
    "needs_review": false
   },
   {
@@ -200,7 +200,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.503840Z",
+   "updated_at": "2026-11-14T01:53:45.638702Z",
    "needs_review": false
   },
   {
@@ -219,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504160Z",
+   "updated_at": "2026-11-14T01:53:45.639034Z",
    "needs_review": false
   },
   {
@@ -238,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504434Z",
+   "updated_at": "2026-11-14T01:53:45.639308Z",
    "needs_review": false
   },
   {
@@ -257,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504623Z",
+   "updated_at": "2026-11-14T01:53:45.639513Z",
    "needs_review": false
   },
   {
@@ -276,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504822Z",
+   "updated_at": "2026-11-14T01:53:45.639699Z",
    "needs_review": false
   },
   {
@@ -295,7 +295,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504836Z",
+   "updated_at": "2026-11-14T01:53:45.639711Z",
+   "needs_review": false
+  },
+  {
+   "id": "c0fac2da39cab3b2",
+   "company_id": "lasertool",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.639717Z",
    "needs_review": false
   },
   {
@@ -314,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504842Z",
+   "updated_at": "2026-11-14T01:53:45.639721Z",
    "needs_review": false
   },
   {
@@ -333,26 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504847Z",
-   "needs_review": false
-  },
-  {
-   "id": "b84e98ecbb09a64f",
-   "company_id": "lasertool",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504851Z",
+   "updated_at": "2026-11-14T01:53:45.639724Z",
    "needs_review": false
   },
   {
@@ -371,9 +371,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.504860Z",
+   "updated_at": "2026-11-14T01:53:45.639730Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

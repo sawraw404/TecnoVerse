@@ -136,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.731098Z",
+   "updated_at": "2026-11-14T01:53:45.312683Z",
    "needs_review": false
   },
   {
@@ -155,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.731670Z",
+   "updated_at": "2026-11-14T01:53:45.313239Z",
    "needs_review": false
   },
   {
@@ -174,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.731845Z",
+   "updated_at": "2026-11-14T01:53:45.313409Z",
    "needs_review": false
   },
   {
@@ -193,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.732013Z",
+   "updated_at": "2026-11-14T01:53:45.313568Z",
    "needs_review": false
   },
   {
@@ -212,26 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.736599Z",
-   "needs_review": false
-  },
-  {
-   "id": "f362921d54eeb49b",
-   "company_id": "cimon-enterprise",
-   "field": "innovation",
-   "value": "Generative design: AI in modern product development (15 June 2026)",
-   "status": "fact",
-   "source_page_id": "2a9caee3e2036161",
-   "quote": "Generativ design: så används AI i modern produktutveckling",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.736817Z",
+   "updated_at": "2026-11-14T01:53:45.317545Z",
    "needs_review": false
   },
   {
@@ -250,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.736987Z",
+   "updated_at": "2026-11-14T01:53:45.317728Z",
    "needs_review": false
   },
   {
@@ -269,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737160Z",
+   "updated_at": "2026-11-14T01:53:45.317891Z",
    "needs_review": false
   },
   {
@@ -288,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737717Z",
+   "updated_at": "2026-11-14T01:53:45.318425Z",
    "needs_review": false
   },
   {
@@ -307,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737743Z",
+   "updated_at": "2026-11-14T01:53:45.318442Z",
    "needs_review": false
   },
   {
@@ -326,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737755Z",
+   "updated_at": "2026-11-14T01:53:45.318449Z",
    "needs_review": false
   },
   {
@@ -345,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737760Z",
+   "updated_at": "2026-11-14T01:53:45.318454Z",
    "needs_review": false
   },
   {
@@ -364,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737764Z",
+   "updated_at": "2026-11-14T01:53:45.318458Z",
    "needs_review": false
   },
   {
@@ -383,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737768Z",
+   "updated_at": "2026-11-14T01:53:45.318461Z",
    "needs_review": false
   },
   {
@@ -402,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737772Z",
+   "updated_at": "2026-11-14T01:53:45.318465Z",
    "needs_review": false
   },
   {
@@ -421,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737780Z",
+   "updated_at": "2026-11-14T01:53:45.318471Z",
    "needs_review": false
   },
   {
@@ -440,9 +421,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:48:58.737786Z",
+   "updated_at": "2026-11-14T01:53:45.318476Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

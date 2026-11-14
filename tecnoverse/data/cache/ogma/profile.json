@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520383Z",
+   "updated_at": "2026-11-14T01:53:45.655999Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520535Z",
+   "updated_at": "2026-11-14T01:53:45.656184Z",
    "needs_review": false
   },
   {
@@ -144,13 +144,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520663Z",
+   "updated_at": "2026-11-14T01:53:45.656361Z",
    "needs_review": false
   },
   {
-   "id": "8c592117af803c84",
+   "id": "00d1155c20a850aa",
    "company_id": "ogma",
-   "field": "innovation",
+   "field": "offering",
    "value": "EasyBlister: blister packaging combining paper and plastic without special machinery",
    "status": "fact",
    "source_page_id": "b04f51800d3284e2",
@@ -163,7 +163,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520744Z",
+   "updated_at": "2026-11-14T01:53:45.656488Z",
    "needs_review": false
   },
   {
@@ -182,7 +182,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520822Z",
+   "updated_at": "2026-11-14T01:53:45.656634Z",
    "needs_review": false
   },
   {
@@ -201,7 +201,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.520936Z",
+   "updated_at": "2026-11-14T01:53:45.656756Z",
    "needs_review": false
   },
   {
@@ -220,7 +220,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521105Z",
+   "updated_at": "2026-11-14T01:53:45.656927Z",
    "needs_review": false
   },
   {
@@ -239,7 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521176Z",
+   "updated_at": "2026-11-14T01:53:45.657002Z",
    "needs_review": false
   },
   {
@@ -258,7 +258,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521248Z",
+   "updated_at": "2026-11-14T01:53:45.657073Z",
+   "needs_review": false
+  },
+  {
+   "id": "bfb882199c8a514a",
+   "company_id": "ogma",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:45.657079Z",
    "needs_review": false
   },
   {
@@ -277,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521254Z",
+   "updated_at": "2026-11-14T01:53:45.657083Z",
    "needs_review": false
   },
   {
@@ -296,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521258Z",
+   "updated_at": "2026-11-14T01:53:45.657087Z",
    "needs_review": false
   },
   {
@@ -315,7 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521261Z",
+   "updated_at": "2026-11-14T01:53:45.657090Z",
    "needs_review": false
   },
   {
@@ -334,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521265Z",
+   "updated_at": "2026-11-14T01:53:45.657093Z",
    "needs_review": false
   },
   {
@@ -353,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521267Z",
+   "updated_at": "2026-11-14T01:53:45.657096Z",
    "needs_review": false
   },
   {
@@ -372,7 +391,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521271Z",
+   "updated_at": "2026-11-14T01:53:45.657099Z",
    "needs_review": false
   },
   {
@@ -391,7 +410,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521274Z",
+   "updated_at": "2026-11-14T01:53:45.657102Z",
    "needs_review": false
   },
   {
@@ -410,9 +429,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:50:49.521280Z",
+   "updated_at": "2026-11-14T01:53:45.657109Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

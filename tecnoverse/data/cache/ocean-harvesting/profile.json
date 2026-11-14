@@ -121,7 +121,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.196211Z",
+   "updated_at": "2026-11-14T01:53:45.124587Z",
    "needs_review": false
   },
   {
@@ -140,7 +140,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.196539Z",
+   "updated_at": "2026-11-14T01:53:45.124905Z",
    "needs_review": false
   },
   {
@@ -159,7 +159,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.197248Z",
+   "updated_at": "2026-11-14T01:53:45.125604Z",
    "needs_review": false
   },
   {
@@ -178,7 +178,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.197574Z",
+   "updated_at": "2026-11-14T01:53:45.125957Z",
    "needs_review": false
   },
   {
@@ -197,7 +197,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.197893Z",
+   "updated_at": "2026-11-14T01:53:45.126292Z",
    "needs_review": false
   },
   {
@@ -216,13 +216,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.198586Z",
+   "updated_at": "2026-11-14T01:53:45.127074Z",
    "needs_review": false
   },
   {
-   "id": "abe193c7527cf663",
+   "id": "032ad2e3212d8895",
    "company_id": "ocean-harvesting",
-   "field": "innovation",
+   "field": "project",
    "value": "Opened a SEK 10M financing round (28 November 2025)",
    "status": "fact",
    "source_page_id": "c7953e4eff12d66c",
@@ -235,7 +235,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.199000Z",
+   "updated_at": "2026-11-14T01:53:45.127480Z",
    "needs_review": false
   },
   {
@@ -254,7 +254,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.199255Z",
+   "updated_at": "2026-11-14T01:53:45.127727Z",
    "needs_review": false
   },
   {
@@ -273,7 +273,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.199500Z",
+   "updated_at": "2026-11-14T01:53:45.127962Z",
    "needs_review": false
   },
   {
@@ -292,7 +292,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.199755Z",
+   "updated_at": "2026-11-14T01:53:45.128198Z",
    "needs_review": false
   },
   {
@@ -311,7 +311,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.199961Z",
+   "updated_at": "2026-11-14T01:53:45.128387Z",
    "needs_review": false
   },
   {
@@ -330,7 +330,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.201005Z",
+   "updated_at": "2026-11-14T01:53:45.129387Z",
    "needs_review": false
   },
   {
@@ -349,7 +349,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.201994Z",
+   "updated_at": "2026-11-14T01:53:45.130344Z",
    "needs_review": false
   },
   {
@@ -368,7 +368,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202002Z",
+   "updated_at": "2026-11-14T01:53:45.130351Z",
    "needs_review": false
   },
   {
@@ -387,7 +387,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202007Z",
+   "updated_at": "2026-11-14T01:53:45.130355Z",
    "needs_review": false
   },
   {
@@ -406,7 +406,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202011Z",
+   "updated_at": "2026-11-14T01:53:45.130358Z",
    "needs_review": false
   },
   {
@@ -425,7 +425,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202014Z",
+   "updated_at": "2026-11-14T01:53:45.130361Z",
    "needs_review": false
   },
   {
@@ -444,7 +444,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202022Z",
+   "updated_at": "2026-11-14T01:53:45.130368Z",
    "needs_review": false
   },
   {
@@ -463,9 +463,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:58.202042Z",
+   "updated_at": "2026-11-14T01:53:45.130372Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }

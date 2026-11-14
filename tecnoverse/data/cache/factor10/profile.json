@@ -136,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.114488Z",
+   "updated_at": "2026-11-14T01:53:44.914012Z",
    "needs_review": false
   },
   {
@@ -155,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.115043Z",
+   "updated_at": "2026-11-14T01:53:44.914703Z",
    "needs_review": false
   },
   {
@@ -174,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.115599Z",
+   "updated_at": "2026-11-14T01:53:44.915356Z",
    "needs_review": false
   },
   {
@@ -193,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.116100Z",
+   "updated_at": "2026-11-14T01:53:44.915895Z",
    "needs_review": false
   },
   {
@@ -212,7 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.116704Z",
+   "updated_at": "2026-11-14T01:53:44.916526Z",
    "needs_review": false
   },
   {
@@ -231,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.117306Z",
+   "updated_at": "2026-11-14T01:53:44.917240Z",
    "needs_review": false
   },
   {
@@ -250,13 +250,13 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.117895Z",
+   "updated_at": "2026-11-14T01:53:44.917897Z",
    "needs_review": false
   },
   {
-   "id": "0b9376ec2fb3dd6d",
+   "id": "afe5466d7ca9d00c",
    "company_id": "factor10",
-   "field": "innovation",
+   "field": "project",
    "value": "Helped FRA explore improving software delivery with DORA metrics (2026-11-13)",
    "status": "fact",
    "source_page_id": "1c2c30bae2b884f9",
@@ -269,26 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.118088Z",
-   "needs_review": false
-  },
-  {
-   "id": "75765a489231a65c",
-   "company_id": "factor10",
-   "field": "innovation",
-   "value": "Article series on lessons from an LLM integration (2026-11-06)",
-   "status": "fact",
-   "source_page_id": "1c2c30bae2b884f9",
-   "quote": "Lessons from an LLM integration, part 2: swapping models",
-   "quote_verified": true,
-   "reasoning": null,
-   "confidence": 0.9,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.118276Z",
+   "updated_at": "2026-11-14T01:53:44.918106Z",
    "needs_review": false
   },
   {
@@ -307,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.118811Z",
+   "updated_at": "2026-11-14T01:53:44.918625Z",
    "needs_review": false
   },
   {
@@ -326,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.119339Z",
+   "updated_at": "2026-11-14T01:53:44.919128Z",
    "needs_review": false
   },
   {
@@ -345,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.119868Z",
+   "updated_at": "2026-11-14T01:53:44.919622Z",
    "needs_review": false
   },
   {
@@ -364,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.120399Z",
+   "updated_at": "2026-11-14T01:53:44.920113Z",
    "needs_review": false
   },
   {
@@ -383,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.120731Z",
+   "updated_at": "2026-11-14T01:53:44.920432Z",
    "needs_review": false
   },
   {
@@ -402,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121061Z",
+   "updated_at": "2026-11-14T01:53:44.920749Z",
    "needs_review": false
   },
   {
@@ -421,7 +402,26 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121072Z",
+   "updated_at": "2026-11-14T01:53:44.920760Z",
+   "needs_review": false
+  },
+  {
+   "id": "74915fa7de1f1475",
+   "company_id": "factor10",
+   "field": "innovation",
+   "value": "",
+   "status": "missing",
+   "source_page_id": null,
+   "quote": null,
+   "quote_verified": false,
+   "reasoning": null,
+   "confidence": 0.0,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:53:44.920766Z",
    "needs_review": false
   },
   {
@@ -440,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121078Z",
+   "updated_at": "2026-11-14T01:53:44.920770Z",
    "needs_review": false
   },
   {
@@ -459,7 +459,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121083Z",
+   "updated_at": "2026-11-14T01:53:44.920774Z",
    "needs_review": false
   },
   {
@@ -478,7 +478,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121087Z",
+   "updated_at": "2026-11-14T01:53:44.920777Z",
    "needs_review": false
   },
   {
@@ -497,7 +497,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121094Z",
+   "updated_at": "2026-11-14T01:53:44.920783Z",
    "needs_review": false
   },
   {
@@ -516,9 +516,9 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:47:17.121099Z",
+   "updated_at": "2026-11-14T01:53:44.920787Z",
    "needs_review": false
   }
  ],
- "extracted_by": "Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)"
+ "extracted_by": "Claude Code, offline batches 2026-11-13 and 2026-11-14 (Gemini free-tier quota was exhausted)"
 }
