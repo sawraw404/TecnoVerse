@@ -36,7 +36,7 @@ def email(o) -> str:
             f"and whether our profile could be relevant?\n\nBest regards,\n{company.name}")
 
 
-def card(m, o):
+def card(m, o, where=""):
     with st.container(border=True):
         badge = ":blue-badge[possible match]" if o.type == "funding" else ""
         moved = ""
@@ -60,24 +60,30 @@ def card(m, o):
                     st.markdown(f"> {r}")
             if o.contact:
                 st.write(f"Contact: {o.contact}")
-            st.text_area("Draft intro email", email(o), height=170, key=f"mail-{o.id}")
+            st.text_area("Draft intro email", email(o), height=170, key=f"mail-{where}{o.id}")
         up, down, _ = st.columns([1, 1, 6])
-        if up.button("👍", key=f"up-{o.id}", help="More like this"):
+        if up.button("👍", key=f"up-{where}{o.id}", help="More like this"):
             give_feedback(company.id, o.id, "up", user.id)
             st.rerun()
-        if down.button("👎", key=f"down-{o.id}", help="Less like this"):
+        if down.button("👎", key=f"down-{where}{o.id}", help="Less like this"):
             give_feedback(company.id, o.id, "down", user.id)
             st.rerun()
 
 
-for tab, (kind, label) in zip(st.tabs([label for _, label in TABS]), TABS):
+top_tab, *type_tabs = st.tabs(["Top matches"] + [label for _, label in TABS])
+with top_tab:
+    st.caption("Best matches across funding, events and testbeds. Your priorities on the Profile page move types up here.")
+    for m in [m for m in matches if m.llm_score > 0 and m.opportunity_id in opps][:PER_TYPE]:
+        card(m, opps[m.opportunity_id], "top")
+
+for tab, (kind, label) in zip(type_tabs, TABS):
     with tab:
         ranked = [m for m in matches if m.opportunity_id in opps and opps[m.opportunity_id].type == kind]
         relevant = [m for m in ranked if m.llm_score > 0]  # judged relevant in the re-rank step
         if not relevant:
             st.info(f"No {label.lower()} judged relevant for {company.name} right now.")
         for m in relevant[:PER_TYPE]:
-            card(m, opps[m.opportunity_id])
+            card(m, opps[m.opportunity_id], kind)
         rest = [m for m in ranked if m.llm_score == 0]
         if rest:
             with st.expander(f"Other {label.lower()} ({len(rest)}): keyword overlap only, not judged relevant"):
