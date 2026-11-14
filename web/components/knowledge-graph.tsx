@@ -109,12 +109,37 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
     });
     return s;
   }, [focus, edges]);
+  // search: company name, focus area, "member"/"external" or industry. While the box has text it wins
+  // over hover and selection highlighting, so typing always shows its result.
   const q = query.trim().toLowerCase();
-  const matches = (n: GraphNode) => (!q || n.label.toLowerCase().includes(q)) && (!areaFilter || n.kind !== "company" || n.area === areaFilter);
+  const haystack = useMemo(
+    () =>
+      new Map(
+        graph.nodes.map((n) => [
+          n.id,
+          [n.label, graph.areas[n.area ?? ""] ?? "", n.kind === "company" ? (n.member ? "member park member" : "external") : "",
+            ...n.facts.filter((f) => f.field === "industry").map((f) => f.value)].join(" ").toLowerCase(),
+        ]),
+      ),
+    [graph],
+  );
+  const inArea = (n: GraphNode) => !areaFilter || n.kind !== "company" || n.area === areaFilter;
+  const hits = q ? graph.nodes.filter((n) => n.kind === "company" && inArea(n) && haystack.get(n.id)!.includes(q)) : [];
+  const hitIds = new Set(hits.map((n) => n.id));
   const dimmed = (id: string) => {
     const n = byId.get(id)!;
+    if (q) return n.kind === "company" && !hitIds.has(id);
     if (neighbours) return !neighbours.has(id);
-    return n.kind === "company" && !matches(n);
+    return !inArea(n);
+  };
+  const choose = (id: string) => {
+    const p = pos.get(id)!;
+    setSelected({ node: id });
+    setQuery("");
+    setView((v) => {
+      const k = Math.max(v.k, 1.4);
+      return { k, x: -p.x * k, y: -p.y * k };
+    });
   };
 
   // pointer: drag a node, or pan the canvas
@@ -172,9 +197,43 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Find a company"
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && hits[0]) choose(hits[0].id);
+                if (e.key === "Escape") setQuery("");
+              }}
+              role="combobox"
+              aria-expanded={q.length > 0}
+              aria-controls="graph-results"
+              autoComplete="off"
+              placeholder="Find a company, area or “member”"
               className="h-9 w-full rounded-md border border-border-strong bg-surface pl-8 pr-3 text-sm placeholder:text-text-3 focus:border-ring focus:outline-none focus:ring-3 focus:ring-ring/20"
             />
+            {q && (
+              <div
+                id="graph-results"
+                role="listbox"
+                aria-label="Matching companies"
+                className="absolute left-0 right-0 top-full z-10 mt-1 max-h-72 animate-fade-up overflow-y-auto rounded-lg border border-border bg-surface p-1 shadow-lg"
+              >
+                <p className="px-2.5 py-1.5 text-xs text-text-3" aria-live="polite">
+                  {hits.length === 0 ? `No company matches “${query.trim()}”` : `${hits.length} ${hits.length === 1 ? "company" : "companies"} · Enter selects the first`}
+                </p>
+                {hits.map((n) => (
+                  <button
+                    key={n.id}
+                    type="button"
+                    role="option"
+                    aria-selected={false}
+                    onClick={() => choose(n.id)}
+                    className="flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-left text-sm hover:bg-surface-2"
+                  >
+                    <span className="size-2.5 shrink-0 rounded-full" style={{ background: color(n.area) }} aria-hidden />
+                    <span className="min-w-0 flex-1 truncate">{n.label}</span>
+                    <span className="text-xs text-text-3">{n.member ? "member" : "external"}</span>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
           <div className="ml-auto flex items-center gap-1" role="group" aria-label="Zoom">
             {[
@@ -253,7 +312,7 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
               const r = radius(n);
               const off = dimmed(n.id);
               const isSel = selected?.node === n.id;
-              const showLabel = n.kind !== "company" || n.id === focus || isSel || (q && matches(n)) || view.k > 1.4;
+              const showLabel = n.kind !== "company" || n.id === focus || isSel || hitIds.has(n.id) || view.k > 1.4;
               return (
                 <g
                   key={n.id}
@@ -285,7 +344,7 @@ export function KnowledgeGraph({ graph }: { graph: Graph }) {
                       strokeDasharray={n.member ? undefined : "3 2"}
                     />
                   )}
-                  {(isSel || n.id === hover) && <circle r={r + 5} fill="none" stroke="var(--ring)" strokeWidth={2} />}
+                  {(isSel || n.id === hover || hitIds.has(n.id)) && <circle r={r + 5} fill="none" stroke="var(--ring)" strokeWidth={2} />}
                   {showLabel && (
                     <text
                       y={r + 14}
