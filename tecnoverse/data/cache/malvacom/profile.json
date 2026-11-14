@@ -86,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.408677Z",
+   "updated_at": "2026-11-14T01:47:17.210991Z",
    "needs_review": false
   },
   {
@@ -105,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.413027Z",
+   "updated_at": "2026-11-14T01:47:17.215153Z",
    "needs_review": false
   },
   {
@@ -124,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.417023Z",
+   "updated_at": "2026-11-14T01:47:17.219199Z",
    "needs_review": false
   },
   {
@@ -143,7 +143,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.421265Z",
+   "updated_at": "2026-11-14T01:47:17.223370Z",
    "needs_review": false
   },
   {
@@ -162,7 +162,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.425316Z",
+   "updated_at": "2026-11-14T01:47:17.227391Z",
    "needs_review": false
   },
   {
@@ -181,7 +181,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.429400Z",
+   "updated_at": "2026-11-14T01:47:17.231409Z",
+   "needs_review": false
+  },
+  {
+   "id": "1f07621b630290d7",
+   "company_id": "malvacom",
+   "field": "expertise",
+   "value": "Deep public sector experience: security, procurement, documentation",
+   "status": "fact",
+   "source_page_id": "6d5d925afb54410e",
+   "quote": "Vi förstår kraven på säkerhet, upphandling och dokumentation i statliga och kommunala verksamheter",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.235680Z",
+   "needs_review": false
+  },
+  {
+   "id": "e5d7af930144cb16",
+   "company_id": "malvacom",
+   "field": "customer_group",
+   "value": "Public organisations and companies across Sweden and the Nordics",
+   "status": "fact",
+   "source_page_id": "6d5d925afb54410e",
+   "quote": "Vi genomför uppdrag för kunder i hela Sverige och Norden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.239708Z",
+   "needs_review": false
+  },
+  {
+   "id": "0a9119185f078735",
+   "company_id": "malvacom",
+   "field": "geography",
+   "value": "Karlskrona, Karlshamn and Stockholm",
+   "status": "fact",
+   "source_page_id": "6d5d925afb54410e",
+   "quote": "Vi är baserade i Karlskrona, Karlshamn och Stockholm",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.243653Z",
+   "needs_review": false
+  },
+  {
+   "id": "3f07818f8b874456",
+   "company_id": "malvacom",
+   "field": "application_area",
+   "value": "AI automating document handling, information search and decisions",
+   "status": "fact",
+   "source_page_id": "6d5d925afb54410e",
+   "quote": "Vi bygger praktiska AI-lösningar som automatiserar dokumenthantering, informationssökning och beslutsprocesser",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.247682Z",
    "needs_review": false
   },
   {
@@ -200,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.432030Z",
+   "updated_at": "2026-11-14T01:47:17.250316Z",
    "needs_review": false
   },
   {
@@ -219,7 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434707Z",
+   "updated_at": "2026-11-14T01:47:17.252872Z",
    "needs_review": false
   },
   {
@@ -238,7 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434751Z",
+   "updated_at": "2026-11-14T01:47:17.252886Z",
    "needs_review": false
   },
   {
@@ -257,64 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434763Z",
-   "needs_review": false
-  },
-  {
-   "id": "c357704ae3141c2c",
-   "company_id": "malvacom",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434770Z",
-   "needs_review": false
-  },
-  {
-   "id": "e5e32526d151356b",
-   "company_id": "malvacom",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434775Z",
-   "needs_review": false
-  },
-  {
-   "id": "71f3b3764b8b424f",
-   "company_id": "malvacom",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434779Z",
+   "updated_at": "2026-11-14T01:47:17.252899Z",
    "needs_review": false
   },
   {
@@ -333,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434783Z",
+   "updated_at": "2026-11-14T01:47:17.252905Z",
    "needs_review": false
   },
   {
@@ -352,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434787Z",
+   "updated_at": "2026-11-14T01:47:17.252909Z",
    "needs_review": false
   },
   {
@@ -371,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434797Z",
+   "updated_at": "2026-11-14T01:47:17.252923Z",
    "needs_review": false
   },
   {
@@ -390,7 +409,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.434803Z",
+   "updated_at": "2026-11-14T01:47:17.252930Z",
    "needs_review": false
   }
  ],

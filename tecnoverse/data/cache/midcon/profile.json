@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:05.014247Z",
+  "last_crawled_at": "2026-11-14T01:40:48.780637Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -87,6 +87,96 @@
    "retrieved_at": "2026-11-13T13:37:05.014247Z",
    "text": "",
    "content_hash": "f6b91b4240d5d546"
+  },
+  {
+   "id": "61bf19fb262ecdda",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/",
+   "source_type": "company_site",
+   "title": "Nyheter - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:30:56.841973Z",
+   "text": "",
+   "content_hash": "4f182a021a1c43b6"
+  },
+  {
+   "id": "4a59360fbe8bf8da",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/nestit-group-fortsatter-expansionen-genom-att-forvarva-midcon-och-teleproffs",
+   "source_type": "company_site",
+   "title": "Nestit Group fortsätter expansionen genom att förvärva Midcon och Teleproffs - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:31:03.236008Z",
+   "text": "",
+   "content_hash": "c94ae9cbf02a488b"
+  },
+  {
+   "id": "6573442bc538398a",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-ny-it-driftpartner-till-hallabro-el",
+   "source_type": "company_site",
+   "title": "Midcon – Ny IT-driftpartner till Hallabro El  - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:31:06.046976Z",
+   "text": "",
+   "content_hash": "615f18901cd991bd"
+  },
+  {
+   "id": "1caefc6c49a7fd76",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-ab-publicerar-arsredovisning-for-2024",
+   "source_type": "company_site",
+   "title": "Midcon AB publicerar årsredovisning för 2024! - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:31:09.017706Z",
+   "text": "",
+   "content_hash": "94dc3d9f56312170"
+  },
+  {
+   "id": "5f617df2fa75da5e",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/kruthusen-foretagsfastigheter-ab-ger-tilldelningsbeslut-till-midcon-ab-avseende-av-produkter-och-tillhorande-tjanster",
+   "source_type": "company_site",
+   "title": "Kruthusen Företagsfastigheter AB ger tilldelningsbeslut till Midcon AB avseende AV-produkter och tillhörande tjänster.  - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:40:34.655593Z",
+   "text": "",
+   "content_hash": "1afad3ef21707d5d"
+  },
+  {
+   "id": "cc60e3cfc37976c2",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-ny-it-driftpartner-till-the-green-dairy",
+   "source_type": "company_site",
+   "title": "Midcon – Ny IT-driftpartner till The Green Dairy - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:40:38.405560Z",
+   "text": "",
+   "content_hash": "430850a7819a1c75"
+  },
+  {
+   "id": "c8e07fbc279469a5",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-och-de-lage-landen-ingar-strategiskt-samarbete-avseende-slutkundsfinansiering",
+   "source_type": "company_site",
+   "title": "Midcon och De Lage Landen ingår strategiskt samarbete avseende slutkundsfinansiering - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:40:42.078009Z",
+   "text": "",
+   "content_hash": "183813d853665cba"
+  },
+  {
+   "id": "e9b58ebba718b0db",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-ny-it-driftpartner-till-eks",
+   "source_type": "company_site",
+   "title": "Midcon – Ny IT-driftpartner till EKS - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:40:45.826239Z",
+   "text": "",
+   "content_hash": "8f58a307d812b48a"
+  },
+  {
+   "id": "37070ad06a7ebfeb",
+   "company_id": "midcon",
+   "url": "https://www.midcon.se/nyheter/midcon-blir-medlem-i-sydsvenska-handelskammaren",
+   "source_type": "company_site",
+   "title": "Midcon blir medlem i Sydsvenska Handelskammaren - Anton.eriksson@midcon.se",
+   "retrieved_at": "2026-11-14T01:40:48.780637Z",
+   "text": "",
+   "content_hash": "a0fea22d0a3ce8f9"
   }
  ],
  "items": [
@@ -106,7 +196,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.438359Z",
+   "updated_at": "2026-11-14T01:47:17.256947Z",
    "needs_review": false
   },
   {
@@ -125,7 +215,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.438926Z",
+   "updated_at": "2026-11-14T01:47:17.257527Z",
    "needs_review": false
   },
   {
@@ -144,7 +234,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.439307Z",
+   "updated_at": "2026-11-14T01:47:17.258030Z",
    "needs_review": false
   },
   {
@@ -163,7 +253,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.439673Z",
+   "updated_at": "2026-11-14T01:47:17.258591Z",
+   "needs_review": false
+  },
+  {
+   "id": "f0f5e6886d304e51",
+   "company_id": "midcon",
+   "field": "collaboration",
+   "value": "Exclusive partner to Ricoh Sverige",
+   "status": "fact",
+   "source_page_id": "33635d2d8376adb7",
+   "quote": "Midcon är ett fristående företag, men samtidigt exklusiv partner till Ricoh Sverige",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.259358Z",
+   "needs_review": false
+  },
+  {
+   "id": "32194df92c991f8d",
+   "company_id": "midcon",
+   "field": "geography",
+   "value": "Head office Karlskrona; offices in Karlshamn, Växjö, Kalmar, Jönköping",
+   "status": "fact",
+   "source_page_id": "33635d2d8376adb7",
+   "quote": "Bolaget har huvudkontor i Karlskrona samt kontor i Karlshamn, Växjö, Kalmar och Jönköping",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.260043Z",
+   "needs_review": false
+  },
+  {
+   "id": "f232f4c0ee66e8e5",
+   "company_id": "midcon",
+   "field": "customer_group",
+   "value": "Small and medium-sized companies",
+   "status": "fact",
+   "source_page_id": "33635d2d8376adb7",
+   "quote": "För de små och medelstora företagen är vi en självklar totalleverantör",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.260595Z",
    "needs_review": false
   },
   {
@@ -182,7 +329,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.441649Z",
+   "updated_at": "2026-11-14T01:47:17.262653Z",
    "needs_review": false
   },
   {
@@ -201,7 +348,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443574Z",
+   "updated_at": "2026-11-14T01:47:17.264664Z",
    "needs_review": false
   },
   {
@@ -220,7 +367,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443587Z",
+   "updated_at": "2026-11-14T01:47:17.264682Z",
    "needs_review": false
   },
   {
@@ -239,7 +386,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443593Z",
+   "updated_at": "2026-11-14T01:47:17.264690Z",
    "needs_review": false
   },
   {
@@ -258,7 +405,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443598Z",
+   "updated_at": "2026-11-14T01:47:17.264696Z",
    "needs_review": false
   },
   {
@@ -277,7 +424,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443602Z",
+   "updated_at": "2026-11-14T01:47:17.264700Z",
    "needs_review": false
   },
   {
@@ -296,7 +443,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443605Z",
+   "updated_at": "2026-11-14T01:47:17.264703Z",
    "needs_review": false
   },
   {
@@ -315,45 +462,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443608Z",
-   "needs_review": false
-  },
-  {
-   "id": "8ec1e15822f93892",
-   "company_id": "midcon",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443612Z",
-   "needs_review": false
-  },
-  {
-   "id": "5ff9f981fa1f6bec",
-   "company_id": "midcon",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443615Z",
+   "updated_at": "2026-11-14T01:47:17.264706Z",
    "needs_review": false
   },
   {
@@ -372,26 +481,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443618Z",
-   "needs_review": false
-  },
-  {
-   "id": "95efd7a6fbd05607",
-   "company_id": "midcon",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443621Z",
+   "updated_at": "2026-11-14T01:47:17.264710Z",
    "needs_review": false
   },
   {
@@ -410,7 +500,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443625Z",
+   "updated_at": "2026-11-14T01:47:17.264713Z",
    "needs_review": false
   },
   {
@@ -429,7 +519,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.443631Z",
+   "updated_at": "2026-11-14T01:47:17.264722Z",
    "needs_review": false
   }
  ],

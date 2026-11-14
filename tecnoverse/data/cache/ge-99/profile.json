@@ -81,7 +81,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.817523Z",
+   "updated_at": "2026-11-14T01:47:17.123029Z",
    "needs_review": false
   },
   {
@@ -100,7 +100,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.817744Z",
+   "updated_at": "2026-11-14T01:47:17.123171Z",
    "needs_review": false
   },
   {
@@ -119,7 +119,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818064Z",
+   "updated_at": "2026-11-14T01:47:17.123369Z",
    "needs_review": false
   },
   {
@@ -138,7 +138,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818371Z",
+   "updated_at": "2026-11-14T01:47:17.123561Z",
    "needs_review": false
   },
   {
@@ -157,7 +157,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818549Z",
+   "updated_at": "2026-11-14T01:47:17.123682Z",
    "needs_review": false
   },
   {
@@ -176,7 +176,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818705Z",
+   "updated_at": "2026-11-14T01:47:17.123768Z",
+   "needs_review": false
+  },
+  {
+   "id": "63a870ce52a3f3a7",
+   "company_id": "ge-99",
+   "field": "expertise",
+   "value": "CSR, sustainability, public affairs and communication advice",
+   "status": "fact",
+   "source_page_id": "4d1788dc1102955d",
+   "quote": "erbjuder GE99 rådgivning inom områdena CSR, hållbarhet, Public Affairs samt intern och extern kommunikation",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.123992Z",
+   "needs_review": false
+  },
+  {
+   "id": "7ce23d51325dfd11",
+   "company_id": "ge-99",
+   "field": "priority",
+   "value": "Help companies choose, implement and communicate CSR strategy",
+   "status": "fact",
+   "source_page_id": "a3a53c4ae242106f",
+   "quote": "GE99 hjälper ditt företag välja strategi, implementera och kommunicera CSR-arbetet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.124110Z",
    "needs_review": false
   },
   {
@@ -195,7 +233,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818827Z",
+   "updated_at": "2026-11-14T01:47:17.124199Z",
    "needs_review": false
   },
   {
@@ -214,7 +252,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818843Z",
+   "updated_at": "2026-11-14T01:47:17.124209Z",
    "needs_review": false
   },
   {
@@ -233,7 +271,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818849Z",
+   "updated_at": "2026-11-14T01:47:17.124215Z",
    "needs_review": false
   },
   {
@@ -252,26 +290,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818855Z",
-   "needs_review": false
-  },
-  {
-   "id": "14f665f29b0c6217",
-   "company_id": "ge-99",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818859Z",
+   "updated_at": "2026-11-14T01:47:17.124220Z",
    "needs_review": false
   },
   {
@@ -290,7 +309,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818864Z",
+   "updated_at": "2026-11-14T01:47:17.124223Z",
    "needs_review": false
   },
   {
@@ -309,7 +328,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818868Z",
+   "updated_at": "2026-11-14T01:47:17.124226Z",
    "needs_review": false
   },
   {
@@ -328,7 +347,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818873Z",
+   "updated_at": "2026-11-14T01:47:17.124228Z",
    "needs_review": false
   },
   {
@@ -347,7 +366,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818877Z",
+   "updated_at": "2026-11-14T01:47:17.124231Z",
    "needs_review": false
   },
   {
@@ -366,26 +385,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818882Z",
-   "needs_review": false
-  },
-  {
-   "id": "ecc08b4cb5bf27f6",
-   "company_id": "ge-99",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818886Z",
+   "updated_at": "2026-11-14T01:47:17.124234Z",
    "needs_review": false
   },
   {
@@ -394,7 +394,7 @@
    "field": "possible_interest",
    "value": "Evaluation assignments in EU-funded projects",
    "status": "inferred",
-   "source_page_id": "f1a8a9f6efb91bed",
+   "source_page_id": "c9455c58343641c4",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It offers external evaluation of EU projects.",
@@ -404,7 +404,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.818893Z",
+   "updated_at": "2026-11-14T01:47:17.124247Z",
    "needs_review": false
   }
  ],

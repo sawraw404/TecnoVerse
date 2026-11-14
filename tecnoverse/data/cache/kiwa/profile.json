@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:49.471247Z",
+  "last_crawled_at": "2026-11-14T01:27:58.242170Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:36:49.471247Z",
    "text": "",
    "content_hash": "3d0e5e7141bf3c91"
+  },
+  {
+   "id": "5fa5fd332e155209",
+   "company_id": "kiwa",
+   "url": "https://www.kiwa.com/se/sv/nyheter/kiwas-uppdrag-inom-elsakerhet--forebygger-risker-och-skapa-trygghet",
+   "source_type": "company_site",
+   "title": "Elsäkerhet och elbesiktning för säkra elanläggningar",
+   "retrieved_at": "2026-11-14T01:27:57.316239Z",
+   "text": "",
+   "content_hash": "2ccbbac2589499bc"
+  },
+  {
+   "id": "14aa6bf880366883",
+   "company_id": "kiwa",
+   "url": "https://www.kiwa.com/se/sv/nyheter/kommande-andringar-i-energideklarationer-for-byggnader",
+   "source_type": "company_site",
+   "title": "Nya energiregler påverkar certifierade energiexperter 2026",
+   "retrieved_at": "2026-11-14T01:27:57.775422Z",
+   "text": "",
+   "content_hash": "e8531ef34e288900"
+  },
+  {
+   "id": "3f3a7e4162dffed4",
+   "company_id": "kiwa",
+   "url": "https://www.kiwa.com/en/insights/stories",
+   "source_type": "company_site",
+   "title": "Kiwa Stories - Articles",
+   "retrieved_at": "2026-11-14T01:27:58.242170Z",
+   "text": "",
+   "content_hash": "28eb43d2316b8d3d"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.385646Z",
+   "updated_at": "2026-11-14T01:47:17.174045Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.386401Z",
+   "updated_at": "2026-11-14T01:47:17.174840Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.387121Z",
+   "updated_at": "2026-11-14T01:47:17.175602Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.387841Z",
+   "updated_at": "2026-11-14T01:47:17.176377Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.388297Z",
+   "updated_at": "2026-11-14T01:47:17.176826Z",
+   "needs_review": false
+  },
+  {
+   "id": "5f66768873f1ff8d",
+   "company_id": "kiwa",
+   "field": "geography",
+   "value": "Experts available across Sweden",
+   "status": "fact",
+   "source_page_id": "64d510957f98af6f",
+   "quote": "Våra experter finns tillgängliga i hela Sverige",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.177559Z",
+   "needs_review": false
+  },
+  {
+   "id": "19e2a21c2c637b51",
+   "company_id": "kiwa",
+   "field": "expertise",
+   "value": "Concrete technology",
+   "status": "fact",
+   "source_page_id": "64d510957f98af6f",
+   "quote": "På Kiwa har vi lång erfarenhet inom betongteknik",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.178503Z",
+   "needs_review": false
+  },
+  {
+   "id": "09459648e2a9c002",
+   "company_id": "kiwa",
+   "field": "project",
+   "value": "Electrical safety assignments (14 Oct 2026)",
+   "status": "fact",
+   "source_page_id": "64d510957f98af6f",
+   "quote": "Kiwas uppdrag inom elsäkerhet – förebygger risker och skapar trygghet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.179461Z",
+   "needs_review": false
+  },
+  {
+   "id": "f5310f718ce95009",
+   "company_id": "kiwa",
+   "field": "priority",
+   "value": "Turn sustainability ambitions into measurable, verifiable progress",
+   "status": "fact",
+   "source_page_id": "64d510957f98af6f",
+   "quote": "Kiwa hjälper organisationer att omvandla hållbarhetsambitioner till mätbara och verifierbara framsteg",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.180243Z",
    "needs_review": false
   },
   {
@@ -211,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392010Z",
+   "updated_at": "2026-11-14T01:47:17.184086Z",
    "needs_review": false
   },
   {
@@ -230,26 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392019Z",
-   "needs_review": false
-  },
-  {
-   "id": "a29f8cf3b7eabfd4",
-   "company_id": "kiwa",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392024Z",
+   "updated_at": "2026-11-14T01:47:17.184097Z",
    "needs_review": false
   },
   {
@@ -268,7 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392027Z",
+   "updated_at": "2026-11-14T01:47:17.184119Z",
    "needs_review": false
   },
   {
@@ -287,45 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392031Z",
-   "needs_review": false
-  },
-  {
-   "id": "ccf566e823949db7",
-   "company_id": "kiwa",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392034Z",
-   "needs_review": false
-  },
-  {
-   "id": "2da002059dec4720",
-   "company_id": "kiwa",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392037Z",
+   "updated_at": "2026-11-14T01:47:17.184123Z",
    "needs_review": false
   },
   {
@@ -344,26 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392040Z",
-   "needs_review": false
-  },
-  {
-   "id": "4a7aa0ac77e6d9f8",
-   "company_id": "kiwa",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392044Z",
+   "updated_at": "2026-11-14T01:47:17.184127Z",
    "needs_review": false
   },
   {
@@ -382,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392049Z",
+   "updated_at": "2026-11-14T01:47:17.184138Z",
    "needs_review": false
   },
   {
@@ -401,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.392054Z",
+   "updated_at": "2026-11-14T01:47:17.184143Z",
    "needs_review": false
   }
  ],

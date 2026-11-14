@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:49.514791Z",
+  "last_crawled_at": "2026-11-14T01:40:27.836483Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -47,6 +47,76 @@
    "retrieved_at": "2026-11-13T13:36:49.514791Z",
    "text": "",
    "content_hash": "0d82c1008931f571"
+  },
+  {
+   "id": "516501410190c0b2",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/featured-2-aktuellt/nytt-projekt-ska-starka-kreativa-branscher-i-ostersjoregionen/",
+   "source_type": "news",
+   "title": "Nytt projekt ska stärka kreativa branscher i Östersjöregionen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.744203Z",
+   "text": "",
+   "content_hash": "0a87cff31e88b747"
+  },
+  {
+   "id": "aa1471f961883477",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/lassen-construction-ab-blir-ny-medlem-i-blue-science-park/",
+   "source_type": "news",
+   "title": "Lassen Construction AB blir ny medlem i Blue Science Park - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.744252Z",
+   "text": "",
+   "content_hash": "f05e15b8a9b6cfe2"
+  },
+  {
+   "id": "b57396a0a4c8b773",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/digit-hub-sweden-2-0-ar-igang-starker-stodet-for-digital-utveckling-i-blekinge/",
+   "source_type": "news",
+   "title": "DigIT Hub Sweden 2.0 är igång – stärker stödet för digital utveckling i Blekinge - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:30:18.744286Z",
+   "text": "",
+   "content_hash": "df1e8e4811056935"
+  },
+  {
+   "id": "61d062f5dc64fecb",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/cybersakerhet-ar-inget-tillval-det-ar-grunden",
+   "source_type": "company_site",
+   "title": "Cybersäkerhet är inget tillval – det är grunden - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:21.098891Z",
+   "text": "",
+   "content_hash": "d75d67270d455375"
+  },
+  {
+   "id": "4e54226c635c7643",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/fran-projekt-till-produkt-techinova-tar-nasta-steg-inom-sakrare-elnat",
+   "source_type": "company_site",
+   "title": "Från projekt till produkt – Techinova tar nästa steg inom säkrare elnät - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:24.528834Z",
+   "text": "",
+   "content_hash": "f7af6623577743e8"
+  },
+  {
+   "id": "10ef5ab4903771a3",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/fran-smart-refillosning-till-digital-affar-sa-tog-dosify-nasta-steg",
+   "source_type": "company_site",
+   "title": "Från smart refillösning till digital affär – så tog Dosify nästa steg - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:26.241476Z",
+   "text": "",
+   "content_hash": "46aa896862a7889e"
+  },
+  {
+   "id": "1ae98348f67b44f3",
+   "company_id": "lassen-construction",
+   "url": "https://www.bluesciencepark.se/aktuellt/projektet-sweden-secure-tech-hub-overtraffade-malen",
+   "source_type": "company_site",
+   "title": "Projektet Sweden Secure Tech Hub överträffade målen - Blue Science Park",
+   "retrieved_at": "2026-11-14T01:40:27.836483Z",
+   "text": "",
+   "content_hash": "68b98be53bee6d02"
   }
  ],
  "items": [
@@ -66,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.393615Z",
+   "updated_at": "2026-11-14T01:47:17.187350Z",
    "needs_review": false
   },
   {
@@ -85,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.393967Z",
+   "updated_at": "2026-11-14T01:47:17.187691Z",
    "needs_review": false
   },
   {
@@ -104,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.394285Z",
+   "updated_at": "2026-11-14T01:47:17.188006Z",
    "needs_review": false
   },
   {
@@ -123,7 +193,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.394585Z",
+   "updated_at": "2026-11-14T01:47:17.188317Z",
+   "needs_review": false
+  },
+  {
+   "id": "2af13c915adc85a3",
+   "company_id": "lassen-construction",
+   "field": "project",
+   "value": "New jetty with underwater diving and casting for a municipal property company",
+   "status": "fact",
+   "source_page_id": "a68b07470144d2cc",
+   "quote": "Vid byggnationen av vår nya brygga levererade teamet på Lassen Construction både planering, dykning och gjutning under vatten",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.188632Z",
+   "needs_review": false
+  },
+  {
+   "id": "1dde2ace9df1e76d",
+   "company_id": "lassen-construction",
+   "field": "geography",
+   "value": "Based in Malmö; works mainly in Skåne, Blekinge, Småland and Halland",
+   "status": "fact",
+   "source_page_id": "aa1471f961883477",
+   "quote": "Verksamheten sträcker sig främst över Skåne, Blekinge, Småland och Halland",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.189470Z",
+   "needs_review": false
+  },
+  {
+   "id": "ebfa9644701b377c",
+   "company_id": "lassen-construction",
+   "field": "priority",
+   "value": "Reduce environmental impact at every step",
+   "status": "fact",
+   "source_page_id": "ffc47c3c40c0f16b",
+   "quote": "arbetar vi för att minska miljöpåverkan i varje steg",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.189954Z",
    "needs_review": false
   },
   {
@@ -142,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.394785Z",
+   "updated_at": "2026-11-14T01:47:17.190162Z",
    "needs_review": false
   },
   {
@@ -161,7 +288,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.394985Z",
+   "updated_at": "2026-11-14T01:47:17.190359Z",
    "needs_review": false
   },
   {
@@ -180,7 +307,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.394996Z",
+   "updated_at": "2026-11-14T01:47:17.190371Z",
    "needs_review": false
   },
   {
@@ -199,7 +326,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395002Z",
+   "updated_at": "2026-11-14T01:47:17.190378Z",
    "needs_review": false
   },
   {
@@ -218,7 +345,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395009Z",
+   "updated_at": "2026-11-14T01:47:17.190383Z",
    "needs_review": false
   },
   {
@@ -237,7 +364,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395012Z",
+   "updated_at": "2026-11-14T01:47:17.190387Z",
    "needs_review": false
   },
   {
@@ -256,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395015Z",
+   "updated_at": "2026-11-14T01:47:17.190390Z",
    "needs_review": false
   },
   {
@@ -275,45 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395019Z",
-   "needs_review": false
-  },
-  {
-   "id": "659ea097327c7477",
-   "company_id": "lassen-construction",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395022Z",
-   "needs_review": false
-  },
-  {
-   "id": "17479dabf4756d8d",
-   "company_id": "lassen-construction",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395025Z",
+   "updated_at": "2026-11-14T01:47:17.190394Z",
    "needs_review": false
   },
   {
@@ -332,26 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395029Z",
-   "needs_review": false
-  },
-  {
-   "id": "b64474c2ec45d36e",
-   "company_id": "lassen-construction",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395032Z",
+   "updated_at": "2026-11-14T01:47:17.190397Z",
    "needs_review": false
   },
   {
@@ -370,7 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.395038Z",
+   "updated_at": "2026-11-14T01:47:17.190404Z",
    "needs_review": false
   }
  ],

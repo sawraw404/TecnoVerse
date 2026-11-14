@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:46.341652Z",
+  "last_crawled_at": "2026-11-14T01:30:52.723225Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -27,6 +27,16 @@
    "retrieved_at": "2026-11-13T13:36:46.341652Z",
    "text": "",
    "content_hash": "f9b1ea073468cc3f"
+  },
+  {
+   "id": "7810cb62cf7c0d67",
+   "company_id": "kingspan-baga",
+   "url": "https://www.kingspan.com/news/",
+   "source_type": "company_site",
+   "title": "News & Insights | Kingspan Group",
+   "retrieved_at": "2026-11-14T01:30:52.723225Z",
+   "text": "",
+   "content_hash": "21d37bf645d30298"
   }
  ],
  "items": [
@@ -46,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.375690Z",
+   "updated_at": "2026-11-14T01:47:17.159454Z",
    "needs_review": false
   },
   {
@@ -65,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.376931Z",
+   "updated_at": "2026-11-14T01:47:17.160676Z",
    "needs_review": false
   },
   {
@@ -84,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.378150Z",
+   "updated_at": "2026-11-14T01:47:17.161820Z",
    "needs_review": false
   },
   {
@@ -103,7 +113,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.379218Z",
+   "updated_at": "2026-11-14T01:47:17.163104Z",
    "needs_review": false
   },
   {
@@ -122,7 +132,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380256Z",
+   "updated_at": "2026-11-14T01:47:17.164137Z",
+   "needs_review": false
+  },
+  {
+   "id": "c388d4fc15140a14",
+   "company_id": "kingspan-baga",
+   "field": "technology",
+   "value": "BioDisc biorotor treatment plant for 1-8 households",
+   "status": "fact",
+   "source_page_id": "577fb1f5c5abf01a",
+   "quote": "BioDisc® är en väl beprövad anläggning som använder en processteknik med en biorotor",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.165152Z",
+   "needs_review": false
+  },
+  {
+   "id": "e3bc154c72f91402",
+   "company_id": "kingspan-baga",
+   "field": "technology",
+   "value": "BioFicient biofilm technology on moving carrier material",
+   "status": "fact",
+   "source_page_id": "577fb1f5c5abf01a",
+   "quote": "BAGA BioFicient arbetar med en stabil biofilmsteknik på ett rörligt bärarmaterial",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.166158Z",
+   "needs_review": false
+  },
+  {
+   "id": "22773efe5b894c20",
+   "company_id": "kingspan-baga",
+   "field": "application_area",
+   "value": "Private sewage systems for households",
+   "status": "fact",
+   "source_page_id": "577fb1f5c5abf01a",
+   "quote": "teknik för avloppsrening av enskilda avlopp",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.167178Z",
    "needs_review": false
   },
   {
@@ -141,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380951Z",
+   "updated_at": "2026-11-14T01:47:17.167885Z",
    "needs_review": false
   },
   {
@@ -160,26 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380964Z",
-   "needs_review": false
-  },
-  {
-   "id": "a28ce5d076e507d4",
-   "company_id": "kingspan-baga",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380969Z",
+   "updated_at": "2026-11-14T01:47:17.167893Z",
    "needs_review": false
   },
   {
@@ -198,26 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380973Z",
-   "needs_review": false
-  },
-  {
-   "id": "cef733273f52b673",
-   "company_id": "kingspan-baga",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380976Z",
+   "updated_at": "2026-11-14T01:47:17.167898Z",
    "needs_review": false
   },
   {
@@ -236,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380980Z",
+   "updated_at": "2026-11-14T01:47:17.167902Z",
    "needs_review": false
   },
   {
@@ -255,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380983Z",
+   "updated_at": "2026-11-14T01:47:17.167905Z",
    "needs_review": false
   },
   {
@@ -274,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380986Z",
+   "updated_at": "2026-11-14T01:47:17.167909Z",
    "needs_review": false
   },
   {
@@ -293,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380989Z",
+   "updated_at": "2026-11-14T01:47:17.167912Z",
    "needs_review": false
   },
   {
@@ -312,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.380996Z",
+   "updated_at": "2026-11-14T01:47:17.167919Z",
    "needs_review": false
   },
   {
@@ -331,7 +360,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.381000Z",
+   "updated_at": "2026-11-14T01:47:17.167924Z",
    "needs_review": false
   }
  ],

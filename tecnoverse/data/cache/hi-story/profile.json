@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.820617Z",
+   "updated_at": "2026-11-14T01:47:17.126312Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.821184Z",
+   "updated_at": "2026-11-14T01:47:17.126835Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.821832Z",
+   "updated_at": "2026-11-14T01:47:17.127313Z",
    "needs_review": false
   },
   {
@@ -103,7 +103,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.822378Z",
+   "updated_at": "2026-11-14T01:47:17.127868Z",
    "needs_review": false
   },
   {
@@ -122,7 +122,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.822858Z",
+   "updated_at": "2026-11-14T01:47:17.128484Z",
+   "needs_review": false
+  },
+  {
+   "id": "91248b6e5511cb16",
+   "company_id": "hi-story",
+   "field": "expertise",
+   "value": "Long experience telling stories in every genre",
+   "status": "fact",
+   "source_page_id": "0f4721c522d860d0",
+   "quote": "Vi har lång erfarenhet av att berätta historier inom alla genrer som finns",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.129040Z",
+   "needs_review": false
+  },
+  {
+   "id": "af9f324a095c0886",
+   "company_id": "hi-story",
+   "field": "customer_group",
+   "value": "Cultural institutions such as Malmö Stadsteater, Kulturparken Småland, Marinmuseet",
+   "status": "fact",
+   "source_page_id": "0f4721c522d860d0",
+   "quote": "för kunder som Malmö Stadsteater, Wadköping, Kulturparken Småland, Marinmuseet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.129547Z",
    "needs_review": false
   },
   {
@@ -141,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823192Z",
+   "updated_at": "2026-11-14T01:47:17.129878Z",
    "needs_review": false
   },
   {
@@ -160,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823502Z",
+   "updated_at": "2026-11-14T01:47:17.130186Z",
    "needs_review": false
   },
   {
@@ -179,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823510Z",
+   "updated_at": "2026-11-14T01:47:17.130195Z",
    "needs_review": false
   },
   {
@@ -198,26 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823515Z",
-   "needs_review": false
-  },
-  {
-   "id": "26053d2f77359af8",
-   "company_id": "hi-story",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823518Z",
+   "updated_at": "2026-11-14T01:47:17.130199Z",
    "needs_review": false
   },
   {
@@ -236,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823521Z",
+   "updated_at": "2026-11-14T01:47:17.130203Z",
    "needs_review": false
   },
   {
@@ -255,26 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823524Z",
-   "needs_review": false
-  },
-  {
-   "id": "ceaefc3aefc857cf",
-   "company_id": "hi-story",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823527Z",
+   "updated_at": "2026-11-14T01:47:17.130206Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823531Z",
+   "updated_at": "2026-11-14T01:47:17.130209Z",
    "needs_review": false
   },
   {
@@ -312,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823534Z",
+   "updated_at": "2026-11-14T01:47:17.130213Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.823540Z",
+   "updated_at": "2026-11-14T01:47:17.130221Z",
    "needs_review": false
   }
  ],

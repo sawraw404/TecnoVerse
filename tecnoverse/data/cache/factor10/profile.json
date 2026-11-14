@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:41.851837Z",
+  "last_crawled_at": "2026-11-14T01:27:54.612882Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -87,6 +87,36 @@
    "retrieved_at": "2026-11-13T13:36:41.851837Z",
    "text": "",
    "content_hash": "51bcfa35551d0b92"
+  },
+  {
+   "id": "5b8bcc8c03effa9c",
+   "company_id": "factor10",
+   "url": "https://factor10.com/news/configurators",
+   "source_type": "company_site",
+   "title": "Articles | factor10",
+   "retrieved_at": "2026-11-14T01:27:53.694198Z",
+   "text": "",
+   "content_hash": "bc2de995dfbaea1e"
+  },
+  {
+   "id": "78ea35e8966dfb17",
+   "company_id": "factor10",
+   "url": "https://factor10.com/news/agentic",
+   "source_type": "company_site",
+   "title": "Articles | factor10",
+   "retrieved_at": "2026-11-14T01:27:54.162234Z",
+   "text": "",
+   "content_hash": "baa70e8c097f019b"
+  },
+  {
+   "id": "fc3a7055055ac879",
+   "company_id": "factor10",
+   "url": "https://factor10.com/news/architecture-modernisation",
+   "source_type": "company_site",
+   "title": "Articles | factor10",
+   "retrieved_at": "2026-11-14T01:27:54.612882Z",
+   "text": "",
+   "content_hash": "f455d99950114912"
   }
  ],
  "items": [
@@ -106,7 +136,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.810717Z",
+   "updated_at": "2026-11-14T01:47:17.114488Z",
    "needs_review": false
   },
   {
@@ -125,7 +155,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.811259Z",
+   "updated_at": "2026-11-14T01:47:17.115043Z",
    "needs_review": false
   },
   {
@@ -144,7 +174,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.811827Z",
+   "updated_at": "2026-11-14T01:47:17.115599Z",
    "needs_review": false
   },
   {
@@ -163,7 +193,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.812358Z",
+   "updated_at": "2026-11-14T01:47:17.116100Z",
    "needs_review": false
   },
   {
@@ -182,7 +212,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.813044Z",
+   "updated_at": "2026-11-14T01:47:17.116704Z",
    "needs_review": false
   },
   {
@@ -201,7 +231,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.813642Z",
+   "updated_at": "2026-11-14T01:47:17.117306Z",
    "needs_review": false
   },
   {
@@ -220,7 +250,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.814240Z",
+   "updated_at": "2026-11-14T01:47:17.117895Z",
    "needs_review": false
   },
   {
@@ -239,7 +269,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.814429Z",
+   "updated_at": "2026-11-14T01:47:17.118088Z",
    "needs_review": false
   },
   {
@@ -258,7 +288,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.814610Z",
+   "updated_at": "2026-11-14T01:47:17.118276Z",
+   "needs_review": false
+  },
+  {
+   "id": "2c3f9d6d43eed8fd",
+   "company_id": "factor10",
+   "field": "technology",
+   "value": "Agentic AI coding with engineering guardrails",
+   "status": "fact",
+   "source_page_id": "e492c7e83fc08e57",
+   "quote": "you need guardrails in place that stop agents from cutting corners",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.118811Z",
+   "needs_review": false
+  },
+  {
+   "id": "b07e6c2d77d0cb83",
+   "company_id": "factor10",
+   "field": "offering",
+   "value": "Anti-friction Team of senior architects to remove delivery bottlenecks",
+   "status": "fact",
+   "source_page_id": "e492c7e83fc08e57",
+   "quote": "We embed a small Anti-friction Team of experienced software architects alongside yours",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.119339Z",
+   "needs_review": false
+  },
+  {
+   "id": "532320cc6d868266",
+   "company_id": "factor10",
+   "field": "project",
+   "value": "EventStorming workshop with Billogram (2026-10-13)",
+   "status": "fact",
+   "source_page_id": "e492c7e83fc08e57",
+   "quote": "Helping Billogram align business and tech before a new business venture",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.119868Z",
+   "needs_review": false
+  },
+  {
+   "id": "85d2748ebdb786db",
+   "company_id": "factor10",
+   "field": "customer_group",
+   "value": "Manufacturers with complex, configurable products",
+   "status": "fact",
+   "source_page_id": "e492c7e83fc08e57",
+   "quote": "If you offer complex, configurable products and suspect there's more value to unlock",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.120399Z",
    "needs_review": false
   },
   {
@@ -277,7 +383,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.814998Z",
+   "updated_at": "2026-11-14T01:47:17.120731Z",
    "needs_review": false
   },
   {
@@ -296,7 +402,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815323Z",
+   "updated_at": "2026-11-14T01:47:17.121061Z",
    "needs_review": false
   },
   {
@@ -315,26 +421,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815336Z",
-   "needs_review": false
-  },
-  {
-   "id": "d6455fa9cdf92097",
-   "company_id": "factor10",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815344Z",
+   "updated_at": "2026-11-14T01:47:17.121072Z",
    "needs_review": false
   },
   {
@@ -353,45 +440,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815348Z",
-   "needs_review": false
-  },
-  {
-   "id": "939eda41115a2022",
-   "company_id": "factor10",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815352Z",
-   "needs_review": false
-  },
-  {
-   "id": "b0d5da40d311e98b",
-   "company_id": "factor10",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815356Z",
+   "updated_at": "2026-11-14T01:47:17.121078Z",
    "needs_review": false
   },
   {
@@ -410,7 +459,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815358Z",
+   "updated_at": "2026-11-14T01:47:17.121083Z",
    "needs_review": false
   },
   {
@@ -429,7 +478,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815361Z",
+   "updated_at": "2026-11-14T01:47:17.121087Z",
    "needs_review": false
   },
   {
@@ -448,7 +497,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815369Z",
+   "updated_at": "2026-11-14T01:47:17.121094Z",
    "needs_review": false
   },
   {
@@ -457,7 +506,7 @@
    "field": "possible_interest",
    "value": "Digitalisation projects with manufacturers",
    "status": "inferred",
-   "source_page_id": "7a630fc3d36bbd91",
+   "source_page_id": "e492c7e83fc08e57",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It builds configurators for manufacturing companies.",
@@ -467,7 +516,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:11.815374Z",
+   "updated_at": "2026-11-14T01:47:17.121099Z",
    "needs_review": false
   }
  ],

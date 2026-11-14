@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.371424Z",
+   "updated_at": "2026-11-14T01:47:17.153082Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.371943Z",
+   "updated_at": "2026-11-14T01:47:17.153701Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.372425Z",
+   "updated_at": "2026-11-14T01:47:17.154238Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.372945Z",
+   "updated_at": "2026-11-14T01:47:17.154705Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373205Z",
+   "updated_at": "2026-11-14T01:47:17.154942Z",
+   "needs_review": false
+  },
+  {
+   "id": "650f31c80cd6b87d",
+   "company_id": "indigo-ipex",
+   "field": "expertise",
+   "value": "Over thirty years of experience in public and private sector",
+   "status": "fact",
+   "source_page_id": "ad9bed579a4dbc04",
+   "quote": "Med över trettio års erfarenhet från både offentlig och privat sektor",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.155401Z",
+   "needs_review": false
+  },
+  {
+   "id": "c12df1e177f2be53",
+   "company_id": "indigo-ipex",
+   "field": "market",
+   "value": "Public and private sector",
+   "status": "fact",
+   "source_page_id": "93f59ad2ea871f7b",
+   "quote": "Med lång erfarenhet från både offentlig och privat sektor",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.156062Z",
+   "needs_review": false
+  },
+  {
+   "id": "b7c1852f70018fd5",
+   "company_id": "indigo-ipex",
+   "field": "priority",
+   "value": "Develop customers' own capacity for change",
+   "status": "fact",
+   "source_page_id": "ad9bed579a4dbc04",
+   "quote": "Vår mission är att utveckla våra kunders egen förändringskraft",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.156520Z",
    "needs_review": false
   },
   {
@@ -211,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373519Z",
+   "updated_at": "2026-11-14T01:47:17.156812Z",
    "needs_review": false
   },
   {
@@ -230,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373829Z",
+   "updated_at": "2026-11-14T01:47:17.157100Z",
    "needs_review": false
   },
   {
@@ -249,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373843Z",
+   "updated_at": "2026-11-14T01:47:17.157111Z",
    "needs_review": false
   },
   {
@@ -268,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373849Z",
+   "updated_at": "2026-11-14T01:47:17.157117Z",
    "needs_review": false
   },
   {
@@ -287,26 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373853Z",
-   "needs_review": false
-  },
-  {
-   "id": "8a5b28de9eee6f15",
-   "company_id": "indigo-ipex",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373856Z",
+   "updated_at": "2026-11-14T01:47:17.157121Z",
    "needs_review": false
   },
   {
@@ -325,26 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373859Z",
-   "needs_review": false
-  },
-  {
-   "id": "866a73ea11f4c828",
-   "company_id": "indigo-ipex",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373863Z",
+   "updated_at": "2026-11-14T01:47:17.157124Z",
    "needs_review": false
   },
   {
@@ -363,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373865Z",
+   "updated_at": "2026-11-14T01:47:17.157127Z",
    "needs_review": false
   },
   {
@@ -382,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373868Z",
+   "updated_at": "2026-11-14T01:47:17.157130Z",
    "needs_review": false
   },
   {
@@ -401,26 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373871Z",
-   "needs_review": false
-  },
-  {
-   "id": "d25eb3fd6e871323",
-   "company_id": "indigo-ipex",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373874Z",
+   "updated_at": "2026-11-14T01:47:17.157133Z",
    "needs_review": false
   },
   {
@@ -439,7 +439,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.373880Z",
+   "updated_at": "2026-11-14T01:47:17.157139Z",
    "needs_review": false
   }
  ],

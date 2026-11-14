@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:36:45.377471Z",
+  "last_crawled_at": "2026-11-14T01:40:40.330577Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,116 @@
    "retrieved_at": "2026-11-13T13:36:45.377471Z",
    "text": "",
    "content_hash": "bf9b3e211b63fd1f"
+  },
+  {
+   "id": "f091d591f8fc14fb",
+   "company_id": "hiq",
+   "url": "https://hiq.se/insights/",
+   "source_type": "company_site",
+   "title": "Insights - HiQ",
+   "retrieved_at": "2026-11-14T01:31:01.951400Z",
+   "text": "",
+   "content_hash": "965ff649b488065e"
+  },
+  {
+   "id": "9224c890cc9e3c77",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/ai-agents-in-the-customer-journey",
+   "source_type": "company_site",
+   "title": "AI agents in the customer journey | HiQ",
+   "retrieved_at": "2026-11-14T01:31:03.905967Z",
+   "text": "",
+   "content_hash": "a28c35bfec0424be"
+  },
+  {
+   "id": "87f115f263a8ea7f",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/ai-can-write-the-code-judgment-becomes-the-bottleneck",
+   "source_type": "company_site",
+   "title": "AI in Software Development: Judgment Is the Bottleneck | HiQ",
+   "retrieved_at": "2026-11-14T01:31:05.192535Z",
+   "text": "",
+   "content_hash": "ae72a903ca1460e6"
+  },
+  {
+   "id": "05214fdb0e039683",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/how-to-strengthen-your-companys-cybersecurity-through-practical-training",
+   "source_type": "company_site",
+   "title": "Cybersecurity Training: From Policy to Practice | HiQ",
+   "retrieved_at": "2026-11-14T01:31:06.638682Z",
+   "text": "",
+   "content_hash": "04c6cde8a16c116e"
+  },
+  {
+   "id": "6c082942a4b52289",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/nearly-half-of-all-data-breaches-involve-a-supplier-swedish-municipalities-are-particularly-exposed",
+   "source_type": "company_site",
+   "title": "Public sector supply chain cybersecurity | HiQ",
+   "retrieved_at": "2026-11-14T01:40:20.434836Z",
+   "text": "",
+   "content_hash": "185e7b6ed0f5282f"
+  },
+  {
+   "id": "16efd8a74090464d",
+   "company_id": "hiq",
+   "url": "https://hiq.se/insight/ai-agenter-i-kundresan",
+   "source_type": "company_site",
+   "title": "AI-agenter i kundresan – vad får de göra? | HiQ",
+   "retrieved_at": "2026-11-14T01:40:23.637885Z",
+   "text": "",
+   "content_hash": "a64368ec1cd9ed2f"
+  },
+  {
+   "id": "669ab7161288ce9e",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/when-the-security-routine-becomes-the-attack-itself",
+   "source_type": "company_site",
+   "title": "Social engineering: when security routines become the attack",
+   "retrieved_at": "2026-11-14T01:40:27.739516Z",
+   "text": "",
+   "content_hash": "ea5cdcda778e3965"
+  },
+  {
+   "id": "67871fe32266f545",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/trust-in-ai-has-to-be-proved-four-questions-to-ask-before-choosing-a-model",
+   "source_type": "company_site",
+   "title": "Choosing the Right AI Model – Four Questions to Ask First",
+   "retrieved_at": "2026-11-14T01:40:29.856385Z",
+   "text": "",
+   "content_hash": "303941ebdb9fc4e4"
+  },
+  {
+   "id": "94dd7b19cfbef77b",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/how-much-should-ai-really-be-allowed-to-decide",
+   "source_type": "company_site",
+   "title": "AI governance: How much should AI decide? | HiQ",
+   "retrieved_at": "2026-11-14T01:40:31.790552Z",
+   "text": "",
+   "content_hash": "3aeb04c813a5770c"
+  },
+  {
+   "id": "e21fad98f4c8f668",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/nar-smaprat-blir-en-sakerhetsrisk",
+   "source_type": "company_site",
+   "title": "HUMINT: How It Works and How to Strengthen Protective Security",
+   "retrieved_at": "2026-11-14T01:40:33.915640Z",
+   "text": "",
+   "content_hash": "da63c9deb2c0b886"
+  },
+  {
+   "id": "7a90efa2ba6b91d5",
+   "company_id": "hiq",
+   "url": "https://hiq.se/en/insight/generative-ai-is-becoming-the-new-insider-risk-at-work",
+   "source_type": "company_site",
+   "title": "Generative AI Security – How to Use AI Safely",
+   "retrieved_at": "2026-11-14T01:40:40.330577Z",
+   "text": "",
+   "content_hash": "f98a0742ba9e2af9"
   }
  ],
  "items": [
@@ -116,7 +226,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.362429Z",
+   "updated_at": "2026-11-14T01:47:17.141107Z",
    "needs_review": false
   },
   {
@@ -135,7 +245,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.363109Z",
+   "updated_at": "2026-11-14T01:47:17.141700Z",
    "needs_review": false
   },
   {
@@ -154,7 +264,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.364012Z",
+   "updated_at": "2026-11-14T01:47:17.142507Z",
    "needs_review": false
   },
   {
@@ -173,7 +283,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.364584Z",
+   "updated_at": "2026-11-14T01:47:17.143075Z",
    "needs_review": false
   },
   {
@@ -192,7 +302,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.365243Z",
+   "updated_at": "2026-11-14T01:47:17.143658Z",
+   "needs_review": false
+  },
+  {
+   "id": "10b22c3c0180bdb3",
+   "company_id": "hiq",
+   "field": "technology",
+   "value": "AI-first and software-first engineering",
+   "status": "fact",
+   "source_page_id": "1242aaa2a14db906",
+   "quote": "På HiQ arbetar vi AI-first och software-first",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.144207Z",
+   "needs_review": false
+  },
+  {
+   "id": "b6f2db64c2508b8e",
+   "company_id": "hiq",
+   "field": "technology",
+   "value": "DevOps and cloud services",
+   "status": "fact",
+   "source_page_id": "1242aaa2a14db906",
+   "quote": "DevOps & Molntjänster Flytta gränserna för din mjukvaruutveckling",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.144754Z",
+   "needs_review": false
+  },
+  {
+   "id": "155b52abffbd7160",
+   "company_id": "hiq",
+   "field": "offering",
+   "value": "Security protection services for Swedish national security",
+   "status": "fact",
+   "source_page_id": "1242aaa2a14db906",
+   "quote": "Säkerhetsskydd – För Sveriges säkerhet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.145299Z",
+   "needs_review": false
+  },
+  {
+   "id": "d86e43f20208404c",
+   "company_id": "hiq",
+   "field": "priority",
+   "value": "Build systems that work in production and real time",
+   "status": "fact",
+   "source_page_id": "1242aaa2a14db906",
+   "quote": "ingenjörerna som bygger system som fungerar i produktion, i realtid",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:47:17.145849Z",
    "needs_review": false
   },
   {
@@ -211,7 +397,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369270Z",
+   "updated_at": "2026-11-14T01:47:17.149646Z",
    "needs_review": false
   },
   {
@@ -230,7 +416,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369301Z",
+   "updated_at": "2026-11-14T01:47:17.149665Z",
    "needs_review": false
   },
   {
@@ -249,26 +435,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369311Z",
-   "needs_review": false
-  },
-  {
-   "id": "d04313f6d86793db",
-   "company_id": "hiq",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369316Z",
+   "updated_at": "2026-11-14T01:47:17.149673Z",
    "needs_review": false
   },
   {
@@ -287,7 +454,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369319Z",
+   "updated_at": "2026-11-14T01:47:17.149678Z",
    "needs_review": false
   },
   {
@@ -306,7 +473,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369322Z",
+   "updated_at": "2026-11-14T01:47:17.149682Z",
    "needs_review": false
   },
   {
@@ -325,7 +492,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369325Z",
+   "updated_at": "2026-11-14T01:47:17.149685Z",
    "needs_review": false
   },
   {
@@ -344,7 +511,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369332Z",
+   "updated_at": "2026-11-14T01:47:17.149688Z",
    "needs_review": false
   },
   {
@@ -363,26 +530,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369336Z",
-   "needs_review": false
-  },
-  {
-   "id": "c886e5fdb9259868",
-   "company_id": "hiq",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369339Z",
+   "updated_at": "2026-11-14T01:47:17.149691Z",
    "needs_review": false
   },
   {
@@ -391,7 +539,7 @@
    "field": "possible_interest",
    "value": "Embedded and IoT projects with defence and industry",
    "status": "inferred",
-   "source_page_id": "94f71c2a092df3b6",
+   "source_page_id": "1242aaa2a14db906",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It offers connected products and embedded systems to defence and manufacturing.",
@@ -401,7 +549,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369350Z",
+   "updated_at": "2026-11-14T01:47:17.149700Z",
    "needs_review": false
   },
   {
@@ -420,7 +568,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:12.369356Z",
+   "updated_at": "2026-11-14T01:47:17.149706Z",
    "needs_review": false
   }
  ],
