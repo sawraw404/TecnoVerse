@@ -1,0 +1,314 @@
+{
+ "addsecure|184fa237f97e1e25": {
+  "why": "AddSecure works on secure communication and monitoring for power grid stations; Techinova's move from research to a product for safer grids shows where grid-security solutions in the region are heading.",
+  "uncertain": "Techinova may be a competitor as much as a peer.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "addsecure|b05e2ba38d78e383": {
+  "why": "AddSecure builds zero-trust, encrypted grid communication; Sweden Secure Tech Hub gave companies security expertise and exceeded its goals, so similar support may continue.",
+  "uncertain": "Whether a follow-up programme exists is not stated.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "affarsverken|6becc899c1547d4e": {
+  "why": "Affärsverken sells electricity and runs the city network in Karlskrona; the debate on Blekinge needing more electricity, after Karlshamn rejected new nuclear, concerns its market directly.",
+  "uncertain": "An opinion piece, not a decision; check the region's actual plans.",
+  "score": 0.65,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "affarsverken|ade80798f6c68ca2": {
+  "why": "Affärsverken is an energy and network company; rapidly growing data-centre electricity demand puts pressure on grids like the ones it operates.",
+  "uncertain": "The forecast is for the US and Europe overall, not Blekinge.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "afry|ade80798f6c68ca2": {
+  "why": "AFRY offers engineering, operations and digital solutions; data centres' growing power needs may create engineering work on energy supply and grids.",
+  "uncertain": "General market forecast; no AFRY project is mentioned.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "cleura|0e2d5ec45d8bf231": {
+  "why": "Cleura sells European public and private cloud; companies rethinking their exit strategy from the large cloud providers are its potential customers.",
+  "uncertain": "A column, not market data.",
+  "score": 0.7,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "cleura|6701c07c28d0ab4f": {
+  "why": "Cleura's Compliant Cloud targets mission-critical and sensitive data; European buyers increasingly choosing EU suppliers for security fits its sovereign-cloud offer.",
+  "uncertain": "The figures are for cybersecurity products, not cloud.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "cleura|f20794c4eb5e007d": {
+  "why": "Cleura launched an AI platform and inference services; large companies moving to cheaper open-weight models may want to run them on such platforms.",
+  "uncertain": "The survey is about large companies in general.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "dnv-cyber|6701c07c28d0ab4f": {
+  "why": "DNV Cyber sells cybersecurity services; European companies buying more security from EU suppliers (+35 percent in two years) may favour it.",
+  "uncertain": "DNV Cyber's own sales are not covered by the figures.",
+  "score": 0.7,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "dnv-cyber|b05e2ba38d78e383": {
+  "why": "Sweden Secure Tech Hub, run by six science parks including Blue Science Park, exceeded its goals in giving companies security expertise, an area where DNV Cyber's specialists work.",
+  "uncertain": "Not stated whether DNV Cyber took part.",
+  "score": 0.55,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "dxc-technology|f20794c4eb5e007d": {
+  "why": "DXC offers agentic AI for IT operations; the shift to cheaper open-weight models may change what its enterprise customers ask for.",
+  "uncertain": "Survey of large companies in general.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "dxc-technology|16bd6252ac9b6ea4": {
+  "why": "DXC runs human-plus-agentic-AI operations; growing AI-agent use is expected to quadruple CPU demand in data centres, which affects infrastructure costs for such services.",
+  "uncertain": "Forecast, not measured demand.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "embeddedart|7be264845851fe75": {
+  "why": "EmbeddedArt builds sonar and hydrophone systems that detect vessels and divers; the Royal Navy choosing autonomous systems to hunt submarines shows demand for underwater surveillance.",
+  "uncertain": "A UK programme with a large supplier; the route for a small Swedish supplier is unclear.",
+  "score": 0.7,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "embeddedart|d48685e906b120ae": {
+  "why": "EmbeddedArt works with sonar and underwater sensors; coming S-100 navigation standards are argued to need real-time underwater perception where chart data is lacking.",
+  "uncertain": "An opinion piece by a sonar company's CEO.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "embeddedart|91b01eec222389c1": {
+  "why": "EmbeddedArt builds measuring stations and low-power sensor platforms; seabed lander systems monitoring a carbon-storage site show a market for long-term underwater monitoring.",
+  "uncertain": "The project is in the UK.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "embeddedart|73678c8c0d5ba0ee": {
+  "why": "EmbeddedArt takes part in a drone project just above the water surface; navies adopting unmanned surface vessels may need the sensors it builds.",
+  "uncertain": "Delivery to the Philippines from a US builder; indirect relevance.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "nkt|6ccff3986443faf5": {
+  "why": "NKT makes HVDC subsea cable systems; the 2 GW Eastern Green Link 3 has secured its marine licence, bringing its subsea cable work closer.",
+  "uncertain": "The cable supplier is not named in the item.",
+  "score": 0.65,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "nkt|651ff2a9b89313d7": {
+  "why": "Nexans, a direct competitor, will deliver 420 km of cable for a Greek HVDC link, a sign of the HVDC interconnector market NKT competes in.",
+  "uncertain": "Competitor news, not an opportunity in itself.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "nkt|5bcac16a040f3309": {
+  "why": "NKT offers cables and cable services for offshore installation; Seaway7 starting 500 km of inter-array cabling at Hornsea 3 shows continued offshore wind build-out.",
+  "uncertain": "Inter-array cables may be outside NKT's focus.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "ocean-harvesting|bd7d141b197c6b73": {
+  "why": "Ocean Harvesting develops the InfinityWEC wave energy converter; Carnegie's CETO system moving to its first water deployment shows where competing wave technologies stand.",
+  "uncertain": "Competitor progress; deployment results are not yet known.",
+  "score": 0.7,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "ocean-harvesting|9a2eac51c9e2a685": {
+  "why": "Wavepiston signing island projects in Barbados and Martinique shows a market for wave energy on islands that may also suit InfinityWEC.",
+  "uncertain": "Commercial terms are not stated.",
+  "score": 0.65,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "ocean-harvesting|640888799033c9dd": {
+  "why": "Eco Wave Power exploring wave energy for AI data centres points to a possible new customer segment for wave power.",
+  "uncertain": "An MoU only, not a contract.",
+  "score": 0.55,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "roxtec|534028e8db6bb5ea": {
+  "why": "Roxtec seals cable transits in HVDC projects; Meyer setting up a business for offshore converter stations points to more converter platforms that need such transits.",
+  "uncertain": "Roxtec is not mentioned; demand is indirect.",
+  "score": 0.55,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "roxtec|6ccff3986443faf5": {
+  "why": "The 2 GW Eastern Green Link 3 moving ahead is another HVDC project of the kind where Roxtec's cable transits are used.",
+  "uncertain": "Not stated whether Roxtec supplies the project.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "saab|7be264845851fe75": {
+  "why": "SAAB delivers naval combat systems and sensors; the Royal Navy picking autonomous systems for submarine detection shows how navies buy underwater surveillance.",
+  "uncertain": "SAAB is not part of the programme as far as the item says.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "saab|73678c8c0d5ba0ee": {
+  "why": "Navies adopting unmanned surface vessels, here in the Philippines, is a trend in the naval market SAAB serves.",
+  "uncertain": "Delivery by a US builder.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "saab|62cc6446f4f5bacd": {
+  "why": "The EU investing EUR 50 million in a Black Sea maritime security hub signals European spending on maritime security, a market for SAAB's security systems.",
+  "uncertain": "Procurement details are not given.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "softhouse|f20794c4eb5e007d": {
+  "why": "Softhouse sells AI and machine learning consulting; clients moving to cheaper open-weight models may need help to switch.",
+  "uncertain": "General survey of large companies.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "softhouse|16bd6252ac9b6ea4": {
+  "why": "Softhouse builds AI solutions; the boom in AI agents is reshaping the infrastructure its clients run on.",
+  "uncertain": "Market forecast.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "softhouse|34e45beb2ce2d73e": {
+  "why": "Gartner expects AI to create more jobs than it removes by 2030, relevant to an IT consultancy's demand and recruitment.",
+  "uncertain": "A global forecast.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "techinova|6becc899c1547d4e": {
+  "why": "Techinova builds solutions to monitor and control the power grid; the debate on Blekinge needing more electricity concerns the regional grid it works with.",
+  "uncertain": "An opinion piece, not a decision.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "techinova|ade80798f6c68ca2": {
+  "why": "Growing data-centre electricity demand puts pressure on power grids, the area where Techinova's monitoring and control solutions work.",
+  "uncertain": "The forecast is not specific to Sweden.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "varidens|b05e2ba38d78e383": {
+  "why": "Veridens' new portal was security-tested through Sweden Secure Tech Hub; the hub's evaluation shows it exceeded its goals.",
+  "uncertain": "Whether the hub continues is not stated.",
+  "score": 0.7,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "pavesight|547506d820c5cded": {
+  "why": "Pavesight is scaling AI road monitoring; DigIT Hub Sweden 2.0 continues to support small companies in southern Sweden with digital development.",
+  "uncertain": "Pavesight's eligibility for support is not assessed here.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "interactive-materia|82f42a396bee9cfd": {
+  "why": "Interactive Materia builds games and immersive training; Swedish-developed games reaching 20 percent of Steam sales shows a strong home industry.",
+  "uncertain": "Sales figures for 2025.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "interactive-materia|f20794c4eb5e007d": {
+  "why": "Interactive Materia builds AI avatars with real-time dialogue; cheaper open-weight models may lower the cost of running them.",
+  "uncertain": "General survey of large companies.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "cimon-enterprise|6366fcb4d0bdf4b1": {
+  "why": "Cimon builds companies in technology and digitalisation; the merger of Blue Science Park and Blekinge Business Incubator changes the regional support around start-ups.",
+  "uncertain": "How the new organisation will work is not yet described.",
+  "score": 0.55,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "consid|ade80798f6c68ca2": {
+  "why": "Consid built a data-driven energy platform with Fortum Spring; growing pressure on electricity grids from data centres raises demand for such energy optimisation.",
+  "uncertain": "General forecast.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "kubicom|547506d820c5cded": {
+  "why": "Kubicom is a digital platform for construction logistics; DigIT Hub Sweden 2.0 supports small companies in southern Sweden with digital development.",
+  "uncertain": "Kubicom's eligibility for support is not assessed here.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "noda-intelligent-systems|ade80798f6c68ca2": {
+  "why": "NODA optimises district heating and building energy; growing data-centre power use raises questions of grid load and heat that its platform works with.",
+  "uncertain": "Heat recovery is not mentioned in the item.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "storegate|0e2d5ec45d8bf231": {
+  "why": "Storegate offers Swedish cloud storage with customer-held keys; companies reconsidering their dependence on large cloud providers are potential customers.",
+  "uncertain": "A column, not market data.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "storegate|6701c07c28d0ab4f": {
+  "why": "European buyers increasingly choosing EU security suppliers supports demand for Storegate's storage kept in Sweden.",
+  "uncertain": "Figures cover cybersecurity products, not storage.",
+  "score": 0.55,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "vegoil|cddf87e5f4b3b1cf": {
+  "why": "Vegoil supplies renewable fuels and has a marine fuel blend with ScanOcean; the Port of Gothenburg preparing large-scale biogas bunkering shows a competing renewable marine fuel.",
+  "uncertain": "Biogas competes with bio-oil rather than using it.",
+  "score": 0.6,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "activout|16bd6252ac9b6ea4": {
+  "why": "Activout works with AI coding agents; the boom in AI agents is reshaping the infrastructure and tools developers rely on.",
+  "uncertain": "Market forecast.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "linjemontage|9a54b70b11c89be6": {
+  "why": "Linjemontage builds power grid infrastructure; construction starting on the Lewis Hub interconnector shows continued grid build-out in Europe.",
+  "uncertain": "A UK project.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "linjemontage|6becc899c1547d4e": {
+  "why": "The debate on Blekinge needing more electricity may lead to grid investments of the kind Linjemontage builds.",
+  "uncertain": "An opinion piece, not a decision.",
+  "score": 0.5,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "holtab|6becc899c1547d4e": {
+  "why": "Holtab makes substations and switchgear buildings; more electricity in Blekinge would need more of that equipment.",
+  "uncertain": "An opinion piece, not a decision.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "holtab|ade80798f6c68ca2": {
+  "why": "Data centres' growing power demand puts pressure on grids, raising demand for substations and distribution equipment like Holtab's.",
+  "uncertain": "General forecast.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "hanza|fc194c1737e2e9ee": {
+  "why": "HANZA is a contract manufacturer; Tillväxtverket stresses industry's competitiveness as central to Sweden's preparedness.",
+  "uncertain": "Only the headline is available; check the source.",
+  "score": 0.45,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "kockums-maskin|fc194c1737e2e9ee": {
+  "why": "Kockums Maskin manufactures machined castings; Tillväxtverket links industry's competitiveness to Sweden's preparedness.",
+  "uncertain": "Only the headline is available; check the source.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "3d-vision|547506d820c5cded": {
+  "why": "3D Vision is a small digital agency in the park; DigIT Hub Sweden 2.0 supports small companies with digital development.",
+  "uncertain": "3D Vision's eligibility for support is not assessed here.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ },
+ "nicon|547506d820c5cded": {
+  "why": "Nicon is a small software company; DigIT Hub Sweden 2.0 supports small and medium companies in southern Sweden with digital development.",
+  "uncertain": "Nicon's location and eligibility are not stated.",
+  "score": 0.4,
+  "written_by": "Claude Code, offline (trend monitor)"
+ }
+}

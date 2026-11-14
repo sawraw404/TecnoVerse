@@ -5,12 +5,12 @@ import { OpportunityCard } from "@/components/opportunity-card";
 import { Badge, EmptyState, Notice, PageHeader, SectionTitle, SourceLink } from "@/components/ui";
 import { api } from "@/lib/api";
 import { DATE_LABEL, TYPE_LABEL, cx, day, keyDate } from "@/lib/format";
-import type { Dashboard, PriorityType } from "@/lib/types";
+import type { Dashboard, ListType } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Opportunities" };
 
-const TYPES: PriorityType[] = ["funding", "event", "testbed"];
-type Tab = "top" | "saved" | PriorityType;
+const TYPES: ListType[] = ["funding", "event", "testbed", "news"];
+type Tab = "top" | "saved" | ListType;
 
 export default async function DashboardPage({ searchParams }: PageProps<"/dashboard">) {
   const { tab: raw } = await searchParams;
@@ -51,7 +51,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
     );
   }
 
-  const tab: Tab = raw === "funding" || raw === "event" || raw === "testbed" || raw === "saved" ? raw : "top";
+  const tab: Tab = raw === "funding" || raw === "event" || raw === "testbed" || raw === "news" || raw === "saved" ? raw : "top";
   const tabs: { id: Tab; label: string; count: number }[] = [
     { id: "top", label: "Top matches", count: d.top.length },
     ...TYPES.map((t) => ({ id: t as Tab, label: TYPE_LABEL[t], count: d.by_type[t].length })),
@@ -105,6 +105,12 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
       </nav>
 
       {tab === "top" && <p className="mb-4 text-sm text-text-2">Best matches across all types. Your priorities on the Profile page move types up here.</p>}
+      {tab === "news" && (
+        <p className="mb-4 text-sm text-text-2">
+          Recent news and research from regional, research and industry sources (last 3 months), closest to your profile first.
+          &ldquo;What changed&rdquo; and &ldquo;why it may matter&rdquo; are AI summaries; open the source to check.
+        </p>
+      )}
       {tab === "saved" && <p className="mb-4 text-sm text-text-2">Opportunities your company saved for later, in ranking order. Saving does not change the ranking.</p>}
 
       <div className="space-y-3">
@@ -117,7 +123,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
               Use Save on any opportunity to keep it here.
             </EmptyState>
           ) : (
-            <EmptyState icon={<Inbox />} title={`No ${tab === "top" ? "opportunities" : TYPE_LABEL[tab as PriorityType].toLowerCase()} judged relevant right now`}>
+            <EmptyState icon={<Inbox />} title={`No ${tab === "top" ? "opportunities" : TYPE_LABEL[tab as ListType].toLowerCase()} judged relevant right now`}>
               {rest.length > 0 ? "The ones below only share keywords with your profile." : "Check back after the next monitor run."}
             </EmptyState>
           )
@@ -128,7 +134,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
         <details className="mt-6 rounded-lg border border-border bg-surface shadow-sm">
           <summary className="flex cursor-pointer items-center gap-2 px-4 py-3.5 text-sm font-medium sm:px-5">
             <ChevronRight className="chevron size-4 text-text-3 transition-transform" aria-hidden />
-            Other {TYPE_LABEL[tab as PriorityType].toLowerCase()}
+            Other {TYPE_LABEL[tab as ListType].toLowerCase()}
             <span className="text-xs text-text-3">{rest.length}</span>
             <span className="ml-auto hidden text-xs font-normal text-text-3 sm:inline">similar by text only, not judged relevant</span>
           </summary>
