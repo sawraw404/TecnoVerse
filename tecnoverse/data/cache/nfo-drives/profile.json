@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:53.062109Z",
+  "last_crawled_at": "2026-11-14T01:31:37.961935Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -57,6 +57,16 @@
    "retrieved_at": "2026-11-13T13:37:53.062109Z",
    "text": "",
    "content_hash": "6d5022f544f66c30"
+  },
+  {
+   "id": "2d9ce7d2a4302eef",
+   "company_id": "nfo-drives",
+   "url": "https://www.nfodrives.se/blog/",
+   "source_type": "company_site",
+   "title": "Blogg | NFO Drives",
+   "retrieved_at": "2026-11-14T01:31:37.961935Z",
+   "text": "",
+   "content_hash": "6d74775dcdaa5af8"
   }
  ],
  "items": [
@@ -76,7 +86,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.943567Z",
+   "updated_at": "2026-11-14T01:50:16.502323Z",
    "needs_review": false
   },
   {
@@ -95,7 +105,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.943800Z",
+   "updated_at": "2026-11-14T01:50:16.502537Z",
    "needs_review": false
   },
   {
@@ -114,7 +124,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.944293Z",
+   "updated_at": "2026-11-14T01:50:16.502967Z",
    "needs_review": false
   },
   {
@@ -133,7 +143,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.946450Z",
+   "updated_at": "2026-11-14T01:50:16.505359Z",
+   "needs_review": false
+  },
+  {
+   "id": "43b0bf4c1984bb3c",
+   "company_id": "nfo-drives",
+   "field": "geography",
+   "value": "Karlshamn",
+   "status": "fact",
+   "source_page_id": "efdde6004f68c1cd",
+   "quote": "Tubba Torg 5 SE-37432 Karlshamn, Sweden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.505560Z",
+   "needs_review": false
+  },
+  {
+   "id": "b9c7e41aaf9fcb64",
+   "company_id": "nfo-drives",
+   "field": "project",
+   "value": "Customer: ICA Fastigheter uses NFO Sinus with unshielded fan-motor cabling",
+   "status": "fact",
+   "source_page_id": "b578f7b993618e9a",
+   "quote": "säger Malte Enocson, fastighetsförvaltare på ICA Fastigheter",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.507611Z",
+   "needs_review": false
+  },
+  {
+   "id": "c2f902744af5b04d",
+   "company_id": "nfo-drives",
+   "field": "application_area",
+   "value": "Fan motors and other electric motors where interference must be avoided",
+   "status": "fact",
+   "source_page_id": "b578f7b993618e9a",
+   "quote": "kunde vi dels utnyttja det befintliga oskärmade kablaget till fläktmotorerna",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.509677Z",
    "needs_review": false
   },
   {
@@ -152,7 +219,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.946593Z",
+   "updated_at": "2026-11-14T01:50:16.509909Z",
    "needs_review": false
   },
   {
@@ -171,7 +238,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948410Z",
+   "updated_at": "2026-11-14T01:50:16.513616Z",
    "needs_review": false
   },
   {
@@ -190,7 +257,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948425Z",
+   "updated_at": "2026-11-14T01:50:16.513638Z",
    "needs_review": false
   },
   {
@@ -209,7 +276,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948433Z",
+   "updated_at": "2026-11-14T01:50:16.513647Z",
    "needs_review": false
   },
   {
@@ -228,26 +295,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948440Z",
-   "needs_review": false
-  },
-  {
-   "id": "00881c3e7254b477",
-   "company_id": "nfo-drives",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948444Z",
+   "updated_at": "2026-11-14T01:50:16.513651Z",
    "needs_review": false
   },
   {
@@ -266,45 +314,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948448Z",
-   "needs_review": false
-  },
-  {
-   "id": "5313f653f690d958",
-   "company_id": "nfo-drives",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948453Z",
-   "needs_review": false
-  },
-  {
-   "id": "e12da7f901857b5b",
-   "company_id": "nfo-drives",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948458Z",
+   "updated_at": "2026-11-14T01:50:16.513655Z",
    "needs_review": false
   },
   {
@@ -323,7 +333,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948461Z",
+   "updated_at": "2026-11-14T01:50:16.513658Z",
    "needs_review": false
   },
   {
@@ -342,7 +352,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948464Z",
+   "updated_at": "2026-11-14T01:50:16.513661Z",
    "needs_review": false
   },
   {
@@ -351,7 +361,7 @@
    "field": "possible_interest",
    "value": "Energy efficiency funding for motor systems",
    "status": "inferred",
-   "source_page_id": "539387833a282ab8",
+   "source_page_id": "efdde6004f68c1cd",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its converter is sold on low energy use and sustainability goals.",
@@ -361,7 +371,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948476Z",
+   "updated_at": "2026-11-14T01:50:16.513669Z",
    "needs_review": false
   },
   {
@@ -380,7 +390,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.948483Z",
+   "updated_at": "2026-11-14T01:50:16.513674Z",
    "needs_review": false
   }
  ],

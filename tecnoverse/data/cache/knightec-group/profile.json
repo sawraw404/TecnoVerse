@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.011397Z",
+   "updated_at": "2026-11-14T01:50:16.607556Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.011975Z",
+   "updated_at": "2026-11-14T01:50:16.607867Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.012427Z",
+   "updated_at": "2026-11-14T01:50:16.608154Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.012858Z",
+   "updated_at": "2026-11-14T01:50:16.608535Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013216Z",
+   "updated_at": "2026-11-14T01:50:16.608879Z",
+   "needs_review": false
+  },
+  {
+   "id": "b2116fd623495fbf",
+   "company_id": "knightec-group",
+   "field": "priority",
+   "value": "Combine business strategy with world-class engineering",
+   "status": "fact",
+   "source_page_id": "d6a450540acccec0",
+   "quote": "genom att förena affärsstrategi med ingenjörskonst i världsklass",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.609150Z",
+   "needs_review": false
+  },
+  {
+   "id": "5d6874f1ce11b4b9",
+   "company_id": "knightec-group",
+   "field": "technology",
+   "value": "Industrial automation, prototyping and full-scale workshop",
+   "status": "fact",
+   "source_page_id": "7dc67cadc85f1887",
+   "quote": "Prototyping & Full-Scale Workshop Vår fullskaliga verkstad överbryggar klyftan mellan koncept och verklighet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.609485Z",
    "needs_review": false
   },
   {
@@ -211,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013227Z",
+   "updated_at": "2026-11-14T01:50:16.609491Z",
    "needs_review": false
   },
   {
@@ -230,26 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013233Z",
-   "needs_review": false
-  },
-  {
-   "id": "abeeb62bccd8ca6d",
-   "company_id": "knightec-group",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013237Z",
+   "updated_at": "2026-11-14T01:50:16.609496Z",
    "needs_review": false
   },
   {
@@ -268,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013241Z",
+   "updated_at": "2026-11-14T01:50:16.609499Z",
    "needs_review": false
   },
   {
@@ -287,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013244Z",
+   "updated_at": "2026-11-14T01:50:16.609502Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013247Z",
+   "updated_at": "2026-11-14T01:50:16.609505Z",
    "needs_review": false
   },
   {
@@ -325,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013250Z",
+   "updated_at": "2026-11-14T01:50:16.609508Z",
    "needs_review": false
   },
   {
@@ -344,26 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013253Z",
-   "needs_review": false
-  },
-  {
-   "id": "2712c659c17348fd",
-   "company_id": "knightec-group",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013256Z",
+   "updated_at": "2026-11-14T01:50:16.609511Z",
    "needs_review": false
   },
   {
@@ -372,7 +372,7 @@
    "field": "possible_interest",
    "value": "Industrialisation support for scale-ups",
    "status": "inferred",
-   "source_page_id": "301e53f0a817d4ce",
+   "source_page_id": "d6a450540acccec0",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It helps manufacturers industrialise and scale.",
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013263Z",
+   "updated_at": "2026-11-14T01:50:16.609517Z",
    "needs_review": false
   },
   {
@@ -391,7 +391,7 @@
    "field": "possible_interest",
    "value": "Defence and energy engineering projects",
    "status": "inferred",
-   "source_page_id": "7dc67cadc85f1887",
+   "source_page_id": "d6a450540acccec0",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It lists defence and energy among its sectors.",
@@ -401,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.013268Z",
+   "updated_at": "2026-11-14T01:50:16.609521Z",
    "needs_review": false
   }
  ],

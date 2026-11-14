@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.970657Z",
+   "updated_at": "2026-11-14T01:50:16.545174Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.971327Z",
+   "updated_at": "2026-11-14T01:50:16.545893Z",
    "needs_review": false
   },
   {
@@ -94,7 +94,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.971918Z",
+   "updated_at": "2026-11-14T01:50:16.546651Z",
    "needs_review": false
   },
   {
@@ -113,7 +113,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.972322Z",
+   "updated_at": "2026-11-14T01:50:16.547124Z",
+   "needs_review": false
+  },
+  {
+   "id": "abe917c6220aeb91",
+   "company_id": "sensestock",
+   "field": "geography",
+   "value": "Developed in Karlskrona; all hardware and software development in Sweden",
+   "status": "fact",
+   "source_page_id": "0bf51a5b107cf74e",
+   "quote": "Om senseStock Utvecklat i Karlskrona",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.547776Z",
+   "needs_review": false
+  },
+  {
+   "id": "209354a216aeea14",
+   "company_id": "sensestock",
+   "field": "project",
+   "value": "Customer case NKT: from gram-level parts to two-tonne pallets",
+   "status": "fact",
+   "source_page_id": "0bf51a5b107cf74e",
+   "quote": "Kundcase NKT: från gram till tvåtonspallar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.548415Z",
+   "needs_review": false
+  },
+  {
+   "id": "7220bf5703d449e2",
+   "company_id": "sensestock",
+   "field": "collaboration",
+   "value": "Sales partner WFI in Gnosjö assembles and sells the product",
+   "status": "fact",
+   "source_page_id": "0bf51a5b107cf74e",
+   "quote": "Slutprodukten sätts samman och säljs av WFI i Gnosjö, vår försäljningspartner",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.549045Z",
    "needs_review": false
   },
   {
@@ -132,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.972673Z",
+   "updated_at": "2026-11-14T01:50:16.549832Z",
    "needs_review": false
   },
   {
@@ -151,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973013Z",
+   "updated_at": "2026-11-14T01:50:16.550618Z",
    "needs_review": false
   },
   {
@@ -170,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973019Z",
+   "updated_at": "2026-11-14T01:50:16.550625Z",
    "needs_review": false
   },
   {
@@ -189,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973039Z",
+   "updated_at": "2026-11-14T01:50:16.550629Z",
    "needs_review": false
   },
   {
@@ -208,7 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973043Z",
+   "updated_at": "2026-11-14T01:50:16.550632Z",
    "needs_review": false
   },
   {
@@ -227,64 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973046Z",
-   "needs_review": false
-  },
-  {
-   "id": "2ae8819f8c050412",
-   "company_id": "sensestock",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973049Z",
-   "needs_review": false
-  },
-  {
-   "id": "297703b3176d8b95",
-   "company_id": "sensestock",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973052Z",
-   "needs_review": false
-  },
-  {
-   "id": "3c35f94f93a05afe",
-   "company_id": "sensestock",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973055Z",
+   "updated_at": "2026-11-14T01:50:16.550635Z",
    "needs_review": false
   },
   {
@@ -303,7 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973058Z",
+   "updated_at": "2026-11-14T01:50:16.550638Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973064Z",
+   "updated_at": "2026-11-14T01:50:16.550646Z",
    "needs_review": false
   },
   {
@@ -331,7 +331,7 @@
    "field": "possible_interest",
    "value": "IoT and RFID innovation programmes",
    "status": "inferred",
-   "source_page_id": "7afc6e4cc941908e",
+   "source_page_id": "0bf51a5b107cf74e",
    "quote": null,
    "quote_verified": false,
    "reasoning": "Its product is built on RFID and sensors.",
@@ -341,7 +341,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.973069Z",
+   "updated_at": "2026-11-14T01:50:16.550651Z",
    "needs_review": false
   }
  ],

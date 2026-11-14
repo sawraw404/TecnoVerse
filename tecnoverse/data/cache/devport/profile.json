@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:38:00.384751Z",
+  "last_crawled_at": "2026-11-14T01:41:05.697794Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,86 @@
    "retrieved_at": "2026-11-13T13:38:00.384751Z",
    "text": "",
    "content_hash": "cea418875200359f"
+  },
+  {
+   "id": "9c47e67aa51eece9",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressvideor",
+   "source_type": "company_site",
+   "title": "Pressvideor – DevPort",
+   "retrieved_at": "2026-11-14T01:28:36.332087Z",
+   "text": "",
+   "content_hash": "b87eca76af9fba0e"
+  },
+  {
+   "id": "099fd457d4574888",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande",
+   "source_type": "company_site",
+   "title": "Pressmeddelanden – DevPort",
+   "retrieved_at": "2026-11-14T01:28:37.052524Z",
+   "text": "",
+   "content_hash": "97519f1d3bceba54"
+  },
+  {
+   "id": "5730c6ecff1da3e5",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressbilder",
+   "source_type": "company_site",
+   "title": "Pressbilder – DevPort",
+   "retrieved_at": "2026-11-14T01:28:37.756026Z",
+   "text": "",
+   "content_hash": "561ba1a001229275"
+  },
+  {
+   "id": "5cda13d54deade50",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande?cb_filter=2",
+   "source_type": "company_site",
+   "title": "Pressmeddelanden – DevPort",
+   "retrieved_at": "2026-11-14T01:41:02.452682Z",
+   "text": "",
+   "content_hash": "08fecd8fdee53966"
+  },
+  {
+   "id": "8da80ccf8022fafb",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande?cb_filter=3",
+   "source_type": "company_site",
+   "title": "Pressmeddelanden – DevPort",
+   "retrieved_at": "2026-11-14T01:41:03.029813Z",
+   "text": "",
+   "content_hash": "6e8a404d8b9b986a"
+  },
+  {
+   "id": "732aec62c32cbe86",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande/devport-ab-publ-redovisar-delarsrapport-for-januari-september-2026",
+   "source_type": "company_site",
+   "title": "DevPort AB (publ) redovisar delårsrapport för januari-september 2026 – DevPort",
+   "retrieved_at": "2026-11-14T01:41:03.666662Z",
+   "text": "",
+   "content_hash": "1ae428ca826a8f8d"
+  },
+  {
+   "id": "d1ea55e1329525b3",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande/devport-ab-publ-bjuder-in-till-digital-informationstraff-i-samband-med-delarsrapport-7",
+   "source_type": "company_site",
+   "title": "DEVPORT AB (PUBL) BJUDER IN TILL DIGITAL INFORMATIONSTRÄFF I SAMBAND MED DELÅRSRAPPORT – DevPort",
+   "retrieved_at": "2026-11-14T01:41:05.166462Z",
+   "text": "",
+   "content_hash": "e5460e46736e3836"
+  },
+  {
+   "id": "7edf3d8af7dd36fe",
+   "company_id": "devport",
+   "url": "https://www.devport.se/investera/press/pressmeddelande/devport-ab-publ-varslar-i-region-vast-och-genomfor-en-omstrukturering",
+   "source_type": "company_site",
+   "title": "DEVPORT AB (PUBL) VARSLAR I REGION VÄST OCH GENOMFÖR EN OMSTRUKTURERING – DevPort",
+   "retrieved_at": "2026-11-14T01:41:05.697794Z",
+   "text": "",
+   "content_hash": "3b13f9183cce00ef"
   }
  ],
  "items": [
@@ -116,7 +196,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.017426Z",
+   "updated_at": "2026-11-14T01:50:16.614710Z",
    "needs_review": false
   },
   {
@@ -135,7 +215,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.017967Z",
+   "updated_at": "2026-11-14T01:50:16.615267Z",
    "needs_review": false
   },
   {
@@ -154,7 +234,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.018502Z",
+   "updated_at": "2026-11-14T01:50:16.615897Z",
    "needs_review": false
   },
   {
@@ -173,7 +253,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.019061Z",
+   "updated_at": "2026-11-14T01:50:16.616493Z",
+   "needs_review": false
+  },
+  {
+   "id": "e82a8f616601dbc9",
+   "company_id": "devport",
+   "field": "technology",
+   "value": "Software, electronics and testing",
+   "status": "fact",
+   "source_page_id": "efbd55585849c24c",
+   "quote": "Vi utvecklar digitala tjänster med fokus på mjukvara, elektronik och testning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.617004Z",
+   "needs_review": false
+  },
+  {
+   "id": "a34d608a7db03043",
+   "company_id": "devport",
+   "field": "market",
+   "value": "Manufacturing industry",
+   "status": "fact",
+   "source_page_id": "efbd55585849c24c",
+   "quote": "Vi samarbetar med tillverkningsindustrin för att optimera produkter för produktion, montering, logistik och kvalitet",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.617506Z",
+   "needs_review": false
+  },
+  {
+   "id": "7cd109ccb2c2847a",
+   "company_id": "devport",
+   "field": "expertise",
+   "value": "340 consultants; established 2008",
+   "status": "fact",
+   "source_page_id": "efbd55585849c24c",
+   "quote": "Med 340 sysselsatta konsulter kan vi erbjuda en unik kombination av spetskompetens",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.618009Z",
    "needs_review": false
   },
   {
@@ -192,7 +329,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.020968Z",
+   "updated_at": "2026-11-14T01:50:16.622476Z",
    "needs_review": false
   },
   {
@@ -211,7 +348,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.020984Z",
+   "updated_at": "2026-11-14T01:50:16.622496Z",
    "needs_review": false
   },
   {
@@ -230,26 +367,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.020990Z",
-   "needs_review": false
-  },
-  {
-   "id": "1cda4bf4e3d0e444",
-   "company_id": "devport",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.020995Z",
+   "updated_at": "2026-11-14T01:50:16.622504Z",
    "needs_review": false
   },
   {
@@ -268,26 +386,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.020999Z",
-   "needs_review": false
-  },
-  {
-   "id": "a74a9ff372f03941",
-   "company_id": "devport",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021002Z",
+   "updated_at": "2026-11-14T01:50:16.622510Z",
    "needs_review": false
   },
   {
@@ -306,7 +405,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021005Z",
+   "updated_at": "2026-11-14T01:50:16.622514Z",
    "needs_review": false
   },
   {
@@ -325,7 +424,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021008Z",
+   "updated_at": "2026-11-14T01:50:16.622517Z",
    "needs_review": false
   },
   {
@@ -344,7 +443,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021011Z",
+   "updated_at": "2026-11-14T01:50:16.622521Z",
    "needs_review": false
   },
   {
@@ -363,7 +462,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021014Z",
+   "updated_at": "2026-11-14T01:50:16.622525Z",
    "needs_review": false
   },
   {
@@ -382,7 +481,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021017Z",
+   "updated_at": "2026-11-14T01:50:16.622529Z",
    "needs_review": false
   },
   {
@@ -391,7 +490,7 @@
    "field": "possible_interest",
    "value": "Embedded and production development projects with industry",
    "status": "inferred",
-   "source_page_id": "3d3576377a97658c",
+   "source_page_id": "efbd55585849c24c",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It offers embedded systems and production development.",
@@ -401,7 +500,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.021023Z",
+   "updated_at": "2026-11-14T01:50:16.622537Z",
    "needs_review": false
   }
  ],

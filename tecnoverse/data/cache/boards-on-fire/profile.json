@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:38:00.439044Z",
+  "last_crawled_at": "2026-11-14T01:28:37.665685Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,36 @@
    "retrieved_at": "2026-11-13T13:38:00.439044Z",
    "text": "",
    "content_hash": "a220f77854c6911b"
+  },
+  {
+   "id": "418959f1ba75faf6",
+   "company_id": "boards-on-fire",
+   "url": "https://boardsonfire.com/en/articles/news-notifications-in-boards-on-fire",
+   "source_type": "company_site",
+   "title": "NEWS: Notifications in Boards on Fire! /  Boards on Fire",
+   "retrieved_at": "2026-11-14T01:28:35.687802Z",
+   "text": "",
+   "content_hash": "447c0990eb4453dd"
+  },
+  {
+   "id": "12790ab6fc788fe7",
+   "company_id": "boards-on-fire",
+   "url": "https://boardsonfire.com/sv/articles/5-fordelar-med-att-digitalisera-daglig-styrning-med-boards-on-fire",
+   "source_type": "company_site",
+   "title": "5 fördelar med att digitalisera daglig styrning med Boards on Fire /  Boards on Fire",
+   "retrieved_at": "2026-11-14T01:28:36.661181Z",
+   "text": "",
+   "content_hash": "90dda72d0e5a5901"
+  },
+  {
+   "id": "f94c5e820548f72d",
+   "company_id": "boards-on-fire",
+   "url": "https://boardsonfire.com/sv/articles/globalt-avtal-gor-boards-on-fire-tillgangligt-inom-hela-hitachi-energy",
+   "source_type": "company_site",
+   "title": "Globalt avtal gör Boards on Fire tillgängligt inom hela Hitachi Energy /  Boards on Fire",
+   "retrieved_at": "2026-11-14T01:28:37.665685Z",
+   "text": "",
+   "content_hash": "9c584b43e8dc6b36"
   }
  ],
  "items": [
@@ -116,7 +146,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.989755Z",
+   "updated_at": "2026-11-14T01:50:16.573610Z",
    "needs_review": false
   },
   {
@@ -135,7 +165,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.994724Z",
+   "updated_at": "2026-11-14T01:50:16.578765Z",
    "needs_review": false
   },
   {
@@ -154,7 +184,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.999131Z",
+   "updated_at": "2026-11-14T01:50:16.582893Z",
    "needs_review": false
   },
   {
@@ -173,7 +203,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.999936Z",
+   "updated_at": "2026-11-14T01:50:16.583604Z",
    "needs_review": false
   },
   {
@@ -192,7 +222,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003555Z",
+   "updated_at": "2026-11-14T01:50:16.586852Z",
+   "needs_review": false
+  },
+  {
+   "id": "286a691a23387023",
+   "company_id": "boards-on-fire",
+   "field": "project",
+   "value": "Swecon digitised daily management at all 21 sites in Sweden",
+   "status": "fact",
+   "source_page_id": "bf548e45a250806c",
+   "quote": "Volvoåterförsäljaren Swecon nu digitaliserat sin dagliga styrning på samtliga 21 anläggningar",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.591047Z",
+   "needs_review": false
+  },
+  {
+   "id": "49116fa5d1e11f4c",
+   "company_id": "boards-on-fire",
+   "field": "customer_group",
+   "value": "Manufacturing, warehouses and service workshops (e.g. Gränges, Väderstad, Swecon)",
+   "status": "fact",
+   "source_page_id": "bf548e45a250806c",
+   "quote": "Mer om Gränges Americas Inc Serviceverkstad Swecon",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.595529Z",
    "needs_review": false
   },
   {
@@ -211,7 +279,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003565Z",
+   "updated_at": "2026-11-14T01:50:16.595566Z",
    "needs_review": false
   },
   {
@@ -230,7 +298,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003571Z",
+   "updated_at": "2026-11-14T01:50:16.595573Z",
    "needs_review": false
   },
   {
@@ -249,7 +317,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003576Z",
+   "updated_at": "2026-11-14T01:50:16.595578Z",
    "needs_review": false
   },
   {
@@ -268,7 +336,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003580Z",
+   "updated_at": "2026-11-14T01:50:16.595583Z",
    "needs_review": false
   },
   {
@@ -287,26 +355,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003583Z",
-   "needs_review": false
-  },
-  {
-   "id": "2a9db41bc04533e1",
-   "company_id": "boards-on-fire",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003587Z",
+   "updated_at": "2026-11-14T01:50:16.595588Z",
    "needs_review": false
   },
   {
@@ -325,7 +374,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003591Z",
+   "updated_at": "2026-11-14T01:50:16.595592Z",
    "needs_review": false
   },
   {
@@ -344,7 +393,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003594Z",
+   "updated_at": "2026-11-14T01:50:16.595596Z",
    "needs_review": false
   },
   {
@@ -363,7 +412,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003598Z",
+   "updated_at": "2026-11-14T01:50:16.595600Z",
    "needs_review": false
   },
   {
@@ -382,7 +431,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.003605Z",
+   "updated_at": "2026-11-14T01:50:16.595611Z",
    "needs_review": false
   }
  ],

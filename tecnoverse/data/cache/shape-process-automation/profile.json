@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.956016Z",
+   "updated_at": "2026-11-14T01:50:16.521019Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.957591Z",
+   "updated_at": "2026-11-14T01:50:16.522775Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.959133Z",
+   "updated_at": "2026-11-14T01:50:16.524471Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.960184Z",
+   "updated_at": "2026-11-14T01:50:16.525769Z",
    "needs_review": false
   },
   {
@@ -192,7 +192,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961403Z",
+   "updated_at": "2026-11-14T01:50:16.527134Z",
+   "needs_review": false
+  },
+  {
+   "id": "a8cabbdfd1653715",
+   "company_id": "shape-process-automation",
+   "field": "geography",
+   "value": "HQ Auburn Hills, USA; sites in Canada, Karlshamn (Sweden) and France",
+   "status": "fact",
+   "source_page_id": "3db64fac117b5264",
+   "quote": "USA · GLOBAL HQ Auburn Hills, MI CANADA Burlington, ON SWEDEN Karlshamn FRANCE Lille",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.528821Z",
+   "needs_review": false
+  },
+  {
+   "id": "da24d7a8be8b5fa8",
+   "company_id": "shape-process-automation",
+   "field": "expertise",
+   "value": "50+ years and 12,000+ installations worldwide",
+   "status": "fact",
+   "source_page_id": "3db64fac117b5264",
+   "quote": "Backed by more than 50 years of experience and over 12,000 installations worldwide",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.530760Z",
+   "needs_review": false
+  },
+  {
+   "id": "baf8aa9f04d085d9",
+   "company_id": "shape-process-automation",
+   "field": "technology",
+   "value": "Laser, waterjet, router and ultrasonic knife processing with robots",
+   "status": "fact",
+   "source_page_id": "3db64fac117b5264",
+   "quote": "From laser, to waterjet, router, and beyond, we offer a wide variety of material processing solutions",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.532542Z",
+   "needs_review": false
+  },
+  {
+   "id": "45007d5569a2ffb9",
+   "company_id": "shape-process-automation",
+   "field": "application_area",
+   "value": "Material handling, assembly and advanced material processing",
+   "status": "fact",
+   "source_page_id": "3db64fac117b5264",
+   "quote": "delivers scalable automation for material handling, assembly, and advanced material processing applications",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.534214Z",
    "needs_review": false
   },
   {
@@ -211,64 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961425Z",
-   "needs_review": false
-  },
-  {
-   "id": "7e82ea8148f69c09",
-   "company_id": "shape-process-automation",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961436Z",
-   "needs_review": false
-  },
-  {
-   "id": "7df94d376ea4e018",
-   "company_id": "shape-process-automation",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961441Z",
-   "needs_review": false
-  },
-  {
-   "id": "a5b62f9f1d0f673d",
-   "company_id": "shape-process-automation",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961445Z",
+   "updated_at": "2026-11-14T01:50:16.534242Z",
    "needs_review": false
   },
   {
@@ -287,26 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961448Z",
-   "needs_review": false
-  },
-  {
-   "id": "7f0941ba9603f543",
-   "company_id": "shape-process-automation",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961452Z",
+   "updated_at": "2026-11-14T01:50:16.534252Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961456Z",
+   "updated_at": "2026-11-14T01:50:16.534259Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961459Z",
+   "updated_at": "2026-11-14T01:50:16.534263Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961463Z",
+   "updated_at": "2026-11-14T01:50:16.534266Z",
    "needs_review": false
   },
   {
@@ -372,7 +372,7 @@
    "field": "possible_interest",
    "value": "Automation test facilities and demos for manufacturers",
    "status": "inferred",
-   "source_page_id": "6f04fd7ea68dc381",
+   "source_page_id": "3db64fac117b5264",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It runs a Customer Solution Center for testing processes.",
@@ -382,7 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961469Z",
+   "updated_at": "2026-11-14T01:50:16.534275Z",
    "needs_review": false
   },
   {
@@ -401,7 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.961473Z",
+   "updated_at": "2026-11-14T01:50:16.534282Z",
    "needs_review": false
   }
  ],

@@ -96,7 +96,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.409467Z",
+   "updated_at": "2026-11-14T01:50:16.496495Z",
    "needs_review": false
   },
   {
@@ -115,7 +115,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410021Z",
+   "updated_at": "2026-11-14T01:50:16.497153Z",
    "needs_review": false
   },
   {
@@ -134,7 +134,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410407Z",
+   "updated_at": "2026-11-14T01:50:16.497586Z",
    "needs_review": false
   },
   {
@@ -153,7 +153,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410877Z",
+   "updated_at": "2026-11-14T01:50:16.498120Z",
+   "needs_review": false
+  },
+  {
+   "id": "842fc376e44b4a5c",
+   "company_id": "alfa-laval",
+   "field": "technology",
+   "value": "Heat exchangers, centrifugal separators and decanter centrifuges",
+   "status": "fact",
+   "source_page_id": "8c41021687866b9d",
+   "quote": "Centrifugalseparatorer och dekantercentrifuger",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.498715Z",
+   "needs_review": false
+  },
+  {
+   "id": "a6d5eb6c58d1a86b",
+   "company_id": "alfa-laval",
+   "field": "market",
+   "value": "Marine industry, energy, food and water",
+   "status": "fact",
+   "source_page_id": "8c41021687866b9d",
+   "quote": "Marina lösningar för en avkarboniserad framtid",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.499313Z",
+   "needs_review": false
+  },
+  {
+   "id": "4bbc34326c3265a4",
+   "company_id": "alfa-laval",
+   "field": "project",
+   "value": "Acquiring NAVTOR AS for 700 MUSD (2026-11-06)",
+   "status": "fact",
+   "source_page_id": "8c41021687866b9d",
+   "quote": "Alfa Laval har i dag ingått ett bindande avtal om att förvärva NAVTOR AS för 700 MUSD",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.499916Z",
+   "needs_review": false
+  },
+  {
+   "id": "14dd7288755a2931",
+   "company_id": "alfa-laval",
+   "field": "offering",
+   "value": "Alfa Laval Nordic Academy training",
+   "status": "fact",
+   "source_page_id": "8c41021687866b9d",
+   "quote": "Utveckla dina kompetenser med Alfa Laval Nordic Academy",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.500526Z",
    "needs_review": false
   },
   {
@@ -172,26 +248,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410883Z",
-   "needs_review": false
-  },
-  {
-   "id": "929f1e02d32bc88e",
-   "company_id": "alfa-laval",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410886Z",
+   "updated_at": "2026-11-14T01:50:16.500534Z",
    "needs_review": false
   },
   {
@@ -210,26 +267,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410890Z",
-   "needs_review": false
-  },
-  {
-   "id": "c408bdfad1218b26",
-   "company_id": "alfa-laval",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410893Z",
+   "updated_at": "2026-11-14T01:50:16.500543Z",
    "needs_review": false
   },
   {
@@ -248,7 +286,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410896Z",
+   "updated_at": "2026-11-14T01:50:16.500546Z",
    "needs_review": false
   },
   {
@@ -267,26 +305,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410899Z",
-   "needs_review": false
-  },
-  {
-   "id": "d069ab942e3b0e1f",
-   "company_id": "alfa-laval",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410902Z",
+   "updated_at": "2026-11-14T01:50:16.500550Z",
    "needs_review": false
   },
   {
@@ -305,7 +324,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410905Z",
+   "updated_at": "2026-11-14T01:50:16.500553Z",
    "needs_review": false
   },
   {
@@ -324,7 +343,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410907Z",
+   "updated_at": "2026-11-14T01:50:16.500556Z",
    "needs_review": false
   },
   {
@@ -333,7 +352,7 @@
    "field": "possible_interest",
    "value": "Sustainable shipping and marine digitalisation",
    "status": "inferred",
-   "source_page_id": "9c110a9b6c0169e0",
+   "source_page_id": "8c41021687866b9d",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It is acquiring a marine software company.",
@@ -343,7 +362,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.410912Z",
+   "updated_at": "2026-11-14T01:50:16.500565Z",
    "needs_review": false
   }
  ],

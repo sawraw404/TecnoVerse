@@ -66,7 +66,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.974763Z",
+   "updated_at": "2026-11-14T01:50:16.552986Z",
    "needs_review": false
   },
   {
@@ -85,7 +85,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.975356Z",
+   "updated_at": "2026-11-14T01:50:16.553504Z",
    "needs_review": false
   },
   {
@@ -104,7 +104,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.975822Z",
+   "updated_at": "2026-11-14T01:50:16.553997Z",
    "needs_review": false
   },
   {
@@ -123,7 +123,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.975972Z",
+   "updated_at": "2026-11-14T01:50:16.554151Z",
+   "needs_review": false
+  },
+  {
+   "id": "68295755b7c0bbd2",
+   "company_id": "acoustic-agree",
+   "field": "application_area",
+   "value": "Turbine blades, railway manganese crossings, crankshafts, heat exchangers",
+   "status": "fact",
+   "source_page_id": "cb5304196a6d34cb",
+   "quote": "Application example : NAW-Inspection of Turbine blades",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.554632Z",
+   "needs_review": false
+  },
+  {
+   "id": "80cbb53bd8af6155",
+   "company_id": "acoustic-agree",
+   "field": "customer_group",
+   "value": "Nuclear, hydropower, petrochemical, process and metal industries",
+   "status": "fact",
+   "source_page_id": "1f9568df8b68b7d9",
+   "quote": "nuclear electric power industry, hydroelectric power, petrochemical industry, process industry",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.554784Z",
+   "needs_review": false
+  },
+  {
+   "id": "c202c948e8ac7648",
+   "company_id": "acoustic-agree",
+   "field": "offering",
+   "value": "On-site field inspection worldwide and lab inspection",
+   "status": "fact",
+   "source_page_id": "1f9568df8b68b7d9",
+   "quote": "We provide field inspection service on-site wherever needed, all around the world",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.554948Z",
    "needs_review": false
   },
   {
@@ -142,7 +199,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.976950Z",
+   "updated_at": "2026-11-14T01:50:16.556787Z",
    "needs_review": false
   },
   {
@@ -161,7 +218,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977265Z",
+   "updated_at": "2026-11-14T01:50:16.557450Z",
    "needs_review": false
   },
   {
@@ -180,7 +237,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977273Z",
+   "updated_at": "2026-11-14T01:50:16.557461Z",
    "needs_review": false
   },
   {
@@ -199,26 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977278Z",
-   "needs_review": false
-  },
-  {
-   "id": "c1cdb0456bc71bfd",
-   "company_id": "acoustic-agree",
-   "field": "application_area",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977281Z",
+   "updated_at": "2026-11-14T01:50:16.557466Z",
    "needs_review": false
   },
   {
@@ -237,26 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977285Z",
-   "needs_review": false
-  },
-  {
-   "id": "304670477314e8cf",
-   "company_id": "acoustic-agree",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977288Z",
+   "updated_at": "2026-11-14T01:50:16.557470Z",
    "needs_review": false
   },
   {
@@ -275,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977291Z",
+   "updated_at": "2026-11-14T01:50:16.557473Z",
    "needs_review": false
   },
   {
@@ -294,7 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977295Z",
+   "updated_at": "2026-11-14T01:50:16.557476Z",
    "needs_review": false
   },
   {
@@ -313,7 +332,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977298Z",
+   "updated_at": "2026-11-14T01:50:16.557480Z",
    "needs_review": false
   },
   {
@@ -332,7 +351,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977304Z",
+   "updated_at": "2026-11-14T01:50:16.557486Z",
    "needs_review": false
   },
   {
@@ -341,7 +360,7 @@
    "field": "possible_interest",
    "value": "R&D funding to develop NDT technology",
    "status": "inferred",
-   "source_page_id": "1f9568df8b68b7d9",
+   "source_page_id": "cb5304196a6d34cb",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It owns an invented inspection technology.",
@@ -351,7 +370,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.977308Z",
+   "updated_at": "2026-11-14T01:50:16.557491Z",
    "needs_review": false
   }
  ],

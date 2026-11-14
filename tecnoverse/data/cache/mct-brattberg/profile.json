@@ -76,7 +76,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.570093Z",
+   "updated_at": "2026-11-14T01:50:16.538028Z",
    "needs_review": false
   },
   {
@@ -95,7 +95,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.570643Z",
+   "updated_at": "2026-11-14T01:50:16.538523Z",
    "needs_review": false
   },
   {
@@ -114,7 +114,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.571380Z",
+   "updated_at": "2026-11-14T01:50:16.539330Z",
    "needs_review": false
   },
   {
@@ -133,7 +133,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572065Z",
+   "updated_at": "2026-11-14T01:50:16.540123Z",
+   "needs_review": false
+  },
+  {
+   "id": "d81e5c51108d6950",
+   "company_id": "mct-brattberg",
+   "field": "geography",
+   "value": "Origins in Lyckeåborg, southern Sweden (1759); 200+ offices worldwide",
+   "status": "fact",
+   "source_page_id": "029ec2d2c0e63059",
+   "quote": "MCT Brattberg is your global partner represented by more than 200 offices in the world",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.540475Z",
+   "needs_review": false
+  },
+  {
+   "id": "c5566210543bbf94",
+   "company_id": "mct-brattberg",
+   "field": "market",
+   "value": "Maritime and offshore, high-risk land industries, rolling stock, data centres",
+   "status": "fact",
+   "source_page_id": "cc448f991f23389d",
+   "quote": "Multi cable transits for Cabinets, Servers, Data Centers",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.541377Z",
+   "needs_review": false
+  },
+  {
+   "id": "8d329c6b8b5b8bfa",
+   "company_id": "mct-brattberg",
+   "field": "customer_group",
+   "value": "Navies, e.g. glands developed for the British Royal Navy",
+   "status": "fact",
+   "source_page_id": "cc448f991f23389d",
+   "quote": "Penetrations specifically developed for the British Royal Navy",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:50:16.542224Z",
    "needs_review": false
   },
   {
@@ -152,7 +209,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572347Z",
+   "updated_at": "2026-11-14T01:50:16.542879Z",
    "needs_review": false
   },
   {
@@ -171,7 +228,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572360Z",
+   "updated_at": "2026-11-14T01:50:16.542893Z",
    "needs_review": false
   },
   {
@@ -190,7 +247,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572366Z",
+   "updated_at": "2026-11-14T01:50:16.542900Z",
    "needs_review": false
   },
   {
@@ -209,7 +266,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572370Z",
+   "updated_at": "2026-11-14T01:50:16.542904Z",
    "needs_review": false
   },
   {
@@ -228,64 +285,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572374Z",
-   "needs_review": false
-  },
-  {
-   "id": "e1d8dff3a91386ae",
-   "company_id": "mct-brattberg",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572377Z",
-   "needs_review": false
-  },
-  {
-   "id": "cf33494362a4fa43",
-   "company_id": "mct-brattberg",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572380Z",
-   "needs_review": false
-  },
-  {
-   "id": "ed4201a083fb6327",
-   "company_id": "mct-brattberg",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572385Z",
+   "updated_at": "2026-11-14T01:50:16.542908Z",
    "needs_review": false
   },
   {
@@ -304,7 +304,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572388Z",
+   "updated_at": "2026-11-14T01:50:16.542911Z",
    "needs_review": false
   },
   {
@@ -323,7 +323,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572391Z",
+   "updated_at": "2026-11-14T01:50:16.542915Z",
    "needs_review": false
   },
   {
@@ -342,7 +342,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572394Z",
+   "updated_at": "2026-11-14T01:50:16.542918Z",
    "needs_review": false
   },
   {
@@ -361,7 +361,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:16.572403Z",
+   "updated_at": "2026-11-14T01:50:16.542926Z",
    "needs_review": false
   }
  ],
