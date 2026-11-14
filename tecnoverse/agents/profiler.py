@@ -179,13 +179,13 @@ def profile_company(company: Company) -> Profile:
         raise RuntimeError(f"No pages could be fetched for {company.website} and there is no cached copy.")
 
     blocks = "\n\n".join(f'<source_data url="{p.url}">\n{p.text[:PAGE_CHARS]}\n</source_data>' for p in pages)
-    facts = ask(FACTS_SYSTEM, f"Company: {company.name}\n\n{blocks}", _Facts).items
+    facts = ask(FACTS_SYSTEM, f"Company: {company.name}\n\n{blocks}", _Facts, agent="profiler").items
     verified = [i for i in build_items(company.id, facts, pages) if i.status == "fact"]
     interests = []
     if verified:
         numbered = "\n".join(f"{n}. [{i.field}] {i.value}" for n, i in enumerate(verified, 1))
         interests = ask(INTERESTS_SYSTEM, f"Company: {company.name}\n\n<source_data>\n{numbered}\n</source_data>",
-                        _Interests).items
+                        _Interests, agent="profiler").items
     return assemble(company, pages, simulated, facts, interests)
 
 

@@ -12,7 +12,7 @@ from pathlib import Path
 
 from pydantic import BaseModel, TypeAdapter
 
-from core.schemas import Company, ProfileItem, SourcePage
+from core.schemas import Company, Opportunity, ProfileItem, SourcePage
 
 DATA = Path(__file__).parent.parent / "data"
 CACHE = DATA / "cache"
@@ -27,6 +27,16 @@ class Profile(BaseModel):
 
 def load_companies() -> list[Company]:
     return [Company(**c) for c in json.loads((DATA / "companies.json").read_text(encoding="utf-8"))]
+
+
+def save_opportunities(opps: list[Opportunity]) -> None:
+    (DATA / "opportunities.json").write_text(
+        TypeAdapter(list[Opportunity]).dump_json(opps, indent=1).decode("utf-8"), encoding="utf-8")
+
+
+def load_opportunities() -> list[Opportunity]:
+    path = DATA / "opportunities.json"
+    return TypeAdapter(list[Opportunity]).validate_json(path.read_text(encoding="utf-8")) if path.exists() else []
 
 
 def save_profile(profile: Profile) -> None:
