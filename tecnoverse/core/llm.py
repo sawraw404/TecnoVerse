@@ -86,7 +86,7 @@ def ask(system: str, user: str, schema: type[T]) -> T:
                     print(f"[llm] {name} failed, trying next provider: {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
                     break
                 errors.append(f"{name} attempt {attempt}: invalid output ({e.error_count()} errors)")
-    raise LLMError("All LLM providers failed:\n" + "\n".join(errors))
+    raise LLMError("All LLM providers failed:\n" + ("\n".join(errors) or "none configured (no GEMINI_API_KEY, and TECNOVERSE_CLOUD_ONLY=1)"))
 
 
 if __name__ == "__main__":  # self-check: cd tecnoverse && python -m core.llm

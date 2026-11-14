@@ -6,7 +6,6 @@ the cached copy is used and the crawl is reported as simulated.
 import hashlib
 import re
 from datetime import datetime, timezone
-from pathlib import Path
 from urllib.parse import urldefrag, urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 
@@ -14,8 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from core.schemas import Company, SourcePage
-
-CACHE = Path(__file__).parent.parent / "data" / "cache"
+from core.store import CACHE
 MAX_PAGES = 8
 USER_AGENT = "TecnoVerseBot/0.1 (hackathon prototype)"
 # English and Swedish words that mark pages worth reading for a company profile.
@@ -82,7 +80,7 @@ def _robots(base_url: str) -> RobotFileParser | None:
         return None
 
 
-def _fetch(url: str, cache_dir: Path, robots: RobotFileParser | None) -> tuple[str | None, bool]:
+def _fetch(url: str, cache_dir, robots: RobotFileParser | None) -> tuple[str | None, bool]:
     """Returns (html, from_cache). Disallowed by robots.txt -> (None, False)."""
     if robots and not robots.can_fetch(USER_AGENT, url):
         return None, False

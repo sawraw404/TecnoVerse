@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 from core.crawl import crawl
 from core.llm import ask
 from core.schemas import Company, ProfileField, ProfileItem, SourcePage
-from core.store import Profile, save_profile
+from core.store import Profile, load_companies, load_pages, load_profile, save_pages, save_profile
 
 PAGE_CHARS = 5000  # per page sent to the LLM. ponytail: plain truncation; chunk pages if long sites lose facts.
 FACT_FIELDS = [f for f in get_args(ProfileField) if f != "possible_interest"]
@@ -152,8 +152,8 @@ def build_items(company_id: str, facts: list[_Fact], pages: list[SourcePage]) ->
 
 def assemble(company: Company, pages: list[SourcePage], simulated: bool, facts: list[_Fact],
              interests: list[_Interest], extracted_by: str | None = None) -> Profile:
-    """Verify facts against the pages, attach interests, save. Shared by the live Profiler and the importer."""
-    items = build_items(company.id, facts, pages)
+    """Verify facts, add the published contact route, attach interests, save. Shared by the live Profiler and the importer."""
+    items = build_items(company.id, facts + auto_contacts(pages), pages)
     verified = [i for i in items if i.status == "fact"]
     for it in interests:
         basis = verified[it.based_on - 1] if 1 <= it.based_on <= len(verified) else None
@@ -215,23 +215,6 @@ def auto_contacts(pages: list[SourcePage]) -> list[_Fact]:
     return out
 
 
-def fill_contacts() -> None:
-    """Add the published contact route to saved profiles that have no contact yet."""
-    import json
-    from pathlib import Path
-    from core.store import load_profile
-    for c in json.loads((Path(__file__).parent.parent / "data" / "companies.json").read_text(encoding="utf-8")):
-        prof = load_profile(c["id"])
-        if not prof or any(i.field == "contact" and i.status != "missing" for i in prof.items):
-            continue
-        new = [i for i in build_items(c["id"], auto_contacts(prof.pages), prof.pages)
-               if i.field == "contact" and i.status == "fact"]
-        if new:
-            prof.items = [i for i in prof.items if not (i.field == "contact" and i.status == "missing")] + new
-            save_profile(prof)
-        print(f"{c['id']}: {len(new)} contact items" if new else f"{c['id']}: no contact found on crawled pages")
-
-
 def import_extractions(path: str) -> None:
     """Build profiles from an extraction file written outside the app (see CLAUDE.md), against pages.json.
 
@@ -240,15 +223,13 @@ def import_extractions(path: str) -> None:
     """
     import json
     from pathlib import Path
-    from core.store import load_pages
-    companies = {c["id"]: Company(**c) for c in json.loads(
-        (Path(__file__).parent.parent / "data" / "companies.json").read_text(encoding="utf-8"))}
+    companies = {c.id: c for c in load_companies()}
     for cid, ex in json.loads(Path(path).read_text(encoding="utf-8")).items():
         pages = load_pages(cid)
-        if not pages:
-            print(f"{cid}: SKIPPED, no crawled pages")
+        if cid not in companies or not pages:
+            print(f"{cid}: SKIPPED, {'not in companies.json' if cid not in companies else 'no crawled pages'}")
             continue
-        facts = [_Fact(**f) for f in ex["facts"]] + auto_contacts(pages)
+        facts = [_Fact(**f) for f in ex["facts"]]
         p = assemble(companies[cid], pages, False, facts, [_Interest(**i) for i in ex.get("interests", [])],
                      extracted_by="Claude Code, offline batch on 2026-11-13 (Gemini free-tier quota was exhausted)")
         bad = [i.value for i in p.items if i.status == "inferred" and i.quote and not i.quote_verified]
@@ -256,6 +237,9 @@ def import_extractions(path: str) -> None:
 
 
 if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && python -m agents.profiler
+    import sys
+    import tempfile
+    from pathlib import Path
     now = datetime.now(timezone.utc)
     page = SourcePage(id="p1", company_id="acme", url="https://acme.se/about", retrieved_at=now, content_hash="h",
                       text="Acme AB utvecklar  sensorer för industriella pumpar. Vi finns i Karlskrona.")
@@ -283,21 +267,18 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
     assert [f.value for f in auto_contacts([long]) if f.value.startswith("Phone")] == ["Phone: +46 (0)454 30 50 00"]
     news = kpage.model_copy(update={"url": "https://acme.se/news/x", "text": "Press: Anna 070-123 45 67"})
     assert not any(f.value.startswith("Phone") for f in auto_contacts([page, news]))
+    import core.store as store  # the assemble check writes to a scratch folder, not the real cache
+    store.CACHE = Path(tempfile.mkdtemp())
+    prof = assemble(Company(id="acme", name="Acme", website="https://acme.se/"), [page, kpage], False, [], [])
+    assert {i.value for i in prof.items if i.field == "contact" and i.status == "fact"} == found
     print("ok")
 
     # Batch run: cd tecnoverse && TECNOVERSE_CLOUD_ONLY=1 python -m agents.profiler --all   (skips companies that already have a profile)
-    import sys
     if "--import" in sys.argv:  # python -m agents.profiler --import path/to/extractions.json
         import_extractions(sys.argv[sys.argv.index("--import") + 1])
-    if "--fill-contacts" in sys.argv:
-        fill_contacts()
     if "--crawl" in sys.argv:  # crawl only: save pages.json for every company that has no profile yet
-        import json
         from concurrent.futures import ThreadPoolExecutor
-        from pathlib import Path
-        from core.store import load_profile, save_pages
-        todo = [Company(**c) for c in json.loads((Path(__file__).parent.parent / "data" / "companies.json")
-                .read_text(encoding="utf-8")) if not load_profile(c["id"])]
+        todo = [c for c in load_companies() if not load_profile(c.id)]
 
         def one(c):
             try:
@@ -310,16 +291,14 @@ if __name__ == "__main__":  # self-check, no network or LLM: cd tecnoverse && py
         for line in ThreadPoolExecutor(6).map(one, todo):  # different hosts, so 6 at once is still polite
             print(line, flush=True)
     if "--all" in sys.argv:
-        import json, time
-        from pathlib import Path
-        from core.store import load_profile
-        companies = json.loads((Path(__file__).parent.parent / "data" / "companies.json").read_text(encoding="utf-8"))
+        import time
+        companies = load_companies()
         for n, c in enumerate(companies, 1):
-            if load_profile(c["id"]):
+            if load_profile(c.id):
                 continue
             try:
-                p = profile_company(Company(**c))
-                print(f"{n}/{len(companies)} {c['name']}: {sum(i.status == 'fact' for i in p.items)} facts", flush=True)
+                p = profile_company(c)
+                print(f"{n}/{len(companies)} {c.name}: {sum(i.status == 'fact' for i in p.items)} facts", flush=True)
             except Exception as e:  # one bad site must not stop the batch
-                print(f"{n}/{len(companies)} {c['name']}: FAILED {type(e).__name__}: {str(e)[:200]}", flush=True)
+                print(f"{n}/{len(companies)} {c.name}: FAILED {type(e).__name__}: {str(e)[:200]}", flush=True)
             time.sleep(4)  # stay under the Gemini free-tier requests-per-minute limit

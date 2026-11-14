@@ -7,13 +7,15 @@ URL, title, date and hash, and every quote used as evidence.
 Interim storage until the Firebase layer exists; afterwards it stays as the offline demo fallback.
 Keep these two function signatures when swapping the backend.
 """
+import json
 from pathlib import Path
 
 from pydantic import BaseModel, TypeAdapter
 
 from core.schemas import Company, ProfileItem, SourcePage
 
-CACHE = Path(__file__).parent.parent / "data" / "cache"
+DATA = Path(__file__).parent.parent / "data"
+CACHE = DATA / "cache"
 
 
 class Profile(BaseModel):
@@ -21,6 +23,10 @@ class Profile(BaseModel):
     pages: list[SourcePage]
     items: list[ProfileItem]
     extracted_by: str = "TecnoVerse Profiler (Gemini or Ollama)"  # who read the pages; shown on the Profile page
+
+
+def load_companies() -> list[Company]:
+    return [Company(**c) for c in json.loads((DATA / "companies.json").read_text(encoding="utf-8"))]
 
 
 def save_profile(profile: Profile) -> None:
