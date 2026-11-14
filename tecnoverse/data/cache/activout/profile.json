@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.481677Z",
+   "updated_at": "2026-11-14T01:49:38.356995Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482048Z",
+   "updated_at": "2026-11-14T01:49:38.357403Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482397Z",
+   "updated_at": "2026-11-14T01:49:38.357784Z",
+   "needs_review": false
+  },
+  {
+   "id": "662d9f8820118b56",
+   "company_id": "activout",
+   "field": "expertise",
+   "value": "Freelance software architect with 20+ years on business-critical systems",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "Frilansutvecklare och mjukvaruarkitekt med över 20 års erfarenhet av att bygga affärskritiska system",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.358156Z",
+   "needs_review": false
+  },
+  {
+   "id": "25cf2213861dcdd6",
+   "company_id": "activout",
+   "field": "technology",
+   "value": "AI coding agents (Claude Code, GitHub Copilot, OpenAI Codex, Kiro); .NET/C#",
+   "status": "fact",
+   "source_page_id": "6bebcf0279d1f52b",
+   "quote": "Erfarenhet av bland annat Claude Code, GitHub Copilot, OpenAI Codex och Kiro",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.358522Z",
    "needs_review": false
   },
   {
@@ -103,45 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482627Z",
-   "needs_review": false
-  },
-  {
-   "id": "395d85257a8ae52c",
-   "company_id": "activout",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482633Z",
-   "needs_review": false
-  },
-  {
-   "id": "c7a74b8d73492c90",
-   "company_id": "activout",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482637Z",
+   "updated_at": "2026-11-14T01:49:38.359018Z",
    "needs_review": false
   },
   {
@@ -160,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482640Z",
+   "updated_at": "2026-11-14T01:49:38.359026Z",
    "needs_review": false
   },
   {
@@ -179,7 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482643Z",
+   "updated_at": "2026-11-14T01:49:38.359030Z",
    "needs_review": false
   },
   {
@@ -198,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482646Z",
+   "updated_at": "2026-11-14T01:49:38.359033Z",
    "needs_review": false
   },
   {
@@ -217,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482649Z",
+   "updated_at": "2026-11-14T01:49:38.359036Z",
    "needs_review": false
   },
   {
@@ -236,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482651Z",
+   "updated_at": "2026-11-14T01:49:38.359040Z",
    "needs_review": false
   },
   {
@@ -255,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482654Z",
+   "updated_at": "2026-11-14T01:49:38.359043Z",
    "needs_review": false
   },
   {
@@ -274,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482657Z",
+   "updated_at": "2026-11-14T01:49:38.359046Z",
    "needs_review": false
   },
   {
@@ -293,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-14T01:42:05.482662Z",
+   "updated_at": "2026-11-14T01:49:38.359051Z",
    "needs_review": false
   }
  ],

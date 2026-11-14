@@ -56,7 +56,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.382640Z",
+   "updated_at": "2026-11-14T01:49:38.352687Z",
    "needs_review": false
   },
   {
@@ -75,7 +75,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383099Z",
+   "updated_at": "2026-11-14T01:49:38.353338Z",
+   "needs_review": false
+  },
+  {
+   "id": "c5f3639b846dd221",
+   "company_id": "cenceo",
+   "field": "geography",
+   "value": "Karlshamn",
+   "status": "fact",
+   "source_page_id": "4f5ba09e1ba3777c",
+   "quote": "Adress: Pirgatan 2 374 35 Karlshamn",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.353852Z",
+   "needs_review": false
+  },
+  {
+   "id": "a8fb3914392b2bbe",
+   "company_id": "cenceo",
+   "field": "priority",
+   "value": "Work with ambitions and performance instead of traditional appraisals",
+   "status": "fact",
+   "source_page_id": "4f5ba09e1ba3777c",
+   "quote": "CENCEO är en strukturerad metod som handlar om att arbeta med ambitioner och prestationer",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.354348Z",
    "needs_review": false
   },
   {
@@ -94,7 +132,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383441Z",
+   "updated_at": "2026-11-14T01:49:38.355009Z",
    "needs_review": false
   },
   {
@@ -113,7 +151,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383469Z",
+   "updated_at": "2026-11-14T01:49:38.355020Z",
    "needs_review": false
   },
   {
@@ -132,7 +170,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383478Z",
+   "updated_at": "2026-11-14T01:49:38.355027Z",
    "needs_review": false
   },
   {
@@ -151,7 +189,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383483Z",
+   "updated_at": "2026-11-14T01:49:38.355031Z",
    "needs_review": false
   },
   {
@@ -170,7 +208,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383487Z",
+   "updated_at": "2026-11-14T01:49:38.355034Z",
    "needs_review": false
   },
   {
@@ -189,7 +227,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383491Z",
+   "updated_at": "2026-11-14T01:49:38.355038Z",
    "needs_review": false
   },
   {
@@ -208,7 +246,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383495Z",
+   "updated_at": "2026-11-14T01:49:38.355041Z",
    "needs_review": false
   },
   {
@@ -227,26 +265,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383498Z",
-   "needs_review": false
-  },
-  {
-   "id": "89974a1a11375fa8",
-   "company_id": "cenceo",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383501Z",
+   "updated_at": "2026-11-14T01:49:38.355045Z",
    "needs_review": false
   },
   {
@@ -265,7 +284,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383505Z",
+   "updated_at": "2026-11-14T01:49:38.355048Z",
    "needs_review": false
   },
   {
@@ -284,26 +303,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383508Z",
-   "needs_review": false
-  },
-  {
-   "id": "dc83b578cf797650",
-   "company_id": "cenceo",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383512Z",
+   "updated_at": "2026-11-14T01:49:38.355051Z",
    "needs_review": false
   },
   {
@@ -322,7 +322,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.383517Z",
+   "updated_at": "2026-11-14T01:49:38.355059Z",
    "needs_review": false
   }
  ],

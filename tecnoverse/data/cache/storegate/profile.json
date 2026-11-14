@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.364076Z",
+   "updated_at": "2026-11-14T01:49:38.321677Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.365318Z",
+   "updated_at": "2026-11-14T01:49:38.322822Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.365954Z",
+   "updated_at": "2026-11-14T01:49:38.323381Z",
    "needs_review": false
   },
   {
@@ -173,7 +173,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367405Z",
+   "updated_at": "2026-11-14T01:49:38.324929Z",
+   "needs_review": false
+  },
+  {
+   "id": "d0d14bd13014de9c",
+   "company_id": "storegate",
+   "field": "technology",
+   "value": "Encryption with the customer's own key; storage in Sweden",
+   "status": "fact",
+   "source_page_id": "865f751ceeb76106",
+   "quote": "kan du kryptera dina data med din egen nyckel som ingen annan än du känner till",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.326109Z",
+   "needs_review": false
+  },
+  {
+   "id": "c80b0f7e21c2f2ba",
+   "company_id": "storegate",
+   "field": "geography",
+   "value": "Own operating environment in Sweden",
+   "status": "fact",
+   "source_page_id": "865f751ceeb76106",
+   "quote": "100% Egen driftmiljö i Sverige",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.327234Z",
+   "needs_review": false
+  },
+  {
+   "id": "940aead63643b89e",
+   "company_id": "storegate",
+   "field": "priority",
+   "value": "Let customers keep full control of their data",
+   "status": "fact",
+   "source_page_id": "865f751ceeb76106",
+   "quote": "att låta kunderna behålla full kontroll över sin data i framtidens moln",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.328347Z",
    "needs_review": false
   },
   {
@@ -192,26 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367423Z",
-   "needs_review": false
-  },
-  {
-   "id": "b3329303bd9ad651",
-   "company_id": "storegate",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367433Z",
+   "updated_at": "2026-11-14T01:49:38.328364Z",
    "needs_review": false
   },
   {
@@ -230,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367438Z",
+   "updated_at": "2026-11-14T01:49:38.328372Z",
    "needs_review": false
   },
   {
@@ -249,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367441Z",
+   "updated_at": "2026-11-14T01:49:38.328377Z",
    "needs_review": false
   },
   {
@@ -268,26 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367444Z",
-   "needs_review": false
-  },
-  {
-   "id": "ff38e32ab36811c2",
-   "company_id": "storegate",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367447Z",
+   "updated_at": "2026-11-14T01:49:38.328380Z",
    "needs_review": false
   },
   {
@@ -306,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367450Z",
+   "updated_at": "2026-11-14T01:49:38.328385Z",
    "needs_review": false
   },
   {
@@ -325,26 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367455Z",
-   "needs_review": false
-  },
-  {
-   "id": "c4e26d8b0798a0c2",
-   "company_id": "storegate",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367459Z",
+   "updated_at": "2026-11-14T01:49:38.328388Z",
    "needs_review": false
   },
   {
@@ -353,7 +353,7 @@
    "field": "possible_interest",
    "value": "Data sovereignty and secure cloud for public sector",
    "status": "inferred",
-   "source_page_id": "1d2519cb8e660bc6",
+   "source_page_id": "865f751ceeb76106",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It sells Swedish cloud storage to authorities.",
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.367470Z",
+   "updated_at": "2026-11-14T01:49:38.328396Z",
    "needs_review": false
   }
  ],

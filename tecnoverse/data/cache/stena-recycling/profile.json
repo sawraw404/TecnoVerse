@@ -12,7 +12,7 @@
     "retrieved": "2026-11-13"
    }
   ],
-  "last_crawled_at": "2026-11-13T13:37:42.492716Z",
+  "last_crawled_at": "2026-11-14T01:31:25.998152Z",
   "profile_version": 1,
   "priority_types": [],
   "simulated": false
@@ -97,6 +97,16 @@
    "retrieved_at": "2026-11-13T13:37:42.492716Z",
    "text": "",
    "content_hash": "3c36ee94da747096"
+  },
+  {
+   "id": "9be5f4da19ce5c75",
+   "company_id": "stena-recycling",
+   "url": "https://www.stenarecycling.com:443/nyheter/",
+   "source_type": "company_site",
+   "title": "Håll dig uppdaterad på det senaste | Stena Recycling SE",
+   "retrieved_at": "2026-11-14T01:31:25.998152Z",
+   "text": "",
+   "content_hash": "063770b66f66fb15"
   }
  ],
  "items": [
@@ -116,7 +126,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.833763Z",
+   "updated_at": "2026-11-14T01:49:38.310479Z",
    "needs_review": false
   },
   {
@@ -135,7 +145,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.834275Z",
+   "updated_at": "2026-11-14T01:49:38.310989Z",
    "needs_review": false
   },
   {
@@ -154,7 +164,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.834931Z",
+   "updated_at": "2026-11-14T01:49:38.311764Z",
    "needs_review": false
   },
   {
@@ -173,7 +183,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.835988Z",
+   "updated_at": "2026-11-14T01:49:38.312996Z",
    "needs_review": false
   },
   {
@@ -192,7 +202,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836408Z",
+   "updated_at": "2026-11-14T01:49:38.313498Z",
+   "needs_review": false
+  },
+  {
+   "id": "1994758b2c02ec93",
+   "company_id": "stena-recycling",
+   "field": "technology",
+   "value": "Industrial water treatment: physical-chemical, membrane, biological, evaporation",
+   "status": "fact",
+   "source_page_id": "5ab3909b8812ac32",
+   "quote": "exempelvis fysikaliska och kemiska processer, membranteknik, biologi samt indunstning",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.314736Z",
+   "needs_review": false
+  },
+  {
+   "id": "79728760ef942ccc",
+   "company_id": "stena-recycling",
+   "field": "market",
+   "value": "Retail, manufacturing, public sector, infrastructure, automotive, healthcare",
+   "status": "fact",
+   "source_page_id": "8c4efc41ac572404",
+   "quote": "detaljhandel, tillverkning, offentlig sektor, infrastruktur, bearbetning, end-of-life vehicles (ELV), bilindustri eller hälsovård",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.315225Z",
+   "needs_review": false
+  },
+  {
+   "id": "6519ae94e690b7f1",
+   "company_id": "stena-recycling",
+   "field": "collaboration",
+   "value": "New cooperation with Atea Logistics in Växjö (2026-11-03)",
+   "status": "fact",
+   "source_page_id": "8c4efc41ac572404",
+   "quote": "Stena Recycling ingår nytt samarbete med Atea Logistics i Växjö",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.315707Z",
+   "needs_review": false
+  },
+  {
+   "id": "4c96dd88bcc421ac",
+   "company_id": "stena-recycling",
+   "field": "expertise",
+   "value": "Contaminated water including PFAS",
+   "status": "fact",
+   "source_page_id": "5ab3909b8812ac32",
+   "quote": "Marknadsledande erfarenhet av förorenade vatten, inklusive PFAS",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.316946Z",
    "needs_review": false
   },
   {
@@ -211,7 +297,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836425Z",
+   "updated_at": "2026-11-14T01:49:38.316966Z",
    "needs_review": false
   },
   {
@@ -230,26 +316,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836431Z",
-   "needs_review": false
-  },
-  {
-   "id": "d66cc417917e4c82",
-   "company_id": "stena-recycling",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836436Z",
+   "updated_at": "2026-11-14T01:49:38.316974Z",
    "needs_review": false
   },
   {
@@ -268,26 +335,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836439Z",
-   "needs_review": false
-  },
-  {
-   "id": "09e34aed2160c6d0",
-   "company_id": "stena-recycling",
-   "field": "market",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836442Z",
+   "updated_at": "2026-11-14T01:49:38.316979Z",
    "needs_review": false
   },
   {
@@ -306,7 +354,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836445Z",
+   "updated_at": "2026-11-14T01:49:38.316983Z",
    "needs_review": false
   },
   {
@@ -325,7 +373,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836448Z",
+   "updated_at": "2026-11-14T01:49:38.316986Z",
    "needs_review": false
   },
   {
@@ -344,26 +392,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836451Z",
-   "needs_review": false
-  },
-  {
-   "id": "dababc6b0a7eb1aa",
-   "company_id": "stena-recycling",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836454Z",
+   "updated_at": "2026-11-14T01:49:38.316990Z",
    "needs_review": false
   },
   {
@@ -382,7 +411,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836457Z",
+   "updated_at": "2026-11-14T01:49:38.316993Z",
    "needs_review": false
   },
   {
@@ -401,7 +430,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836463Z",
+   "updated_at": "2026-11-14T01:49:38.317002Z",
    "needs_review": false
   },
   {
@@ -410,7 +439,7 @@
    "field": "possible_interest",
    "value": "Battery and electronics recycling collaborations",
    "status": "inferred",
-   "source_page_id": "810b943319764507",
+   "source_page_id": "8c4efc41ac572404",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It recycles batteries and electronics for the automotive industry.",
@@ -420,7 +449,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:14.836467Z",
+   "updated_at": "2026-11-14T01:49:38.317007Z",
    "needs_review": false
   }
  ],

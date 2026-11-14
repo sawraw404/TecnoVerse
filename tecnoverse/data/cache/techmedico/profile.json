@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.369505Z",
+   "updated_at": "2026-11-14T01:49:38.330467Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.370057Z",
+   "updated_at": "2026-11-14T01:49:38.331016Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,83 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.370624Z",
+   "updated_at": "2026-11-14T01:49:38.331669Z",
+   "needs_review": false
+  },
+  {
+   "id": "45fe9406f95dca09",
+   "company_id": "techmedico",
+   "field": "geography",
+   "value": "Karlshamn",
+   "status": "fact",
+   "source_page_id": "b489f5ba70289d03",
+   "quote": "Pirgatan 2 374 35 Karlshamn",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.332211Z",
+   "needs_review": false
+  },
+  {
+   "id": "e9384656bedba032",
+   "company_id": "techmedico",
+   "field": "expertise",
+   "value": "Ambulance care and emergency medicine experience",
+   "status": "fact",
+   "source_page_id": "b489f5ba70289d03",
+   "quote": "Techmedicos kunskap bottnar i samlad erfarenhet av ambulanssjukvård och akut omhändertagande",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.332729Z",
+   "needs_review": false
+  },
+  {
+   "id": "20f3b43a2aa13103",
+   "company_id": "techmedico",
+   "field": "priority",
+   "value": "Create heart-safe environments at work, leisure and home",
+   "status": "fact",
+   "source_page_id": "b489f5ba70289d03",
+   "quote": "Vårt mål är att skapa hjärtsäkra miljöer på alla de platser där vi dagligen vistas",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.333239Z",
+   "needs_review": false
+  },
+  {
+   "id": "184f13d1ee829c1f",
+   "company_id": "techmedico",
+   "field": "collaboration",
+   "value": "Sells Philips Heartstart defibrillators",
+   "status": "fact",
+   "source_page_id": "b489f5ba70289d03",
+   "quote": "Philips Heartstart är marknadsledande i Sverige",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.333744Z",
    "needs_review": false
   },
   {
@@ -173,7 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.370921Z",
+   "updated_at": "2026-11-14T01:49:38.334402Z",
    "needs_review": false
   },
   {
@@ -192,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371217Z",
+   "updated_at": "2026-11-14T01:49:38.335048Z",
    "needs_review": false
   },
   {
@@ -211,7 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371228Z",
+   "updated_at": "2026-11-14T01:49:38.335059Z",
    "needs_review": false
   },
   {
@@ -230,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371233Z",
+   "updated_at": "2026-11-14T01:49:38.335066Z",
    "needs_review": false
   },
   {
@@ -249,26 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371237Z",
-   "needs_review": false
-  },
-  {
-   "id": "991896b14f3153a1",
-   "company_id": "techmedico",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371241Z",
+   "updated_at": "2026-11-14T01:49:38.335070Z",
    "needs_review": false
   },
   {
@@ -287,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371244Z",
+   "updated_at": "2026-11-14T01:49:38.335073Z",
    "needs_review": false
   },
   {
@@ -306,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371246Z",
+   "updated_at": "2026-11-14T01:49:38.335076Z",
    "needs_review": false
   },
   {
@@ -325,26 +382,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371249Z",
-   "needs_review": false
-  },
-  {
-   "id": "8f165ba7c502fafd",
-   "company_id": "techmedico",
-   "field": "geography",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371252Z",
+   "updated_at": "2026-11-14T01:49:38.335079Z",
    "needs_review": false
   },
   {
@@ -363,45 +401,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371254Z",
-   "needs_review": false
-  },
-  {
-   "id": "90bbe7dd59c9c48d",
-   "company_id": "techmedico",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371257Z",
-   "needs_review": false
-  },
-  {
-   "id": "bee651b600655aac",
-   "company_id": "techmedico",
-   "field": "priority",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371260Z",
+   "updated_at": "2026-11-14T01:49:38.335083Z",
    "needs_review": false
   },
   {
@@ -420,7 +420,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.371267Z",
+   "updated_at": "2026-11-14T01:49:38.335090Z",
    "needs_review": false
   }
  ],

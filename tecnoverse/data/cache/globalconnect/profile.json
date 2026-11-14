@@ -106,7 +106,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.393927Z",
+   "updated_at": "2026-11-14T01:49:38.371352Z",
    "needs_review": false
   },
   {
@@ -125,7 +125,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394225Z",
+   "updated_at": "2026-11-14T01:49:38.371736Z",
    "needs_review": false
   },
   {
@@ -144,7 +144,64 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394520Z",
+   "updated_at": "2026-11-14T01:49:38.372078Z",
+   "needs_review": false
+  },
+  {
+   "id": "c1ca41fd3fad56fb",
+   "company_id": "globalconnect",
+   "field": "technology",
+   "value": "Open fibre network with 45+ competing service providers",
+   "status": "fact",
+   "source_page_id": "12d3303b24fad232",
+   "quote": "där du hittar fler än 45 leverantörer som alla konkurrerar på samma villkor",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.372586Z",
+   "needs_review": false
+  },
+  {
+   "id": "39e6f99d0d207b7c",
+   "company_id": "globalconnect",
+   "field": "project",
+   "value": "EU-funded rural broadband expansion projects",
+   "status": "fact",
+   "source_page_id": "ba04088234e18c44",
+   "quote": "Bredbandsstödet till vissa projekt finiansieras av Europeiska unionen – NextGenerationEU",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.378802Z",
+   "needs_review": false
+  },
+  {
+   "id": "89d550539429150e",
+   "company_id": "globalconnect",
+   "field": "collaboration",
+   "value": "Home technician service with TechBuddy",
+   "status": "fact",
+   "source_page_id": "12d3303b24fad232",
+   "quote": "Hemtekniker från GlobalConnect är ett samarbete med TechBuddy",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.379361Z",
    "needs_review": false
   },
   {
@@ -163,7 +220,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394533Z",
+   "updated_at": "2026-11-14T01:49:38.379380Z",
    "needs_review": false
   },
   {
@@ -182,26 +239,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394541Z",
-   "needs_review": false
-  },
-  {
-   "id": "75b24b936a3b8734",
-   "company_id": "globalconnect",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394545Z",
+   "updated_at": "2026-11-14T01:49:38.379388Z",
    "needs_review": false
   },
   {
@@ -220,7 +258,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394548Z",
+   "updated_at": "2026-11-14T01:49:38.379393Z",
    "needs_review": false
   },
   {
@@ -239,7 +277,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394551Z",
+   "updated_at": "2026-11-14T01:49:38.379396Z",
    "needs_review": false
   },
   {
@@ -258,7 +296,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394554Z",
+   "updated_at": "2026-11-14T01:49:38.379400Z",
    "needs_review": false
   },
   {
@@ -277,7 +315,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394556Z",
+   "updated_at": "2026-11-14T01:49:38.379403Z",
    "needs_review": false
   },
   {
@@ -296,45 +334,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394559Z",
-   "needs_review": false
-  },
-  {
-   "id": "d7e5a36b2ad4b0a3",
-   "company_id": "globalconnect",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394562Z",
-   "needs_review": false
-  },
-  {
-   "id": "aa56d2fadec87d7a",
-   "company_id": "globalconnect",
-   "field": "collaboration",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394564Z",
+   "updated_at": "2026-11-14T01:49:38.379406Z",
    "needs_review": false
   },
   {
@@ -353,7 +353,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394567Z",
+   "updated_at": "2026-11-14T01:49:38.379409Z",
    "needs_review": false
   },
   {
@@ -362,7 +362,7 @@
    "field": "possible_interest",
    "value": "Digital care and e-health pilots",
    "status": "inferred",
-   "source_page_id": "45b4cdb2c0abff1e",
+   "source_page_id": "1675a70f58abcd45",
    "quote": null,
    "quote_verified": false,
    "reasoning": "It offers care services over its fibre network.",
@@ -372,7 +372,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.394572Z",
+   "updated_at": "2026-11-14T01:49:38.379417Z",
    "needs_review": false
   }
  ],

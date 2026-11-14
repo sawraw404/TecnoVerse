@@ -116,7 +116,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380115Z",
+   "updated_at": "2026-11-14T01:49:38.348759Z",
    "needs_review": false
   },
   {
@@ -135,7 +135,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380551Z",
+   "updated_at": "2026-11-14T01:49:38.349237Z",
    "needs_review": false
   },
   {
@@ -154,7 +154,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380934Z",
+   "updated_at": "2026-11-14T01:49:38.349671Z",
+   "needs_review": false
+  },
+  {
+   "id": "54e266eb02a1c632",
+   "company_id": "wrycom",
+   "field": "expertise",
+   "value": "Platform, integration, architecture, cyber security, AI and project management",
+   "status": "fact",
+   "source_page_id": "a663d99bbf36fa89",
+   "quote": "04 Cyber & Plattformssäkerhet Säkerhetsexperter med teknisk djup",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.350116Z",
+   "needs_review": false
+  },
+  {
+   "id": "b822e5dc026d9520",
+   "company_id": "wrycom",
+   "field": "customer_group",
+   "value": "Swedish organisations needing senior consultants",
+   "status": "fact",
+   "source_page_id": "a663d99bbf36fa89",
+   "quote": "Vi hjälper svenska organisationer att stärka sina team med konsulter som är experter inom sina områden",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.350577Z",
    "needs_review": false
   },
   {
@@ -173,7 +211,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380947Z",
+   "updated_at": "2026-11-14T01:49:38.350592Z",
    "needs_review": false
   },
   {
@@ -192,7 +230,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380953Z",
+   "updated_at": "2026-11-14T01:49:38.350598Z",
    "needs_review": false
   },
   {
@@ -211,26 +249,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380957Z",
-   "needs_review": false
-  },
-  {
-   "id": "4d2f5ee66ee8b3d7",
-   "company_id": "wrycom",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380960Z",
+   "updated_at": "2026-11-14T01:49:38.350602Z",
    "needs_review": false
   },
   {
@@ -249,7 +268,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380963Z",
+   "updated_at": "2026-11-14T01:49:38.350605Z",
    "needs_review": false
   },
   {
@@ -268,26 +287,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380966Z",
-   "needs_review": false
-  },
-  {
-   "id": "ffce247331a63d89",
-   "company_id": "wrycom",
-   "field": "customer_group",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380969Z",
+   "updated_at": "2026-11-14T01:49:38.350608Z",
    "needs_review": false
   },
   {
@@ -306,7 +306,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380971Z",
+   "updated_at": "2026-11-14T01:49:38.350612Z",
    "needs_review": false
   },
   {
@@ -325,7 +325,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380974Z",
+   "updated_at": "2026-11-14T01:49:38.350615Z",
    "needs_review": false
   },
   {
@@ -344,7 +344,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380977Z",
+   "updated_at": "2026-11-14T01:49:38.350618Z",
    "needs_review": false
   },
   {
@@ -363,7 +363,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.380982Z",
+   "updated_at": "2026-11-14T01:49:38.350624Z",
    "needs_review": false
   }
  ],

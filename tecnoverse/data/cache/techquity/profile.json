@@ -66,7 +66,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.373084Z",
+   "updated_at": "2026-11-14T01:49:38.337812Z",
    "needs_review": false
   },
   {
@@ -85,7 +85,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.373684Z",
+   "updated_at": "2026-11-14T01:49:38.338368Z",
    "needs_review": false
   },
   {
@@ -104,7 +104,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374316Z",
+   "updated_at": "2026-11-14T01:49:38.338990Z",
    "needs_review": false
   },
   {
@@ -123,7 +123,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374458Z",
+   "updated_at": "2026-11-14T01:49:38.339147Z",
+   "needs_review": false
+  },
+  {
+   "id": "f3ea2224415adeda",
+   "company_id": "techquity",
+   "field": "technology",
+   "value": "AI-powered structured workflows; data export and APIs",
+   "status": "fact",
+   "source_page_id": "be2ac65663c1772b",
+   "quote": "Techquity replaces e-mail chains, spreadsheets and follow-ups with structured workflows powered by AI",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.339625Z",
+   "needs_review": false
+  },
+  {
+   "id": "7b59d7d0c786b56f",
+   "company_id": "techquity",
+   "field": "project",
+   "value": "Customer case: Impilo, Nordic healthcare investment company",
+   "status": "fact",
+   "source_page_id": "7e9ced289b1fdf87",
+   "quote": "Impilo is a Nordic investment company with a sole focus on investments in companies operating in the pharmaceutical, medtech",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.340227Z",
    "needs_review": false
   },
   {
@@ -142,26 +180,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374736Z",
-   "needs_review": false
-  },
-  {
-   "id": "136b63a1897686df",
-   "company_id": "techquity",
-   "field": "technology",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374741Z",
+   "updated_at": "2026-11-14T01:49:38.340887Z",
    "needs_review": false
   },
   {
@@ -180,7 +199,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374745Z",
+   "updated_at": "2026-11-14T01:49:38.340895Z",
    "needs_review": false
   },
   {
@@ -199,7 +218,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374749Z",
+   "updated_at": "2026-11-14T01:49:38.340899Z",
    "needs_review": false
   },
   {
@@ -218,7 +237,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374752Z",
+   "updated_at": "2026-11-14T01:49:38.340903Z",
    "needs_review": false
   },
   {
@@ -237,26 +256,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374755Z",
-   "needs_review": false
-  },
-  {
-   "id": "2c5c434397f023a8",
-   "company_id": "techquity",
-   "field": "project",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374758Z",
+   "updated_at": "2026-11-14T01:49:38.340906Z",
    "needs_review": false
   },
   {
@@ -275,7 +275,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374761Z",
+   "updated_at": "2026-11-14T01:49:38.340910Z",
    "needs_review": false
   },
   {
@@ -294,7 +294,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374763Z",
+   "updated_at": "2026-11-14T01:49:38.340913Z",
    "needs_review": false
   },
   {
@@ -313,7 +313,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.374768Z",
+   "updated_at": "2026-11-14T01:49:38.340920Z",
    "needs_review": false
   }
  ],

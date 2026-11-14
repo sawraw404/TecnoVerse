@@ -46,7 +46,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.399541Z",
+   "updated_at": "2026-11-14T01:49:38.386721Z",
    "needs_review": false
   },
   {
@@ -65,7 +65,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.399990Z",
+   "updated_at": "2026-11-14T01:49:38.387444Z",
    "needs_review": false
   },
   {
@@ -84,7 +84,45 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.400443Z",
+   "updated_at": "2026-11-14T01:49:38.387945Z",
+   "needs_review": false
+  },
+  {
+   "id": "9a524ada90eb83e3",
+   "company_id": "systematiq",
+   "field": "expertise",
+   "value": "Java, PHP, .NET and large custom databases",
+   "status": "fact",
+   "source_page_id": "ccb1b2c768b1ea73",
+   "quote": "Vår främsta expertis är JAVA, PHP samt .NET",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.388424Z",
+   "needs_review": false
+  },
+  {
+   "id": "9f1f8f5f1fd8c78e",
+   "company_id": "systematiq",
+   "field": "offering",
+   "value": "Application management from analysis to support",
+   "status": "fact",
+   "source_page_id": "ccb1b2c768b1ea73",
+   "quote": "Systematiq erbjuder ett helhetsåtagande avseende application management",
+   "quote_verified": true,
+   "reasoning": null,
+   "confidence": 0.9,
+   "uncertain": false,
+   "visibility": "public",
+   "created_by": "profiler",
+   "edited_by": null,
+   "replaces_item_id": null,
+   "updated_at": "2026-11-14T01:49:38.388904Z",
    "needs_review": false
   },
   {
@@ -103,7 +141,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.400776Z",
+   "updated_at": "2026-11-14T01:49:38.389520Z",
    "needs_review": false
   },
   {
@@ -122,7 +160,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401108Z",
+   "updated_at": "2026-11-14T01:49:38.390129Z",
    "needs_review": false
   },
   {
@@ -141,26 +179,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401116Z",
-   "needs_review": false
-  },
-  {
-   "id": "1ee8ead5dfd8361f",
-   "company_id": "systematiq",
-   "field": "expertise",
-   "value": "",
-   "status": "missing",
-   "source_page_id": null,
-   "quote": null,
-   "quote_verified": false,
-   "reasoning": null,
-   "confidence": 0.0,
-   "uncertain": false,
-   "visibility": "public",
-   "created_by": "profiler",
-   "edited_by": null,
-   "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401121Z",
+   "updated_at": "2026-11-14T01:49:38.390139Z",
    "needs_review": false
   },
   {
@@ -179,7 +198,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401125Z",
+   "updated_at": "2026-11-14T01:49:38.390144Z",
    "needs_review": false
   },
   {
@@ -198,7 +217,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401128Z",
+   "updated_at": "2026-11-14T01:49:38.390147Z",
    "needs_review": false
   },
   {
@@ -217,7 +236,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401132Z",
+   "updated_at": "2026-11-14T01:49:38.390151Z",
    "needs_review": false
   },
   {
@@ -236,7 +255,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401135Z",
+   "updated_at": "2026-11-14T01:49:38.390154Z",
    "needs_review": false
   },
   {
@@ -255,7 +274,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401139Z",
+   "updated_at": "2026-11-14T01:49:38.390157Z",
    "needs_review": false
   },
   {
@@ -274,7 +293,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401142Z",
+   "updated_at": "2026-11-14T01:49:38.390161Z",
    "needs_review": false
   },
   {
@@ -293,7 +312,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401146Z",
+   "updated_at": "2026-11-14T01:49:38.390164Z",
    "needs_review": false
   },
   {
@@ -312,7 +331,7 @@
    "created_by": "profiler",
    "edited_by": null,
    "replaces_item_id": null,
-   "updated_at": "2026-11-13T17:26:15.401151Z",
+   "updated_at": "2026-11-14T01:49:38.390172Z",
    "needs_review": false
   }
  ],
