@@ -19,7 +19,8 @@ A prototype for the Blue Science Park *Virtual Science Park* challenge (BUILD Ha
 - **inferred**: the system's guess. Not a confirmed company priority.
 - **missing**: nothing found.
 - **confirmed**: set or corrected by the company.
-- **SIMULATED**: cached, curated or placeholder data, not a live result.
+- **Claude Code**: extracted or written offline by Claude Code during development, with the same quote check.
+- **SIMULATED**: cached, curated or placeholder data, and the simulated login. Not a live result.
 
 Funding is always a *possible match*, never confirmed eligibility. Decisions and commitments are made by
 Blue Science Park staff, not by this service.

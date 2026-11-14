@@ -94,8 +94,8 @@ st.caption(
     "Facts are backed by a quote found on the page. Inferred items are the system's guesses."
 )
 if "Claude Code" in profile.extracted_by:
-    st.warning(f"SIMULATED extraction: read by {profile.extracted_by}, not by the app's own Profiler. "
-               "Quotes were still checked against the stored page text.")
+    st.info(f"Extracted by Claude Code: read by {profile.extracted_by}, not by the app's own Profiler. "
+            "Every quote was checked against the stored page text.")
 else:
     st.caption(f"Extracted by: {profile.extracted_by}")
 

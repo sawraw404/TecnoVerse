@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Building2, FlaskConical, Handshake, MessagesSquare, Radar, Scale } from "lucide-react";
-import { Badge, Card, PageHeader, Simulated, StatusBadge } from "@/components/ui";
+import { Badge, Card, ClaudeCode, PageHeader, Simulated, StatusBadge } from "@/components/ui";
 
 export const metadata: Metadata = { title: "About" };
 
@@ -18,7 +18,8 @@ const LABELS: [React.ReactNode, string][] = [
   [<StatusBadge key="m" status="missing" />, "Nothing found. Shown as missing, never filled in with a guess."],
   [<StatusBadge key="c" status="user_confirmed" />, "Set or corrected by the company."],
   [<Badge key="u" tone="red">uncertain</Badge>, "Low confidence or contradicting sources."],
-  [<Simulated key="s" />, "Cached, curated, placeholder or offline-written data, not a live result."],
+  [<ClaudeCode key="c" />, "Extracted or written offline by Claude Code during development, with the same quote check. Not the app's own live agents."],
+  [<Simulated key="s" />, "Cached, curated or placeholder data, and the simulated login. Not a live result."],
 ];
 
 export default function AboutPage() {

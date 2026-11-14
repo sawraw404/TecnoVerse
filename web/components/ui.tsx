@@ -1,5 +1,5 @@
 // Design-system primitives. Server-safe: no hooks, no browser APIs.
-import { ArrowUpRight, FlaskConical } from "lucide-react";
+import { ArrowUpRight, Bot, FlaskConical } from "lucide-react";
 import type { ComponentProps, ReactNode } from "react";
 import { cx } from "@/lib/format";
 
@@ -95,6 +95,19 @@ export function Simulated({ children = "SIMULATED", title }: { children?: ReactN
     <span title={title}>
       <Badge tone="violet">
         <FlaskConical className="size-3" aria-hidden />
+        {children}
+      </Badge>
+    </span>
+  );
+}
+
+/** Provenance: extracted or written offline by Claude Code during development (user decision, 14 Nov:
+ *  not SIMULATED, but always shown, so nobody mistakes it for the app's own live agents). */
+export function ClaudeCode({ children = "Claude Code", title = "Extracted or written offline by Claude Code" }: { children?: ReactNode; title?: string }) {
+  return (
+    <span title={title}>
+      <Badge tone="slate">
+        <Bot className="size-3" aria-hidden />
         {children}
       </Badge>
     </span>

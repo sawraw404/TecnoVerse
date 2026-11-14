@@ -4,7 +4,7 @@ Two steps, like the matcher:
   1. agents/scoring.py `rank_connections` finds every pair with keyword overlap in public items.
   2. Judged connections in data/connections.json: pairs where the public items show a real shared theme
      or a complementary fit, with the two items that are the basis. Until a live LLM writes them they
-     were written offline in a Claude Code session and are labelled SIMULATED. Pairs whose public items
+     were written offline in a Claude Code session; the UI says so with a "Claude Code" label. Pairs whose public items
      already show they work together are left out.
 
 `live()` re-checks every judged pair against the current profiles: if a basis item was removed or made
@@ -25,7 +25,7 @@ class Judged(BaseModel):
     theme: str               # short shared theme, groups connections on the staff page
     why: str
     uncertain: str
-    written_by: str = "Claude Code, offline (SIMULATED)"
+    written_by: str = "Claude Code, offline"
 
 
 def load_connections() -> list[Judged]:

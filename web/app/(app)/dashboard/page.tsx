@@ -80,7 +80,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
 
       <Notice tone="info" icon={<Info />} className="mb-6">
         Funding is always a <strong className="font-medium text-text">possible match</strong>: eligibility is never assessed here and
-        is decided by the funder. Explanations marked SIMULATED were written offline, not by a live model.
+        is decided by the funder. The &ldquo;why it fits&rdquo; explanations were written offline by Claude Code.
       </Notice>
 
       <nav aria-label="Opportunity types" className="mb-5 flex gap-1 overflow-x-auto rounded-lg border border-border bg-surface p-1 shadow-sm">

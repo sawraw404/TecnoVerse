@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeftRight, ChevronRight, CircleHelp, Layers, Network, Users } from "lucide-react";
-import { Badge, Card, EmptyState, Notice, PageHeader, SectionTitle, Simulated, SourceLink } from "@/components/ui";
+import { Badge, Card, ClaudeCode, EmptyState, Notice, PageHeader, SectionTitle, SourceLink } from "@/components/ui";
 import { api } from "@/lib/api";
 import { cx, day } from "@/lib/format";
 import type { ConnectionView, Me, StaffView } from "@/lib/types";
@@ -25,7 +25,7 @@ function ConnectionCard({ c }: { c: ConnectionView }) {
         <div className="mb-2 flex flex-wrap items-center gap-1.5">
           <Badge tone="slate">{c.theme}</Badge>
           <Badge tone="slate">{c.type}</Badge>
-          <Simulated title="Judged offline by Claude Code, not by a live model" />
+          <ClaudeCode title="Judged offline by Claude Code, not by a live model" />
         </div>
         <h3 className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[15.5px] leading-7">
           <Company name={c.name_a} member={c.member_a} />
@@ -58,7 +58,7 @@ function ConnectionCard({ c }: { c: ConnectionView }) {
               <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-text-3">
                 {e.url ? <SourceLink href={e.url} /> : <span>no source page</span>}
                 {e.retrieved_at && <span>retrieved {day(e.retrieved_at)}</span>}
-                {e.simulated_extraction && <Simulated>SIMULATED extraction</Simulated>}
+                {e.offline_extraction && <ClaudeCode title="Profile extracted offline by Claude Code" />}
               </p>
             </li>
           ))}
@@ -84,7 +84,7 @@ export default async function StaffPage({ searchParams }: PageProps<"/staff">) {
       />
       <Notice tone="info" icon={<Users />} className="mb-6">
         Connections are <strong className="font-medium text-text">suggestions</strong>: no company has expressed interest. Introductions
-        are decided by park staff. Judgements marked SIMULATED were written offline, not by a live model.
+        are decided by park staff. The judgements were written offline by Claude Code.
       </Notice>
 
       <section className="mb-8">

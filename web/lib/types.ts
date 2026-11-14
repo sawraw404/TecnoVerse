@@ -65,7 +65,7 @@ export interface PageRef {
 export interface ProfileView {
   company: Company;
   extracted_by: string;
-  simulated_extraction: boolean;
+  offline_extraction: boolean;
   field_labels: Record<string, string>;
   items: ProfileItem[];
   removed: ProfileItem[];
@@ -146,7 +146,7 @@ export interface Evidence {
   value: string;
   url: string | null;
   retrieved_at: string | null;
-  simulated_extraction: boolean;
+  offline_extraction: boolean;
 }
 
 export interface ConnectionView {

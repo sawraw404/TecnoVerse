@@ -5,8 +5,8 @@ Two steps, as in the plan (retrieve, then re-rank):
      region, evidence, feedback). Re-ranking after an edit or a thumbs up/down is instant.
   2. A relevance judgement re-ranks: final = (1 - RERANK_WEIGHT) * score + RERANK_WEIGHT * judgement.
      Judgements and the written "why it fits / what is uncertain" live in data/explanations.json.
-     Until a live LLM writes them they were written offline in a Claude Code session and are
-     labelled SIMULATED. Pairs without a judgement get 0: judged not relevant.
+     Until a live LLM writes them they were written offline in a Claude Code session; the UI says so
+     with a "Claude Code" label. Pairs without a judgement get 0: judged not relevant.
 
 Run: cd tecnoverse && python -m agents.matcher --all
 """
@@ -27,7 +27,7 @@ class Explanation(BaseModel):
     why: str                 # why it fits this company, citing the profile
     uncertain: str           # what is uncertain or must be checked
     score: float = 0.0       # relevance judgement 0..1, used for re-ranking
-    written_by: str = "Claude Code, offline (SIMULATED)"
+    written_by: str = "Claude Code, offline"
 
 
 def load_explanations() -> dict[tuple[str, str], Explanation]:

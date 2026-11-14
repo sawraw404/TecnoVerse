@@ -75,10 +75,10 @@ Company URL → baseline profile (with sources) → company reviews & edits
 |---|---|---|---|
 | **Profiler** | `agents/profiler.py` | Crawls the homepage plus up to 7 keyword-ranked pages and the newest news posts, then fills a fixed profile (industry, offering, technology, markets, geography, contact, innovation, ...). Every item has a source link, a date and a status of fact, inferred or missing. A fact needs a quote found again in the page text. Contacts come from the company's own site only. | Gemini first |
 | **Monitors** | `agents/monitors.py` | Funding: open Vinnova calls from the open data API. Events: Blue Science Park and NetPort event pages and Ericsson's events page; only events whose date including the year is on the page are kept. Testbeds: Blue Science Park and NetPort test environment pages. | Groq first |
-| **Matcher** | `agents/matcher.py`, `agents/scoring.py` | Scores every opportunity per company (topic fit, priorities, region, evidence, feedback), then re-ranks with a relevance judgement and shows why it fits and what is uncertain. | judgements offline (SIMULATED) |
+| **Matcher** | `agents/matcher.py`, `agents/scoring.py` | Scores every opportunity per company (topic fit, priorities, region, evidence, feedback), then re-ranks with a relevance judgement and shows why it fits and what is uncertain. | judgements offline by Claude Code |
 | **Editor** | `agents/editor.py` | Confirm, correct (keeps history), remove and add profile items; set priorities. Saving re-ranks and the Profile page shows rank changes. | none |
 | **Assistant + guardrail** | `agents/assistant.py` | Labels every message in scope, unclear, out of scope, injection or needs staff, then answers from the company's own data, asks a clarifying question, explains its remit, or refers to park staff. | Groq first |
-| **Staff mapper** | `agents/mapper.py` | Suggested connections between companies from public items only, re-ranked by judgements, with shared themes. Always labelled as suggestions. | judgements offline (SIMULATED) |
+| **Staff mapper** | `agents/mapper.py` | Suggested connections between companies from public items only, re-ranked by judgements, with shared themes. Always labelled as suggestions. | judgements offline by Claude Code |
 
 ## Tech stack
 
@@ -123,8 +123,8 @@ tecnoverse/
     companies.json       # 38 companies (Company), companies_summary.csv one row each
     members.json         # Blue Science Park member directory
     opportunities.json   # collected by the monitors
-    explanations.json    # match judgements ("why it fits", SIMULATED)
-    connections.json     # staff view judgements (SIMULATED)
+    explanations.json    # match judgements ("why it fits", written by Claude Code)
+    connections.json     # staff view judgements (written by Claude Code)
     support_contacts.json# Blue Science Park contact routes
     cache/<company>/     # profile.json (committed); pages.json, HTML, matches, feedback (gitignored)
   eval/
@@ -358,7 +358,7 @@ Used when the guardrail labels a message `needs_staff`, and when a user asks who
 As built (`agents/scoring.py` + `agents/matcher.py`):
 
 1. **Score** every opportunity for the company: topic fit from keyword overlap with profile items (weight 0.5; `user_confirmed` counts more than `fact`, which counts more than `inferred`), priority boost when the opportunity type is in `Company.priority_types` (0.2), region (0.2) and evidence (0.1).
-2. **Re-rank:** a relevance judgement per company and opportunity, with "why it fits" and "uncertain", stored in `data/explanations.json`. Final score = 0.5 × score + 0.5 × judgement, plus feedback (👍 +0.1, 👎 −0.2). Opportunities without a judgement get 0 and are listed under "keyword overlap only" rather than as cards. The judgements were written offline in a Claude Code session and are labelled SIMULATED until a live LLM writes them.
+2. **Re-rank:** a relevance judgement per company and opportunity, with "why it fits" and "uncertain", stored in `data/explanations.json`. Final score = 0.5 × score + 0.5 × judgement, plus feedback (👍 +0.1, 👎 −0.2). Opportunities without a judgement get 0 and are listed under "keyword overlap only" rather than as cards. The judgements were written offline in a Claude Code session and carry a "Claude Code" label until a live LLM writes them.
 3. **Funding** is always presented as "possible match"; requirements are quoted from the source, never assessed.
 4. Saving a profile edit or a priority re-runs matching, and the Profile and Dashboard pages show how ranks moved.
 
@@ -380,7 +380,7 @@ The planned retrieve-by-embedding step (top 20 by cosine similarity) is not buil
 | No eligibility decisions or professional advice | Funding is always a "possible match", and the source's `requirements` are quoted rather than assessed. |
 | Human decisions go to staff | `needs_staff` messages get a referral to the matching contact in `data/support_contacts.json` (by `area`). |
 | Flag missing or uncertain information | `missing` status and the `uncertain` flag on ProfileItem, both shown as badges. |
-| Simulated data is labelled | SIMULATED badges on the login selector, offline-extracted profiles, offline judgements and any opportunity with `simulated = true`. |
+| Simulated data is labelled | SIMULATED badges on the login selector, cached pages and any opportunity with `simulated = true`. Profiles and judgements made offline by Claude Code carry a "Claude Code" provenance label instead (user decision, 14 Nov). |
 
 ## Quality and boundary check
 
@@ -388,7 +388,7 @@ Results are in [`tecnoverse/eval/quality_report.md`](tecnoverse/eval/quality_rep
 
 | Check | Method | Result (14 Nov) |
 |---|---|---|
-| Profile accuracy | Hand spot-check of 25 random facts against quote and page (by Claude Code: SIMULATED review) | 24/25; the error (park mailbox stored as a contact) is fixed in the Profiler |
+| Profile accuracy | Hand spot-check of 25 random facts against quote and page (reviewed by Claude Code, not by a person) | 24/25; the error (park mailbox stored as a contact) is fixed in the Profiler |
 | Evidence | `fact` items whose quote is found again in the page text | 403/403 |
 | Recommendation relevance | Demo edit "testing is a priority" moves testbeds up for the sensor company | average testbed rank 12.6 → 8.4 |
 | Personalisation | Overlap of the top 5 between companies | 9% |
@@ -417,7 +417,7 @@ Relevance is checked against offline judgements, so it shows the system behaves 
 | Part | State |
 |---|---|
 | Companies | 38 in Blekinge county in the park's focus areas: 20 park members, 18 found via Blekinge Business Incubator, NetPort, Soft Center and Techtank. Each has industry, services, contact and a recent innovation (from Nov 2024, or undated on a current product page). |
-| Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` says which, and the Profile page shows SIMULATED for them. The app Profiler works live ("Re-crawl and rebuild profile"). |
+| Profiles | 34 extracted by Claude Code in a dev session after the Gemini free quota ran out, with the same quote check; 4 mixed (app Profiler on Gemini, fields added by Claude Code). `Profile.extracted_by` says which, and the Profile page shows a "Claude Code" label for them. The app Profiler works live ("Re-crawl and rebuild profile"). |
 | Opportunities | 16 Vinnova funding calls, 2 events, 5 testbeds |
 | Profile page | Badges, source link and date per item, edit (confirm, correct, remove, add), priorities, correction history, rank changes |
 | Dashboard | Top matches, Funding, Events and Testbeds tabs; why it fits, uncertain, requirements, contact, draft intro email, 👍/👎 |
@@ -460,7 +460,7 @@ For local development, use [Application Default Credentials](https://cloud.googl
 | Messy LLM output | JSON schema output with Pydantic validation and one retry, then a visible failure |
 
 ## Known limitations
-- All 38 stored profiles (wholly or partly) and all relevance judgements were made offline by Claude Code, not by the app's own agents. They are labelled SIMULATED.
+- All 38 stored profiles (wholly or partly) and all relevance judgements were made offline by Claude Code, not by the app's own agents. They carry a "Claude Code" label; quotes were checked the same way.
 - Only 2 events: most park event pages state no year, and BTH's events page needs JavaScript.
 - Three opportunity monitors (funding, events, testbeds). Research and news monitoring are not covered.
 - Authentication is simulated with a "log in as" selector. There are no real accounts or passwords.
@@ -485,7 +485,7 @@ For local development, use [Application Default Credentials](https://cloud.googl
 - [x] rankings differ by company
 - [x] links and dates on every result
 - [x] relevant, unrelated and override chats handled
-- [x] SIMULATED labels
+- [x] SIMULATED labels (and "Claude Code" provenance labels for offline work)
 - [x] agent roles explained
 - [x] quality and boundary report
 - [x] handover README

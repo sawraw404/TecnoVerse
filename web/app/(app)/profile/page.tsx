@@ -141,17 +141,17 @@ export default async function ProfilePage() {
       />
 
       <div className="space-y-6">
-        {(profile.simulated_extraction || profile.company.simulated) && (
+        {(profile.offline_extraction || profile.company.simulated) && (
           <div className="space-y-2">
             {profile.company.simulated && (
               <Notice tone="warning" icon={<ShieldAlert />} title="The live website could not be reached">
                 SIMULATED: this profile was built from cached pages.
               </Notice>
             )}
-            {profile.simulated_extraction && (
-              <Notice tone="simulated" icon={<Sparkles />} title="SIMULATED extraction">
-                Read by {profile.extracted_by}, not by the app&apos;s own Profiler. Quotes were still checked against the stored
-                page text.
+            {profile.offline_extraction && (
+              <Notice tone="info" icon={<Sparkles />} title="Extracted by Claude Code">
+                Read by {profile.extracted_by}, not by the app&apos;s own Profiler. Every quote was checked against the stored page
+                text, the same as a live extraction.
               </Notice>
             )}
           </div>
@@ -167,7 +167,7 @@ export default async function ProfilePage() {
           Built from {profile.pages.length} public pages
           {profile.company.last_crawled_at && `, retrieved ${day(profile.company.last_crawled_at)}`}. Facts are backed by a quote
           found on the page. Inferred items are the system&apos;s guesses.
-          {!profile.simulated_extraction && ` Extracted by: ${profile.extracted_by}.`}
+          {!profile.offline_extraction && ` Extracted by: ${profile.extracted_by}.`}
         </p>
 
         <Card className="p-4 sm:p-5">
